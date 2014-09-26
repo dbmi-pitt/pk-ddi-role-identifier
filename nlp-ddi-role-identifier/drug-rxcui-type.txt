@@ -1,0 +1,238 @@
+4-hydroxyatomoxetine,0,Metabolite
+7-hydroxymethotrexate,0,Metabolite
+9-hydroxyrisperidone,679314,Active Ingredient
+a 10,0,NAN
+a 300,0,NAN
+a 7,0,NAN
+acarbose,16681,Active Ingredient
+acyclovir,281,Active Ingredient
+adriamycin,42512,Drug Product
+aliskiren,325646,Active Ingredient
+alosetron,85248,Active Ingredient
+alprazolam,596,Active Ingredient
+aminophylline,689,Active Ingredient
+amiodarone,703,Active Ingredient
+amitriptyline,704,Active Ingredient
+amlodipine,17767,Active Ingredient
+amoxicillin,723,Active Ingredient
+ampicillin,733,Active Ingredient
+angiotensinogen,0,NAN
+antineoplastic agents,0,NAN
+aspirin,1191,Active Ingredient
+atazanavir,343047,Active Ingredient
+atazanavir sulfate,358299,Active Ingredient
+atenolol 100 mg,315436,Active Ingredient
+atenolol,1202,Active Ingredient
+atomoxetine,38400,Active Ingredient
+atomoxetine hydrochloride,353103,Active Ingredient
+atorvastatin,83367,Active Ingredient
+avandia,261455,Drug Product
+azathioprine,1256,Active Ingredient
+azithromycin,18631,Active Ingredient
+basis,1046801,Drug Product
+benzodiazepines,0,NAN
+bisoprolol fumarate,142146,Active Ingredient
+bosentan,75207,Active Ingredient
+caffeine,1886,Active Ingredient
+carbamazepine,2002,Active Ingredient
+carbamazepine 400 mg,315567,Active Ingredient
+carbamazepine epoxide,2002,Active Ingredient
+celecoxib,140587,Active Ingredient
+chlorpromazine,2403,Active Ingredient
+cholestyramine,2447,Active Ingredient
+cimetidine,2541,Active Ingredient
+cimetidine 400 mg,315680,Active Ingredient
+cimetidine 600 mg,332843,Active Ingredient
+cisapride,35255,Active Ingredient
+cisplatin,2555,Active Ingredient
+citalopram,2556,Active Ingredient
+citalopram 40 mg,329445,Active Ingredient
+clarithromycin,21212,Active Ingredient
+clomipramine,2597,Active Ingredient
+clonazepam,2598,Active Ingredient
+clopidogrel,32968,Active Ingredient
+clozapine,2626,Active Ingredient
+colestipol,2685,Active Ingredient
+conivaptan,302285,Active Ingredient
+conivaptan hydrochloride,1294548,Active Ingredient
+cortisol,5492,Active Ingredient
+coumarin,2898,Active Ingredient
+cyclophosphamide,3002,Active Ingredient
+cyclosporine,3008,Active Ingredient
+dalfopristin,229369,Active Ingredient
+dapsone,3108,Active Ingredient
+desipramine,3247,Active Ingredient
+desmethyldiazepam,3155,Active Ingredient
+diazepam,3322,Active Ingredient
+didanosine,3364,Active Ingredient
+digitalis,91235,Active Ingredient
+digitoxin,3403,Active Ingredient
+digoxin,3407,Active Ingredient
+diltiazem,3443,Active Ingredient
+disulfiram,3554,Active Ingredient
+doxazosin,49276,Active Ingredient
+doxorubicin,3639,Active Ingredient
+efavirenz,195085,Active Ingredient
+epoprostenol,8814,Active Ingredient
+erythromycin,4053,Active Ingredient
+esters,0,NAN
+ethanol,448,Active Ingredient
+ethinyl estradiol,4124,Active Ingredient
+felbamate,24812,Active Ingredient
+felbatol,224900,Drug Product
+fexofenadine,87636,Active Ingredient
+fexofenadine hydrochloride 120 mg,997549,Active Ingredient
+fexofenadine hydrochloride,236474,Active Ingredient
+flecainide,4441,Active Ingredient
+fluconazole 100 mg,315935,Active Ingredient
+fluconazole 200 mg,315938,Active Ingredient
+fluconazole,4450,Active Ingredient
+fluconazole 50 mg,315939,Active Ingredient
+fluoxetine,4493,Active Ingredient
+fluvastatin,41127,Active Ingredient
+fluvoxamine,42355,Active Ingredient
+fluvoxamine maleate 100 mg,903872,Active Ingredient
+fluvoxamine maleate,203143,Active Ingredient
+fosamprenavir,358262,Active Ingredient
+furosemide,4603,Active Ingredient
+ganciclovir,4678,Active Ingredient
+gemfibrozil,4719,Active Ingredient
+glimepiride,25789,Active Ingredient
+glipizide,4821,Active Ingredient
+glyburide,4815,Active Ingredient
+glycoprotein,0,NAN
+hmg-coa,0,NAN
+hydrochlorothiazide,5487,Active Ingredient
+hypromellose,27334,Active Ingredient
+imipramine,5691,Active Ingredient
+indinavir,114289,Active Ingredient
+insulin,5856,Active Ingredient
+isoproterenol,6054,Active Ingredient
+itraconazole 200 mg,992412,Active Ingredient
+itraconazole,28031,Active Ingredient
+ketoconazole,6135,Active Ingredient
+lamivudine,68244,Active Ingredient
+levodopa,6375,Active Ingredient
+levonorgestrel,6373,Active Ingredient
+lipitor,153165,Drug Product
+lithium carbonate,42351,Active Ingredient
+lopinavir,195088,Active Ingredient
+lorazepam,6470,Active Ingredient
+lotronex,261563,Drug Product
+lovastatin,6472,Active Ingredient
+luteinizing hormone,6383,Active Ingredient
+maalox,29115,Drug Product
+magnesium stearate,1310567,Active Ingredient
+magnesium trisilicate,29170,Active Ingredient
+meperidine,6754,Active Ingredient
+mercaptopurine,103,Active Ingredient
+mesoridazine,6779,Active Ingredient
+metformin,6809,Active Ingredient
+methadone,6813,Active Ingredient
+methotrexate,6851,Active Ingredient
+metoclopramide,6915,Active Ingredient
+metoprolol,6918,Active Ingredient
+metoprolol succinate,221124,Active Ingredient
+metronidazole,6922,Active Ingredient
+mexiletine,6926,Active Ingredient
+mexiletine hydrochloride,142138,Active Ingredient
+midazolam,6960,Active Ingredient
+monoamine oxidase inhibitors,0,NAN
+naproxen 500 mg,316328,Active Ingredient
+n-desmethylatomoxetine,0,Metabolite
+nefazodone,31565,Active Ingredient
+nelfinavir,134527,Active Ingredient
+nifedipine 10 mg,316352,Active Ingredient
+nifedipine,7417,Active Ingredient
+nisoldipine,7435,Active Ingredient
+nitrofurantoin,7454,Active Ingredient
+norethindrone,7514,Active Ingredient
+normeperidine,0,Metabolite
+noroxycodone,0,Metabolite
+nortriptyline,7531,Active Ingredient
+norverapamil,0,Metabolite
+norverapamil,0,NAN
+o-desmethylvenlafaxine,0,Metabolite
+omeprazole 20 mg,316408,Active Ingredient
+omeprazole 40 mg,317451,Active Ingredient
+omeprazole,7646,Active Ingredient
+oncovin,0,NAN
+orlistat,37925,Active Ingredient
+oxycodone,7804,Active Ingredient
+oxymorphone,7814,Active Ingredient
+paclitaxel,56946,Active Ingredient
+paroxetine 20 mg,317659,Active Ingredient
+paroxetine,32937,Active Ingredient
+paroxetine hydrochloride,235830,Active Ingredient
+penicillins,0,NAN
+phenobarbital,8134,Active Ingredient
+phenothiazines,0,NAN
+phenytoin,8183,Active Ingredient
+pimozide 2 mg,316520,Active Ingredient
+pimozide,8331,Active Ingredient
+polydextrose,1363053,Active Ingredient
+polyethylene glycol,8516,Active Ingredient
+povidone,8610,Active Ingredient
+pravastatin,42463,Active Ingredient
+prazosin,8629,Active Ingredient
+prednisone,8640,Active Ingredient
+probenecid,8698,Active Ingredient
+procaine,8701,Active Ingredient
+procarbazine,8702,Active Ingredient
+propafenone,8754,Active Ingredient
+propoxyphene,8785,Active Ingredient
+propranolol,8787,Active Ingredient
+quinidine,9068,Active Ingredient
+quinidine sulfate,9069,Active Ingredient
+quinupristin,229367,Active Ingredient
+ramipril,35296,Active Ingredient
+ranitidine 150 mg,328494,Active Ingredient
+ranitidine,9143,Active Ingredient
+repaglinide,73044,Active Ingredient
+revatio,581642,Drug Product
+reyataz,382467,Drug Product
+ribavirin,9344,Active Ingredient
+rifampin,9384,Active Ingredient
+risperidone,35636,Active Ingredient
+ritonavir,85762,Active Ingredient
+rosiglitazone,84108,Active Ingredient
+rythmol,82079,Drug Product
+saquinavir,83395,Active Ingredient
+septra,202807,Drug Product
+serotonin,1311214,Active Ingredient
+sertraline 200 mg,334494,Active Ingredient
+sertraline,36437,Active Ingredient
+sildenafil,136411,Active Ingredient
+simvastatin,36567,Active Ingredient
+simvastatin 40 mg,316674,Active Ingredient
+simvastatin acid,36567,Active Ingredient
+sirolimus,35302,Active Ingredient
+stavudine,59763,Active Ingredient
+sulfinpyrazone,10205,Active Ingredient
+synercid,135097,Drug Product
+tacrine,10318,Active Ingredient
+tacrolimus,42316,Active Ingredient
+tenofovir disoproxil fumarate,322248,Active Ingredient
+terfenadine,42330,Active Ingredient
+theophylline,10438,Active Ingredient
+thiazide diuretics,0,NAN
+thioridazine,10502,Active Ingredient
+thymidine,1372538,Active Ingredient
+tizanidine,57258,Active Ingredient
+tolbutamide,10635,Active Ingredient
+trazodone,10737,Active Ingredient
+triacetin,10756,Active Ingredient
+triazolam,10767,Active Ingredient
+triptans,0,NAN
+tryptophan,10898,Active Ingredient
+valproate,40254,Active Ingredient
+venlafaxine,39786,Active Ingredient
+venlafaxine 50 mg,328800,Active Ingredient
+venlafaxine hydrochloride,235988,Active Ingredient
+verapamil,11170,Active Ingredient
+verapamil hydrochloride,203138,Active Ingredient
+vindesine,11204,Active Ingredient
+voriconazole,121243,Active Ingredient
+warfarin,11289,Active Ingredient
+zidovudine,11413,Active Ingredient
+zonisamide,39998,Active Ingredient
