@@ -19,6 +19,8 @@ import sys
 from nltk.stem.porter import PorterStemmer
 import re
 import pprint
+from prettyXML import prettify
+
 #from nltk.tag.stanford import POSTagger
 #from nltk.corpus import stopwords
 
@@ -118,7 +120,7 @@ def addStc(corpus, sentence, modality, statementType, drugOne, drugOneType, drug
 		corpus.append({
 			
 				'sentence': sentence,
-				'modality': modality,
+				'modality': [modality],
 				'statement type': statementType,
 				'drug 1': [{drugOne: {'type': drugOneType, 'role': drugOneRole}}],
 				'drug 2': [{drugTwo: {'type': drugTwoType, 'role': drugTwoRole}}],
@@ -135,7 +137,8 @@ def addStc(corpus, sentence, modality, statementType, drugOne, drugOneType, drug
 		print corpus[tempIndex]
 		corpus[tempIndex]['drug 1'].append({drugOne: {'type': drugOneType, 'role': drugOneRole}})
 		corpus[tempIndex]['drug 2'].append({drugTwo: {'type': drugTwoType, 'role': drugTwoRole}})
-	
+		corpus[tempIndex]['modality'].append(modality)
+		
 def itRows(csvinp):
 	"""
 	Iterates through every row in the csv and instantiates corpuses for
@@ -275,16 +278,93 @@ def processOne(data, drugList, stopwords):
 	#for sentence in seenStcs:
 		#st.tag(sentence.split())
 		#sys.exit(0)
+	
+def createXML(corpus, name):
+	"""
+	Creates an XML file... Proposed Format:
+	<document id="quantitative | qualitative">
+		<sentence id="" text="">
+				<entity id="" text="" charOffset="" /> <!-- the drug from the drug list and multiple of this-->
+				<pair id="" e1="" e2="" ddi="" /> <!-- the e1-e2 ddi pair-->
+		</sentence>
+		....
+	</document>
+	The printing is not pretty however (sad...)
+	"""
+	#with open(folder+name+'.xml', 'w') as fil:
+	import xml.etree.cElementTree as et
+	document = et.Element(u'document') #root
+	document.set(u'id', name) #set id of root
+	i = 0
+	#iterate through the sentences
+	for a in xrange(0, len(corpus)):
+		value = corpus[a]
+		sid = u'.s'+str(i).decode('utf-8')
+		sentence = None
+		try:
+			sentence = et.SubElement(document, u'sentence',
+				{
+				u'id': (name+sid).decode('utf-8'),
+				u'text': value['sentence'].decode('utf-8')
+				})
+			#set the entities (drugs)
+			j = 0
+			sid_full = (name+sid).decode('utf-8')
+			drugs = {}
+			for drugv in value['drugs']:
+				drugs[drugv['drug']] = (sid_full+'.e'+str(j)).decode('utf-8')
+				print drugs[drugv['drug']]
+				entity = et.SubElement(sentence, u'entity',
+					{
+					u'id': drugs[drugv['drug']],
+					u'charOffset': (str(drugv['start index'])+'-'+str(drugv['end index'])).decode('utf-8'),
+					u'type': drugv['type'].decode('utf-8'),
+					u'text': drugv['drug'].decode('utf-8')
+					}
+				)
+				j += 1
+			for h in xrange(0, len(value['drug 1'])):
+				for k, v in value['drug 1'][h].iteritems():
+					drug1 = k.decode('utf-8')
+				for k, v in value['drug 2'][h].iteritems():
+					drug2 = k.decode('utf-8')
+				modality = setModality(value['modality'][h]).decode('utf-8')
+				pair = et.SubElement(sentence, 'pair',
+					{
+					'id': sid_full+'.p'+str(h),
+					'e1': drugs[drug1],
+					'e2': drugs[drug2],
+					'ddi': modality
+					}
+				)
 		
+			i += 1
+			print 'Sentence added successfully!'
+		except KeyError:
+			print 'a drug was not found... removing the sentence for now.'
+			if sentence != None:
+				document.remove(sentence)
+	et.ElementTree(document).write('DDIXML/'+name + '.xml', encoding='UTF-8')
+	#with open('DDIXML/'+name + '.xml', 'w') as fil:
+		#fil.write(prettify(document))
+		
+def setModality(modality):
+	if modality == 'positive':
+		return 'true'
+	return 'false'
 
 def main():
 	with open(INPUT, 'r') as inp:
 		csvinp = csv.reader(inp, dialect='excel')
 		next(csvinp)
-
 		qualitative, quantitative = itRows(csvinp)
 		workWithSentenceList(qualitative, quantitative)
 		#testStcs()
+		#with open(folder+'qualitative.xml', 'w') as fil:
+		createXML(qualitative, u'qualitative')
+		#with open(folder+'quantitative.xml', 'w') as fil:
+		createXML(quantitative, u'quantitative')
+		
 
 if __name__ == '__main__':
 	main()
