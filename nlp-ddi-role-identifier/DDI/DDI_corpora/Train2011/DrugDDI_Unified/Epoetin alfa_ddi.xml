@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DrugDDI.d547" origId="Epoetin alfa"><sentence id="DrugDDI.d547.s0" origId="s0" text="No evidence of interaction of PROCRIT with other drugs was observed in the course of clinical trials. ?"><entity id="DrugDDI.d547.s0.e0" origId="s0.p2" charOffset="30-37" type="drug" text="PROCRIT"/><entity id="DrugDDI.d547.s0.e1" origId="s0.p3" charOffset="49-54" type="drug" text="drugs"/><pair id="DrugDDI.d547.s0.p0" e1="DrugDDI.d547.s0.e0" e2="DrugDDI.d547.s0.e1" interaction="false"/></sentence></document>

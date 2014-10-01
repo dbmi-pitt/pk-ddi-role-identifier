@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DrugDDI.d574" origId="Acetohydroxamic Acid"><sentence id="DrugDDI.d574.s0" origId="s0" text="Concomitant use with iron supplements may result in the reduced absorption of iron."><entity id="DrugDDI.d574.s0.e0" origId="s0.p1" charOffset="21-36" type="drug" text="iron supplement"/><entity id="DrugDDI.d574.s0.e1" origId="s0.p5" charOffset="78-82" type="drug" text="iron"/><pair id="DrugDDI.d574.s0.p0" e1="DrugDDI.d574.s0.e0" e2="DrugDDI.d574.s0.e1" interaction="false"/></sentence></document>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DrugDDI.d150" origId="Fludarabine"><sentence id="DrugDDI.d150.s0" origId="s0" text="The use of FLUDARA FOR INJECTION in combination with pentostatin is not recommended due to the risk of severe pulmonary toxicity."><entity id="DrugDDI.d150.s0.e0" origId="s0.p1" charOffset="11-18" type="drug" text="FLUDARA"/><entity id="DrugDDI.d150.s0.e1" origId="s0.p4" charOffset="53-64" type="drug" text="pentostatin"/><pair id="DrugDDI.d150.s0.p0" e1="DrugDDI.d150.s0.e0" e2="DrugDDI.d150.s0.e1" interaction="true"/></sentence></document>

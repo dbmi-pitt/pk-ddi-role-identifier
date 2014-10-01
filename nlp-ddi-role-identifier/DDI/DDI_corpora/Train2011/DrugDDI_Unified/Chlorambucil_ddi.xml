@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DrugDDI.d262" origId="Chlorambucil"><sentence id="DrugDDI.d262.s0" origId="s0" text="There are no known drug/drug interactions with chlorambucil."><entity id="DrugDDI.d262.s0.e0" origId="s0.p2" charOffset="19-23" type="drug" text="drug"/><entity id="DrugDDI.d262.s0.e1" origId="s0.p4" charOffset="47-59" type="drug" text="chlorambucil"/><pair id="DrugDDI.d262.s0.p0" e1="DrugDDI.d262.s0.e0" e2="DrugDDI.d262.s0.e1" interaction="false"/></sentence></document>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DrugDDI.d119" origId="Clobazam"><sentence id="DrugDDI.d119.s0" origId="s0" text="Alcohol (increases bioavailability by 50%), cimetidine, and valproates."><entity id="DrugDDI.d119.s0.e0" origId="s0.p0" charOffset="0-7" type="drug" text="Alcohol"/><entity id="DrugDDI.d119.s0.e1" origId="s0.p6" charOffset="44-54" type="drug" text="cimetidine"/><pair id="DrugDDI.d119.s0.p0" e1="DrugDDI.d119.s0.e0" e2="DrugDDI.d119.s0.e1" interaction="?"/></sentence></document>

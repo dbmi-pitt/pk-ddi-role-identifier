@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DrugDDI.d552" origId="Anidulafungin"><sentence id="DrugDDI.d552.s0" origId="s0" text="No clinically relevant drug-drug interactions have been observed with drugs likely to be co-administered with anidulafungin."><entity id="DrugDDI.d552.s0.e0" origId="s0.p4" charOffset="70-75" type="drug" text="drugs"/><entity id="DrugDDI.d552.s0.e1" origId="s0.p7" charOffset="110-123" type="drug" text="anidulafungin"/><pair id="DrugDDI.d552.s0.p0" e1="DrugDDI.d552.s0.e0" e2="DrugDDI.d552.s0.e1" interaction="?"/></sentence></document>

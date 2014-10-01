@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DrugDDI.d558" origId="Chlorzoxazone"><sentence id="DrugDDI.d558.s0" origId="s0" text="The concomitant use of alcohol or other central nervous system depressants may have an additive effect."><entity id="DrugDDI.d558.s0.e0" origId="s0.p1" charOffset="23-30" type="drug" text="alcohol"/><entity id="DrugDDI.d558.s0.e1" origId="s0.p3" charOffset="40-74" type="drug" text="central nervous system depressants"/><pair id="DrugDDI.d558.s0.p0" e1="DrugDDI.d558.s0.e0" e2="DrugDDI.d558.s0.e1" interaction="true"/></sentence></document>

@@ -28,6 +28,7 @@ stemmer = PorterStemmer()
 
 
 INPUT = 'DDI-Sets-nonexpert1-csv-07212014.csv'
+INPUT2 = 'DDI-latest-version-expert2-09182014.csv'
 # sets the verbs via stemmer
 verbset = set([
 		
@@ -43,7 +44,7 @@ verbset = set([
 		stemmer.stem('triple')
 		
 			 ])
-seenStcs = ({}, {})
+#seenStcs = ({}, {})
 # qualitative, quantitative
 
 
@@ -98,16 +99,16 @@ def workWithCol(row, ql, qn):
 	Works with the columns inside the csv file to create more of the data structure
 	"""
 	sentence, modality, statementType, drugOne, drugOneType, drugOneRole, drugTwo, drugTwoType, drugTwoRole = getVars(row)
-
+	seenStcs = ({}, {})
 	if statementType == 'qualitative':
 		print 'qualitative'
-		addStc(ql, sentence, modality, statementType, drugOne, drugOneType, drugOneRole, drugTwo, drugTwoType, drugTwoRole)
+		addStc(ql, sentence, modality, statementType, drugOne, drugOneType, drugOneRole, drugTwo, drugTwoType, drugTwoRole, seenStcs)
 	elif statementType == 'quantitative':
 		print 'quantitative'
-		addStc(qn, sentence, modality, statementType, drugOne, drugOneType, drugOneRole, drugTwo, drugTwoType, drugTwoRole)
+		addStc(qn, sentence, modality, statementType, drugOne, drugOneType, drugOneRole, drugTwo, drugTwoType, drugTwoRole, seenStcs)
 		
 
-def addStc(corpus, sentence, modality, statementType, drugOne, drugOneType, drugOneRole, drugTwo, drugTwoType, drugTwoRole):
+def addStc(corpus, sentence, modality, statementType, drugOne, drugOneType, drugOneRole, drugTwo, drugTwoType, drugTwoRole, seenStcs):
 	"""
 	Adds sentences (uniquely) into the ql or qn list by dict and list
 	"""
@@ -203,7 +204,8 @@ def ie_process(corpus, drugList):
 	stopwords = nltk.corpus.stopwords.words('english') #deprecated I think
 	stc2 = []
 	for data in corpus:
-		processOne(data, drugList, stopwords)
+		#processOne(data, drugList, stopwords)
+		processOne(data)
 		eliminateSubDrugs(data['drugs'])
 		#stc2.append(data['new sentence'])
 	
@@ -211,6 +213,26 @@ def ie_process(corpus, drugList):
 	pprint.pprint(corpus[1])
 	pprint.pprint(corpus[2])
 	pprint.pprint(corpus[3])
+
+def processOne(data):
+	"""
+	This will get the relationships from drug 1 and drug 2...
+	"""
+	for i in xrange(0, len(data['drug 1'])):
+		drug1 = data['drug 1'][i]
+		drug2 = data['drug 2'][i]
+		appendDrug(drug1, data['sentence'], data)
+		appendDrug(drug2, data['sentence'], data)
+
+def appendDrug(drug, sentence, data):
+	for k, v in drug.iteritems():
+		d = k
+		info = v
+		allstartingindexes = [m.start() for m in re.finditer(d.lower(), sentence.lower())]
+		if len(allstartingindexes) > 0:
+			for index in allstartingindexes:
+				endIndex = index + (len(d)-1)
+				data['drugs'].append({'drug':d, 'type': info['type'], 'start index': index, 'end index': endIndex})
 
 def eliminateSubDrugs(drugs):
 	"""
@@ -257,29 +279,29 @@ def eliminateSubDrugs(drugs):
 			#print w
 	#data['new sentence'] = oneStc
 	
-def processOne(data, drugList, stopwords):
-	"""
-	Finds the index locations of all possible drugs found inside 
-	drug-rxcui-type.txt using re.finditer which will also see substrings
-	Possible that it will get substrings and might have some right or wrong 
-	results, but that's mostly on drug-rxcui-type.txt. 
-	"""
-	sentence = data['sentence']
-	#stopwords not used...
-	for drug in drugList:
-		allstartingindexes = [m.start() for m in re.finditer(drug.lower(), sentence.lower())]
-		if len(allstartingindexes) > 0:
-			for index in allstartingindexes:
-				endIndex = index + (len(drug)-1)
-				data['drugs'].append({'drug':drug, 'type': drugList[drug], 'start index': index, 'end index':endIndex})
-	
+#def processOne(data, drugList, stopwords):
+	#"""
+	#Finds the index locations of all possible drugs found inside 
+	#drug-rxcui-type.txt using re.finditer which will also see substrings
+	#Possible that it will get substrings and might have some right or wrong 
+	#results, but that's mostly on drug-rxcui-type.txt. 
+	#"""
+	#sentence = data['sentence']
+	##stopwords not used...
+	#for drug in drugList:
+		#allstartingindexes = [m.start() for m in re.finditer(drug.lower(), sentence.lower())]
+		#if len(allstartingindexes) > 0:
+			#for index in allstartingindexes:
+				#endIndex = index + (len(drug)-1)
+				#data['drugs'].append({'drug':drug, 'type': drugList[drug], 'start index': index, 'end index':endIndex})
+
 #def testStcs():
 	#st = POSTagger()
 	#for sentence in seenStcs:
 		#st.tag(sentence.split())
 		#sys.exit(0)
 	
-def createXML(corpus, name):
+def createXML(corpus, name, typ):
 	"""
 	Creates an XML file... Proposed Format:
 	<document id="quantitative | qualitative">
@@ -290,6 +312,9 @@ def createXML(corpus, name):
 		....
 	</document>
 	The printing is not pretty however (sad...)
+	
+	Issues:
+	- there's no way for me right now to pick the best entity to choose. so it chooses the first one.
 	"""
 	#with open(folder+name+'.xml', 'w') as fil:
 	import xml.etree.cElementTree as et
@@ -313,7 +338,6 @@ def createXML(corpus, name):
 			drugs = {}
 			for drugv in value['drugs']:
 				drugs[drugv['drug']] = (sid_full+'.e'+str(j)).decode('utf-8')
-				print drugs[drugv['drug']]
 				entity = et.SubElement(sentence, u'entity',
 					{
 					u'id': drugs[drugv['drug']],
@@ -339,12 +363,11 @@ def createXML(corpus, name):
 				)
 		
 			i += 1
-			print 'Sentence added successfully!'
 		except KeyError:
 			print 'a drug was not found... removing the sentence for now.'
 			if sentence != None:
 				document.remove(sentence)
-	et.ElementTree(document).write('DDIXML/'+name + '.xml', encoding='UTF-8')
+	et.ElementTree(document).write('DDIXML/'+typ+'/'+name + '.xml', encoding='UTF-8')
 	#with open('DDIXML/'+name + '.xml', 'w') as fil:
 		#fil.write(prettify(document))
 		
@@ -353,17 +376,23 @@ def setModality(modality):
 		return 'true'
 	return 'false'
 
+def runMain(inp, typ):
+	csvinp = csv.reader(inp, dialect='excel')
+	next(csvinp)
+	qualitative, quantitative = itRows(csvinp)
+	workWithSentenceList(qualitative, quantitative)
+	#testStcs()
+	#with open(folder+'qualitative.xml', 'w') as fil:
+	createXML(qualitative, u'qualitative', typ)
+	#with open(folder+'quantitative.xml', 'w') as fil:
+	createXML(quantitative, u'quantitative', typ)
+
 def main():
 	with open(INPUT, 'r') as inp:
-		csvinp = csv.reader(inp, dialect='excel')
-		next(csvinp)
-		qualitative, quantitative = itRows(csvinp)
-		workWithSentenceList(qualitative, quantitative)
-		#testStcs()
-		#with open(folder+'qualitative.xml', 'w') as fil:
-		createXML(qualitative, u'qualitative')
-		#with open(folder+'quantitative.xml', 'w') as fil:
-		createXML(quantitative, u'quantitative')
+		runMain(inp, 'train')
+	#seenStcs = ({}, {})
+	with open(INPUT2, 'r') as inp:
+		runMain(inp, 'test')
 		
 
 if __name__ == '__main__':
