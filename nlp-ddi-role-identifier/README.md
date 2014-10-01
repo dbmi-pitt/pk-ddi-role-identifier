@@ -36,3 +36,11 @@ http://bioinformatics.oxfordjournals.org/content/early/2014/09/05/bioinformatics
 	- output:
 		- DDI/data/trainpairs.ser -> feature set fo the training set
 		- DDI/data/testpairs.ser -> feature set of the train
+
+How the XML output works:
+- Assign each drug entity chosen an entity ID
+- For each drug chosen by the person
+	- return a list of the starting indexes of the drug found (re.iteritem() method)
+	- end index = (the length of the selected drug – starting index)
+	- The drug used for the entity is the last found in the sentence (Incomplete algorithm!!!)
+		- Only way I can see fixing this is finding the location of the verb inreference to the drug... (but I took out the algorithm for that)
