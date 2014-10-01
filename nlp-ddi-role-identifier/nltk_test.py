@@ -26,9 +26,9 @@ from prettyXML import prettify
 
 stemmer = PorterStemmer()
 
-
-INPUT = 'DDI-Sets-nonexpert1-csv-07212014.csv'
-INPUT2 = 'DDI-latest-version-expert2-09182014.csv'
+folder = 'python_input/'
+INPUT = folder + 'DDI-Sets-nonexpert1-csv-07212014.csv'
+INPUT2 = folder + 'DDI-latest-version-expert2-09182014.csv'
 # sets the verbs via stemmer
 verbset = set([
 		

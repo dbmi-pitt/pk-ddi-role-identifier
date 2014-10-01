@@ -9,3 +9,30 @@ Authors:
 
 This is an attempt to use (NLTK)[http://www.nltk.org/] with FDA drug 
 labels in order to assign roles to drugs in their specific sentences.
+
+This is for Dr. Boyce's class. At this time, we will be referring to this 
+paper to extract features from the sentences with the main class DDISets from the DDI folder:
+http://bioinformatics.oxfordjournals.org/content/early/2014/09/05/bioinformatics.btu557
+
+#CURRENT USAGE:
+1. python nltk_test.py (takes the nonexpert and expert files and turns them into xml)
+2. cd DDI
+3. ant DDISets (the main file that evaluates our sentences)
+
+##Folders:
+- DDI -> source code of the paper, with an added class to run (DDISets)
+	- from here: http://www.biosemantics.org/uploads/DDI.zip
+- DDIXML - subfolder that contains the output of nltk_test.py (separated by train and test folders)
+- python_input - data that contains the DDIs for nonexpert1 and expert2 from the Domeo DDI project
+
+##Files:
+- nltk_test.py - file that creates the input for DDISets
+	- train set - nonexpert1
+	- test set - expert1
+	- output
+		- DDI/data/train.ser -> hashmap of the training set (nonexpert1)
+		- DDI/data/test.ser -> hashmap of the test set (expert2)
+- DDI/edu/pitt/dbmi/ddisets/DDISets.java - evaluator of our test and train sets
+	- output:
+		- DDI/data/trainpairs.ser -> feature set fo the training set
+		- DDI/data/testpairs.ser -> feature set of the train
