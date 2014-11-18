@@ -2,10 +2,8 @@
 Jeremy Jao
 08.13.2014
 
-This is supposed to be the NLP project with Pratibha and Yifan
-
-This is to get the DDIs and Sentences from the DDI project in a 
-CSV file to an XML format that the DDI program can read: 
+Get the DDIs and Sentences from the DDI project in a 
+CSV file to an XML format that the following DDI program can read: 
 http://bioinformatics.oxfordjournals.org/content/early/2014/09/05/bioinformatics.btu557
 
 Source code is available at:
@@ -236,7 +234,7 @@ def appendDrug(drug, sentence, data):
 
 def eliminateSubDrugs(drugs):
 	"""
-	Naive algorithm (pure O(N^2) runtime) that will drugs that are substrings
+	Naive algorithm (pure O(N^2) runtime) that will delete drugs that are substrings
 	of their bigger drug counterparts.
 	"""
 	for i in xrange(0, len(drugs)):

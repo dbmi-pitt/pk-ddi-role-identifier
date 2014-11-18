@@ -50,18 +50,47 @@ public class DDISets {
         evaluateStart();
 	}
 	
+        // TODO: add in the SPL PK Corpus after nltk_test is corrected
+        // to fix how the training and test set is being generated
 	private void evaluateStart() {
 		try {
 			System.out.println("Evaluation results:\n");
-			fg.featureGenerator(train_path, true, false, trainpairs);
-			fg.featureGenerator(test_path, false, false, testpairs);
+			// For now, use the SemEval 2013 corpus but
+			// write the feature data locally so we can
+			// play with various components of the system
+			fg.featureGenerator(Data.Train_DB2013_path, true, false, trainpairs);
+			fg.featureGenerator(Data.Test_DB2013_path, false, false, testpairs);
+			
+			// TODO: this is where the SPL PK DDI corpus
+			// would be read for feature generation in
+			// place of the one we are currently using
+			// (see above)
+			//fg.featureGenerator(train_path, true, false, trainpairs);
+			//fg.featureGenerator(test_path, false, false, testpairs);
+
 			Map<String, FeatureData[]> train_data, test_data;
-            train_data = (Map<String, FeatureData[]>) Data.read(Data.Train_DB2013Pairs);
-            test_data = (Map<String, FeatureData[]>) Data.read(Data.Test_DB2013Pairs);
+			train_data = (Map<String, FeatureData[]>) Data.read(trainpairs);
+			test_data = (Map<String, FeatureData[]>) Data.read(testpairs);
+
+			// TODO: this is where the SPL PK DDI corpus
+			// would be read for evaluation in place of
+			// the one we are currently using (see above)
+			//train_data = (Map<String, FeatureData[]>) Data.read(trainpairs);
+			//test_data = (Map<String, FeatureData[]>) Data.read(testpairs);
+
+			// Configure the SVM 
 			double c[]={2,4,1,5,1}; //best C
-            double v[] = {0.25, 0.05, 0.15, 0.15, 0.25}; // best gamma
-            int true_pairs = countTruePairs(test_path);
-            evaluate(train_data, test_data, c, v, true_pairs, "test-ddi-rdb20");
+			double v[] = {0.25, 0.05, 0.15, 0.15, 0.25}; // best gamma
+
+			int true_pairs = countTruePairs(Data.Test_DB2013_path);
+
+			// TODO: this is where the SPL PK DDI corpus
+			// true results would be read for evaluation
+			// in place of the one we are currently using
+			// (see above)
+			//int true_pairs = countTruePairs(test_path);
+
+			evaluate(train_data, test_data, c, v, true_pairs, "test-ddi-rdb20");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
