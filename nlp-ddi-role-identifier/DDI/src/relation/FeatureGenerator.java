@@ -1753,9 +1753,9 @@ public class FeatureGenerator {
     }
 
 
-    public void printError() {
+    public void printGroupData(String fpath) {
         try {
-            FileReader rd = new FileReader("E:/Output/error_output.csv");
+            FileReader rd = new FileReader(fpath);
             BufferedReader br = new BufferedReader(rd);
             Map<String, String> typemap = new HashMap<String, String>();
             Map<String, String> groupmap = new HashMap<String, String>();

@@ -54,4 +54,9 @@
             <classpath refid="DDI.classpath"/>
         </java>
     </target>
+    <target name="DumpChunks" depends="clean,build">
+        <java classname="edu.pitt.dbmi.ddisets.DumpChunks" failonerror="true" fork="yes">
+            <classpath refid="DDI.classpath"/>
+        </java>
+    </target>
 </project>

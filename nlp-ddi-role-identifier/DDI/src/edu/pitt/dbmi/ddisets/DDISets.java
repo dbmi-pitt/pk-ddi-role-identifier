@@ -135,7 +135,8 @@ public class DDISets {
             para.weight_label = lb;
             double c[]=C_values;
             double v[] = G_values;
-            FileWriter wrt = new FileWriter("./output/"+db_name+"_error_output.csv");
+            FileWriter errWrt = new FileWriter("./output/bioin2120_HW_error_output.csv");
+	    FileWriter okWrt = new FileWriter("./output/bioin2120_HW_successful_output.csv");
             int i = 0;
             int tp = 0;
             int fp = 0;
@@ -152,14 +153,17 @@ public class DDISets {
                     if (dt.getLabel() == 1) {
                         if (val == 1) {
                             ltp++; // true positive
+			    okWrt.append(dt.id + ",true positive,"+type+"\n");
                         } else {
-                            wrt.append(dt.id + ",false negative,"+type+"\n");
+                            errWrt.append(dt.id + ",false negative,"+type+"\n");
                         }
                     } else { // true negative
                         if (val == 1) {
                             lfp++; // false positive
-                            wrt.append(dt.id + ",false positive,"+type+"\n");
-                        }
+                            errWrt.append(dt.id + ",false positive,"+type+"\n");
+                        } else {
+			    okWrt.append(dt.id + ",true negative,"+type+"\n");
+			}
                     }
                 }
                 i++;
@@ -173,7 +177,8 @@ public class DDISets {
             double recall = (double) tp / (double) total;
             double f_score = (2 * precision * recall) / (precision + recall);
             System.out.println("Precision:\t"+precision+"\tRecall:\t"+recall+"\tFscore:\t"+f_score);
-            wrt.close();
+            errWrt.close();
+	    okWrt.close();
         }catch (Exception ex) {
             
         }
