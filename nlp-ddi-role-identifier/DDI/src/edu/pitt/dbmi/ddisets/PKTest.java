@@ -135,8 +135,8 @@ public class PKTest {
             para.weight_label = lb;
             double c[]=C_values;
             double v[] = G_values;
-            FileWriter errWrt = new FileWriter("./output/bioin2120_HW_error_output.csv");
-	    FileWriter okWrt = new FileWriter("./output/bioin2120_HW_successful_output.csv");
+            FileWriter errWrt = new FileWriter("./output/bioin2120_HW_error_PK_output.csv");
+	    FileWriter okWrt = new FileWriter("./output/bioin2120_HW_successful_PK_output.csv");
             int i = 0;
             int tp = 0;
             int fp = 0;

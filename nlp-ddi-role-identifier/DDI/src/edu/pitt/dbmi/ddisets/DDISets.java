@@ -135,8 +135,8 @@ public class DDISets {
             para.weight_label = lb;
             double c[]=C_values;
             double v[] = G_values;
-            FileWriter errWrt = new FileWriter("./output/bioin2120_HW_error_output.csv");
-	    FileWriter okWrt = new FileWriter("./output/bioin2120_HW_successful_output.csv");
+            FileWriter errWrt = new FileWriter("./output/bioin2120_HW_error_DB_2013_output.csv");
+	    FileWriter okWrt = new FileWriter("./output/bioin2120_HW_successful_DB_2013_output.csv");
             int i = 0;
             int tp = 0;
             int fp = 0;

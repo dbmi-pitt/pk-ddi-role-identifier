@@ -17,6 +17,6 @@ public class DumpChunksPK {
 
 	public static void main(String[] args) {
 	    FeatureGenerator fg = new FeatureGenerator();
-	    fg.printGroupDataPK("./output/bioin2120_HW_successful_output.csv");
+	    fg.printGroupDataPK("./output/bioin2120_HW_successful_PK_output.csv");
 	}
 }

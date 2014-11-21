@@ -17,6 +17,6 @@ public class DumpChunks {
 
 	public static void main(String[] args) {
 	    FeatureGenerator fg = new FeatureGenerator();
-	    fg.printGroupData("./output/bioin2120_HW_successful_output.csv");
+	    fg.printGroupData("./output/bioin2120_HW_successful_DB_2013_output.csv");
 	}
 }
