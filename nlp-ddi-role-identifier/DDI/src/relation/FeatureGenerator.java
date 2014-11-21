@@ -1789,4 +1789,42 @@ public class FeatureGenerator {
 
         }
     }
+
+    public void printGroupDataPK(String fpath) {
+        try {
+            FileReader rd = new FileReader(fpath);
+            BufferedReader br = new BufferedReader(rd);
+            Map<String, String> typemap = new HashMap<String, String>();
+            Map<String, String> groupmap = new HashMap<String, String>();
+            String line;
+            while ((line = br.readLine()) != null) { // prepare map : pairID -> error type ; group type
+                String st[] = line.split(",");
+                typemap.put(st[0], st[1]);
+                groupmap.put(st[0], st[2]);
+            }
+            // read test dataset
+            Map<String, SenData> senMap = readData("data/test.ser"); // load sentence data
+            for (Map.Entry<String, SenData> entry : senMap.entrySet()) {
+                senID = entry.getKey();
+                currSen = entry.getValue();
+                boolean print = false;
+                for (DDIPair pair : currSen.ddiList) {
+                    if (typemap.containsKey(pair.id)) {
+                        if (!print) {
+                            System.out.print(currSen.senID + "\t");
+                            printChunk(currSen.chunks);
+                            print = true;
+                        }
+                        System.out.println(pair + "\t" + typemap.get(pair.id) + "\t" + groupmap.get(pair.id));
+                    }
+                }
+                if (print) {
+                    System.out.println("");
+                }
+            }
+        } catch (Exception ex) {
+
+        }
+    }
+
 }
