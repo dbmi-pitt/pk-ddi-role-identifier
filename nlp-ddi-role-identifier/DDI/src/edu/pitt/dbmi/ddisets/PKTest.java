@@ -1,9 +1,20 @@
 package edu.pitt.dbmi.ddisets;
 
+import java.util.ArrayList;
+import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.Map;
+import java.util.List;
 
 import nlp.SenData;
+import nlp.Word;
+
+import corpora.Sentence;
+import corpora.Document;
+
+import relation.DDIPair;
+
 import libsvm.svm_model;
 import libsvm.svm_parameter;
 import relation.DDIPair;
@@ -150,7 +161,7 @@ public class PKTest {
                 svm_model model = trainer.train(data, para);
                 for (FeatureData dt : test) {
                     double val = trainer.predict(dt, model);
-		    // TODO: if the value = 0, use the id to pull the
+		    // TODO: if the value == 0, use the id to pull the
 		    // sentence node from the test data XML. Then,
 		    // test if there is an exact case insensitive
 		    // match between two entities and a drug pair in
@@ -158,6 +169,22 @@ public class PKTest {
 		    // PK DDI sources). If so, classify this as a "1"
 		    // (i.e., val = 1). The rest of the code will
 		    // calculate the performance. 
+		    // if (val == 0){
+		    // 	Document doc = converter.loadCorpus(new File("/home/boycerd/DI_DIR/pk-ddi-role-identifier/nlp-ddi-role-identifier/DDI/DDI_corpora/Test2013/MedLine/21706316.xml"));
+		    // 	List<Sentence> sens = doc.getSentence();
+		    // 	for (Sentence sen : sens) {
+		    // 	    SenData senData = converter.preparedData(sen, false);
+		    // 	    for (DDIPair ddiPair : senData.ddiList){
+		    // 		System.out.println(ddiPair.id);
+		    // 		System.out.println(ddiPair.arg1.id);
+		    // 		System.out.println(ddiPair.arg2.id);
+		    // 		System.out.println(ddiPair.arg1.word);
+		    // 		System.out.println(ddiPair.arg2.word);
+		    // 		System.out.println(ddiPair.ddi);
+		    // 	    }
+		    // 	}
+		    // 	System.exit(0);
+		    // }
                     if (dt.getLabel() == 1) {
                         if (val == 1) {
                             ltp++; // true positive

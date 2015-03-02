@@ -69,4 +69,9 @@
           <classpath refid="DDI.classpath"/>
         </java>
     </target>
+    <target name="WithMergedPDDITest" depends="clean,build">
+        <java classname="edu.pitt.dbmi.ddisets.WithMergedPDDITest" failonerror="true" fork="yes">
+            <classpath refid="DDI.classpath"/>
+        </java>
+    </target>
 </project>
