@@ -150,11 +150,20 @@ public class PKTest {
                 svm_model model = trainer.train(data, para);
                 for (FeatureData dt : test) {
                     double val = trainer.predict(dt, model);
+		    // TODO: if the value = 0, use the id to pull the
+		    // sentence node from the test data XML. Then,
+		    // test if there is an exact case insensitive
+		    // match between two entities and a drug pair in
+		    // the merged PDDI dataset (excluding DrugBank and
+		    // PK DDI sources). If so, classify this as a "1"
+		    // (i.e., val = 1). The rest of the code will
+		    // calculate the performance. 
                     if (dt.getLabel() == 1) {
                         if (val == 1) {
                             ltp++; // true positive
 			    okWrt.append(dt.id + ",true positive,"+type+"\n");
                         } else {
+			    //System.out.println("Feature data for false negative node:\n\t" + dt.toString());
                             errWrt.append(dt.id + ",false negative,"+type+"\n");
                         }
                     } else { // true negative

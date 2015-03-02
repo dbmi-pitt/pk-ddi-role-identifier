@@ -837,6 +837,8 @@ public class FeatureGenerator {
             }
             total += count;
             if (!hasTrigger(currSen.relList)) {
+		//System.out.println("Skipping sentence because no trigger found:\n\t" + currSen.text);
+		//System.out.println("Skipping sentence because no trigger found:\n\t" + currSen.long_text);
                 skip_true_pairs += count;
                 skip_count += currSen.ddiList.size();
                 sen_skip_count++;
