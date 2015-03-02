@@ -208,19 +208,22 @@ public class WithMergedPDDITest {
 				ResultSet rs = null;
 				if (st.execute(query)){
 				    System.out.println("QUERY SUCCEEDED");
-				    //rs = st.getResultSet();
+				    rs = st.getResultSet();
 				} else {
 				    System.out.println("QUERY FAILED");
 				    System.exit(1);
 				}
 
-				if (rs != null){
-				    System.out.println("QUERY RETURNED RESULT");			      
-				    // while (rs.next()){
-				    // 	String object = rs.getString("object");
-				    // 	String precipitant = rs.getString("precipitant");
-				    // 	System.out.format("%s, %s\n", object, precipitant);
-				    // }
+				if (rs.first()){
+				    System.out.println("QUERY RETURNED RESULT");
+				    String object = rs.getString("object");
+				    String precipitant = rs.getString("precipitant");
+				    System.out.format("%s, %s\n", object, precipitant);			      
+				    while (rs.next()){
+				     	object = rs.getString("object");
+				     	precipitant = rs.getString("precipitant");
+				     	System.out.format("%s, %s\n", object, precipitant);
+				     }
 				} else {
 				    System.out.println("NO RESULT");
 				}
