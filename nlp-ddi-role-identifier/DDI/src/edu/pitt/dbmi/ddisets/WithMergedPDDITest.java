@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 
 import nlp.SenData;
 import nlp.Word;
@@ -35,7 +36,9 @@ public class WithMergedPDDITest {
 	private static String test_path = "data/test.ser";
 	private static String mixtrainpairs = "data/mixtrainpairs.ser";
         private static String medlinetestpairs = "data/testML2013DDIs.ser";
-	
+        
+        static HashMap<String, DDIPair> ddiPairMap = new HashMap<String, DDIPair>();
+
 	public WithMergedPDDITest() {
 		converter = new XML2Object();
 		fg = new FeatureGenerator();
@@ -50,13 +53,27 @@ public class WithMergedPDDITest {
 		String[] train_source = {input_location + "/Train2013/CombinedDrugBankMedLine"};
 		String[] test_source = {input_location + "/Test2013/MedLine"};
 		System.out.println("---> Reading xml files ...");
-        // Saving training data
-        converter.saveData(train_path, train_source,true);
-        converter.saveData(test_path, test_source,true);
+		// Saving training data
+		converter.saveData(train_path, train_source,true);
+		converter.saveData(test_path, test_source,true);
 
-        System.out.println("---> Saving ...done");
-        
-        evaluateStart();
+		System.out.println("---> Saving ...done");
+
+		System.out.println("---> Reading xml files to cache DDI paird ...");
+		File f = new File(input_location + "/Test2013/MedLine");
+		File[] files = f.listFiles();
+                for (File file : files) {
+                    Document doc = converter.loadCorpus(file);
+                    List<Sentence> sens = doc.getSentence();
+                    for (Sentence sen : sens) {
+			SenData senData = converter.preparedData(sen, false);
+			for (DDIPair ddiPair : senData.ddiList){
+			    ddiPairMap.put(ddiPair.id, ddiPair);
+			}
+                    }
+                }
+
+		evaluateStart();
 	}
 	
         // TODO: add in the SPL PK Corpus after nltk_test is corrected
@@ -154,22 +171,19 @@ public class WithMergedPDDITest {
 		    // PK DDI sources). If so, classify this as a "1"
 		    // (i.e., val = 1). The rest of the code will
 		    // calculate the performance. 
-		    // if (val == 0){
-		    // 	Document doc = converter.loadCorpus(new File("/home/boycerd/DI_DIR/pk-ddi-role-identifier/nlp-ddi-role-identifier/DDI/DDI_corpora/Test2013/MedLine/21706316.xml"));
-		    // 	List<Sentence> sens = doc.getSentence();
-		    // 	for (Sentence sen : sens) {
-		    // 	    SenData senData = converter.preparedData(sen, false);
-		    // 	    for (DDIPair ddiPair : senData.ddiList){
-		    // 		System.out.println(ddiPair.id);
-		    // 		System.out.println(ddiPair.arg1.id);
-		    // 		System.out.println(ddiPair.arg2.id);
-		    // 		System.out.println(ddiPair.arg1.word);
-		    // 		System.out.println(ddiPair.arg2.word);
-		    // 		System.out.println(ddiPair.ddi);
-		    // 	    }
-		    // 	}
-		    // 	System.exit(0);
-		    // }
+		    System.out.println("FeatureData id:" + dt.id);
+		    if (val == 0){
+			if (ddiPairMap.containsKey(dt.id)){
+			    DDIPair ddiPair = (DDIPair) ddiPairMap.get(dt.id);
+			    System.out.println(ddiPair.id);
+			    System.out.println(ddiPair.arg1.id);
+			    System.out.println(ddiPair.arg2.id);
+			    System.out.println(ddiPair.arg1.word);
+			    System.out.println(ddiPair.arg2.word);
+			    System.out.println(ddiPair.ddi);
+			}
+		    	System.exit(0);
+		    }
                     if (dt.getLabel() == 1) {
                         if (val == 1) {
                             ltp++; // true positive
