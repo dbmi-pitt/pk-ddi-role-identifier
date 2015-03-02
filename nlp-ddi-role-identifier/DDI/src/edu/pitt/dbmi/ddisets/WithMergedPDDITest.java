@@ -25,6 +25,12 @@ import utils.FeatureData;
 import utils.SVMTrain;
 import corpora.XML2Object;
 
+import java.sql.Connection;
+import java.sql.Statement;
+import java.sql.ResultSet;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 public class WithMergedPDDITest {
 	
 	XML2Object converter;
@@ -38,6 +44,8 @@ public class WithMergedPDDITest {
         private static String medlinetestpairs = "data/testML2013DDIs.ser";
         
         static HashMap<String, DDIPair> ddiPairMap = new HashMap<String, DDIPair>();
+
+        static Connection conn = null;       
 
 	public WithMergedPDDITest() {
 		converter = new XML2Object();
@@ -59,7 +67,7 @@ public class WithMergedPDDITest {
 
 		System.out.println("---> Saving ...done");
 
-		System.out.println("---> Reading xml files to cache DDI paird ...");
+		System.out.println("---> Reading xml files to cache DDI pairs ...");
 		File f = new File(input_location + "/Test2013/MedLine");
 		File[] files = f.listFiles();
                 for (File file : files) {
@@ -72,6 +80,16 @@ public class WithMergedPDDITest {
 			}
                     }
                 }
+		
+		try {
+		    conn = DriverManager.getConnection("jdbc:mysql://localhost/merged_DDIs?user=mergedPddi&password=pddi");
+		} catch (SQLException ex) {
+		    // handle any errors
+		    System.out.println("SQLException: " + ex.getMessage());
+		    System.out.println("SQLState: " + ex.getSQLState());
+		    System.out.println("VendorError: " + ex.getErrorCode());
+		    System.exit(1);
+		}
 
 		evaluateStart();
 	}
@@ -181,8 +199,54 @@ public class WithMergedPDDITest {
 			    System.out.println(ddiPair.arg1.word);
 			    System.out.println(ddiPair.arg2.word);
 			    System.out.println(ddiPair.ddi);
+
+			    String query = "SELECT object, precipitant FROM DDI WHERE (LOWER(object) = \'" + ddiPair.arg1.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg2.word.toLowerCase() + "\') OR (LOWER(object) = \'" + ddiPair.arg2.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg1.word.toLowerCase() + "\');";
+			    System.out.println(query);
+
+			    Statement st = conn.createStatement();
+			    try {						    				
+				ResultSet rs = null;
+				if (st.execute(query)){
+				    System.out.println("QUERY SUCCEEDED");
+				    //rs = st.getResultSet();
+				} else {
+				    System.out.println("QUERY FAILED");
+				    System.exit(1);
+				}
+
+				if (rs != null){
+				    System.out.println("QUERY RETURNED RESULT");			      
+				    // while (rs.next()){
+				    // 	String object = rs.getString("object");
+				    // 	String precipitant = rs.getString("precipitant");
+				    // 	System.out.format("%s, %s\n", object, precipitant);
+				    // }
+				} else {
+				    System.out.println("NO RESULT");
+				}
+				
+				if (rs != null) {
+				    try {
+					rs.close();
+				    } catch (SQLException sqlEx) { } // ignore
+				    rs = null;
+				}
+				if (st != null) {
+				    try {
+					st.close();
+				    } catch (SQLException sqlEx) { } // ignore
+				    st = null;
+				}
+			    } //catch (SQLException ex) {
+			    catch (Exception ex){
+				System.out.println("Mysterious exception: " + ex.getMessage());
+			    	// handle any errors
+			    	//System.out.println("SQLException: " + ex.getMessage());
+			    	//System.out.println("SQLState: " + ex.getSQLState());
+			    	//System.out.println("VendorError: " + ex.getErrorCode());
+				System.exit(1);
+			    }
 			}
-		    	System.exit(0);
 		    }
                     if (dt.getLabel() == 1) {
                         if (val == 1) {
