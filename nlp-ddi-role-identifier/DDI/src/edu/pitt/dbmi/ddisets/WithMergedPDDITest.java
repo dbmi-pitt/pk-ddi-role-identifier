@@ -35,18 +35,26 @@ public class WithMergedPDDITest {
 	
 	XML2Object converter;
 	FeatureGenerator fg;
-	
+	static HashMap<String, DDIPair> ddiPairMap = new HashMap<String, DDIPair>();
+        static Connection conn = null;       
+
 	private static String mainlocation = ".";
 	private static String input_location = mainlocation + "/DDI_corpora";
 	private static String train_path = "data/train.ser";
 	private static String test_path = "data/test.ser";
 	private static String mixtrainpairs = "data/mixtrainpairs.ser";
-        private static String medlinetestpairs = "data/testML2013DDIs.ser";
-        
-        static HashMap<String, DDIPair> ddiPairMap = new HashMap<String, DDIPair>();
 
-        static Connection conn = null;       
+       // Config for DrugBank 2013 testing 
+       private static String test_pairs_path = "data/testDB2013DDIs.ser";
+       private static String test_source_string = "/Test2013/DrugBank";
+       private static String true_pairs_path = Data.Test_DB2013_path; 
 
+       // Config for MedLine 2013 testing 
+       //private static String test_pairs_path = "data/testML2013DDIs.ser";        
+       //private static String test_source_string = "/Test2013/MedLine";
+       //private static String true_pairs_path = Data.Test_ML2013_path; 
+
+    
 	public WithMergedPDDITest() {
 		converter = new XML2Object();
 		fg = new FeatureGenerator();
@@ -59,7 +67,7 @@ public class WithMergedPDDITest {
 	
 	private void load() {
 		String[] train_source = {input_location + "/Train2013/CombinedDrugBankMedLine"};
-		String[] test_source = {input_location + "/Test2013/MedLine"};
+		String[] test_source = {input_location + test_source_string};
 		System.out.println("---> Reading xml files ...");
 		// Saving training data
 		converter.saveData(train_path, train_source,true);
@@ -68,7 +76,7 @@ public class WithMergedPDDITest {
 		System.out.println("---> Saving ...done");
 
 		System.out.println("---> Reading xml files to cache DDI pairs ...");
-		File f = new File(input_location + "/Test2013/MedLine");
+		File f = new File(input_location + test_source_string);
 		File[] files = f.listFiles();
                 for (File file : files) {
                     Document doc = converter.loadCorpus(file);
@@ -103,23 +111,17 @@ public class WithMergedPDDITest {
 			// write the feature data locally so we can
 			// play with various components of the system
 			fg.featureGenerator(Data.Train_MIX2013_path, true, false, mixtrainpairs);
-			fg.featureGenerator(test_path, false, false, medlinetestpairs);
+			fg.featureGenerator(test_path, false, false, test_pairs_path);
 			
 			Map<String, FeatureData[]> train_data, test_data;
 			train_data = (Map<String, FeatureData[]>) Data.read(mixtrainpairs);
-			test_data = (Map<String, FeatureData[]>) Data.read(medlinetestpairs);
-
-			// TODO: this is where the SPL PK DDI corpus
-			// would be read for evaluation in place of
-			// the one we are currently using (see above)
-			//train_data = (Map<String, FeatureData[]>) Data.read(trainpairs);
-			//test_data = (Map<String, FeatureData[]>) Data.read(testpairs);
+			test_data = (Map<String, FeatureData[]>) Data.read(test_pairs_path);
 
 			// Configure the SVM 
 			double c[]={2,4,1,5,1}; //best C
 			double v[] = {0.25, 0.05, 0.15, 0.15, 0.25}; // best gamma
 
-			int true_pairs = countTruePairs(Data.Test_ML2013_path);
+			int true_pairs = countTruePairs(true_pairs_path);
 
 			evaluate(train_data, test_data, c, v, true_pairs, "test-pk-ddi-bioinf2120");
 		} catch (Exception e) {
@@ -190,66 +192,65 @@ public class WithMergedPDDITest {
 		    // (i.e., val = 1). The rest of the code will
 		    // calculate the performance. 
 		    System.out.println("FeatureData id:" + dt.id);
-		    if (val == 0){
-			if (ddiPairMap.containsKey(dt.id)){
-			    DDIPair ddiPair = (DDIPair) ddiPairMap.get(dt.id);
-			    System.out.println(ddiPair.id);
-			    System.out.println(ddiPair.arg1.id);
-			    System.out.println(ddiPair.arg2.id);
-			    System.out.println(ddiPair.arg1.word);
-			    System.out.println(ddiPair.arg2.word);
-			    System.out.println(ddiPair.ddi);
+		    if ((type == "clause") && (val == 0)){
+		    	if (ddiPairMap.containsKey(dt.id)){
+		    	    DDIPair ddiPair = (DDIPair) ddiPairMap.get(dt.id);
+		    	    System.out.println(ddiPair.id);
+		    	    System.out.println(ddiPair.arg1.id);
+		    	    System.out.println(ddiPair.arg2.id);
+		    	    System.out.println(ddiPair.arg1.word);
+		    	    System.out.println(ddiPair.arg2.word);
+		    	    System.out.println(ddiPair.ddi);
 
-			    String query = "SELECT object, precipitant FROM DDI WHERE (LOWER(object) = \'" + ddiPair.arg1.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg2.word.toLowerCase() + "\') OR (LOWER(object) = \'" + ddiPair.arg2.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg1.word.toLowerCase() + "\');";
-			    System.out.println(query);
+		    	    String query = "SELECT object, precipitant FROM DDI WHERE source NOT IN ('DDI-Corpus-2011', 'DDI-Corpus-2013') AND (LOWER(object) = \'" + ddiPair.arg1.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg2.word.toLowerCase() + "\') OR (LOWER(object) = \'" + ddiPair.arg2.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg1.word.toLowerCase() + "\');";
+		    	    System.out.println(query);
 
-			    Statement st = conn.createStatement();
-			    try {						    				
-				ResultSet rs = null;
-				if (st.execute(query)){
-				    System.out.println("QUERY SUCCEEDED");
-				    rs = st.getResultSet();
-				} else {
-				    System.out.println("QUERY FAILED");
-				    System.exit(1);
-				}
+		    	    Statement st = conn.createStatement();
+		    	    try {						    				
+		    		ResultSet rs = null;
+		    		if (st.execute(query)){
+		    		    System.out.println("QUERY SUCCEEDED");
+		    		    rs = st.getResultSet();
+		    		} else {
+		    		    System.out.println("QUERY FAILED");
+		    		    System.exit(1);
+		    		}
 
-				if (rs.first()){
-				    System.out.println("QUERY RETURNED RESULT");
-				    String object = rs.getString("object");
-				    String precipitant = rs.getString("precipitant");
-				    System.out.format("%s, %s\n", object, precipitant);			      
-				    while (rs.next()){
-				     	object = rs.getString("object");
-				     	precipitant = rs.getString("precipitant");
-				     	System.out.format("%s, %s\n", object, precipitant);
-				     }
-				} else {
-				    System.out.println("NO RESULT");
-				}
+		    		if (rs.first()){
+		    		    System.out.println("QUERY RETURNED RESULT");
+		    		    String object = rs.getString("object");
+		    		    String precipitant = rs.getString("precipitant");
+		    		    System.out.format("%s, %s\n", object, precipitant);			      
+		    		    while (rs.next()){
+		    		     	object = rs.getString("object");
+		    		     	precipitant = rs.getString("precipitant");
+		    		     	System.out.format("%s, %s\n", object, precipitant);
+		    		     }
+		    		    System.out.println("SETTING VAL = 1");
+		    		    val = 1;
+		    		} else {
+		    		    System.out.println("NO RESULT");
+		    		}
 				
-				if (rs != null) {
-				    try {
-					rs.close();
-				    } catch (SQLException sqlEx) { } // ignore
-				    rs = null;
-				}
-				if (st != null) {
-				    try {
-					st.close();
-				    } catch (SQLException sqlEx) { } // ignore
-				    st = null;
-				}
-			    } //catch (SQLException ex) {
-			    catch (Exception ex){
-				System.out.println("Mysterious exception: " + ex.getMessage());
-			    	// handle any errors
-			    	//System.out.println("SQLException: " + ex.getMessage());
-			    	//System.out.println("SQLState: " + ex.getSQLState());
-			    	//System.out.println("VendorError: " + ex.getErrorCode());
-				System.exit(1);
-			    }
-			}
+		    		if (rs != null) {
+		    		    try {
+		    			rs.close();
+		    		    } catch (SQLException sqlEx) { } // ignore
+		    		    rs = null;
+		    		}
+		    		if (st != null) {
+		    		    try {
+		    			st.close();
+		    		    } catch (SQLException sqlEx) { } // ignore
+		    		    st = null;
+		    		}
+		    	    } catch (SQLException ex) {
+		    	    	// handle any errors
+		    	    	System.out.println("SQLException: " + ex.getMessage());
+		    	    	System.out.println("SQLState: " + ex.getSQLState());
+		    	    	System.out.println("VendorError: " + ex.getErrorCode());
+		    	    }
+		    	}
 		    }
                     if (dt.getLabel() == 1) {
                         if (val == 1) {
