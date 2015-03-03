@@ -869,8 +869,7 @@ public class FeatureGenerator {
             }
             total += count;
             if (!hasTrigger(currSen.relList)) {
-		if (checkForKnownPDDIs && !testForKnownPDDI(currSen.ddiList)){
-		    //System.out.println("Skipping sentence because no trigger found:\n\t" + currSen.text);
+		if (!checkForKnownPDDIs){
 		    System.out.println("Skipping sentence because no trigger found:\n\t" + currSen.long_text);
 		    skip_true_pairs += count;
 		    skip_count += currSen.ddiList.size();
@@ -878,7 +877,17 @@ public class FeatureGenerator {
 		    check.addAll(currSen.ddiList);
 		    continue;
 		} else {
-		    System.out.println("Processing sentences - No trigger found but data for at least one drug pair mentioned is present in the merged PDDI dataset:\n\t" + currSen.long_text);
+		    if (!testForKnownPDDI(currSen.ddiList)){
+			//System.out.println("Skipping sentence because no trigger found:\n\t" + currSen.text);
+			System.out.println("Skipping sentence because no trigger found and no pair not present in a PDDI within the merged database:\n\t" + currSen.long_text);
+			skip_true_pairs += count;
+			skip_count += currSen.ddiList.size();
+			sen_skip_count++;
+			check.addAll(currSen.ddiList);
+			continue;
+		    } else {
+			System.out.println("Processing sentences - No trigger found but data for at least one drug pair mentioned is present in the merged PDDI dataset:\n\t" + currSen.long_text);
+		    }
 		}
             }
             List<Chunk> verbs = findVerbChunk(currSen);

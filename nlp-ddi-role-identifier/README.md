@@ -5,8 +5,7 @@ Authors:
 - Richard Boyce, PhD
 - Jeremy Jao
 - Yifan Ning
-- Pratibha Shambhangoudr
-
+- Pratibha Shambhangoudr (summer intern 2014)
 
 The goal of this project is to develop a classifier for identifying
 precipitant and object drug products within pharmacokinetic drug-drug
@@ -16,10 +15,24 @@ following paper to extract features from the sentences with the main
 class DDISets from the DDI folder:
 http://bioinformatics.oxfordjournals.org/content/early/2014/09/05/bioinformatics.btu557
 
-# CURRENT USAGE:
-(NOTE: as of 11/18/2014 this simply runs the pipeline using the SemEval DDI corpus. See the following issue <https://github.com/dbmi-pitt/pk-ddi-role-identifier/issues/1>)
+We have modified the code from Bui et al. slightly so that it
+integrates to check for the presence of drug pairs within merged PDDI
+dataset during the pre-processing phase. If the pair is present, the
+associated sentence will be processed by the SVM during its
+training. The merged PDDI dataset used for analysis is in the data
+folder (CombinedDatasetNotConservativeAllsources.csv.zip).
 
-1. python nltk_test.py (takes the nonexpert and expert files and turns them into xml)
+# CURRENT USAGE:
+
+-- To test the use of the merged PDDI dataset in the NLP pipeline
+1. Edit the configuration variables in nlptest.properties to configure the database that will host the PDDI data in a table called 'DDI'
+
+2. Edit the configuration variables in nlptest.properties to choose which analysis to run. Options are DrugBank 2011 (trains and tests on DrugBank 2011), DrugBank 2013 (trains and tests on DrugBank 2013), and MedLine 2013 (trains on the combined DrugBank 2013 and Medline 2013 training corpora and test on Medline 2013).  
+
+3. ant WithMergedPDDITest
+
+-- To read XML/RDF files exported from Domeo and turn them into xml then test them
+1. python nltk_test.py ()
 
 2. cd DDI
 

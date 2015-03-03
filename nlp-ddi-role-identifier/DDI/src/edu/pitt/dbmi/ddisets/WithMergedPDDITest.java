@@ -79,7 +79,7 @@ public class WithMergedPDDITest {
 			// Configure the SVM 
 			double c[] = null;
 			double v[] = null;
-			if (test_source_string == "/Test2011/DrugBank"){
+			if (test_source_string == "/Test2011"){
 			    System.out.println("INFO: Using DrugBank 2011 SVM parameter configuration");
 			    double temp_c[]={3,6,2,3,5}; //best C
 			    c = temp_c;
