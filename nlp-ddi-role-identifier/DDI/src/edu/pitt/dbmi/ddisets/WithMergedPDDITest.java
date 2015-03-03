@@ -42,18 +42,30 @@ public class WithMergedPDDITest {
 	private static String input_location = mainlocation + "/DDI_corpora";
 	private static String train_path = "data/train.ser";
 	private static String test_path = "data/test.ser";
-	private static String mixtrainpairs = "data/mixtrainpairs.ser";
 
        // Config for DrugBank 2013 testing 
-       private static String test_pairs_path = "data/testDB2013DDIs.ser";
-       private static String test_source_string = "/Test2013/DrugBank";
-       private static String true_pairs_path = Data.Test_DB2013_path; 
+       // private static String train_source_string = "/Test2013/DrugBank";
+       // private static String test_source_string = "/Test2013/DrugBank"; 
+       // private static String train_pairs_data_path = Data.Train_DB2013_path; 
+       // private static String train_pairs_data = Data.Train_DB2013Pairs;
+       // private static String test_pairs_path = Data.Test_DB2013_path;
+       // private static String test_pairs_data = Data.Test_DB2013Pairs;
+
+       // Config for DrugBank 2011 testing 
+       // private static String train_source_string = "/Train2011/DrugDDI_Unified";
+       // private static String test_source_string = "/Test2011";
+       // private static String train_pairs_data_path = Data.Train_DB2011_path; 
+       // private static String train_pairs_data = Data.Train_DB2011Pairs;
+       // private static String test_pairs_path = Data.Test_DB2011_path;
+       // private static String test_pairs_data = Data.Test_DB2011Pairs;
 
        // Config for MedLine 2013 testing 
-       //private static String test_pairs_path = "data/testML2013DDIs.ser";        
-       //private static String test_source_string = "/Test2013/MedLine";
-       //private static String true_pairs_path = Data.Test_ML2013_path; 
-
+       private static String train_source_string = "/Train2013/CombinedDrugBankMedLine";
+       private static String test_source_string = "/Test2013/MedLine";       
+       private static String train_pairs_data_path = Data.Train_MIX2013_path; 
+       private static String train_pairs_data = Data.Train_MIX2013Pairs;
+       private static String test_pairs_path = Data.Test_ML2013_path;
+       private static String test_pairs_data = Data.Test_ML2013Pairs;
     
 	public WithMergedPDDITest() {
 		converter = new XML2Object();
@@ -66,7 +78,7 @@ public class WithMergedPDDITest {
 	}
 	
 	private void load() {
-		String[] train_source = {input_location + "/Train2013/CombinedDrugBankMedLine"};
+	        String[] train_source = {input_location + train_source_string};
 		String[] test_source = {input_location + test_source_string};
 		System.out.println("---> Reading xml files ...");
 		// Saving training data
@@ -107,21 +119,39 @@ public class WithMergedPDDITest {
 	private void evaluateStart() {
 		try {
 			System.out.println("Evaluation results:\n");
-			// For now, use the SemEval 2013 corpus but
-			// write the feature data locally so we can
-			// play with various components of the system
-			fg.featureGenerator(Data.Train_MIX2013_path, true, false, mixtrainpairs);
-			fg.featureGenerator(test_path, false, false, test_pairs_path);
+			fg.featureGenerator(train_pairs_data_path, true, false, train_pairs_data);
+			fg.featureGenerator(test_pairs_path, false, false, test_pairs_data);
 			
 			Map<String, FeatureData[]> train_data, test_data;
-			train_data = (Map<String, FeatureData[]>) Data.read(mixtrainpairs);
-			test_data = (Map<String, FeatureData[]>) Data.read(test_pairs_path);
+			train_data = (Map<String, FeatureData[]>) Data.read(train_pairs_data);
+			test_data = (Map<String, FeatureData[]>) Data.read(test_pairs_data);
 
 			// Configure the SVM 
-			double c[]={2,4,1,5,1}; //best C
-			double v[] = {0.25, 0.05, 0.15, 0.15, 0.25}; // best gamma
-
-			int true_pairs = countTruePairs(true_pairs_path);
+			double c[] = null;
+			double v[] = null;
+			if (test_source_string == "/Test2011/DrugBank"){
+			    System.out.println("INFO: Using DrugBank 2011 SVM parameter configuration");
+			    double temp_c[]={3,6,2,3,5}; //best C
+			    c = temp_c;
+			    double temp_v[] = {0.05, 0.15, 0.1, 0.05, 0.05}; // best gamma
+			    v = temp_v;
+			} else if (test_source_string == "/Test2013/DrugBank") {
+			    System.out.println("INFO: Using DrugBank 2013 SVM parameter configuration");
+			    double temp_c[]={2,4,1,5,1}; //best C
+			    c = temp_c;
+			    double temp_v[] = {0.25, 0.05, 0.15, 0.15, 0.25}; // best gamma
+			    v = temp_v;
+			} else if (test_source_string == "/Test2013/MedLine"){
+			    System.out.println("INFO: Using MedLine 2013 SVM parameter configuration");
+			    double temp_c[]={1,4,4,2,2}; //best C
+			    c = temp_c;
+			    double temp_v[] = {0.1, 0.05, 0.05, 0.05, 0.05}; // best gamma
+			    v = temp_v;
+			} else {
+			    System.out.println("ERROR: no test_source_string specified - unable to configure the SVM parameters so exiting");
+			    System.exit(1);
+			}
+			int true_pairs = countTruePairs(test_pairs_path);
 
 			evaluate(train_data, test_data, c, v, true_pairs, "test-pk-ddi-bioinf2120");
 		} catch (Exception e) {

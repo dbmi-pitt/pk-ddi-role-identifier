@@ -813,6 +813,7 @@ public class FeatureGenerator {
      */
     public void featureGenerator(String db_path, boolean train, boolean useToken, String out_path) {
 	boolean checkForKnownPDDIs = true;
+	//boolean checkForKnownPDDIs = false;
 
         Map<String, SenData> senMap = readData(db_path); // load sentence data
         outputMap.clear();
@@ -1797,7 +1798,8 @@ public class FeatureGenerator {
 		System.out.println("Not querying - drug 1 and drug 2 are the same: " + ddiPair.arg1.word.toLowerCase());
 		continue;
 	    }
-	    String query = "SELECT object, precipitant FROM DDI WHERE source NOT IN ('DDI-Corpus-2011', 'DDI-Corpus-2013') AND (LOWER(object) = \'" + ddiPair.arg1.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg2.word.toLowerCase() + "\') OR (LOWER(object) = \'" + ddiPair.arg2.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg1.word.toLowerCase() + "\');";
+	    //String query = "SELECT object, precipitant FROM DDI WHERE source NOT IN ('DDI-Corpus-2011', 'DDI-Corpus-2013') AND (LOWER(object) = \'" + ddiPair.arg1.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg2.word.toLowerCase() + "\') OR (LOWER(object) = \'" + ddiPair.arg2.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg1.word.toLowerCase() + "\');";
+	    String query = "SELECT object, precipitant FROM DDI WHERE  (LOWER(object) = \'" + ddiPair.arg1.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg2.word.toLowerCase() + "\') OR (LOWER(object) = \'" + ddiPair.arg2.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg1.word.toLowerCase() + "\');";
 	    System.out.println(query);
 
 	    try {						    				
