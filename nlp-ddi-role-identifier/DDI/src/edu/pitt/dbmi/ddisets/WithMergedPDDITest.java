@@ -35,8 +35,8 @@ public class WithMergedPDDITest {
 	
 	XML2Object converter;
 	FeatureGenerator fg;
-	static HashMap<String, DDIPair> ddiPairMap = new HashMap<String, DDIPair>();
-        static Connection conn = null;       
+    //static HashMap<String, DDIPair> ddiPairMap = new HashMap<String, DDIPair>();
+    //static Connection conn = null;       
 
 	private static String mainlocation = ".";
 	private static String input_location = mainlocation + "/DDI_corpora";
@@ -75,29 +75,29 @@ public class WithMergedPDDITest {
 
 		System.out.println("---> Saving ...done");
 
-		System.out.println("---> Reading xml files to cache DDI pairs ...");
-		File f = new File(input_location + test_source_string);
-		File[] files = f.listFiles();
-                for (File file : files) {
-                    Document doc = converter.loadCorpus(file);
-                    List<Sentence> sens = doc.getSentence();
-                    for (Sentence sen : sens) {
-			SenData senData = converter.preparedData(sen, false);
-			for (DDIPair ddiPair : senData.ddiList){
-			    ddiPairMap.put(ddiPair.id, ddiPair);
-			}
-                    }
-                }
+		//System.out.println("---> Reading xml files to cache DDI pairs ...");
+		// File f = new File(input_location + test_source_string);
+		// File[] files = f.listFiles();
+                // for (File file : files) {
+                //     Document doc = converter.loadCorpus(file);
+                //     List<Sentence> sens = doc.getSentence();
+                //     for (Sentence sen : sens) {
+		// 	SenData senData = converter.preparedData(sen, false);
+		// 	for (DDIPair ddiPair : senData.ddiList){
+		// 	    ddiPairMap.put(ddiPair.id, ddiPair);
+		// 	}
+                //     }
+                // }
 		
-		try {
-		    conn = DriverManager.getConnection("jdbc:mysql://localhost/merged_DDIs?user=mergedPddi&password=pddi");
-		} catch (SQLException ex) {
-		    // handle any errors
-		    System.out.println("SQLException: " + ex.getMessage());
-		    System.out.println("SQLState: " + ex.getSQLState());
-		    System.out.println("VendorError: " + ex.getErrorCode());
-		    System.exit(1);
-		}
+		// try {
+		//     conn = DriverManager.getConnection("jdbc:mysql://localhost/merged_DDIs?user=mergedPddi&password=pddi");
+		// } catch (SQLException ex) {
+		//     // handle any errors
+		//     System.out.println("SQLException: " + ex.getMessage());
+		//     System.out.println("SQLState: " + ex.getSQLState());
+		//     System.out.println("VendorError: " + ex.getErrorCode());
+		//     System.exit(1);
+		// }
 
 		evaluateStart();
 	}
@@ -191,67 +191,67 @@ public class WithMergedPDDITest {
 		    // PK DDI sources). If so, classify this as a "1"
 		    // (i.e., val = 1). The rest of the code will
 		    // calculate the performance. 
-		    System.out.println("FeatureData id:" + dt.id);
-		    if ((type == "clause") && (val == 0)){
-		    	if (ddiPairMap.containsKey(dt.id)){
-		    	    DDIPair ddiPair = (DDIPair) ddiPairMap.get(dt.id);
-		    	    System.out.println(ddiPair.id);
-		    	    System.out.println(ddiPair.arg1.id);
-		    	    System.out.println(ddiPair.arg2.id);
-		    	    System.out.println(ddiPair.arg1.word);
-		    	    System.out.println(ddiPair.arg2.word);
-		    	    System.out.println(ddiPair.ddi);
+		    //System.out.println("FeatureData id:" + dt.id);
+		    // if ((type == "clause") && (val == 0)){
+		    // 	if (ddiPairMap.containsKey(dt.id)){
+		    // 	    DDIPair ddiPair = (DDIPair) ddiPairMap.get(dt.id);
+		    // 	    System.out.println(ddiPair.id);
+		    // 	    System.out.println(ddiPair.arg1.id);
+		    // 	    System.out.println(ddiPair.arg2.id);
+		    // 	    System.out.println(ddiPair.arg1.word);
+		    // 	    System.out.println(ddiPair.arg2.word);
+		    // 	    System.out.println(ddiPair.ddi);
 
-		    	    String query = "SELECT object, precipitant FROM DDI WHERE source NOT IN ('DDI-Corpus-2011', 'DDI-Corpus-2013') AND (LOWER(object) = \'" + ddiPair.arg1.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg2.word.toLowerCase() + "\') OR (LOWER(object) = \'" + ddiPair.arg2.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg1.word.toLowerCase() + "\');";
-		    	    System.out.println(query);
+		    // 	    String query = "SELECT object, precipitant FROM DDI WHERE source NOT IN ('DDI-Corpus-2011', 'DDI-Corpus-2013') AND (LOWER(object) = \'" + ddiPair.arg1.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg2.word.toLowerCase() + "\') OR (LOWER(object) = \'" + ddiPair.arg2.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg1.word.toLowerCase() + "\');";
+		    // 	    System.out.println(query);
 
-		    	    Statement st = conn.createStatement();
-		    	    try {						    				
-		    		ResultSet rs = null;
-		    		if (st.execute(query)){
-		    		    System.out.println("QUERY SUCCEEDED");
-		    		    rs = st.getResultSet();
-		    		} else {
-		    		    System.out.println("QUERY FAILED");
-		    		    System.exit(1);
-		    		}
+		    // 	    Statement st = conn.createStatement();
+		    // 	    try {						    				
+		    // 		ResultSet rs = null;
+		    // 		if (st.execute(query)){
+		    // 		    System.out.println("QUERY SUCCEEDED");
+		    // 		    rs = st.getResultSet();
+		    // 		} else {
+		    // 		    System.out.println("QUERY FAILED");
+		    // 		    System.exit(1);
+		    // 		}
 
-		    		if (rs.first()){
-		    		    System.out.println("QUERY RETURNED RESULT");
-		    		    String object = rs.getString("object");
-		    		    String precipitant = rs.getString("precipitant");
-		    		    System.out.format("%s, %s\n", object, precipitant);			      
-		    		    while (rs.next()){
-		    		     	object = rs.getString("object");
-		    		     	precipitant = rs.getString("precipitant");
-		    		     	System.out.format("%s, %s\n", object, precipitant);
-		    		     }
-		    		    System.out.println("SETTING VAL = 1");
-		    		    val = 1;
-		    		} else {
-		    		    System.out.println("NO RESULT");
-		    		}
+		    // 		if (rs.first()){
+		    // 		    System.out.println("QUERY RETURNED RESULT");
+		    // 		    String object = rs.getString("object");
+		    // 		    String precipitant = rs.getString("precipitant");
+		    // 		    System.out.format("%s, %s\n", object, precipitant);			      
+		    // 		    while (rs.next()){
+		    // 		     	object = rs.getString("object");
+		    // 		     	precipitant = rs.getString("precipitant");
+		    // 		     	System.out.format("%s, %s\n", object, precipitant);
+		    // 		     }
+		    // 		    System.out.println("SETTING VAL = 1");
+		    // 		    val = 1;
+		    // 		} else {
+		    // 		    System.out.println("NO RESULT");
+		    // 		}
 				
-		    		if (rs != null) {
-		    		    try {
-		    			rs.close();
-		    		    } catch (SQLException sqlEx) { } // ignore
-		    		    rs = null;
-		    		}
-		    		if (st != null) {
-		    		    try {
-		    			st.close();
-		    		    } catch (SQLException sqlEx) { } // ignore
-		    		    st = null;
-		    		}
-		    	    } catch (SQLException ex) {
-		    	    	// handle any errors
-		    	    	System.out.println("SQLException: " + ex.getMessage());
-		    	    	System.out.println("SQLState: " + ex.getSQLState());
-		    	    	System.out.println("VendorError: " + ex.getErrorCode());
-		    	    }
-		    	}
-		    }
+		    // 		if (rs != null) {
+		    // 		    try {
+		    // 			rs.close();
+		    // 		    } catch (SQLException sqlEx) { } // ignore
+		    // 		    rs = null;
+		    // 		}
+		    // 		if (st != null) {
+		    // 		    try {
+		    // 			st.close();
+		    // 		    } catch (SQLException sqlEx) { } // ignore
+		    // 		    st = null;
+		    // 		}
+		    // 	    } catch (SQLException ex) {
+		    // 	    	// handle any errors
+		    // 	    	System.out.println("SQLException: " + ex.getMessage());
+		    // 	    	System.out.println("SQLState: " + ex.getSQLState());
+		    // 	    	System.out.println("VendorError: " + ex.getErrorCode());
+		    // 	    }
+		    // 	}
+		    // }
                     if (dt.getLabel() == 1) {
                         if (val == 1) {
                             ltp++; // true positive

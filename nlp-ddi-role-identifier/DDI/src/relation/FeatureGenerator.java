@@ -41,6 +41,12 @@ import utils.FeatureIndex;
 import utils.FeatureData;
 import utils.Lemmatizer;
 
+import java.sql.Connection;
+import java.sql.Statement;
+import java.sql.ResultSet;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 /**
  *
  * @author Chinh
@@ -66,6 +72,8 @@ public class FeatureGenerator {
     Map<String, List<DDIPair>> outputMap = new HashMap<>(); // output of extracted feature
     Lemmatizer lemma = new Lemmatizer(Data.Dictionary_path);
 
+    static Connection conn = null;       
+
     /**
      * Define number of feature vector for each
      */
@@ -81,6 +89,16 @@ public class FeatureGenerator {
         nameMaps.put(out_type[4], np_vector);
         loadTriggers(Data.Trigger_path);
 
+	// set up a connection to the DB of known PDDIs
+	try {
+	    conn = DriverManager.getConnection("jdbc:mysql://localhost/merged_DDIs?user=mergedPddi&password=pddi");
+	} catch (SQLException ex) {
+	    // handle any errors
+	    System.out.println("SQLException: " + ex.getMessage());
+	    System.out.println("SQLState: " + ex.getSQLState());
+	    System.out.println("VendorError: " + ex.getErrorCode());
+	    System.exit(1);
+	}
     }
 
     private boolean between(int begin, int end, int pos) {
@@ -794,6 +812,8 @@ public class FeatureGenerator {
      * @param useToken: for lexical feature; use chunk or token
      */
     public void featureGenerator(String db_path, boolean train, boolean useToken, String out_path) {
+	boolean checkForKnownPDDIs = true;
+
         Map<String, SenData> senMap = readData(db_path); // load sentence data
         outputMap.clear();
         fdataMap.clear();
@@ -813,6 +833,18 @@ public class FeatureGenerator {
         int sen_count = 0, sen_skip_count = 0;
         skip_true_pairs = 0;
         Set<DDIPair> check = new HashSet<>();
+	
+	// set up a connection to the database of known PDDIs
+	try {
+	    conn = DriverManager.getConnection("jdbc:mysql://localhost/merged_DDIs?user=mergedPddi&password=pddi");
+	} catch (SQLException ex) {
+	    // handle any errors
+	    System.out.println("SQLException: " + ex.getMessage());
+	    System.out.println("SQLState: " + ex.getSQLState());
+	    System.out.println("VendorError: " + ex.getErrorCode());
+	    System.exit(1);
+	}
+	
         if (!train && featureMap.isEmpty()) { // load feature map from database
             try {
                 System.out.println("");
@@ -837,13 +869,17 @@ public class FeatureGenerator {
             }
             total += count;
             if (!hasTrigger(currSen.relList)) {
-		//System.out.println("Skipping sentence because no trigger found:\n\t" + currSen.text);
-		//System.out.println("Skipping sentence because no trigger found:\n\t" + currSen.long_text);
-                skip_true_pairs += count;
-                skip_count += currSen.ddiList.size();
-                sen_skip_count++;
-                check.addAll(currSen.ddiList);
-                continue;
+		if (checkForKnownPDDIs && !testForKnownPDDI(currSen.ddiList)){
+		    //System.out.println("Skipping sentence because no trigger found:\n\t" + currSen.text);
+		    System.out.println("Skipping sentence because no trigger found:\n\t" + currSen.long_text);
+		    skip_true_pairs += count;
+		    skip_count += currSen.ddiList.size();
+		    sen_skip_count++;
+		    check.addAll(currSen.ddiList);
+		    continue;
+		} else {
+		    System.out.println("Processing sentences - No trigger found but data for at least one drug pair mentioned is present in the merged PDDI dataset:\n\t" + currSen.long_text);
+		}
             }
             List<Chunk> verbs = findVerbChunk(currSen);
             //loop over list of 'main' verb
@@ -1752,6 +1788,66 @@ public class FeatureGenerator {
 
     private String getDocID(String id) {
         return id.substring(0, id.indexOf(".s"));
+    }
+
+    private boolean testForKnownPDDI(List<DDIPair> ddiList){
+	boolean ddiFound = false;
+	for (DDIPair ddiPair : ddiList) {
+	    if (ddiPair.arg1.word.toLowerCase() == ddiPair.arg2.word.toLowerCase()){
+		System.out.println("Not querying - drug 1 and drug 2 are the same: " + ddiPair.arg1.word.toLowerCase());
+		continue;
+	    }
+	    String query = "SELECT object, precipitant FROM DDI WHERE source NOT IN ('DDI-Corpus-2011', 'DDI-Corpus-2013') AND (LOWER(object) = \'" + ddiPair.arg1.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg2.word.toLowerCase() + "\') OR (LOWER(object) = \'" + ddiPair.arg2.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg1.word.toLowerCase() + "\');";
+	    System.out.println(query);
+
+	    try {						    				
+		Statement st = conn.createStatement();
+		ResultSet rs = null;
+		if (st.execute(query)){
+		    rs = st.getResultSet();
+		} else {
+		    System.exit(1);
+		}
+
+		if (rs.first()){
+		    System.out.println("QUERY RETURNED RESULT");
+		    String object = rs.getString("object");
+		    String precipitant = rs.getString("precipitant");
+		    System.out.format("%s, %s\n", object, precipitant);			      
+		    while (rs.next()){
+			object = rs.getString("object");
+			precipitant = rs.getString("precipitant");
+			System.out.format("%s, %s\n", object, precipitant);
+		    }
+		    System.out.println("SETTING ddiFound = true");
+		    ddiFound =  true;
+		    break;
+		} else {
+		    System.out.println("NO RESULT");
+		    ddiFound = false;
+		}
+				
+		if (rs != null) {
+		    try {
+			rs.close();
+		    } catch (SQLException sqlEx) { } // ignore
+		    rs = null;
+		}
+		if (st != null) {
+		    try {
+			st.close();
+		    } catch (SQLException sqlEx) { } // ignore
+		    st = null;
+		}
+	    } catch (SQLException ex) {
+		// handle any errors
+		System.out.println("SQLException: " + ex.getMessage());
+		System.out.println("SQLState: " + ex.getSQLState());
+		System.out.println("VendorError: " + ex.getErrorCode());
+		System.exit(1);
+	    }
+	}
+	return ddiFound;
     }
 
 
