@@ -1,77 +1,108 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project basedir="." default="build" name="DDI">
-    <property environment="env"/>
-    <property name="debuglevel" value="source,lines,vars"/>
-    <property name="target" value="1.7"/>
-    <property name="source" value="1.7"/>
-    <path id="DDI.classpath">
-        <pathelement location="bin"/>
-        <pathelement location="lib/model/en-chunker.bin"/>
-        <pathelement location="lib/CTAKES.jar"/>
-        <pathelement location="lib/jwnl-1.3.3.jar"/>
-        <pathelement location="lib/libsvm.jar"/>
-        <pathelement location="lib/lingpipe.jar"/>
-        <pathelement location="lib/linnaeus-2.0.jar"/>
-        <pathelement location="lib/log4j-1.2.17.jar"/>
-        <pathelement location="lib/opennlp-maxent-3.0.3.jar"/>
-        <pathelement location="lib/opennlp-tools-1.5.3.jar"/>
-    </path>
-    <target name="init">
-        <mkdir dir="bin"/>
-        <copy includeemptydirs="false" todir="bin">
-            <fileset dir="src">
-                <exclude name="**/*.java"/>
-            </fileset>
-        </copy>
-    </target>
-    <target name="clean">
-        <delete dir="bin"/>
-    </target>
-    <target depends="clean" name="cleanall"/>
-    <target depends="build-subprojects,build-project" name="build"/>
-    <target name="build-subprojects"/>
-    <target depends="init" name="build-project">
-        <echo message="${ant.project.name}: ${ant.file}"/>
-        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
-            <src path="src"/>
-            <classpath refid="DDI.classpath"/>
-        </javac>
-    </target>
-    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
-    <target name="Demo">
-        <java classname="relation.Demo" failonerror="true" fork="yes">
-            <arg line="ML2013"/>
-            <classpath refid="DDI.classpath"/>
-        </java>
-    </target>
-    <target name="New_configuration">
-        <java classname="DDISets" failonerror="true" fork="yes">
-            <classpath refid="DDI.classpath"/>
-        </java>
-    </target>
-    <target name="DDISets" depends="clean,build">
-        <java classname="edu.pitt.dbmi.ddisets.DDISets" failonerror="true" fork="yes">
-            <classpath refid="DDI.classpath"/>
-        </java>
-    </target>
-    <target name="PKTest" depends="clean,build">
-        <java classname="edu.pitt.dbmi.ddisets.PKTest" failonerror="true" fork="yes">
-            <classpath refid="DDI.classpath"/>
-        </java>
-    </target>
-    <target name="DumpChunks" depends="clean,build">
-        <java classname="edu.pitt.dbmi.ddisets.DumpChunks" failonerror="true" fork="yes">
-            <classpath refid="DDI.classpath"/>
-        </java>
-    </target>
-    <target name="DumpChunksPK" depends="clean,build">
-        <java classname="edu.pitt.dbmi.ddisets.DumpChunksPK" failonerror="true" fork="yes">
-          <classpath refid="DDI.classpath"/>
-        </java>
-    </target>
-    <target name="WithMergedPDDITest" depends="clean,build">
-        <java classname="edu.pitt.dbmi.ddisets.WithMergedPDDITest" failonerror="true" fork="yes">
-            <classpath refid="DDI.classpath"/>
-        </java>
-    </target>
+  <property file="nlptest.properties"/>
+  <property environment="env"/>
+  <property name="debuglevel" value="source,lines,vars"/>
+  <property name="target" value="1.7"/>
+  <property name="source" value="1.7"/>
+  <path id="DDI.classpath">
+    <pathelement location="bin"/>
+    <pathelement location="lib/model/en-chunker.bin"/>
+    <pathelement location="lib/CTAKES.jar"/>
+    <pathelement location="lib/jwnl-1.3.3.jar"/>
+    <pathelement location="lib/libsvm.jar"/>
+    <pathelement location="lib/lingpipe.jar"/>
+    <pathelement location="lib/linnaeus-2.0.jar"/>
+    <pathelement location="lib/log4j-1.2.17.jar"/>
+    <pathelement location="lib/opennlp-maxent-3.0.3.jar"/>
+    <pathelement location="lib/opennlp-tools-1.5.3.jar"/>
+  </path>
+  <target name="init">
+    <copy file="src/edu/pitt/dbmi/ddisets/WithMergedPDDITest.java_tmpl"
+	  tofile="src/edu/pitt/dbmi/ddisets/WithMergedPDDITest.java" >
+      <filterchain>
+	<replacetokens>
+	  <token key="trainSourceString" value="${trainSourceString}" />
+	  <token key="testSourceString" value="${testSourceString}" /> 
+	  <token key="trainPairsDataPath" value="${trainPairsDataPath}" />
+	  <token key="trainPairsData" value="${trainPairsData}" />
+	  <token key="testPairsPath" value="${testPairsPath}" />
+	  <token key="testPairsData" value="${testPairsData}" />
+	</replacetokens>
+      </filterchain>
+    </copy>
+    <copy file="src/relation/FeatureGenerator.java_tmpl"
+	  tofile="src/relation/FeatureGenerator.java" >
+      <filterchain>
+	<replacetokens>
+	  <token key="host" value="${host}" />
+	  <token key="schema" value="${schema}" /> 
+	  <token key="user" value="${user}" />
+	  <token key="pw" value="${pw}" />
+	  <token key="checkForKnownPDDIs" value="${checkForKnownPDDIs}" />
+	  <token key="excludeDDICorpi" value="${excludeDDICorpi}" />
+	</replacetokens>
+      </filterchain>
+    </copy>
+    <mkdir dir="bin"/>
+    <copy includeemptydirs="false" todir="bin">
+      <fileset dir="src">
+        <exclude name="**/*.java"/>
+	<exclude name="**/*.java_tmpl"/>
+      </fileset>
+    </copy>
+  </target>
+  <target name="clean">
+    <delete dir="bin"/>
+    <delete file="src/edu/pitt/dbmi/ddisets/WithMergedPDDITest.java" quiet="true" />
+    <delete file="src/relation/FeatureGenerator.java" quiet="true" />
+  </target>
+  <target depends="clean" name="cleanall"/>
+  <target depends="build-subprojects,build-project" name="build" />
+  <target name="build-subprojects"/>
+  <target depends="init" name="build-project">
+    <echo message="${ant.project.name}: ${ant.file}"/>
+    <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+      <src path="src"/>
+      <classpath refid="DDI.classpath"/>
+    </javac>
+  </target>
+  <!-- TODO: re-implement some of the targets below under the new configuration system -->
+  <!-- <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/> -->
+  <!-- <target name="Demo"> -->
+  <!--   <java classname="relation.Demo" failonerror="true" fork="yes"> -->
+  <!--     <arg line="ML2013"/> -->
+  <!--     <classpath refid="DDI.classpath"/> -->
+  <!--   </java> -->
+  <!-- </target> -->
+  <!-- <target name="New_configuration"> -->
+  <!--   <java classname="DDISets" failonerror="true" fork="yes"> -->
+  <!--     <classpath refid="DDI.classpath"/> -->
+  <!--   </java> -->
+  <!-- </target> -->
+  <!-- <target name="DDISets" depends="clean,build"> -->
+  <!--   <java classname="edu.pitt.dbmi.ddisets.DDISets" failonerror="true" fork="yes"> -->
+  <!--     <classpath refid="DDI.classpath"/> -->
+  <!--   </java> -->
+  <!-- </target> -->
+  <!-- <target name="PKTest" depends="clean,build"> -->
+  <!--   <java classname="edu.pitt.dbmi.ddisets.PKTest" failonerror="true" fork="yes"> -->
+  <!--     <classpath refid="DDI.classpath"/> -->
+  <!--   </java> -->
+  <!-- </target> -->
+  <!-- <target name="DumpChunks" depends="clean,build"> -->
+  <!--   <java classname="edu.pitt.dbmi.ddisets.DumpChunks" failonerror="true" fork="yes"> -->
+  <!--     <classpath refid="DDI.classpath"/> -->
+  <!--   </java> -->
+  <!-- </target> -->
+  <!-- <target name="DumpChunksPK" depends="clean,build"> -->
+  <!--   <java classname="edu.pitt.dbmi.ddisets.DumpChunksPK" failonerror="true" fork="yes"> -->
+  <!--     <classpath refid="DDI.classpath"/> -->
+  <!--   </java> -->
+  <!-- </target> -->
+  <target name="WithMergedPDDITest" depends="clean,build">
+    <java classname="edu.pitt.dbmi.ddisets.WithMergedPDDITest" failonerror="true" fork="yes">
+      <classpath refid="DDI.classpath"/>
+    </java>
+  </target>
 </project>

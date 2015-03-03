@@ -36,12 +36,12 @@ public class WithMergedPDDITest {
 	private static String test_path = "data/test.ser";
 
        // Config for testing the value of the merged PDDI dataset  
-       private static String train_source_string = "/Train2013/CombinedDrugBankMedLine";
-       private static String test_source_string = "/Test2013/MedLine";       
-       private static String train_pairs_data_path = Data.Train_MIX2013_path; 
-       private static String train_pairs_data = Data.Train_MIX2013Pairs;
-       private static String test_pairs_path = Data.Test_ML2013_path;
-       private static String test_pairs_data = Data.Test_ML2013Pairs;
+       private static String train_source_string = @trainSourceString@;
+       private static String test_source_string = @testSourceString@;       
+       private static String train_pairs_data_path = @trainPairsDataPath@; 
+       private static String train_pairs_data = @trainPairsData@;
+       private static String test_pairs_path = @testPairsPath@;
+       private static String test_pairs_data = @testPairsData@;
   
 	public WithMergedPDDITest() {
 		converter = new XML2Object();
