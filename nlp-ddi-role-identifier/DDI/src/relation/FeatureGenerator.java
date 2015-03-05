@@ -1801,17 +1801,17 @@ public class FeatureGenerator {
 
     private boolean testForKnownPDDI(List<DDIPair> ddiList){
 	boolean ddiFound = false;
-	boolean excludeDDICorpi = true;
+	boolean excludeDDICorpi = false;
 	for (DDIPair ddiPair : ddiList) {
 	    if (ddiPair.arg1.word.toLowerCase() == ddiPair.arg2.word.toLowerCase()){
 		System.out.println("Not querying - drug 1 and drug 2 are the same: " + ddiPair.arg1.word.toLowerCase());
 		continue;
 	    }
 	    String query = "";
-	    if (excludeDDICorpi){
-		query = "SELECT object, precipitant FROM DDI WHERE source NOT IN ('DDI-Corpus-2011', 'DDI-Corpus-2013') AND (LOWER(object) = \'" + ddiPair.arg1.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg2.word.toLowerCase() + "\') OR (LOWER(object) = \'" + ddiPair.arg2.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg1.word.toLowerCase() + "\');";
+	    if (excludeDDICorpi){ // excludes drugbank and the two SemEval corpora (DDI-Corpus-2011 and DDI-Corpus-2013)
+		query = "SELECT object, precipitant FROM DDI_CONS WHERE source IN ('DIKB', 'NDF-RT', 'NLM-Corpus', 'PK-Corpus', 'ONC-HighPriority', 'ONC-NonInteruptive', 'OSCAR', 'CredibleMeds') AND (LOWER(object) = \'" + ddiPair.arg1.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg2.word.toLowerCase() + "\') OR (LOWER(object) = \'" + ddiPair.arg2.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg1.word.toLowerCase() + "\');";
 	    } else {
-		query = "SELECT object, precipitant FROM DDI WHERE  (LOWER(object) = \'" + ddiPair.arg1.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg2.word.toLowerCase() + "\') OR (LOWER(object) = \'" + ddiPair.arg2.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg1.word.toLowerCase() + "\');";
+		query = "SELECT object, precipitant FROM DDI_CONS WHERE source IN ('DIKB', 'Drugbank', 'NDF-RT', 'DDI-Corpus-2011', 'DDI-Corpus-2013', 'NLM-Corpus', 'PK-Corpus', 'ONC-HighPriority', 'ONC-NonInteruptive', 'OSCAR', 'CredibleMeds') AND (LOWER(object) = \'" + ddiPair.arg1.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg2.word.toLowerCase() + "\') OR (LOWER(object) = \'" + ddiPair.arg2.word.toLowerCase() + "\' AND LOWER(precipitant) = \'" + ddiPair.arg1.word.toLowerCase() + "\');";
 	    }
 	    System.out.println(query);
 

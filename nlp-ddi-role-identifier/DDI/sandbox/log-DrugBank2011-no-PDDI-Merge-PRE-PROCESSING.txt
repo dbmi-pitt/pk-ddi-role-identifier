@@ -29,11 +29,11 @@ WithMergedPDDITest:
      [java] P450 2D6	Loc:	21	30
      [java] Unknown cases ---> :	MAO Inhibitors DURAGESIC? is not recommended for use in patients who have received MAOI within 14 days because severe and unpredictable potentiation by MAO inhibitors has been reported with opioid analgesics
      [java] opioid analgesics	Loc:	190	208
-     [java] Total time:	15
+     [java] Total time:	18
      [java] ---> Writing sendata to disk ....4267 objects ...
      [java] Saving data ... done!
      [java] Source:	./DDI_corpora/Test2011
-     [java] Total time:	4
+     [java] Total time:	5
      [java] ---> Writing sendata to disk ....1539 objects ...
      [java] Saving data ... done!
      [java] ---> Saving ...done
@@ -4823,4 +4823,4 @@ WithMergedPDDITest:
      [java] Precision:	0.6856060606060606	Recall:	0.7192052980132451	Fscore:	0.7020038784744668
 
 BUILD SUCCESSFUL
-Total time: 1 minute 23 seconds
+Total time: 1 minute 35 seconds

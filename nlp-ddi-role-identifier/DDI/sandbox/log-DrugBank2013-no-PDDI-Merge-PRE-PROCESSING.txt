@@ -25,11 +25,11 @@ WithMergedPDDITest:
      [java] Loading parser data....
      [java] Loading data ... done!
      [java] Source:	./DDI_corpora/Train2013/DrugBank
-     [java] Total time:	18
+     [java] Total time:	41
      [java] ---> Writing sendata to disk ....5675 objects ...
      [java] Saving data ... done!
      [java] Source:	./DDI_corpora/Test2013/DrugBank
-     [java] Total time:	3
+     [java] Total time:	7
      [java] ---> Writing sendata to disk ....973 objects ...
      [java] Saving data ... done!
      [java] ---> Saving ...done
@@ -5111,4 +5111,4 @@ WithMergedPDDITest:
      [java] Precision:	0.858682634730539	Recall:	0.8110859728506787	Fscore:	0.8342059336823735
 
 BUILD SUCCESSFUL
-Total time: 1 minute 21 seconds
+Total time: 1 minute 59 seconds
