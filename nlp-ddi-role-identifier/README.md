@@ -25,7 +25,7 @@ folder (CombinedDatasetNotConservativeAllsources.csv.zip).
 # CURRENT USAGE:
 
 -- To test the use of the merged PDDI dataset in the NLP pipeline
-1. Edit the configuration variables in nlptest.properties to configure the database that will host the PDDI data in a table called 'DDI'
+1. Change directory to 'DDI' Edit the configuration variables in nlptest.properties to configure the database using the instructions in DDI/pddi_merge_integration_sandbox
 
 2. Edit the configuration variables in nlptest.properties to choose which analysis to run. Options are DrugBank 2011 (trains and tests on DrugBank 2011), DrugBank 2013 (trains and tests on DrugBank 2013), and MedLine 2013 (trains on the combined DrugBank 2013 and Medline 2013 training corpora and test on Medline 2013).  
 
