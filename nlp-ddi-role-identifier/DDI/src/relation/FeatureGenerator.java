@@ -812,7 +812,7 @@ public class FeatureGenerator {
      * @param useToken: for lexical feature; use chunk or token
      */
     public void featureGenerator(String db_path, boolean train, boolean useToken, String out_path) {
-	boolean checkForKnownPDDIs = true;
+	boolean checkForKnownPDDIs = false;
 
         Map<String, SenData> senMap = readData(db_path); // load sentence data
         outputMap.clear();
@@ -1801,7 +1801,7 @@ public class FeatureGenerator {
 
     private boolean testForKnownPDDI(List<DDIPair> ddiList){
 	boolean ddiFound = false;
-	boolean excludeDDICorpi = false;
+	boolean excludeDDICorpi = true;
 	for (DDIPair ddiPair : ddiList) {
 	    if (ddiPair.arg1.word.toLowerCase() == ddiPair.arg2.word.toLowerCase()){
 		System.out.println("Not querying - drug 1 and drug 2 are the same: " + ddiPair.arg1.word.toLowerCase());
