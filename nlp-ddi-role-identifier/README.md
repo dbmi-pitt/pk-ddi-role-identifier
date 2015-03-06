@@ -19,8 +19,8 @@ We have modified the code from Bui et al. slightly so that it
 integrates to check for the presence of drug pairs within merged PDDI
 dataset during the pre-processing phase. If the pair is present, the
 associated sentence will be processed by the SVM during its
-training. The merged PDDI dataset used for analysis is in the data
-folder (CombinedDatasetNotConservativeAllsources.csv.zip).
+training. The merged PDDI dataset used for analysis is in
+DDI/pddi_merge_integration_sandbox/pddi_merge_integration_sandbox_DATA.zip.
 
 # CURRENT USAGE:
 
