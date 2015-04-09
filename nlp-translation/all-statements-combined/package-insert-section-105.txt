@@ -1,0 +1,41 @@
+12 CLINICAL PHARMACOLOGY
+
+12.1 Mechanism of Action
+
+Conivaptan hydrochloride is a dual arginine vasopressin (AVP) antagonist with nanomolar affinity for human V1A and V2 receptors in vitro. The level of AVP in circulating blood is critical for the regulation of water and electrolyte balance and is usually elevated in both euvolemic and hypervolemic hyponatremia. The AVP effect is mediated through V2 receptors, which are functionally coupled to aquaporin channels in the apical membrane of the collecting ducts of the kidney. These receptors help to maintain plasma osmolality within the normal range. The predominant pharmacodynamic effect of conivaptan hydrochloride in the treatment of hyponatremia is through its V2 antagonism of AVP in the renal collecting ducts, an effect that results in aquaresis, or excretion of free water.
+
+12.2 Pharmacodynamics
+
+The pharmacodynamic effects of conivaptan hydrochloride include increased free water excretion (i.e., effective water clearance [EWC]) generally accompanied by increased net fluid loss, increased urine output, and decreased urine osmolality. Studies in animal models of hyponatremia showed that conivaptan hydrochloride prevented the occurrence of hyponatremia-related physical signs in rats with the syndrome of inappropriate antidiuretic hormone secretion.
+
+Electrophysiology
+
+The effect of VAPRISOL 40 mg IV and 80 mg IV on the QT interval was evaluated after the first dose (Day 1) and at the last day during treatment (Day 4) in a randomized, single-blind, parallel group, placebo- and positive-controlled (moxifloxacin 400 mg IV) study in healthy male and female volunteers aged 18 to 45 years. Digital ECGs were obtained at baseline and on Days 1 and 4. Moxifloxacin elicited placebo-corrected changes from baseline in individualized QT correction (QTcI) of +7 to +10 msec on Days 1 and 4, respectively, indicating that the study had assay sensitivity. The placebo-corrected changes from baseline in QTcI in the VAPRISOL 40 mg and 80 mg dose groups on Day 1 were -3.5 msec and -2.9 msec, respectively, and -2.1 msec for both dose groups on Day 4. The results suggest that conivaptan has no clinically significant effect on cardiac repolarization.
+
+12.3 Pharmacokinetics
+
+The pharmacokinetics of conivaptan have been characterized in healthy subjects, special populations and patients following both oral and intravenous dosing regimens. The pharmacokinetics of conivaptan following intravenous infusion (40 mg/day to 80 mg/day) and oral administration are non-linear, and inhibition by conivaptan of its own metabolism seems to be the major factor for the non-linearity. The intersubject variability of conivaptan pharmacokinetics is high (94% CV in CL).
+
+The pharmacokinetics of conivaptan and its metabolites were characterized in healthy male subjects administered conivaptan hydrochloride as a 20 mg loading dose (infused over 30 minutes) followed by a continuous infusion of 40 mg/day for 3 days. Mean Cmax for conivaptan was 619 ng/mL and occurred at the end of the loading dose. Plasma concentrations reached a minimum at approximately 12 hours after start of the loading dose, then gradually increased over the duration of the infusion to a mean concentration of 188 ng/mL at the end of the infusion. The mean terminal elimination half-life after conivaptan infusion was 5.0 hours, and the mean clearance was 253.3 mL/min.
+
+In an open-label safety and efficacy study, the pharmacokinetics of conivaptan were characterized in hypervolemic or euvolemic hyponatremia patients (ages 20 - 92 years) receiving conivaptan hydrochloride as a 20 mg loading dose (infused over 30 minutes) followed by a continuous infusion of 20 or 40 mg/day for 4 days. The median-plasma conivaptan concentrations are shown in Figure 1. The median (range) elimination half-life was 5.3 (3.3 - 9.3) or 8.1 (4.1 - 22.5) hours in the 20 mg/day or 40 mg/day group, respectively, based on data from rich PK sampling.
+
+Distribution
+
+Conivaptan is extensively bound to human plasma proteins, being 99% bound over the concentration range of approximately 10 to 1000 ng/mL.
+
+Metabolism and Excretion
+
+CYP3A was identified as the sole cytochrome P450 isozyme responsible for the metabolism of conivaptan. Four metabolites have been identified. The pharmacological activity of the metabolites at V1A and V2 receptors ranged from approximately 3-50% and 50-100% that of conivaptan, respectively. The combined exposure of the metabolites following intravenous administration of conivaptan is approximately 7% that of conivaptan and hence, their contribution to the clinical effect of conivaptan is minimal.
+
+After intravenous (10 mg) or oral (20 mg) administration of conivaptan hydrochloride in a mass balance study, approximately 83% of the dose was excreted in feces as total radioactivity and 12% in urine over several days of collection. Over the first 24 hours after dosing, approximately 1% of the intravenous dose was excreted in urine as intact conivaptan.
+
+Special Populations
+
+Hepatic Impairment
+
+The effect of hepatic impairment (including ascites, cirrhosis, or portal hypertension) on the elimination of conivaptan after intravenous administration has not been systematically evaluated. However, increased systemic exposure after oral conivaptan (up to a mean 2.8-fold increase) have been seen in patients with stable cirrhosis and moderate hepatic impairment. In study subjects without hepatic function impairment, VAPRISOL resulted in higher conivaptan exposure than did oral conivaptan [see Warnings and Precautions (5.5) and Use in Specific Populations (8.6)].
+
+Renal Impairment
+
+The effect of renal impairment on the elimination of conivaptan after intravenous administration has not been evaluated. However, following administration of oral conivaptan in patients with renal impairment (CLcr 30 - 60 mL/min or CLcr 10 - 29 mL/min), the AUCs for conivaptan were 70% and 85% higher, respectively, compared to patients with normal renal function. In study subjects without renal impairment, VAPRISOL resulted in higher conivaptan exposure than did oral conivaptan [see Warnings and Precautions (5.6) and Use in Specific Populations (8.7)]. 

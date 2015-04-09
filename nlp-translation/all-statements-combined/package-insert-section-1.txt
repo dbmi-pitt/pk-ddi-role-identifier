@@ -1,0 +1,11 @@
+7 DRUG INTERACTIONS
+
+7.1 Established Drug Interactions
+
+Clinical recommendations based on the results of drug interaction studies are listed in Table 5. Pharmacokinetic results of drug interaction studies are shown in Tables 9 to 12 [see Contraindications (4.1 and 4.2) and Clinical Pharmacology (12.3)].
+
+Exposure to didanosine is increased when coadministered with tenofovir disoproxil fumarate [Table 5 and see Clinical Pharmacokinetics (12.3, Tables 9 and 10)]. Increased exposure may cause or worsen didanosine-related clinical toxicities, including pancreatitis, symptomatic hyperlactatemia/lactic acidosis, and peripheral neuropathy. Coadministration of tenofovir disoproxil fumarate with didanosine delayed-release should be undertaken with caution, and patients should be monitored closely for didanosine-related toxicities and clinical response. Didanosine delayed-release should be suspended if signs or symptoms of pancreatitis, symptomatic hyperlactatemia, or lactic acidosis develop [see Dosage and Administration (2.3), Warnings and Precautions (5)]. Suppression of CD4 cell counts has been observed in patients receiving tenofovir disoproxil fumarate with didanosine at a dose of 400 mg daily.
+
+7.2 Predicted Drug Interactions
+
+Predicted drug interactions with didanosine delayed-release are listed in Table 6.

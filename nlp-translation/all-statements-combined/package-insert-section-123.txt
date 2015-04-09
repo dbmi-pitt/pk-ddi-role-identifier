@@ -1,0 +1,123 @@
+12 CLINICAL PHARMACOLOGY
+
+12.1 Mechanism of Action
+
+Rosiglitazone, a member of the thiazolidinedione class of antidiabetic agents, improves glycemic control by improving insulin sensitivity. Rosiglitazone is a highly selective and potent agonist for the peroxisome proliferator-activated receptor-gamma (PPARγ). In humans, PPAR receptors are found in key target tissues for insulin action such as adipose tissue, skeletal muscle, and liver. Activation of PPARγ nuclear receptors regulates the transcription of insulin-responsive genes involved in the control of glucose production, transport, and utilization. In addition, PPARγ-responsive genes also participate in the regulation of fatty acid metabolism.
+
+Insulin resistance is a common feature characterizing the pathogenesis of type 2 diabetes. The antidiabetic activity of rosiglitazone has been demonstrated in animal models of type 2 diabetes in which hyperglycemia and/or impaired glucose tolerance is a consequence of insulin resistance in target tissues. Rosiglitazone reduces blood glucose concentrations and reduces hyperinsulinemia in the ob/ob obese mouse, db/db diabetic mouse, and fa/fa fatty Zucker rat.
+
+In animal models, the antidiabetic activity of rosiglitazone was shown to be mediated by increased sensitivity to insulin’s action in the liver, muscle, and adipose tissues. Pharmacological studies in animal models indicate that rosiglitazone inhibits hepatic gluconeogenesis. The expression of the insulin-regulated glucose transporter GLUT-4 was increased in adipose tissue. Rosiglitazone did not induce hypoglycemia in animal models of type 2 diabetes and/or impaired glucose tolerance.
+
+12.2 Pharmacodynamics
+
+Patients with lipid abnormalities were not excluded from clinical trials of AVANDIA. In all 26-week controlled trials, across the recommended dose range, AVANDIA as monotherapy was associated with increases in total cholesterol, LDL, and HDL and decreases in free fatty acids. These changes were statistically significantly different from placebo or glyburide controls (Table 7).
+
+Increases in LDL occurred primarily during the first 1 to 2 months of therapy with AVANDIA and LDL levels remained elevated above baseline throughout the trials. In contrast, HDL continued to rise over time. As a result, the LDL/HDL ratio peaked after 2 months of therapy and then appeared to decrease over time. Because of the temporal nature of lipid changes, the 52-week glyburide-controlled study is most pertinent to assess long-term effects on lipids. At baseline, week 26, and week 52, mean LDL/HDL ratios were 3.1, 3.2, and 3.0, respectively, for AVANDIA 4 mg twice daily. The corresponding values for glyburide were 3.2, 3.1, and 2.9. The differences in change from baseline between AVANDIA and glyburide at week 52 were statistically significant.
+
+The pattern of LDL and HDL changes following therapy with AVANDIA in combination with other hypoglycemic agents were generally similar to those seen with AVANDIA in monotherapy.
+
+The changes in triglycerides during therapy with AVANDIA were variable and were generally not statistically different from placebo or glyburide controls.
+
+12.3 Pharmacokinetics
+
+Maximum plasma concentration (Cmax) and the area under the curve (AUC) of rosiglitazone increase in a dose-proportional manner over the therapeutic dose range (Table 8). The elimination half-life is 3 to 4 hours and is independent of dose.
+
+Absorption
+
+The absolute bioavailability of rosiglitazone is 99%. Peak plasma concentrations are observed about 1 hour after dosing. Administration of rosiglitazone with food resulted in no change in overall exposure (AUC), but there was an approximately 28% decrease in Cmax and a delay in Tmax (1.75 hours). These changes are not likely to be clinically significant; therefore, AVANDIA may be administered with or without food.
+
+Distribution
+
+The mean (CV%) oral volume of distribution (Vss/F) of rosiglitazone is approximately 17.6 (30%) liters, based on a population pharmacokinetic analysis. Rosiglitazone is approximately 99.8% bound to plasma proteins, primarily albumin.
+
+Metabolism
+
+Rosiglitazone is extensively metabolized with no unchanged drug excreted in the urine. The major routes of metabolism were N-demethylation and hydroxylation, followed by conjugation with sulfate and glucuronic acid. All the circulating metabolites are considerably less potent than parent and, therefore, are not expected to contribute to the insulin-sensitizing activity of rosiglitazone.
+
+In vitro data demonstrate that rosiglitazone is predominantly metabolized by Cytochrome P450 (CYP) isoenzyme 2C8, with CYP2C9 contributing as a minor pathway.
+
+Excretion
+
+Following oral or intravenous administration of [14C]rosiglitazone maleate, approximately 64% and 23% of the dose was eliminated in the urine and in the feces, respectively. The plasma half-life of [14C]related material ranged from 103 to 158 hours.
+
+Population Pharmacokinetics in Patients With Type 2 Diabetes
+
+Population pharmacokinetic analyses from 3 large clinical trials including 642 men and 405 women with type 2 diabetes (aged 35 to 80 years) showed that the pharmacokinetics of rosiglitazone are not influenced by age, race, smoking, or alcohol consumption. Both oral clearance (CL/F) and oral steady-state volume of distribution (Vss/F) were shown to increase with increases in body weight. Over the weight range observed in these analyses (50 to 150 kg), the range of predicted CL/F and Vss/F values varied by <1.7-fold and <2.3-fold, respectively. Additionally, rosiglitazone CL/F was shown to be influenced by both weight and gender, being lower (about 15%) in female patients.
+
+Special Populations
+
+Geriatric
+
+Results of the population pharmacokinetic analysis (n = 716 <65 years; n = 331 ≥65 years) showed that age does not significantly affect the pharmacokinetics of rosiglitazone.
+
+Gender
+
+Results of the population pharmacokinetics analysis showed that the mean oral clearance of rosiglitazone in female patients (n = 405) was approximately 6% lower compared to male patients of the same body weight (n = 642).
+
+As monotherapy and in combination with metformin, AVANDIA improved glycemic control in both males and females. In metformin combination studies, efficacy was demonstrated with no gender differences in glycemic response.
+
+In monotherapy studies, a greater therapeutic response was observed in females; however, in more obese patients, gender differences were less evident. For a given body mass index (BMI), females tend to have a greater fat mass than males. Since the molecular target PPARγ is expressed in adipose tissues, this differentiating characteristic may account, at least in part, for the greater response to AVANDIA in females. Since therapy should be individualized, no dose adjustments are necessary based on gender alone.
+
+Hepatic Impairment
+
+Unbound oral clearance of rosiglitazone was significantly lower in patients with moderate to severe liver disease (Child-Pugh Class B/C) compared to healthy subjects. As a result, unbound Cmax and AUC0-inf were increased 2- and 3-fold, respectively. Elimination half-life for rosiglitazone was about 2 hours longer in patients with liver disease, compared to healthy subjects.
+
+Therapy with AVANDIA should not be initiated if the patient exhibits clinical evidence of active liver disease or increased serum transaminase levels (ALT >2.5X upper limit of normal) at baseline [see Warnings and Precautions (5.6)].
+
+Pediatric
+
+Pharmacokinetic parameters of rosiglitazone in pediatric patients were established using a population pharmacokinetic analysis with sparse data from 96 pediatric patients in a single pediatric clinical trial including 33 males and 63 females with ages ranging from 10 to 17 years (weights ranging from 35 to 178.3 kg). Population mean CL/F and V/F of rosiglitazone were 3.15 L/hr and 13.5 L, respectively. These estimates of CL/F and V/F were consistent with the typical parameter estimates from a prior adult population analysis.
+
+Renal Impairment
+
+There are no clinically relevant differences in the pharmacokinetics of rosiglitazone in patients with mild to severe renal impairment or in hemodialysis-dependent patients compared to subjects with normal renal function. No dosage adjustment is therefore required in such patients receiving AVANDIA. Since metformin is contraindicated in patients with renal impairment, coadministration of metformin with AVANDIA is contraindicated in these patients.
+
+Race
+
+Results of a population pharmacokinetic analysis including subjects of Caucasian, black, and other ethnic origins indicate that race has no influence on the pharmacokinetics of rosiglitazone.
+
+12.4 Drug-Drug Interactions
+
+Drugs That Inhibit, Induce, or are Metabolized by Cytochrome P450
+
+In vitro drug metabolism studies suggest that rosiglitazone does not inhibit any of the major P450 enzymes at clinically relevant concentrations. In vitro data demonstrate that rosiglitazone is predominantly metabolized by CYP2C8, and to a lesser extent, 2C9. AVANDIA (4 mg twice daily) was shown to have no clinically relevant effect on the pharmacokinetics of nifedipine and oral contraceptives (ethinyl estradiol and norethindrone), which are predominantly metabolized by CYP3A4.
+
+Gemfibrozil
+
+Concomitant administration of gemfibrozil (600 mg twice daily), an inhibitor of CYP2C8, and rosiglitazone (4 mg once daily) for 7 days increased rosiglitazone AUC by 127%, compared to the administration of rosiglitazone (4 mg once daily) alone. Given the potential for dose-related adverse events with rosiglitazone, a decrease in the dose of rosiglitazone may be needed when gemfibrozil is introduced [see Drug Interactions (7.1)].
+
+Rifampin
+
+Rifampin administration (600 mg once a day), an inducer of CYP2C8, for 6 days is reported to decrease rosiglitazone AUC by 66%, compared to the administration of rosiglitazone (8 mg) alone [see Drug Interactions (7.1)].4
+
+Glyburide
+
+AVANDIA (2 mg twice daily) taken concomitantly with glyburide (3.75 to 10 mg/day) for 7 days did not alter the mean steady-state 24-hour plasma glucose concentrations in diabetic patients stabilized on glyburide therapy. Repeat doses of AVANDIA (8 mg once daily) for 8 days in healthy adult Caucasian subjects caused a decrease in glyburide AUC and Cmax of approximately 30%. In Japanese subjects, glyburide AUC and Cmax slightly increased following coadministration of AVANDIA.
+
+Glimepiride
+
+Single oral doses of glimepiride in 14 healthy adult subjects had no clinically significant effect on the steady-state pharmacokinetics of AVANDIA. No clinically significant reductions in glimepiride AUC and Cmax were observed after repeat doses of AVANDIA (8 mg once daily) for 8 days in healthy adult subjects.
+
+Metformin
+
+Concurrent administration of AVANDIA (2 mg twice daily) and metformin (500 mg twice daily) in healthy volunteers for 4 days had no effect on the steady-state pharmacokinetics of either metformin or rosiglitazone.
+
+Acarbose
+
+Coadministration of acarbose (100 mg three times daily) for 7 days in healthy volunteers had no clinically relevant effect on the pharmacokinetics of a single oral dose of AVANDIA.
+
+Digoxin
+
+Repeat oral dosing of AVANDIA (8 mg once daily) for 14 days did not alter the steady-state pharmacokinetics of digoxin (0.375 mg once daily) in healthy volunteers.
+
+Warfarin
+
+Repeat dosing with AVANDIA had no clinically relevant effect on the steady-state pharmacokinetics of warfarin enantiomers.
+
+Ethanol
+
+A single administration of a moderate amount of alcohol did not increase the risk of acute hypoglycemia in type 2 diabetes mellitus patients treated with AVANDIA.
+
+Ranitidine
+
+Pretreatment with ranitidine (150 mg twice daily for 4 days) did not alter the pharmacokinetics of either single oral or intravenous doses of rosiglitazone in healthy volunteers. These results suggest that the absorption of oral rosiglitazone is not altered in conditions accompanied by increases in gastrointestinal pH.

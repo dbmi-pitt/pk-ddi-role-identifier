@@ -1,0 +1,71 @@
+12 CLINICAL PHARMACOLOGY
+
+12.1 Mechanism of Action
+
+Verapamil is a calcium ion influx inhibitor (L-type calcium channel blocker or calcium channel antagonist). Verapamil exerts its pharmacologic effects by selectively inhibiting the transmembrane influx of ionic calcium into arterial smooth muscle as well as in conductile and contractile myocardial cells without altering serum calcium concentrations. Verapamil binding is voltage-dependent with affinity increasing as the vascular smooth muscle membrane potential is reduced. In addition, verapamil binding is frequency dependent and apparent affinity increases with increased frequency of depolarizing stimulus.
+
+The L-type calcium channel is an oligomeric structure consisting of five putative subunits designated alpha-1, alpha-2, beta, tau and epsilon. Biochemical evidence points to separate binding sites for 1, 4-dihydropyridines, phenylalkylamines and the benzothiazepines (all located on the alpha-1 subunit). Although they share a similar mechanism of action, calcium channel blockers represent three heterogeneous categories of drugs with differing vascular-cardiac selectivity ratios.
+
+12.2 Pharmacodynamics
+
+Essential Hypertension
+
+Verapamil produces its antihypertensive effect by a combination of vascular and cardiac effects. It acts as a vasodilator with selectivity for the arterial portion of the peripheral vasculature. As a result the systemic vascular resistance is reduced and usually without orthostatic hypotension or reflex tachycardia. Bradycardia (rate less than 50 beats/min) is uncommon. During isometric or dynamic exercise verapamil does not alter systolic cardiac function in patients with normal ventricular function.
+
+Verapamil does not alter total serum calcium levels. However, one report has suggested that calcium levels above the normal range may alter the therapeutic effect of verapamil.
+
+Verapamil regularly reduces the total systemic resistance (afterload) against which the heart works both at rest and at a given level of exercise by dilating peripheral arterioles.
+
+Electrophysiologic Effects
+
+Electrical activity through the AV node depends, to a significant degree, upon the transmembrane influx of extracellular calcium through the L-type (slow) channel. By decreasing the influx of calcium, verapamil prolongs the effective refractory period within the AV node and slows AV conduction in a rate-related manner.
+
+Normal sinus rhythm is usually not affected, but in patients with sick sinus syndrome, verapamil may interfere with sinus-node impulse generation and may induce sinus arrest or sinoatrial block. Atrioventricular block can occur in patients without preexisting conduction defects [see Warnings and Precautions (5.5)].
+
+Verapamil does not alter the normal atrial action potential or intraventricular conduction time, but depresses amplitude, velocity of depolarization and conduction in depressed atrial fibers. Verapamil may shorten the antegrade effective refractory period of the accessory bypass tract. Acceleration of ventricular rate and/or ventricular fibrillation has been reported in patients with atrial flutter or atrial fibrillation and a coexisting accessory AV pathway following administration of verapamil [see Warnings and Precautions (5.4)].
+
+Verapamil has a local anesthetic action that is 1.6 times that of procaine on an equimolar basis. It is not known whether this action is important at the doses used in man.
+
+Hemodynamics
+
+Verapamil reduces afterload and myocardial contractility. In most patients, including those with organic cardiac disease, the negative inotropic action of verapamil is countered by reduction of afterload and cardiac index remains unchanged. During isometric or dynamic exercise, verapamil does not alter systolic cardiac function in patients with normal ventricular function. In patients with severe left ventricular dysfunction (e.g.,  pulmonary wedge pressure above 20 mm Hg or ejection fraction less than 30%), or in patients taking beta-adrenergic blocking agents or other cardiodepressant drugs, deterioration of ventricular function may occur [see Drug Interactions (7.3)].
+
+Pulmonary Function
+
+Verapamil does not induce bronchoconstriction and, hence, does not impair ventilatory function.
+
+Verapamil has been shown to have either a neutral or relaxant effect on bronchial smooth muscle.
+
+12.3 Pharmacokinetics
+
+Verapamil is administered as a racemic mixture of the R and S enantiomers. The systemic concentrations of R and S enantiomers, as well as overall bioavailability, are dependent upon the route of administration and the rate and extent of release from the dosage forms. Upon oral administration, there is rapid stereoselective biotransformation during the first pass of verapamil through the portal circulation.
+
+Absorption
+
+In a study in five subjects with oral immediate-release verapamil, the systemic bioavailability was from 33% to 65% for the R enantiomer and from 13% to 34% for the S enantiomer. Following oral administration of an immediately releasing formulation every 8 hours in 24 subjects, the relative systemic availability of the S enantiomer compared to the R enantiomer was approximately 13% following a single day's administration and approximately 18% following administration to steady-state. The degree of stereoselectivity of metabolism for verapamil hydrochloride extended-release capsules (PM) was similar to that for the immediate-release formulation. The R and S enantiomers have differing levels of pharmacologic activity. In studies in animals and humans, the S enantiomer has 8 to 20 times the activity of the R enantiomer in slowing AV conduction. In animal studies, the S enantiomer has 15 to 50 times the activity of the R enantiomer in reducing myocardial contractility in isolated blood-perfused dog papillary muscle, respectively, and twice the effect in reducing peripheral resistance. In isolated septa1 strip preparations from five patients, the S enantiomer was 8 times more potent than the R in reducing myocardial contractility. Dose escalation study data indicate that verapamil concentrations increase disproportionally to dose as measured by relative peak plasma concentrations (Cmax) or areas under the plasma concentration vs. time curves (AUC).
+
+Consumption of a high fat meal just prior to dosing in the morning had no effect on the extent of absorption and a modest effect on the rate of absorption from verapamil hydrochloride extended-release capsules (PM). The rate of absorption was not affected by whether the volunteers were supine 2 hours after night-time dosing or nonsupine for 4 hours following morning dosing. Administering verapamil hydrochloride extended-release capsules (PM) in the morning increased the extent of absorption of verapamil and/or decreased the metabolism to norverapamil.
+
+When the contents of the verapamil hydrochloride extended-release capsules (PM) were administered by sprinkling onto one tablespoonful of applesauce, the rate and extent of verapamil absorption were found to be bioequivalent to the same dose when administered as an intact capsule. Similar results were observed with norverapamil.
+
+Distribution
+
+Although some evidence of lack of dose linearity was observed for verapamil hydrochloride extended-release capsules (PM), this non-linearity was enantiomer specific, with the R enantiomer showing the greatest degree of nonlinearity.
+
+Racemic verapamil is released from verapamil hydrochloride extended-release capsules (PM) by diffusion following the gradual solubilization of the water soluble polymer. The rate of solubilization of the water soluble polymer produces a lag period in drug release for approximately 4 to 5 hours. The drug release phase is prolonged with the peak plasma concentration (Cmax) occurring approximately 11 hours after administration. Trough concentrations occur approximately 4 hours after bedtime dosing while the patient is sleeping. Steady-state pharmacokinetics were determined in healthy volunteers. Steady-state concentration is achieved by day 5 of dosing.
+
+In healthy volunteers, following administration of verapamil hydrochloride extended-release capsules (PM) (200 mg per day), steady-state pharmacokinetics of the R and S enantiomers of verapamil is as follows: Mean Cmax of the R isomer was 77.8 ng/ml and 16.8 ng/ml for the S isomer; AUC(0-24h) of the R isomer was 1037 ng•h/ml and 195 ng•h/ml for the S isomer.
+
+In general, bioavailability of verapamil is higher and half-life longer in older (> 65 yrs) subjects. Lean body weight also affects its pharmacokinetics inversely. It was not possible to observe a gender difference in the clinical trials of verapamil hydrochloride extended-release capsules (PM) due to the small sample size. However, there are conflicting data in the literature suggesting that verapamil clearance decreased with age in women to a greater degree than in men.
+
+Metabolism and Excretion
+
+Orally administered verapamil undergoes extensive metabolism in the liver. Verapamil is metabolized by O-demethylation (25%) and N-dealkylation (40%), and is subject to pre-systemic hepatic metabolism with elimination of up to 80% of the dose. The metabolism is mediated by hepatic cytochrome P450, and animal studies have implied that the mono-oxygenase is the specific isoenzyme of the P450 family. Thirteen metabolites have been identified in urine. Norverapamil enantiomers can reach steady-state plasma concentrations approximately equal to those of the enantiomers of the parent drug. For verapamil hydrochloride extended-release capsules (PM), the norverapamil R enantiomer reached steady-state plasma concentrations similar to the verapamil R enantiomer, but the norverapamil S enantiomer concentrations were approximately twice that of the verapamil S enantiomer concentrations. The cardiovascular activity of norverapamil appears to be approximately 20% that of verapamil. Approximately 70% of an administered dose is excreted as metabolites in the urine and 16% or more in the feces within 5 days. About 3% to 4% is excreted in the urine as unchanged drug.
+
+R-verapamil is 94% bound to plasma albumin, while S-verapamil is 88% bound. In addition, R-verapamil is 92% and S-verapamil 86% bound to alpha-1 acid glycoprotein. In patients with hepatic insufficiency, metabolism of immediate-release verapamil is delayed and elimination half-life prolonged up to 14 to 16 hours because of the extensive hepatic metabolism [see Use in Specific Populations (8.6)]. In addition, in these patients there is a reduced first pass effect, and verapamil is more bioavailable. Verapamil clearance values suggest that patients with liver dysfunction may attain therapeutic verapamil plasma concentrations with one third of the oral daily dose required for patients with normal liver function.
+
+After 4 weeks of oral dosing of immediate-release verapamil (120 mg q.i.d.), verapamil and norverapamil levels were noted in the cerebrospinal fluid with estimated partition coefficient of 0.06 for verapamil and 0.04 for norverapamil.
+
+Geriatric Use
+
+The pharmacokinetics of verapamil GITS were studied after 5 consecutive nights of dosing 180 mg in 30 healthy young (19 to 43 years) vs. 30 healthy elderly (65 to 80 years) male and female subjects. Older subjects had significantly higher mean verapamil Cmax, Cmin and AUC(0-24h) compared to younger subjects. Older subjects had mean AUCs that were approximately 1.7 to 2 times higher than those of younger subjects as well as a longer average verapamil t½ (approximately 20 hr vs. 13 hr).

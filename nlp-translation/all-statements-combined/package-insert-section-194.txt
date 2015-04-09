@@ -1,0 +1,45 @@
+7 DRUG INTERACTIONS
+
+7.1 CYP2D6 and CYP3A4 Inhibitors
+
+Drugs that inhibit CYP2D6 (such as desipramine, paroxetine, ritonavir, sertraline) and CYP3A4 (such as ketoconazole, ritonavir, saquinavir, erythromycin, and grapefruit juice) can be expected to cause increased plasma levels of propafenone. The combination of CYP3A4 inhibition and either CYP2D6 deficiency or CYP2D6 inhibition with administration of propafenone may increase the risk of adverse reactions, including proarrhythmia. Therefore, simultaneous use of RYTHMOL SR with both a CYP2D6 inhibitor and a CYP3A4 inhibitor should be avoided [see Warnings and Precautions (5.2) and Dosage and Administration (2)].
+
+Amiodarone
+
+Concomitant administration of propafenone and amiodarone can affect conduction and repolarization and is not recommended.
+
+Cimetidine
+
+Concomitant administration of propafenone immediate release tablets and cimetidine in 12 healthy subjects resulted in a 20% increase in steady-state plasma concentrations of propafenone.
+
+Fluoxetine
+
+Concomitant administration of propafenone and fluoxetine in extensive metabolizers increased the S propafenone Cmax and AUC by 39 and 50% and the R propafenone Cmax and AUC by 71 and 50%.
+
+Quinidine
+
+Small doses of quinidine completely inhibit the CYP2D6 hydroxylation metabolic pathway, making all patients, in effect, slow metabolizers [see Clinical Pharmacology (12)]. Concomitant administration of quinidine (50 mg three times daily) with 150 mg immediate-release propafenone three times daily decreased the clearance of propafenone by 60% in EM, making them PM. Steady-state plasma concentrations increased by more that 2-fold for propafenone, and decreased 50% for 5OH-propafenone. A 100 mg dose of quinidine increased steady state concentrations of propafenone 3-fold. Avoid concomitant use of propafenone and quinidine.
+
+Rifampin
+
+Concomitant administration of rifampin and propafenone in extensive metabolizers decreased the plasma concentrations of propafenone by 67% with a corresponding decrease of 5OH-propafenone by 65%. The concentrations of norpropafenone increased by 30%. In poor metabolizers, there was a 50% decrease in propafenone plasma concentrations and increased the AUC and Cmax of norpropafenone by 74 and 20%, respectively. Urinary excretion of propafenone and its metabolites decreased significantly. Similar results were noted in elderly patients: Both the AUC and Cmax propafenone decreased by 84%, with a corresponding decrease in AUC and Cmax of 5OH-propafenone by 69 and 57%.
+
+7.2 Digoxin
+
+Concomitant use of propafenone and digoxin increased steady-state serum digoxin exposure (AUC) in patients by 60 to 270%, and decreased the clearance of digoxin by 31 to 67%. Monitor plasma digoxin levels of patients receiving propafenone and adjust digoxin dosage as needed.
+
+7.3 Warfarin
+
+The concomitant administration of propafenone and warfarin increased warfarin plasma concentrations at steady state by 39% in healthy volunteers and prolonged the prothrombin time (PT) in patients taking warfarin. Adjust the warfarin dose as needed by monitoring INR (international normalized ratio).
+
+7.4 Orlistat
+
+Orlistat may limit the fraction of propafenone available for absorption. In post marketing reports, abrupt cessation of orlistat in patients stabilized on propafenone has resulted in severe adverse events including convulsions, atrioventricular block and acute circulatory failure.
+
+7.5 Beta-Antagonists
+
+Concomitant use of propafenone and propranolol in healthy subjects increased propranolol plasma concentrations at steady state by 113%. In 4 patients, administration of metoprolol with propafenone increased the metoprolol plasma concentrations at steady state by 100-400%. The pharmacokinetics of propafenone was not affected by the coadministration of either propranolol or metoprolol. In clinical trials using propafenone immediate release tablets, patients who were receiving beta-blockers concurrently did not experience an increased incidence of side effects.
+
+7.6 Lidocaine
+
+No significant effects on the pharmacokinetics of propafenone or lidocaine have been seen following their concomitant use in patients. However, concomitant use of propafenone and lidocaine has been reported to increase the risks of central nervous system side effects of lidocaine.

@@ -1,0 +1,3 @@
+Voriconazole
+
+Repeat dose administration of oral voriconazole (400mg Q12h for 1 day, then 200mg Q12h for 4 days) increased the Cmax and AUC of (R)-methadone by 31% and 47%, respectively, in subjects receiving a methadone maintenance dose (30 to 100 mg QD). The Cmax and AUC of (S)-methadone increased by 65% and 103%, respectively. Increased plasma concentrations of methadone have been associated with toxicity including QT prolongation. Frequent monitoring for adverse events and toxicity related to methadone is recommended during coadministration. Dose reduction of methadone may be needed.

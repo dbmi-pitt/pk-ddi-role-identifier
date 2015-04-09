@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="DrugDDI.d63" origId="Amiodarone">
+	<sentence id="DrugDDI.d63.s0" origId="s0" text="Amiodarone is metabolized to desethylamiodarone by the cytochrome P450 (CYP450) enzyme group, specifically cytochromes P450 3A4 (CYP3A4) and CYP2C8.">
+		<entity id="DrugDDI.d63.s0.e0" origId="s0.p0" charOffset="0-10" type="drug" text="Amiodarone"/>
+		<entity id="DrugDDI.d63.s0.e1" origId="s0.p3" charOffset="29-47" type="drug" text="desethylamiodarone"/>
+		<entity id="DrugDDI.d63.s0.e2" origId="s0.p4" charOffset="55-70" type="drug" text="cytochrome P450"/>
+		<entity id="DrugDDI.d63.s0.e3" origId="s0.p9" charOffset="107-128" type="drug" text="cytochromes P450 3A4"/>
+		<entity id="DrugDDI.d63.s0.e4" origId="s0.p11" charOffset="129-135" type="drug" text="CYP3A4"/>
+		<entity id="DrugDDI.d63.s0.e5" origId="s0.p14" charOffset="141-147" type="drug" text="CYP2C8"/>
+		<pair id="DrugDDI.d63.s0.p0" e1="DrugDDI.d63.s0.e0" e2="DrugDDI.d63.s0.e1" interaction="?"/>
+		<pair id="DrugDDI.d63.s0.p1" e1="DrugDDI.d63.s0.e0" e2="DrugDDI.d63.s0.e2" interaction="?"/>
+	</sentence>
+</document>
+
+
+<entity id="DrugDDI.d63.s0.e0" origId="s0.p0" charOffset="0-10" type="drug" 
+text="tenofovir" precipitantType="Active ingredient" objectType="Active ingredient" 
+metaboliteActiveIngredient="diazepam" modality="positive/negative" 
+interactionPhraseType="..." />
