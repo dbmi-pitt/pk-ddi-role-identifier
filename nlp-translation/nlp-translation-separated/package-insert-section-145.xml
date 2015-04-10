@@ -1,0 +1,26 @@
+
+<document id="DBMI.pac145" origId="pac145">
+	<sentence id="DBMI.pac145.s0" origId="s0" text="Valproate: Available data suggest that there is no significant effect of valproate on the clearance of Felbatol at steady-state.">
+		<entity charOffset="73-83" id="DBMI.pac145.s0.e0" origId="s0.e0" text="valproate " type="Active ingredient"/>
+		<entity charOffset="103-112" id="DBMI.pac145.s0.e1" origId="s0.e1" text="Felbatol " type="Drug product"/>
+		<pair e1="DBMI.pac145.s0.e0" e2="DBMI.pac145.s0.e1" id="DBMI.pac145.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="Felbatol " precipitant="valproate "/>
+		<pair e1="DBMI.pac145.s0.e1" e2="DBMI.pac145.s0.e0" id="DBMI.pac145.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac145.s1" origId="s1" text="Therefore, the addition of valproate is not expected to cause a clinically important effect on Felbatol (felbamate) plasma concentrations.">
+		<entity charOffset="157-167" id="DBMI.pac145.s1.e0" origId="s1.e0" text="valproate " type="Active ingredient"/>
+		<entity charOffset="236-246" id="DBMI.pac145.s1.e1" origId="s1.e1" text="felbamate " type="Active ingredient"/>
+		<pair e1="DBMI.pac145.s1.e0" e2="DBMI.pac145.s1.e1" id="DBMI.pac145.s1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="felbamate " precipitant="valproate "/>
+		<pair e1="DBMI.pac145.s1.e1" e2="DBMI.pac145.s1.e0" id="DBMI.pac145.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac145.sp0" origId="sp0" text="Valproate: Available data suggest that there is no significant effect of valproate on the clearance of Felbatol at steady-state. Therefore, the addition of valproate is not expected to cause a clinically important effect on Felbatol (felbamate) plasma concentrations.">
+		<entity charOffset="157-167" id="DBMI.pac145.sp0.e0" origId="sp0.e0" text="valproate " type="Active ingredient"/>
+		<entity charOffset="236-246" id="DBMI.pac145.sp0.e1" origId="sp0.e1" text="felbamate " type="Active ingredient"/>
+		<entity charOffset="103-112" id="DBMI.pac145.sp0.e2" origId="sp0.e2" text="Felbatol " type="Drug product"/>
+		<pair e1="DBMI.pac145.sp0.e0" e2="DBMI.pac145.sp0.e1" id="DBMI.pac145.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="felbamate " precipitant="valproate "/>
+		<pair e1="DBMI.pac145.sp0.e0" e2="DBMI.pac145.sp0.e2" id="DBMI.pac145.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="Felbatol " precipitant="valproate "/>
+		<pair e1="DBMI.pac145.sp0.e1" e2="DBMI.pac145.sp0.e0" id="DBMI.pac145.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac145.sp0.e1" e2="DBMI.pac145.sp0.e2" id="DBMI.pac145.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac145.sp0.e2" e2="DBMI.pac145.sp0.e0" id="DBMI.pac145.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac145.sp0.e2" e2="DBMI.pac145.sp0.e1" id="DBMI.pac145.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

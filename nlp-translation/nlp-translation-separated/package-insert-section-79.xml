@@ -1,0 +1,16 @@
+
+<document id="DBMI.pac79" origId="pac79">
+	<sentence id="DBMI.pac79.s0" origId="s0" text="Administration of 40 mg/day citalopram for 21 days did not affect the pharmacokinetics of warfarin, a CYP3A4 substrate.">
+		<entity charOffset="28-39" id="DBMI.pac79.s0.e0" origId="s0.e0" text="citalopram " type="Active ingredient"/>
+		<entity charOffset="90-99" id="DBMI.pac79.s0.e1" origId="s0.e1" text="warfarin " type="Active ingredient"/>
+		<pair e1="DBMI.pac79.s0.e0" e2="DBMI.pac79.s0.e1" id="DBMI.pac79.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="warfarin " precipitant="citalopram "/>
+		<pair e1="DBMI.pac79.s0.e1" e2="DBMI.pac79.s0.e0" id="DBMI.pac79.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac79.s1" origId="s1" text="Prothrombin time was increased by 5%, the clinical significance of which is unknown."/>
+	<sentencespan id="DBMI.pac79.sp0" origId="sp0" text="Administration of 40 mg/day citalopram for 21 days did not affect the pharmacokinetics of warfarin, a CYP3A4 substrate. Prothrombin time was increased by 5%, the clinical significance of which is unknown.">
+		<entity charOffset="28-39" id="DBMI.pac79.sp0.e0" origId="sp0.e0" text="citalopram " type="Active ingredient"/>
+		<entity charOffset="90-99" id="DBMI.pac79.sp0.e1" origId="sp0.e1" text="warfarin " type="Active ingredient"/>
+		<pair e1="DBMI.pac79.sp0.e0" e2="DBMI.pac79.sp0.e1" id="DBMI.pac79.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="warfarin " precipitant="citalopram "/>
+		<pair e1="DBMI.pac79.sp0.e1" e2="DBMI.pac79.sp0.e0" id="DBMI.pac79.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

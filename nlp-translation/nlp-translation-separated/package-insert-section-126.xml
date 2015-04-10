@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac126" origId="pac126">
+	<sentence id="DBMI.pac126.s0" origId="s0" text="The mean Cmax and AUC of nifedipine are increased by 64% and 79%, respectively, by co-administration of propranolol.">
+		<entity charOffset="104-116" id="DBMI.pac126.s0.e0" origId="s0.e0" text="propranolol " type="Active ingredient"/>
+		<entity charOffset="25-36" id="DBMI.pac126.s0.e1" origId="s0.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac126.s0.e0" e2="DBMI.pac126.s0.e1" id="DBMI.pac126.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="propranolol "/>
+		<pair e1="DBMI.pac126.s0.e1" e2="DBMI.pac126.s0.e0" id="DBMI.pac126.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac126.sp0" origId="sp0" text="The mean Cmax and AUC of nifedipine are increased by 64% and 79%, respectively, by co-administration of propranolol.">
+		<entity charOffset="104-116" id="DBMI.pac126.sp0.e0" origId="sp0.e0" text="propranolol " type="Active ingredient"/>
+		<entity charOffset="25-36" id="DBMI.pac126.sp0.e1" origId="sp0.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac126.sp0.e0" e2="DBMI.pac126.sp0.e1" id="DBMI.pac126.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="propranolol "/>
+		<pair e1="DBMI.pac126.sp0.e1" e2="DBMI.pac126.sp0.e0" id="DBMI.pac126.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

@@ -1,0 +1,17 @@
+
+<document id="DBMI.pac81" origId="pac81">
+	<sentence id="DBMI.pac81.s0" origId="s0" text="Administration of 40 mg/day citalopram for 22 days resulted in a two-fold increase in the plasma levels of the beta-adrenergic blocker metoprolol.">
+		<entity charOffset="28-39" id="DBMI.pac81.s0.e0" origId="s0.e0" text="citalopram " type="Active ingredient"/>
+		<entity charOffset="135-146" id="DBMI.pac81.s0.e1" origId="s0.e1" text="metoprolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac81.s0.e0" e2="DBMI.pac81.s0.e1" id="DBMI.pac81.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="metoprolol " precipitant="citalopram "/>
+		<pair e1="DBMI.pac81.s0.e1" e2="DBMI.pac81.s0.e0" id="DBMI.pac81.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac81.s1" origId="s1" text="Increased metoprolol plasma levels have been associated with decreased cardioselectivity."/>
+	<sentence id="DBMI.pac81.s2" origId="s2" text="Coadministration of citalopram and metoprolol had no clinically significant effects on blood pressure or heart rate."/>
+	<sentencespan id="DBMI.pac81.sp0" origId="sp0" text="Administration of 40 mg/day citalopram for 22 days resulted in a two-fold increase in the plasma levels of the beta-adrenergic blocker metoprolol. Increased metoprolol plasma levels have been associated with decreased cardioselectivity. Coadministration of citalopram and metoprolol had no clinically significant effects on blood pressure or heart rate.">
+		<entity charOffset="28-39" id="DBMI.pac81.sp0.e0" origId="sp0.e0" text="citalopram " type="Active ingredient"/>
+		<entity charOffset="135-146" id="DBMI.pac81.sp0.e1" origId="sp0.e1" text="metoprolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac81.sp0.e0" e2="DBMI.pac81.sp0.e1" id="DBMI.pac81.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="metoprolol " precipitant="citalopram "/>
+		<pair e1="DBMI.pac81.sp0.e1" e2="DBMI.pac81.sp0.e0" id="DBMI.pac81.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

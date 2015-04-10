@@ -1,0 +1,90 @@
+
+<document id="DBMI.pac94" origId="pac94">
+	<sentence id="DBMI.pac94.s0" origId="s0" text="Compounds that are potent inhibitors of CYP3A would be expected to increase plasma alprazolam concentrations."/>
+	<sentence id="DBMI.pac94.s1" origId="s1" text="Drug products that have been studied in vivo, along with their effect on increasing alprazolam AUC, are as follows: ketoconazole, 3.98 fold; itraconazole, 2.70 fold; nefazodone, 1.98 fold; fluvoxamine, 1.96 fold; and erythromycin, 1.61 fold (see CONTRAINDICATIONS, WARNINGS, and PRECAUTIONS, Drug Interactions ). ">
+		<entity charOffset="226-239" id="DBMI.pac94.s1.e0" origId="s1.e0" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="194-205" id="DBMI.pac94.s1.e1" origId="s1.e1" text="alprazolam " type="Active ingredient"/>
+		<entity charOffset="251-264" id="DBMI.pac94.s1.e2" origId="s1.e2" text="itraconazole " type="Active ingredient"/>
+		<entity charOffset="276-287" id="DBMI.pac94.s1.e3" origId="s1.e3" text="nefazodone " type="Active ingredient"/>
+		<entity charOffset="299-311" id="DBMI.pac94.s1.e4" origId="s1.e4" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="327-340" id="DBMI.pac94.s1.e5" origId="s1.e5" text="erythromycin " type="Active ingredient"/>
+		<pair e1="DBMI.pac94.s1.e0" e2="DBMI.pac94.s1.e1" id="DBMI.pac94.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac94.s1.e0" e2="DBMI.pac94.s1.e1" id="DBMI.pac94.s1.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac94.s1.e0" e2="DBMI.pac94.s1.e2" id="DBMI.pac94.s1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e0" e2="DBMI.pac94.s1.e3" id="DBMI.pac94.s1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e0" e2="DBMI.pac94.s1.e4" id="DBMI.pac94.s1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e0" e2="DBMI.pac94.s1.e5" id="DBMI.pac94.s1.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e1" e2="DBMI.pac94.s1.e0" id="DBMI.pac94.s1.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e1" e2="DBMI.pac94.s1.e2" id="DBMI.pac94.s1.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e1" e2="DBMI.pac94.s1.e3" id="DBMI.pac94.s1.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e1" e2="DBMI.pac94.s1.e4" id="DBMI.pac94.s1.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e1" e2="DBMI.pac94.s1.e5" id="DBMI.pac94.s1.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e2" e2="DBMI.pac94.s1.e0" id="DBMI.pac94.s1.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e2" e2="DBMI.pac94.s1.e1" id="DBMI.pac94.s1.p12" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="itraconazole "/>
+		<pair e1="DBMI.pac94.s1.e2" e2="DBMI.pac94.s1.e1" id="DBMI.pac94.s1.p13" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="itraconazole "/>
+		<pair e1="DBMI.pac94.s1.e2" e2="DBMI.pac94.s1.e3" id="DBMI.pac94.s1.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e2" e2="DBMI.pac94.s1.e4" id="DBMI.pac94.s1.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e2" e2="DBMI.pac94.s1.e5" id="DBMI.pac94.s1.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e3" e2="DBMI.pac94.s1.e0" id="DBMI.pac94.s1.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e3" e2="DBMI.pac94.s1.e1" id="DBMI.pac94.s1.p18" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="nefazodone "/>
+		<pair e1="DBMI.pac94.s1.e3" e2="DBMI.pac94.s1.e1" id="DBMI.pac94.s1.p19" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="nefazodone "/>
+		<pair e1="DBMI.pac94.s1.e3" e2="DBMI.pac94.s1.e2" id="DBMI.pac94.s1.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e3" e2="DBMI.pac94.s1.e4" id="DBMI.pac94.s1.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e3" e2="DBMI.pac94.s1.e5" id="DBMI.pac94.s1.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e4" e2="DBMI.pac94.s1.e0" id="DBMI.pac94.s1.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e4" e2="DBMI.pac94.s1.e1" id="DBMI.pac94.s1.p24" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac94.s1.e4" e2="DBMI.pac94.s1.e1" id="DBMI.pac94.s1.p25" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac94.s1.e4" e2="DBMI.pac94.s1.e2" id="DBMI.pac94.s1.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e4" e2="DBMI.pac94.s1.e3" id="DBMI.pac94.s1.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e4" e2="DBMI.pac94.s1.e5" id="DBMI.pac94.s1.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e5" e2="DBMI.pac94.s1.e0" id="DBMI.pac94.s1.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e5" e2="DBMI.pac94.s1.e1" id="DBMI.pac94.s1.p30" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="erythromycin "/>
+		<pair e1="DBMI.pac94.s1.e5" e2="DBMI.pac94.s1.e1" id="DBMI.pac94.s1.p31" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="erythromycin "/>
+		<pair e1="DBMI.pac94.s1.e5" e2="DBMI.pac94.s1.e2" id="DBMI.pac94.s1.p32" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e5" e2="DBMI.pac94.s1.e3" id="DBMI.pac94.s1.p33" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.s1.e5" e2="DBMI.pac94.s1.e4" id="DBMI.pac94.s1.p34" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac94.sp0" origId="sp0" text="Compounds that are potent inhibitors of CYP3A would be expected to increase plasma alprazolam concentrations. Drug products that have been studied in vivo, along with their effect on increasing alprazolam AUC, are as follows: ketoconazole, 3.98 fold; itraconazole, 2.70 fold; nefazodone, 1.98 fold; fluvoxamine, 1.96 fold; and erythromycin, 1.61 fold (see CONTRAINDICATIONS, WARNINGS, and PRECAUTIONS, Drug Interactions ). ">
+		<entity charOffset="226-239" id="DBMI.pac94.sp0.e0" origId="sp0.e0" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="194-205" id="DBMI.pac94.sp0.e1" origId="sp0.e1" text="alprazolam " type="Active ingredient"/>
+		<entity charOffset="251-264" id="DBMI.pac94.sp0.e2" origId="sp0.e2" text="itraconazole " type="Active ingredient"/>
+		<entity charOffset="276-287" id="DBMI.pac94.sp0.e3" origId="sp0.e3" text="nefazodone " type="Active ingredient"/>
+		<entity charOffset="299-311" id="DBMI.pac94.sp0.e4" origId="sp0.e4" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="327-340" id="DBMI.pac94.sp0.e5" origId="sp0.e5" text="erythromycin " type="Active ingredient"/>
+		<pair e1="DBMI.pac94.sp0.e0" e2="DBMI.pac94.sp0.e1" id="DBMI.pac94.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac94.sp0.e0" e2="DBMI.pac94.sp0.e1" id="DBMI.pac94.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac94.sp0.e0" e2="DBMI.pac94.sp0.e2" id="DBMI.pac94.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e0" e2="DBMI.pac94.sp0.e3" id="DBMI.pac94.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e0" e2="DBMI.pac94.sp0.e4" id="DBMI.pac94.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e0" e2="DBMI.pac94.sp0.e5" id="DBMI.pac94.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e1" e2="DBMI.pac94.sp0.e0" id="DBMI.pac94.sp0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e1" e2="DBMI.pac94.sp0.e2" id="DBMI.pac94.sp0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e1" e2="DBMI.pac94.sp0.e3" id="DBMI.pac94.sp0.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e1" e2="DBMI.pac94.sp0.e4" id="DBMI.pac94.sp0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e1" e2="DBMI.pac94.sp0.e5" id="DBMI.pac94.sp0.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e2" e2="DBMI.pac94.sp0.e0" id="DBMI.pac94.sp0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e2" e2="DBMI.pac94.sp0.e1" id="DBMI.pac94.sp0.p12" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="itraconazole "/>
+		<pair e1="DBMI.pac94.sp0.e2" e2="DBMI.pac94.sp0.e1" id="DBMI.pac94.sp0.p13" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="itraconazole "/>
+		<pair e1="DBMI.pac94.sp0.e2" e2="DBMI.pac94.sp0.e3" id="DBMI.pac94.sp0.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e2" e2="DBMI.pac94.sp0.e4" id="DBMI.pac94.sp0.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e2" e2="DBMI.pac94.sp0.e5" id="DBMI.pac94.sp0.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e3" e2="DBMI.pac94.sp0.e0" id="DBMI.pac94.sp0.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e3" e2="DBMI.pac94.sp0.e1" id="DBMI.pac94.sp0.p18" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="nefazodone "/>
+		<pair e1="DBMI.pac94.sp0.e3" e2="DBMI.pac94.sp0.e1" id="DBMI.pac94.sp0.p19" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="nefazodone "/>
+		<pair e1="DBMI.pac94.sp0.e3" e2="DBMI.pac94.sp0.e2" id="DBMI.pac94.sp0.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e3" e2="DBMI.pac94.sp0.e4" id="DBMI.pac94.sp0.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e3" e2="DBMI.pac94.sp0.e5" id="DBMI.pac94.sp0.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e4" e2="DBMI.pac94.sp0.e0" id="DBMI.pac94.sp0.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e4" e2="DBMI.pac94.sp0.e1" id="DBMI.pac94.sp0.p24" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac94.sp0.e4" e2="DBMI.pac94.sp0.e1" id="DBMI.pac94.sp0.p25" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac94.sp0.e4" e2="DBMI.pac94.sp0.e2" id="DBMI.pac94.sp0.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e4" e2="DBMI.pac94.sp0.e3" id="DBMI.pac94.sp0.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e4" e2="DBMI.pac94.sp0.e5" id="DBMI.pac94.sp0.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e5" e2="DBMI.pac94.sp0.e0" id="DBMI.pac94.sp0.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e5" e2="DBMI.pac94.sp0.e1" id="DBMI.pac94.sp0.p30" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="erythromycin "/>
+		<pair e1="DBMI.pac94.sp0.e5" e2="DBMI.pac94.sp0.e1" id="DBMI.pac94.sp0.p31" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="erythromycin "/>
+		<pair e1="DBMI.pac94.sp0.e5" e2="DBMI.pac94.sp0.e2" id="DBMI.pac94.sp0.p32" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e5" e2="DBMI.pac94.sp0.e3" id="DBMI.pac94.sp0.p33" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac94.sp0.e5" e2="DBMI.pac94.sp0.e4" id="DBMI.pac94.sp0.p34" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

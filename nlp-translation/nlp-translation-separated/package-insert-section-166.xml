@@ -1,0 +1,16 @@
+
+<document id="DBMI.pac166" origId="pac166">
+	<sentence id="DBMI.pac166.s0" origId="s0" text="Penicillins may reduce the renal clearance of methotrexate; increased serum concentrations of methotrexate with concomitant hematologic and gastrointestinal toxicity have been observed with methotrexate.">
+		<entity charOffset="0-11" id="DBMI.pac166.s0.e0" origId="s0.e0" text="Penicillin " type="Active ingredient"/>
+		<entity charOffset="46-59" id="DBMI.pac166.s0.e1" origId="s0.e1" text="methotrexate " type="Active ingredient"/>
+		<pair e1="DBMI.pac166.s0.e0" e2="DBMI.pac166.s0.e1" id="DBMI.pac166.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="methotrexate " precipitant="Penicillin "/>
+		<pair e1="DBMI.pac166.s0.e1" e2="DBMI.pac166.s0.e0" id="DBMI.pac166.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac166.s1" origId="s1" text="Use of methotrexate with penicillins should be carefully monitored."/>
+	<sentencespan id="DBMI.pac166.sp0" origId="sp0" text="Penicillins may reduce the renal clearance of methotrexate; increased serum concentrations of methotrexate with concomitant hematologic and gastrointestinal toxicity have been observed with methotrexate. Use of methotrexate with penicillins should be carefully monitored.">
+		<entity charOffset="0-11" id="DBMI.pac166.sp0.e0" origId="sp0.e0" text="Penicillin " type="Active ingredient"/>
+		<entity charOffset="46-59" id="DBMI.pac166.sp0.e1" origId="sp0.e1" text="methotrexate " type="Active ingredient"/>
+		<pair e1="DBMI.pac166.sp0.e0" e2="DBMI.pac166.sp0.e1" id="DBMI.pac166.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="methotrexate " precipitant="Penicillin "/>
+		<pair e1="DBMI.pac166.sp0.e1" e2="DBMI.pac166.sp0.e0" id="DBMI.pac166.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

@@ -1,0 +1,17 @@
+
+<document id="DBMI.pac14" origId="pac14">
+	<sentence id="DBMI.pac14.s0" origId="s0" text="In a controlled study of a single dose (2 mg) of pimozide, 200 mg sertraline (q.d.)co-adminis-tration to steady state was associated with a mean increase in pimozide AUC and C max of about 40%, but was not associated with any changes in EKG.">
+		<entity charOffset="66-77" id="DBMI.pac14.s0.e0" origId="s0.e0" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="49-58" id="DBMI.pac14.s0.e1" origId="s0.e1" text="pimozide " type="Active ingredient"/>
+		<pair e1="DBMI.pac14.s0.e0" e2="DBMI.pac14.s0.e1" id="DBMI.pac14.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="pimozide " precipitant="sertraline "/>
+		<pair e1="DBMI.pac14.s0.e1" e2="DBMI.pac14.s0.e0" id="DBMI.pac14.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac14.s1" origId="s1" text="Since the highest recommended pimozide dose (10 mg) has not been evaluated in combination with sertraline, the effect on QT interval and PK parameters at doses higher than 2 mg at this time are not known."/>
+	<sentence id="DBMI.pac14.s2" origId="s2" text="While the mechanism of this interaction is unknown, due to the narrow therapeutic index of pimozide and due to the interaction noted at a low dose of pimozide, concomitant administration of sertraline and pimozide should be contraindicated (see CONTRAINDICATIONS)."/>
+	<sentencespan id="DBMI.pac14.sp0" origId="sp0" text="In a controlled study of a single dose (2 mg) of pimozide, 200 mg sertraline (q.d.)co-adminis-tration to steady state was associated with a mean increase in pimozide AUC and C max of about 40%, but was not associated with any changes in EKG. Since the highest recommended pimozide dose (10 mg) has not been evaluated in combination with sertraline, the effect on QT interval and PK parameters at doses higher than 2 mg at this time are not known. While the mechanism of this interaction is unknown, due to the narrow therapeutic index of pimozide and due to the interaction noted at a low dose of pimozide, concomitant administration of sertraline and pimozide should be contraindicated (see CONTRAINDICATIONS).">
+		<entity charOffset="66-77" id="DBMI.pac14.sp0.e0" origId="sp0.e0" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="49-58" id="DBMI.pac14.sp0.e1" origId="sp0.e1" text="pimozide " type="Active ingredient"/>
+		<pair e1="DBMI.pac14.sp0.e0" e2="DBMI.pac14.sp0.e1" id="DBMI.pac14.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="pimozide " precipitant="sertraline "/>
+		<pair e1="DBMI.pac14.sp0.e1" e2="DBMI.pac14.sp0.e0" id="DBMI.pac14.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

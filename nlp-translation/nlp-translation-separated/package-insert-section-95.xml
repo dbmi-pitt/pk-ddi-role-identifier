@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac95" origId="pac95">
+	<sentence id="DBMI.pac95.s0" origId="s0" text="Coadministration of nefazodone increased alprazolam concentration two-fold.">
+		<entity charOffset="20-31" id="DBMI.pac95.s0.e0" origId="s0.e0" text="nefazodone " type="Active ingredient"/>
+		<entity charOffset="41-52" id="DBMI.pac95.s0.e1" origId="s0.e1" text="alprazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac95.s0.e0" e2="DBMI.pac95.s0.e1" id="DBMI.pac95.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="nefazodone "/>
+		<pair e1="DBMI.pac95.s0.e1" e2="DBMI.pac95.s0.e0" id="DBMI.pac95.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac95.sp0" origId="sp0" text="Coadministration of nefazodone increased alprazolam concentration two-fold.">
+		<entity charOffset="20-31" id="DBMI.pac95.sp0.e0" origId="sp0.e0" text="nefazodone " type="Active ingredient"/>
+		<entity charOffset="41-52" id="DBMI.pac95.sp0.e1" origId="sp0.e1" text="alprazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac95.sp0.e0" e2="DBMI.pac95.sp0.e1" id="DBMI.pac95.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="nefazodone "/>
+		<pair e1="DBMI.pac95.sp0.e1" e2="DBMI.pac95.sp0.e0" id="DBMI.pac95.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

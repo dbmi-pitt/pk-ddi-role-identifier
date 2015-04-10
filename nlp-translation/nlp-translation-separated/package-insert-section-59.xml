@@ -1,0 +1,16 @@
+
+<document id="DBMI.pac59" origId="pac59">
+	<sentence id="DBMI.pac59.s0" origId="s0" text="Coadministration of carbamazepine with nefazodone results in insufficient plasma concentrations of nefazodone and its active metabolite to achieve a therapeutic effect.">
+		<entity charOffset="20-34" id="DBMI.pac59.s0.e0" origId="s0.e0" text="carbamazepine " type="Active ingredient"/>
+		<entity charOffset="39-50" id="DBMI.pac59.s0.e1" origId="s0.e1" text="nefazodone " type="Active ingredient"/>
+		<pair e1="DBMI.pac59.s0.e0" e2="DBMI.pac59.s0.e1" id="DBMI.pac59.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="nefazodone " precipitant="carbamazepine "/>
+		<pair e1="DBMI.pac59.s0.e1" e2="DBMI.pac59.s0.e0" id="DBMI.pac59.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac59.s1" origId="s1" text="Coadministration of carbamazepine with nefazodone is contraindicated (see CONTRAINDICATIONS)."/>
+	<sentencespan id="DBMI.pac59.sp0" origId="sp0" text="Coadministration of carbamazepine with nefazodone results in insufficient plasma concentrations of nefazodone and its active metabolite to achieve a therapeutic effect. Coadministration of carbamazepine with nefazodone is contraindicated (see CONTRAINDICATIONS).">
+		<entity charOffset="20-34" id="DBMI.pac59.sp0.e0" origId="sp0.e0" text="carbamazepine " type="Active ingredient"/>
+		<entity charOffset="39-50" id="DBMI.pac59.sp0.e1" origId="sp0.e1" text="nefazodone " type="Active ingredient"/>
+		<pair e1="DBMI.pac59.sp0.e0" e2="DBMI.pac59.sp0.e1" id="DBMI.pac59.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="nefazodone " precipitant="carbamazepine "/>
+		<pair e1="DBMI.pac59.sp0.e1" e2="DBMI.pac59.sp0.e0" id="DBMI.pac59.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

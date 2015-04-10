@@ -1,0 +1,19 @@
+
+<document id="DBMI.pac27" origId="pac27">
+	<sentence id="DBMI.pac27.s0" origId="s0" text="Plasma zidovudine concentrations were determined on two occasions (before and following fluconazole 200 mg daily for 15 days) in 13 volunteers with AIDS or ARC who were on a stable zidovudine dose for at least two weeks."/>
+	<sentence id="DBMI.pac27.s1" origId="s1" text="There was a significant increase in zidovudine AUC following the administration of fluconazole.">
+		<entity charOffset="304-316" id="DBMI.pac27.s1.e0" origId="s1.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="257-268" id="DBMI.pac27.s1.e1" origId="s1.e1" text="zidovudine " type="Active ingredient"/>
+		<pair e1="DBMI.pac27.s1.e0" e2="DBMI.pac27.s1.e1" id="DBMI.pac27.s1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="zidovudine " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac27.s1.e1" e2="DBMI.pac27.s1.e0" id="DBMI.pac27.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac27.s2" origId="s2" text="The mean  SD increase in AUC was 20%  32% (range: -27 to 104%)."/>
+	<sentence id="DBMI.pac27.s3" origId="s3" text="The metabolite, GZDV, to parent drug ratio significantly decreased after the administration of fluconazole, from 7.6  3.6 to 5.7  2.2."/>
+	<sentencespan id="DBMI.pac27.sp0" origId="sp0" text="Plasma zidovudine concentrations were determined on two occasions (before and following fluconazole 200 mg daily for 15 days) in 13 volunteers with AIDS or ARC who were on a stable zidovudine dose for at least two weeks. There was a significant increase in zidovudine AUC following the administration of fluconazole. The mean  SD increase in AUC was 20%  32% (range: -27 to 104%).">
+		<entity charOffset="304-316" id="DBMI.pac27.sp0.e0" origId="sp0.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="257-268" id="DBMI.pac27.sp0.e1" origId="sp0.e1" text="zidovudine " type="Active ingredient"/>
+		<pair e1="DBMI.pac27.sp0.e0" e2="DBMI.pac27.sp0.e1" id="DBMI.pac27.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="zidovudine " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac27.sp0.e1" e2="DBMI.pac27.sp0.e0" id="DBMI.pac27.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac27.sp1" origId="sp1" text="The metabolite, GZDV, to parent drug ratio significantly decreased after the administration of fluconazole, from 7.6  3.6 to 5.7  2.2."/>
+</document>

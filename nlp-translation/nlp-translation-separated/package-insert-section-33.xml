@@ -1,0 +1,16 @@
+
+<document id="DBMI.pac33" origId="pac33">
+	<sentence id="DBMI.pac33.s0" origId="s0" text="An open-label, randomized, three-way crossover study in 18 healthy subjects assessed the effect of a single 800 mg oral dose of fluconazole on the pharmacokinetics of a single 1200 mg oral dose of azithromycin as well as the effects of azithromycin on the pharmacokinetics of fluconazole."/>
+	<sentence id="DBMI.pac33.s1" origId="s1" text="There was no significant pharmacokinetic interaction between fluconazole and azithromycin.">
+		<entity charOffset="350-362" id="DBMI.pac33.s1.e0" origId="s1.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="366-379" id="DBMI.pac33.s1.e1" origId="s1.e1" text="azithromycin " type="Active ingredient"/>
+		<pair e1="DBMI.pac33.s1.e0" e2="DBMI.pac33.s1.e1" id="DBMI.pac33.s1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="azithromycin " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac33.s1.e1" e2="DBMI.pac33.s1.e0" id="DBMI.pac33.s1.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluconazole " precipitant="azithromycin "/>
+	</sentence>
+	<sentencespan id="DBMI.pac33.sp0" origId="sp0" text="An open-label, randomized, three-way crossover study in 18 healthy subjects assessed the effect of a single 800 mg oral dose of fluconazole on the pharmacokinetics of a single 1200 mg oral dose of azithromycin as well as the effects of azithromycin on the pharmacokinetics of fluconazole. There was no significant pharmacokinetic interaction between fluconazole and azithromycin.">
+		<entity charOffset="350-362" id="DBMI.pac33.sp0.e0" origId="sp0.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="366-379" id="DBMI.pac33.sp0.e1" origId="sp0.e1" text="azithromycin " type="Active ingredient"/>
+		<pair e1="DBMI.pac33.sp0.e0" e2="DBMI.pac33.sp0.e1" id="DBMI.pac33.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="azithromycin " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac33.sp0.e1" e2="DBMI.pac33.sp0.e0" id="DBMI.pac33.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluconazole " precipitant="azithromycin "/>
+	</sentencespan>
+</document>

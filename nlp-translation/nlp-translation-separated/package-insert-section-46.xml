@@ -1,0 +1,24 @@
+
+<document id="DBMI.pac46" origId="pac46">
+	<sentence id="DBMI.pac46.s0" origId="s0" text="When a single oral 30-mg dose of immediate-release paroxetine  was administered at phenytoin steady state (300 mg once daily for 14 days), paroxetine AUC and T were reduced (by an average of 50% and 35%, respectively) compared to immediate-release paroxetine administered alone.">
+		<entity charOffset="83-93" id="DBMI.pac46.s0.e0" origId="s0.e0" text="phenytoin " type="Active ingredient"/>
+		<entity charOffset="51-62" id="DBMI.pac46.s0.e1" origId="s0.e1" text="paroxetine " type="Active ingredient"/>
+		<pair e1="DBMI.pac46.s0.e0" e2="DBMI.pac46.s0.e1" id="DBMI.pac46.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="paroxetine " precipitant="phenytoin "/>
+		<pair e1="DBMI.pac46.s0.e1" e2="DBMI.pac46.s0.e0" id="DBMI.pac46.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac46.s1" origId="s1" text="In a separate study, when a single oral 300-mg dose of phenytoin was administered at paroxetine steady state (30 mg once daily for 14 days), phenytoin AUC was slightly reduced (12% on average) compared to phenytoin administered alone.">
+		<entity charOffset="365-376" id="DBMI.pac46.s1.e0" origId="s1.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="335-345" id="DBMI.pac46.s1.e1" origId="s1.e1" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac46.s1.e0" e2="DBMI.pac46.s1.e1" id="DBMI.pac46.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="phenytoin " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac46.s1.e1" e2="DBMI.pac46.s1.e0" id="DBMI.pac46.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac46.s2" origId="s2" text="Since both drugs exhibit nonlinear pharmacokinetics, the above studies may not address the case where the 2 drugs are both being chronically dosed."/>
+	<sentence id="DBMI.pac46.s3" origId="s3" text="No initial dosage adjustments are considered necessary when Paroxetine Hydrochloride Controlled-Release Tablets are coadministered with phenytoin; any subsequent adjustments should be guided by clinical effect (see ADVERSE REACTIONSPostmarketing Reports)."/>
+	<sentencespan id="DBMI.pac46.sp0" origId="sp0" text="When a single oral 30-mg dose of immediate-release paroxetine  was administered at phenytoin steady state (300 mg once daily for 14 days), paroxetine AUC and T were reduced (by an average of 50% and 35%, respectively) compared to immediate-release paroxetine administered alone. In a separate study, when a single oral 300-mg dose of phenytoin was administered at paroxetine steady state (30 mg once daily for 14 days), phenytoin AUC was slightly reduced (12% on average) compared to phenytoin administered alone. Since both drugs exhibit nonlinear pharmacokinetics, the above studies may not address the case where the 2 drugs are both being chronically dosed.">
+		<entity charOffset="365-376" id="DBMI.pac46.sp0.e0" origId="sp0.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="335-345" id="DBMI.pac46.sp0.e1" origId="sp0.e1" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac46.sp0.e0" e2="DBMI.pac46.sp0.e1" id="DBMI.pac46.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="phenytoin " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac46.sp0.e1" e2="DBMI.pac46.sp0.e0" id="DBMI.pac46.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="paroxetine " precipitant="phenytoin "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac46.sp1" origId="sp1" text="No initial dosage adjustments are considered necessary when Paroxetine Hydrochloride Controlled-Release Tablets are coadministered with phenytoin; any subsequent adjustments should be guided by clinical effect (see ADVERSE REACTIONSPostmarketing Reports)."/>
+</document>

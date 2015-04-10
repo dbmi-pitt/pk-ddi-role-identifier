@@ -1,0 +1,31 @@
+
+<document id="DBMI.pac65" origId="pac65">
+	<sentence id="DBMI.pac65.s0" origId="s0" text="When a single oral 0.25 mg dose of triazolam was coadministered with nefazodone (200 mg BID) at steady state, triazolam half-life and AUC increased 4-fold and peak concentrations increased 1.7-fold.">
+		<entity charOffset="69-80" id="DBMI.pac65.s0.e0" origId="s0.e0" text="nefazodone " type="Active ingredient"/>
+		<entity charOffset="110-120" id="DBMI.pac65.s0.e1" origId="s0.e1" text="triazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac65.s0.e0" e2="DBMI.pac65.s0.e1" id="DBMI.pac65.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="triazolam " precipitant="nefazodone "/>
+		<pair e1="DBMI.pac65.s0.e1" e2="DBMI.pac65.s0.e0" id="DBMI.pac65.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac65.s1" origId="s1" text="Nefazodone plasma concentrations were unaffected by triazolam.">
+		<entity charOffset="251-261" id="DBMI.pac65.s1.e0" origId="s1.e0" text="triazolam " type="Active ingredient"/>
+		<entity charOffset="199-210" id="DBMI.pac65.s1.e1" origId="s1.e1" text="Nefazodone " type="Active ingredient"/>
+		<pair e1="DBMI.pac65.s1.e0" e2="DBMI.pac65.s1.e1" id="DBMI.pac65.s1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="Nefazodone " precipitant="triazolam "/>
+		<pair e1="DBMI.pac65.s1.e1" e2="DBMI.pac65.s1.e0" id="DBMI.pac65.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac65.s2" origId="s2" text="Coadministration of nefazodone potentiated the effects of triazolam on psychomotor performance tests."/>
+	<sentence id="DBMI.pac65.s3" origId="s3" text="If triazolam is coadministered with nefazodone, a 75% reduction in the initial triazolam dosage is recommended."/>
+	<sentence id="DBMI.pac65.s4" origId="s4" text="Because not all commercially available dosage forms of triazolam permit sufficient dosage reduction, coadministration of triazolam with nefazodone should be avoided for most patients, including the elderly."/>
+	<sentence id="DBMI.pac65.s5" origId="s5" text="In the exceptional case where coadministration of triazolam with nefazodone may be considered appropriate, only the lowest possible dose of triazolam should be used (see CONTRAINDICATIONS and PRECAUTIONS)."/>
+	<sentencespan id="DBMI.pac65.sp0" origId="sp0" text="When a single oral 0.25 mg dose of triazolam was coadministered with nefazodone (200 mg BID) at steady state, triazolam half-life and AUC increased 4-fold and peak concentrations increased 1.7-fold. Nefazodone plasma concentrations were unaffected by triazolam. Coadministration of nefazodone potentiated the effects of triazolam on psychomotor performance tests.">
+		<entity charOffset="251-261" id="DBMI.pac65.sp0.e0" origId="sp0.e0" text="triazolam " type="Active ingredient"/>
+		<entity charOffset="199-210" id="DBMI.pac65.sp0.e1" origId="sp0.e1" text="Nefazodone " type="Active ingredient"/>
+		<entity charOffset="69-80" id="DBMI.pac65.sp0.e2" origId="sp0.e2" text="nefazodone " type="Active ingredient"/>
+		<pair e1="DBMI.pac65.sp0.e0" e2="DBMI.pac65.sp0.e1" id="DBMI.pac65.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="Nefazodone " precipitant="triazolam "/>
+		<pair e1="DBMI.pac65.sp0.e0" e2="DBMI.pac65.sp0.e2" id="DBMI.pac65.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac65.sp0.e1" e2="DBMI.pac65.sp0.e0" id="DBMI.pac65.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac65.sp0.e1" e2="DBMI.pac65.sp0.e2" id="DBMI.pac65.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac65.sp0.e2" e2="DBMI.pac65.sp0.e0" id="DBMI.pac65.sp0.p4" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="triazolam " precipitant="nefazodone "/>
+		<pair e1="DBMI.pac65.sp0.e2" e2="DBMI.pac65.sp0.e1" id="DBMI.pac65.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac65.sp1" origId="sp1" text="If triazolam is coadministered with nefazodone, a 75% reduction in the initial triazolam dosage is recommended. Because not all commercially available dosage forms of triazolam permit sufficient dosage reduction, coadministration of triazolam with nefazodone should be avoided for most patients, including the elderly. In the exceptional case where coadministration of triazolam with nefazodone may be considered appropriate, only the lowest possible dose of triazolam should be used (see CONTRAINDICATIONS and PRECAUTIONS)."/>
+</document>

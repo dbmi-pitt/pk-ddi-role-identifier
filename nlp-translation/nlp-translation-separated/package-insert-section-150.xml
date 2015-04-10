@@ -1,0 +1,23 @@
+
+<document id="DBMI.pac150" origId="pac150">
+	<sentence id="DBMI.pac150.s0" origId="s0" text="Phenobarbital: Coadministration of felbamate with phenobarbital causes an increase in phenobarbital plasma concentrations.">
+		<entity charOffset="35-45" id="DBMI.pac150.s0.e0" origId="s0.e0" text="felbamate " type="Active ingredient"/>
+		<entity charOffset="50-64" id="DBMI.pac150.s0.e1" origId="s0.e1" text="phenobarbital " type="Active ingredient"/>
+		<pair e1="DBMI.pac150.s0.e0" e2="DBMI.pac150.s0.e1" id="DBMI.pac150.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="phenobarbital " precipitant="felbamate "/>
+		<pair e1="DBMI.pac150.s0.e1" e2="DBMI.pac150.s0.e0" id="DBMI.pac150.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac150.s1" origId="s1" text="In 12 otherwise healthy male volunteers ingesting phenobarbital, the steady-state trough (Cmin) phenobarbital concentration was 14.2 micrograms/mL."/>
+	<sentence id="DBMI.pac150.s2" origId="s2" text="The steady-state Cmin concentration increased to 17.8 micrograms/mL when 2400 mg/day of felbamate was coadministered for one week.">
+		<entity charOffset="359-369" id="DBMI.pac150.s2.e0" origId="s2.e0" text="felbamate " type="Active ingredient"/>
+		<entity charOffset="219-233" id="DBMI.pac150.s2.e1" origId="s2.e1" text="phenobarbital " type="Active ingredient"/>
+		<pair e1="DBMI.pac150.s2.e0" e2="DBMI.pac150.s2.e1" id="DBMI.pac150.s2.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="phenobarbital " precipitant="felbamate "/>
+		<pair e1="DBMI.pac150.s2.e1" e2="DBMI.pac150.s2.e0" id="DBMI.pac150.s2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac150.sp0" origId="sp0" text="Phenobarbital: Coadministration of felbamate with phenobarbital causes an increase in phenobarbital plasma concentrations. In 12 otherwise healthy male volunteers ingesting phenobarbital, the steady-state trough (Cmin) phenobarbital concentration was 14.2 micrograms/mL. The steady-state Cmin concentration increased to 17.8 micrograms/mL when 2400 mg/day of felbamate was coadministered for one week.">
+		<entity charOffset="35-45" id="DBMI.pac150.sp0.e0" origId="sp0.e0" text="felbamate " type="Active ingredient"/>
+		<entity charOffset="50-64" id="DBMI.pac150.sp0.e1" origId="sp0.e1" text="phenobarbital " type="Active ingredient"/>
+		<pair e1="DBMI.pac150.sp0.e0" e2="DBMI.pac150.sp0.e1" id="DBMI.pac150.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="phenobarbital " precipitant="felbamate "/>
+		<pair e1="DBMI.pac150.sp0.e0" e2="DBMI.pac150.sp0.e1" id="DBMI.pac150.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="phenobarbital " precipitant="felbamate "/>
+		<pair e1="DBMI.pac150.sp0.e1" e2="DBMI.pac150.sp0.e0" id="DBMI.pac150.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

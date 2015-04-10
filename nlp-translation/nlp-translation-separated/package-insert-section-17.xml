@@ -1,0 +1,17 @@
+
+<document id="DBMI.pac17" origId="pac17">
+	<sentence id="DBMI.pac17.s0" origId="s0" text="In a placebo-controlled trial in normal volunteers, administration of sertraline for 22 days (including 200 mg/day for the final 13 days) caused a statistically significant 16% decrease from baseline in the clearance of tolbutamide following an intravenous 1000 mg dose.">
+		<entity charOffset="70-81" id="DBMI.pac17.s0.e0" origId="s0.e0" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="220-232" id="DBMI.pac17.s0.e1" origId="s0.e1" text="tolbutamide " type="Active ingredient"/>
+		<pair e1="DBMI.pac17.s0.e0" e2="DBMI.pac17.s0.e1" id="DBMI.pac17.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="tolbutamide " precipitant="sertraline "/>
+		<pair e1="DBMI.pac17.s0.e1" e2="DBMI.pac17.s0.e0" id="DBMI.pac17.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac17.s1" origId="s1" text="Sertraline administration did not noticeably change either the plasma protein binding or the apparent volume of distribution of tolbutamide, suggesting that the decreased clearance was due to a change in the metabolism of the drug."/>
+	<sentence id="DBMI.pac17.s2" origId="s2" text="The clinical significance of this decrease in tolbutamide clearance is unknown."/>
+	<sentencespan id="DBMI.pac17.sp0" origId="sp0" text="In a placebo-controlled trial in normal volunteers, administration of sertraline for 22 days (including 200 mg/day for the final 13 days) caused a statistically significant 16% decrease from baseline in the clearance of tolbutamide following an intravenous 1000 mg dose. Sertraline administration did not noticeably change either the plasma protein binding or the apparent volume of distribution of tolbutamide, suggesting that the decreased clearance was due to a change in the metabolism of the drug. The clinical significance of this decrease in tolbutamide clearance is unknown.">
+		<entity charOffset="70-81" id="DBMI.pac17.sp0.e0" origId="sp0.e0" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="220-232" id="DBMI.pac17.sp0.e1" origId="sp0.e1" text="tolbutamide " type="Active ingredient"/>
+		<pair e1="DBMI.pac17.sp0.e0" e2="DBMI.pac17.sp0.e1" id="DBMI.pac17.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="tolbutamide " precipitant="sertraline "/>
+		<pair e1="DBMI.pac17.sp0.e1" e2="DBMI.pac17.sp0.e0" id="DBMI.pac17.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

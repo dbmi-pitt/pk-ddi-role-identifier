@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac200" origId="pac200">
+	<sentence id="DBMI.pac200.s0" origId="s0" text="Rifampin\n\nIn patients well-stabilized on methadone, concomitant administration of rifampin resulted in a marked reduction in serum methadone levels and a concurrent appearance of withdrawal symptoms.">
+		<entity charOffset="82-91" id="DBMI.pac200.s0.e0" origId="s0.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="41-51" id="DBMI.pac200.s0.e1" origId="s0.e1" text="methadone " type="Active ingredient"/>
+		<pair e1="DBMI.pac200.s0.e0" e2="DBMI.pac200.s0.e1" id="DBMI.pac200.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="methadone " precipitant="rifampin "/>
+		<pair e1="DBMI.pac200.s0.e1" e2="DBMI.pac200.s0.e0" id="DBMI.pac200.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac200.sp0" origId="sp0" text="Rifampin\n\nIn patients well-stabilized on methadone, concomitant administration of rifampin resulted in a marked reduction in serum methadone levels and a concurrent appearance of withdrawal symptoms.">
+		<entity charOffset="82-91" id="DBMI.pac200.sp0.e0" origId="sp0.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="41-51" id="DBMI.pac200.sp0.e1" origId="sp0.e1" text="methadone " type="Active ingredient"/>
+		<pair e1="DBMI.pac200.sp0.e0" e2="DBMI.pac200.sp0.e1" id="DBMI.pac200.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="methadone " precipitant="rifampin "/>
+		<pair e1="DBMI.pac200.sp0.e1" e2="DBMI.pac200.sp0.e0" id="DBMI.pac200.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

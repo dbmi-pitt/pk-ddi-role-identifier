@@ -1,0 +1,17 @@
+
+<document id="DBMI.pac44" origId="pac44">
+	<sentence id="DBMI.pac44.s0" origId="s0" text="In a controlled study of healthy volunteers, after immediate-release paroxetine hydrochloride was titrated to 60 mg daily, co-administration of a single dose of 2 mg pimozide was associated with mean increases in pimozide AUC of 151% and Cmax of 62%, compared to pimozide administered alone.">
+		<entity charOffset="69-80" id="DBMI.pac44.s0.e0" origId="s0.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="213-222" id="DBMI.pac44.s0.e1" origId="s0.e1" text="pimozide " type="Active ingredient"/>
+		<pair e1="DBMI.pac44.s0.e0" e2="DBMI.pac44.s0.e1" id="DBMI.pac44.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="pimozide " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac44.s0.e1" e2="DBMI.pac44.s0.e0" id="DBMI.pac44.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac44.s1" origId="s1" text="The increase in pimozide AUC and Cmax is due to the CYP2D6 inhibitory properties of paroxetine."/>
+	<sentence id="DBMI.pac44.s2" origId="s2" text="Due to the narrow therapeutic index of pimozide and its known ability to prolong the QT interval, concomitant use of pimozide and Paroxetine Hydrochloride Controlled-Release Tablets is contraindicated (see CONTRAINDICATIONS)."/>
+	<sentencespan id="DBMI.pac44.sp0" origId="sp0" text="In a controlled study of healthy volunteers, after immediate-release paroxetine hydrochloride was titrated to 60 mg daily, co-administration of a single dose of 2 mg pimozide was associated with mean increases in pimozide AUC of 151% and Cmax of 62%, compared to pimozide administered alone. The increase in pimozide AUC and Cmax is due to the CYP2D6 inhibitory properties of paroxetine. Due to the narrow therapeutic index of pimozide and its known ability to prolong the QT interval, concomitant use of pimozide and Paroxetine Hydrochloride Controlled-Release Tablets is contraindicated (see CONTRAINDICATIONS).">
+		<entity charOffset="69-80" id="DBMI.pac44.sp0.e0" origId="sp0.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="213-222" id="DBMI.pac44.sp0.e1" origId="sp0.e1" text="pimozide " type="Active ingredient"/>
+		<pair e1="DBMI.pac44.sp0.e0" e2="DBMI.pac44.sp0.e1" id="DBMI.pac44.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="pimozide " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac44.sp0.e1" e2="DBMI.pac44.sp0.e0" id="DBMI.pac44.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

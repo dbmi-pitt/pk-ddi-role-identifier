@@ -1,0 +1,26 @@
+
+<document id="DBMI.pac118" origId="pac118">
+	<sentence id="DBMI.pac118.s0" origId="s0" text="Concomitant administration of Synercid and nifedipine (repeated oral doses) and midazolam (intravenous bolus dose) in healthy volunteers led to elevated plasma concentrations of these drugs.">
+		<entity charOffset="30-39" id="DBMI.pac118.s0.e0" origId="s0.e0" text="Synercid " type="Drug product"/>
+		<entity charOffset="282-293" id="DBMI.pac118.s0.e1" origId="s0.e1" text="nifedipine " type="Active ingredient"/>
+		<entity charOffset="297-307" id="DBMI.pac118.s0.e2" origId="s0.e2" text="midazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac118.s0.e0" e2="DBMI.pac118.s0.e1" id="DBMI.pac118.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="Synercid "/>
+		<pair e1="DBMI.pac118.s0.e0" e2="DBMI.pac118.s0.e2" id="DBMI.pac118.s0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="midazolam " precipitant="Synercid "/>
+		<pair e1="DBMI.pac118.s0.e1" e2="DBMI.pac118.s0.e0" id="DBMI.pac118.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac118.s0.e1" e2="DBMI.pac118.s0.e2" id="DBMI.pac118.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac118.s0.e2" e2="DBMI.pac118.s0.e0" id="DBMI.pac118.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac118.s0.e2" e2="DBMI.pac118.s0.e1" id="DBMI.pac118.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac118.s1" origId="s1" text="The Cmax increased by 18% and 14% (median values) and the AUC increased by 44% and 33% for nifedipine and midazolam, respectively."/>
+	<sentencespan id="DBMI.pac118.sp0" origId="sp0" text="Concomitant administration of Synercid and nifedipine (repeated oral doses) and midazolam (intravenous bolus dose) in healthy volunteers led to elevated plasma concentrations of these drugs. The Cmax increased by 18% and 14% (median values) and the AUC increased by 44% and 33% for nifedipine and midazolam, respectively.">
+		<entity charOffset="30-39" id="DBMI.pac118.sp0.e0" origId="sp0.e0" text="Synercid " type="Drug product"/>
+		<entity charOffset="282-293" id="DBMI.pac118.sp0.e1" origId="sp0.e1" text="nifedipine " type="Active ingredient"/>
+		<entity charOffset="297-307" id="DBMI.pac118.sp0.e2" origId="sp0.e2" text="midazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac118.sp0.e0" e2="DBMI.pac118.sp0.e1" id="DBMI.pac118.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="Synercid "/>
+		<pair e1="DBMI.pac118.sp0.e0" e2="DBMI.pac118.sp0.e2" id="DBMI.pac118.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="midazolam " precipitant="Synercid "/>
+		<pair e1="DBMI.pac118.sp0.e1" e2="DBMI.pac118.sp0.e0" id="DBMI.pac118.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac118.sp0.e1" e2="DBMI.pac118.sp0.e2" id="DBMI.pac118.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac118.sp0.e2" e2="DBMI.pac118.sp0.e0" id="DBMI.pac118.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac118.sp0.e2" e2="DBMI.pac118.sp0.e1" id="DBMI.pac118.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

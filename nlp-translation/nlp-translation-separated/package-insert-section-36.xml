@@ -1,0 +1,26 @@
+
+<document id="DBMI.pac36" origId="pac36">
+	<sentence id="DBMI.pac36.s0" origId="s0" text="Uricosuric drugs, such as probenecid and sulfinpyrazone, can inhibit renal tubular secretion of nitrofurantoin.">
+		<entity charOffset="26-37" id="DBMI.pac36.s0.e0" origId="s0.e0" text="probenecid " type="Active ingredient"/>
+		<entity charOffset="138-153" id="DBMI.pac36.s0.e1" origId="s0.e1" text="nitrofurantoin " type="Active ingredient"/>
+		<entity charOffset="41-56" id="DBMI.pac36.s0.e2" origId="s0.e2" text="sulfinpyrazone " type="Active ingredient"/>
+		<pair e1="DBMI.pac36.s0.e0" e2="DBMI.pac36.s0.e1" id="DBMI.pac36.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="nitrofurantoin " precipitant="probenecid "/>
+		<pair e1="DBMI.pac36.s0.e0" e2="DBMI.pac36.s0.e2" id="DBMI.pac36.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac36.s0.e1" e2="DBMI.pac36.s0.e0" id="DBMI.pac36.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac36.s0.e1" e2="DBMI.pac36.s0.e2" id="DBMI.pac36.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac36.s0.e2" e2="DBMI.pac36.s0.e0" id="DBMI.pac36.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac36.s0.e2" e2="DBMI.pac36.s0.e1" id="DBMI.pac36.s0.p5" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="nitrofurantoin " precipitant="sulfinpyrazone "/>
+	</sentence>
+	<sentence id="DBMI.pac36.s1" origId="s1" text="The resulting increase in nitrofurantoin serum levels may increase toxicity, and the decreased urinary levels could lessen its efficacy as a urinary tract antibacterial."/>
+	<sentencespan id="DBMI.pac36.sp0" origId="sp0" text="Uricosuric drugs, such as probenecid and sulfinpyrazone, can inhibit renal tubular secretion of nitrofurantoin. The resulting increase in nitrofurantoin serum levels may increase toxicity, and the decreased urinary levels could lessen its efficacy as a urinary tract antibacterial.">
+		<entity charOffset="26-37" id="DBMI.pac36.sp0.e0" origId="sp0.e0" text="probenecid " type="Active ingredient"/>
+		<entity charOffset="138-153" id="DBMI.pac36.sp0.e1" origId="sp0.e1" text="nitrofurantoin " type="Active ingredient"/>
+		<entity charOffset="41-56" id="DBMI.pac36.sp0.e2" origId="sp0.e2" text="sulfinpyrazone " type="Active ingredient"/>
+		<pair e1="DBMI.pac36.sp0.e0" e2="DBMI.pac36.sp0.e1" id="DBMI.pac36.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="nitrofurantoin " precipitant="probenecid "/>
+		<pair e1="DBMI.pac36.sp0.e0" e2="DBMI.pac36.sp0.e2" id="DBMI.pac36.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac36.sp0.e1" e2="DBMI.pac36.sp0.e0" id="DBMI.pac36.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac36.sp0.e1" e2="DBMI.pac36.sp0.e2" id="DBMI.pac36.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac36.sp0.e2" e2="DBMI.pac36.sp0.e0" id="DBMI.pac36.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac36.sp0.e2" e2="DBMI.pac36.sp0.e1" id="DBMI.pac36.sp0.p5" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="nitrofurantoin " precipitant="sulfinpyrazone "/>
+	</sentencespan>
+</document>

@@ -1,0 +1,30 @@
+
+<document id="DBMI.pac21" origId="pac21">
+	<sentence id="DBMI.pac21.s0" origId="s0" text="A third study evaluated the potential interaction of once weekly dosing of fluconazole 300 mg to 21 normal females taking an oral contraceptive containing ethinyl estradiol and norethindrone."/>
+	<sentence id="DBMI.pac21.s1" origId="s1" text="In this placebo-controlled, double-blind, randomized, two-way crossover study carried out over three cycles of oral contraceptive treatment, fluconazole dosing resulted in small increases in the mean AUCs of ethinyl estradiol and norethindrone compared to similar placebo dosing.">
+		<entity charOffset="333-345" id="DBMI.pac21.s1.e0" origId="s1.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="511-525" id="DBMI.pac21.s1.e1" origId="s1.e1" text="norethindrone " type="Active ingredient"/>
+		<entity charOffset="489-507" id="DBMI.pac21.s1.e2" origId="s1.e2" text="ethinyl estradiol " type="Active ingredient"/>
+		<pair e1="DBMI.pac21.s1.e0" e2="DBMI.pac21.s1.e1" id="DBMI.pac21.s1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="norethindrone " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac21.s1.e0" e2="DBMI.pac21.s1.e2" id="DBMI.pac21.s1.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="ethinyl estradiol " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac21.s1.e1" e2="DBMI.pac21.s1.e0" id="DBMI.pac21.s1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac21.s1.e1" e2="DBMI.pac21.s1.e2" id="DBMI.pac21.s1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac21.s1.e2" e2="DBMI.pac21.s1.e0" id="DBMI.pac21.s1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac21.s1.e2" e2="DBMI.pac21.s1.e1" id="DBMI.pac21.s1.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac21.s2" origId="s2" text="The mean AUCs of ethinyl estradiol and norethindrone increased by 24% (95% C.I.range 18 to 31%) and 13% (95% C.I.range 8 to 18%), respectively relative to placebo."/>
+	<sentence id="DBMI.pac21.s3" origId="s3" text="Fluconazole treatment did not cause a decrease in the ethinyl estradiol AUC of any individual subject in this study compared to placebo dosing."/>
+	<sentence id="DBMI.pac21.s4" origId="s4" text="The individual AUC values of norethindrone decreased very slightly (&lt;5%) in 3 of the 21 subjects after fluconazole treatment."/>
+	<sentencespan id="DBMI.pac21.sp0" origId="sp0" text="A third study evaluated the potential interaction of once weekly dosing of fluconazole 300 mg to 21 normal females taking an oral contraceptive containing ethinyl estradiol and norethindrone. In this placebo-controlled, double-blind, randomized, two-way crossover study carried out over three cycles of oral contraceptive treatment, fluconazole dosing resulted in small increases in the mean AUCs of ethinyl estradiol and norethindrone compared to similar placebo dosing. The mean AUCs of ethinyl estradiol and norethindrone increased by 24% (95% C.I.range 18 to 31%) and 13% (95% C.I.range 8 to 18%), respectively relative to placebo.">
+		<entity charOffset="333-345" id="DBMI.pac21.sp0.e0" origId="sp0.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="511-525" id="DBMI.pac21.sp0.e1" origId="sp0.e1" text="norethindrone " type="Active ingredient"/>
+		<entity charOffset="489-507" id="DBMI.pac21.sp0.e2" origId="sp0.e2" text="ethinyl estradiol " type="Active ingredient"/>
+		<pair e1="DBMI.pac21.sp0.e0" e2="DBMI.pac21.sp0.e1" id="DBMI.pac21.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="norethindrone " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac21.sp0.e0" e2="DBMI.pac21.sp0.e2" id="DBMI.pac21.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="ethinyl estradiol " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac21.sp0.e1" e2="DBMI.pac21.sp0.e0" id="DBMI.pac21.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac21.sp0.e1" e2="DBMI.pac21.sp0.e2" id="DBMI.pac21.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac21.sp0.e2" e2="DBMI.pac21.sp0.e0" id="DBMI.pac21.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac21.sp0.e2" e2="DBMI.pac21.sp0.e1" id="DBMI.pac21.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac21.sp1" origId="sp1" text="Fluconazole treatment did not cause a decrease in the ethinyl estradiol AUC of any individual subject in this study compared to placebo dosing. The individual AUC values of norethindrone decreased very slightly (&lt;5%) in 3 of the 21 subjects after fluconazole treatment."/>
+</document>

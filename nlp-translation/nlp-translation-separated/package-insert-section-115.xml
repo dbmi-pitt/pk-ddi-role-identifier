@@ -1,0 +1,17 @@
+
+<document id="DBMI.pac115" origId="pac115">
+	<sentence id="DBMI.pac115.s0" origId="s0" text="Phenytoin: Nifedipine is metabolized by CYP3A4."/>
+	<sentence id="DBMI.pac115.s1" origId="s1" text="Coadministration of nifedipine 10 mg capsule and 60 mg nifedipine coat-core tablet with phenytoin, an inducer of CYP3A4, lowered the AUC and Cmax of nifedipine by approximately 70%.">
+		<entity charOffset="136-146" id="DBMI.pac115.s1.e0" origId="s1.e0" text="phenytoin " type="Active ingredient"/>
+		<entity charOffset="68-79" id="DBMI.pac115.s1.e1" origId="s1.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac115.s1.e0" e2="DBMI.pac115.s1.e1" id="DBMI.pac115.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="phenytoin "/>
+		<pair e1="DBMI.pac115.s1.e1" e2="DBMI.pac115.s1.e0" id="DBMI.pac115.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac115.s2" origId="s2" text="When using nifedipine with phenytoin, the clinical response to nifedipine should be monitored and its dose adjusted if necessary."/>
+	<sentencespan id="DBMI.pac115.sp0" origId="sp0" text="Phenytoin: Nifedipine is metabolized by CYP3A4. Coadministration of nifedipine 10 mg capsule and 60 mg nifedipine coat-core tablet with phenytoin, an inducer of CYP3A4, lowered the AUC and Cmax of nifedipine by approximately 70%. When using nifedipine with phenytoin, the clinical response to nifedipine should be monitored and its dose adjusted if necessary.">
+		<entity charOffset="136-146" id="DBMI.pac115.sp0.e0" origId="sp0.e0" text="phenytoin " type="Active ingredient"/>
+		<entity charOffset="68-79" id="DBMI.pac115.sp0.e1" origId="sp0.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac115.sp0.e0" e2="DBMI.pac115.sp0.e1" id="DBMI.pac115.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="phenytoin "/>
+		<pair e1="DBMI.pac115.sp0.e1" e2="DBMI.pac115.sp0.e0" id="DBMI.pac115.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

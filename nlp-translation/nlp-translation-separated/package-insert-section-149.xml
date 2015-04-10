@@ -1,0 +1,43 @@
+
+<document id="DBMI.pac149" origId="pac149">
+	<sentence id="DBMI.pac149.s0" origId="s0" text="Valproate: Felbatol causes an increase in steady-state valproate concentrations.">
+		<entity charOffset="11-20" id="DBMI.pac149.s0.e0" origId="s0.e0" text="Felbatol " type="Drug product"/>
+		<entity charOffset="56-66" id="DBMI.pac149.s0.e1" origId="s0.e1" text="valproate " type="Active ingredient"/>
+		<pair e1="DBMI.pac149.s0.e0" e2="DBMI.pac149.s0.e1" id="DBMI.pac149.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="valproate " precipitant="Felbatol "/>
+		<pair e1="DBMI.pac149.s0.e1" e2="DBMI.pac149.s0.e0" id="DBMI.pac149.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac149.s1" origId="s1" text="In four subjects with epilepsy ingesting valproate, the steady-state trough (Cmin) valproate plasma concentration was 6316 micrograms/mL."/>
+	<sentence id="DBMI.pac149.s2" origId="s2" text="The steady-state Cmin increased to 7814 micrograms/mL when 1200 mg/day of felbamate was coadministered."/>
+	<sentence id="DBMI.pac149.s3" origId="s3" text="Increasing the felbamate dose to 2400 mg/day increased the steady-state valproate Cmin to 9625 micrograms/mL.">
+		<entity charOffset="341-351" id="DBMI.pac149.s3.e0" origId="s3.e0" text="felbamate " type="Active ingredient"/>
+		<entity charOffset="398-408" id="DBMI.pac149.s3.e1" origId="s3.e1" text="valproate " type="Active ingredient"/>
+		<pair e1="DBMI.pac149.s3.e0" e2="DBMI.pac149.s3.e1" id="DBMI.pac149.s3.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="valproate " precipitant="felbamate "/>
+		<pair e1="DBMI.pac149.s3.e1" e2="DBMI.pac149.s3.e0" id="DBMI.pac149.s3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac149.s4" origId="s4" text="Corresponding values for free valproate Cmin concentrations were 73, 94, and 116 micrograms/mL for 0, 1200, and 2400 mg/day Felbatol, respectively."/>
+	<sentence id="DBMI.pac149.s5" origId="s5" text="The ratios of the AUCs of unbound valproate to the AUCs of the total valproate were 11.1%, 13.0%, and 11.5%, with coadministration of 0, 1200, and 2400 mg/day of Felbatol, respectively."/>
+	<sentence id="DBMI.pac149.s6" origId="s6" text="This indicates that the protein binding of valproate did not change appreciably with increasing doses of Felbatol. ">
+		<entity charOffset="881-890" id="DBMI.pac149.s6.e0" origId="s6.e0" text="Felbatol " type="Drug product"/>
+		<entity charOffset="819-829" id="DBMI.pac149.s6.e1" origId="s6.e1" text="valproate " type="Active ingredient"/>
+		<pair e1="DBMI.pac149.s6.e0" e2="DBMI.pac149.s6.e1" id="DBMI.pac149.s6.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="valproate " precipitant="Felbatol "/>
+		<pair e1="DBMI.pac149.s6.e1" e2="DBMI.pac149.s6.e0" id="DBMI.pac149.s6.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac149.sp0" origId="sp0" text="Valproate: Felbatol causes an increase in steady-state valproate concentrations. In four subjects with epilepsy ingesting valproate, the steady-state trough (Cmin) valproate plasma concentration was 6316 micrograms/mL. The steady-state Cmin increased to 7814 micrograms/mL when 1200 mg/day of felbamate was coadministered.">
+		<entity charOffset="11-20" id="DBMI.pac149.sp0.e0" origId="sp0.e0" text="Felbatol " type="Drug product"/>
+		<entity charOffset="56-66" id="DBMI.pac149.sp0.e1" origId="sp0.e1" text="valproate " type="Active ingredient"/>
+		<pair e1="DBMI.pac149.sp0.e0" e2="DBMI.pac149.sp0.e1" id="DBMI.pac149.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="valproate " precipitant="Felbatol "/>
+		<pair e1="DBMI.pac149.sp0.e1" e2="DBMI.pac149.sp0.e0" id="DBMI.pac149.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac149.sp1" origId="sp1" text="Increasing the felbamate dose to 2400 mg/day increased the steady-state valproate Cmin to 9625 micrograms/mL. Corresponding values for free valproate Cmin concentrations were 73, 94, and 116 micrograms/mL for 0, 1200, and 2400 mg/day Felbatol, respectively. The ratios of the AUCs of unbound valproate to the AUCs of the total valproate were 11.1%, 13.0%, and 11.5%, with coadministration of 0, 1200, and 2400 mg/day of Felbatol, respectively.">
+		<entity charOffset="341-351" id="DBMI.pac149.sp1.e0" origId="sp1.e0" text="felbamate " type="Active ingredient"/>
+		<entity charOffset="398-408" id="DBMI.pac149.sp1.e1" origId="sp1.e1" text="valproate " type="Active ingredient"/>
+		<pair e1="DBMI.pac149.sp1.e0" e2="DBMI.pac149.sp1.e1" id="DBMI.pac149.sp1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="valproate " precipitant="felbamate "/>
+		<pair e1="DBMI.pac149.sp1.e1" e2="DBMI.pac149.sp1.e0" id="DBMI.pac149.sp1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac149.sp2" origId="sp2" text="This indicates that the protein binding of valproate did not change appreciably with increasing doses of Felbatol. ">
+		<entity charOffset="881-890" id="DBMI.pac149.sp2.e0" origId="sp2.e0" text="Felbatol " type="Drug product"/>
+		<entity charOffset="819-829" id="DBMI.pac149.sp2.e1" origId="sp2.e1" text="valproate " type="Active ingredient"/>
+		<pair e1="DBMI.pac149.sp2.e0" e2="DBMI.pac149.sp2.e1" id="DBMI.pac149.sp2.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="valproate " precipitant="Felbatol "/>
+		<pair e1="DBMI.pac149.sp2.e1" e2="DBMI.pac149.sp2.e0" id="DBMI.pac149.sp2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

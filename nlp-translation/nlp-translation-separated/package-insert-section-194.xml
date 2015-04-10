@@ -1,0 +1,305 @@
+
+<document id="DBMI.pac194" origId="pac194">
+	<sentence id="DBMI.pac194.s0" origId="s0" text="7 DRUG INTERACTIONS\n\n7.1 CYP2D6 and CYP3A4 Inhibitors\n\nDrugs that inhibit CYP2D6 (such as desipramine, paroxetine, ritonavir, sertraline) and CYP3A4 (such as ketoconazole, ritonavir, saquinavir, erythromycin, and grapefruit juice) can be expected to cause increased plasma levels of propafenone.">
+		<entity charOffset="103-114" id="DBMI.pac194.s0.e0" origId="s0.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="283-295" id="DBMI.pac194.s0.e1" origId="s0.e1" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="115-125" id="DBMI.pac194.s0.e2" origId="s0.e2" text="ritonavir " type="Active ingredient"/>
+		<entity charOffset="126-137" id="DBMI.pac194.s0.e3" origId="s0.e3" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="158-171" id="DBMI.pac194.s0.e4" origId="s0.e4" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="183-194" id="DBMI.pac194.s0.e5" origId="s0.e5" text="saquinavir " type="Active ingredient"/>
+		<entity charOffset="195-208" id="DBMI.pac194.s0.e6" origId="s0.e6" text="erythromycin " type="Active ingredient"/>
+		<entity charOffset="90-102" id="DBMI.pac194.s0.e7" origId="s0.e7" text="desipramine " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.s0.e0" e2="DBMI.pac194.s0.e1" id="DBMI.pac194.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac194.s0.e0" e2="DBMI.pac194.s0.e2" id="DBMI.pac194.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e0" e2="DBMI.pac194.s0.e3" id="DBMI.pac194.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e0" e2="DBMI.pac194.s0.e4" id="DBMI.pac194.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e0" e2="DBMI.pac194.s0.e5" id="DBMI.pac194.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e0" e2="DBMI.pac194.s0.e6" id="DBMI.pac194.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e0" e2="DBMI.pac194.s0.e7" id="DBMI.pac194.s0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e1" e2="DBMI.pac194.s0.e0" id="DBMI.pac194.s0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e1" e2="DBMI.pac194.s0.e2" id="DBMI.pac194.s0.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e1" e2="DBMI.pac194.s0.e3" id="DBMI.pac194.s0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e1" e2="DBMI.pac194.s0.e4" id="DBMI.pac194.s0.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e1" e2="DBMI.pac194.s0.e5" id="DBMI.pac194.s0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e1" e2="DBMI.pac194.s0.e6" id="DBMI.pac194.s0.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e1" e2="DBMI.pac194.s0.e7" id="DBMI.pac194.s0.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e2" e2="DBMI.pac194.s0.e0" id="DBMI.pac194.s0.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e2" e2="DBMI.pac194.s0.e1" id="DBMI.pac194.s0.p15" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="ritonavir "/>
+		<pair e1="DBMI.pac194.s0.e2" e2="DBMI.pac194.s0.e1" id="DBMI.pac194.s0.p16" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="ritonavir "/>
+		<pair e1="DBMI.pac194.s0.e2" e2="DBMI.pac194.s0.e3" id="DBMI.pac194.s0.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e2" e2="DBMI.pac194.s0.e4" id="DBMI.pac194.s0.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e2" e2="DBMI.pac194.s0.e5" id="DBMI.pac194.s0.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e2" e2="DBMI.pac194.s0.e6" id="DBMI.pac194.s0.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e2" e2="DBMI.pac194.s0.e7" id="DBMI.pac194.s0.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e3" e2="DBMI.pac194.s0.e0" id="DBMI.pac194.s0.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e3" e2="DBMI.pac194.s0.e1" id="DBMI.pac194.s0.p23" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="sertraline "/>
+		<pair e1="DBMI.pac194.s0.e3" e2="DBMI.pac194.s0.e2" id="DBMI.pac194.s0.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e3" e2="DBMI.pac194.s0.e4" id="DBMI.pac194.s0.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e3" e2="DBMI.pac194.s0.e5" id="DBMI.pac194.s0.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e3" e2="DBMI.pac194.s0.e6" id="DBMI.pac194.s0.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e3" e2="DBMI.pac194.s0.e7" id="DBMI.pac194.s0.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e4" e2="DBMI.pac194.s0.e0" id="DBMI.pac194.s0.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e4" e2="DBMI.pac194.s0.e1" id="DBMI.pac194.s0.p30" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac194.s0.e4" e2="DBMI.pac194.s0.e2" id="DBMI.pac194.s0.p31" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e4" e2="DBMI.pac194.s0.e3" id="DBMI.pac194.s0.p32" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e4" e2="DBMI.pac194.s0.e5" id="DBMI.pac194.s0.p33" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e4" e2="DBMI.pac194.s0.e6" id="DBMI.pac194.s0.p34" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e4" e2="DBMI.pac194.s0.e7" id="DBMI.pac194.s0.p35" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e5" e2="DBMI.pac194.s0.e0" id="DBMI.pac194.s0.p36" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e5" e2="DBMI.pac194.s0.e1" id="DBMI.pac194.s0.p37" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="saquinavir "/>
+		<pair e1="DBMI.pac194.s0.e5" e2="DBMI.pac194.s0.e2" id="DBMI.pac194.s0.p38" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e5" e2="DBMI.pac194.s0.e3" id="DBMI.pac194.s0.p39" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e5" e2="DBMI.pac194.s0.e4" id="DBMI.pac194.s0.p40" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e5" e2="DBMI.pac194.s0.e6" id="DBMI.pac194.s0.p41" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e5" e2="DBMI.pac194.s0.e7" id="DBMI.pac194.s0.p42" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e6" e2="DBMI.pac194.s0.e0" id="DBMI.pac194.s0.p43" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e6" e2="DBMI.pac194.s0.e1" id="DBMI.pac194.s0.p44" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="erythromycin "/>
+		<pair e1="DBMI.pac194.s0.e6" e2="DBMI.pac194.s0.e2" id="DBMI.pac194.s0.p45" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e6" e2="DBMI.pac194.s0.e3" id="DBMI.pac194.s0.p46" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e6" e2="DBMI.pac194.s0.e4" id="DBMI.pac194.s0.p47" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e6" e2="DBMI.pac194.s0.e5" id="DBMI.pac194.s0.p48" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e6" e2="DBMI.pac194.s0.e7" id="DBMI.pac194.s0.p49" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e7" e2="DBMI.pac194.s0.e0" id="DBMI.pac194.s0.p50" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e7" e2="DBMI.pac194.s0.e1" id="DBMI.pac194.s0.p51" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="desipramine "/>
+		<pair e1="DBMI.pac194.s0.e7" e2="DBMI.pac194.s0.e2" id="DBMI.pac194.s0.p52" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e7" e2="DBMI.pac194.s0.e3" id="DBMI.pac194.s0.p53" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e7" e2="DBMI.pac194.s0.e4" id="DBMI.pac194.s0.p54" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e7" e2="DBMI.pac194.s0.e5" id="DBMI.pac194.s0.p55" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s0.e7" e2="DBMI.pac194.s0.e6" id="DBMI.pac194.s0.p56" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac194.s1" origId="s1" text="The combination of CYP3A4 inhibition and either CYP2D6 deficiency or CYP2D6 inhibition with administration of propafenone may increase the risk of adverse reactions, including proarrhythmia."/>
+	<sentence id="DBMI.pac194.s2" origId="s2" text="Therefore, simultaneous use of RYTHMOL SR with both a CYP2D6 inhibitor and a CYP3A4 inhibitor should be avoided [see Warnings and Precautions (5.2) and Dosage and Administration (2)]."/>
+	<sentence id="DBMI.pac194.s3" origId="s3" text="Amiodarone\n\nConcomitant administration of propafenone and amiodarone can affect conduction and repolarization and is not recommended."/>
+	<sentence id="DBMI.pac194.s4" origId="s4" text="Cimetidine\n\nConcomitant administration of propafenone immediate release tablets and cimetidine in 12 healthy subjects resulted in a 20% increase in steady-state plasma concentrations of propafenone.">
+		<entity charOffset="891-902" id="DBMI.pac194.s4.e0" origId="s4.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="849-861" id="DBMI.pac194.s4.e1" origId="s4.e1" text="propafenone " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.s4.e0" e2="DBMI.pac194.s4.e1" id="DBMI.pac194.s4.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac194.s4.e1" e2="DBMI.pac194.s4.e0" id="DBMI.pac194.s4.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac194.s5" origId="s5" text="Fluoxetine\n\nConcomitant administration of propafenone and fluoxetine in extensive metabolizers increased the S propafenone Cmax and AUC by 39 and 50% and the R propafenone Cmax and AUC by 71 and 50%.">
+		<entity charOffset="1065-1076" id="DBMI.pac194.s5.e0" origId="s5.e0" text="fluoxetine " type="Active ingredient"/>
+		<entity charOffset="1049-1061" id="DBMI.pac194.s5.e1" origId="s5.e1" text="propafenone " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.s5.e0" e2="DBMI.pac194.s5.e1" id="DBMI.pac194.s5.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="fluoxetine "/>
+		<pair e1="DBMI.pac194.s5.e1" e2="DBMI.pac194.s5.e0" id="DBMI.pac194.s5.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac194.s6" origId="s6" text="Quinidine\n\nSmall doses of quinidine completely inhibit the CYP2D6 hydroxylation metabolic pathway, making all patients, in effect, slow metabolizers [see Clinical Pharmacology (12)]."/>
+	<sentence id="DBMI.pac194.s7" origId="s7" text="Concomitant administration of quinidine (50 mg three times daily) with 150 mg immediate-release propafenone three times daily decreased the clearance of propafenone by 60% in EM, making them PM.">
+		<entity charOffset="1421-1431" id="DBMI.pac194.s7.e0" origId="s7.e0" text="quinidine " type="Active ingredient"/>
+		<entity charOffset="1487-1499" id="DBMI.pac194.s7.e1" origId="s7.e1" text="propafenone " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.s7.e0" e2="DBMI.pac194.s7.e1" id="DBMI.pac194.s7.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="quinidine "/>
+		<pair e1="DBMI.pac194.s7.e1" e2="DBMI.pac194.s7.e0" id="DBMI.pac194.s7.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac194.s8" origId="s8" text="Steady-state plasma concentrations increased by more that 2-fold for propafenone, and decreased 50% for 5OH-propafenone."/>
+	<sentence id="DBMI.pac194.s9" origId="s9" text="A 100 mg dose of quinidine increased steady state concentrations of propafenone 3-fold.">
+		<entity charOffset="1724-1734" id="DBMI.pac194.s9.e0" origId="s9.e0" text="quinidine " type="Active ingredient"/>
+		<entity charOffset="1775-1787" id="DBMI.pac194.s9.e1" origId="s9.e1" text="propafenone " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.s9.e0" e2="DBMI.pac194.s9.e1" id="DBMI.pac194.s9.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="quinidine "/>
+		<pair e1="DBMI.pac194.s9.e1" e2="DBMI.pac194.s9.e0" id="DBMI.pac194.s9.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac194.s10" origId="s10" text="Avoid concomitant use of propafenone and quinidine."/>
+	<sentence id="DBMI.pac194.s11" origId="s11" text="Rifampin\n\nConcomitant administration of rifampin and propafenone in extensive metabolizers decreased the plasma concentrations of propafenone by 67% with a corresponding decrease of 5OH-propafenone by 65%.">
+		<entity charOffset="1888-1897" id="DBMI.pac194.s11.e0" origId="s11.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="1901-1913" id="DBMI.pac194.s11.e1" origId="s11.e1" text="propafenone " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.s11.e0" e2="DBMI.pac194.s11.e1" id="DBMI.pac194.s11.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="rifampin "/>
+		<pair e1="DBMI.pac194.s11.e0" e2="DBMI.pac194.s11.e1" id="DBMI.pac194.s11.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="rifampin "/>
+		<pair e1="DBMI.pac194.s11.e0" e2="DBMI.pac194.s11.e1" id="DBMI.pac194.s11.p2" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="rifampin "/>
+		<pair e1="DBMI.pac194.s11.e0" e2="DBMI.pac194.s11.e1" id="DBMI.pac194.s11.p3" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="rifampin "/>
+		<pair e1="DBMI.pac194.s11.e0" e2="DBMI.pac194.s11.e1" id="DBMI.pac194.s11.p4" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="rifampin "/>
+		<pair e1="DBMI.pac194.s11.e0" e2="DBMI.pac194.s11.e1" id="DBMI.pac194.s11.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="rifampin "/>
+		<pair e1="DBMI.pac194.s11.e1" e2="DBMI.pac194.s11.e0" id="DBMI.pac194.s11.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac194.s12" origId="s12" text="The concentrations of norpropafenone increased by 30%."/>
+	<sentence id="DBMI.pac194.s13" origId="s13" text="In poor metabolizers, there was a 50% decrease in propafenone plasma concentrations and increased the AUC and Cmax of norpropafenone by 74 and 20%, respectively."/>
+	<sentence id="DBMI.pac194.s14" origId="s14" text="Urinary excretion of propafenone and its metabolites decreased significantly."/>
+	<sentence id="DBMI.pac194.s15" origId="s15" text="Similar results were noted in elderly patients: Both the AUC and Cmax propafenone decreased by 84%, with a corresponding decrease in AUC and Cmax of 5OH-propafenone by 69 and 57%."/>
+	<sentence id="DBMI.pac194.s16" origId="s16" text="7.2 Digoxin\n\nConcomitant use of propafenone and digoxin increased steady-state serum digoxin exposure (AUC) in patients by 60 to 270%, and decreased the clearance of digoxin by 31 to 67%.">
+		<entity charOffset="2562-2574" id="DBMI.pac194.s16.e0" origId="s16.e0" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="2578-2586" id="DBMI.pac194.s16.e1" origId="s16.e1" text="digoxin " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.s16.e0" e2="DBMI.pac194.s16.e1" id="DBMI.pac194.s16.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="digoxin " precipitant="propafenone "/>
+		<pair e1="DBMI.pac194.s16.e1" e2="DBMI.pac194.s16.e0" id="DBMI.pac194.s16.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac194.s17" origId="s17" text="Monitor plasma digoxin levels of patients receiving propafenone and adjust digoxin dosage as needed."/>
+	<sentence id="DBMI.pac194.s18" origId="s18" text="7.3 Warfarin\n\nThe concomitant administration of propafenone and warfarin increased warfarin plasma concentrations at steady state by 39% in healthy volunteers and prolonged the prothrombin time (PT) in patients taking warfarin.">
+		<entity charOffset="2868-2880" id="DBMI.pac194.s18.e0" origId="s18.e0" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="2884-2893" id="DBMI.pac194.s18.e1" origId="s18.e1" text="warfarin " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.s18.e0" e2="DBMI.pac194.s18.e1" id="DBMI.pac194.s18.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="warfarin " precipitant="propafenone "/>
+		<pair e1="DBMI.pac194.s18.e1" e2="DBMI.pac194.s18.e0" id="DBMI.pac194.s18.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac194.s19" origId="s19" text="Adjust the warfarin dose as needed by monitoring INR (international normalized ratio)."/>
+	<sentence id="DBMI.pac194.s20" origId="s20" text="7.4 Orlistat\n\nOrlistat may limit the fraction of propafenone available for absorption."/>
+	<sentence id="DBMI.pac194.s21" origId="s21" text="In post marketing reports, abrupt cessation of orlistat in patients stabilized on propafenone has resulted in severe adverse events including convulsions, atrioventricular block and acute circulatory failure."/>
+	<sentence id="DBMI.pac194.s22" origId="s22" text="7.5 Beta-Antagonists\n\nConcomitant use of propafenone and propranolol in healthy subjects increased propranolol plasma concentrations at steady state by 113%.">
+		<entity charOffset="3474-3486" id="DBMI.pac194.s22.e0" origId="s22.e0" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="3490-3502" id="DBMI.pac194.s22.e1" origId="s22.e1" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.s22.e0" e2="DBMI.pac194.s22.e1" id="DBMI.pac194.s22.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propranolol " precipitant="propafenone "/>
+		<pair e1="DBMI.pac194.s22.e1" e2="DBMI.pac194.s22.e0" id="DBMI.pac194.s22.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac194.s23" origId="s23" text="In 4 patients, administration of metoprolol with propafenone increased the metoprolol plasma concentrations at steady state by 100-400%.">
+		<entity charOffset="3640-3652" id="DBMI.pac194.s23.e0" origId="s23.e0" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="3624-3635" id="DBMI.pac194.s23.e1" origId="s23.e1" text="metoprolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.s23.e0" e2="DBMI.pac194.s23.e1" id="DBMI.pac194.s23.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="metoprolol " precipitant="propafenone "/>
+		<pair e1="DBMI.pac194.s23.e1" e2="DBMI.pac194.s23.e0" id="DBMI.pac194.s23.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac194.s24" origId="s24" text="The pharmacokinetics of propafenone was not affected by the coadministration of either propranolol or metoprolol.">
+		<entity charOffset="3815-3827" id="DBMI.pac194.s24.e0" origId="s24.e0" text="propranolol " type="Active ingredient"/>
+		<entity charOffset="3752-3764" id="DBMI.pac194.s24.e1" origId="s24.e1" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="3830-3841" id="DBMI.pac194.s24.e2" origId="s24.e2" text="metoprolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.s24.e0" e2="DBMI.pac194.s24.e1" id="DBMI.pac194.s24.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="propafenone " precipitant="propranolol "/>
+		<pair e1="DBMI.pac194.s24.e0" e2="DBMI.pac194.s24.e2" id="DBMI.pac194.s24.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s24.e1" e2="DBMI.pac194.s24.e0" id="DBMI.pac194.s24.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s24.e1" e2="DBMI.pac194.s24.e2" id="DBMI.pac194.s24.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s24.e2" e2="DBMI.pac194.s24.e0" id="DBMI.pac194.s24.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.s24.e2" e2="DBMI.pac194.s24.e1" id="DBMI.pac194.s24.p5" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="propafenone " precipitant="metoprolol "/>
+	</sentence>
+	<sentence id="DBMI.pac194.s25" origId="s25" text="In clinical trials using propafenone immediate release tablets, patients who were receiving beta-blockers concurrently did not experience an increased incidence of side effects."/>
+	<sentence id="DBMI.pac194.s26" origId="s26" text="7.6 Lidocaine\n\nNo significant effects on the pharmacokinetics of propafenone or lidocaine have been seen following their concomitant use in patients.">
+		<entity charOffset="4086-4098" id="DBMI.pac194.s26.e0" origId="s26.e0" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="4101-4111" id="DBMI.pac194.s26.e1" origId="s26.e1" text="lidocaine " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.s26.e0" e2="DBMI.pac194.s26.e1" id="DBMI.pac194.s26.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lidocaine " precipitant="propafenone "/>
+		<pair e1="DBMI.pac194.s26.e1" e2="DBMI.pac194.s26.e0" id="DBMI.pac194.s26.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="propafenone " precipitant="lidocaine "/>
+	</sentence>
+	<sentence id="DBMI.pac194.s27" origId="s27" text="However, concomitant use of propafenone and lidocaine has been reported to increase the risks of central nervous system side effects of lidocaine."/>
+	<sentencespan id="DBMI.pac194.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\n7.1 CYP2D6 and CYP3A4 Inhibitors\n\nDrugs that inhibit CYP2D6 (such as desipramine, paroxetine, ritonavir, sertraline) and CYP3A4 (such as ketoconazole, ritonavir, saquinavir, erythromycin, and grapefruit juice) can be expected to cause increased plasma levels of propafenone. The combination of CYP3A4 inhibition and either CYP2D6 deficiency or CYP2D6 inhibition with administration of propafenone may increase the risk of adverse reactions, including proarrhythmia. Therefore, simultaneous use of RYTHMOL SR with both a CYP2D6 inhibitor and a CYP3A4 inhibitor should be avoided [see Warnings and Precautions (5.2) and Dosage and Administration (2)].">
+		<entity charOffset="103-114" id="DBMI.pac194.sp0.e0" origId="sp0.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="283-295" id="DBMI.pac194.sp0.e1" origId="sp0.e1" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="115-125" id="DBMI.pac194.sp0.e2" origId="sp0.e2" text="ritonavir " type="Active ingredient"/>
+		<entity charOffset="126-137" id="DBMI.pac194.sp0.e3" origId="sp0.e3" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="158-171" id="DBMI.pac194.sp0.e4" origId="sp0.e4" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="183-194" id="DBMI.pac194.sp0.e5" origId="sp0.e5" text="saquinavir " type="Active ingredient"/>
+		<entity charOffset="195-208" id="DBMI.pac194.sp0.e6" origId="sp0.e6" text="erythromycin " type="Active ingredient"/>
+		<entity charOffset="90-102" id="DBMI.pac194.sp0.e7" origId="sp0.e7" text="desipramine " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.sp0.e0" e2="DBMI.pac194.sp0.e1" id="DBMI.pac194.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac194.sp0.e0" e2="DBMI.pac194.sp0.e2" id="DBMI.pac194.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e0" e2="DBMI.pac194.sp0.e3" id="DBMI.pac194.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e0" e2="DBMI.pac194.sp0.e4" id="DBMI.pac194.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e0" e2="DBMI.pac194.sp0.e5" id="DBMI.pac194.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e0" e2="DBMI.pac194.sp0.e6" id="DBMI.pac194.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e0" e2="DBMI.pac194.sp0.e7" id="DBMI.pac194.sp0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e1" e2="DBMI.pac194.sp0.e0" id="DBMI.pac194.sp0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e1" e2="DBMI.pac194.sp0.e2" id="DBMI.pac194.sp0.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e1" e2="DBMI.pac194.sp0.e3" id="DBMI.pac194.sp0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e1" e2="DBMI.pac194.sp0.e4" id="DBMI.pac194.sp0.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e1" e2="DBMI.pac194.sp0.e5" id="DBMI.pac194.sp0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e1" e2="DBMI.pac194.sp0.e6" id="DBMI.pac194.sp0.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e1" e2="DBMI.pac194.sp0.e7" id="DBMI.pac194.sp0.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e2" e2="DBMI.pac194.sp0.e0" id="DBMI.pac194.sp0.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e2" e2="DBMI.pac194.sp0.e1" id="DBMI.pac194.sp0.p15" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="ritonavir "/>
+		<pair e1="DBMI.pac194.sp0.e2" e2="DBMI.pac194.sp0.e1" id="DBMI.pac194.sp0.p16" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="ritonavir "/>
+		<pair e1="DBMI.pac194.sp0.e2" e2="DBMI.pac194.sp0.e3" id="DBMI.pac194.sp0.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e2" e2="DBMI.pac194.sp0.e4" id="DBMI.pac194.sp0.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e2" e2="DBMI.pac194.sp0.e5" id="DBMI.pac194.sp0.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e2" e2="DBMI.pac194.sp0.e6" id="DBMI.pac194.sp0.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e2" e2="DBMI.pac194.sp0.e7" id="DBMI.pac194.sp0.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e3" e2="DBMI.pac194.sp0.e0" id="DBMI.pac194.sp0.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e3" e2="DBMI.pac194.sp0.e1" id="DBMI.pac194.sp0.p23" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="sertraline "/>
+		<pair e1="DBMI.pac194.sp0.e3" e2="DBMI.pac194.sp0.e2" id="DBMI.pac194.sp0.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e3" e2="DBMI.pac194.sp0.e4" id="DBMI.pac194.sp0.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e3" e2="DBMI.pac194.sp0.e5" id="DBMI.pac194.sp0.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e3" e2="DBMI.pac194.sp0.e6" id="DBMI.pac194.sp0.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e3" e2="DBMI.pac194.sp0.e7" id="DBMI.pac194.sp0.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e4" e2="DBMI.pac194.sp0.e0" id="DBMI.pac194.sp0.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e4" e2="DBMI.pac194.sp0.e1" id="DBMI.pac194.sp0.p30" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac194.sp0.e4" e2="DBMI.pac194.sp0.e2" id="DBMI.pac194.sp0.p31" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e4" e2="DBMI.pac194.sp0.e3" id="DBMI.pac194.sp0.p32" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e4" e2="DBMI.pac194.sp0.e5" id="DBMI.pac194.sp0.p33" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e4" e2="DBMI.pac194.sp0.e6" id="DBMI.pac194.sp0.p34" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e4" e2="DBMI.pac194.sp0.e7" id="DBMI.pac194.sp0.p35" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e5" e2="DBMI.pac194.sp0.e0" id="DBMI.pac194.sp0.p36" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e5" e2="DBMI.pac194.sp0.e1" id="DBMI.pac194.sp0.p37" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="saquinavir "/>
+		<pair e1="DBMI.pac194.sp0.e5" e2="DBMI.pac194.sp0.e2" id="DBMI.pac194.sp0.p38" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e5" e2="DBMI.pac194.sp0.e3" id="DBMI.pac194.sp0.p39" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e5" e2="DBMI.pac194.sp0.e4" id="DBMI.pac194.sp0.p40" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e5" e2="DBMI.pac194.sp0.e6" id="DBMI.pac194.sp0.p41" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e5" e2="DBMI.pac194.sp0.e7" id="DBMI.pac194.sp0.p42" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e6" e2="DBMI.pac194.sp0.e0" id="DBMI.pac194.sp0.p43" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e6" e2="DBMI.pac194.sp0.e1" id="DBMI.pac194.sp0.p44" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="erythromycin "/>
+		<pair e1="DBMI.pac194.sp0.e6" e2="DBMI.pac194.sp0.e2" id="DBMI.pac194.sp0.p45" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e6" e2="DBMI.pac194.sp0.e3" id="DBMI.pac194.sp0.p46" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e6" e2="DBMI.pac194.sp0.e4" id="DBMI.pac194.sp0.p47" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e6" e2="DBMI.pac194.sp0.e5" id="DBMI.pac194.sp0.p48" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e6" e2="DBMI.pac194.sp0.e7" id="DBMI.pac194.sp0.p49" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e7" e2="DBMI.pac194.sp0.e0" id="DBMI.pac194.sp0.p50" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e7" e2="DBMI.pac194.sp0.e1" id="DBMI.pac194.sp0.p51" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propafenone " precipitant="desipramine "/>
+		<pair e1="DBMI.pac194.sp0.e7" e2="DBMI.pac194.sp0.e2" id="DBMI.pac194.sp0.p52" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e7" e2="DBMI.pac194.sp0.e3" id="DBMI.pac194.sp0.p53" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e7" e2="DBMI.pac194.sp0.e4" id="DBMI.pac194.sp0.p54" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e7" e2="DBMI.pac194.sp0.e5" id="DBMI.pac194.sp0.p55" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp0.e7" e2="DBMI.pac194.sp0.e6" id="DBMI.pac194.sp0.p56" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac194.sp1" origId="sp1" text="Amiodarone\n\nConcomitant administration of propafenone and amiodarone can affect conduction and repolarization and is not recommended. Cimetidine\n\nConcomitant administration of propafenone immediate release tablets and cimetidine in 12 healthy subjects resulted in a 20% increase in steady-state plasma concentrations of propafenone. Fluoxetine\n\nConcomitant administration of propafenone and fluoxetine in extensive metabolizers increased the S propafenone Cmax and AUC by 39 and 50% and the R propafenone Cmax and AUC by 71 and 50%.">
+		<entity charOffset="1065-1076" id="DBMI.pac194.sp1.e0" origId="sp1.e0" text="fluoxetine " type="Active ingredient"/>
+		<entity charOffset="1049-1061" id="DBMI.pac194.sp1.e1" origId="sp1.e1" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="891-902" id="DBMI.pac194.sp1.e2" origId="sp1.e2" text="cimetidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.sp1.e0" e2="DBMI.pac194.sp1.e1" id="DBMI.pac194.sp1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="fluoxetine "/>
+		<pair e1="DBMI.pac194.sp1.e0" e2="DBMI.pac194.sp1.e2" id="DBMI.pac194.sp1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp1.e1" e2="DBMI.pac194.sp1.e0" id="DBMI.pac194.sp1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp1.e1" e2="DBMI.pac194.sp1.e2" id="DBMI.pac194.sp1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp1.e2" e2="DBMI.pac194.sp1.e0" id="DBMI.pac194.sp1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp1.e2" e2="DBMI.pac194.sp1.e1" id="DBMI.pac194.sp1.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="cimetidine "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac194.sp2" origId="sp2" text="Quinidine\n\nSmall doses of quinidine completely inhibit the CYP2D6 hydroxylation metabolic pathway, making all patients, in effect, slow metabolizers [see Clinical Pharmacology (12)]. Concomitant administration of quinidine (50 mg three times daily) with 150 mg immediate-release propafenone three times daily decreased the clearance of propafenone by 60% in EM, making them PM. Steady-state plasma concentrations increased by more that 2-fold for propafenone, and decreased 50% for 5OH-propafenone.">
+		<entity charOffset="1421-1431" id="DBMI.pac194.sp2.e0" origId="sp2.e0" text="quinidine " type="Active ingredient"/>
+		<entity charOffset="1487-1499" id="DBMI.pac194.sp2.e1" origId="sp2.e1" text="propafenone " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.sp2.e0" e2="DBMI.pac194.sp2.e1" id="DBMI.pac194.sp2.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="quinidine "/>
+		<pair e1="DBMI.pac194.sp2.e1" e2="DBMI.pac194.sp2.e0" id="DBMI.pac194.sp2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac194.sp3" origId="sp3" text="A 100 mg dose of quinidine increased steady state concentrations of propafenone 3-fold. Avoid concomitant use of propafenone and quinidine. Rifampin\n\nConcomitant administration of rifampin and propafenone in extensive metabolizers decreased the plasma concentrations of propafenone by 67% with a corresponding decrease of 5OH-propafenone by 65%.">
+		<entity charOffset="1724-1734" id="DBMI.pac194.sp3.e0" origId="sp3.e0" text="quinidine " type="Active ingredient"/>
+		<entity charOffset="1775-1787" id="DBMI.pac194.sp3.e1" origId="sp3.e1" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="1888-1897" id="DBMI.pac194.sp3.e2" origId="sp3.e2" text="rifampin " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.sp3.e0" e2="DBMI.pac194.sp3.e1" id="DBMI.pac194.sp3.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="quinidine "/>
+		<pair e1="DBMI.pac194.sp3.e0" e2="DBMI.pac194.sp3.e2" id="DBMI.pac194.sp3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp3.e1" e2="DBMI.pac194.sp3.e0" id="DBMI.pac194.sp3.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp3.e1" e2="DBMI.pac194.sp3.e2" id="DBMI.pac194.sp3.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp3.e2" e2="DBMI.pac194.sp3.e0" id="DBMI.pac194.sp3.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp3.e2" e2="DBMI.pac194.sp3.e1" id="DBMI.pac194.sp3.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="rifampin "/>
+		<pair e1="DBMI.pac194.sp3.e2" e2="DBMI.pac194.sp3.e1" id="DBMI.pac194.sp3.p6" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="rifampin "/>
+		<pair e1="DBMI.pac194.sp3.e2" e2="DBMI.pac194.sp3.e1" id="DBMI.pac194.sp3.p7" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="rifampin "/>
+		<pair e1="DBMI.pac194.sp3.e2" e2="DBMI.pac194.sp3.e1" id="DBMI.pac194.sp3.p8" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="rifampin "/>
+		<pair e1="DBMI.pac194.sp3.e2" e2="DBMI.pac194.sp3.e1" id="DBMI.pac194.sp3.p9" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="rifampin "/>
+		<pair e1="DBMI.pac194.sp3.e2" e2="DBMI.pac194.sp3.e1" id="DBMI.pac194.sp3.p10" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="rifampin "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac194.sp4" origId="sp4" text="The concentrations of norpropafenone increased by 30%. In poor metabolizers, there was a 50% decrease in propafenone plasma concentrations and increased the AUC and Cmax of norpropafenone by 74 and 20%, respectively. Urinary excretion of propafenone and its metabolites decreased significantly."/>
+	<sentencespan id="DBMI.pac194.sp5" origId="sp5" text="Similar results were noted in elderly patients: Both the AUC and Cmax propafenone decreased by 84%, with a corresponding decrease in AUC and Cmax of 5OH-propafenone by 69 and 57%. 7.2 Digoxin\n\nConcomitant use of propafenone and digoxin increased steady-state serum digoxin exposure (AUC) in patients by 60 to 270%, and decreased the clearance of digoxin by 31 to 67%. Monitor plasma digoxin levels of patients receiving propafenone and adjust digoxin dosage as needed.">
+		<entity charOffset="2562-2574" id="DBMI.pac194.sp5.e0" origId="sp5.e0" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="2578-2586" id="DBMI.pac194.sp5.e1" origId="sp5.e1" text="digoxin " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.sp5.e0" e2="DBMI.pac194.sp5.e1" id="DBMI.pac194.sp5.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="digoxin " precipitant="propafenone "/>
+		<pair e1="DBMI.pac194.sp5.e1" e2="DBMI.pac194.sp5.e0" id="DBMI.pac194.sp5.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac194.sp6" origId="sp6" text="7.3 Warfarin\n\nThe concomitant administration of propafenone and warfarin increased warfarin plasma concentrations at steady state by 39% in healthy volunteers and prolonged the prothrombin time (PT) in patients taking warfarin. Adjust the warfarin dose as needed by monitoring INR (international normalized ratio). 7.4 Orlistat\n\nOrlistat may limit the fraction of propafenone available for absorption.">
+		<entity charOffset="2868-2880" id="DBMI.pac194.sp6.e0" origId="sp6.e0" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="2884-2893" id="DBMI.pac194.sp6.e1" origId="sp6.e1" text="warfarin " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.sp6.e0" e2="DBMI.pac194.sp6.e1" id="DBMI.pac194.sp6.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="warfarin " precipitant="propafenone "/>
+		<pair e1="DBMI.pac194.sp6.e1" e2="DBMI.pac194.sp6.e0" id="DBMI.pac194.sp6.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac194.sp7" origId="sp7" text="In post marketing reports, abrupt cessation of orlistat in patients stabilized on propafenone has resulted in severe adverse events including convulsions, atrioventricular block and acute circulatory failure. 7.5 Beta-Antagonists\n\nConcomitant use of propafenone and propranolol in healthy subjects increased propranolol plasma concentrations at steady state by 113%. In 4 patients, administration of metoprolol with propafenone increased the metoprolol plasma concentrations at steady state by 100-400%.">
+		<entity charOffset="3474-3486" id="DBMI.pac194.sp7.e0" origId="sp7.e0" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="3490-3502" id="DBMI.pac194.sp7.e1" origId="sp7.e1" text="propranolol " type="Active ingredient"/>
+		<entity charOffset="3624-3635" id="DBMI.pac194.sp7.e2" origId="sp7.e2" text="metoprolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.sp7.e0" e2="DBMI.pac194.sp7.e1" id="DBMI.pac194.sp7.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propranolol " precipitant="propafenone "/>
+		<pair e1="DBMI.pac194.sp7.e0" e2="DBMI.pac194.sp7.e2" id="DBMI.pac194.sp7.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="metoprolol " precipitant="propafenone "/>
+		<pair e1="DBMI.pac194.sp7.e1" e2="DBMI.pac194.sp7.e0" id="DBMI.pac194.sp7.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp7.e1" e2="DBMI.pac194.sp7.e2" id="DBMI.pac194.sp7.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp7.e2" e2="DBMI.pac194.sp7.e0" id="DBMI.pac194.sp7.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp7.e2" e2="DBMI.pac194.sp7.e1" id="DBMI.pac194.sp7.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac194.sp8" origId="sp8" text="The pharmacokinetics of propafenone was not affected by the coadministration of either propranolol or metoprolol. In clinical trials using propafenone immediate release tablets, patients who were receiving beta-blockers concurrently did not experience an increased incidence of side effects. 7.6 Lidocaine\n\nNo significant effects on the pharmacokinetics of propafenone or lidocaine have been seen following their concomitant use in patients.">
+		<entity charOffset="3815-3827" id="DBMI.pac194.sp8.e0" origId="sp8.e0" text="propranolol " type="Active ingredient"/>
+		<entity charOffset="3752-3764" id="DBMI.pac194.sp8.e1" origId="sp8.e1" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="3830-3841" id="DBMI.pac194.sp8.e2" origId="sp8.e2" text="metoprolol " type="Active ingredient"/>
+		<entity charOffset="4101-4111" id="DBMI.pac194.sp8.e3" origId="sp8.e3" text="lidocaine " type="Active ingredient"/>
+		<pair e1="DBMI.pac194.sp8.e0" e2="DBMI.pac194.sp8.e1" id="DBMI.pac194.sp8.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="propafenone " precipitant="propranolol "/>
+		<pair e1="DBMI.pac194.sp8.e0" e2="DBMI.pac194.sp8.e2" id="DBMI.pac194.sp8.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp8.e0" e2="DBMI.pac194.sp8.e3" id="DBMI.pac194.sp8.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp8.e1" e2="DBMI.pac194.sp8.e0" id="DBMI.pac194.sp8.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp8.e1" e2="DBMI.pac194.sp8.e2" id="DBMI.pac194.sp8.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp8.e1" e2="DBMI.pac194.sp8.e3" id="DBMI.pac194.sp8.p5" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lidocaine " precipitant="propafenone "/>
+		<pair e1="DBMI.pac194.sp8.e2" e2="DBMI.pac194.sp8.e0" id="DBMI.pac194.sp8.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp8.e2" e2="DBMI.pac194.sp8.e1" id="DBMI.pac194.sp8.p7" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="propafenone " precipitant="metoprolol "/>
+		<pair e1="DBMI.pac194.sp8.e2" e2="DBMI.pac194.sp8.e3" id="DBMI.pac194.sp8.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp8.e3" e2="DBMI.pac194.sp8.e0" id="DBMI.pac194.sp8.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac194.sp8.e3" e2="DBMI.pac194.sp8.e1" id="DBMI.pac194.sp8.p10" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="propafenone " precipitant="lidocaine "/>
+		<pair e1="DBMI.pac194.sp8.e3" e2="DBMI.pac194.sp8.e2" id="DBMI.pac194.sp8.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac194.sp9" origId="sp9" text="However, concomitant use of propafenone and lidocaine has been reported to increase the risks of central nervous system side effects of lidocaine."/>
+</document>

@@ -1,0 +1,41 @@
+
+<document id="DBMI.pac38" origId="pac38">
+	<sentence id="DBMI.pac38.s0" origId="s0" text="The effect of fluvoxamine (25 mg b.i.d.for one week) on thioridazine steady-state concentration was evaluated in ten male inpatients with schizophrenia."/>
+	<sentence id="DBMI.pac38.s1" origId="s1" text="Concentrations of thioridazine and its two active metabolites, mesoridazine and sulforidazine, increased 3-fold following coadministration of fluvoxamine.">
+		<entity charOffset="296-308" id="DBMI.pac38.s1.e0" origId="s1.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="172-185" id="DBMI.pac38.s1.e1" origId="s1.e1" text="thioridazine " type="Active ingredient"/>
+		<entity charOffset="217-230" id="DBMI.pac38.s1.e2" origId="s1.e2" text="mesoridazine " type="Metabolite"/>
+		<entity charOffset="234-248" id="DBMI.pac38.s1.e3" origId="s1.e3" text="sulforidazine " type="Metabolite"/>
+		<pair e1="DBMI.pac38.s1.e0" e2="DBMI.pac38.s1.e1" id="DBMI.pac38.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="thioridazine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac38.s1.e0" e2="DBMI.pac38.s1.e2" id="DBMI.pac38.s1.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="mesoridazine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac38.s1.e0" e2="DBMI.pac38.s1.e3" id="DBMI.pac38.s1.p2" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="sulforidazine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac38.s1.e1" e2="DBMI.pac38.s1.e0" id="DBMI.pac38.s1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.s1.e1" e2="DBMI.pac38.s1.e2" id="DBMI.pac38.s1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.s1.e1" e2="DBMI.pac38.s1.e3" id="DBMI.pac38.s1.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.s1.e2" e2="DBMI.pac38.s1.e0" id="DBMI.pac38.s1.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.s1.e2" e2="DBMI.pac38.s1.e1" id="DBMI.pac38.s1.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.s1.e2" e2="DBMI.pac38.s1.e3" id="DBMI.pac38.s1.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.s1.e3" e2="DBMI.pac38.s1.e0" id="DBMI.pac38.s1.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.s1.e3" e2="DBMI.pac38.s1.e1" id="DBMI.pac38.s1.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.s1.e3" e2="DBMI.pac38.s1.e2" id="DBMI.pac38.s1.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac38.s2" origId="s2" text="Fluvoxamine and thioridazine should not be coadministered."/>
+	<sentencespan id="DBMI.pac38.sp0" origId="sp0" text="The effect of fluvoxamine (25 mg b.i.d.for one week) on thioridazine steady-state concentration was evaluated in ten male inpatients with schizophrenia. Concentrations of thioridazine and its two active metabolites, mesoridazine and sulforidazine, increased 3-fold following coadministration of fluvoxamine. Fluvoxamine and thioridazine should not be coadministered.">
+		<entity charOffset="296-308" id="DBMI.pac38.sp0.e0" origId="sp0.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="172-185" id="DBMI.pac38.sp0.e1" origId="sp0.e1" text="thioridazine " type="Active ingredient"/>
+		<entity charOffset="217-230" id="DBMI.pac38.sp0.e2" origId="sp0.e2" text="mesoridazine " type="Metabolite"/>
+		<entity charOffset="234-248" id="DBMI.pac38.sp0.e3" origId="sp0.e3" text="sulforidazine " type="Metabolite"/>
+		<pair e1="DBMI.pac38.sp0.e0" e2="DBMI.pac38.sp0.e1" id="DBMI.pac38.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="thioridazine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac38.sp0.e0" e2="DBMI.pac38.sp0.e2" id="DBMI.pac38.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="mesoridazine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac38.sp0.e0" e2="DBMI.pac38.sp0.e3" id="DBMI.pac38.sp0.p2" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="sulforidazine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac38.sp0.e1" e2="DBMI.pac38.sp0.e0" id="DBMI.pac38.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.sp0.e1" e2="DBMI.pac38.sp0.e2" id="DBMI.pac38.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.sp0.e1" e2="DBMI.pac38.sp0.e3" id="DBMI.pac38.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.sp0.e2" e2="DBMI.pac38.sp0.e0" id="DBMI.pac38.sp0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.sp0.e2" e2="DBMI.pac38.sp0.e1" id="DBMI.pac38.sp0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.sp0.e2" e2="DBMI.pac38.sp0.e3" id="DBMI.pac38.sp0.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.sp0.e3" e2="DBMI.pac38.sp0.e0" id="DBMI.pac38.sp0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.sp0.e3" e2="DBMI.pac38.sp0.e1" id="DBMI.pac38.sp0.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac38.sp0.e3" e2="DBMI.pac38.sp0.e2" id="DBMI.pac38.sp0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

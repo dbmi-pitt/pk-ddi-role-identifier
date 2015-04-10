@@ -1,0 +1,29 @@
+
+<document id="DBMI.pac66" origId="pac66">
+	<sentence id="DBMI.pac66.s0" origId="s0" text="When alprazolam (1 mg BID) and nefazodone (200 mg BID) were coadministered, steady-state peak concentrations, AUC and half-life values for alprazolam increased by approximately 2-fold.">
+		<entity charOffset="31-42" id="DBMI.pac66.s0.e0" origId="s0.e0" text="nefazodone " type="Active ingredient"/>
+		<entity charOffset="5-16" id="DBMI.pac66.s0.e1" origId="s0.e1" text="alprazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac66.s0.e0" e2="DBMI.pac66.s0.e1" id="DBMI.pac66.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="nefazodone "/>
+		<pair e1="DBMI.pac66.s0.e1" e2="DBMI.pac66.s0.e0" id="DBMI.pac66.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac66.s1" origId="s1" text="Nefazodone plasma concentrations were unaffected by alprazolam.">
+		<entity charOffset="237-248" id="DBMI.pac66.s1.e0" origId="s1.e0" text="alprazolam " type="Active ingredient"/>
+		<entity charOffset="185-196" id="DBMI.pac66.s1.e1" origId="s1.e1" text="Nefazodone " type="Active ingredient"/>
+		<pair e1="DBMI.pac66.s1.e0" e2="DBMI.pac66.s1.e1" id="DBMI.pac66.s1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="Nefazodone " precipitant="alprazolam "/>
+		<pair e1="DBMI.pac66.s1.e1" e2="DBMI.pac66.s1.e0" id="DBMI.pac66.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac66.s2" origId="s2" text="If alprazolam is coadministered with nefazodone, a 50% reduction in the initial alprazolam dosage is recommended."/>
+	<sentence id="DBMI.pac66.s3" origId="s3" text="No dosage adjustment is required for nefazodone hydrochloride."/>
+	<sentencespan id="DBMI.pac66.sp0" origId="sp0" text="When alprazolam (1 mg BID) and nefazodone (200 mg BID) were coadministered, steady-state peak concentrations, AUC and half-life values for alprazolam increased by approximately 2-fold. Nefazodone plasma concentrations were unaffected by alprazolam. If alprazolam is coadministered with nefazodone, a 50% reduction in the initial alprazolam dosage is recommended.">
+		<entity charOffset="237-248" id="DBMI.pac66.sp0.e0" origId="sp0.e0" text="alprazolam " type="Active ingredient"/>
+		<entity charOffset="185-196" id="DBMI.pac66.sp0.e1" origId="sp0.e1" text="Nefazodone " type="Active ingredient"/>
+		<entity charOffset="31-42" id="DBMI.pac66.sp0.e2" origId="sp0.e2" text="nefazodone " type="Active ingredient"/>
+		<pair e1="DBMI.pac66.sp0.e0" e2="DBMI.pac66.sp0.e1" id="DBMI.pac66.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="Nefazodone " precipitant="alprazolam "/>
+		<pair e1="DBMI.pac66.sp0.e0" e2="DBMI.pac66.sp0.e2" id="DBMI.pac66.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac66.sp0.e1" e2="DBMI.pac66.sp0.e0" id="DBMI.pac66.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac66.sp0.e1" e2="DBMI.pac66.sp0.e2" id="DBMI.pac66.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac66.sp0.e2" e2="DBMI.pac66.sp0.e0" id="DBMI.pac66.sp0.p4" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="nefazodone "/>
+		<pair e1="DBMI.pac66.sp0.e2" e2="DBMI.pac66.sp0.e1" id="DBMI.pac66.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac66.sp1" origId="sp1" text="No dosage adjustment is required for nefazodone hydrochloride."/>
+</document>

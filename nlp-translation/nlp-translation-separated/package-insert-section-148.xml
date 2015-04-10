@@ -1,0 +1,52 @@
+
+<document id="DBMI.pac148" origId="pac148">
+	<sentence id="DBMI.pac148.s0" origId="s0" text="Carbamazepine: Felbatol causes a decrease in the steady-state carbamazepine plasma concentrations and an increase in the steady-state carbamazepine epoxide plasma concentration.">
+		<entity charOffset="15-24" id="DBMI.pac148.s0.e0" origId="s0.e0" text="Felbatol " type="Drug product"/>
+		<entity charOffset="63-77" id="DBMI.pac148.s0.e1" origId="s0.e1" text="carbamazepine " type="Active ingredient"/>
+		<entity charOffset="135-157" id="DBMI.pac148.s0.e2" origId="s0.e2" text="carbamazepine epoxide " type="Metabolite"/>
+		<pair e1="DBMI.pac148.s0.e0" e2="DBMI.pac148.s0.e1" id="DBMI.pac148.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="carbamazepine " precipitant="Felbatol "/>
+		<pair e1="DBMI.pac148.s0.e0" e2="DBMI.pac148.s0.e2" id="DBMI.pac148.s0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="carbamazepine epoxide " precipitant="Felbatol "/>
+		<pair e1="DBMI.pac148.s0.e1" e2="DBMI.pac148.s0.e0" id="DBMI.pac148.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac148.s0.e1" e2="DBMI.pac148.s0.e2" id="DBMI.pac148.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac148.s0.e2" e2="DBMI.pac148.s0.e0" id="DBMI.pac148.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac148.s0.e2" e2="DBMI.pac148.s0.e1" id="DBMI.pac148.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac148.s1" origId="s1" text="In nine otherwise healthy subjects with epilepsy ingesting carbamazepine, the steady-state trough (Cmin) carbamazepine concentration was 82 micrograms/mL."/>
+	<sentence id="DBMI.pac148.s2" origId="s2" text="The carbamazepine steady-state Cmin decreased 31% to 51 micrograms/mL when felbamate (3000 mg/day, divided into three doses) was coadministered.">
+		<entity charOffset="411-421" id="DBMI.pac148.s2.e0" origId="s2.e0" text="felbamate " type="Active ingredient"/>
+		<entity charOffset="339-353" id="DBMI.pac148.s2.e1" origId="s2.e1" text="carbamazepine " type="Active ingredient"/>
+		<pair e1="DBMI.pac148.s2.e0" e2="DBMI.pac148.s2.e1" id="DBMI.pac148.s2.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="carbamazepine " precipitant="felbamate "/>
+		<pair e1="DBMI.pac148.s2.e1" e2="DBMI.pac148.s2.e0" id="DBMI.pac148.s2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac148.s3" origId="s3" text="Carbamazepine epoxide steady-state Cmin concentrations increased 57% from 1.00.3 to 1.60.4 micrograms/mL with the addition of felbamate.">
+		<entity charOffset="609-619" id="DBMI.pac148.s3.e0" origId="s3.e0" text="felbamate " type="Active ingredient"/>
+		<entity charOffset="481-503" id="DBMI.pac148.s3.e1" origId="s3.e1" text="Carbamazepine epoxide " type="Metabolite"/>
+		<pair e1="DBMI.pac148.s3.e0" e2="DBMI.pac148.s3.e1" id="DBMI.pac148.s3.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Carbamazepine epoxide " precipitant="felbamate "/>
+		<pair e1="DBMI.pac148.s3.e1" e2="DBMI.pac148.s3.e0" id="DBMI.pac148.s3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac148.s4" origId="s4" text="In clinical trials, similar changes in carbamazepine and carbamazepine epoxide were seen."/>
+	<sentencespan id="DBMI.pac148.sp0" origId="sp0" text="Carbamazepine: Felbatol causes a decrease in the steady-state carbamazepine plasma concentrations and an increase in the steady-state carbamazepine epoxide plasma concentration. In nine otherwise healthy subjects with epilepsy ingesting carbamazepine, the steady-state trough (Cmin) carbamazepine concentration was 82 micrograms/mL. The carbamazepine steady-state Cmin decreased 31% to 51 micrograms/mL when felbamate (3000 mg/day, divided into three doses) was coadministered.">
+		<entity charOffset="15-24" id="DBMI.pac148.sp0.e0" origId="sp0.e0" text="Felbatol " type="Drug product"/>
+		<entity charOffset="63-77" id="DBMI.pac148.sp0.e1" origId="sp0.e1" text="carbamazepine " type="Active ingredient"/>
+		<entity charOffset="135-157" id="DBMI.pac148.sp0.e2" origId="sp0.e2" text="carbamazepine epoxide " type="Metabolite"/>
+		<entity charOffset="411-421" id="DBMI.pac148.sp0.e3" origId="sp0.e3" text="felbamate " type="Active ingredient"/>
+		<pair e1="DBMI.pac148.sp0.e0" e2="DBMI.pac148.sp0.e1" id="DBMI.pac148.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="carbamazepine " precipitant="Felbatol "/>
+		<pair e1="DBMI.pac148.sp0.e0" e2="DBMI.pac148.sp0.e2" id="DBMI.pac148.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="carbamazepine epoxide " precipitant="Felbatol "/>
+		<pair e1="DBMI.pac148.sp0.e0" e2="DBMI.pac148.sp0.e3" id="DBMI.pac148.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac148.sp0.e1" e2="DBMI.pac148.sp0.e0" id="DBMI.pac148.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac148.sp0.e1" e2="DBMI.pac148.sp0.e2" id="DBMI.pac148.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac148.sp0.e1" e2="DBMI.pac148.sp0.e3" id="DBMI.pac148.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac148.sp0.e2" e2="DBMI.pac148.sp0.e0" id="DBMI.pac148.sp0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac148.sp0.e2" e2="DBMI.pac148.sp0.e1" id="DBMI.pac148.sp0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac148.sp0.e2" e2="DBMI.pac148.sp0.e3" id="DBMI.pac148.sp0.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac148.sp0.e3" e2="DBMI.pac148.sp0.e0" id="DBMI.pac148.sp0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac148.sp0.e3" e2="DBMI.pac148.sp0.e1" id="DBMI.pac148.sp0.p10" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="carbamazepine " precipitant="felbamate "/>
+		<pair e1="DBMI.pac148.sp0.e3" e2="DBMI.pac148.sp0.e2" id="DBMI.pac148.sp0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac148.sp1" origId="sp1" text="Carbamazepine epoxide steady-state Cmin concentrations increased 57% from 1.00.3 to 1.60.4 micrograms/mL with the addition of felbamate. In clinical trials, similar changes in carbamazepine and carbamazepine epoxide were seen.">
+		<entity charOffset="609-619" id="DBMI.pac148.sp1.e0" origId="sp1.e0" text="felbamate " type="Active ingredient"/>
+		<entity charOffset="481-503" id="DBMI.pac148.sp1.e1" origId="sp1.e1" text="Carbamazepine epoxide " type="Metabolite"/>
+		<pair e1="DBMI.pac148.sp1.e0" e2="DBMI.pac148.sp1.e1" id="DBMI.pac148.sp1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Carbamazepine epoxide " precipitant="felbamate "/>
+		<pair e1="DBMI.pac148.sp1.e1" e2="DBMI.pac148.sp1.e0" id="DBMI.pac148.sp1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

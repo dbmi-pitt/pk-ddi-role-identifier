@@ -1,0 +1,33 @@
+
+<document id="DBMI.pac113" origId="pac113">
+	<sentence id="DBMI.pac113.s0" origId="s0" text="Cimetidine: Five studies in healthy volunteers investigated the impact of multiple cimetidine doses on the single or multiple dose pharmacokinetics of nifedipine."/>
+	<sentence id="DBMI.pac113.s1" origId="s1" text="Two studies investigated the impact of coadministered cimetidine on blood pressure in hypertensive subjects on nifedipine."/>
+	<sentence id="DBMI.pac113.s2" origId="s2" text="In normotensive subjects receiving single doses of 10 mg or multiple doses of up to 20 mg nifedipine t.i.d.alone or together with cimetidine up to 1000 mg/day, the AUC values of nifedipine in the presence of cimetidine were between 1.52 and 2.01 times those in the absence of cimetidine.">
+		<entity charOffset="417-428" id="DBMI.pac113.s2.e0" origId="s2.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="465-476" id="DBMI.pac113.s2.e1" origId="s2.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac113.s2.e0" e2="DBMI.pac113.s2.e1" id="DBMI.pac113.s2.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac113.s2.e1" e2="DBMI.pac113.s2.e0" id="DBMI.pac113.s2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac113.s3" origId="s3" text="The Cmax values of nifedipine in the presence of cimetidine were increased by factors ranging between 1.60 and 2.02.">
+		<entity charOffset="624-635" id="DBMI.pac113.s3.e0" origId="s3.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="594-605" id="DBMI.pac113.s3.e1" origId="s3.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac113.s3.e0" e2="DBMI.pac113.s3.e1" id="DBMI.pac113.s3.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac113.s3.e1" e2="DBMI.pac113.s3.e0" id="DBMI.pac113.s3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac113.s4" origId="s4" text="The increase in exposure to nifedipine by cimetidine was accompanied by relevant changes in blood pressure or heart rate in normotensive subjects."/>
+	<sentence id="DBMI.pac113.s5" origId="s5" text="Hypertensive subjects receiving 10 mg q.d.nifedipine alone or in combination with cimetidine 1000 mg q.d.also experienced relevant changes in blood pressure when cimetidine was added to nifedipine."/>
+	<sentence id="DBMI.pac113.s6" origId="s6" text="The interaction between cimetidine and nifedipine is of clinical relevance and blood pressure should be monitored and a reduction of the dose of nifedipine considered."/>
+	<sentencespan id="DBMI.pac113.sp0" origId="sp0" text="Cimetidine: Five studies in healthy volunteers investigated the impact of multiple cimetidine doses on the single or multiple dose pharmacokinetics of nifedipine. Two studies investigated the impact of coadministered cimetidine on blood pressure in hypertensive subjects on nifedipine. In normotensive subjects receiving single doses of 10 mg or multiple doses of up to 20 mg nifedipine t.i.d.alone or together with cimetidine up to 1000 mg/day, the AUC values of nifedipine in the presence of cimetidine were between 1.52 and 2.01 times those in the absence of cimetidine.">
+		<entity charOffset="417-428" id="DBMI.pac113.sp0.e0" origId="sp0.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="465-476" id="DBMI.pac113.sp0.e1" origId="sp0.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac113.sp0.e0" e2="DBMI.pac113.sp0.e1" id="DBMI.pac113.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac113.sp0.e1" e2="DBMI.pac113.sp0.e0" id="DBMI.pac113.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac113.sp1" origId="sp1" text="The Cmax values of nifedipine in the presence of cimetidine were increased by factors ranging between 1.60 and 2.02. The increase in exposure to nifedipine by cimetidine was accompanied by relevant changes in blood pressure or heart rate in normotensive subjects. Hypertensive subjects receiving 10 mg q.d.nifedipine alone or in combination with cimetidine 1000 mg q.d.also experienced relevant changes in blood pressure when cimetidine was added to nifedipine.">
+		<entity charOffset="624-635" id="DBMI.pac113.sp1.e0" origId="sp1.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="594-605" id="DBMI.pac113.sp1.e1" origId="sp1.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac113.sp1.e0" e2="DBMI.pac113.sp1.e1" id="DBMI.pac113.sp1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac113.sp1.e1" e2="DBMI.pac113.sp1.e0" id="DBMI.pac113.sp1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac113.sp2" origId="sp2" text="The interaction between cimetidine and nifedipine is of clinical relevance and blood pressure should be monitored and a reduction of the dose of nifedipine considered."/>
+</document>

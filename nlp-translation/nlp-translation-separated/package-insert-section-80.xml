@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac80" origId="pac80">
+	<sentence id="DBMI.pac80.s0" origId="s0" text="Combined administration of citalopram (40 mg) and ketoconazole (200 mg) decreased the Cmax and AUC of ketoconazole by 21% and 10%, respectively, and did not significantly affect the pharmacokinetics of citalopram.">
+		<entity charOffset="27-38" id="DBMI.pac80.s0.e0" origId="s0.e0" text="citalopram " type="Active ingredient"/>
+		<entity charOffset="50-63" id="DBMI.pac80.s0.e1" origId="s0.e1" text="ketoconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac80.s0.e0" e2="DBMI.pac80.s0.e1" id="DBMI.pac80.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="ketoconazole " precipitant="citalopram "/>
+		<pair e1="DBMI.pac80.s0.e1" e2="DBMI.pac80.s0.e0" id="DBMI.pac80.s0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="citalopram " precipitant="ketoconazole "/>
+	</sentence>
+	<sentencespan id="DBMI.pac80.sp0" origId="sp0" text="Combined administration of citalopram (40 mg) and ketoconazole (200 mg) decreased the Cmax and AUC of ketoconazole by 21% and 10%, respectively, and did not significantly affect the pharmacokinetics of citalopram.">
+		<entity charOffset="27-38" id="DBMI.pac80.sp0.e0" origId="sp0.e0" text="citalopram " type="Active ingredient"/>
+		<entity charOffset="50-63" id="DBMI.pac80.sp0.e1" origId="sp0.e1" text="ketoconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac80.sp0.e0" e2="DBMI.pac80.sp0.e1" id="DBMI.pac80.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="ketoconazole " precipitant="citalopram "/>
+		<pair e1="DBMI.pac80.sp0.e1" e2="DBMI.pac80.sp0.e0" id="DBMI.pac80.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="citalopram " precipitant="ketoconazole "/>
+	</sentencespan>
+</document>

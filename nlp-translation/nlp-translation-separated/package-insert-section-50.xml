@@ -1,0 +1,16 @@
+
+<document id="DBMI.pac50" origId="pac50">
+	<sentence id="DBMI.pac50.s0" origId="s0" text="Daily oral dosing of immediate-release paroxetine (30 mg once daily) increased steady-state AUC0-24, Cmax, and Cmin values of procyclidine (5 mg oral once daily) by 35%, 37%, and 67%, respectively, compared to procyclidine alone at steady state.">
+		<entity charOffset="39-50" id="DBMI.pac50.s0.e0" origId="s0.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="126-139" id="DBMI.pac50.s0.e1" origId="s0.e1" text="procyclidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac50.s0.e0" e2="DBMI.pac50.s0.e1" id="DBMI.pac50.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="procyclidine " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac50.s0.e1" e2="DBMI.pac50.s0.e0" id="DBMI.pac50.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac50.s1" origId="s1" text="If anticholinergic effects are seen, the dose of procyclidine should be reduced."/>
+	<sentencespan id="DBMI.pac50.sp0" origId="sp0" text="Daily oral dosing of immediate-release paroxetine (30 mg once daily) increased steady-state AUC0-24, Cmax, and Cmin values of procyclidine (5 mg oral once daily) by 35%, 37%, and 67%, respectively, compared to procyclidine alone at steady state. If anticholinergic effects are seen, the dose of procyclidine should be reduced.">
+		<entity charOffset="39-50" id="DBMI.pac50.sp0.e0" origId="sp0.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="126-139" id="DBMI.pac50.sp0.e1" origId="sp0.e1" text="procyclidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac50.sp0.e0" e2="DBMI.pac50.sp0.e1" id="DBMI.pac50.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="procyclidine " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac50.sp0.e1" e2="DBMI.pac50.sp0.e0" id="DBMI.pac50.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

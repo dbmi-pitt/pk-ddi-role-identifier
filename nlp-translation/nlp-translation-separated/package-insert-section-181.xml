@@ -1,0 +1,483 @@
+
+<document id="DBMI.pac181" origId="pac181">
+	<sentence id="DBMI.pac181.s0" origId="s0" text="7 DRUG INTERACTIONS\n\n7.1 CYP3A4 Inhibitors and Inducers\n\nIn vitro metabolic studies indicate that verapamil is metabolized by cytochrome P450 CYP3A4, CYPlA2 and CYP2C."/>
+	<sentence id="DBMI.pac181.s1" origId="s1" text="Clinically significant interactions have been reported with inhibitors of CYP3A4 (e.g.,  erythromycin, ritonavir) causing elevation of plasma levels of verapamil.">
+		<entity charOffset="257-270" id="DBMI.pac181.s1.e0" origId="s1.e0" text="erythromycin " type="Active ingredient"/>
+		<entity charOffset="320-330" id="DBMI.pac181.s1.e1" origId="s1.e1" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="271-281" id="DBMI.pac181.s1.e2" origId="s1.e2" text="ritonavir " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s1.e0" e2="DBMI.pac181.s1.e1" id="DBMI.pac181.s1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="erythromycin "/>
+		<pair e1="DBMI.pac181.s1.e0" e2="DBMI.pac181.s1.e2" id="DBMI.pac181.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s1.e1" e2="DBMI.pac181.s1.e0" id="DBMI.pac181.s1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s1.e1" e2="DBMI.pac181.s1.e2" id="DBMI.pac181.s1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s1.e2" e2="DBMI.pac181.s1.e0" id="DBMI.pac181.s1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s1.e2" e2="DBMI.pac181.s1.e1" id="DBMI.pac181.s1.p5" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="ritonavir "/>
+	</sentence>
+	<sentence id="DBMI.pac181.s2" origId="s2" text="Hypotension, bradyarrhythmias and lactic acidosis have been observed in patients receiving concurrent telithromycin, an antibiotic in the ketolide class of antibiotics."/>
+	<sentence id="DBMI.pac181.s3" origId="s3" text="Inducers of CYP3A4 (e.g.,  rifampin) have caused a lowering of plasma levels of verapamil.">
+		<entity charOffset="527-536" id="DBMI.pac181.s3.e0" origId="s3.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="580-590" id="DBMI.pac181.s3.e1" origId="s3.e1" text="verapamil " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s3.e0" e2="DBMI.pac181.s3.e1" id="DBMI.pac181.s3.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="rifampin "/>
+		<pair e1="DBMI.pac181.s3.e1" e2="DBMI.pac181.s3.e0" id="DBMI.pac181.s3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s4" origId="s4" text="7.2 Grapefruit Juice\n\nGrapefruit juice may significantly increase concentrations of verapamil."/>
+	<sentence id="DBMI.pac181.s5" origId="s5" text="Grapefruit juice given to nine healthy volunteers increased S- and R-verapamil AUC0-12 by 36% and 28%, respectively."/>
+	<sentence id="DBMI.pac181.s6" origId="s6" text="Steady-state Cmax and Cmin, of S-verapamil increased by 57% and 16.7%, respectively with grapefruit juice compared to control."/>
+	<sentence id="DBMI.pac181.s7" origId="s7" text="Similarly, Cmax and Cmin, of R-verapamil increased by 40% and 13%, respectively."/>
+	<sentence id="DBMI.pac181.s8" origId="s8" text="Grapefruit juice did not affect half-life, nor was there a significant change in AUC0-12 ratio R/S compared to control."/>
+	<sentence id="DBMI.pac181.s9" origId="s9" text="Grapefruit juice did not cause a significant difference in the pharmacokinetics of norverapamil."/>
+	<sentence id="DBMI.pac181.s10" origId="s10" text="This increase in verapamil plasma concentration is not expected to have any clinical consequences."/>
+	<sentence id="DBMI.pac181.s11" origId="s11" text="7.3 Beta-Blockers\n\nConcomitant therapy with beta-adrenergic blockers and verapamil may result in additive negative effects on heart rate, atrioventricular conduction and/or cardiac contractility."/>
+	<sentence id="DBMI.pac181.s12" origId="s12" text="The combination of extended-release verapamil and beta-adrenergic blocking agents has not been studied."/>
+	<sentence id="DBMI.pac181.s13" origId="s13" text="However, there have been reports of excess bradycardia and AV block, including complete heart block, when the combination has been used for the treatment of hypertension."/>
+	<sentence id="DBMI.pac181.s14" origId="s14" text="For hypertensive patients, the risk of combined therapy may outweigh the potential benefits."/>
+	<sentence id="DBMI.pac181.s15" origId="s15" text="The combination should be used only with caution and close monitoring."/>
+	<sentence id="DBMI.pac181.s16" origId="s16" text="Asymptomatic bradycardia (36 beats/min) with a wandering atrial pacemaker has been observed in a patient receiving concomitant timolol (a beta-adrenergic blocker) eyedrops and oral verapamil."/>
+	<sentence id="DBMI.pac181.s17" origId="s17" text="A decrease in metoprolol and propranolol clearance has been observed when either drug is administered concomitantly with verapamil.">
+		<entity charOffset="2278-2288" id="DBMI.pac181.s17.e0" origId="s17.e0" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="2171-2182" id="DBMI.pac181.s17.e1" origId="s17.e1" text="metoprolol " type="Active ingredient"/>
+		<entity charOffset="2186-2198" id="DBMI.pac181.s17.e2" origId="s17.e2" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s17.e0" e2="DBMI.pac181.s17.e1" id="DBMI.pac181.s17.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="metoprolol " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.s17.e0" e2="DBMI.pac181.s17.e2" id="DBMI.pac181.s17.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propranolol " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.s17.e1" e2="DBMI.pac181.s17.e0" id="DBMI.pac181.s17.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s17.e1" e2="DBMI.pac181.s17.e2" id="DBMI.pac181.s17.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s17.e2" e2="DBMI.pac181.s17.e0" id="DBMI.pac181.s17.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s17.e2" e2="DBMI.pac181.s17.e1" id="DBMI.pac181.s17.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s18" origId="s18" text="A variable effect has been seen when verapamil and atenolol were given together."/>
+	<sentence id="DBMI.pac181.s19" origId="s19" text="7.4 Digitalis\n\nConsider reducing digoxin dose when verapamil and digoxin are to be given together."/>
+	<sentence id="DBMI.pac181.s20" origId="s20" text="Monitor digoxin level periodically during therapy."/>
+	<sentence id="DBMI.pac181.s21" origId="s21" text="Chronic verapamil treatment can increase serum digoxin levels by 50% to 75% during the first week of therapy, and this can result in digitalis toxicity.">
+		<entity charOffset="2529-2539" id="DBMI.pac181.s21.e0" origId="s21.e0" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="2568-2576" id="DBMI.pac181.s21.e1" origId="s21.e1" text="digoxin " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s21.e0" e2="DBMI.pac181.s21.e1" id="DBMI.pac181.s21.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="digoxin " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.s21.e1" e2="DBMI.pac181.s21.e0" id="DBMI.pac181.s21.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s22" origId="s22" text="In patients with hepatic cirrhosis the influence of verapamil on digoxin pharmacokinetics is magnified."/>
+	<sentence id="DBMI.pac181.s23" origId="s23" text="Verapamil may reduce total body clearance and extrarenal clearance of digitoxin by 27% and 29%, respectively.">
+		<entity charOffset="2778-2788" id="DBMI.pac181.s23.e0" origId="s23.e0" text="Verapamil " type="Active ingredient"/>
+		<entity charOffset="2848-2858" id="DBMI.pac181.s23.e1" origId="s23.e1" text="digitoxin " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s23.e0" e2="DBMI.pac181.s23.e1" id="DBMI.pac181.s23.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="digitoxin " precipitant="Verapamil "/>
+		<pair e1="DBMI.pac181.s23.e1" e2="DBMI.pac181.s23.e0" id="DBMI.pac181.s23.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s24" origId="s24" text="If digoxin toxicity is suspected, suspend or discontinue digoxin therapy."/>
+	<sentence id="DBMI.pac181.s25" origId="s25" text="In previous clinical trials with other verapamil formulations related to the control of ventricular response in patients taking digoxin who had atrial fibrillation or atrial flutter, ventricular rates below 50/min at rest occurred in 15% of patients, and asymptomatic hypotension occurred in 5% of patients."/>
+	<sentence id="DBMI.pac181.s26" origId="s26" text="7.5 Alcohol\n\nVerapamil has been found to significantly inhibit ethanol elimination resulting in elevated blood ethanol concentrations that may prolong the intoxicating effects of alcohol.">
+		<entity charOffset="3285-3295" id="DBMI.pac181.s26.e0" origId="s26.e0" text="Verapamil " type="Active ingredient"/>
+		<entity charOffset="3335-3343" id="DBMI.pac181.s26.e1" origId="s26.e1" text="ethanol " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s26.e0" e2="DBMI.pac181.s26.e1" id="DBMI.pac181.s26.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="ethanol " precipitant="Verapamil "/>
+		<pair e1="DBMI.pac181.s26.e1" e2="DBMI.pac181.s26.e0" id="DBMI.pac181.s26.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s27" origId="s27" text="7.6 Clonidine\n\nSinus bradycardia resulting in hospitalization and pacemaker insertion has been reported in association with the use of clonidine concurrently with verapamil."/>
+	<sentence id="DBMI.pac181.s28" origId="s28" text="Monitor heart rate in patients receiving concomitant verapamil and clonidine."/>
+	<sentence id="DBMI.pac181.s29" origId="s29" text="7.7 Telithromycin\n\nHypotension, bradyarrhythmias and lactic acidosis have been observed in patients receiving concurrent telethromycin, an antibiotic in the ketolide class of antibiotics."/>
+	<sentence id="DBMI.pac181.s30" origId="s30" text="7.8 Antineoplastic Agents\n\nVerapamil can increase doxorubicin levels.">
+		<entity charOffset="3930-3940" id="DBMI.pac181.s30.e0" origId="s30.e0" text="Verapamil " type="Active ingredient"/>
+		<entity charOffset="3953-3965" id="DBMI.pac181.s30.e1" origId="s30.e1" text="doxorubicin " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s30.e0" e2="DBMI.pac181.s30.e1" id="DBMI.pac181.s30.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="doxorubicin " precipitant="Verapamil "/>
+		<pair e1="DBMI.pac181.s30.e1" e2="DBMI.pac181.s30.e0" id="DBMI.pac181.s30.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s31" origId="s31" text="The absorption of verapamil can be reduced by the cyclophosphamide, oncovin, procarbazine, prednisone (COPP) and the vindesine, adriamycin, cisplatin (VAC) cytotoxic drug regimens.">
+		<entity charOffset="4023-4040" id="DBMI.pac181.s31.e0" origId="s31.e0" text="cyclophosphamide " type="Active ingredient"/>
+		<entity charOffset="3991-4001" id="DBMI.pac181.s31.e1" origId="s31.e1" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="4041-4049" id="DBMI.pac181.s31.e2" origId="s31.e2" text="oncovin " type="Drug product"/>
+		<entity charOffset="4050-4063" id="DBMI.pac181.s31.e3" origId="s31.e3" text="procarbazine " type="Active ingredient"/>
+		<entity charOffset="4064-4075" id="DBMI.pac181.s31.e4" origId="s31.e4" text="prednisone " type="Active ingredient"/>
+		<entity charOffset="4090-4100" id="DBMI.pac181.s31.e5" origId="s31.e5" text="vindesine " type="Active ingredient"/>
+		<entity charOffset="4101-4112" id="DBMI.pac181.s31.e6" origId="s31.e6" text="adriamycin " type="Drug product"/>
+		<entity charOffset="4113-4123" id="DBMI.pac181.s31.e7" origId="s31.e7" text="cisplatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s31.e0" e2="DBMI.pac181.s31.e1" id="DBMI.pac181.s31.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="cyclophosphamide "/>
+		<pair e1="DBMI.pac181.s31.e0" e2="DBMI.pac181.s31.e2" id="DBMI.pac181.s31.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e0" e2="DBMI.pac181.s31.e3" id="DBMI.pac181.s31.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e0" e2="DBMI.pac181.s31.e4" id="DBMI.pac181.s31.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e0" e2="DBMI.pac181.s31.e5" id="DBMI.pac181.s31.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e0" e2="DBMI.pac181.s31.e6" id="DBMI.pac181.s31.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e0" e2="DBMI.pac181.s31.e7" id="DBMI.pac181.s31.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e1" e2="DBMI.pac181.s31.e0" id="DBMI.pac181.s31.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e1" e2="DBMI.pac181.s31.e2" id="DBMI.pac181.s31.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e1" e2="DBMI.pac181.s31.e3" id="DBMI.pac181.s31.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e1" e2="DBMI.pac181.s31.e4" id="DBMI.pac181.s31.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e1" e2="DBMI.pac181.s31.e5" id="DBMI.pac181.s31.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e1" e2="DBMI.pac181.s31.e6" id="DBMI.pac181.s31.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e1" e2="DBMI.pac181.s31.e7" id="DBMI.pac181.s31.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e2" e2="DBMI.pac181.s31.e0" id="DBMI.pac181.s31.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e2" e2="DBMI.pac181.s31.e1" id="DBMI.pac181.s31.p15" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="oncovin "/>
+		<pair e1="DBMI.pac181.s31.e2" e2="DBMI.pac181.s31.e1" id="DBMI.pac181.s31.p16" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="oncovin "/>
+		<pair e1="DBMI.pac181.s31.e2" e2="DBMI.pac181.s31.e3" id="DBMI.pac181.s31.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e2" e2="DBMI.pac181.s31.e4" id="DBMI.pac181.s31.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e2" e2="DBMI.pac181.s31.e5" id="DBMI.pac181.s31.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e2" e2="DBMI.pac181.s31.e6" id="DBMI.pac181.s31.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e2" e2="DBMI.pac181.s31.e7" id="DBMI.pac181.s31.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e3" e2="DBMI.pac181.s31.e0" id="DBMI.pac181.s31.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e3" e2="DBMI.pac181.s31.e1" id="DBMI.pac181.s31.p23" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="procarbazine "/>
+		<pair e1="DBMI.pac181.s31.e3" e2="DBMI.pac181.s31.e2" id="DBMI.pac181.s31.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e3" e2="DBMI.pac181.s31.e4" id="DBMI.pac181.s31.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e3" e2="DBMI.pac181.s31.e5" id="DBMI.pac181.s31.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e3" e2="DBMI.pac181.s31.e6" id="DBMI.pac181.s31.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e3" e2="DBMI.pac181.s31.e7" id="DBMI.pac181.s31.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e4" e2="DBMI.pac181.s31.e0" id="DBMI.pac181.s31.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e4" e2="DBMI.pac181.s31.e1" id="DBMI.pac181.s31.p30" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="prednisone "/>
+		<pair e1="DBMI.pac181.s31.e4" e2="DBMI.pac181.s31.e2" id="DBMI.pac181.s31.p31" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e4" e2="DBMI.pac181.s31.e3" id="DBMI.pac181.s31.p32" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e4" e2="DBMI.pac181.s31.e5" id="DBMI.pac181.s31.p33" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e4" e2="DBMI.pac181.s31.e6" id="DBMI.pac181.s31.p34" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e4" e2="DBMI.pac181.s31.e7" id="DBMI.pac181.s31.p35" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e5" e2="DBMI.pac181.s31.e0" id="DBMI.pac181.s31.p36" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e5" e2="DBMI.pac181.s31.e1" id="DBMI.pac181.s31.p37" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="vindesine "/>
+		<pair e1="DBMI.pac181.s31.e5" e2="DBMI.pac181.s31.e2" id="DBMI.pac181.s31.p38" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e5" e2="DBMI.pac181.s31.e3" id="DBMI.pac181.s31.p39" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e5" e2="DBMI.pac181.s31.e4" id="DBMI.pac181.s31.p40" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e5" e2="DBMI.pac181.s31.e6" id="DBMI.pac181.s31.p41" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e5" e2="DBMI.pac181.s31.e7" id="DBMI.pac181.s31.p42" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e6" e2="DBMI.pac181.s31.e0" id="DBMI.pac181.s31.p43" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e6" e2="DBMI.pac181.s31.e1" id="DBMI.pac181.s31.p44" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="adriamycin "/>
+		<pair e1="DBMI.pac181.s31.e6" e2="DBMI.pac181.s31.e1" id="DBMI.pac181.s31.p45" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="adriamycin "/>
+		<pair e1="DBMI.pac181.s31.e6" e2="DBMI.pac181.s31.e2" id="DBMI.pac181.s31.p46" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e6" e2="DBMI.pac181.s31.e3" id="DBMI.pac181.s31.p47" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e6" e2="DBMI.pac181.s31.e4" id="DBMI.pac181.s31.p48" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e6" e2="DBMI.pac181.s31.e5" id="DBMI.pac181.s31.p49" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e6" e2="DBMI.pac181.s31.e7" id="DBMI.pac181.s31.p50" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e7" e2="DBMI.pac181.s31.e0" id="DBMI.pac181.s31.p51" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e7" e2="DBMI.pac181.s31.e1" id="DBMI.pac181.s31.p52" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="cisplatin "/>
+		<pair e1="DBMI.pac181.s31.e7" e2="DBMI.pac181.s31.e2" id="DBMI.pac181.s31.p53" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e7" e2="DBMI.pac181.s31.e3" id="DBMI.pac181.s31.p54" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e7" e2="DBMI.pac181.s31.e4" id="DBMI.pac181.s31.p55" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e7" e2="DBMI.pac181.s31.e5" id="DBMI.pac181.s31.p56" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.s31.e7" e2="DBMI.pac181.s31.e6" id="DBMI.pac181.s31.p57" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s32" origId="s32" text="Concomitant administration of R-verapamil can decrease the clearance of paclitaxel.">
+		<entity charOffset="4186-4196" id="DBMI.pac181.s32.e0" origId="s32.e0" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="4226-4237" id="DBMI.pac181.s32.e1" origId="s32.e1" text="paclitaxel " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s32.e0" e2="DBMI.pac181.s32.e1" id="DBMI.pac181.s32.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="paclitaxel " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.s32.e1" e2="DBMI.pac181.s32.e0" id="DBMI.pac181.s32.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s33" origId="s33" text="7.9 Quinidine\n\nIn a small number of patients with hypertrophic cardiomyopathy, concomitant use of verapamil and quinidine resulted in significant hypotension."/>
+	<sentence id="DBMI.pac181.s34" origId="s34" text="Until further data are obtained, avoid combined therapy of verapamil and quinidine in patients with hypertrophic cardiomyopathy."/>
+	<sentence id="DBMI.pac181.s35" origId="s35" text="The electrophysiological effects of quinidine and verapamil on AV conduction were studied in eight patients."/>
+	<sentence id="DBMI.pac181.s36" origId="s36" text="Verapamil significantly counteracted the effects of quinidine on AV conduction."/>
+	<sentence id="DBMI.pac181.s37" origId="s37" text="There has been a report of increased quinidine levels during verapamil therapy.">
+		<entity charOffset="4778-4788" id="DBMI.pac181.s37.e0" origId="s37.e0" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="4754-4764" id="DBMI.pac181.s37.e1" origId="s37.e1" text="quinidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s37.e0" e2="DBMI.pac181.s37.e1" id="DBMI.pac181.s37.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="quinidine " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.s37.e1" e2="DBMI.pac181.s37.e0" id="DBMI.pac181.s37.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s38" origId="s38" text="7.10 Aspirin\n\nIn a few reported cases, coadministration of verapamil with aspirin has led to increased bleeding times greater than observed with aspirin alone."/>
+	<sentence id="DBMI.pac181.s39" origId="s39" text="7.11 Antihypertensive agents\n\nVerapamil administered concomitantly with oral antihypertensive agents (e.g.,  vasodilators, angiotensin-converting enzyme inhibitors, diuretics, beta-blockers) will usually have an additive effect on lowering blood pressure."/>
+	<sentence id="DBMI.pac181.s40" origId="s40" text="Monitor patients receiving these combinations appropriately."/>
+	<sentence id="DBMI.pac181.s41" origId="s41" text="Concomitant use of agents that attenuate alpha-adrenergic function with verapamil may result in reduction in blood pressure that is excessive in some patients."/>
+	<sentence id="DBMI.pac181.s42" origId="s42" text="Such an effect was observed in one study following the concomitant administration of verapamil and prazosin."/>
+	<sentence id="DBMI.pac181.s43" origId="s43" text="7.12 Disopyramide\n\nUntil data on possible interactions between verapamil and disopyramide are obtained, do not administer disopyramide within 48 hours before or 24 hours after verapamil administration."/>
+	<sentence id="DBMI.pac181.s44" origId="s44" text="7.13 Flecainide\n\nA study in healthy volunteers showed that the concomitant administration of flecainide and verapamil may have additive effects on myocardial contractility, AV conduction and repolarization."/>
+	<sentence id="DBMI.pac181.s45" origId="s45" text="Concomitant therapy with flecainide and verapamil may result in additive negative inotropic effect and prolongation of atrioventricular conduction."/>
+	<sentence id="DBMI.pac181.s46" origId="s46" text="7.14 Carbamazepine\n\nVerapamil therapy may increase carbamazepine concentrations during combined therapy.">
+		<entity charOffset="6125-6135" id="DBMI.pac181.s46.e0" origId="s46.e0" text="Verapamil " type="Active ingredient"/>
+		<entity charOffset="6156-6170" id="DBMI.pac181.s46.e1" origId="s46.e1" text="carbamazepine " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s46.e0" e2="DBMI.pac181.s46.e1" id="DBMI.pac181.s46.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="carbamazepine " precipitant="Verapamil "/>
+		<pair e1="DBMI.pac181.s46.e1" e2="DBMI.pac181.s46.e0" id="DBMI.pac181.s46.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s47" origId="s47" text="This may produce carbamazepine side effects such as diplopia, headache, ataxia or dizziness."/>
+	<sentence id="DBMI.pac181.s48" origId="s48" text="7.15 Cyclosporine\n\nVerapamil therapy may increase serum levels of cyclosporine.">
+		<entity charOffset="6323-6333" id="DBMI.pac181.s48.e0" origId="s48.e0" text="Verapamil " type="Active ingredient"/>
+		<entity charOffset="6370-6383" id="DBMI.pac181.s48.e1" origId="s48.e1" text="cyclosporine " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s48.e0" e2="DBMI.pac181.s48.e1" id="DBMI.pac181.s48.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="cyclosporine " precipitant="Verapamil "/>
+		<pair e1="DBMI.pac181.s48.e1" e2="DBMI.pac181.s48.e0" id="DBMI.pac181.s48.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s49" origId="s49" text="7.16 Lithium\n\nIncreased sensitivity to the effects of lithium (neurotoxicity) has been reported during concomitant verapamil-lithium therapy with either no change or an increase in serum lithium levels.">
+		<entity charOffset="6500-6510" id="DBMI.pac181.s49.e0" origId="s49.e0" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="6510-6518" id="DBMI.pac181.s49.e1" origId="s49.e1" text="lithium " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s49.e0" e2="DBMI.pac181.s49.e1" id="DBMI.pac181.s49.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lithium " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.s49.e0" e2="DBMI.pac181.s49.e1" id="DBMI.pac181.s49.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="lithium " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.s49.e1" e2="DBMI.pac181.s49.e0" id="DBMI.pac181.s49.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s50" origId="s50" text="However, the addition of verapamil has also resulted in the lowering of serum lithium levels in patients receiving chronic stable oral lithium.">
+		<entity charOffset="6613-6623" id="DBMI.pac181.s50.e0" origId="s50.e0" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="6666-6674" id="DBMI.pac181.s50.e1" origId="s50.e1" text="lithium " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s50.e0" e2="DBMI.pac181.s50.e1" id="DBMI.pac181.s50.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="lithium " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.s50.e1" e2="DBMI.pac181.s50.e0" id="DBMI.pac181.s50.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s51" origId="s51" text="Patients receiving both drugs must be monitored carefully."/>
+	<sentence id="DBMI.pac181.s52" origId="s52" text="7.17 Inhalation Anesthetics\n\nAnimal experiments have shown that inhalation anesthetics depress cardiovascular activity by decreasing the inward movement of calcium ions."/>
+	<sentence id="DBMI.pac181.s53" origId="s53" text="When used concomitantly, inhalation anesthetics and calcium antagonists, such as verapamil, titrate slowly to avoid excessive cardiovascular depression."/>
+	<sentence id="DBMI.pac181.s54" origId="s54" text="7.18 Neuromuscular Blocking Agents\n\nClinical data and animal studies suggest that verapamil may potentiate the activity of neuromuscular blocking agents (curare-like and depolarizing)."/>
+	<sentence id="DBMI.pac181.s55" origId="s55" text="It may be necessary to decrease the dose of verapamil and/or the dose of the neuromuscular blocking agent when the drugs are used concomitantly."/>
+	<sentence id="DBMI.pac181.s56" origId="s56" text="7.19 Phenobarbital\n\nPhenobarbital therapy may increase verapamil clearance.">
+		<entity charOffset="7467-7481" id="DBMI.pac181.s56.e0" origId="s56.e0" text="Phenobarbital " type="Active ingredient"/>
+		<entity charOffset="7502-7512" id="DBMI.pac181.s56.e1" origId="s56.e1" text="verapamil " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s56.e0" e2="DBMI.pac181.s56.e1" id="DBMI.pac181.s56.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="Phenobarbital "/>
+		<pair e1="DBMI.pac181.s56.e1" e2="DBMI.pac181.s56.e0" id="DBMI.pac181.s56.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s57" origId="s57" text="7.20 Rifampin\n\nTherapy with rifampin may markedly reduce oral verapamil bioavailability.">
+		<entity charOffset="7552-7561" id="DBMI.pac181.s57.e0" origId="s57.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="7586-7596" id="DBMI.pac181.s57.e1" origId="s57.e1" text="verapamil " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s57.e0" e2="DBMI.pac181.s57.e1" id="DBMI.pac181.s57.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="rifampin "/>
+		<pair e1="DBMI.pac181.s57.e1" e2="DBMI.pac181.s57.e0" id="DBMI.pac181.s57.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s58" origId="s58" text="7.21 Theophylline\n\nVerapamil may inhibit the clearance and increase the plasma levels of theophylline.">
+		<entity charOffset="7633-7643" id="DBMI.pac181.s58.e0" origId="s58.e0" text="Verapamil " type="Active ingredient"/>
+		<entity charOffset="7703-7716" id="DBMI.pac181.s58.e1" origId="s58.e1" text="theophylline " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s58.e0" e2="DBMI.pac181.s58.e1" id="DBMI.pac181.s58.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="theophylline " precipitant="Verapamil "/>
+		<pair e1="DBMI.pac181.s58.e1" e2="DBMI.pac181.s58.e0" id="DBMI.pac181.s58.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s59" origId="s59" text="7.22 Cimetidine\n\nThe interaction between cimetidine and chronically administered verapamil has not been studied.">
+		<entity charOffset="7759-7770" id="DBMI.pac181.s59.e0" origId="s59.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="7933-7943" id="DBMI.pac181.s59.e1" origId="s59.e1" text="verapamil " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.s59.e0" e2="DBMI.pac181.s59.e1" id="DBMI.pac181.s59.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac181.s59.e0" e2="DBMI.pac181.s59.e1" id="DBMI.pac181.s59.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="verapamil " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac181.s59.e1" e2="DBMI.pac181.s59.e0" id="DBMI.pac181.s59.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac181.s60" origId="s60" text="Variable results on clearance have been obtained in acute studies of healthy volunteers; clearance of verapamil was either reduced or unchanged."/>
+	<sentence id="DBMI.pac181.s61" origId="s61" text="7.23 Nitrates\n\nVerapamil has been given concomitantly with short- and long-acting nitrates without any undesirable drug interactions."/>
+	<sentence id="DBMI.pac181.s62" origId="s62" text="The pharmacologic profile of both drugs and the clinical experience suggest beneficial interactions."/>
+	<sentencespan id="DBMI.pac181.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\n7.1 CYP3A4 Inhibitors and Inducers\n\nIn vitro metabolic studies indicate that verapamil is metabolized by cytochrome P450 CYP3A4, CYPlA2 and CYP2C. Clinically significant interactions have been reported with inhibitors of CYP3A4 (e.g.,  erythromycin, ritonavir) causing elevation of plasma levels of verapamil. Hypotension, bradyarrhythmias and lactic acidosis have been observed in patients receiving concurrent telithromycin, an antibiotic in the ketolide class of antibiotics.">
+		<entity charOffset="257-270" id="DBMI.pac181.sp0.e0" origId="sp0.e0" text="erythromycin " type="Active ingredient"/>
+		<entity charOffset="320-330" id="DBMI.pac181.sp0.e1" origId="sp0.e1" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="271-281" id="DBMI.pac181.sp0.e2" origId="sp0.e2" text="ritonavir " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.sp0.e0" e2="DBMI.pac181.sp0.e1" id="DBMI.pac181.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="erythromycin "/>
+		<pair e1="DBMI.pac181.sp0.e0" e2="DBMI.pac181.sp0.e2" id="DBMI.pac181.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp0.e1" e2="DBMI.pac181.sp0.e0" id="DBMI.pac181.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp0.e1" e2="DBMI.pac181.sp0.e2" id="DBMI.pac181.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp0.e2" e2="DBMI.pac181.sp0.e0" id="DBMI.pac181.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp0.e2" e2="DBMI.pac181.sp0.e1" id="DBMI.pac181.sp0.p5" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="ritonavir "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac181.sp1" origId="sp1" text="Inducers of CYP3A4 (e.g.,  rifampin) have caused a lowering of plasma levels of verapamil. 7.2 Grapefruit Juice\n\nGrapefruit juice may significantly increase concentrations of verapamil. Grapefruit juice given to nine healthy volunteers increased S- and R-verapamil AUC0-12 by 36% and 28%, respectively.">
+		<entity charOffset="527-536" id="DBMI.pac181.sp1.e0" origId="sp1.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="580-590" id="DBMI.pac181.sp1.e1" origId="sp1.e1" text="verapamil " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.sp1.e0" e2="DBMI.pac181.sp1.e1" id="DBMI.pac181.sp1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="rifampin "/>
+		<pair e1="DBMI.pac181.sp1.e1" e2="DBMI.pac181.sp1.e0" id="DBMI.pac181.sp1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac181.sp2" origId="sp2" text="Steady-state Cmax and Cmin, of S-verapamil increased by 57% and 16.7%, respectively with grapefruit juice compared to control. Similarly, Cmax and Cmin, of R-verapamil increased by 40% and 13%, respectively. Grapefruit juice did not affect half-life, nor was there a significant change in AUC0-12 ratio R/S compared to control."/>
+	<sentencespan id="DBMI.pac181.sp3" origId="sp3" text="Grapefruit juice did not cause a significant difference in the pharmacokinetics of norverapamil. This increase in verapamil plasma concentration is not expected to have any clinical consequences. 7.3 Beta-Blockers\n\nConcomitant therapy with beta-adrenergic blockers and verapamil may result in additive negative effects on heart rate, atrioventricular conduction and/or cardiac contractility."/>
+	<sentencespan id="DBMI.pac181.sp4" origId="sp4" text="The combination of extended-release verapamil and beta-adrenergic blocking agents has not been studied. However, there have been reports of excess bradycardia and AV block, including complete heart block, when the combination has been used for the treatment of hypertension. For hypertensive patients, the risk of combined therapy may outweigh the potential benefits."/>
+	<sentencespan id="DBMI.pac181.sp5" origId="sp5" text="The combination should be used only with caution and close monitoring. Asymptomatic bradycardia (36 beats/min) with a wandering atrial pacemaker has been observed in a patient receiving concomitant timolol (a beta-adrenergic blocker) eyedrops and oral verapamil. A decrease in metoprolol and propranolol clearance has been observed when either drug is administered concomitantly with verapamil.">
+		<entity charOffset="2278-2288" id="DBMI.pac181.sp5.e0" origId="sp5.e0" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="2171-2182" id="DBMI.pac181.sp5.e1" origId="sp5.e1" text="metoprolol " type="Active ingredient"/>
+		<entity charOffset="2186-2198" id="DBMI.pac181.sp5.e2" origId="sp5.e2" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.sp5.e0" e2="DBMI.pac181.sp5.e1" id="DBMI.pac181.sp5.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="metoprolol " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.sp5.e0" e2="DBMI.pac181.sp5.e2" id="DBMI.pac181.sp5.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propranolol " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.sp5.e1" e2="DBMI.pac181.sp5.e0" id="DBMI.pac181.sp5.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp5.e1" e2="DBMI.pac181.sp5.e2" id="DBMI.pac181.sp5.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp5.e2" e2="DBMI.pac181.sp5.e0" id="DBMI.pac181.sp5.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp5.e2" e2="DBMI.pac181.sp5.e1" id="DBMI.pac181.sp5.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac181.sp6" origId="sp6" text="A variable effect has been seen when verapamil and atenolol were given together. 7.4 Digitalis\n\nConsider reducing digoxin dose when verapamil and digoxin are to be given together. Monitor digoxin level periodically during therapy."/>
+	<sentencespan id="DBMI.pac181.sp7" origId="sp7" text="Chronic verapamil treatment can increase serum digoxin levels by 50% to 75% during the first week of therapy, and this can result in digitalis toxicity. In patients with hepatic cirrhosis the influence of verapamil on digoxin pharmacokinetics is magnified. Verapamil may reduce total body clearance and extrarenal clearance of digitoxin by 27% and 29%, respectively.">
+		<entity charOffset="2529-2539" id="DBMI.pac181.sp7.e0" origId="sp7.e0" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="2568-2576" id="DBMI.pac181.sp7.e1" origId="sp7.e1" text="digoxin " type="Active ingredient"/>
+		<entity charOffset="2778-2788" id="DBMI.pac181.sp7.e2" origId="sp7.e2" text="Verapamil " type="Active ingredient"/>
+		<entity charOffset="2848-2858" id="DBMI.pac181.sp7.e3" origId="sp7.e3" text="digitoxin " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.sp7.e0" e2="DBMI.pac181.sp7.e1" id="DBMI.pac181.sp7.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="digoxin " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.sp7.e0" e2="DBMI.pac181.sp7.e2" id="DBMI.pac181.sp7.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp7.e0" e2="DBMI.pac181.sp7.e3" id="DBMI.pac181.sp7.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp7.e1" e2="DBMI.pac181.sp7.e0" id="DBMI.pac181.sp7.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp7.e1" e2="DBMI.pac181.sp7.e2" id="DBMI.pac181.sp7.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp7.e1" e2="DBMI.pac181.sp7.e3" id="DBMI.pac181.sp7.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp7.e2" e2="DBMI.pac181.sp7.e0" id="DBMI.pac181.sp7.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp7.e2" e2="DBMI.pac181.sp7.e1" id="DBMI.pac181.sp7.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp7.e2" e2="DBMI.pac181.sp7.e3" id="DBMI.pac181.sp7.p8" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="digitoxin " precipitant="Verapamil "/>
+		<pair e1="DBMI.pac181.sp7.e3" e2="DBMI.pac181.sp7.e0" id="DBMI.pac181.sp7.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp7.e3" e2="DBMI.pac181.sp7.e1" id="DBMI.pac181.sp7.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp7.e3" e2="DBMI.pac181.sp7.e2" id="DBMI.pac181.sp7.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac181.sp8" origId="sp8" text="If digoxin toxicity is suspected, suspend or discontinue digoxin therapy. In previous clinical trials with other verapamil formulations related to the control of ventricular response in patients taking digoxin who had atrial fibrillation or atrial flutter, ventricular rates below 50/min at rest occurred in 15% of patients, and asymptomatic hypotension occurred in 5% of patients. 7.5 Alcohol\n\nVerapamil has been found to significantly inhibit ethanol elimination resulting in elevated blood ethanol concentrations that may prolong the intoxicating effects of alcohol.">
+		<entity charOffset="3285-3295" id="DBMI.pac181.sp8.e0" origId="sp8.e0" text="Verapamil " type="Active ingredient"/>
+		<entity charOffset="3335-3343" id="DBMI.pac181.sp8.e1" origId="sp8.e1" text="ethanol " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.sp8.e0" e2="DBMI.pac181.sp8.e1" id="DBMI.pac181.sp8.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="ethanol " precipitant="Verapamil "/>
+		<pair e1="DBMI.pac181.sp8.e1" e2="DBMI.pac181.sp8.e0" id="DBMI.pac181.sp8.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac181.sp9" origId="sp9" text="7.6 Clonidine\n\nSinus bradycardia resulting in hospitalization and pacemaker insertion has been reported in association with the use of clonidine concurrently with verapamil. Monitor heart rate in patients receiving concomitant verapamil and clonidine. 7.7 Telithromycin\n\nHypotension, bradyarrhythmias and lactic acidosis have been observed in patients receiving concurrent telethromycin, an antibiotic in the ketolide class of antibiotics."/>
+	<sentencespan id="DBMI.pac181.sp10" origId="sp10" text="7.8 Antineoplastic Agents\n\nVerapamil can increase doxorubicin levels. The absorption of verapamil can be reduced by the cyclophosphamide, oncovin, procarbazine, prednisone (COPP) and the vindesine, adriamycin, cisplatin (VAC) cytotoxic drug regimens. Concomitant administration of R-verapamil can decrease the clearance of paclitaxel.">
+		<entity charOffset="3930-3940" id="DBMI.pac181.sp10.e0" origId="sp10.e0" text="Verapamil " type="Active ingredient"/>
+		<entity charOffset="3953-3965" id="DBMI.pac181.sp10.e1" origId="sp10.e1" text="doxorubicin " type="Active ingredient"/>
+		<entity charOffset="4023-4040" id="DBMI.pac181.sp10.e2" origId="sp10.e2" text="cyclophosphamide " type="Active ingredient"/>
+		<entity charOffset="3991-4001" id="DBMI.pac181.sp10.e3" origId="sp10.e3" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="4041-4049" id="DBMI.pac181.sp10.e4" origId="sp10.e4" text="oncovin " type="Drug product"/>
+		<entity charOffset="4050-4063" id="DBMI.pac181.sp10.e5" origId="sp10.e5" text="procarbazine " type="Active ingredient"/>
+		<entity charOffset="4064-4075" id="DBMI.pac181.sp10.e6" origId="sp10.e6" text="prednisone " type="Active ingredient"/>
+		<entity charOffset="4090-4100" id="DBMI.pac181.sp10.e7" origId="sp10.e7" text="vindesine " type="Active ingredient"/>
+		<entity charOffset="4101-4112" id="DBMI.pac181.sp10.e8" origId="sp10.e8" text="adriamycin " type="Drug product"/>
+		<entity charOffset="4113-4123" id="DBMI.pac181.sp10.e9" origId="sp10.e9" text="cisplatin " type="Active ingredient"/>
+		<entity charOffset="4226-4237" id="DBMI.pac181.sp10.e10" origId="sp10.e10" text="paclitaxel " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.sp10.e0" e2="DBMI.pac181.sp10.e1" id="DBMI.pac181.sp10.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="doxorubicin " precipitant="Verapamil "/>
+		<pair e1="DBMI.pac181.sp10.e0" e2="DBMI.pac181.sp10.e2" id="DBMI.pac181.sp10.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e0" e2="DBMI.pac181.sp10.e3" id="DBMI.pac181.sp10.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e0" e2="DBMI.pac181.sp10.e4" id="DBMI.pac181.sp10.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e0" e2="DBMI.pac181.sp10.e5" id="DBMI.pac181.sp10.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e0" e2="DBMI.pac181.sp10.e6" id="DBMI.pac181.sp10.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e0" e2="DBMI.pac181.sp10.e7" id="DBMI.pac181.sp10.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e0" e2="DBMI.pac181.sp10.e8" id="DBMI.pac181.sp10.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e0" e2="DBMI.pac181.sp10.e9" id="DBMI.pac181.sp10.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e0" e2="DBMI.pac181.sp10.e10" id="DBMI.pac181.sp10.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e1" e2="DBMI.pac181.sp10.e0" id="DBMI.pac181.sp10.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e1" e2="DBMI.pac181.sp10.e2" id="DBMI.pac181.sp10.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e1" e2="DBMI.pac181.sp10.e3" id="DBMI.pac181.sp10.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e1" e2="DBMI.pac181.sp10.e4" id="DBMI.pac181.sp10.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e1" e2="DBMI.pac181.sp10.e5" id="DBMI.pac181.sp10.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e1" e2="DBMI.pac181.sp10.e6" id="DBMI.pac181.sp10.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e1" e2="DBMI.pac181.sp10.e7" id="DBMI.pac181.sp10.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e1" e2="DBMI.pac181.sp10.e8" id="DBMI.pac181.sp10.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e1" e2="DBMI.pac181.sp10.e9" id="DBMI.pac181.sp10.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e1" e2="DBMI.pac181.sp10.e10" id="DBMI.pac181.sp10.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e2" e2="DBMI.pac181.sp10.e0" id="DBMI.pac181.sp10.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e2" e2="DBMI.pac181.sp10.e1" id="DBMI.pac181.sp10.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e2" e2="DBMI.pac181.sp10.e3" id="DBMI.pac181.sp10.p22" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="cyclophosphamide "/>
+		<pair e1="DBMI.pac181.sp10.e2" e2="DBMI.pac181.sp10.e4" id="DBMI.pac181.sp10.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e2" e2="DBMI.pac181.sp10.e5" id="DBMI.pac181.sp10.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e2" e2="DBMI.pac181.sp10.e6" id="DBMI.pac181.sp10.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e2" e2="DBMI.pac181.sp10.e7" id="DBMI.pac181.sp10.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e2" e2="DBMI.pac181.sp10.e8" id="DBMI.pac181.sp10.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e2" e2="DBMI.pac181.sp10.e9" id="DBMI.pac181.sp10.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e2" e2="DBMI.pac181.sp10.e10" id="DBMI.pac181.sp10.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e3" e2="DBMI.pac181.sp10.e0" id="DBMI.pac181.sp10.p30" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e3" e2="DBMI.pac181.sp10.e1" id="DBMI.pac181.sp10.p31" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e3" e2="DBMI.pac181.sp10.e2" id="DBMI.pac181.sp10.p32" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e3" e2="DBMI.pac181.sp10.e4" id="DBMI.pac181.sp10.p33" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e3" e2="DBMI.pac181.sp10.e5" id="DBMI.pac181.sp10.p34" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e3" e2="DBMI.pac181.sp10.e6" id="DBMI.pac181.sp10.p35" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e3" e2="DBMI.pac181.sp10.e7" id="DBMI.pac181.sp10.p36" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e3" e2="DBMI.pac181.sp10.e8" id="DBMI.pac181.sp10.p37" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e3" e2="DBMI.pac181.sp10.e9" id="DBMI.pac181.sp10.p38" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e3" e2="DBMI.pac181.sp10.e10" id="DBMI.pac181.sp10.p39" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="paclitaxel " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.sp10.e4" e2="DBMI.pac181.sp10.e0" id="DBMI.pac181.sp10.p40" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e4" e2="DBMI.pac181.sp10.e1" id="DBMI.pac181.sp10.p41" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e4" e2="DBMI.pac181.sp10.e2" id="DBMI.pac181.sp10.p42" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e4" e2="DBMI.pac181.sp10.e3" id="DBMI.pac181.sp10.p43" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="oncovin "/>
+		<pair e1="DBMI.pac181.sp10.e4" e2="DBMI.pac181.sp10.e3" id="DBMI.pac181.sp10.p44" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="oncovin "/>
+		<pair e1="DBMI.pac181.sp10.e4" e2="DBMI.pac181.sp10.e5" id="DBMI.pac181.sp10.p45" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e4" e2="DBMI.pac181.sp10.e6" id="DBMI.pac181.sp10.p46" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e4" e2="DBMI.pac181.sp10.e7" id="DBMI.pac181.sp10.p47" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e4" e2="DBMI.pac181.sp10.e8" id="DBMI.pac181.sp10.p48" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e4" e2="DBMI.pac181.sp10.e9" id="DBMI.pac181.sp10.p49" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e4" e2="DBMI.pac181.sp10.e10" id="DBMI.pac181.sp10.p50" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e5" e2="DBMI.pac181.sp10.e0" id="DBMI.pac181.sp10.p51" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e5" e2="DBMI.pac181.sp10.e1" id="DBMI.pac181.sp10.p52" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e5" e2="DBMI.pac181.sp10.e2" id="DBMI.pac181.sp10.p53" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e5" e2="DBMI.pac181.sp10.e3" id="DBMI.pac181.sp10.p54" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="procarbazine "/>
+		<pair e1="DBMI.pac181.sp10.e5" e2="DBMI.pac181.sp10.e4" id="DBMI.pac181.sp10.p55" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e5" e2="DBMI.pac181.sp10.e6" id="DBMI.pac181.sp10.p56" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e5" e2="DBMI.pac181.sp10.e7" id="DBMI.pac181.sp10.p57" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e5" e2="DBMI.pac181.sp10.e8" id="DBMI.pac181.sp10.p58" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e5" e2="DBMI.pac181.sp10.e9" id="DBMI.pac181.sp10.p59" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e5" e2="DBMI.pac181.sp10.e10" id="DBMI.pac181.sp10.p60" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e6" e2="DBMI.pac181.sp10.e0" id="DBMI.pac181.sp10.p61" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e6" e2="DBMI.pac181.sp10.e1" id="DBMI.pac181.sp10.p62" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e6" e2="DBMI.pac181.sp10.e2" id="DBMI.pac181.sp10.p63" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e6" e2="DBMI.pac181.sp10.e3" id="DBMI.pac181.sp10.p64" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="prednisone "/>
+		<pair e1="DBMI.pac181.sp10.e6" e2="DBMI.pac181.sp10.e4" id="DBMI.pac181.sp10.p65" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e6" e2="DBMI.pac181.sp10.e5" id="DBMI.pac181.sp10.p66" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e6" e2="DBMI.pac181.sp10.e7" id="DBMI.pac181.sp10.p67" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e6" e2="DBMI.pac181.sp10.e8" id="DBMI.pac181.sp10.p68" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e6" e2="DBMI.pac181.sp10.e9" id="DBMI.pac181.sp10.p69" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e6" e2="DBMI.pac181.sp10.e10" id="DBMI.pac181.sp10.p70" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e7" e2="DBMI.pac181.sp10.e0" id="DBMI.pac181.sp10.p71" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e7" e2="DBMI.pac181.sp10.e1" id="DBMI.pac181.sp10.p72" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e7" e2="DBMI.pac181.sp10.e2" id="DBMI.pac181.sp10.p73" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e7" e2="DBMI.pac181.sp10.e3" id="DBMI.pac181.sp10.p74" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="vindesine "/>
+		<pair e1="DBMI.pac181.sp10.e7" e2="DBMI.pac181.sp10.e4" id="DBMI.pac181.sp10.p75" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e7" e2="DBMI.pac181.sp10.e5" id="DBMI.pac181.sp10.p76" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e7" e2="DBMI.pac181.sp10.e6" id="DBMI.pac181.sp10.p77" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e7" e2="DBMI.pac181.sp10.e8" id="DBMI.pac181.sp10.p78" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e7" e2="DBMI.pac181.sp10.e9" id="DBMI.pac181.sp10.p79" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e7" e2="DBMI.pac181.sp10.e10" id="DBMI.pac181.sp10.p80" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e8" e2="DBMI.pac181.sp10.e0" id="DBMI.pac181.sp10.p81" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e8" e2="DBMI.pac181.sp10.e1" id="DBMI.pac181.sp10.p82" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e8" e2="DBMI.pac181.sp10.e2" id="DBMI.pac181.sp10.p83" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e8" e2="DBMI.pac181.sp10.e3" id="DBMI.pac181.sp10.p84" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="adriamycin "/>
+		<pair e1="DBMI.pac181.sp10.e8" e2="DBMI.pac181.sp10.e3" id="DBMI.pac181.sp10.p85" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="adriamycin "/>
+		<pair e1="DBMI.pac181.sp10.e8" e2="DBMI.pac181.sp10.e4" id="DBMI.pac181.sp10.p86" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e8" e2="DBMI.pac181.sp10.e5" id="DBMI.pac181.sp10.p87" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e8" e2="DBMI.pac181.sp10.e6" id="DBMI.pac181.sp10.p88" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e8" e2="DBMI.pac181.sp10.e7" id="DBMI.pac181.sp10.p89" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e8" e2="DBMI.pac181.sp10.e9" id="DBMI.pac181.sp10.p90" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e8" e2="DBMI.pac181.sp10.e10" id="DBMI.pac181.sp10.p91" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e9" e2="DBMI.pac181.sp10.e0" id="DBMI.pac181.sp10.p92" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e9" e2="DBMI.pac181.sp10.e1" id="DBMI.pac181.sp10.p93" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e9" e2="DBMI.pac181.sp10.e2" id="DBMI.pac181.sp10.p94" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e9" e2="DBMI.pac181.sp10.e3" id="DBMI.pac181.sp10.p95" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="cisplatin "/>
+		<pair e1="DBMI.pac181.sp10.e9" e2="DBMI.pac181.sp10.e4" id="DBMI.pac181.sp10.p96" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e9" e2="DBMI.pac181.sp10.e5" id="DBMI.pac181.sp10.p97" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e9" e2="DBMI.pac181.sp10.e6" id="DBMI.pac181.sp10.p98" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e9" e2="DBMI.pac181.sp10.e7" id="DBMI.pac181.sp10.p99" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e9" e2="DBMI.pac181.sp10.e8" id="DBMI.pac181.sp10.p100" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e9" e2="DBMI.pac181.sp10.e10" id="DBMI.pac181.sp10.p101" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e10" e2="DBMI.pac181.sp10.e0" id="DBMI.pac181.sp10.p102" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e10" e2="DBMI.pac181.sp10.e1" id="DBMI.pac181.sp10.p103" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e10" e2="DBMI.pac181.sp10.e2" id="DBMI.pac181.sp10.p104" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e10" e2="DBMI.pac181.sp10.e3" id="DBMI.pac181.sp10.p105" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e10" e2="DBMI.pac181.sp10.e4" id="DBMI.pac181.sp10.p106" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e10" e2="DBMI.pac181.sp10.e5" id="DBMI.pac181.sp10.p107" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e10" e2="DBMI.pac181.sp10.e6" id="DBMI.pac181.sp10.p108" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e10" e2="DBMI.pac181.sp10.e7" id="DBMI.pac181.sp10.p109" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e10" e2="DBMI.pac181.sp10.e8" id="DBMI.pac181.sp10.p110" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp10.e10" e2="DBMI.pac181.sp10.e9" id="DBMI.pac181.sp10.p111" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac181.sp11" origId="sp11" text="7.9 Quinidine\n\nIn a small number of patients with hypertrophic cardiomyopathy, concomitant use of verapamil and quinidine resulted in significant hypotension. Until further data are obtained, avoid combined therapy of verapamil and quinidine in patients with hypertrophic cardiomyopathy. The electrophysiological effects of quinidine and verapamil on AV conduction were studied in eight patients."/>
+	<sentencespan id="DBMI.pac181.sp12" origId="sp12" text="Verapamil significantly counteracted the effects of quinidine on AV conduction. There has been a report of increased quinidine levels during verapamil therapy. 7.10 Aspirin\n\nIn a few reported cases, coadministration of verapamil with aspirin has led to increased bleeding times greater than observed with aspirin alone.">
+		<entity charOffset="4778-4788" id="DBMI.pac181.sp12.e0" origId="sp12.e0" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="4754-4764" id="DBMI.pac181.sp12.e1" origId="sp12.e1" text="quinidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.sp12.e0" e2="DBMI.pac181.sp12.e1" id="DBMI.pac181.sp12.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="quinidine " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.sp12.e1" e2="DBMI.pac181.sp12.e0" id="DBMI.pac181.sp12.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac181.sp13" origId="sp13" text="7.11 Antihypertensive agents\n\nVerapamil administered concomitantly with oral antihypertensive agents (e.g.,  vasodilators, angiotensin-converting enzyme inhibitors, diuretics, beta-blockers) will usually have an additive effect on lowering blood pressure. Monitor patients receiving these combinations appropriately. Concomitant use of agents that attenuate alpha-adrenergic function with verapamil may result in reduction in blood pressure that is excessive in some patients."/>
+	<sentencespan id="DBMI.pac181.sp14" origId="sp14" text="Such an effect was observed in one study following the concomitant administration of verapamil and prazosin. 7.12 Disopyramide\n\nUntil data on possible interactions between verapamil and disopyramide are obtained, do not administer disopyramide within 48 hours before or 24 hours after verapamil administration. 7.13 Flecainide\n\nA study in healthy volunteers showed that the concomitant administration of flecainide and verapamil may have additive effects on myocardial contractility, AV conduction and repolarization."/>
+	<sentencespan id="DBMI.pac181.sp15" origId="sp15" text="Concomitant therapy with flecainide and verapamil may result in additive negative inotropic effect and prolongation of atrioventricular conduction. 7.14 Carbamazepine\n\nVerapamil therapy may increase carbamazepine concentrations during combined therapy. This may produce carbamazepine side effects such as diplopia, headache, ataxia or dizziness.">
+		<entity charOffset="6125-6135" id="DBMI.pac181.sp15.e0" origId="sp15.e0" text="Verapamil " type="Active ingredient"/>
+		<entity charOffset="6156-6170" id="DBMI.pac181.sp15.e1" origId="sp15.e1" text="carbamazepine " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.sp15.e0" e2="DBMI.pac181.sp15.e1" id="DBMI.pac181.sp15.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="carbamazepine " precipitant="Verapamil "/>
+		<pair e1="DBMI.pac181.sp15.e1" e2="DBMI.pac181.sp15.e0" id="DBMI.pac181.sp15.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac181.sp16" origId="sp16" text="7.15 Cyclosporine\n\nVerapamil therapy may increase serum levels of cyclosporine. 7.16 Lithium\n\nIncreased sensitivity to the effects of lithium (neurotoxicity) has been reported during concomitant verapamil-lithium therapy with either no change or an increase in serum lithium levels. However, the addition of verapamil has also resulted in the lowering of serum lithium levels in patients receiving chronic stable oral lithium.">
+		<entity charOffset="6323-6333" id="DBMI.pac181.sp16.e0" origId="sp16.e0" text="Verapamil " type="Active ingredient"/>
+		<entity charOffset="6370-6383" id="DBMI.pac181.sp16.e1" origId="sp16.e1" text="cyclosporine " type="Active ingredient"/>
+		<entity charOffset="6500-6510" id="DBMI.pac181.sp16.e2" origId="sp16.e2" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="6510-6518" id="DBMI.pac181.sp16.e3" origId="sp16.e3" text="lithium " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.sp16.e0" e2="DBMI.pac181.sp16.e1" id="DBMI.pac181.sp16.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="cyclosporine " precipitant="Verapamil "/>
+		<pair e1="DBMI.pac181.sp16.e0" e2="DBMI.pac181.sp16.e2" id="DBMI.pac181.sp16.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp16.e0" e2="DBMI.pac181.sp16.e3" id="DBMI.pac181.sp16.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp16.e1" e2="DBMI.pac181.sp16.e0" id="DBMI.pac181.sp16.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp16.e1" e2="DBMI.pac181.sp16.e2" id="DBMI.pac181.sp16.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp16.e1" e2="DBMI.pac181.sp16.e3" id="DBMI.pac181.sp16.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp16.e2" e2="DBMI.pac181.sp16.e0" id="DBMI.pac181.sp16.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp16.e2" e2="DBMI.pac181.sp16.e1" id="DBMI.pac181.sp16.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp16.e2" e2="DBMI.pac181.sp16.e3" id="DBMI.pac181.sp16.p8" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lithium " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.sp16.e2" e2="DBMI.pac181.sp16.e3" id="DBMI.pac181.sp16.p9" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="lithium " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.sp16.e2" e2="DBMI.pac181.sp16.e3" id="DBMI.pac181.sp16.p10" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="lithium " precipitant="verapamil "/>
+		<pair e1="DBMI.pac181.sp16.e3" e2="DBMI.pac181.sp16.e0" id="DBMI.pac181.sp16.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp16.e3" e2="DBMI.pac181.sp16.e1" id="DBMI.pac181.sp16.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp16.e3" e2="DBMI.pac181.sp16.e2" id="DBMI.pac181.sp16.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac181.sp17" origId="sp17" text="Patients receiving both drugs must be monitored carefully. 7.17 Inhalation Anesthetics\n\nAnimal experiments have shown that inhalation anesthetics depress cardiovascular activity by decreasing the inward movement of calcium ions. When used concomitantly, inhalation anesthetics and calcium antagonists, such as verapamil, titrate slowly to avoid excessive cardiovascular depression."/>
+	<sentencespan id="DBMI.pac181.sp18" origId="sp18" text="7.18 Neuromuscular Blocking Agents\n\nClinical data and animal studies suggest that verapamil may potentiate the activity of neuromuscular blocking agents (curare-like and depolarizing). It may be necessary to decrease the dose of verapamil and/or the dose of the neuromuscular blocking agent when the drugs are used concomitantly. 7.19 Phenobarbital\n\nPhenobarbital therapy may increase verapamil clearance.">
+		<entity charOffset="7467-7481" id="DBMI.pac181.sp18.e0" origId="sp18.e0" text="Phenobarbital " type="Active ingredient"/>
+		<entity charOffset="7502-7512" id="DBMI.pac181.sp18.e1" origId="sp18.e1" text="verapamil " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.sp18.e0" e2="DBMI.pac181.sp18.e1" id="DBMI.pac181.sp18.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="Phenobarbital "/>
+		<pair e1="DBMI.pac181.sp18.e1" e2="DBMI.pac181.sp18.e0" id="DBMI.pac181.sp18.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac181.sp19" origId="sp19" text="7.20 Rifampin\n\nTherapy with rifampin may markedly reduce oral verapamil bioavailability. 7.21 Theophylline\n\nVerapamil may inhibit the clearance and increase the plasma levels of theophylline. 7.22 Cimetidine\n\nThe interaction between cimetidine and chronically administered verapamil has not been studied.">
+		<entity charOffset="7552-7561" id="DBMI.pac181.sp19.e0" origId="sp19.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="7586-7596" id="DBMI.pac181.sp19.e1" origId="sp19.e1" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="7633-7643" id="DBMI.pac181.sp19.e2" origId="sp19.e2" text="Verapamil " type="Active ingredient"/>
+		<entity charOffset="7703-7716" id="DBMI.pac181.sp19.e3" origId="sp19.e3" text="theophylline " type="Active ingredient"/>
+		<entity charOffset="7759-7770" id="DBMI.pac181.sp19.e4" origId="sp19.e4" text="cimetidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac181.sp19.e0" e2="DBMI.pac181.sp19.e1" id="DBMI.pac181.sp19.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="rifampin "/>
+		<pair e1="DBMI.pac181.sp19.e0" e2="DBMI.pac181.sp19.e2" id="DBMI.pac181.sp19.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e0" e2="DBMI.pac181.sp19.e3" id="DBMI.pac181.sp19.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e0" e2="DBMI.pac181.sp19.e4" id="DBMI.pac181.sp19.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e1" e2="DBMI.pac181.sp19.e0" id="DBMI.pac181.sp19.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e1" e2="DBMI.pac181.sp19.e2" id="DBMI.pac181.sp19.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e1" e2="DBMI.pac181.sp19.e3" id="DBMI.pac181.sp19.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e1" e2="DBMI.pac181.sp19.e4" id="DBMI.pac181.sp19.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e2" e2="DBMI.pac181.sp19.e0" id="DBMI.pac181.sp19.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e2" e2="DBMI.pac181.sp19.e1" id="DBMI.pac181.sp19.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e2" e2="DBMI.pac181.sp19.e3" id="DBMI.pac181.sp19.p10" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="theophylline " precipitant="Verapamil "/>
+		<pair e1="DBMI.pac181.sp19.e2" e2="DBMI.pac181.sp19.e4" id="DBMI.pac181.sp19.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e3" e2="DBMI.pac181.sp19.e0" id="DBMI.pac181.sp19.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e3" e2="DBMI.pac181.sp19.e1" id="DBMI.pac181.sp19.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e3" e2="DBMI.pac181.sp19.e2" id="DBMI.pac181.sp19.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e3" e2="DBMI.pac181.sp19.e4" id="DBMI.pac181.sp19.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e4" e2="DBMI.pac181.sp19.e0" id="DBMI.pac181.sp19.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e4" e2="DBMI.pac181.sp19.e1" id="DBMI.pac181.sp19.p17" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="verapamil " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac181.sp19.e4" e2="DBMI.pac181.sp19.e1" id="DBMI.pac181.sp19.p18" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="verapamil " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac181.sp19.e4" e2="DBMI.pac181.sp19.e2" id="DBMI.pac181.sp19.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac181.sp19.e4" e2="DBMI.pac181.sp19.e3" id="DBMI.pac181.sp19.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac181.sp20" origId="sp20" text="Variable results on clearance have been obtained in acute studies of healthy volunteers; clearance of verapamil was either reduced or unchanged. 7.23 Nitrates\n\nVerapamil has been given concomitantly with short- and long-acting nitrates without any undesirable drug interactions. The pharmacologic profile of both drugs and the clinical experience suggest beneficial interactions."/>
+</document>
