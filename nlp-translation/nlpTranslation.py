@@ -33,7 +33,7 @@ data = [] # initiated here for compile_data()
 ### @return: the data[][][] list
 def compile_data():
 	try:
-		csvfile = open('all-consensus-interaction-entities-dumped-05162011.csv', 'rb')
+		csvfile = open('input/all-consensus-interaction-entities-dumped-05162011.csv', 'rb')
 	except IOError:
 		print "Error: File not found"
 	
