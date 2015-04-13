@@ -197,7 +197,7 @@ def parse_sentences(paramText):
 ### @return: the text from the file 
 def read_file(paramFile):
 	try:
-		packageFile = codecs.open(os.path.join('all-statements-combined', paramFile), 'rb')
+		packageFile = codecs.open(os.path.join('input/all-statements-combined', paramFile), 'rb')
 	except IOError:
 		print "Error: File not found"
 	packageText = packageFile.read()
@@ -233,7 +233,7 @@ def entity_array(paramText):
 ### @param: the xml file 
 ### @return: 
 def header_xml(paramFile):
-	xmlFile = codecs.open(paramFile, 'wb')
+	xmlFile = codecs.open('output/' + paramFile, 'wb')
 	xmlFile.write('<?xml version="1.0" encoding="UTF-8"?>\n')
 	xmlFile.write('<documents>')
 	xmlFile.closed
@@ -242,7 +242,7 @@ def header_xml(paramFile):
 ### @param: the xml file
 ### @return:
 def closer_xml(paramFile):
-	xmlFile = codecs.open(paramFile, 'ab')
+	xmlFile = codecs.open('output/' + paramFile, 'ab')
 	xmlFile.write('</documents>')
 	xmlFile.closed
 
@@ -250,7 +250,7 @@ def closer_xml(paramFile):
 ### @param: the xml file
 ### @return:
 def append_xml(paramString, paramFile):
-	xmlFile = codecs.open(paramFile, 'ab')
+	xmlFile = codecs.open('output/' + paramFile, 'ab')
 	xmlFile.write(paramString)
 	xmlFile.closed
 	
@@ -264,8 +264,8 @@ entityArray = entity_array(data) # stores entites by package file number
 
 ### Creates the xml file for argv[1] and erase nlpTranslation
 header_xml(fileName)
-with open('nlpTranslation.csv', 'wb') as csvfile:
-	spamwriter = csv.writer(csvfile, delimiter=',')
+with open('output/nlpTranslation.csv', 'wb') as csvfile:
+	spamwriter = csv.writer(csvfile, delimiter='\t')
 	spamwriter.writerow(['FileName', 'Precipitant Type', 'Precipitant', 'Precipitant Annotator', 'Precipitant Span Start', 'Precipitant SpanEnd', 'Object Type', 'Object',
        'Object Annotator', 'Metabolite', 'Object Span Start', 'Object Span End', 'Modality', 'Interaction Phrase Type',
        'Interaction Phrase', 'Interaction Phrase Annotator', 'Interaction Phrase Span Start', 'Interaction Phrase Span End'])
@@ -342,8 +342,8 @@ for m in range(1,len(data)):
 							create_pair(docId+secNo, 'true', e3[12][1], e3[13][1], n, p, i, pair, e3[2][1], e3[7][1])
 							pair += 1
 							### Write to csv file
-							with open('nlpTranslation.csv', 'ab') as csvfile:
-								spamwriter = csv.writer(csvfile, delimiter=',')
+							with open('output/nlpTranslation.csv', 'ab') as csvfile:
+								spamwriter = csv.writer(csvfile, delimiter='\t')
 								spam = [e3[0][1], e3[1][1], e3[2][1], e3[3][1], e3[4][1], e3[5][1], e3[6][1], 
 								e3[7][1], e3[8][1], e3[9][1], e3[10][1], e3[11][1], e3[12][1], e3[13][1], text[i], e3[15][1], e3[16][1], e3[17][1]]
 								spamwriter.writerow(spam)
