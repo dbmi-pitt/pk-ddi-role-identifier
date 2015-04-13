@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac130" origId="pac130">
+	<sentence id="DBMI.pac130.s0" origId="s0" text="Co-administration of metoclopramide with the long-acting propranolol did not have a significant effect on propranolols pharmacokinetics.">
+		<entity charOffset="21-36" id="DBMI.pac130.s0.e0" origId="s0.e0" text="metoclopramide " type="Active ingredient"/>
+		<entity charOffset="57-69" id="DBMI.pac130.s0.e1" origId="s0.e1" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac130.s0.e0" e2="DBMI.pac130.s0.e1" id="DBMI.pac130.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="propranolol " precipitant="metoclopramide "/>
+		<pair e1="DBMI.pac130.s0.e1" e2="DBMI.pac130.s0.e0" id="DBMI.pac130.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac130.sp0" origId="sp0" text="Co-administration of metoclopramide with the long-acting propranolol did not have a significant effect on propranolols pharmacokinetics.">
+		<entity charOffset="21-36" id="DBMI.pac130.sp0.e0" origId="sp0.e0" text="metoclopramide " type="Active ingredient"/>
+		<entity charOffset="57-69" id="DBMI.pac130.sp0.e1" origId="sp0.e1" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac130.sp0.e0" e2="DBMI.pac130.sp0.e1" id="DBMI.pac130.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="propranolol " precipitant="metoclopramide "/>
+		<pair e1="DBMI.pac130.sp0.e1" e2="DBMI.pac130.sp0.e0" id="DBMI.pac130.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac53" origId="pac53">
+	<sentence id="DBMI.pac53.s0" origId="s0" text="Perhaps because of competition for the P450 3A4metabolic pathway, quinidine levels rise when ketoconazole is coadministered.">
+		<entity charOffset="93-106" id="DBMI.pac53.s0.e0" origId="s0.e0" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="66-76" id="DBMI.pac53.s0.e1" origId="s0.e1" text="quinidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac53.s0.e0" e2="DBMI.pac53.s0.e1" id="DBMI.pac53.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="quinidine " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac53.s0.e1" e2="DBMI.pac53.s0.e0" id="DBMI.pac53.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac53.sp0" origId="sp0" text="Perhaps because of competition for the P450 3A4metabolic pathway, quinidine levels rise when ketoconazole is coadministered.">
+		<entity charOffset="93-106" id="DBMI.pac53.sp0.e0" origId="sp0.e0" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="66-76" id="DBMI.pac53.sp0.e1" origId="sp0.e1" text="quinidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac53.sp0.e0" e2="DBMI.pac53.sp0.e1" id="DBMI.pac53.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="quinidine " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac53.sp0.e1" e2="DBMI.pac53.sp0.e0" id="DBMI.pac53.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

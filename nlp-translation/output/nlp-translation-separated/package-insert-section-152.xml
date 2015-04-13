@@ -1,0 +1,25 @@
+
+<document id="DBMI.pac152" origId="pac152">
+	<sentence id="DBMI.pac152.s0" origId="s0" text="Carbamazepine: Carbamazepine causes an approximate 50% increase in the clearance of Felbatol at steady-state and, therefore, the addition of carbamazepine results in an approximate 40% decrease in the steady-state trough concentrations of Felbatol as compared to the same dose of Felbatol given as monotherapy. ">
+		<entity charOffset="142-156" id="DBMI.pac152.s0.e0" origId="s0.e0" text="carbamazepine " type="Active ingredient"/>
+		<entity charOffset="240-249" id="DBMI.pac152.s0.e1" origId="s0.e1" text="Felbatol " type="Drug product"/>
+		<entity charOffset="15-29" id="DBMI.pac152.s0.e2" origId="s0.e2" text="Carbamazepine " type="Active ingredient"/>
+		<pair e1="DBMI.pac152.s0.e0" e2="DBMI.pac152.s0.e1" id="DBMI.pac152.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Felbatol " precipitant="carbamazepine "/>
+		<pair e1="DBMI.pac152.s0.e0" e2="DBMI.pac152.s0.e2" id="DBMI.pac152.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac152.s0.e1" e2="DBMI.pac152.s0.e0" id="DBMI.pac152.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac152.s0.e1" e2="DBMI.pac152.s0.e2" id="DBMI.pac152.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac152.s0.e2" e2="DBMI.pac152.s0.e0" id="DBMI.pac152.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac152.s0.e2" e2="DBMI.pac152.s0.e1" id="DBMI.pac152.s0.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Felbatol " precipitant="Carbamazepine "/>
+	</sentence>
+	<sentencespan id="DBMI.pac152.sp0" origId="sp0" text="Carbamazepine: Carbamazepine causes an approximate 50% increase in the clearance of Felbatol at steady-state and, therefore, the addition of carbamazepine results in an approximate 40% decrease in the steady-state trough concentrations of Felbatol as compared to the same dose of Felbatol given as monotherapy. ">
+		<entity charOffset="142-156" id="DBMI.pac152.sp0.e0" origId="sp0.e0" text="carbamazepine " type="Active ingredient"/>
+		<entity charOffset="240-249" id="DBMI.pac152.sp0.e1" origId="sp0.e1" text="Felbatol " type="Drug product"/>
+		<entity charOffset="15-29" id="DBMI.pac152.sp0.e2" origId="sp0.e2" text="Carbamazepine " type="Active ingredient"/>
+		<pair e1="DBMI.pac152.sp0.e0" e2="DBMI.pac152.sp0.e1" id="DBMI.pac152.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Felbatol " precipitant="carbamazepine "/>
+		<pair e1="DBMI.pac152.sp0.e0" e2="DBMI.pac152.sp0.e2" id="DBMI.pac152.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac152.sp0.e1" e2="DBMI.pac152.sp0.e0" id="DBMI.pac152.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac152.sp0.e1" e2="DBMI.pac152.sp0.e2" id="DBMI.pac152.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac152.sp0.e2" e2="DBMI.pac152.sp0.e0" id="DBMI.pac152.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac152.sp0.e2" e2="DBMI.pac152.sp0.e1" id="DBMI.pac152.sp0.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Felbatol " precipitant="Carbamazepine "/>
+	</sentencespan>
+</document>

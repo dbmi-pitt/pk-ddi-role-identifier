@@ -1,0 +1,29 @@
+
+<document id="DBMI.pac68" origId="pac68">
+	<sentence id="DBMI.pac68.s0" origId="s0" text="Concurrent use of rifampin increases the metabolic clearance of bisoprolol fumarate shortening its elimination half-life.">
+		<entity charOffset="18-27" id="DBMI.pac68.s0.e0" origId="s0.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="64-75" id="DBMI.pac68.s0.e1" origId="s0.e1" text="bisoprolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac68.s0.e0" e2="DBMI.pac68.s0.e1" id="DBMI.pac68.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="bisoprolol " precipitant="rifampin "/>
+		<pair e1="DBMI.pac68.s0.e1" e2="DBMI.pac68.s0.e0" id="DBMI.pac68.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac68.s1" origId="s1" text="However, initial dose modification is generally not necessary."/>
+	<sentence id="DBMI.pac68.s2" origId="s2" text="Pharmacokinetic studies document no clinically relevant interactions with other agents given concomitantly, including thiazide diuretics and cimetidine.">
+		<entity charOffset="326-337" id="DBMI.pac68.s2.e0" origId="s2.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="64-75" id="DBMI.pac68.s2.e1" origId="s2.e1" text="bisoprolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac68.s2.e0" e2="DBMI.pac68.s2.e1" id="DBMI.pac68.s2.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="bisoprolol " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac68.s2.e1" e2="DBMI.pac68.s2.e0" id="DBMI.pac68.s2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac68.s3" origId="s3" text="There was no effect of bisoprolol fumarate on prothrombin times in patients on stable doses of warfarin."/>
+	<sentencespan id="DBMI.pac68.sp0" origId="sp0" text="Concurrent use of rifampin increases the metabolic clearance of bisoprolol fumarate shortening its elimination half-life. However, initial dose modification is generally not necessary. Pharmacokinetic studies document no clinically relevant interactions with other agents given concomitantly, including thiazide diuretics and cimetidine.">
+		<entity charOffset="18-27" id="DBMI.pac68.sp0.e0" origId="sp0.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="64-75" id="DBMI.pac68.sp0.e1" origId="sp0.e1" text="bisoprolol " type="Active ingredient"/>
+		<entity charOffset="326-337" id="DBMI.pac68.sp0.e2" origId="sp0.e2" text="cimetidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac68.sp0.e0" e2="DBMI.pac68.sp0.e1" id="DBMI.pac68.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="bisoprolol " precipitant="rifampin "/>
+		<pair e1="DBMI.pac68.sp0.e0" e2="DBMI.pac68.sp0.e2" id="DBMI.pac68.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac68.sp0.e1" e2="DBMI.pac68.sp0.e0" id="DBMI.pac68.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac68.sp0.e1" e2="DBMI.pac68.sp0.e2" id="DBMI.pac68.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac68.sp0.e2" e2="DBMI.pac68.sp0.e0" id="DBMI.pac68.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac68.sp0.e2" e2="DBMI.pac68.sp0.e1" id="DBMI.pac68.sp0.p5" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="bisoprolol " precipitant="cimetidine "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac68.sp1" origId="sp1" text="There was no effect of bisoprolol fumarate on prothrombin times in patients on stable doses of warfarin."/>
+</document>

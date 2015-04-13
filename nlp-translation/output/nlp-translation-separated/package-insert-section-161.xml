@@ -1,0 +1,16 @@
+
+<document id="DBMI.pac161" origId="pac161">
+	<sentence id="DBMI.pac161.s0" origId="s0" text="Coadministration of nelfinavir at steady-state with a single oral dose of azithromycin resulted in increased azithromycin serum concentrations.">
+		<entity charOffset="20-31" id="DBMI.pac161.s0.e0" origId="s0.e0" text="nelfinavir " type="Active ingredient"/>
+		<entity charOffset="74-87" id="DBMI.pac161.s0.e1" origId="s0.e1" text="azithromycin " type="Active ingredient"/>
+		<pair e1="DBMI.pac161.s0.e0" e2="DBMI.pac161.s0.e1" id="DBMI.pac161.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="azithromycin " precipitant="nelfinavir "/>
+		<pair e1="DBMI.pac161.s0.e1" e2="DBMI.pac161.s0.e0" id="DBMI.pac161.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac161.s1" origId="s1" text="Although a dose adjustment of azithromycin is not recommended when administered in combination with nelfinavir, close monitoring for known side effects of azithromycin, such as liver enzyme abnormalities and hearing impairment, is warranted (see ADVERSE REACTIONS)."/>
+	<sentencespan id="DBMI.pac161.sp0" origId="sp0" text="Coadministration of nelfinavir at steady-state with a single oral dose of azithromycin resulted in increased azithromycin serum concentrations. Although a dose adjustment of azithromycin is not recommended when administered in combination with nelfinavir, close monitoring for known side effects of azithromycin, such as liver enzyme abnormalities and hearing impairment, is warranted (see ADVERSE REACTIONS).">
+		<entity charOffset="20-31" id="DBMI.pac161.sp0.e0" origId="sp0.e0" text="nelfinavir " type="Active ingredient"/>
+		<entity charOffset="74-87" id="DBMI.pac161.sp0.e1" origId="sp0.e1" text="azithromycin " type="Active ingredient"/>
+		<pair e1="DBMI.pac161.sp0.e0" e2="DBMI.pac161.sp0.e1" id="DBMI.pac161.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="azithromycin " precipitant="nelfinavir "/>
+		<pair e1="DBMI.pac161.sp0.e1" e2="DBMI.pac161.sp0.e0" id="DBMI.pac161.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

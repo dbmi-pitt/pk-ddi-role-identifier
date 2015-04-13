@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac19" origId="pac19">
+	<sentence id="DBMI.pac19.s0" origId="s0" text="In a placebo-controlled trial in normal volunteers, administration of sertraline for 17 days (including 200 mg/day for the last 10 days) did not change serum digoxin levels or digoxin renal clearance.">
+		<entity charOffset="70-81" id="DBMI.pac19.s0.e0" origId="s0.e0" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="158-166" id="DBMI.pac19.s0.e1" origId="s0.e1" text="digoxin " type="Active ingredient"/>
+		<pair e1="DBMI.pac19.s0.e0" e2="DBMI.pac19.s0.e1" id="DBMI.pac19.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="digoxin " precipitant="sertraline "/>
+		<pair e1="DBMI.pac19.s0.e1" e2="DBMI.pac19.s0.e0" id="DBMI.pac19.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac19.sp0" origId="sp0" text="In a placebo-controlled trial in normal volunteers, administration of sertraline for 17 days (including 200 mg/day for the last 10 days) did not change serum digoxin levels or digoxin renal clearance.">
+		<entity charOffset="70-81" id="DBMI.pac19.sp0.e0" origId="sp0.e0" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="158-166" id="DBMI.pac19.sp0.e1" origId="sp0.e1" text="digoxin " type="Active ingredient"/>
+		<pair e1="DBMI.pac19.sp0.e0" e2="DBMI.pac19.sp0.e1" id="DBMI.pac19.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="digoxin " precipitant="sertraline "/>
+		<pair e1="DBMI.pac19.sp0.e1" e2="DBMI.pac19.sp0.e0" id="DBMI.pac19.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

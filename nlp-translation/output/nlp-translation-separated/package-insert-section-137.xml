@@ -1,0 +1,26 @@
+
+<document id="DBMI.pac137" origId="pac137">
+	<sentence id="DBMI.pac137.s0" origId="s0" text="Carbamazepine induces CYP3A4."/>
+	<sentence id="DBMI.pac137.s1" origId="s1" text="Following coadministration of carbamazepine 400 mg/day with trazodone 100 mg to 300 mg daily, carbamazepine reduced plasma concentrations of trazodone (as well as mCPP) by 76 and 60%, respectively, compared to pre-carbamazepine values.">
+		<entity charOffset="124-138" id="DBMI.pac137.s1.e0" origId="s1.e0" text="carbamazepine " type="Active ingredient"/>
+		<entity charOffset="171-181" id="DBMI.pac137.s1.e1" origId="s1.e1" text="trazodone " type="Active ingredient"/>
+		<entity charOffset="193-198" id="DBMI.pac137.s1.e2" origId="s1.e2" text="mCPP " type="Metabolite"/>
+		<pair e1="DBMI.pac137.s1.e0" e2="DBMI.pac137.s1.e1" id="DBMI.pac137.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="trazodone " precipitant="carbamazepine "/>
+		<pair e1="DBMI.pac137.s1.e0" e2="DBMI.pac137.s1.e2" id="DBMI.pac137.s1.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="mCPP " precipitant="carbamazepine "/>
+		<pair e1="DBMI.pac137.s1.e1" e2="DBMI.pac137.s1.e0" id="DBMI.pac137.s1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac137.s1.e1" e2="DBMI.pac137.s1.e2" id="DBMI.pac137.s1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac137.s1.e2" e2="DBMI.pac137.s1.e0" id="DBMI.pac137.s1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac137.s1.e2" e2="DBMI.pac137.s1.e1" id="DBMI.pac137.s1.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac137.sp0" origId="sp0" text="Carbamazepine induces CYP3A4. Following coadministration of carbamazepine 400 mg/day with trazodone 100 mg to 300 mg daily, carbamazepine reduced plasma concentrations of trazodone (as well as mCPP) by 76 and 60%, respectively, compared to pre-carbamazepine values.">
+		<entity charOffset="124-138" id="DBMI.pac137.sp0.e0" origId="sp0.e0" text="carbamazepine " type="Active ingredient"/>
+		<entity charOffset="171-181" id="DBMI.pac137.sp0.e1" origId="sp0.e1" text="trazodone " type="Active ingredient"/>
+		<entity charOffset="193-198" id="DBMI.pac137.sp0.e2" origId="sp0.e2" text="mCPP " type="Metabolite"/>
+		<pair e1="DBMI.pac137.sp0.e0" e2="DBMI.pac137.sp0.e1" id="DBMI.pac137.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="trazodone " precipitant="carbamazepine "/>
+		<pair e1="DBMI.pac137.sp0.e0" e2="DBMI.pac137.sp0.e2" id="DBMI.pac137.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="mCPP " precipitant="carbamazepine "/>
+		<pair e1="DBMI.pac137.sp0.e1" e2="DBMI.pac137.sp0.e0" id="DBMI.pac137.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac137.sp0.e1" e2="DBMI.pac137.sp0.e2" id="DBMI.pac137.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac137.sp0.e2" e2="DBMI.pac137.sp0.e0" id="DBMI.pac137.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac137.sp0.e2" e2="DBMI.pac137.sp0.e1" id="DBMI.pac137.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

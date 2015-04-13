@@ -1,0 +1,117 @@
+
+<document id="DBMI.pac183" origId="pac183">
+	<sentence id="DBMI.pac183.s0" origId="s0" text="7 DRUG INTERACTIONS\n\nDrugs with pH-Dependent Absorption Kinetics\n\nLansoprazole delayed-release capsules causes long-lasting inhibition of gastric acid secretion."/>
+	<sentence id="DBMI.pac183.s1" origId="s1" text="Lansoprazole delayed-release capsules and other PPIs are likely to substantially decrease the systemic concentrations of the HIV protease inhibitor atazanavir, which is dependent upon the presence of gastric acid for absorption, and may result in a loss of therapeutic effect of atazanavir and the development of HIV resistance.">
+		<entity charOffset="162-175" id="DBMI.pac183.s1.e0" origId="s1.e0" text="Lansoprazole " type="Active ingredient"/>
+		<entity charOffset="310-321" id="DBMI.pac183.s1.e1" origId="s1.e1" text="atazanavir " type="Active ingredient"/>
+		<pair e1="DBMI.pac183.s1.e0" e2="DBMI.pac183.s1.e1" id="DBMI.pac183.s1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="atazanavir " precipitant="Lansoprazole "/>
+		<pair e1="DBMI.pac183.s1.e1" e2="DBMI.pac183.s1.e0" id="DBMI.pac183.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac183.s2" origId="s2" text="Therefore, lansoprazole delayed-release capsules and other PPIs should not be co-administered with atazanavir."/>
+	<sentence id="DBMI.pac183.s3" origId="s3" text="[See Clinical Pharmacology (12.5)]\n\nIt is theoretically possible that lansoprazole delayed-release capsules and other PPIs may interfere with the absorption of other drugs where gastric pH is an important determinant of oral bioavailability (e.g., ampicillin esters, digoxin, iron salts, ketoconazole).">
+		<entity charOffset="672-685" id="DBMI.pac183.s3.e0" origId="s3.e0" text="lansoprazole " type="Active ingredient"/>
+		<entity charOffset="890-903" id="DBMI.pac183.s3.e1" origId="s3.e1" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="878-883" id="DBMI.pac183.s3.e2" origId="s3.e2" text="iron " type="Active ingredient"/>
+		<entity charOffset="850-861" id="DBMI.pac183.s3.e3" origId="s3.e3" text="ampicillin " type="Active ingredient"/>
+		<entity charOffset="869-877" id="DBMI.pac183.s3.e4" origId="s3.e4" text="digoxin " type="Active ingredient"/>
+		<pair e1="DBMI.pac183.s3.e0" e2="DBMI.pac183.s3.e1" id="DBMI.pac183.s3.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="ketoconazole " precipitant="lansoprazole "/>
+		<pair e1="DBMI.pac183.s3.e0" e2="DBMI.pac183.s3.e2" id="DBMI.pac183.s3.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="iron " precipitant="lansoprazole "/>
+		<pair e1="DBMI.pac183.s3.e0" e2="DBMI.pac183.s3.e3" id="DBMI.pac183.s3.p2" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="ampicillin " precipitant="lansoprazole "/>
+		<pair e1="DBMI.pac183.s3.e0" e2="DBMI.pac183.s3.e4" id="DBMI.pac183.s3.p3" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="digoxin " precipitant="lansoprazole "/>
+		<pair e1="DBMI.pac183.s3.e1" e2="DBMI.pac183.s3.e0" id="DBMI.pac183.s3.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e1" e2="DBMI.pac183.s3.e2" id="DBMI.pac183.s3.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e1" e2="DBMI.pac183.s3.e3" id="DBMI.pac183.s3.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e1" e2="DBMI.pac183.s3.e4" id="DBMI.pac183.s3.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e2" e2="DBMI.pac183.s3.e0" id="DBMI.pac183.s3.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e2" e2="DBMI.pac183.s3.e1" id="DBMI.pac183.s3.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e2" e2="DBMI.pac183.s3.e3" id="DBMI.pac183.s3.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e2" e2="DBMI.pac183.s3.e4" id="DBMI.pac183.s3.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e3" e2="DBMI.pac183.s3.e0" id="DBMI.pac183.s3.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e3" e2="DBMI.pac183.s3.e1" id="DBMI.pac183.s3.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e3" e2="DBMI.pac183.s3.e2" id="DBMI.pac183.s3.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e3" e2="DBMI.pac183.s3.e4" id="DBMI.pac183.s3.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e4" e2="DBMI.pac183.s3.e0" id="DBMI.pac183.s3.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e4" e2="DBMI.pac183.s3.e1" id="DBMI.pac183.s3.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e4" e2="DBMI.pac183.s3.e2" id="DBMI.pac183.s3.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.s3.e4" e2="DBMI.pac183.s3.e3" id="DBMI.pac183.s3.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac183.s4" origId="s4" text="[See Clinical Pharmacology (12.5)]\n\nWarfarin\n\nIn a study of healthy subjects, co-administration of single or multiple 60 mg doses of lansoprazole delayed-release capsules and warfarin did not affect the pharmacokinetics of warfarin nor prothrombin time (see Clinical Pharmacology (12.5).">
+		<entity charOffset="1038-1051" id="DBMI.pac183.s4.e0" origId="s4.e0" text="lansoprazole " type="Active ingredient"/>
+		<entity charOffset="1128-1137" id="DBMI.pac183.s4.e1" origId="s4.e1" text="warfarin " type="Active ingredient"/>
+		<pair e1="DBMI.pac183.s4.e0" e2="DBMI.pac183.s4.e1" id="DBMI.pac183.s4.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="warfarin " precipitant="lansoprazole "/>
+		<pair e1="DBMI.pac183.s4.e1" e2="DBMI.pac183.s4.e0" id="DBMI.pac183.s4.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac183.s5" origId="s5" text="However, there have been reports of increased INR and prothrombin time in patients receiving PPIs and warfarin concomitantly."/>
+	<sentence id="DBMI.pac183.s6" origId="s6" text="Increases in INR and prothrombin time may lead to abnormal bleeding and even death."/>
+	<sentence id="DBMI.pac183.s7" origId="s7" text="Patients treated with PPIs and warfarin concomitantly may need to be monitored for increases in INR and prothrombin time."/>
+	<sentence id="DBMI.pac183.s8" origId="s8" text="[See Clinical Pharmacology (12.5)]\n\nTacrolimus\n\nConcomitant administration of lansoprazole and tacrolimus may increase whole blood levels of tacrolimus, especially in transplant patients who are intermediate or poor metabolizers of CYP2C19.">
+		<entity charOffset="1603-1616" id="DBMI.pac183.s8.e0" origId="s8.e0" text="lansoprazole " type="Active ingredient"/>
+		<entity charOffset="1620-1631" id="DBMI.pac183.s8.e1" origId="s8.e1" text="tacrolimus " type="Active ingredient"/>
+		<pair e1="DBMI.pac183.s8.e0" e2="DBMI.pac183.s8.e1" id="DBMI.pac183.s8.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="tacrolimus " precipitant="lansoprazole "/>
+		<pair e1="DBMI.pac183.s8.e1" e2="DBMI.pac183.s8.e0" id="DBMI.pac183.s8.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac183.s9" origId="s9" text="Theophylline\n\nA minor increase (10%) in the clearance of theophylline was observed following the administration of lansoprazole delayed-release capsules concomitantly with theophylline.">
+		<entity charOffset="1882-1895" id="DBMI.pac183.s9.e0" origId="s9.e0" text="lansoprazole " type="Active ingredient"/>
+		<entity charOffset="1824-1837" id="DBMI.pac183.s9.e1" origId="s9.e1" text="theophylline " type="Active ingredient"/>
+		<pair e1="DBMI.pac183.s9.e0" e2="DBMI.pac183.s9.e1" id="DBMI.pac183.s9.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="theophylline " precipitant="lansoprazole "/>
+		<pair e1="DBMI.pac183.s9.e1" e2="DBMI.pac183.s9.e0" id="DBMI.pac183.s9.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac183.s10" origId="s10" text="Although the magnitude of the effect on theophylline clearance is small, individual patients may require additional titration of their theophylline dosage when lansoprazole delayed-release capsules is started or stopped to ensure clinically effective blood levels."/>
+	<sentence id="DBMI.pac183.s11" origId="s11" text="[See Clinical Pharmacology (12.5)]\n\nFor information on drug interactions for amoxicillin or clarithromycin, refer to their full prescribing information, DRUG INTERACTIONS sections."/>
+	<sentencespan id="DBMI.pac183.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\nDrugs with pH-Dependent Absorption Kinetics\n\nLansoprazole delayed-release capsules causes long-lasting inhibition of gastric acid secretion. Lansoprazole delayed-release capsules and other PPIs are likely to substantially decrease the systemic concentrations of the HIV protease inhibitor atazanavir, which is dependent upon the presence of gastric acid for absorption, and may result in a loss of therapeutic effect of atazanavir and the development of HIV resistance. Therefore, lansoprazole delayed-release capsules and other PPIs should not be co-administered with atazanavir.">
+		<entity charOffset="162-175" id="DBMI.pac183.sp0.e0" origId="sp0.e0" text="Lansoprazole " type="Active ingredient"/>
+		<entity charOffset="310-321" id="DBMI.pac183.sp0.e1" origId="sp0.e1" text="atazanavir " type="Active ingredient"/>
+		<pair e1="DBMI.pac183.sp0.e0" e2="DBMI.pac183.sp0.e1" id="DBMI.pac183.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="atazanavir " precipitant="Lansoprazole "/>
+		<pair e1="DBMI.pac183.sp0.e1" e2="DBMI.pac183.sp0.e0" id="DBMI.pac183.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac183.sp1" origId="sp1" text="[See Clinical Pharmacology (12.5)]\n\nIt is theoretically possible that lansoprazole delayed-release capsules and other PPIs may interfere with the absorption of other drugs where gastric pH is an important determinant of oral bioavailability (e.g., ampicillin esters, digoxin, iron salts, ketoconazole). [See Clinical Pharmacology (12.5)]\n\nWarfarin\n\nIn a study of healthy subjects, co-administration of single or multiple 60 mg doses of lansoprazole delayed-release capsules and warfarin did not affect the pharmacokinetics of warfarin nor prothrombin time (see Clinical Pharmacology (12.5). However, there have been reports of increased INR and prothrombin time in patients receiving PPIs and warfarin concomitantly.">
+		<entity charOffset="1038-1051" id="DBMI.pac183.sp1.e0" origId="sp1.e0" text="lansoprazole " type="Active ingredient"/>
+		<entity charOffset="1128-1137" id="DBMI.pac183.sp1.e1" origId="sp1.e1" text="warfarin " type="Active ingredient"/>
+		<entity charOffset="890-903" id="DBMI.pac183.sp1.e2" origId="sp1.e2" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="878-883" id="DBMI.pac183.sp1.e3" origId="sp1.e3" text="iron " type="Active ingredient"/>
+		<entity charOffset="850-861" id="DBMI.pac183.sp1.e4" origId="sp1.e4" text="ampicillin " type="Active ingredient"/>
+		<entity charOffset="869-877" id="DBMI.pac183.sp1.e5" origId="sp1.e5" text="digoxin " type="Active ingredient"/>
+		<pair e1="DBMI.pac183.sp1.e0" e2="DBMI.pac183.sp1.e1" id="DBMI.pac183.sp1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="warfarin " precipitant="lansoprazole "/>
+		<pair e1="DBMI.pac183.sp1.e0" e2="DBMI.pac183.sp1.e2" id="DBMI.pac183.sp1.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="ketoconazole " precipitant="lansoprazole "/>
+		<pair e1="DBMI.pac183.sp1.e0" e2="DBMI.pac183.sp1.e3" id="DBMI.pac183.sp1.p2" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="iron " precipitant="lansoprazole "/>
+		<pair e1="DBMI.pac183.sp1.e0" e2="DBMI.pac183.sp1.e4" id="DBMI.pac183.sp1.p3" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="ampicillin " precipitant="lansoprazole "/>
+		<pair e1="DBMI.pac183.sp1.e0" e2="DBMI.pac183.sp1.e5" id="DBMI.pac183.sp1.p4" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="digoxin " precipitant="lansoprazole "/>
+		<pair e1="DBMI.pac183.sp1.e1" e2="DBMI.pac183.sp1.e0" id="DBMI.pac183.sp1.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e1" e2="DBMI.pac183.sp1.e2" id="DBMI.pac183.sp1.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e1" e2="DBMI.pac183.sp1.e3" id="DBMI.pac183.sp1.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e1" e2="DBMI.pac183.sp1.e4" id="DBMI.pac183.sp1.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e1" e2="DBMI.pac183.sp1.e5" id="DBMI.pac183.sp1.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e2" e2="DBMI.pac183.sp1.e0" id="DBMI.pac183.sp1.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e2" e2="DBMI.pac183.sp1.e1" id="DBMI.pac183.sp1.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e2" e2="DBMI.pac183.sp1.e3" id="DBMI.pac183.sp1.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e2" e2="DBMI.pac183.sp1.e4" id="DBMI.pac183.sp1.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e2" e2="DBMI.pac183.sp1.e5" id="DBMI.pac183.sp1.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e3" e2="DBMI.pac183.sp1.e0" id="DBMI.pac183.sp1.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e3" e2="DBMI.pac183.sp1.e1" id="DBMI.pac183.sp1.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e3" e2="DBMI.pac183.sp1.e2" id="DBMI.pac183.sp1.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e3" e2="DBMI.pac183.sp1.e4" id="DBMI.pac183.sp1.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e3" e2="DBMI.pac183.sp1.e5" id="DBMI.pac183.sp1.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e4" e2="DBMI.pac183.sp1.e0" id="DBMI.pac183.sp1.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e4" e2="DBMI.pac183.sp1.e1" id="DBMI.pac183.sp1.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e4" e2="DBMI.pac183.sp1.e2" id="DBMI.pac183.sp1.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e4" e2="DBMI.pac183.sp1.e3" id="DBMI.pac183.sp1.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e4" e2="DBMI.pac183.sp1.e5" id="DBMI.pac183.sp1.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e5" e2="DBMI.pac183.sp1.e0" id="DBMI.pac183.sp1.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e5" e2="DBMI.pac183.sp1.e1" id="DBMI.pac183.sp1.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e5" e2="DBMI.pac183.sp1.e2" id="DBMI.pac183.sp1.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e5" e2="DBMI.pac183.sp1.e3" id="DBMI.pac183.sp1.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac183.sp1.e5" e2="DBMI.pac183.sp1.e4" id="DBMI.pac183.sp1.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac183.sp2" origId="sp2" text="Increases in INR and prothrombin time may lead to abnormal bleeding and even death. Patients treated with PPIs and warfarin concomitantly may need to be monitored for increases in INR and prothrombin time. [See Clinical Pharmacology (12.5)]\n\nTacrolimus\n\nConcomitant administration of lansoprazole and tacrolimus may increase whole blood levels of tacrolimus, especially in transplant patients who are intermediate or poor metabolizers of CYP2C19.">
+		<entity charOffset="1603-1616" id="DBMI.pac183.sp2.e0" origId="sp2.e0" text="lansoprazole " type="Active ingredient"/>
+		<entity charOffset="1620-1631" id="DBMI.pac183.sp2.e1" origId="sp2.e1" text="tacrolimus " type="Active ingredient"/>
+		<pair e1="DBMI.pac183.sp2.e0" e2="DBMI.pac183.sp2.e1" id="DBMI.pac183.sp2.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="tacrolimus " precipitant="lansoprazole "/>
+		<pair e1="DBMI.pac183.sp2.e1" e2="DBMI.pac183.sp2.e0" id="DBMI.pac183.sp2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac183.sp3" origId="sp3" text="Theophylline\n\nA minor increase (10%) in the clearance of theophylline was observed following the administration of lansoprazole delayed-release capsules concomitantly with theophylline. Although the magnitude of the effect on theophylline clearance is small, individual patients may require additional titration of their theophylline dosage when lansoprazole delayed-release capsules is started or stopped to ensure clinically effective blood levels. [See Clinical Pharmacology (12.5)]\n\nFor information on drug interactions for amoxicillin or clarithromycin, refer to their full prescribing information, DRUG INTERACTIONS sections.">
+		<entity charOffset="1882-1895" id="DBMI.pac183.sp3.e0" origId="sp3.e0" text="lansoprazole " type="Active ingredient"/>
+		<entity charOffset="1824-1837" id="DBMI.pac183.sp3.e1" origId="sp3.e1" text="theophylline " type="Active ingredient"/>
+		<pair e1="DBMI.pac183.sp3.e0" e2="DBMI.pac183.sp3.e1" id="DBMI.pac183.sp3.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="theophylline " precipitant="lansoprazole "/>
+		<pair e1="DBMI.pac183.sp3.e1" e2="DBMI.pac183.sp3.e0" id="DBMI.pac183.sp3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

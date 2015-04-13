@@ -1,0 +1,26 @@
+
+<document id="DBMI.pac42" origId="pac42">
+	<sentence id="DBMI.pac42.s0" origId="s0" text="In patients receiving mercaptopurine or azathioprine, the concomitant administration of 300 to 600 mg of allopurinol sodium for injection per day will require a reduction in dose to approximately one-third to one-fourth of the usual dose of mercaptopurine or azathioprine.">
+		<entity charOffset="105-117" id="DBMI.pac42.s0.e0" origId="s0.e0" text="allopurinol " type="Active ingredient"/>
+		<entity charOffset="241-256" id="DBMI.pac42.s0.e1" origId="s0.e1" text="mercaptopurine " type="Active ingredient"/>
+		<entity charOffset="259-272" id="DBMI.pac42.s0.e2" origId="s0.e2" text="azathioprine " type="Active ingredient"/>
+		<pair e1="DBMI.pac42.s0.e0" e2="DBMI.pac42.s0.e1" id="DBMI.pac42.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="mercaptopurine " precipitant="allopurinol "/>
+		<pair e1="DBMI.pac42.s0.e0" e2="DBMI.pac42.s0.e2" id="DBMI.pac42.s0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="azathioprine " precipitant="allopurinol "/>
+		<pair e1="DBMI.pac42.s0.e1" e2="DBMI.pac42.s0.e0" id="DBMI.pac42.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac42.s0.e1" e2="DBMI.pac42.s0.e2" id="DBMI.pac42.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac42.s0.e2" e2="DBMI.pac42.s0.e0" id="DBMI.pac42.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac42.s0.e2" e2="DBMI.pac42.s0.e1" id="DBMI.pac42.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac42.s1" origId="s1" text="Subsequent adjustment of doses of mercaptopurine or azathioprine should be made on the basis of therapeutic response and the appearance of toxic effects (see PRECAUTIONS- Drug Interactions)."/>
+	<sentencespan id="DBMI.pac42.sp0" origId="sp0" text="In patients receiving mercaptopurine or azathioprine, the concomitant administration of 300 to 600 mg of allopurinol sodium for injection per day will require a reduction in dose to approximately one-third to one-fourth of the usual dose of mercaptopurine or azathioprine. Subsequent adjustment of doses of mercaptopurine or azathioprine should be made on the basis of therapeutic response and the appearance of toxic effects (see PRECAUTIONS- Drug Interactions).">
+		<entity charOffset="105-117" id="DBMI.pac42.sp0.e0" origId="sp0.e0" text="allopurinol " type="Active ingredient"/>
+		<entity charOffset="241-256" id="DBMI.pac42.sp0.e1" origId="sp0.e1" text="mercaptopurine " type="Active ingredient"/>
+		<entity charOffset="259-272" id="DBMI.pac42.sp0.e2" origId="sp0.e2" text="azathioprine " type="Active ingredient"/>
+		<pair e1="DBMI.pac42.sp0.e0" e2="DBMI.pac42.sp0.e1" id="DBMI.pac42.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="mercaptopurine " precipitant="allopurinol "/>
+		<pair e1="DBMI.pac42.sp0.e0" e2="DBMI.pac42.sp0.e2" id="DBMI.pac42.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="azathioprine " precipitant="allopurinol "/>
+		<pair e1="DBMI.pac42.sp0.e1" e2="DBMI.pac42.sp0.e0" id="DBMI.pac42.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac42.sp0.e1" e2="DBMI.pac42.sp0.e2" id="DBMI.pac42.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac42.sp0.e2" e2="DBMI.pac42.sp0.e0" id="DBMI.pac42.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac42.sp0.e2" e2="DBMI.pac42.sp0.e1" id="DBMI.pac42.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

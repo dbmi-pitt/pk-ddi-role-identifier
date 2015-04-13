@@ -1,0 +1,31 @@
+
+<document id="DBMI.pac147" origId="pac147">
+	<sentence id="DBMI.pac147.s0" origId="s0" text="Phenytoin: Felbatol causes an increase in steady-state phenytoin plasma concentrations.">
+		<entity charOffset="11-20" id="DBMI.pac147.s0.e0" origId="s0.e0" text="Felbatol " type="Drug product"/>
+		<entity charOffset="56-66" id="DBMI.pac147.s0.e1" origId="s0.e1" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac147.s0.e0" e2="DBMI.pac147.s0.e1" id="DBMI.pac147.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="phenytoin " precipitant="Felbatol "/>
+		<pair e1="DBMI.pac147.s0.e1" e2="DBMI.pac147.s0.e0" id="DBMI.pac147.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac147.s1" origId="s1" text="In 10 otherwise healthy subjects with epilepsy ingesting phenytoin, the steady-state trough (Cmin) phenytoin plasma concentration was 175 micrograms/mL."/>
+	<sentence id="DBMI.pac147.s2" origId="s2" text="The steady-state Cmin increased to 215 micrograms/mL when 1200 mg/day of felbamate was coadministered."/>
+	<sentence id="DBMI.pac147.s3" origId="s3" text="Increasing the felbamate dose to 1800 mg/day in six of these subjects increased the steady-state phenytoin Cmin to 257 micrograms/mL.">
+		<entity charOffset="362-372" id="DBMI.pac147.s3.e0" origId="s3.e0" text="felbamate " type="Active ingredient"/>
+		<entity charOffset="444-454" id="DBMI.pac147.s3.e1" origId="s3.e1" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac147.s3.e0" e2="DBMI.pac147.s3.e1" id="DBMI.pac147.s3.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="phenytoin " precipitant="felbamate "/>
+		<pair e1="DBMI.pac147.s3.e1" e2="DBMI.pac147.s3.e0" id="DBMI.pac147.s3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac147.s4" origId="s4" text="In order to maintain phenytoin levels, limit adverse experiences, and achieve the felbamate dose of 3600 mg/day, a phenytoin dose reduction of approximately 40% was necessary for eight of these 10 subjects."/>
+	<sentence id="DBMI.pac147.s5" origId="s5" text="In a controlled clinical trial, a 20% reduction of the phenytoin dose at the initiation of Felbatol therapy resulted in phenytoin levels comparable to those prior to Felbatol administration."/>
+	<sentencespan id="DBMI.pac147.sp0" origId="sp0" text="Phenytoin: Felbatol causes an increase in steady-state phenytoin plasma concentrations. In 10 otherwise healthy subjects with epilepsy ingesting phenytoin, the steady-state trough (Cmin) phenytoin plasma concentration was 175 micrograms/mL. The steady-state Cmin increased to 215 micrograms/mL when 1200 mg/day of felbamate was coadministered.">
+		<entity charOffset="11-20" id="DBMI.pac147.sp0.e0" origId="sp0.e0" text="Felbatol " type="Drug product"/>
+		<entity charOffset="56-66" id="DBMI.pac147.sp0.e1" origId="sp0.e1" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac147.sp0.e0" e2="DBMI.pac147.sp0.e1" id="DBMI.pac147.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="phenytoin " precipitant="Felbatol "/>
+		<pair e1="DBMI.pac147.sp0.e1" e2="DBMI.pac147.sp0.e0" id="DBMI.pac147.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac147.sp1" origId="sp1" text="Increasing the felbamate dose to 1800 mg/day in six of these subjects increased the steady-state phenytoin Cmin to 257 micrograms/mL. In order to maintain phenytoin levels, limit adverse experiences, and achieve the felbamate dose of 3600 mg/day, a phenytoin dose reduction of approximately 40% was necessary for eight of these 10 subjects. In a controlled clinical trial, a 20% reduction of the phenytoin dose at the initiation of Felbatol therapy resulted in phenytoin levels comparable to those prior to Felbatol administration.">
+		<entity charOffset="362-372" id="DBMI.pac147.sp1.e0" origId="sp1.e0" text="felbamate " type="Active ingredient"/>
+		<entity charOffset="444-454" id="DBMI.pac147.sp1.e1" origId="sp1.e1" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac147.sp1.e0" e2="DBMI.pac147.sp1.e1" id="DBMI.pac147.sp1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="phenytoin " precipitant="felbamate "/>
+		<pair e1="DBMI.pac147.sp1.e1" e2="DBMI.pac147.sp1.e0" id="DBMI.pac147.sp1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

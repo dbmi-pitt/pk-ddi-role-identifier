@@ -1,0 +1,43 @@
+12 CLINICAL PHARMACOLOGY
+
+12.1 Mechanism of Action
+
+Emergency contraceptive pills are not effective if a woman is already pregnant. Next ChoiceTM is believed to act as an emergency contraceptive principally by preventing ovulation or fertilization (by altering tubal transport of sperm and/or ova). In addition, they may inhibit implantation (by altering the endometrium). It is not effective once the process of implantation has begun.
+
+12.3 Pharmacokinetics
+
+Absorption
+
+No specific investigation of the absolute bioavailability of levonorgestrel tablets in humans has been conducted. However, literature indicates that levonorgestrel is rapidly and completely absorbed after oral administration (bioavailability about 100%) and is not subject to first pass metabolism.
+
+After a single dose of levonorgestrel tablets (0.75 mg) administered to 16 women under fasting conditions, the mean maximum serum concentration of levonorgestrel was 14.1 ng/mL at an average of 1.6 hours. See Table 2.
+
+Effect of Food: The effect of food on the rate and the extent of levonorgestrel absorption following single oral administration of levonorgestrel has not been evaluated.
+
+Distribution
+
+The apparent volume of distribution of levonorgestrel is reported to be approximately 1.8 L/kg. It is about 97.5 to 99% protein-bound, principally to sex hormone binding globulin (SHBG) and, to a lesser extent, serum albumin.
+
+Metabolism
+
+Following absorption, levonorgestrel is conjugated at the 17β-OH position to form sulfate conjugates and, to a lesser extent, glucuronide conjugates in plasma. Significant amounts of conjugated and unconjugated 3α, 5β-tetrahydrolevonorgestrel are also present in plasma, along with much smaller amounts of 3α, 5α-tetrahydrolevonorgestrel and 16βhydroxylevonorgestrel. Levonorgestrel and its phase I metabolites are excreted primarily as glucuronide conjugates. Metabolic clearance rates may differ among individuals by several-fold, and this may account in part for the wide variation observed in levonorgestrel concentrations among users.
+
+Excretion
+
+About 45% of levonorgestrel and its metabolites are excreted in the urine and about 32% are excreted in feces, mostly as glucuronide conjugates.
+
+Specific Populations
+
+Pediatric: This product is not intended for use in the premenarcheal population, and pharmacokinetic data are not available for this population.
+
+Geriatric: This product is not intended for use in postmenopausal women and pharmacokinetic data are not available for this population.
+
+Race: No formal studies have evaluated the effect of race on pharmacokinetics of levonorgestrel tablets. However, clinical trials demonstrated a higher pregnancy rate in Chinese women with both levonorgestrel tablets and the Yuzpe regimen (another form of emergency contraception). The reason for this apparent increase in the pregnancy rate with emergency contraceptives in Chinese women is unknown [see USE IN SPECIFIC POPULATIONS (8.6)].
+
+Hepatic Impairment: No formal studies were conducted to evaluate the effect of hepatic disease on the disposition of levonorgestrel tablets.
+
+Renal Impairment: No formal studies were conducted to evaluate the effect of renal disease on the disposition of levonorgestrel tablets.
+
+Drug-Drug Interactions
+
+No formal drug-drug interaction studies were conducted with levonorgestrel tablets [see DRUG INTERACTIONS (7)]. 

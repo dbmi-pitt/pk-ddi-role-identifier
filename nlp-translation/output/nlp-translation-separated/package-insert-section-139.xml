@@ -1,0 +1,113 @@
+
+<document id="DBMI.pac139" origId="pac139">
+	<sentence id="DBMI.pac139.s0" origId="s0" text="7 DRUG INTERACTIONS\n\n7.1 Antacids\n\nFexofenadine hydrochloride should not be taken closely in time with aluminum and magnesium containing antacids."/>
+	<sentence id="DBMI.pac139.s1" origId="s1" text="In healthy adult subjects, administration of 120 mg of fexofenadine hydrochloride (2  60 mg capsule) within 15 minutes of an aluminum and magnesium containing antacid (Maalox1) decreased fexofenadine AUC by 41% and Cmax by 43%.">
+		<entity charOffset="273-282" id="DBMI.pac139.s1.e0" origId="s1.e0" text="aluminum " type="Active ingredient"/>
+		<entity charOffset="202-215" id="DBMI.pac139.s1.e1" origId="s1.e1" text="fexofenadine " type="Active ingredient"/>
+		<entity charOffset="286-296" id="DBMI.pac139.s1.e2" origId="s1.e2" text="magnesium " type="Active ingredient"/>
+		<pair e1="DBMI.pac139.s1.e0" e2="DBMI.pac139.s1.e1" id="DBMI.pac139.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="fexofenadine " precipitant="aluminum "/>
+		<pair e1="DBMI.pac139.s1.e0" e2="DBMI.pac139.s1.e2" id="DBMI.pac139.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s1.e1" e2="DBMI.pac139.s1.e0" id="DBMI.pac139.s1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s1.e1" e2="DBMI.pac139.s1.e2" id="DBMI.pac139.s1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s1.e2" e2="DBMI.pac139.s1.e0" id="DBMI.pac139.s1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s1.e2" e2="DBMI.pac139.s1.e1" id="DBMI.pac139.s1.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="fexofenadine " precipitant="magnesium "/>
+	</sentence>
+	<sentence id="DBMI.pac139.s2" origId="s2" text="1 Maalox is a registered trademark of Novartis Consumer Healthcare."/>
+	<sentence id="DBMI.pac139.s3" origId="s3" text="7.2 Erythromycin and Ketoconazole\n\nFexofenadine has been shown to exhibit minimal (ca."/>
+	<sentence id="DBMI.pac139.s4" origId="s4" text="5%) metabolism."/>
+	<sentence id="DBMI.pac139.s5" origId="s5" text="However, coadministration of fexofenadine hydrochloride with either ketoconazole or erythromycin led to increased plasma concentrations of fexofenadine in healthy adult subjects.">
+		<entity charOffset="619-632" id="DBMI.pac139.s5.e0" origId="s5.e0" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="690-703" id="DBMI.pac139.s5.e1" origId="s5.e1" text="fexofenadine " type="Active ingredient"/>
+		<entity charOffset="635-648" id="DBMI.pac139.s5.e2" origId="s5.e2" text="erythromycin " type="Active ingredient"/>
+		<pair e1="DBMI.pac139.s5.e0" e2="DBMI.pac139.s5.e1" id="DBMI.pac139.s5.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fexofenadine " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac139.s5.e0" e2="DBMI.pac139.s5.e2" id="DBMI.pac139.s5.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s5.e1" e2="DBMI.pac139.s5.e0" id="DBMI.pac139.s5.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s5.e1" e2="DBMI.pac139.s5.e2" id="DBMI.pac139.s5.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s5.e2" e2="DBMI.pac139.s5.e0" id="DBMI.pac139.s5.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s5.e2" e2="DBMI.pac139.s5.e1" id="DBMI.pac139.s5.p5" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fexofenadine " precipitant="erythromycin "/>
+		<pair e1="DBMI.pac139.s5.e2" e2="DBMI.pac139.s5.e1" id="DBMI.pac139.s5.p6" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fexofenadine " precipitant="erythromycin "/>
+	</sentence>
+	<sentence id="DBMI.pac139.s6" origId="s6" text="Fexofenadine had no effect on the pharmacokinetics of either erythromycin or ketoconazole.">
+		<entity charOffset="730-743" id="DBMI.pac139.s6.e0" origId="s6.e0" text="Fexofenadine " type="Active ingredient"/>
+		<entity charOffset="791-804" id="DBMI.pac139.s6.e1" origId="s6.e1" text="erythromycin " type="Active ingredient"/>
+		<entity charOffset="807-820" id="DBMI.pac139.s6.e2" origId="s6.e2" text="ketoconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac139.s6.e0" e2="DBMI.pac139.s6.e1" id="DBMI.pac139.s6.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="erythromycin " precipitant="Fexofenadine "/>
+		<pair e1="DBMI.pac139.s6.e0" e2="DBMI.pac139.s6.e2" id="DBMI.pac139.s6.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ketoconazole " precipitant="Fexofenadine "/>
+		<pair e1="DBMI.pac139.s6.e1" e2="DBMI.pac139.s6.e0" id="DBMI.pac139.s6.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s6.e1" e2="DBMI.pac139.s6.e2" id="DBMI.pac139.s6.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s6.e2" e2="DBMI.pac139.s6.e0" id="DBMI.pac139.s6.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s6.e2" e2="DBMI.pac139.s6.e1" id="DBMI.pac139.s6.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac139.s7" origId="s7" text="In two separate studies in healthy adult subjects, fexofenadine hydrochloride 120 mg twice daily (240 mg total daily dose) was coadministered with either erythromycin 500 mg every 8 hours or ketoconazole 400 mg once daily under steady-state conditions to healthy adult subjects (n = 24, each study)."/>
+	<sentence id="DBMI.pac139.s8" origId="s8" text="No differences in adverse events or QTc interval were observed when subjects were administered fexofenadine hydrochloride alone or in combination with either erythromycin or ketoconazole."/>
+	<sentence id="DBMI.pac139.s9" origId="s9" text="The findings of these studies are summarized in the following table:\n\nThe changes in plasma levels were within the range of plasma levels achieved in adequate and well controlled clinical trials."/>
+	<sentence id="DBMI.pac139.s10" origId="s10" text="The mechanism of these interactions has been evaluated in in vitro, in situ, and in vivo animal models."/>
+	<sentence id="DBMI.pac139.s11" origId="s11" text="These studies indicate that ketoconazole or erythromycin coadministration enhances fexofenadine gastrointestinal absorption.">
+		<entity charOffset="1638-1651" id="DBMI.pac139.s11.e0" origId="s11.e0" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="1693-1706" id="DBMI.pac139.s11.e1" origId="s11.e1" text="fexofenadine " type="Active ingredient"/>
+		<entity charOffset="1654-1667" id="DBMI.pac139.s11.e2" origId="s11.e2" text="erythromycin " type="Active ingredient"/>
+		<pair e1="DBMI.pac139.s11.e0" e2="DBMI.pac139.s11.e1" id="DBMI.pac139.s11.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fexofenadine " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac139.s11.e0" e2="DBMI.pac139.s11.e2" id="DBMI.pac139.s11.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s11.e1" e2="DBMI.pac139.s11.e0" id="DBMI.pac139.s11.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s11.e1" e2="DBMI.pac139.s11.e2" id="DBMI.pac139.s11.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s11.e2" e2="DBMI.pac139.s11.e0" id="DBMI.pac139.s11.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.s11.e2" e2="DBMI.pac139.s11.e1" id="DBMI.pac139.s11.p5" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fexofenadine " precipitant="erythromycin "/>
+	</sentence>
+	<sentence id="DBMI.pac139.s12" origId="s12" text="This observed increase in the bioavailability of fexofenadine may be due to transport-related effects, such as p-glycoprotein."/>
+	<sentence id="DBMI.pac139.s13" origId="s13" text="In vivo animal studies also suggest that in addition to enhancing absorption, ketoconazole decreases fexofenadine gastrointestinal secretion, while erythromycin may also decrease biliary excretion."/>
+	<sentence id="DBMI.pac139.s14" origId="s14" text="7.3 Fruit Juices\n\nFruit juices such as grapefruit, orange and apple may reduce the bioavailability and exposure of fexofenadine."/>
+	<sentence id="DBMI.pac139.s15" origId="s15" text="This is based on the results from three clinical studies using histamine induced skin wheals and flares coupled with population pharmacokinetic analysis."/>
+	<sentence id="DBMI.pac139.s16" origId="s16" text="The size of wheal and flare were significantly larger when fexofenadine hydrochloride was administered with either grapefruit or orange juices compared to water."/>
+	<sentence id="DBMI.pac139.s17" origId="s17" text="Based on the literature reports, the same effects may be extrapolated to other fruit juices such as apple juice."/>
+	<sentence id="DBMI.pac139.s18" origId="s18" text="The clinical significance of these observations is unknown."/>
+	<sentence id="DBMI.pac139.s19" origId="s19" text="In addition, based on the population pharmacokinetics analysis of the combined data from grapefruit and orange juices studies with the data from a bioequivalence study, the bioavailability of fexofenadine was reduced by 36%."/>
+	<sentence id="DBMI.pac139.s20" origId="s20" text="Therefore, to maximize the effects of fexofenadine, it is recommended that fexofenadine hydrochloride tablets should be taken with water [see Clinical Pharmacology (12.3) and Dosage and Administration (2.1)]."/>
+	<sentencespan id="DBMI.pac139.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\n7.1 Antacids\n\nFexofenadine hydrochloride should not be taken closely in time with aluminum and magnesium containing antacids. In healthy adult subjects, administration of 120 mg of fexofenadine hydrochloride (2  60 mg capsule) within 15 minutes of an aluminum and magnesium containing antacid (Maalox1) decreased fexofenadine AUC by 41% and Cmax by 43%. 1 Maalox is a registered trademark of Novartis Consumer Healthcare.">
+		<entity charOffset="273-282" id="DBMI.pac139.sp0.e0" origId="sp0.e0" text="aluminum " type="Active ingredient"/>
+		<entity charOffset="202-215" id="DBMI.pac139.sp0.e1" origId="sp0.e1" text="fexofenadine " type="Active ingredient"/>
+		<entity charOffset="286-296" id="DBMI.pac139.sp0.e2" origId="sp0.e2" text="magnesium " type="Active ingredient"/>
+		<pair e1="DBMI.pac139.sp0.e0" e2="DBMI.pac139.sp0.e1" id="DBMI.pac139.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="fexofenadine " precipitant="aluminum "/>
+		<pair e1="DBMI.pac139.sp0.e0" e2="DBMI.pac139.sp0.e2" id="DBMI.pac139.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp0.e1" e2="DBMI.pac139.sp0.e0" id="DBMI.pac139.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp0.e1" e2="DBMI.pac139.sp0.e2" id="DBMI.pac139.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp0.e2" e2="DBMI.pac139.sp0.e0" id="DBMI.pac139.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp0.e2" e2="DBMI.pac139.sp0.e1" id="DBMI.pac139.sp0.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="fexofenadine " precipitant="magnesium "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac139.sp1" origId="sp1" text="7.2 Erythromycin and Ketoconazole\n\nFexofenadine has been shown to exhibit minimal (ca. 5%) metabolism. However, coadministration of fexofenadine hydrochloride with either ketoconazole or erythromycin led to increased plasma concentrations of fexofenadine in healthy adult subjects.">
+		<entity charOffset="619-632" id="DBMI.pac139.sp1.e0" origId="sp1.e0" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="690-703" id="DBMI.pac139.sp1.e1" origId="sp1.e1" text="fexofenadine " type="Active ingredient"/>
+		<entity charOffset="635-648" id="DBMI.pac139.sp1.e2" origId="sp1.e2" text="erythromycin " type="Active ingredient"/>
+		<pair e1="DBMI.pac139.sp1.e0" e2="DBMI.pac139.sp1.e1" id="DBMI.pac139.sp1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fexofenadine " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac139.sp1.e0" e2="DBMI.pac139.sp1.e2" id="DBMI.pac139.sp1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp1.e1" e2="DBMI.pac139.sp1.e0" id="DBMI.pac139.sp1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp1.e1" e2="DBMI.pac139.sp1.e2" id="DBMI.pac139.sp1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp1.e2" e2="DBMI.pac139.sp1.e0" id="DBMI.pac139.sp1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp1.e2" e2="DBMI.pac139.sp1.e1" id="DBMI.pac139.sp1.p5" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fexofenadine " precipitant="erythromycin "/>
+		<pair e1="DBMI.pac139.sp1.e2" e2="DBMI.pac139.sp1.e1" id="DBMI.pac139.sp1.p6" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fexofenadine " precipitant="erythromycin "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac139.sp2" origId="sp2" text="Fexofenadine had no effect on the pharmacokinetics of either erythromycin or ketoconazole. In two separate studies in healthy adult subjects, fexofenadine hydrochloride 120 mg twice daily (240 mg total daily dose) was coadministered with either erythromycin 500 mg every 8 hours or ketoconazole 400 mg once daily under steady-state conditions to healthy adult subjects (n = 24, each study). No differences in adverse events or QTc interval were observed when subjects were administered fexofenadine hydrochloride alone or in combination with either erythromycin or ketoconazole.">
+		<entity charOffset="730-743" id="DBMI.pac139.sp2.e0" origId="sp2.e0" text="Fexofenadine " type="Active ingredient"/>
+		<entity charOffset="791-804" id="DBMI.pac139.sp2.e1" origId="sp2.e1" text="erythromycin " type="Active ingredient"/>
+		<entity charOffset="807-820" id="DBMI.pac139.sp2.e2" origId="sp2.e2" text="ketoconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac139.sp2.e0" e2="DBMI.pac139.sp2.e1" id="DBMI.pac139.sp2.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="erythromycin " precipitant="Fexofenadine "/>
+		<pair e1="DBMI.pac139.sp2.e0" e2="DBMI.pac139.sp2.e2" id="DBMI.pac139.sp2.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ketoconazole " precipitant="Fexofenadine "/>
+		<pair e1="DBMI.pac139.sp2.e1" e2="DBMI.pac139.sp2.e0" id="DBMI.pac139.sp2.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp2.e1" e2="DBMI.pac139.sp2.e2" id="DBMI.pac139.sp2.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp2.e2" e2="DBMI.pac139.sp2.e0" id="DBMI.pac139.sp2.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp2.e2" e2="DBMI.pac139.sp2.e1" id="DBMI.pac139.sp2.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac139.sp3" origId="sp3" text="The findings of these studies are summarized in the following table:\n\nThe changes in plasma levels were within the range of plasma levels achieved in adequate and well controlled clinical trials. The mechanism of these interactions has been evaluated in in vitro, in situ, and in vivo animal models. These studies indicate that ketoconazole or erythromycin coadministration enhances fexofenadine gastrointestinal absorption.">
+		<entity charOffset="1638-1651" id="DBMI.pac139.sp3.e0" origId="sp3.e0" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="1693-1706" id="DBMI.pac139.sp3.e1" origId="sp3.e1" text="fexofenadine " type="Active ingredient"/>
+		<entity charOffset="1654-1667" id="DBMI.pac139.sp3.e2" origId="sp3.e2" text="erythromycin " type="Active ingredient"/>
+		<pair e1="DBMI.pac139.sp3.e0" e2="DBMI.pac139.sp3.e1" id="DBMI.pac139.sp3.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fexofenadine " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac139.sp3.e0" e2="DBMI.pac139.sp3.e2" id="DBMI.pac139.sp3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp3.e1" e2="DBMI.pac139.sp3.e0" id="DBMI.pac139.sp3.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp3.e1" e2="DBMI.pac139.sp3.e2" id="DBMI.pac139.sp3.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp3.e2" e2="DBMI.pac139.sp3.e0" id="DBMI.pac139.sp3.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac139.sp3.e2" e2="DBMI.pac139.sp3.e1" id="DBMI.pac139.sp3.p5" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fexofenadine " precipitant="erythromycin "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac139.sp4" origId="sp4" text="This observed increase in the bioavailability of fexofenadine may be due to transport-related effects, such as p-glycoprotein. In vivo animal studies also suggest that in addition to enhancing absorption, ketoconazole decreases fexofenadine gastrointestinal secretion, while erythromycin may also decrease biliary excretion. 7.3 Fruit Juices\n\nFruit juices such as grapefruit, orange and apple may reduce the bioavailability and exposure of fexofenadine."/>
+	<sentencespan id="DBMI.pac139.sp5" origId="sp5" text="This is based on the results from three clinical studies using histamine induced skin wheals and flares coupled with population pharmacokinetic analysis. The size of wheal and flare were significantly larger when fexofenadine hydrochloride was administered with either grapefruit or orange juices compared to water. Based on the literature reports, the same effects may be extrapolated to other fruit juices such as apple juice."/>
+	<sentencespan id="DBMI.pac139.sp6" origId="sp6" text="The clinical significance of these observations is unknown. In addition, based on the population pharmacokinetics analysis of the combined data from grapefruit and orange juices studies with the data from a bioequivalence study, the bioavailability of fexofenadine was reduced by 36%. Therefore, to maximize the effects of fexofenadine, it is recommended that fexofenadine hydrochloride tablets should be taken with water [see Clinical Pharmacology (12.3) and Dosage and Administration (2.1)]."/>
+</document>

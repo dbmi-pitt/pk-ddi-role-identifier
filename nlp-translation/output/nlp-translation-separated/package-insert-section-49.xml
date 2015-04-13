@@ -1,0 +1,16 @@
+
+<document id="DBMI.pac49" origId="pac49">
+	<sentence id="DBMI.pac49.s0" origId="s0" text="A multiple-dose study with immediate-release paroxetine hydrochloride has shown that there is no pharmacokinetic interaction between paroxetine and lithium carbonate.">
+		<entity charOffset="133-144" id="DBMI.pac49.s0.e0" origId="s0.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="148-156" id="DBMI.pac49.s0.e1" origId="s0.e1" text="lithium " type="Active ingredient"/>
+		<pair e1="DBMI.pac49.s0.e0" e2="DBMI.pac49.s0.e1" id="DBMI.pac49.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lithium " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac49.s0.e1" e2="DBMI.pac49.s0.e0" id="DBMI.pac49.s0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="paroxetine " precipitant="lithium "/>
+	</sentence>
+	<sentence id="DBMI.pac49.s1" origId="s1" text="However, due to the potential for serotonin syndrome, caution is advised when immediate-release paroxetine hydrochloride is coadministered with lithium."/>
+	<sentencespan id="DBMI.pac49.sp0" origId="sp0" text="A multiple-dose study with immediate-release paroxetine hydrochloride has shown that there is no pharmacokinetic interaction between paroxetine and lithium carbonate. However, due to the potential for serotonin syndrome, caution is advised when immediate-release paroxetine hydrochloride is coadministered with lithium.">
+		<entity charOffset="133-144" id="DBMI.pac49.sp0.e0" origId="sp0.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="148-156" id="DBMI.pac49.sp0.e1" origId="sp0.e1" text="lithium " type="Active ingredient"/>
+		<pair e1="DBMI.pac49.sp0.e0" e2="DBMI.pac49.sp0.e1" id="DBMI.pac49.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lithium " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac49.sp0.e1" e2="DBMI.pac49.sp0.e0" id="DBMI.pac49.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="paroxetine " precipitant="lithium "/>
+	</sentencespan>
+</document>

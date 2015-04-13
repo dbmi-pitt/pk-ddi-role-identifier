@@ -1,0 +1,87 @@
+7 DRUG INTERACTIONS
+
+7.1 Potential Interactions With Drugs That Inhibit or are Metabolized by Cytochrome P450 Isoenzymes
+
+Multiple hepatic cytochrome P450 isoenzymes are involved in the oxidative biotransformation of a large number of structurally different drugs and endogenous compounds. The available knowledge concerning the relationship of fluvoxamine and the cytochrome P450 isoenzyme system has been obtained mostly from pharmacokinetic interaction studies conducted in healthy volunteers, but some preliminary in vitro data are also available. Based on a finding of substantial interactions of fluvoxamine with certain of these drugs (see later parts of this section and also WARNINGS AND PRECAUTIONS [5]) and limited in vitro data for CYP3A4, it appears that fluvoxamine inhibits several cytochrome P450 isoenzymes that are known to be involved in the metabolism of other drugs such as: CYP1A2 (e.g., warfarin, theophylline, propranolol, tizanidine), CYP2C9 (e.g., warfarin), CYP3A4 (e.g., alprazolam), and CYP2C19 (e.g., omeprazole).
+
+In vitro data suggest that fluvoxamine is a relatively weak inhibitor of CYP2D6.
+
+Approximately 7% of the normal population has a genetic code that leads to reduced levels of activity of CYP2D6. Such individuals have been referred to as "poor metabolizers" (PM) of drugs such as debrisoquin, dextromethorphan, and tricyclic antidepressants. While none of the drugs studied for drug interactions significantly affected the pharmacokinetics of fluvoxamine, an in vivo study of fluvoxamine single-dose pharmacokinetics in 13 PM subjects demonstrated altered pharmacokinetic properties compared to 16 "extensive metabolizers" (EM): mean Cmax, AUC, and half-life were increased by 52%, 200%, and 62%, respectively, in the PM compared to the EM group. This suggests that fluvoxamine is metabolized, at least in part, by CYP2D6. Caution is indicated in patients known to have reduced levels of CYP2D6 activity and those receiving concomitant drugs known to inhibit this cytochrome P450 isoenzyme (e.g., quinidine).
+
+The metabolism of fluvoxamine has not been fully characterized and the effects of potent cytochrome P450 isoenzyme inhibition, such as the ketoconazole inhibition of CYP3A4, on fluvoxamine metabolism have not been studied.
+
+A clinically significant fluvoxamine interaction is possible with drugs having a narrow therapeutic ratio such as pimozide, warfarin, theophylline, certain benzodiazepines, omeprazole and phenytoin. If fluvoxamine maleate tablets are to be administered together with a drug that is eliminated via oxidative metabolism and has a narrow therapeutic window, plasma levels and/or pharmacodynamic effects of the latter drug should be monitored closely, at least until steady-state conditions are reached (see CONTRAINDICATIONS [4] and WARNINGS AND PRECAUTIONS [5]).
+
+7.2 CNS Active Drugs
+
+Antipsychotics: See WARNINGS AND PRECAUTIONS (5.3).
+
+Benzodiazepines: See WARNINGS AND PRECAUTIONS (5.8).
+
+Alprazolam: See WARNINGS AND PRECAUTIONS (5.8).
+
+Diazepam: See WARNINGS AND PRECAUTIONS (5.8).
+
+Lorazepam: A study of multiple doses of fluvoxamine maleate (50 mg b.i.d.) in healthy male volunteers (N = 12) and a single dose of lorazepam (4 mg single dose) indicated no significant pharmacokinetic interaction. On average, both lorazepam alone and lorazepam with fluvoxamine produced substantial decrements in cognitive functioning; however, the coadministration of fluvoxamine and lorazepam did not produce larger mean decrements compared to lorazepam alone.
+
+Alcohol: Studies involving single 40 g doses of ethanol (oral administration in one study and intravenous in the other) and multiple dosing with fluvoxamine maleate (50 mg b.i.d.) revealed no effect of either drug on the pharmacokinetics or pharmacodynamics of the other. As with other psychotropic medications, patients should be advised to avoid alcohol while taking fluvoxamine maleate tablets.
+
+Carbamazepine: Elevated carbamazepine levels and symptoms of toxicity have been reported with the coadministration of fluvoxamine maleate and carbamazepine.
+
+Clozapine: See WARNINGS AND PRECAUTIONS (5.8).
+
+Lithium: As with other serotonergic drugs, lithium may enhance the serotonergic effects of fluvoxamine and, therefore, the combination should be used with caution. Seizures have been reported with the coadministration of fluvoxamine maleate and lithium.
+
+Methadone: See WARNINGS AND PRECAUTIONS (5.8).
+
+Monoamine Oxidase Inhibitors: See CONTRAINDICATIONS (4) and WARNINGS AND PRECAUTIONS (5.2).
+
+Pimozide: See CONTRAINDICATIONS (4) and WARNINGS AND PRECAUTIONS (5.6).
+
+Ramelteon: See WARNINGS AND PRECAUTIONS (5.8).
+
+Serotonergic Drugs: See WARNINGS AND PRECAUTIONS (5.3).
+
+Tacrine: In a study of 13 healthy, male volunteers, a single 40 mg dose of tacrine added to fluvoxamine 100 mg/day administered at steady-state was associated with five- and eight-fold increases in tacrine Cmax and AUC, respectively, compared to the administration of tacrine alone. Five subjects experienced nausea, vomiting, sweating, and diarrhea following coadministration, consistent with the cholinergic effects of tacrine.
+
+Thioridazine: See CONTRAINDICATIONS (4) and WARNINGS AND PRECAUTIONS (5.4).
+
+Tizanidine: See CONTRAINDICATIONS (4) and WARNINGS AND PRECAUTIONS (5.5).
+
+Tricyclic Antidepressants (TCAs): Significantly increased plasma TCA levels have been reported with the coadministration of fluvoxamine maleate and amitriptyline, clomipramine or imipramine. Caution is indicated with the coadministration of fluvoxamine maleate tablets and TCAs; plasma TCA concentrations may need to be monitored, and the dose of TCA may need to be reduced.
+
+Triptans: There have been rare postmarketing reports of serotonin syndrome with use of an SSRI and a triptan. If concomitant treatment of fluvoxamine with a triptan is clinically warranted, careful observation of the patient is advised, particularly during treatment initiation and dose increases (see WARNINGS AND PRECAUTIONS [5.3]).
+
+Sumatriptan - There have been rare postmarketing reports describing patients with weakness, hyperreflexia, and incoordination following the use of a selective serotonin reuptake inhibitor (SSRI) and sumatriptan. If concomitant treatment with sumatriptan and an SSRI (e.g., fluoxetine, fluvoxamine, paroxetine, sertraline) is clinically warranted, appropriate observation of the patient is advised.
+
+Tryptophan: Tryptophan may enhance the serotonergic effects of fluvoxamine, and the combination should, therefore, be used with caution. Severe vomiting has been reported with the coadministration of fluvoxamine maleate and tryptophan (see WARNINGS AND PRECAUTIONS [5.3]).
+
+7.3 Other Drugs
+
+Alosetron: See CONTRAINDICATIONS [4], WARNINGS AND PRECAUTIONS [5.7], and Lotronex® (alosetron) package insert.
+
+Digoxin: Administration of fluvoxamine maleate 100 mg daily for 18 days (N = 8) did not significantly affect the pharmacokinetics of a 1.25 mg single intravenous dose of digoxin.
+
+Diltiazem: Bradycardia has been reported with the coadministration of fluvoxamine maleate and diltiazem.
+
+Mexiletine: See WARNINGS AND PRECAUTIONS (5.8).
+
+Propranolol and Other Beta-Blockers: Coadministration of fluvoxamine maleate 100 mg per day and propranolol 160 mg per day in normal volunteers resulted in a mean five-fold increase (range 2 to 17) in minimum propranolol plasma concentrations. In this study, there was a slight potentiation of the propranolol-induced reduction in heart rate and reduction in the exercise diastolic pressure.
+
+One case of bradycardia and hypotension and a second case of orthostatic hypotension have been reported with the coadministration of fluvoxamine maleate and metoprolol.
+
+If propranolol or metoprolol is coadministered with fluvoxamine maleate tablets, a reduction in the initial beta-blocker dose and more cautious dose titration are recommended. No dosage adjustment is required for fluvoxamine maleate tablets.
+
+Coadministration of fluvoxamine maleate 100 mg per day with atenolol 100 mg per day (N = 6) did not affect the plasma concentrations of atenolol. Unlike propranolol and metoprolol which undergo hepatic metabolism, atenolol is eliminated primarily by renal excretion.
+
+Theophylline: See WARNINGS AND PRECAUTIONS (5.8).
+
+Warfarin and Other Drugs That Interfere With Hemostasis (NSAIDs, Aspirin, etc.): See WARNINGS AND PRECAUTIONS [5.8 and 5.10].
+
+7.4 Effects of Smoking on Fluvoxamine Metabolism
+
+Smokers had a 25% increase in the metabolism of fluvoxamine compared to nonsmokers.
+
+7.5 Electroconvulsive Therapy (ECT)
+
+There are no clinical studies establishing the benefits or risks of combined use of ECT and fluvoxamine maleate.

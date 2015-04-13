@@ -1,0 +1,27 @@
+
+<document id="DBMI.pac22" origId="pac22">
+	<sentence id="DBMI.pac22.s0" origId="s0" text="Oral contraceptives were administered as a single dose both before and after the oral administration of fluconazole 50 mg once daily for 10 days in 10 healthy women."/>
+	<sentence id="DBMI.pac22.s1" origId="s1" text="There was no significant difference in ethinyl estradiol or levonorgestrel AUC after the administration of 50 mg of fluconazole.">
+		<entity charOffset="282-294" id="DBMI.pac22.s1.e0" origId="s1.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="316-334" id="DBMI.pac22.s1.e1" origId="s1.e1" text="ethinyl estradiol " type="Active ingredient"/>
+		<entity charOffset="226-241" id="DBMI.pac22.s1.e2" origId="s1.e2" text="levonorgestrel " type="Active ingredient"/>
+		<pair e1="DBMI.pac22.s1.e0" e2="DBMI.pac22.s1.e1" id="DBMI.pac22.s1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ethinyl estradiol " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac22.s1.e0" e2="DBMI.pac22.s1.e2" id="DBMI.pac22.s1.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="levonorgestrel " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac22.s1.e1" e2="DBMI.pac22.s1.e0" id="DBMI.pac22.s1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac22.s1.e1" e2="DBMI.pac22.s1.e2" id="DBMI.pac22.s1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac22.s1.e2" e2="DBMI.pac22.s1.e0" id="DBMI.pac22.s1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac22.s1.e2" e2="DBMI.pac22.s1.e1" id="DBMI.pac22.s1.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac22.s2" origId="s2" text="The mean increase in ethinyl estradiol AUC was 6% (range: -47 to 108%) and levonorgestrel AUC increased 17% (range: -33 to 141%)."/>
+	<sentencespan id="DBMI.pac22.sp0" origId="sp0" text="Oral contraceptives were administered as a single dose both before and after the oral administration of fluconazole 50 mg once daily for 10 days in 10 healthy women. There was no significant difference in ethinyl estradiol or levonorgestrel AUC after the administration of 50 mg of fluconazole. The mean increase in ethinyl estradiol AUC was 6% (range: -47 to 108%) and levonorgestrel AUC increased 17% (range: -33 to 141%).">
+		<entity charOffset="282-294" id="DBMI.pac22.sp0.e0" origId="sp0.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="316-334" id="DBMI.pac22.sp0.e1" origId="sp0.e1" text="ethinyl estradiol " type="Active ingredient"/>
+		<entity charOffset="226-241" id="DBMI.pac22.sp0.e2" origId="sp0.e2" text="levonorgestrel " type="Active ingredient"/>
+		<pair e1="DBMI.pac22.sp0.e0" e2="DBMI.pac22.sp0.e1" id="DBMI.pac22.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ethinyl estradiol " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac22.sp0.e0" e2="DBMI.pac22.sp0.e2" id="DBMI.pac22.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="levonorgestrel " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac22.sp0.e1" e2="DBMI.pac22.sp0.e0" id="DBMI.pac22.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac22.sp0.e1" e2="DBMI.pac22.sp0.e2" id="DBMI.pac22.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac22.sp0.e2" e2="DBMI.pac22.sp0.e0" id="DBMI.pac22.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac22.sp0.e2" e2="DBMI.pac22.sp0.e1" id="DBMI.pac22.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

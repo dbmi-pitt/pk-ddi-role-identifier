@@ -1,0 +1,17 @@
+
+<document id="DBMI.pac48" origId="pac48">
+	<sentence id="DBMI.pac48.s0" origId="s0" text="An in vivo interaction study involving the coadministration under steady-state conditions of paroxetine and terfenadine, a substrate for  CYP3A4, revealed no effect of paroxetine on terfenadine pharmacokinetics.">
+		<entity charOffset="93-104" id="DBMI.pac48.s0.e0" origId="s0.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="108-120" id="DBMI.pac48.s0.e1" origId="s0.e1" text="terfenadine " type="Active ingredient"/>
+		<pair e1="DBMI.pac48.s0.e0" e2="DBMI.pac48.s0.e1" id="DBMI.pac48.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="terfenadine " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac48.s0.e1" e2="DBMI.pac48.s0.e0" id="DBMI.pac48.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac48.s1" origId="s1" text="In addition, in vitro studies have shown ketoconazole, a potent inhibitor of CYP3A4 activity, to be at least 100 times more potent than paroxetine as an inhibitor of the metabolism of several substrates for this enzyme, including terfenadine, astemizole, cisapride, triazolam, and cyclosporine."/>
+	<sentence id="DBMI.pac48.s2" origId="s2" text="Based on the assumption that the relationship between paroxetines in vitro Ki and its lack of effect on terfenadine's in vivo clearance predicts its effect on other CYP3A4 substrates, paroxetines extent of inhibition of CYP3A4 activity is not likely to be of clinical significance."/>
+	<sentencespan id="DBMI.pac48.sp0" origId="sp0" text="An in vivo interaction study involving the coadministration under steady-state conditions of paroxetine and terfenadine, a substrate for  CYP3A4, revealed no effect of paroxetine on terfenadine pharmacokinetics. In addition, in vitro studies have shown ketoconazole, a potent inhibitor of CYP3A4 activity, to be at least 100 times more potent than paroxetine as an inhibitor of the metabolism of several substrates for this enzyme, including terfenadine, astemizole, cisapride, triazolam, and cyclosporine. Based on the assumption that the relationship between paroxetines in vitro Ki and its lack of effect on terfenadine's in vivo clearance predicts its effect on other CYP3A4 substrates, paroxetines extent of inhibition of CYP3A4 activity is not likely to be of clinical significance.">
+		<entity charOffset="93-104" id="DBMI.pac48.sp0.e0" origId="sp0.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="108-120" id="DBMI.pac48.sp0.e1" origId="sp0.e1" text="terfenadine " type="Active ingredient"/>
+		<pair e1="DBMI.pac48.sp0.e0" e2="DBMI.pac48.sp0.e1" id="DBMI.pac48.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="terfenadine " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac48.sp0.e1" e2="DBMI.pac48.sp0.e0" id="DBMI.pac48.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac13" origId="pac13">
+	<sentence id="DBMI.pac13.s0" origId="s0" text="In a placebo-controlled trial in normal volunteers, the administration of two doses of sertraline did not significantly alter steady-state lithium levels or the renal clearance of lithium.">
+		<entity charOffset="87-98" id="DBMI.pac13.s0.e0" origId="s0.e0" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="139-147" id="DBMI.pac13.s0.e1" origId="s0.e1" text="lithium " type="Active ingredient"/>
+		<pair e1="DBMI.pac13.s0.e0" e2="DBMI.pac13.s0.e1" id="DBMI.pac13.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lithium " precipitant="sertraline "/>
+		<pair e1="DBMI.pac13.s0.e1" e2="DBMI.pac13.s0.e0" id="DBMI.pac13.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac13.sp0" origId="sp0" text="In a placebo-controlled trial in normal volunteers, the administration of two doses of sertraline did not significantly alter steady-state lithium levels or the renal clearance of lithium.">
+		<entity charOffset="87-98" id="DBMI.pac13.sp0.e0" origId="sp0.e0" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="139-147" id="DBMI.pac13.sp0.e1" origId="sp0.e1" text="lithium " type="Active ingredient"/>
+		<pair e1="DBMI.pac13.sp0.e0" e2="DBMI.pac13.sp0.e1" id="DBMI.pac13.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lithium " precipitant="sertraline "/>
+		<pair e1="DBMI.pac13.sp0.e1" e2="DBMI.pac13.sp0.e0" id="DBMI.pac13.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

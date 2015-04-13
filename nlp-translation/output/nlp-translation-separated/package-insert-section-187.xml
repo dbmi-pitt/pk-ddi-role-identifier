@@ -1,0 +1,297 @@
+
+<document id="DBMI.pac187" origId="pac187">
+	<sentence id="DBMI.pac187.s0" origId="s0" text="7 DRUG INTERACTIONS\n\nSee also Contraindications (4) and Clinical Pharmacology (12.3)."/>
+	<sentence id="DBMI.pac187.s1" origId="s1" text="7.1 Potential for REYATAZ to Affect Other Drugs\n\nAtazanavir is an inhibitor of CYP3A and UGT1A1."/>
+	<sentence id="DBMI.pac187.s2" origId="s2" text="Coadministration of REYATAZ and drugs primarily metabolized by CYP3A or UGT1A1 may result in increased plasma concentrations of the other drug that could increase or prolong its therapeutic and adverse effects."/>
+	<sentence id="DBMI.pac187.s3" origId="s3" text="Atazanavir is a weak inhibitor of CYP2C8."/>
+	<sentence id="DBMI.pac187.s4" origId="s4" text="Caution should be used when REYATAZ without ritonavir is coadministered with drugs highly dependent on CYP2C8 with narrow therapeutic indices (eg, paclitaxel, repaglinide).">
+		<entity charOffset="466-474" id="DBMI.pac187.s4.e0" origId="s4.e0" text="REYATAZ " type="Drug product"/>
+		<entity charOffset="597-609" id="DBMI.pac187.s4.e1" origId="s4.e1" text="repaglinide " type="Active ingredient"/>
+		<entity charOffset="585-596" id="DBMI.pac187.s4.e2" origId="s4.e2" text="paclitaxel " type="Active ingredient"/>
+		<pair e1="DBMI.pac187.s4.e0" e2="DBMI.pac187.s4.e1" id="DBMI.pac187.s4.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="repaglinide " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.s4.e0" e2="DBMI.pac187.s4.e2" id="DBMI.pac187.s4.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="paclitaxel " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.s4.e1" e2="DBMI.pac187.s4.e0" id="DBMI.pac187.s4.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s4.e1" e2="DBMI.pac187.s4.e2" id="DBMI.pac187.s4.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s4.e2" e2="DBMI.pac187.s4.e0" id="DBMI.pac187.s4.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s4.e2" e2="DBMI.pac187.s4.e1" id="DBMI.pac187.s4.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac187.s5" origId="s5" text="When REYATAZ with ritonavir is coadministered with substrates of CYP2C8, clinically significant interactions are not expected."/>
+	<sentence id="DBMI.pac187.s6" origId="s6" text="[See Clinical Pharmacology, Table 14 (12.3).]"/>
+	<sentence id="DBMI.pac187.s7" origId="s7" text="The magnitude of CYP3A-mediated drug interactions on coadministered drug may change when REYATAZ is coadministered with ritonavir."/>
+	<sentence id="DBMI.pac187.s8" origId="s8" text="See the complete prescribing information for NORVIR (ritonavir) for information on drug interactions with ritonavir."/>
+	<sentence id="DBMI.pac187.s9" origId="s9" text="7.2 Potential for Other Drugs to Affect Atazanavir\n\nAtazanavir is a CYP3A4 substrate; therefore, drugs that induce CYP3A4 may decrease atazanavir plasma concentrations and reduce REYATAZs therapeutic effect."/>
+	<sentence id="DBMI.pac187.s10" origId="s10" text="Atazanavir solubility decreases as pH increases."/>
+	<sentence id="DBMI.pac187.s11" origId="s11" text="Reduced plasma concentrations of atazanavir are expected if proton-pump inhibitors, antacids, buffered medications, or H2-receptor antagonists are administered with atazanavir."/>
+	<sentence id="DBMI.pac187.s12" origId="s12" text="7.3 Established and Other Potentially Significant Drug Interactions\n\nTable 13 provides dosing recommendations as a result of drug interactions with REYATAZ."/>
+	<sentence id="DBMI.pac187.s13" origId="s13" text="These recommendations are based on either drug interaction studies or predicted interactions due to the expected magnitude of interaction and potential for serious events or loss of efficacy."/>
+	<sentence id="DBMI.pac187.s14" origId="s14" text="7.4 Drugs with No Observed or Predicted Interactions with REYATAZ\n\nClinically significant interactions are not expected between atazanavir and substrates of CYP2C19, CYP2C9, CYP2D6, CYP2B6, CYP2A6, CYP1A2, or CYP2E1."/>
+	<sentence id="DBMI.pac187.s15" origId="s15" text="Clinically significant interactions are not expected between atazanavir when administered with ritonavir and substrates of CYP2C8."/>
+	<sentence id="DBMI.pac187.s16" origId="s16" text="See the complete prescribing information for NORVIR for information on other potential drug interactions with ritonavir."/>
+	<sentence id="DBMI.pac187.s17" origId="s17" text="Based on known metabolic profiles, clinically significant drug interactions are not expected between REYATAZ (atazanavir sulfate) and fluvastatin, pravastatin, dapsone, trimethoprim/sulfamethoxazole, azithromycin, or erythromycin.">
+		<entity charOffset="2403-2414" id="DBMI.pac187.s17.e0" origId="s17.e0" text="atazanavir " type="Active ingredient"/>
+		<entity charOffset="2453-2461" id="DBMI.pac187.s17.e1" origId="s17.e1" text="dapsone " type="Active ingredient"/>
+		<entity charOffset="2462-2475" id="DBMI.pac187.s17.e2" origId="s17.e2" text="trimethoprim " type="Active ingredient"/>
+		<entity charOffset="2440-2452" id="DBMI.pac187.s17.e3" origId="s17.e3" text="pravastatin " type="Active ingredient"/>
+		<entity charOffset="2493-2506" id="DBMI.pac187.s17.e4" origId="s17.e4" text="azithromycin " type="Active ingredient"/>
+		<entity charOffset="2475-2492" id="DBMI.pac187.s17.e5" origId="s17.e5" text="sulfamethoxazole " type="Active ingredient"/>
+		<entity charOffset="2510-2523" id="DBMI.pac187.s17.e6" origId="s17.e6" text="erythromycin " type="Active ingredient"/>
+		<entity charOffset="2427-2439" id="DBMI.pac187.s17.e7" origId="s17.e7" text="fluvastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac187.s17.e0" e2="DBMI.pac187.s17.e1" id="DBMI.pac187.s17.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="dapsone " precipitant="atazanavir "/>
+		<pair e1="DBMI.pac187.s17.e0" e2="DBMI.pac187.s17.e2" id="DBMI.pac187.s17.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="trimethoprim " precipitant="atazanavir "/>
+		<pair e1="DBMI.pac187.s17.e0" e2="DBMI.pac187.s17.e3" id="DBMI.pac187.s17.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="pravastatin " precipitant="atazanavir "/>
+		<pair e1="DBMI.pac187.s17.e0" e2="DBMI.pac187.s17.e4" id="DBMI.pac187.s17.p3" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="azithromycin " precipitant="atazanavir "/>
+		<pair e1="DBMI.pac187.s17.e0" e2="DBMI.pac187.s17.e5" id="DBMI.pac187.s17.p4" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="sulfamethoxazole " precipitant="atazanavir "/>
+		<pair e1="DBMI.pac187.s17.e0" e2="DBMI.pac187.s17.e6" id="DBMI.pac187.s17.p5" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="erythromycin " precipitant="atazanavir "/>
+		<pair e1="DBMI.pac187.s17.e0" e2="DBMI.pac187.s17.e7" id="DBMI.pac187.s17.p6" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluvastatin " precipitant="atazanavir "/>
+		<pair e1="DBMI.pac187.s17.e1" e2="DBMI.pac187.s17.e0" id="DBMI.pac187.s17.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e1" e2="DBMI.pac187.s17.e2" id="DBMI.pac187.s17.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e1" e2="DBMI.pac187.s17.e3" id="DBMI.pac187.s17.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e1" e2="DBMI.pac187.s17.e4" id="DBMI.pac187.s17.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e1" e2="DBMI.pac187.s17.e5" id="DBMI.pac187.s17.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e1" e2="DBMI.pac187.s17.e6" id="DBMI.pac187.s17.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e1" e2="DBMI.pac187.s17.e7" id="DBMI.pac187.s17.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e2" e2="DBMI.pac187.s17.e0" id="DBMI.pac187.s17.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e2" e2="DBMI.pac187.s17.e1" id="DBMI.pac187.s17.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e2" e2="DBMI.pac187.s17.e3" id="DBMI.pac187.s17.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e2" e2="DBMI.pac187.s17.e4" id="DBMI.pac187.s17.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e2" e2="DBMI.pac187.s17.e5" id="DBMI.pac187.s17.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e2" e2="DBMI.pac187.s17.e6" id="DBMI.pac187.s17.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e2" e2="DBMI.pac187.s17.e7" id="DBMI.pac187.s17.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e3" e2="DBMI.pac187.s17.e0" id="DBMI.pac187.s17.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e3" e2="DBMI.pac187.s17.e1" id="DBMI.pac187.s17.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e3" e2="DBMI.pac187.s17.e2" id="DBMI.pac187.s17.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e3" e2="DBMI.pac187.s17.e4" id="DBMI.pac187.s17.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e3" e2="DBMI.pac187.s17.e5" id="DBMI.pac187.s17.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e3" e2="DBMI.pac187.s17.e6" id="DBMI.pac187.s17.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e3" e2="DBMI.pac187.s17.e7" id="DBMI.pac187.s17.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e4" e2="DBMI.pac187.s17.e0" id="DBMI.pac187.s17.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e4" e2="DBMI.pac187.s17.e1" id="DBMI.pac187.s17.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e4" e2="DBMI.pac187.s17.e2" id="DBMI.pac187.s17.p30" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e4" e2="DBMI.pac187.s17.e3" id="DBMI.pac187.s17.p31" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e4" e2="DBMI.pac187.s17.e5" id="DBMI.pac187.s17.p32" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e4" e2="DBMI.pac187.s17.e6" id="DBMI.pac187.s17.p33" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e4" e2="DBMI.pac187.s17.e7" id="DBMI.pac187.s17.p34" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e5" e2="DBMI.pac187.s17.e0" id="DBMI.pac187.s17.p35" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e5" e2="DBMI.pac187.s17.e1" id="DBMI.pac187.s17.p36" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e5" e2="DBMI.pac187.s17.e2" id="DBMI.pac187.s17.p37" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e5" e2="DBMI.pac187.s17.e3" id="DBMI.pac187.s17.p38" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e5" e2="DBMI.pac187.s17.e4" id="DBMI.pac187.s17.p39" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e5" e2="DBMI.pac187.s17.e6" id="DBMI.pac187.s17.p40" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e5" e2="DBMI.pac187.s17.e7" id="DBMI.pac187.s17.p41" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e6" e2="DBMI.pac187.s17.e0" id="DBMI.pac187.s17.p42" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e6" e2="DBMI.pac187.s17.e1" id="DBMI.pac187.s17.p43" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e6" e2="DBMI.pac187.s17.e2" id="DBMI.pac187.s17.p44" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e6" e2="DBMI.pac187.s17.e3" id="DBMI.pac187.s17.p45" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e6" e2="DBMI.pac187.s17.e4" id="DBMI.pac187.s17.p46" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e6" e2="DBMI.pac187.s17.e5" id="DBMI.pac187.s17.p47" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e6" e2="DBMI.pac187.s17.e7" id="DBMI.pac187.s17.p48" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e7" e2="DBMI.pac187.s17.e0" id="DBMI.pac187.s17.p49" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e7" e2="DBMI.pac187.s17.e1" id="DBMI.pac187.s17.p50" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e7" e2="DBMI.pac187.s17.e2" id="DBMI.pac187.s17.p51" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e7" e2="DBMI.pac187.s17.e3" id="DBMI.pac187.s17.p52" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e7" e2="DBMI.pac187.s17.e4" id="DBMI.pac187.s17.p53" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e7" e2="DBMI.pac187.s17.e5" id="DBMI.pac187.s17.p54" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s17.e7" e2="DBMI.pac187.s17.e6" id="DBMI.pac187.s17.p55" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac187.s18" origId="s18" text="REYATAZ does not interact with substrates of CYP2D6 (eg, nortriptyline, desipramine, metoprolol).">
+		<entity charOffset="2524-2532" id="DBMI.pac187.s18.e0" origId="s18.e0" text="REYATAZ " type="Drug product"/>
+		<entity charOffset="2596-2608" id="DBMI.pac187.s18.e1" origId="s18.e1" text="desipramine " type="Active ingredient"/>
+		<entity charOffset="2581-2595" id="DBMI.pac187.s18.e2" origId="s18.e2" text="nortriptyline " type="Active ingredient"/>
+		<entity charOffset="2609-2620" id="DBMI.pac187.s18.e3" origId="s18.e3" text="metoprolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac187.s18.e0" e2="DBMI.pac187.s18.e1" id="DBMI.pac187.s18.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="desipramine " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.s18.e0" e2="DBMI.pac187.s18.e1" id="DBMI.pac187.s18.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="desipramine " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.s18.e0" e2="DBMI.pac187.s18.e2" id="DBMI.pac187.s18.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="nortriptyline " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.s18.e0" e2="DBMI.pac187.s18.e2" id="DBMI.pac187.s18.p3" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="nortriptyline " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.s18.e0" e2="DBMI.pac187.s18.e3" id="DBMI.pac187.s18.p4" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="metoprolol " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.s18.e0" e2="DBMI.pac187.s18.e3" id="DBMI.pac187.s18.p5" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="metoprolol " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.s18.e1" e2="DBMI.pac187.s18.e0" id="DBMI.pac187.s18.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s18.e1" e2="DBMI.pac187.s18.e2" id="DBMI.pac187.s18.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s18.e1" e2="DBMI.pac187.s18.e3" id="DBMI.pac187.s18.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s18.e2" e2="DBMI.pac187.s18.e0" id="DBMI.pac187.s18.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s18.e2" e2="DBMI.pac187.s18.e1" id="DBMI.pac187.s18.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s18.e2" e2="DBMI.pac187.s18.e3" id="DBMI.pac187.s18.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s18.e3" e2="DBMI.pac187.s18.e0" id="DBMI.pac187.s18.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s18.e3" e2="DBMI.pac187.s18.e1" id="DBMI.pac187.s18.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s18.e3" e2="DBMI.pac187.s18.e2" id="DBMI.pac187.s18.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac187.s19" origId="s19" text="Additionally, no clinically significant drug interactions were observed when REYATAZ was coadministered with methadone, fluconazole, acetaminophen, or atenolol.">
+		<entity charOffset="2699-2707" id="DBMI.pac187.s19.e0" origId="s19.e0" text="REYATAZ " type="Drug product"/>
+		<entity charOffset="2731-2741" id="DBMI.pac187.s19.e1" origId="s19.e1" text="methadone " type="Active ingredient"/>
+		<entity charOffset="2755-2769" id="DBMI.pac187.s19.e2" origId="s19.e2" text="acetaminophen " type="Active ingredient"/>
+		<entity charOffset="2742-2754" id="DBMI.pac187.s19.e3" origId="s19.e3" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="2773-2782" id="DBMI.pac187.s19.e4" origId="s19.e4" text="atenolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac187.s19.e0" e2="DBMI.pac187.s19.e1" id="DBMI.pac187.s19.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="methadone " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.s19.e0" e2="DBMI.pac187.s19.e1" id="DBMI.pac187.s19.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="methadone " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.s19.e0" e2="DBMI.pac187.s19.e2" id="DBMI.pac187.s19.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="acetaminophen " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.s19.e0" e2="DBMI.pac187.s19.e3" id="DBMI.pac187.s19.p3" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluconazole " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.s19.e0" e2="DBMI.pac187.s19.e4" id="DBMI.pac187.s19.p4" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="atenolol " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.s19.e1" e2="DBMI.pac187.s19.e0" id="DBMI.pac187.s19.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e1" e2="DBMI.pac187.s19.e2" id="DBMI.pac187.s19.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e1" e2="DBMI.pac187.s19.e3" id="DBMI.pac187.s19.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e1" e2="DBMI.pac187.s19.e4" id="DBMI.pac187.s19.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e2" e2="DBMI.pac187.s19.e0" id="DBMI.pac187.s19.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e2" e2="DBMI.pac187.s19.e1" id="DBMI.pac187.s19.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e2" e2="DBMI.pac187.s19.e3" id="DBMI.pac187.s19.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e2" e2="DBMI.pac187.s19.e4" id="DBMI.pac187.s19.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e3" e2="DBMI.pac187.s19.e0" id="DBMI.pac187.s19.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e3" e2="DBMI.pac187.s19.e1" id="DBMI.pac187.s19.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e3" e2="DBMI.pac187.s19.e2" id="DBMI.pac187.s19.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e3" e2="DBMI.pac187.s19.e4" id="DBMI.pac187.s19.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e4" e2="DBMI.pac187.s19.e0" id="DBMI.pac187.s19.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e4" e2="DBMI.pac187.s19.e1" id="DBMI.pac187.s19.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e4" e2="DBMI.pac187.s19.e2" id="DBMI.pac187.s19.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.s19.e4" e2="DBMI.pac187.s19.e3" id="DBMI.pac187.s19.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac187.s20" origId="s20" text="[See Clinical Pharmacology, Tables 16 and 17 (12.3).]"/>
+	<sentencespan id="DBMI.pac187.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\nSee also Contraindications (4) and Clinical Pharmacology (12.3). 7.1 Potential for REYATAZ to Affect Other Drugs\n\nAtazanavir is an inhibitor of CYP3A and UGT1A1. Coadministration of REYATAZ and drugs primarily metabolized by CYP3A or UGT1A1 may result in increased plasma concentrations of the other drug that could increase or prolong its therapeutic and adverse effects."/>
+	<sentencespan id="DBMI.pac187.sp1" origId="sp1" text="Atazanavir is a weak inhibitor of CYP2C8. Caution should be used when REYATAZ without ritonavir is coadministered with drugs highly dependent on CYP2C8 with narrow therapeutic indices (eg, paclitaxel, repaglinide). When REYATAZ with ritonavir is coadministered with substrates of CYP2C8, clinically significant interactions are not expected.">
+		<entity charOffset="466-474" id="DBMI.pac187.sp1.e0" origId="sp1.e0" text="REYATAZ " type="Drug product"/>
+		<entity charOffset="597-609" id="DBMI.pac187.sp1.e1" origId="sp1.e1" text="repaglinide " type="Active ingredient"/>
+		<entity charOffset="585-596" id="DBMI.pac187.sp1.e2" origId="sp1.e2" text="paclitaxel " type="Active ingredient"/>
+		<pair e1="DBMI.pac187.sp1.e0" e2="DBMI.pac187.sp1.e1" id="DBMI.pac187.sp1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="repaglinide " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.sp1.e0" e2="DBMI.pac187.sp1.e2" id="DBMI.pac187.sp1.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="paclitaxel " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.sp1.e1" e2="DBMI.pac187.sp1.e0" id="DBMI.pac187.sp1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp1.e1" e2="DBMI.pac187.sp1.e2" id="DBMI.pac187.sp1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp1.e2" e2="DBMI.pac187.sp1.e0" id="DBMI.pac187.sp1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp1.e2" e2="DBMI.pac187.sp1.e1" id="DBMI.pac187.sp1.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac187.sp2" origId="sp2" text="[See Clinical Pharmacology, Table 14 (12.3).] The magnitude of CYP3A-mediated drug interactions on coadministered drug may change when REYATAZ is coadministered with ritonavir. See the complete prescribing information for NORVIR (ritonavir) for information on drug interactions with ritonavir."/>
+	<sentencespan id="DBMI.pac187.sp3" origId="sp3" text="7.2 Potential for Other Drugs to Affect Atazanavir\n\nAtazanavir is a CYP3A4 substrate; therefore, drugs that induce CYP3A4 may decrease atazanavir plasma concentrations and reduce REYATAZs therapeutic effect. Atazanavir solubility decreases as pH increases. Reduced plasma concentrations of atazanavir are expected if proton-pump inhibitors, antacids, buffered medications, or H2-receptor antagonists are administered with atazanavir."/>
+	<sentencespan id="DBMI.pac187.sp4" origId="sp4" text="7.3 Established and Other Potentially Significant Drug Interactions\n\nTable 13 provides dosing recommendations as a result of drug interactions with REYATAZ. These recommendations are based on either drug interaction studies or predicted interactions due to the expected magnitude of interaction and potential for serious events or loss of efficacy. 7.4 Drugs with No Observed or Predicted Interactions with REYATAZ\n\nClinically significant interactions are not expected between atazanavir and substrates of CYP2C19, CYP2C9, CYP2D6, CYP2B6, CYP2A6, CYP1A2, or CYP2E1."/>
+	<sentencespan id="DBMI.pac187.sp5" origId="sp5" text="Clinically significant interactions are not expected between atazanavir when administered with ritonavir and substrates of CYP2C8. See the complete prescribing information for NORVIR for information on other potential drug interactions with ritonavir. Based on known metabolic profiles, clinically significant drug interactions are not expected between REYATAZ (atazanavir sulfate) and fluvastatin, pravastatin, dapsone, trimethoprim/sulfamethoxazole, azithromycin, or erythromycin.">
+		<entity charOffset="2403-2414" id="DBMI.pac187.sp5.e0" origId="sp5.e0" text="atazanavir " type="Active ingredient"/>
+		<entity charOffset="2453-2461" id="DBMI.pac187.sp5.e1" origId="sp5.e1" text="dapsone " type="Active ingredient"/>
+		<entity charOffset="2462-2475" id="DBMI.pac187.sp5.e2" origId="sp5.e2" text="trimethoprim " type="Active ingredient"/>
+		<entity charOffset="2440-2452" id="DBMI.pac187.sp5.e3" origId="sp5.e3" text="pravastatin " type="Active ingredient"/>
+		<entity charOffset="2493-2506" id="DBMI.pac187.sp5.e4" origId="sp5.e4" text="azithromycin " type="Active ingredient"/>
+		<entity charOffset="2475-2492" id="DBMI.pac187.sp5.e5" origId="sp5.e5" text="sulfamethoxazole " type="Active ingredient"/>
+		<entity charOffset="2510-2523" id="DBMI.pac187.sp5.e6" origId="sp5.e6" text="erythromycin " type="Active ingredient"/>
+		<entity charOffset="2427-2439" id="DBMI.pac187.sp5.e7" origId="sp5.e7" text="fluvastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac187.sp5.e0" e2="DBMI.pac187.sp5.e1" id="DBMI.pac187.sp5.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="dapsone " precipitant="atazanavir "/>
+		<pair e1="DBMI.pac187.sp5.e0" e2="DBMI.pac187.sp5.e2" id="DBMI.pac187.sp5.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="trimethoprim " precipitant="atazanavir "/>
+		<pair e1="DBMI.pac187.sp5.e0" e2="DBMI.pac187.sp5.e3" id="DBMI.pac187.sp5.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="pravastatin " precipitant="atazanavir "/>
+		<pair e1="DBMI.pac187.sp5.e0" e2="DBMI.pac187.sp5.e4" id="DBMI.pac187.sp5.p3" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="azithromycin " precipitant="atazanavir "/>
+		<pair e1="DBMI.pac187.sp5.e0" e2="DBMI.pac187.sp5.e5" id="DBMI.pac187.sp5.p4" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="sulfamethoxazole " precipitant="atazanavir "/>
+		<pair e1="DBMI.pac187.sp5.e0" e2="DBMI.pac187.sp5.e6" id="DBMI.pac187.sp5.p5" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="erythromycin " precipitant="atazanavir "/>
+		<pair e1="DBMI.pac187.sp5.e0" e2="DBMI.pac187.sp5.e7" id="DBMI.pac187.sp5.p6" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluvastatin " precipitant="atazanavir "/>
+		<pair e1="DBMI.pac187.sp5.e1" e2="DBMI.pac187.sp5.e0" id="DBMI.pac187.sp5.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e1" e2="DBMI.pac187.sp5.e2" id="DBMI.pac187.sp5.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e1" e2="DBMI.pac187.sp5.e3" id="DBMI.pac187.sp5.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e1" e2="DBMI.pac187.sp5.e4" id="DBMI.pac187.sp5.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e1" e2="DBMI.pac187.sp5.e5" id="DBMI.pac187.sp5.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e1" e2="DBMI.pac187.sp5.e6" id="DBMI.pac187.sp5.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e1" e2="DBMI.pac187.sp5.e7" id="DBMI.pac187.sp5.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e2" e2="DBMI.pac187.sp5.e0" id="DBMI.pac187.sp5.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e2" e2="DBMI.pac187.sp5.e1" id="DBMI.pac187.sp5.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e2" e2="DBMI.pac187.sp5.e3" id="DBMI.pac187.sp5.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e2" e2="DBMI.pac187.sp5.e4" id="DBMI.pac187.sp5.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e2" e2="DBMI.pac187.sp5.e5" id="DBMI.pac187.sp5.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e2" e2="DBMI.pac187.sp5.e6" id="DBMI.pac187.sp5.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e2" e2="DBMI.pac187.sp5.e7" id="DBMI.pac187.sp5.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e3" e2="DBMI.pac187.sp5.e0" id="DBMI.pac187.sp5.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e3" e2="DBMI.pac187.sp5.e1" id="DBMI.pac187.sp5.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e3" e2="DBMI.pac187.sp5.e2" id="DBMI.pac187.sp5.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e3" e2="DBMI.pac187.sp5.e4" id="DBMI.pac187.sp5.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e3" e2="DBMI.pac187.sp5.e5" id="DBMI.pac187.sp5.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e3" e2="DBMI.pac187.sp5.e6" id="DBMI.pac187.sp5.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e3" e2="DBMI.pac187.sp5.e7" id="DBMI.pac187.sp5.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e4" e2="DBMI.pac187.sp5.e0" id="DBMI.pac187.sp5.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e4" e2="DBMI.pac187.sp5.e1" id="DBMI.pac187.sp5.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e4" e2="DBMI.pac187.sp5.e2" id="DBMI.pac187.sp5.p30" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e4" e2="DBMI.pac187.sp5.e3" id="DBMI.pac187.sp5.p31" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e4" e2="DBMI.pac187.sp5.e5" id="DBMI.pac187.sp5.p32" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e4" e2="DBMI.pac187.sp5.e6" id="DBMI.pac187.sp5.p33" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e4" e2="DBMI.pac187.sp5.e7" id="DBMI.pac187.sp5.p34" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e5" e2="DBMI.pac187.sp5.e0" id="DBMI.pac187.sp5.p35" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e5" e2="DBMI.pac187.sp5.e1" id="DBMI.pac187.sp5.p36" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e5" e2="DBMI.pac187.sp5.e2" id="DBMI.pac187.sp5.p37" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e5" e2="DBMI.pac187.sp5.e3" id="DBMI.pac187.sp5.p38" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e5" e2="DBMI.pac187.sp5.e4" id="DBMI.pac187.sp5.p39" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e5" e2="DBMI.pac187.sp5.e6" id="DBMI.pac187.sp5.p40" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e5" e2="DBMI.pac187.sp5.e7" id="DBMI.pac187.sp5.p41" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e6" e2="DBMI.pac187.sp5.e0" id="DBMI.pac187.sp5.p42" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e6" e2="DBMI.pac187.sp5.e1" id="DBMI.pac187.sp5.p43" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e6" e2="DBMI.pac187.sp5.e2" id="DBMI.pac187.sp5.p44" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e6" e2="DBMI.pac187.sp5.e3" id="DBMI.pac187.sp5.p45" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e6" e2="DBMI.pac187.sp5.e4" id="DBMI.pac187.sp5.p46" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e6" e2="DBMI.pac187.sp5.e5" id="DBMI.pac187.sp5.p47" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e6" e2="DBMI.pac187.sp5.e7" id="DBMI.pac187.sp5.p48" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e7" e2="DBMI.pac187.sp5.e0" id="DBMI.pac187.sp5.p49" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e7" e2="DBMI.pac187.sp5.e1" id="DBMI.pac187.sp5.p50" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e7" e2="DBMI.pac187.sp5.e2" id="DBMI.pac187.sp5.p51" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e7" e2="DBMI.pac187.sp5.e3" id="DBMI.pac187.sp5.p52" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e7" e2="DBMI.pac187.sp5.e4" id="DBMI.pac187.sp5.p53" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e7" e2="DBMI.pac187.sp5.e5" id="DBMI.pac187.sp5.p54" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp5.e7" e2="DBMI.pac187.sp5.e6" id="DBMI.pac187.sp5.p55" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac187.sp6" origId="sp6" text="REYATAZ does not interact with substrates of CYP2D6 (eg, nortriptyline, desipramine, metoprolol). Additionally, no clinically significant drug interactions were observed when REYATAZ was coadministered with methadone, fluconazole, acetaminophen, or atenolol. [See Clinical Pharmacology, Tables 16 and 17 (12.3).]">
+		<entity charOffset="2524-2532" id="DBMI.pac187.sp6.e0" origId="sp6.e0" text="REYATAZ " type="Drug product"/>
+		<entity charOffset="2596-2608" id="DBMI.pac187.sp6.e1" origId="sp6.e1" text="desipramine " type="Active ingredient"/>
+		<entity charOffset="2581-2595" id="DBMI.pac187.sp6.e2" origId="sp6.e2" text="nortriptyline " type="Active ingredient"/>
+		<entity charOffset="2609-2620" id="DBMI.pac187.sp6.e3" origId="sp6.e3" text="metoprolol " type="Active ingredient"/>
+		<entity charOffset="2731-2741" id="DBMI.pac187.sp6.e4" origId="sp6.e4" text="methadone " type="Active ingredient"/>
+		<entity charOffset="2755-2769" id="DBMI.pac187.sp6.e5" origId="sp6.e5" text="acetaminophen " type="Active ingredient"/>
+		<entity charOffset="2742-2754" id="DBMI.pac187.sp6.e6" origId="sp6.e6" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="2773-2782" id="DBMI.pac187.sp6.e7" origId="sp6.e7" text="atenolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac187.sp6.e0" e2="DBMI.pac187.sp6.e1" id="DBMI.pac187.sp6.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="desipramine " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.sp6.e0" e2="DBMI.pac187.sp6.e1" id="DBMI.pac187.sp6.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="desipramine " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.sp6.e0" e2="DBMI.pac187.sp6.e2" id="DBMI.pac187.sp6.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="nortriptyline " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.sp6.e0" e2="DBMI.pac187.sp6.e2" id="DBMI.pac187.sp6.p3" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="nortriptyline " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.sp6.e0" e2="DBMI.pac187.sp6.e3" id="DBMI.pac187.sp6.p4" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="metoprolol " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.sp6.e0" e2="DBMI.pac187.sp6.e3" id="DBMI.pac187.sp6.p5" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="metoprolol " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.sp6.e0" e2="DBMI.pac187.sp6.e4" id="DBMI.pac187.sp6.p6" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="methadone " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.sp6.e0" e2="DBMI.pac187.sp6.e4" id="DBMI.pac187.sp6.p7" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="methadone " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.sp6.e0" e2="DBMI.pac187.sp6.e5" id="DBMI.pac187.sp6.p8" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="acetaminophen " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.sp6.e0" e2="DBMI.pac187.sp6.e6" id="DBMI.pac187.sp6.p9" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluconazole " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.sp6.e0" e2="DBMI.pac187.sp6.e7" id="DBMI.pac187.sp6.p10" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="atenolol " precipitant="REYATAZ "/>
+		<pair e1="DBMI.pac187.sp6.e1" e2="DBMI.pac187.sp6.e0" id="DBMI.pac187.sp6.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e1" e2="DBMI.pac187.sp6.e2" id="DBMI.pac187.sp6.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e1" e2="DBMI.pac187.sp6.e3" id="DBMI.pac187.sp6.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e1" e2="DBMI.pac187.sp6.e4" id="DBMI.pac187.sp6.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e1" e2="DBMI.pac187.sp6.e5" id="DBMI.pac187.sp6.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e1" e2="DBMI.pac187.sp6.e6" id="DBMI.pac187.sp6.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e1" e2="DBMI.pac187.sp6.e7" id="DBMI.pac187.sp6.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e2" e2="DBMI.pac187.sp6.e0" id="DBMI.pac187.sp6.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e2" e2="DBMI.pac187.sp6.e1" id="DBMI.pac187.sp6.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e2" e2="DBMI.pac187.sp6.e3" id="DBMI.pac187.sp6.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e2" e2="DBMI.pac187.sp6.e4" id="DBMI.pac187.sp6.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e2" e2="DBMI.pac187.sp6.e5" id="DBMI.pac187.sp6.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e2" e2="DBMI.pac187.sp6.e6" id="DBMI.pac187.sp6.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e2" e2="DBMI.pac187.sp6.e7" id="DBMI.pac187.sp6.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e3" e2="DBMI.pac187.sp6.e0" id="DBMI.pac187.sp6.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e3" e2="DBMI.pac187.sp6.e1" id="DBMI.pac187.sp6.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e3" e2="DBMI.pac187.sp6.e2" id="DBMI.pac187.sp6.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e3" e2="DBMI.pac187.sp6.e4" id="DBMI.pac187.sp6.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e3" e2="DBMI.pac187.sp6.e5" id="DBMI.pac187.sp6.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e3" e2="DBMI.pac187.sp6.e6" id="DBMI.pac187.sp6.p30" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e3" e2="DBMI.pac187.sp6.e7" id="DBMI.pac187.sp6.p31" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e4" e2="DBMI.pac187.sp6.e0" id="DBMI.pac187.sp6.p32" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e4" e2="DBMI.pac187.sp6.e1" id="DBMI.pac187.sp6.p33" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e4" e2="DBMI.pac187.sp6.e2" id="DBMI.pac187.sp6.p34" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e4" e2="DBMI.pac187.sp6.e3" id="DBMI.pac187.sp6.p35" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e4" e2="DBMI.pac187.sp6.e5" id="DBMI.pac187.sp6.p36" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e4" e2="DBMI.pac187.sp6.e6" id="DBMI.pac187.sp6.p37" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e4" e2="DBMI.pac187.sp6.e7" id="DBMI.pac187.sp6.p38" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e5" e2="DBMI.pac187.sp6.e0" id="DBMI.pac187.sp6.p39" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e5" e2="DBMI.pac187.sp6.e1" id="DBMI.pac187.sp6.p40" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e5" e2="DBMI.pac187.sp6.e2" id="DBMI.pac187.sp6.p41" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e5" e2="DBMI.pac187.sp6.e3" id="DBMI.pac187.sp6.p42" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e5" e2="DBMI.pac187.sp6.e4" id="DBMI.pac187.sp6.p43" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e5" e2="DBMI.pac187.sp6.e6" id="DBMI.pac187.sp6.p44" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e5" e2="DBMI.pac187.sp6.e7" id="DBMI.pac187.sp6.p45" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e6" e2="DBMI.pac187.sp6.e0" id="DBMI.pac187.sp6.p46" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e6" e2="DBMI.pac187.sp6.e1" id="DBMI.pac187.sp6.p47" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e6" e2="DBMI.pac187.sp6.e2" id="DBMI.pac187.sp6.p48" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e6" e2="DBMI.pac187.sp6.e3" id="DBMI.pac187.sp6.p49" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e6" e2="DBMI.pac187.sp6.e4" id="DBMI.pac187.sp6.p50" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e6" e2="DBMI.pac187.sp6.e5" id="DBMI.pac187.sp6.p51" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e6" e2="DBMI.pac187.sp6.e7" id="DBMI.pac187.sp6.p52" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e7" e2="DBMI.pac187.sp6.e0" id="DBMI.pac187.sp6.p53" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e7" e2="DBMI.pac187.sp6.e1" id="DBMI.pac187.sp6.p54" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e7" e2="DBMI.pac187.sp6.e2" id="DBMI.pac187.sp6.p55" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e7" e2="DBMI.pac187.sp6.e3" id="DBMI.pac187.sp6.p56" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e7" e2="DBMI.pac187.sp6.e4" id="DBMI.pac187.sp6.p57" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e7" e2="DBMI.pac187.sp6.e5" id="DBMI.pac187.sp6.p58" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac187.sp6.e7" e2="DBMI.pac187.sp6.e6" id="DBMI.pac187.sp6.p59" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

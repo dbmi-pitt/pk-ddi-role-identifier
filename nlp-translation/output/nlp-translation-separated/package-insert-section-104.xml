@@ -1,0 +1,126 @@
+
+<document id="DBMI.pac104" origId="pac104">
+	<sentence id="DBMI.pac104.s0" origId="s0" text="7 DRUG INTERACTIONS\n\n7.1 CYP3A\n\nConivaptan is a sensitive substrate of CYP3A."/>
+	<sentence id="DBMI.pac104.s1" origId="s1" text="The effect of ketoconazole, a potent CYP3A inhibitor, on the pharmacokinetics of intravenous conivaptan has not been evaluated."/>
+	<sentence id="DBMI.pac104.s2" origId="s2" text="Coadministration of oral conivaptan hydrochloride 10 mg with ketoconazole 200 mg resulted in 4- and 11-fold increases in Cmax and AUC of conivaptan, respectively [see Contraindications (4.2)].">
+		<entity charOffset="267-280" id="DBMI.pac104.s2.e0" origId="s2.e0" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="231-242" id="DBMI.pac104.s2.e1" origId="s2.e1" text="conivaptan " type="Active ingredient"/>
+		<pair e1="DBMI.pac104.s2.e0" e2="DBMI.pac104.s2.e1" id="DBMI.pac104.s2.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="conivaptan " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac104.s2.e1" e2="DBMI.pac104.s2.e0" id="DBMI.pac104.s2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac104.s3" origId="s3" text="Conivaptan is a potent mechanism-based inhibitor of CYP3A."/>
+	<sentence id="DBMI.pac104.s4" origId="s4" text="The effect of conivaptan on the pharmacokinetics of co-administered CYP3A substrates has been evaluated with the coadministration of conivaptan with midazolam, simvastatin, and amlodipine."/>
+	<sentence id="DBMI.pac104.s5" origId="s5" text="VAPRISOL 40 mg/day increased the mean AUC values by approximately 2- and 3-fold for 1 mg intravenous or 2 mg oral doses of midazolam, respectively.">
+		<entity charOffset="648-657" id="DBMI.pac104.s5.e0" origId="s5.e0" text="VAPRISOL " type="Drug product"/>
+		<entity charOffset="771-781" id="DBMI.pac104.s5.e1" origId="s5.e1" text="midazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac104.s5.e0" e2="DBMI.pac104.s5.e1" id="DBMI.pac104.s5.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="midazolam " precipitant="VAPRISOL "/>
+		<pair e1="DBMI.pac104.s5.e1" e2="DBMI.pac104.s5.e0" id="DBMI.pac104.s5.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac104.s6" origId="s6" text="VAPRISOL 30 mg/day resulted in a 3-fold increase in the AUC of simvastatin.">
+		<entity charOffset="796-805" id="DBMI.pac104.s6.e0" origId="s6.e0" text="VAPRISOL " type="Drug product"/>
+		<entity charOffset="859-871" id="DBMI.pac104.s6.e1" origId="s6.e1" text="simvastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac104.s6.e0" e2="DBMI.pac104.s6.e1" id="DBMI.pac104.s6.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="simvastatin " precipitant="VAPRISOL "/>
+		<pair e1="DBMI.pac104.s6.e1" e2="DBMI.pac104.s6.e0" id="DBMI.pac104.s6.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac104.s7" origId="s7" text="Oral conivaptan hydrochloride 40 mg twice daily resulted in a 2-fold increase in the AUC and half-life of amlodipine [see Warnings and Precautions (5.3)].">
+		<entity charOffset="877-888" id="DBMI.pac104.s7.e0" origId="s7.e0" text="conivaptan " type="Active ingredient"/>
+		<entity charOffset="978-989" id="DBMI.pac104.s7.e1" origId="s7.e1" text="amlodipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac104.s7.e0" e2="DBMI.pac104.s7.e1" id="DBMI.pac104.s7.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="amlodipine " precipitant="conivaptan "/>
+		<pair e1="DBMI.pac104.s7.e1" e2="DBMI.pac104.s7.e0" id="DBMI.pac104.s7.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac104.s8" origId="s8" text="7.2 Digoxin\n\nCoadministration of a 0.5 mg dose of digoxin, a P-glycoprotein substrate, with oral conivaptan hydrochloride 40 mg twice daily resulted in a 30% reduction in clearance and 79% and 43% increases in digoxin Cmax and AUC values, respectively [see Warnings and Precautions (5.4)].">
+		<entity charOffset="1125-1136" id="DBMI.pac104.s8.e0" origId="s8.e0" text="conivaptan " type="Active ingredient"/>
+		<entity charOffset="1078-1086" id="DBMI.pac104.s8.e1" origId="s8.e1" text="digoxin " type="Active ingredient"/>
+		<pair e1="DBMI.pac104.s8.e0" e2="DBMI.pac104.s8.e1" id="DBMI.pac104.s8.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="digoxin " precipitant="conivaptan "/>
+		<pair e1="DBMI.pac104.s8.e1" e2="DBMI.pac104.s8.e0" id="DBMI.pac104.s8.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac104.s9" origId="s9" text="7.3 Warfarin\n\nVAPRISOL (40 mg/day for 4 days) administered with a single 25 mg dose of warfarin, which undergoes major metabolism by CYP2C9 and minor metabolism by CYP3A, increased the mean S-warfarin AUC and S-warfarin Cmax by 14% and 17%, respectively.">
+		<entity charOffset="1333-1342" id="DBMI.pac104.s9.e0" origId="s9.e0" text="VAPRISOL " type="Drug product"/>
+		<entity charOffset="1406-1415" id="DBMI.pac104.s9.e1" origId="s9.e1" text="warfarin " type="Active ingredient"/>
+		<pair e1="DBMI.pac104.s9.e0" e2="DBMI.pac104.s9.e1" id="DBMI.pac104.s9.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="warfarin " precipitant="VAPRISOL "/>
+		<pair e1="DBMI.pac104.s9.e1" e2="DBMI.pac104.s9.e0" id="DBMI.pac104.s9.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac104.s10" origId="s10" text="The corresponding prothrombin time and international normalized ratio values were unchanged."/>
+	<sentence id="DBMI.pac104.s11" origId="s11" text="7.4 Captopril and Furosemide\n\nThe pharmacokinetics of oral conivaptan (20 - 40 mg/day) were unchanged with coadministration of either captopril 25 mg or furosemide up to 80 mg/day.">
+		<entity charOffset="1802-1812" id="DBMI.pac104.s11.e0" origId="s11.e0" text="captopril " type="Active ingredient"/>
+		<entity charOffset="1727-1738" id="DBMI.pac104.s11.e1" origId="s11.e1" text="conivaptan " type="Active ingredient"/>
+		<entity charOffset="1821-1832" id="DBMI.pac104.s11.e2" origId="s11.e2" text="furosemide " type="Active ingredient"/>
+		<pair e1="DBMI.pac104.s11.e0" e2="DBMI.pac104.s11.e1" id="DBMI.pac104.s11.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="conivaptan " precipitant="captopril "/>
+		<pair e1="DBMI.pac104.s11.e0" e2="DBMI.pac104.s11.e2" id="DBMI.pac104.s11.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.s11.e1" e2="DBMI.pac104.s11.e0" id="DBMI.pac104.s11.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.s11.e1" e2="DBMI.pac104.s11.e2" id="DBMI.pac104.s11.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.s11.e2" e2="DBMI.pac104.s11.e0" id="DBMI.pac104.s11.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.s11.e2" e2="DBMI.pac104.s11.e1" id="DBMI.pac104.s11.p5" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="conivaptan " precipitant="furosemide "/>
+	</sentence>
+	<sentencespan id="DBMI.pac104.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\n7.1 CYP3A\n\nConivaptan is a sensitive substrate of CYP3A. The effect of ketoconazole, a potent CYP3A inhibitor, on the pharmacokinetics of intravenous conivaptan has not been evaluated. Coadministration of oral conivaptan hydrochloride 10 mg with ketoconazole 200 mg resulted in 4- and 11-fold increases in Cmax and AUC of conivaptan, respectively [see Contraindications (4.2)].">
+		<entity charOffset="267-280" id="DBMI.pac104.sp0.e0" origId="sp0.e0" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="231-242" id="DBMI.pac104.sp0.e1" origId="sp0.e1" text="conivaptan " type="Active ingredient"/>
+		<pair e1="DBMI.pac104.sp0.e0" e2="DBMI.pac104.sp0.e1" id="DBMI.pac104.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="conivaptan " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac104.sp0.e1" e2="DBMI.pac104.sp0.e0" id="DBMI.pac104.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac104.sp1" origId="sp1" text="Conivaptan is a potent mechanism-based inhibitor of CYP3A. The effect of conivaptan on the pharmacokinetics of co-administered CYP3A substrates has been evaluated with the coadministration of conivaptan with midazolam, simvastatin, and amlodipine. VAPRISOL 40 mg/day increased the mean AUC values by approximately 2- and 3-fold for 1 mg intravenous or 2 mg oral doses of midazolam, respectively.">
+		<entity charOffset="648-657" id="DBMI.pac104.sp1.e0" origId="sp1.e0" text="VAPRISOL " type="Drug product"/>
+		<entity charOffset="771-781" id="DBMI.pac104.sp1.e1" origId="sp1.e1" text="midazolam " type="Active ingredient"/>
+		<entity charOffset="859-871" id="DBMI.pac104.sp1.e2" origId="sp1.e2" text="simvastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac104.sp1.e0" e2="DBMI.pac104.sp1.e1" id="DBMI.pac104.sp1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="midazolam " precipitant="VAPRISOL "/>
+		<pair e1="DBMI.pac104.sp1.e0" e2="DBMI.pac104.sp1.e2" id="DBMI.pac104.sp1.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="simvastatin " precipitant="VAPRISOL "/>
+		<pair e1="DBMI.pac104.sp1.e1" e2="DBMI.pac104.sp1.e0" id="DBMI.pac104.sp1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp1.e1" e2="DBMI.pac104.sp1.e2" id="DBMI.pac104.sp1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp1.e2" e2="DBMI.pac104.sp1.e0" id="DBMI.pac104.sp1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp1.e2" e2="DBMI.pac104.sp1.e1" id="DBMI.pac104.sp1.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac104.sp2" origId="sp2" text="VAPRISOL 30 mg/day resulted in a 3-fold increase in the AUC of simvastatin. Oral conivaptan hydrochloride 40 mg twice daily resulted in a 2-fold increase in the AUC and half-life of amlodipine [see Warnings and Precautions (5.3)]. 7.2 Digoxin\n\nCoadministration of a 0.5 mg dose of digoxin, a P-glycoprotein substrate, with oral conivaptan hydrochloride 40 mg twice daily resulted in a 30% reduction in clearance and 79% and 43% increases in digoxin Cmax and AUC values, respectively [see Warnings and Precautions (5.4)].">
+		<entity charOffset="1125-1136" id="DBMI.pac104.sp2.e0" origId="sp2.e0" text="conivaptan " type="Active ingredient"/>
+		<entity charOffset="1078-1086" id="DBMI.pac104.sp2.e1" origId="sp2.e1" text="digoxin " type="Active ingredient"/>
+		<entity charOffset="796-805" id="DBMI.pac104.sp2.e2" origId="sp2.e2" text="VAPRISOL " type="Drug product"/>
+		<entity charOffset="859-871" id="DBMI.pac104.sp2.e3" origId="sp2.e3" text="simvastatin " type="Active ingredient"/>
+		<entity charOffset="978-989" id="DBMI.pac104.sp2.e4" origId="sp2.e4" text="amlodipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac104.sp2.e0" e2="DBMI.pac104.sp2.e1" id="DBMI.pac104.sp2.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="digoxin " precipitant="conivaptan "/>
+		<pair e1="DBMI.pac104.sp2.e0" e2="DBMI.pac104.sp2.e2" id="DBMI.pac104.sp2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e0" e2="DBMI.pac104.sp2.e3" id="DBMI.pac104.sp2.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e0" e2="DBMI.pac104.sp2.e4" id="DBMI.pac104.sp2.p3" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="amlodipine " precipitant="conivaptan "/>
+		<pair e1="DBMI.pac104.sp2.e1" e2="DBMI.pac104.sp2.e0" id="DBMI.pac104.sp2.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e1" e2="DBMI.pac104.sp2.e2" id="DBMI.pac104.sp2.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e1" e2="DBMI.pac104.sp2.e3" id="DBMI.pac104.sp2.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e1" e2="DBMI.pac104.sp2.e4" id="DBMI.pac104.sp2.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e2" e2="DBMI.pac104.sp2.e0" id="DBMI.pac104.sp2.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e2" e2="DBMI.pac104.sp2.e1" id="DBMI.pac104.sp2.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e2" e2="DBMI.pac104.sp2.e3" id="DBMI.pac104.sp2.p10" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="simvastatin " precipitant="VAPRISOL "/>
+		<pair e1="DBMI.pac104.sp2.e2" e2="DBMI.pac104.sp2.e4" id="DBMI.pac104.sp2.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e3" e2="DBMI.pac104.sp2.e0" id="DBMI.pac104.sp2.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e3" e2="DBMI.pac104.sp2.e1" id="DBMI.pac104.sp2.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e3" e2="DBMI.pac104.sp2.e2" id="DBMI.pac104.sp2.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e3" e2="DBMI.pac104.sp2.e4" id="DBMI.pac104.sp2.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e4" e2="DBMI.pac104.sp2.e0" id="DBMI.pac104.sp2.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e4" e2="DBMI.pac104.sp2.e1" id="DBMI.pac104.sp2.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e4" e2="DBMI.pac104.sp2.e2" id="DBMI.pac104.sp2.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp2.e4" e2="DBMI.pac104.sp2.e3" id="DBMI.pac104.sp2.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac104.sp3" origId="sp3" text="7.3 Warfarin\n\nVAPRISOL (40 mg/day for 4 days) administered with a single 25 mg dose of warfarin, which undergoes major metabolism by CYP2C9 and minor metabolism by CYP3A, increased the mean S-warfarin AUC and S-warfarin Cmax by 14% and 17%, respectively. The corresponding prothrombin time and international normalized ratio values were unchanged. 7.4 Captopril and Furosemide\n\nThe pharmacokinetics of oral conivaptan (20 - 40 mg/day) were unchanged with coadministration of either captopril 25 mg or furosemide up to 80 mg/day.">
+		<entity charOffset="1333-1342" id="DBMI.pac104.sp3.e0" origId="sp3.e0" text="VAPRISOL " type="Drug product"/>
+		<entity charOffset="1406-1415" id="DBMI.pac104.sp3.e1" origId="sp3.e1" text="warfarin " type="Active ingredient"/>
+		<entity charOffset="1802-1812" id="DBMI.pac104.sp3.e2" origId="sp3.e2" text="captopril " type="Active ingredient"/>
+		<entity charOffset="1727-1738" id="DBMI.pac104.sp3.e3" origId="sp3.e3" text="conivaptan " type="Active ingredient"/>
+		<entity charOffset="1821-1832" id="DBMI.pac104.sp3.e4" origId="sp3.e4" text="furosemide " type="Active ingredient"/>
+		<pair e1="DBMI.pac104.sp3.e0" e2="DBMI.pac104.sp3.e1" id="DBMI.pac104.sp3.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="warfarin " precipitant="VAPRISOL "/>
+		<pair e1="DBMI.pac104.sp3.e0" e2="DBMI.pac104.sp3.e2" id="DBMI.pac104.sp3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e0" e2="DBMI.pac104.sp3.e3" id="DBMI.pac104.sp3.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e0" e2="DBMI.pac104.sp3.e4" id="DBMI.pac104.sp3.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e1" e2="DBMI.pac104.sp3.e0" id="DBMI.pac104.sp3.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e1" e2="DBMI.pac104.sp3.e2" id="DBMI.pac104.sp3.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e1" e2="DBMI.pac104.sp3.e3" id="DBMI.pac104.sp3.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e1" e2="DBMI.pac104.sp3.e4" id="DBMI.pac104.sp3.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e2" e2="DBMI.pac104.sp3.e0" id="DBMI.pac104.sp3.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e2" e2="DBMI.pac104.sp3.e1" id="DBMI.pac104.sp3.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e2" e2="DBMI.pac104.sp3.e3" id="DBMI.pac104.sp3.p10" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="conivaptan " precipitant="captopril "/>
+		<pair e1="DBMI.pac104.sp3.e2" e2="DBMI.pac104.sp3.e4" id="DBMI.pac104.sp3.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e3" e2="DBMI.pac104.sp3.e0" id="DBMI.pac104.sp3.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e3" e2="DBMI.pac104.sp3.e1" id="DBMI.pac104.sp3.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e3" e2="DBMI.pac104.sp3.e2" id="DBMI.pac104.sp3.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e3" e2="DBMI.pac104.sp3.e4" id="DBMI.pac104.sp3.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e4" e2="DBMI.pac104.sp3.e0" id="DBMI.pac104.sp3.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e4" e2="DBMI.pac104.sp3.e1" id="DBMI.pac104.sp3.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e4" e2="DBMI.pac104.sp3.e2" id="DBMI.pac104.sp3.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac104.sp3.e4" e2="DBMI.pac104.sp3.e3" id="DBMI.pac104.sp3.p19" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="conivaptan " precipitant="furosemide "/>
+	</sentencespan>
+</document>

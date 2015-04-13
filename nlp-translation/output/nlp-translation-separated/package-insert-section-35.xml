@@ -1,0 +1,16 @@
+
+<document id="DBMI.pac35" origId="pac35">
+	<sentence id="DBMI.pac35.s0" origId="s0" text="Antacids containing magnesium trisilicate, when administered concomitantly with nitrofurantoin, reduce both the rate and extent of absorption.">
+		<entity charOffset="20-30" id="DBMI.pac35.s0.e0" origId="s0.e0" text="magnesium " type="Active ingredient"/>
+		<entity charOffset="80-95" id="DBMI.pac35.s0.e1" origId="s0.e1" text="nitrofurantoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac35.s0.e0" e2="DBMI.pac35.s0.e1" id="DBMI.pac35.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="nitrofurantoin " precipitant="magnesium "/>
+		<pair e1="DBMI.pac35.s0.e1" e2="DBMI.pac35.s0.e0" id="DBMI.pac35.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac35.s1" origId="s1" text="The mechanism for this interaction probably is adsorption of nitrofurantoin onto the surface of magnesium trisilicate."/>
+	<sentencespan id="DBMI.pac35.sp0" origId="sp0" text="Antacids containing magnesium trisilicate, when administered concomitantly with nitrofurantoin, reduce both the rate and extent of absorption. The mechanism for this interaction probably is adsorption of nitrofurantoin onto the surface of magnesium trisilicate.">
+		<entity charOffset="20-30" id="DBMI.pac35.sp0.e0" origId="sp0.e0" text="magnesium " type="Active ingredient"/>
+		<entity charOffset="80-95" id="DBMI.pac35.sp0.e1" origId="sp0.e1" text="nitrofurantoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac35.sp0.e0" e2="DBMI.pac35.sp0.e1" id="DBMI.pac35.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="nitrofurantoin " precipitant="magnesium "/>
+		<pair e1="DBMI.pac35.sp0.e1" e2="DBMI.pac35.sp0.e0" id="DBMI.pac35.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

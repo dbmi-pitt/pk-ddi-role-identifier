@@ -1,0 +1,35 @@
+
+<document id="DBMI.pac136" origId="pac136">
+	<sentence id="DBMI.pac136.s0" origId="s0" text="In vitro drug metabolism studies reveal that trazodone is a substrate of the cytochrome P450 3A4 (CYP3A4) enzyme and trazodone metabolism can be inhibited by the CYP3A4 inhibitors ketoconazole, ritonavir, and indinavir.">
+		<entity charOffset="194-204" id="DBMI.pac136.s0.e0" origId="s0.e0" text="ritonavir " type="Active ingredient"/>
+		<entity charOffset="117-127" id="DBMI.pac136.s0.e1" origId="s0.e1" text="trazodone " type="Active ingredient"/>
+		<entity charOffset="209-219" id="DBMI.pac136.s0.e2" origId="s0.e2" text="indinavir " type="Active ingredient"/>
+		<pair e1="DBMI.pac136.s0.e0" e2="DBMI.pac136.s0.e1" id="DBMI.pac136.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="trazodone " precipitant="ritonavir "/>
+		<pair e1="DBMI.pac136.s0.e0" e2="DBMI.pac136.s0.e2" id="DBMI.pac136.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac136.s0.e1" e2="DBMI.pac136.s0.e0" id="DBMI.pac136.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac136.s0.e1" e2="DBMI.pac136.s0.e2" id="DBMI.pac136.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac136.s0.e2" e2="DBMI.pac136.s0.e0" id="DBMI.pac136.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac136.s0.e2" e2="DBMI.pac136.s0.e1" id="DBMI.pac136.s0.p5" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="trazodone " precipitant="indinavir "/>
+	</sentence>
+	<sentence id="DBMI.pac136.s1" origId="s1" text="The effect of short-term administration of ritonavir (200 mg twice daily, 4 doses) on the pharmacokinetics of a single dose of trazodone (50 mg) has been studied in 10 healthy subjects.">
+		<entity charOffset="263-273" id="DBMI.pac136.s1.e0" origId="s1.e0" text="ritonavir " type="Active ingredient"/>
+		<entity charOffset="347-357" id="DBMI.pac136.s1.e1" origId="s1.e1" text="trazodone " type="Active ingredient"/>
+		<pair e1="DBMI.pac136.s1.e0" e2="DBMI.pac136.s1.e1" id="DBMI.pac136.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="trazodone " precipitant="ritonavir "/>
+		<pair e1="DBMI.pac136.s1.e1" e2="DBMI.pac136.s1.e0" id="DBMI.pac136.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac136.s2" origId="s2" text="The Cmax of trazodone increased by 34%, the AUC increased 2.4 fold, the half-life increased by 2.2 fold, and the clearance decreased by 52%."/>
+	<sentence id="DBMI.pac136.s3" origId="s3" text="Adverse effects including nausea, hypotension, and syncope were observed when ritonavir and trazodone were coadministered."/>
+	<sentencespan id="DBMI.pac136.sp0" origId="sp0" text="In vitro drug metabolism studies reveal that trazodone is a substrate of the cytochrome P450 3A4 (CYP3A4) enzyme and trazodone metabolism can be inhibited by the CYP3A4 inhibitors ketoconazole, ritonavir, and indinavir. The effect of short-term administration of ritonavir (200 mg twice daily, 4 doses) on the pharmacokinetics of a single dose of trazodone (50 mg) has been studied in 10 healthy subjects. The Cmax of trazodone increased by 34%, the AUC increased 2.4 fold, the half-life increased by 2.2 fold, and the clearance decreased by 52%.">
+		<entity charOffset="194-204" id="DBMI.pac136.sp0.e0" origId="sp0.e0" text="ritonavir " type="Active ingredient"/>
+		<entity charOffset="117-127" id="DBMI.pac136.sp0.e1" origId="sp0.e1" text="trazodone " type="Active ingredient"/>
+		<entity charOffset="209-219" id="DBMI.pac136.sp0.e2" origId="sp0.e2" text="indinavir " type="Active ingredient"/>
+		<pair e1="DBMI.pac136.sp0.e0" e2="DBMI.pac136.sp0.e1" id="DBMI.pac136.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="trazodone " precipitant="ritonavir "/>
+		<pair e1="DBMI.pac136.sp0.e0" e2="DBMI.pac136.sp0.e1" id="DBMI.pac136.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="trazodone " precipitant="ritonavir "/>
+		<pair e1="DBMI.pac136.sp0.e0" e2="DBMI.pac136.sp0.e2" id="DBMI.pac136.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac136.sp0.e1" e2="DBMI.pac136.sp0.e0" id="DBMI.pac136.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac136.sp0.e1" e2="DBMI.pac136.sp0.e2" id="DBMI.pac136.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac136.sp0.e2" e2="DBMI.pac136.sp0.e0" id="DBMI.pac136.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac136.sp0.e2" e2="DBMI.pac136.sp0.e1" id="DBMI.pac136.sp0.p6" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="trazodone " precipitant="indinavir "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac136.sp1" origId="sp1" text="Adverse effects including nausea, hypotension, and syncope were observed when ritonavir and trazodone were coadministered."/>
+</document>

@@ -1,0 +1,17 @@
+
+<document id="DBMI.pac83" origId="pac83">
+	<sentence id="DBMI.pac83.s0" origId="s0" text="Coadministration of tacrine with theophylline increased theophylline elimination half-life and average plasma theophylline concentrations by approximately 2-fold.">
+		<entity charOffset="20-28" id="DBMI.pac83.s0.e0" origId="s0.e0" text="tacrine " type="Active ingredient"/>
+		<entity charOffset="33-46" id="DBMI.pac83.s0.e1" origId="s0.e1" text="theophylline " type="Active ingredient"/>
+		<pair e1="DBMI.pac83.s0.e0" e2="DBMI.pac83.s0.e1" id="DBMI.pac83.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="theophylline " precipitant="tacrine "/>
+		<pair e1="DBMI.pac83.s0.e1" e2="DBMI.pac83.s0.e0" id="DBMI.pac83.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac83.s1" origId="s1" text="Therefore, monitoring of plasma theophylline concentrations and appropriate reduction of theophylline dose are recommended in patients receiving tacrine and theophylline concurrently."/>
+	<sentence id="DBMI.pac83.s2" origId="s2" text="The effect of theophylline on tacrine pharmacokinetics has not been assessed."/>
+	<sentencespan id="DBMI.pac83.sp0" origId="sp0" text="Coadministration of tacrine with theophylline increased theophylline elimination half-life and average plasma theophylline concentrations by approximately 2-fold. Therefore, monitoring of plasma theophylline concentrations and appropriate reduction of theophylline dose are recommended in patients receiving tacrine and theophylline concurrently. The effect of theophylline on tacrine pharmacokinetics has not been assessed.">
+		<entity charOffset="20-28" id="DBMI.pac83.sp0.e0" origId="sp0.e0" text="tacrine " type="Active ingredient"/>
+		<entity charOffset="33-46" id="DBMI.pac83.sp0.e1" origId="sp0.e1" text="theophylline " type="Active ingredient"/>
+		<pair e1="DBMI.pac83.sp0.e0" e2="DBMI.pac83.sp0.e1" id="DBMI.pac83.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="theophylline " precipitant="tacrine "/>
+		<pair e1="DBMI.pac83.sp0.e1" e2="DBMI.pac83.sp0.e0" id="DBMI.pac83.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

@@ -1,0 +1,16 @@
+
+<document id="DBMI.pac110" origId="pac110">
+	<sentence id="DBMI.pac110.s0" origId="s0" text="Irbesartan: In vitro studies show significant inhibition of the formation of oxidized irbesartan metabolites by nifedipine."/>
+	<sentence id="DBMI.pac110.s1" origId="s1" text="However, in clinical studies, concomitant nifedipine had no effect on irbesartan pharmacokinetics.">
+		<entity charOffset="166-177" id="DBMI.pac110.s1.e0" origId="s1.e0" text="nifedipine " type="Active ingredient"/>
+		<entity charOffset="194-205" id="DBMI.pac110.s1.e1" origId="s1.e1" text="irbesartan " type="Active ingredient"/>
+		<pair e1="DBMI.pac110.s1.e0" e2="DBMI.pac110.s1.e1" id="DBMI.pac110.s1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="irbesartan " precipitant="nifedipine "/>
+		<pair e1="DBMI.pac110.s1.e1" e2="DBMI.pac110.s1.e0" id="DBMI.pac110.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac110.sp0" origId="sp0" text="Irbesartan: In vitro studies show significant inhibition of the formation of oxidized irbesartan metabolites by nifedipine. However, in clinical studies, concomitant nifedipine had no effect on irbesartan pharmacokinetics.">
+		<entity charOffset="166-177" id="DBMI.pac110.sp0.e0" origId="sp0.e0" text="nifedipine " type="Active ingredient"/>
+		<entity charOffset="194-205" id="DBMI.pac110.sp0.e1" origId="sp0.e1" text="irbesartan " type="Active ingredient"/>
+		<pair e1="DBMI.pac110.sp0.e0" e2="DBMI.pac110.sp0.e1" id="DBMI.pac110.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="irbesartan " precipitant="nifedipine "/>
+		<pair e1="DBMI.pac110.sp0.e1" e2="DBMI.pac110.sp0.e0" id="DBMI.pac110.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

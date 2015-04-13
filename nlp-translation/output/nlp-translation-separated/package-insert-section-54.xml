@@ -1,0 +1,25 @@
+
+<document id="DBMI.pac54" origId="pac54">
+	<sentence id="DBMI.pac54.s0" origId="s0" text="Diltiazem significantly decreases the clearance and increases the t1/2 of quinidine, but quinidine does not alter the kinetics of diltiazem.">
+		<entity charOffset="0-10" id="DBMI.pac54.s0.e0" origId="s0.e0" text="Diltiazem " type="Active ingredient"/>
+		<entity charOffset="74-84" id="DBMI.pac54.s0.e1" origId="s0.e1" text="quinidine " type="Active ingredient"/>
+		<entity charOffset="130-140" id="DBMI.pac54.s0.e2" origId="s0.e2" text="diltiazem " type="Active ingredient"/>
+		<pair e1="DBMI.pac54.s0.e0" e2="DBMI.pac54.s0.e1" id="DBMI.pac54.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="quinidine " precipitant="Diltiazem "/>
+		<pair e1="DBMI.pac54.s0.e0" e2="DBMI.pac54.s0.e2" id="DBMI.pac54.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac54.s0.e1" e2="DBMI.pac54.s0.e0" id="DBMI.pac54.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac54.s0.e1" e2="DBMI.pac54.s0.e2" id="DBMI.pac54.s0.p3" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="diltiazem " precipitant="quinidine "/>
+		<pair e1="DBMI.pac54.s0.e2" e2="DBMI.pac54.s0.e0" id="DBMI.pac54.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac54.s0.e2" e2="DBMI.pac54.s0.e1" id="DBMI.pac54.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac54.sp0" origId="sp0" text="Diltiazem significantly decreases the clearance and increases the t1/2 of quinidine, but quinidine does not alter the kinetics of diltiazem.">
+		<entity charOffset="0-10" id="DBMI.pac54.sp0.e0" origId="sp0.e0" text="Diltiazem " type="Active ingredient"/>
+		<entity charOffset="74-84" id="DBMI.pac54.sp0.e1" origId="sp0.e1" text="quinidine " type="Active ingredient"/>
+		<entity charOffset="130-140" id="DBMI.pac54.sp0.e2" origId="sp0.e2" text="diltiazem " type="Active ingredient"/>
+		<pair e1="DBMI.pac54.sp0.e0" e2="DBMI.pac54.sp0.e1" id="DBMI.pac54.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="quinidine " precipitant="Diltiazem "/>
+		<pair e1="DBMI.pac54.sp0.e0" e2="DBMI.pac54.sp0.e2" id="DBMI.pac54.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac54.sp0.e1" e2="DBMI.pac54.sp0.e0" id="DBMI.pac54.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac54.sp0.e1" e2="DBMI.pac54.sp0.e2" id="DBMI.pac54.sp0.p3" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="diltiazem " precipitant="quinidine "/>
+		<pair e1="DBMI.pac54.sp0.e2" e2="DBMI.pac54.sp0.e0" id="DBMI.pac54.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac54.sp0.e2" e2="DBMI.pac54.sp0.e1" id="DBMI.pac54.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

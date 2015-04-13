@@ -1,0 +1,29 @@
+
+<document id="DBMI.pac23" origId="pac23">
+	<sentence id="DBMI.pac23.s0" origId="s0" text="Fluconazole 100 mg was administered as a single oral dose alone and two hours after a single dose of cimetidine 400 mg to six healthy male volunteers."/>
+	<sentence id="DBMI.pac23.s1" origId="s1" text="After the administration of cimetidine, there was a significant decrease in fluconazole AUC and Cmax.">
+		<entity charOffset="179-190" id="DBMI.pac23.s1.e0" origId="s1.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="287-299" id="DBMI.pac23.s1.e1" origId="s1.e1" text="fluconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac23.s1.e0" e2="DBMI.pac23.s1.e1" id="DBMI.pac23.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="fluconazole " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac23.s1.e1" e2="DBMI.pac23.s1.e0" id="DBMI.pac23.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac23.s2" origId="s2" text="There was a mean  SD decrease in fluconazole AUC of 13%  11% (range: -3.4 to -31%) and Cmax decreased 19%  14% (range: -5 to -40%)."/>
+	<sentence id="DBMI.pac23.s3" origId="s3" text="However, the administration of cimetidine 600 mg to 900 mg intravenously over a four-hour period (from one hour before to 3 hours after a single oral dose of fluconazole 200 mg) did not affect the bioavailability or pharmacokinetics of fluconazole in 24 healthy male volunteers.">
+		<entity charOffset="419-430" id="DBMI.pac23.s3.e0" origId="s3.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="546-558" id="DBMI.pac23.s3.e1" origId="s3.e1" text="fluconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac23.s3.e0" e2="DBMI.pac23.s3.e1" id="DBMI.pac23.s3.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluconazole " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac23.s3.e1" e2="DBMI.pac23.s3.e0" id="DBMI.pac23.s3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac23.sp0" origId="sp0" text="Fluconazole 100 mg was administered as a single oral dose alone and two hours after a single dose of cimetidine 400 mg to six healthy male volunteers. After the administration of cimetidine, there was a significant decrease in fluconazole AUC and Cmax. There was a mean  SD decrease in fluconazole AUC of 13%  11% (range: -3.4 to -31%) and Cmax decreased 19%  14% (range: -5 to -40%).">
+		<entity charOffset="179-190" id="DBMI.pac23.sp0.e0" origId="sp0.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="287-299" id="DBMI.pac23.sp0.e1" origId="sp0.e1" text="fluconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac23.sp0.e0" e2="DBMI.pac23.sp0.e1" id="DBMI.pac23.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="fluconazole " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac23.sp0.e1" e2="DBMI.pac23.sp0.e0" id="DBMI.pac23.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac23.sp1" origId="sp1" text="However, the administration of cimetidine 600 mg to 900 mg intravenously over a four-hour period (from one hour before to 3 hours after a single oral dose of fluconazole 200 mg) did not affect the bioavailability or pharmacokinetics of fluconazole in 24 healthy male volunteers.">
+		<entity charOffset="419-430" id="DBMI.pac23.sp1.e0" origId="sp1.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="546-558" id="DBMI.pac23.sp1.e1" origId="sp1.e1" text="fluconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac23.sp1.e0" e2="DBMI.pac23.sp1.e1" id="DBMI.pac23.sp1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluconazole " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac23.sp1.e1" e2="DBMI.pac23.sp1.e0" id="DBMI.pac23.sp1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

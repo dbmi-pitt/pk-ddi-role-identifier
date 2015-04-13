@@ -1,0 +1,26 @@
+
+<document id="DBMI.pac129" origId="pac129">
+	<sentence id="DBMI.pac129.s0" origId="s0" text="Co-administration of propranolol with cimetidine, a non-specific CYP450 inhibitor, increased propranolol AUC and Cmax by 46% and 35%, respectively.">
+		<entity charOffset="38-49" id="DBMI.pac129.s0.e0" origId="s0.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="21-33" id="DBMI.pac129.s0.e1" origId="s0.e1" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac129.s0.e0" e2="DBMI.pac129.s0.e1" id="DBMI.pac129.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propranolol " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac129.s0.e1" e2="DBMI.pac129.s0.e0" id="DBMI.pac129.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac129.s1" origId="s1" text="Co-administration with aluminum hydroxide gel (1200 mg) may result in a decrease in propranolol concentrations.">
+		<entity charOffset="171-190" id="DBMI.pac129.s1.e0" origId="s1.e0" text="aluminum hydroxide " type="Active ingredient"/>
+		<entity charOffset="232-244" id="DBMI.pac129.s1.e1" origId="s1.e1" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac129.s1.e0" e2="DBMI.pac129.s1.e1" id="DBMI.pac129.s1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propranolol " precipitant="aluminum hydroxide "/>
+		<pair e1="DBMI.pac129.s1.e1" e2="DBMI.pac129.s1.e0" id="DBMI.pac129.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac129.sp0" origId="sp0" text="Co-administration of propranolol with cimetidine, a non-specific CYP450 inhibitor, increased propranolol AUC and Cmax by 46% and 35%, respectively. Co-administration with aluminum hydroxide gel (1200 mg) may result in a decrease in propranolol concentrations.">
+		<entity charOffset="171-190" id="DBMI.pac129.sp0.e0" origId="sp0.e0" text="aluminum hydroxide " type="Active ingredient"/>
+		<entity charOffset="232-244" id="DBMI.pac129.sp0.e1" origId="sp0.e1" text="propranolol " type="Active ingredient"/>
+		<entity charOffset="38-49" id="DBMI.pac129.sp0.e2" origId="sp0.e2" text="cimetidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac129.sp0.e0" e2="DBMI.pac129.sp0.e1" id="DBMI.pac129.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propranolol " precipitant="aluminum hydroxide "/>
+		<pair e1="DBMI.pac129.sp0.e0" e2="DBMI.pac129.sp0.e2" id="DBMI.pac129.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac129.sp0.e1" e2="DBMI.pac129.sp0.e0" id="DBMI.pac129.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac129.sp0.e1" e2="DBMI.pac129.sp0.e2" id="DBMI.pac129.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac129.sp0.e2" e2="DBMI.pac129.sp0.e0" id="DBMI.pac129.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac129.sp0.e2" e2="DBMI.pac129.sp0.e1" id="DBMI.pac129.sp0.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propranolol " precipitant="cimetidine "/>
+	</sentencespan>
+</document>

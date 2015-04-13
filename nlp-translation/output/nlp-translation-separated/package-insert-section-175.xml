@@ -1,0 +1,31 @@
+
+<document id="DBMI.pac175" origId="pac175">
+	<sentence id="DBMI.pac175.s0" origId="s0" text="Interaction studies with drugs used in HIV therapy have not been conducted."/>
+	<sentence id="DBMI.pac175.s1" origId="s1" text="However, care should be exercised when drugs that are nephrotoxic (e.g., ganciclovir) or that are metabolized by CYP3A (e.g., nelfinavir, ritonavir) are administered concomitantly with tacrolimus."/>
+	<sentence id="DBMI.pac175.s2" origId="s2" text="Based on a clinical study of 5 liver transplant recipients, coadministration of tacrolimus with nelfinavir increased blood concentrations of tacrolimus significantly and, as a result, a reduction in the tacrolimus dose by an average of 16-fold was needed to maintain mean trough tacrolimus blood concentrations of 9.7 ng/mL.">
+		<entity charOffset="369-380" id="DBMI.pac175.s2.e0" origId="s2.e0" text="nelfinavir " type="Active ingredient"/>
+		<entity charOffset="353-364" id="DBMI.pac175.s2.e1" origId="s2.e1" text="tacrolimus " type="Active ingredient"/>
+		<pair e1="DBMI.pac175.s2.e0" e2="DBMI.pac175.s2.e1" id="DBMI.pac175.s2.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="tacrolimus " precipitant="nelfinavir "/>
+		<pair e1="DBMI.pac175.s2.e1" e2="DBMI.pac175.s2.e0" id="DBMI.pac175.s2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac175.s3" origId="s3" text="Thus, frequent monitoring of tacrolimus blood concentrations and appropriate dosage adjustments are essential when nelfinavir is used concomitantly."/>
+	<sentence id="DBMI.pac175.s4" origId="s4" text="Tacrolimus may affect the pharmacokinetics of other drugs (e.g., phenytoin) and increase their concentration.">
+		<entity charOffset="747-758" id="DBMI.pac175.s4.e0" origId="s4.e0" text="Tacrolimus " type="Active ingredient"/>
+		<entity charOffset="812-822" id="DBMI.pac175.s4.e1" origId="s4.e1" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac175.s4.e0" e2="DBMI.pac175.s4.e1" id="DBMI.pac175.s4.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="phenytoin " precipitant="Tacrolimus "/>
+		<pair e1="DBMI.pac175.s4.e1" e2="DBMI.pac175.s4.e0" id="DBMI.pac175.s4.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac175.s5" origId="s5" text="Grapefruit juice affects CYP3A-mediated metabolism and should be avoided (see DOSAGE AND ADMINISTRATION)."/>
+	<sentencespan id="DBMI.pac175.sp0" origId="sp0" text="Interaction studies with drugs used in HIV therapy have not been conducted. However, care should be exercised when drugs that are nephrotoxic (e.g., ganciclovir) or that are metabolized by CYP3A (e.g., nelfinavir, ritonavir) are administered concomitantly with tacrolimus. Based on a clinical study of 5 liver transplant recipients, coadministration of tacrolimus with nelfinavir increased blood concentrations of tacrolimus significantly and, as a result, a reduction in the tacrolimus dose by an average of 16-fold was needed to maintain mean trough tacrolimus blood concentrations of 9.7 ng/mL.">
+		<entity charOffset="369-380" id="DBMI.pac175.sp0.e0" origId="sp0.e0" text="nelfinavir " type="Active ingredient"/>
+		<entity charOffset="353-364" id="DBMI.pac175.sp0.e1" origId="sp0.e1" text="tacrolimus " type="Active ingredient"/>
+		<pair e1="DBMI.pac175.sp0.e0" e2="DBMI.pac175.sp0.e1" id="DBMI.pac175.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="tacrolimus " precipitant="nelfinavir "/>
+		<pair e1="DBMI.pac175.sp0.e1" e2="DBMI.pac175.sp0.e0" id="DBMI.pac175.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac175.sp1" origId="sp1" text="Thus, frequent monitoring of tacrolimus blood concentrations and appropriate dosage adjustments are essential when nelfinavir is used concomitantly. Tacrolimus may affect the pharmacokinetics of other drugs (e.g., phenytoin) and increase their concentration. Grapefruit juice affects CYP3A-mediated metabolism and should be avoided (see DOSAGE AND ADMINISTRATION).">
+		<entity charOffset="747-758" id="DBMI.pac175.sp1.e0" origId="sp1.e0" text="Tacrolimus " type="Active ingredient"/>
+		<entity charOffset="812-822" id="DBMI.pac175.sp1.e1" origId="sp1.e1" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac175.sp1.e0" e2="DBMI.pac175.sp1.e1" id="DBMI.pac175.sp1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="phenytoin " precipitant="Tacrolimus "/>
+		<pair e1="DBMI.pac175.sp1.e1" e2="DBMI.pac175.sp1.e0" id="DBMI.pac175.sp1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

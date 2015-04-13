@@ -1,0 +1,115 @@
+
+<document id="DBMI.pac102" origId="pac102">
+	<sentence id="DBMI.pac102.s0" origId="s0" text="7 DRUG INTERACTIONS\n\nThe effects of metoclopramide on gastrointestinal motility can impact the absorption of other drugs."/>
+	<sentence id="DBMI.pac102.s1" origId="s1" text="The known drug-drug interactions are listed below."/>
+	<sentence id="DBMI.pac102.s2" origId="s2" text="7.1 Anticholinergic and Narcotic Analgesic Drugs\n\nThe effects of metoclopramide on gastrointestinal motility are antagonized by anticholinergic drugs and narcotic analgesics."/>
+	<sentence id="DBMI.pac102.s3" origId="s3" text="Additive sedative effects can occur when metoclopramide is given with alcohol, sedatives, hypnotics, narcotics, or tranquilizers."/>
+	<sentence id="DBMI.pac102.s4" origId="s4" text="7.2 Monoamine Oxidase Inhibitors\n\nMetoclopramide has been shown to release catecholamines in patients with essential hypertension suggests that it should be used cautiously, if at all, in patients taking monoamine oxidase (MAO) inhibitors."/>
+	<sentence id="DBMI.pac102.s5" origId="s5" text="7.3 Drug Absorption\n\nAbsorption of drugs from the stomach may be diminished by metoclopramide (e.g., digoxin), whereas the rate and/or extent of absorption of drugs from the small bowel may be increased (e.g., acetaminophen, tetracycline, levodopa, ethanol, cyclosporine).">
+		<entity charOffset="802-817" id="DBMI.pac102.s5.e0" origId="s5.e0" text="metoclopramide " type="Active ingredient"/>
+		<entity charOffset="824-832" id="DBMI.pac102.s5.e1" origId="s5.e1" text="digoxin " type="Active ingredient"/>
+		<entity charOffset="962-971" id="DBMI.pac102.s5.e2" origId="s5.e2" text="levodopa " type="Active ingredient"/>
+		<entity charOffset="972-980" id="DBMI.pac102.s5.e3" origId="s5.e3" text="ethanol " type="Active ingredient"/>
+		<entity charOffset="981-994" id="DBMI.pac102.s5.e4" origId="s5.e4" text="cyclosporine " type="Active ingredient"/>
+		<entity charOffset="948-961" id="DBMI.pac102.s5.e5" origId="s5.e5" text="tetracycline " type="Active ingredient"/>
+		<entity charOffset="933-947" id="DBMI.pac102.s5.e6" origId="s5.e6" text="acetaminophen " type="Active ingredient"/>
+		<pair e1="DBMI.pac102.s5.e0" e2="DBMI.pac102.s5.e1" id="DBMI.pac102.s5.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="digoxin " precipitant="metoclopramide "/>
+		<pair e1="DBMI.pac102.s5.e0" e2="DBMI.pac102.s5.e2" id="DBMI.pac102.s5.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="levodopa " precipitant="metoclopramide "/>
+		<pair e1="DBMI.pac102.s5.e0" e2="DBMI.pac102.s5.e3" id="DBMI.pac102.s5.p2" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="ethanol " precipitant="metoclopramide "/>
+		<pair e1="DBMI.pac102.s5.e0" e2="DBMI.pac102.s5.e4" id="DBMI.pac102.s5.p3" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="cyclosporine " precipitant="metoclopramide "/>
+		<pair e1="DBMI.pac102.s5.e0" e2="DBMI.pac102.s5.e5" id="DBMI.pac102.s5.p4" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="tetracycline " precipitant="metoclopramide "/>
+		<pair e1="DBMI.pac102.s5.e0" e2="DBMI.pac102.s5.e6" id="DBMI.pac102.s5.p5" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="acetaminophen " precipitant="metoclopramide "/>
+		<pair e1="DBMI.pac102.s5.e1" e2="DBMI.pac102.s5.e0" id="DBMI.pac102.s5.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e1" e2="DBMI.pac102.s5.e2" id="DBMI.pac102.s5.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e1" e2="DBMI.pac102.s5.e3" id="DBMI.pac102.s5.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e1" e2="DBMI.pac102.s5.e4" id="DBMI.pac102.s5.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e1" e2="DBMI.pac102.s5.e5" id="DBMI.pac102.s5.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e1" e2="DBMI.pac102.s5.e6" id="DBMI.pac102.s5.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e2" e2="DBMI.pac102.s5.e0" id="DBMI.pac102.s5.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e2" e2="DBMI.pac102.s5.e1" id="DBMI.pac102.s5.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e2" e2="DBMI.pac102.s5.e3" id="DBMI.pac102.s5.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e2" e2="DBMI.pac102.s5.e4" id="DBMI.pac102.s5.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e2" e2="DBMI.pac102.s5.e5" id="DBMI.pac102.s5.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e2" e2="DBMI.pac102.s5.e6" id="DBMI.pac102.s5.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e3" e2="DBMI.pac102.s5.e0" id="DBMI.pac102.s5.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e3" e2="DBMI.pac102.s5.e1" id="DBMI.pac102.s5.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e3" e2="DBMI.pac102.s5.e2" id="DBMI.pac102.s5.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e3" e2="DBMI.pac102.s5.e4" id="DBMI.pac102.s5.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e3" e2="DBMI.pac102.s5.e5" id="DBMI.pac102.s5.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e3" e2="DBMI.pac102.s5.e6" id="DBMI.pac102.s5.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e4" e2="DBMI.pac102.s5.e0" id="DBMI.pac102.s5.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e4" e2="DBMI.pac102.s5.e1" id="DBMI.pac102.s5.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e4" e2="DBMI.pac102.s5.e2" id="DBMI.pac102.s5.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e4" e2="DBMI.pac102.s5.e3" id="DBMI.pac102.s5.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e4" e2="DBMI.pac102.s5.e5" id="DBMI.pac102.s5.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e4" e2="DBMI.pac102.s5.e6" id="DBMI.pac102.s5.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e5" e2="DBMI.pac102.s5.e0" id="DBMI.pac102.s5.p30" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e5" e2="DBMI.pac102.s5.e1" id="DBMI.pac102.s5.p31" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e5" e2="DBMI.pac102.s5.e2" id="DBMI.pac102.s5.p32" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e5" e2="DBMI.pac102.s5.e3" id="DBMI.pac102.s5.p33" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e5" e2="DBMI.pac102.s5.e4" id="DBMI.pac102.s5.p34" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e5" e2="DBMI.pac102.s5.e6" id="DBMI.pac102.s5.p35" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e6" e2="DBMI.pac102.s5.e0" id="DBMI.pac102.s5.p36" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e6" e2="DBMI.pac102.s5.e1" id="DBMI.pac102.s5.p37" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e6" e2="DBMI.pac102.s5.e2" id="DBMI.pac102.s5.p38" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e6" e2="DBMI.pac102.s5.e3" id="DBMI.pac102.s5.p39" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e6" e2="DBMI.pac102.s5.e4" id="DBMI.pac102.s5.p40" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.s5.e6" e2="DBMI.pac102.s5.e5" id="DBMI.pac102.s5.p41" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac102.s6" origId="s6" text="7.4 Insulin\n\nBecause the action of metoclopramide will hasten the movement of food to the intestines and therefore the rate of absorption, insulin dosage or timing of dosage may require adjustment."/>
+	<sentence id="DBMI.pac102.s7" origId="s7" text="Increasing movement of food to the intestines may lead to absorption of less glucose from a meal, hence less glucose in the circulation for a particular dose of administered insulin to act upon, resulting in hypoglycemia."/>
+	<sentence id="DBMI.pac102.s8" origId="s8" text="7.5 Antidepressants, Antipsychotics, and Neuroleptics\n\nConcomitant use of metoclopramide should be avoided in patients taking antidepressants, antipsychotics, and/or neuroleptics that have been associated with  extrapyramidal reactions such as tardive dyskinesia or Neuroleptic Malignant Syndrome (NMS) that have occurred in association with metoclopramide [see Warnings and Precautions (5.2), (5.3) and Adverse Reactions (6.2)]. "/>
+	<sentencespan id="DBMI.pac102.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\nThe effects of metoclopramide on gastrointestinal motility can impact the absorption of other drugs. The known drug-drug interactions are listed below. 7.1 Anticholinergic and Narcotic Analgesic Drugs\n\nThe effects of metoclopramide on gastrointestinal motility are antagonized by anticholinergic drugs and narcotic analgesics."/>
+	<sentencespan id="DBMI.pac102.sp1" origId="sp1" text="Additive sedative effects can occur when metoclopramide is given with alcohol, sedatives, hypnotics, narcotics, or tranquilizers. 7.2 Monoamine Oxidase Inhibitors\n\nMetoclopramide has been shown to release catecholamines in patients with essential hypertension suggests that it should be used cautiously, if at all, in patients taking monoamine oxidase (MAO) inhibitors. 7.3 Drug Absorption\n\nAbsorption of drugs from the stomach may be diminished by metoclopramide (e.g., digoxin), whereas the rate and/or extent of absorption of drugs from the small bowel may be increased (e.g., acetaminophen, tetracycline, levodopa, ethanol, cyclosporine).">
+		<entity charOffset="802-817" id="DBMI.pac102.sp1.e0" origId="sp1.e0" text="metoclopramide " type="Active ingredient"/>
+		<entity charOffset="824-832" id="DBMI.pac102.sp1.e1" origId="sp1.e1" text="digoxin " type="Active ingredient"/>
+		<entity charOffset="962-971" id="DBMI.pac102.sp1.e2" origId="sp1.e2" text="levodopa " type="Active ingredient"/>
+		<entity charOffset="972-980" id="DBMI.pac102.sp1.e3" origId="sp1.e3" text="ethanol " type="Active ingredient"/>
+		<entity charOffset="981-994" id="DBMI.pac102.sp1.e4" origId="sp1.e4" text="cyclosporine " type="Active ingredient"/>
+		<entity charOffset="948-961" id="DBMI.pac102.sp1.e5" origId="sp1.e5" text="tetracycline " type="Active ingredient"/>
+		<entity charOffset="933-947" id="DBMI.pac102.sp1.e6" origId="sp1.e6" text="acetaminophen " type="Active ingredient"/>
+		<pair e1="DBMI.pac102.sp1.e0" e2="DBMI.pac102.sp1.e1" id="DBMI.pac102.sp1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="digoxin " precipitant="metoclopramide "/>
+		<pair e1="DBMI.pac102.sp1.e0" e2="DBMI.pac102.sp1.e2" id="DBMI.pac102.sp1.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="levodopa " precipitant="metoclopramide "/>
+		<pair e1="DBMI.pac102.sp1.e0" e2="DBMI.pac102.sp1.e3" id="DBMI.pac102.sp1.p2" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="ethanol " precipitant="metoclopramide "/>
+		<pair e1="DBMI.pac102.sp1.e0" e2="DBMI.pac102.sp1.e4" id="DBMI.pac102.sp1.p3" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="cyclosporine " precipitant="metoclopramide "/>
+		<pair e1="DBMI.pac102.sp1.e0" e2="DBMI.pac102.sp1.e5" id="DBMI.pac102.sp1.p4" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="tetracycline " precipitant="metoclopramide "/>
+		<pair e1="DBMI.pac102.sp1.e0" e2="DBMI.pac102.sp1.e6" id="DBMI.pac102.sp1.p5" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="acetaminophen " precipitant="metoclopramide "/>
+		<pair e1="DBMI.pac102.sp1.e1" e2="DBMI.pac102.sp1.e0" id="DBMI.pac102.sp1.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e1" e2="DBMI.pac102.sp1.e2" id="DBMI.pac102.sp1.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e1" e2="DBMI.pac102.sp1.e3" id="DBMI.pac102.sp1.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e1" e2="DBMI.pac102.sp1.e4" id="DBMI.pac102.sp1.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e1" e2="DBMI.pac102.sp1.e5" id="DBMI.pac102.sp1.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e1" e2="DBMI.pac102.sp1.e6" id="DBMI.pac102.sp1.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e2" e2="DBMI.pac102.sp1.e0" id="DBMI.pac102.sp1.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e2" e2="DBMI.pac102.sp1.e1" id="DBMI.pac102.sp1.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e2" e2="DBMI.pac102.sp1.e3" id="DBMI.pac102.sp1.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e2" e2="DBMI.pac102.sp1.e4" id="DBMI.pac102.sp1.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e2" e2="DBMI.pac102.sp1.e5" id="DBMI.pac102.sp1.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e2" e2="DBMI.pac102.sp1.e6" id="DBMI.pac102.sp1.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e3" e2="DBMI.pac102.sp1.e0" id="DBMI.pac102.sp1.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e3" e2="DBMI.pac102.sp1.e1" id="DBMI.pac102.sp1.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e3" e2="DBMI.pac102.sp1.e2" id="DBMI.pac102.sp1.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e3" e2="DBMI.pac102.sp1.e4" id="DBMI.pac102.sp1.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e3" e2="DBMI.pac102.sp1.e5" id="DBMI.pac102.sp1.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e3" e2="DBMI.pac102.sp1.e6" id="DBMI.pac102.sp1.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e4" e2="DBMI.pac102.sp1.e0" id="DBMI.pac102.sp1.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e4" e2="DBMI.pac102.sp1.e1" id="DBMI.pac102.sp1.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e4" e2="DBMI.pac102.sp1.e2" id="DBMI.pac102.sp1.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e4" e2="DBMI.pac102.sp1.e3" id="DBMI.pac102.sp1.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e4" e2="DBMI.pac102.sp1.e5" id="DBMI.pac102.sp1.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e4" e2="DBMI.pac102.sp1.e6" id="DBMI.pac102.sp1.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e5" e2="DBMI.pac102.sp1.e0" id="DBMI.pac102.sp1.p30" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e5" e2="DBMI.pac102.sp1.e1" id="DBMI.pac102.sp1.p31" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e5" e2="DBMI.pac102.sp1.e2" id="DBMI.pac102.sp1.p32" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e5" e2="DBMI.pac102.sp1.e3" id="DBMI.pac102.sp1.p33" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e5" e2="DBMI.pac102.sp1.e4" id="DBMI.pac102.sp1.p34" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e5" e2="DBMI.pac102.sp1.e6" id="DBMI.pac102.sp1.p35" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e6" e2="DBMI.pac102.sp1.e0" id="DBMI.pac102.sp1.p36" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e6" e2="DBMI.pac102.sp1.e1" id="DBMI.pac102.sp1.p37" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e6" e2="DBMI.pac102.sp1.e2" id="DBMI.pac102.sp1.p38" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e6" e2="DBMI.pac102.sp1.e3" id="DBMI.pac102.sp1.p39" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e6" e2="DBMI.pac102.sp1.e4" id="DBMI.pac102.sp1.p40" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac102.sp1.e6" e2="DBMI.pac102.sp1.e5" id="DBMI.pac102.sp1.p41" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac102.sp2" origId="sp2" text="7.4 Insulin\n\nBecause the action of metoclopramide will hasten the movement of food to the intestines and therefore the rate of absorption, insulin dosage or timing of dosage may require adjustment. Increasing movement of food to the intestines may lead to absorption of less glucose from a meal, hence less glucose in the circulation for a particular dose of administered insulin to act upon, resulting in hypoglycemia. 7.5 Antidepressants, Antipsychotics, and Neuroleptics\n\nConcomitant use of metoclopramide should be avoided in patients taking antidepressants, antipsychotics, and/or neuroleptics that have been associated with  extrapyramidal reactions such as tardive dyskinesia or Neuroleptic Malignant Syndrome (NMS) that have occurred in association with metoclopramide [see Warnings and Precautions (5.2), (5.3) and Adverse Reactions (6.2)]. "/>
+</document>

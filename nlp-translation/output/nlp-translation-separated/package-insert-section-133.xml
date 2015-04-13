@@ -1,0 +1,25 @@
+
+<document id="DBMI.pac133" origId="pac133">
+	<sentence id="DBMI.pac133.s0" origId="s0" text="Co-administration of long-acting propranolol at doses greater than or equal to 160 mg/day resulted in increased thioridazine plasma concentrations ranging from 55% to 369% and increased thioridazine metabolite (mesoridazine) concentrations ranging from 33% to 209%.">
+		<entity charOffset="33-45" id="DBMI.pac133.s0.e0" origId="s0.e0" text="propranolol " type="Active ingredient"/>
+		<entity charOffset="112-125" id="DBMI.pac133.s0.e1" origId="s0.e1" text="thioridazine " type="Active ingredient"/>
+		<entity charOffset="211-224" id="DBMI.pac133.s0.e2" origId="s0.e2" text="mesoridazine " type="Metabolite"/>
+		<pair e1="DBMI.pac133.s0.e0" e2="DBMI.pac133.s0.e1" id="DBMI.pac133.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="thioridazine " precipitant="propranolol "/>
+		<pair e1="DBMI.pac133.s0.e0" e2="DBMI.pac133.s0.e2" id="DBMI.pac133.s0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="mesoridazine " precipitant="propranolol "/>
+		<pair e1="DBMI.pac133.s0.e1" e2="DBMI.pac133.s0.e0" id="DBMI.pac133.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac133.s0.e1" e2="DBMI.pac133.s0.e2" id="DBMI.pac133.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac133.s0.e2" e2="DBMI.pac133.s0.e0" id="DBMI.pac133.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac133.s0.e2" e2="DBMI.pac133.s0.e1" id="DBMI.pac133.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac133.sp0" origId="sp0" text="Co-administration of long-acting propranolol at doses greater than or equal to 160 mg/day resulted in increased thioridazine plasma concentrations ranging from 55% to 369% and increased thioridazine metabolite (mesoridazine) concentrations ranging from 33% to 209%.">
+		<entity charOffset="33-45" id="DBMI.pac133.sp0.e0" origId="sp0.e0" text="propranolol " type="Active ingredient"/>
+		<entity charOffset="112-125" id="DBMI.pac133.sp0.e1" origId="sp0.e1" text="thioridazine " type="Active ingredient"/>
+		<entity charOffset="211-224" id="DBMI.pac133.sp0.e2" origId="sp0.e2" text="mesoridazine " type="Metabolite"/>
+		<pair e1="DBMI.pac133.sp0.e0" e2="DBMI.pac133.sp0.e1" id="DBMI.pac133.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="thioridazine " precipitant="propranolol "/>
+		<pair e1="DBMI.pac133.sp0.e0" e2="DBMI.pac133.sp0.e2" id="DBMI.pac133.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="mesoridazine " precipitant="propranolol "/>
+		<pair e1="DBMI.pac133.sp0.e1" e2="DBMI.pac133.sp0.e0" id="DBMI.pac133.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac133.sp0.e1" e2="DBMI.pac133.sp0.e2" id="DBMI.pac133.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac133.sp0.e2" e2="DBMI.pac133.sp0.e0" id="DBMI.pac133.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac133.sp0.e2" e2="DBMI.pac133.sp0.e1" id="DBMI.pac133.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

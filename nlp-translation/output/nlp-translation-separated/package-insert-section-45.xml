@@ -1,0 +1,20 @@
+
+<document id="DBMI.pac45" origId="pac45">
+	<sentence id="DBMI.pac45.s0" origId="s0" text="Phenobarbital induces many cytochrome P450 (oxidative) enzymes."/>
+	<sentence id="DBMI.pac45.s1" origId="s1" text="When a single oral 30-mg dose of immediate-release paroxetine  was administered at phenobarbital steady state (100 mg once daily for 14 days), paroxetine AUC and T were reduced (by an average of 25% and 38%, respectively) compared to paroxetine administered alone.">
+		<entity charOffset="147-161" id="DBMI.pac45.s1.e0" origId="s1.e0" text="phenobarbital " type="Active ingredient"/>
+		<entity charOffset="115-126" id="DBMI.pac45.s1.e1" origId="s1.e1" text="paroxetine " type="Active ingredient"/>
+		<pair e1="DBMI.pac45.s1.e0" e2="DBMI.pac45.s1.e1" id="DBMI.pac45.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="paroxetine " precipitant="phenobarbital "/>
+		<pair e1="DBMI.pac45.s1.e1" e2="DBMI.pac45.s1.e0" id="DBMI.pac45.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac45.s2" origId="s2" text="The effect of paroxetine on phenobarbital pharmacokinetics was not studied."/>
+	<sentence id="DBMI.pac45.s3" origId="s3" text="Since paroxetine exhibits nonlinear pharmacokinetics, the results of this study may not address the case where the 2 drugs are both being chronically dosed."/>
+	<sentence id="DBMI.pac45.s4" origId="s4" text="No initial dosage adjustment with Paroxetine Hydrochloride Controlled-Release Tablets is considered necessary when coadministered with phenobarbital; any subsequent adjustment should be guided by clinical effect."/>
+	<sentencespan id="DBMI.pac45.sp0" origId="sp0" text="Phenobarbital induces many cytochrome P450 (oxidative) enzymes. When a single oral 30-mg dose of immediate-release paroxetine  was administered at phenobarbital steady state (100 mg once daily for 14 days), paroxetine AUC and T were reduced (by an average of 25% and 38%, respectively) compared to paroxetine administered alone. The effect of paroxetine on phenobarbital pharmacokinetics was not studied.">
+		<entity charOffset="147-161" id="DBMI.pac45.sp0.e0" origId="sp0.e0" text="phenobarbital " type="Active ingredient"/>
+		<entity charOffset="115-126" id="DBMI.pac45.sp0.e1" origId="sp0.e1" text="paroxetine " type="Active ingredient"/>
+		<pair e1="DBMI.pac45.sp0.e0" e2="DBMI.pac45.sp0.e1" id="DBMI.pac45.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="paroxetine " precipitant="phenobarbital "/>
+		<pair e1="DBMI.pac45.sp0.e1" e2="DBMI.pac45.sp0.e0" id="DBMI.pac45.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac45.sp1" origId="sp1" text="Since paroxetine exhibits nonlinear pharmacokinetics, the results of this study may not address the case where the 2 drugs are both being chronically dosed. No initial dosage adjustment with Paroxetine Hydrochloride Controlled-Release Tablets is considered necessary when coadministered with phenobarbital; any subsequent adjustment should be guided by clinical effect."/>
+</document>

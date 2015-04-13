@@ -1,0 +1,99 @@
+7 DRUG INTERACTIONS
+
+7.1 Alcohol
+
+A single dose of ethanol (0.5 g/kg) had no effect on the pharmacokinetics of venlafaxine or O-desmethylvenlafaxine (ODV) when venlafaxine was administered at 150 mg/day in 15 healthy male subjects. Additionally, administration of venlafaxine in a stable regimen did not exaggerate the psychomotor and psychometric effects induced by ethanol in these same subjects when they were not receiving venlafaxine.
+
+7.2 Cimetidine
+
+Concomitant administration of cimetidine and venlafaxine in a steady-state study for both drugs resulted in inhibition of first-pass metabolism of venlafaxine in 18 healthy subjects. The oral clearance of venlafaxine was reduced by about 43%, and the exposure (AUC) and maximum concentration (Cmax) of the drug were increased by about 60%. However, coadministration of cimetidine had no apparent effect on the pharmacokinetics of ODV, which is present in much greater quantity in the circulation than venlafaxine. The overall pharmacological activity of venlafaxine plus ODV is expected to increase only slightly, and no dosage adjustment should be necessary for most normal adults. However, for patients with pre-existing hypertension, and for elderly patients or patients with hepatic dysfunction, the interaction associated with the concomitant use of venlafaxine and cimetidine is not known and potentially could be more pronounced. Therefore, caution is advised with such patients.
+
+7.3 Diazepam
+
+Under steady-state conditions for venlafaxine administered at 150 mg/day, a single 10 mg dose of diazepam did not appear to affect the pharmacokinetics of either venlafaxine or ODV in 18 healthy male subjects. Venlafaxine also did not have any effect on the pharmacokinetics of diazepam or its active metabolite, desmethyldiazepam, or affect the psychomotor and psychometric effects induced by diazepam.
+
+7.4 Haloperidol
+
+Venlafaxine administered under steady-state conditions at 150 mg/day in 24 healthy subjects decreased total oral-dose clearance (Cl/F) of a single 2 mg dose of haloperidol by 42%, which resulted in a 70% increase in haloperidol AUC. In addition, the haloperidol Cmax increased 88% when coadministered with venlafaxine, but the haloperidol elimination half-life (t1/2) was unchanged. The mechanism explaining this finding is unknown.
+
+7.5 Lithium
+
+The steady-state pharmacokinetics of venlafaxine administered at 150 mg/day were not affected when a single 600 mg oral dose of lithium was administered to 12 healthy male subjects. ODV also was unaffected. Venlafaxine had no effect on the pharmacokinetics of lithium (see also CNS-Active Drugs, below).
+
+7.6 Drugs Highly Bound to Plasma Proteins
+
+Venlafaxine is not highly bound to plasma proteins; therefore, administration of venlafaxine hydrochloride extended-release tablets to a patient taking another drug that is highly protein bound should not cause increased free concentrations of the other drug.
+
+7.7 Drugs that Inhibit Cytochrome P450 Isoenzymes
+
+CYP2D6 Inhibitors: In vitro and in vivo studies indicate that venlafaxine is metabolized to its active metabolite, ODV, by CYP2D6, the isoenzyme that is responsible for the genetic polymorphism seen in the metabolism of many antidepressants. Therefore, the potential exists for a drug interaction between drugs that inhibit CYP2D6-mediated metabolism of venlafaxine, reducing the metabolism of venlafaxine to ODV, resulting in increased plasma concentrations of venlafaxine and decreased concentrations of the active metabolite. CYP2D6 inhibitors such as quinidine would be expected to do this, but the effect would be similar to what is seen in patients who are genetically CYP2D6 poor metabolizers [see Clinical Pharmacology (12.3)]. Therefore, no dosage adjustment is required when venlafaxine is coadministered with a CYP2D6 inhibitor.
+
+Ketoconazole: A pharmacokinetic study with ketoconazole 100 mg b.i.d. with a single dose of venlafaxine 50 mg in extensive metabolizers (EM; n=14) and 25 mg in poor metabolizers (PM;n=6) of CYP2D6 resulted in higher plasma concentrations of both venlafaxine and O-desmethylvenlafaxine (ODV) in most subjects following administration of ketoconazole. Venlafaxine Cmax increased by 26% in EM subjects and 48% in PM subjects. Cmax values for ODV increased by 14% and 29% in EM and PM subjects, respectively.
+
+Venlafaxine AUC increased by 21% in EM subjects and 70% in PM subjects (range in PM's -2% to 206%), and AUC values for ODV increased by 23% and 33% in EM and PM (range in PM's -38% to 105%) subjects, respectively. Combined AUC's of venlafaxine and ODV increased on average by approximately 23% in EM's and 53% in PM's, (range in PM's 4% to 134%).
+ 
+Concomitant use of CYP3A4 inhibitors and venlafaxine may increase levels of venlafaxine and ODV. Therefore, caution is advised if a patient's therapy includes a CYP3A4 inhibitor and venlafaxine concomitantly.
+
+7.8 Drugs Metabolized by Cytochrome P450 Isoenzymes
+
+CYP2D6
+
+In vitro studies indicate that venlafaxine is a relatively weak inhibitor of CYP2D6. These findings have been confirmed in a clinical drug interaction study comparing the effect of venlafaxine with that of fluoxetine on the CYP2D6-mediated metabolism of dextromethorphan to dextrorphan.
+
+Imipramine - Venlafaxine did not affect the pharmacokinetics of imipramine and 2-OH-imipramine. However, desipramine AUC, Cmax, and Cmin increased by about 35% in the presence of venlafaxine. The 2-OH-desipramine AUC's increased by at least 2.5 fold (with venlafaxine 37.5 mg q12h) and by 4.5 fold (with venlafaxine 75 mg q12h). Imipramine did not affect the pharmacokinetics of venlafaxine and ODV. The clinical significance of elevated 2-OH-desipramine levels is unknown.
+
+Metoprolol - Concomitant administration of venlafaxine (50 mg every 8 hours for 5 days) and metoprolol (100 mg every 24 hours for 5 days) to 18 healthy male subjects in a pharmacokinetic interaction study for both drugs resulted in an increase of plasma concentrations of metoprolol by approximately 30 to 40% without altering the plasma concentrations of its active metabolite, α-hydroxymetoprolol. Metoprolol did not alter the pharmacokinetic profile of venlafaxine or its active metabolite, O-desmethylvenlafaxine.
+ 
+Venlafaxine appeared to reduce the blood pressure lowering effect of metoprolol in this study. The clinical relevance of this finding for hypertensive patients is unknown. Caution should be exercised with co-administration of venlafaxine and metoprolol.
+ 
+Venlafaxine treatment has been associated with dose-related increases in blood pressure in some patients. It is recommended that patients receiving Venlafaxine hydrochloride extended-release tablets have regular monitoring of blood pressure [see Warnings and Precautions (5.5)].
+
+Risperidone - Venlafaxine administered under steady-state conditions at 150 mg/day slightly inhibited the CYP2D6-mediated metabolism of risperidone (administered as a single 1 mg oral dose) to its active metabolite, 9-hydroxyrisperidone, resulting in an approximate 32% increase in risperidone AUC. However, venlafaxine coadministration did not significantly alter the pharmacokinetic profile of the total active moiety (risperidone plus 9-hydroxyrisperidone).
+
+CYP3A4
+
+Venlafaxine did not inhibit CYP3A4 in vitro. This finding was confirmed in vivo by clinical drug interaction studies in which venlafaxine did not inhibit the metabolism of several CYP3A4 substrates, including alprazolam, diazepam, and terfenadine.
+
+Indinavir - In a study of 9 healthy volunteers, venlafaxine administered under steady-state conditions at 150 mg/day resulted in a 28% decrease in the AUC of a single 800 mg oral dose of indinavir and a 36% decrease in indinavir Cmax. Indinavir did not affect the pharmacokinetics of venlafaxine and ODV. The clinical significance of this finding is unknown.
+
+CYP1A2
+
+Venlafaxine did not inhibit CYP1A2 in vitro. This finding was confirmed in vivo by a clinical drug interaction study in which venlafaxine did not inhibit the metabolism of caffeine, a CYP1A2 substrate.
+
+CYP2C9
+ 
+Venlafaxine did not inhibit CYP2C9 in vitro. In vivo, venlafaxine 75 mg by mouth every 12 hours did not alter the pharmacokinetics of a single 500 mg dose of tolbutamide or the CYP2C9 mediated formation of 4-hydroxy-tolbutamide.
+
+CYP2C19
+
+Venlafaxine did not inhibit the metabolism of diazepam, which is partially metabolized by CYP2C19 (see Diazepam above).
+
+7.9 Monoamine Oxidase Inhibitors
+
+See Contraindications (4) and Warnings and Precautions (5.2).
+
+7.10 Other CNS-Active Drugs
+
+The risk of using venlafaxine in combination with other CNS-active drugs has not been systematically evaluated (except in the case of those CNS-active drugs noted above). Consequently, caution is advised if the concomitant administration of venlafaxine and such drugs is required.
+
+Serotonergic Drugs
+
+Based on the mechanism of action of venlafaxine hydrochloride extended-release tablets and the potential for serotonin syndrome, caution is advised when venlafaxine hydrochloride extended-release tablets are co-administered with other drugs that may affect the serotonergic neurotransmitter systems, such as triptans, SSRIs, other SNRIs, linezolid (an antibiotic which is a reversible non-selective MAOI), lithium, tramadol, or St. John's Wort [see Warnings and Precautions (5.3)]. If concomitant treatment of venlafaxine hydrochloride extended-release tablets with these drugs is clinically warranted, careful observation of the patient is advised, particularly during treatment initiation and dose increases [see Warnings and Precautions (5.3)]. The concomitant use of venlafaxine hydrochloride extended-release tablets with tryptophan supplements is not recommended [see Warnings and Precautions (5.3)].
+
+Triptans
+
+There have been rare postmarketing reports of serotonin syndrome with use of an SSRI and a triptan. If concomitant treatment of venlafaxine hydrochloride extended-release tablets with a triptan is clinically warranted, careful observation of the patient is advised, particularly during treatment initiation and dose increases [see Warnings and Precautions (5.3)].
+
+7.11 Drugs that Interfere with Hemostasis (e.g., NSAID's, Aspirin, and Warfarin)
+
+Serotonin release by platelets plays an important role in hemostasis. Epidemiological studies of the case-control and cohort design that have demonstrated an association between use of psychotropic drugs that interfere with serotonin reuptake and the occurrence of upper gastrointestinal bleeding. These studies have also shown that concurrent use of an NSAID or aspirin may potentiate this risk of bleeding. Altered anticoagulant effects, including increased bleeding, have been reported when SSRI's and SNRI's are coadministered with warfarin. Patients receiving warfarin therapy should be carefully monitored when venlafaxine hydrochloride extended-release tablets are initiated or discontinued. [See Warnings and Precautions (5.14)]
+
+7.12 Electroconvulsive Therapy
+
+There are no clinical data establishing the benefit of electroconvulsive therapy combined with venlafaxine hydrochloride extended-release tablets treatment.
+
+7.13 Postmarketing Spontaneous Drug Interaction Reports
+
+There have been reports of elevated clozapine levels that were temporally associated with adverse reactions, including seizures, following the addition of venlafaxine.
+ 
+There have been reports of increases in prothrombin time, partial thromboplastin time, or INR when venlafaxine was given to patients receiving warfarin therapy.

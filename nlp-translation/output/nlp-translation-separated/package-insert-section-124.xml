@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac124" origId="pac124">
+	<sentence id="DBMI.pac124.s0" origId="s0" text="The AUC of propafenone is increased by more than 200% by co-administration of propranolol.">
+		<entity charOffset="78-90" id="DBMI.pac124.s0.e0" origId="s0.e0" text="propranolol " type="Active ingredient"/>
+		<entity charOffset="11-23" id="DBMI.pac124.s0.e1" origId="s0.e1" text="propafenone " type="Active ingredient"/>
+		<pair e1="DBMI.pac124.s0.e0" e2="DBMI.pac124.s0.e1" id="DBMI.pac124.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="propranolol "/>
+		<pair e1="DBMI.pac124.s0.e1" e2="DBMI.pac124.s0.e0" id="DBMI.pac124.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac124.sp0" origId="sp0" text="The AUC of propafenone is increased by more than 200% by co-administration of propranolol.">
+		<entity charOffset="78-90" id="DBMI.pac124.sp0.e0" origId="sp0.e0" text="propranolol " type="Active ingredient"/>
+		<entity charOffset="11-23" id="DBMI.pac124.sp0.e1" origId="sp0.e1" text="propafenone " type="Active ingredient"/>
+		<pair e1="DBMI.pac124.sp0.e0" e2="DBMI.pac124.sp0.e1" id="DBMI.pac124.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propafenone " precipitant="propranolol "/>
+		<pair e1="DBMI.pac124.sp0.e1" e2="DBMI.pac124.sp0.e0" id="DBMI.pac124.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

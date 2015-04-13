@@ -1,0 +1,15 @@
+7 DRUG INTERACTIONS
+
+See also Contraindications (4),Clinical Pharmacology (12.3)]
+
+When co-administering NORVIR with other protease inhibitors (amprenavir, atazanavir, darunavir, fosamprenavir, saquinavir, and tipranavir), see the full prescribing information for that protease inhibitor including important information for drug interactions.
+
+7.1 Potential for NORVIR to Affect Other Drugs
+
+Ritonavir has been found to be an inhibitor of cytochrome P450 3A (CYP3A) and may increase plasma concentrations of agents that are primarily metabolized by CYP3A. Agents that are extensively metabolized by CYP3A and have high first pass metabolism appear to be the most susceptible to large increases in AUC (> 3-fold) when co- administered with ritonavir. Thus, co-administration of NORVIR with drugs highly dependent on CYP3A for clearance and for which elevated plasma concentrations are associated with serious and/or life-threatening events is contraindicated. Co-administration with other CYP3A substrates may require a dose adjustment or additional monitoring as shown in Table 5.
+
+Ritonavir also inhibits CYP2D6 to a lesser extent. Co-administration of substrates of CYP2D6 with ritonavir could result in increases (up to 2-fold) in the AUC of the other agent, possibly requiring a proportional dosage reduction. Ritonavir also appears to induce CYP3A, CYP1A2, CYP2C9, CYP2C19, and CYP2B6 as well as other enzymes, including glucuronosyl transferase.
+
+7.2 Established and Other Potentially Significant Drug Interactions
+
+Table 5 provides a list of established or potentially clinically significant drug interactions. Alteration in dose or regimen may be recommended based on drug interaction studies or predicted interaction [see Clinical Pharmacology (12.3) for magnitude of interaction].

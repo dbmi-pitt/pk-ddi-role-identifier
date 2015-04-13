@@ -1,0 +1,16 @@
+
+<document id="DBMI.pac179" origId="pac179">
+	<sentence id="DBMI.pac179.s0" origId="s0" text="Carbamazepine\n\nIsoniazid is known to slow the metabolism of carbamazepine and increase its serum levels.">
+		<entity charOffset="15-25" id="DBMI.pac179.s0.e0" origId="s0.e0" text="Isoniazid " type="Active ingredient"/>
+		<entity charOffset="60-74" id="DBMI.pac179.s0.e1" origId="s0.e1" text="carbamazepine " type="Active ingredient"/>
+		<pair e1="DBMI.pac179.s0.e0" e2="DBMI.pac179.s0.e1" id="DBMI.pac179.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="carbamazepine " precipitant="Isoniazid "/>
+		<pair e1="DBMI.pac179.s0.e1" e2="DBMI.pac179.s0.e0" id="DBMI.pac179.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac179.s1" origId="s1" text="Carbamazepine levels should be determined prior to concurrent administration with isonia-\n\nzid, signs and symptoms of carbamazepine toxicity should be monitored closely, and ap- propriate dosage adjustment of the anticonvulsant should be made3."/>
+	<sentencespan id="DBMI.pac179.sp0" origId="sp0" text="Carbamazepine\n\nIsoniazid is known to slow the metabolism of carbamazepine and increase its serum levels. Carbamazepine levels should be determined prior to concurrent administration with isonia-\n\nzid, signs and symptoms of carbamazepine toxicity should be monitored closely, and ap- propriate dosage adjustment of the anticonvulsant should be made3.">
+		<entity charOffset="15-25" id="DBMI.pac179.sp0.e0" origId="sp0.e0" text="Isoniazid " type="Active ingredient"/>
+		<entity charOffset="60-74" id="DBMI.pac179.sp0.e1" origId="sp0.e1" text="carbamazepine " type="Active ingredient"/>
+		<pair e1="DBMI.pac179.sp0.e0" e2="DBMI.pac179.sp0.e1" id="DBMI.pac179.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="carbamazepine " precipitant="Isoniazid "/>
+		<pair e1="DBMI.pac179.sp0.e1" e2="DBMI.pac179.sp0.e0" id="DBMI.pac179.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

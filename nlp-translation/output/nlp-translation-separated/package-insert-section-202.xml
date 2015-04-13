@@ -1,0 +1,22 @@
+
+<document id="DBMI.pac202" origId="pac202">
+	<sentence id="DBMI.pac202.s0" origId="s0" text="Voriconazole\n\nRepeat dose administration of oral voriconazole (400mg Q12h for 1 day, then 200mg Q12h for 4 days) increased the Cmax and AUC of (R)-methadone by 31% and 47%, respectively, in subjects receiving a methadone maintenance dose (30 to 100 mg QD).">
+		<entity charOffset="49-62" id="DBMI.pac202.s0.e0" origId="s0.e0" text="voriconazole " type="Active ingredient"/>
+		<entity charOffset="147-157" id="DBMI.pac202.s0.e1" origId="s0.e1" text="methadone " type="Active ingredient"/>
+		<pair e1="DBMI.pac202.s0.e0" e2="DBMI.pac202.s0.e1" id="DBMI.pac202.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="methadone " precipitant="voriconazole "/>
+		<pair e1="DBMI.pac202.s0.e0" e2="DBMI.pac202.s0.e1" id="DBMI.pac202.s0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="methadone " precipitant="voriconazole "/>
+		<pair e1="DBMI.pac202.s0.e1" e2="DBMI.pac202.s0.e0" id="DBMI.pac202.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac202.s1" origId="s1" text="The Cmax and AUC of (S)-methadone increased by 65% and 103%, respectively."/>
+	<sentence id="DBMI.pac202.s2" origId="s2" text="Increased plasma concentrations of methadone have been associated with toxicity including QT prolongation."/>
+	<sentence id="DBMI.pac202.s3" origId="s3" text="Frequent monitoring for adverse events and toxicity related to methadone is recommended during coadministration."/>
+	<sentence id="DBMI.pac202.s4" origId="s4" text="Dose reduction of methadone may be needed."/>
+	<sentencespan id="DBMI.pac202.sp0" origId="sp0" text="Voriconazole\n\nRepeat dose administration of oral voriconazole (400mg Q12h for 1 day, then 200mg Q12h for 4 days) increased the Cmax and AUC of (R)-methadone by 31% and 47%, respectively, in subjects receiving a methadone maintenance dose (30 to 100 mg QD). The Cmax and AUC of (S)-methadone increased by 65% and 103%, respectively. Increased plasma concentrations of methadone have been associated with toxicity including QT prolongation.">
+		<entity charOffset="49-62" id="DBMI.pac202.sp0.e0" origId="sp0.e0" text="voriconazole " type="Active ingredient"/>
+		<entity charOffset="147-157" id="DBMI.pac202.sp0.e1" origId="sp0.e1" text="methadone " type="Active ingredient"/>
+		<pair e1="DBMI.pac202.sp0.e0" e2="DBMI.pac202.sp0.e1" id="DBMI.pac202.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="methadone " precipitant="voriconazole "/>
+		<pair e1="DBMI.pac202.sp0.e0" e2="DBMI.pac202.sp0.e1" id="DBMI.pac202.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="methadone " precipitant="voriconazole "/>
+		<pair e1="DBMI.pac202.sp0.e1" e2="DBMI.pac202.sp0.e0" id="DBMI.pac202.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac202.sp1" origId="sp1" text="Frequent monitoring for adverse events and toxicity related to methadone is recommended during coadministration. Dose reduction of methadone may be needed."/>
+</document>

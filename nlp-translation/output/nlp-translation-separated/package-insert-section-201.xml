@@ -1,0 +1,16 @@
+
+<document id="DBMI.pac201" origId="pac201">
+	<sentence id="DBMI.pac201.s0" origId="s0" text="Phenytoin\n\nIn a pharmacokinetic study with patients on methadone maintenance therapy, phenytoin administration (250 mg b.i.d.initially for 1 day followed by 300 mg QD for 3 to 4 days) resulted in an approximately 50% reduction in methadone exposure and withdrawal symptoms occurred concurrently.">
+		<entity charOffset="86-96" id="DBMI.pac201.s0.e0" origId="s0.e0" text="phenytoin " type="Active ingredient"/>
+		<entity charOffset="55-65" id="DBMI.pac201.s0.e1" origId="s0.e1" text="methadone " type="Active ingredient"/>
+		<pair e1="DBMI.pac201.s0.e0" e2="DBMI.pac201.s0.e1" id="DBMI.pac201.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="methadone " precipitant="phenytoin "/>
+		<pair e1="DBMI.pac201.s0.e1" e2="DBMI.pac201.s0.e0" id="DBMI.pac201.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac201.s1" origId="s1" text="Upon discontinuation of phenytoin, the incidence of withdrawal symptoms decreased and methadone exposure increased to a level comparable to that prior to phenytoin administration."/>
+	<sentencespan id="DBMI.pac201.sp0" origId="sp0" text="Phenytoin\n\nIn a pharmacokinetic study with patients on methadone maintenance therapy, phenytoin administration (250 mg b.i.d.initially for 1 day followed by 300 mg QD for 3 to 4 days) resulted in an approximately 50% reduction in methadone exposure and withdrawal symptoms occurred concurrently. Upon discontinuation of phenytoin, the incidence of withdrawal symptoms decreased and methadone exposure increased to a level comparable to that prior to phenytoin administration.">
+		<entity charOffset="86-96" id="DBMI.pac201.sp0.e0" origId="sp0.e0" text="phenytoin " type="Active ingredient"/>
+		<entity charOffset="55-65" id="DBMI.pac201.sp0.e1" origId="sp0.e1" text="methadone " type="Active ingredient"/>
+		<pair e1="DBMI.pac201.sp0.e0" e2="DBMI.pac201.sp0.e1" id="DBMI.pac201.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="methadone " precipitant="phenytoin "/>
+		<pair e1="DBMI.pac201.sp0.e1" e2="DBMI.pac201.sp0.e0" id="DBMI.pac201.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

@@ -1,0 +1,17 @@
+
+<document id="DBMI.pac30" origId="pac30">
+	<sentence id="DBMI.pac30.s0" origId="s0" text="The AUC and Cmax of glipizide (2.5 mg single dose) were significantly increased following the administration of fluconazole in 13 normal male volunteers.">
+		<entity charOffset="112-124" id="DBMI.pac30.s0.e0" origId="s0.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="20-30" id="DBMI.pac30.s0.e1" origId="s0.e1" text="glipizide " type="Active ingredient"/>
+		<pair e1="DBMI.pac30.s0.e0" e2="DBMI.pac30.s0.e1" id="DBMI.pac30.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="glipizide " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac30.s0.e1" e2="DBMI.pac30.s0.e0" id="DBMI.pac30.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac30.s1" origId="s1" text="There was a mean  SD increase in AUC of 49%  13% (range: 27 to 73%) and an increase in Cmax of 19%  23% (range: -11 to 79%)."/>
+	<sentence id="DBMI.pac30.s2" origId="s2" text="(See PRECAUTIONS.)"/>
+	<sentencespan id="DBMI.pac30.sp0" origId="sp0" text="The AUC and Cmax of glipizide (2.5 mg single dose) were significantly increased following the administration of fluconazole in 13 normal male volunteers. There was a mean  SD increase in AUC of 49%  13% (range: 27 to 73%) and an increase in Cmax of 19%  23% (range: -11 to 79%). (See PRECAUTIONS.)">
+		<entity charOffset="112-124" id="DBMI.pac30.sp0.e0" origId="sp0.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="20-30" id="DBMI.pac30.sp0.e1" origId="sp0.e1" text="glipizide " type="Active ingredient"/>
+		<pair e1="DBMI.pac30.sp0.e0" e2="DBMI.pac30.sp0.e1" id="DBMI.pac30.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="glipizide " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac30.sp0.e1" e2="DBMI.pac30.sp0.e0" id="DBMI.pac30.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

@@ -1,0 +1,23 @@
+
+<document id="DBMI.pac26" origId="pac26">
+	<sentence id="DBMI.pac26.s0" origId="s0" text="Cyclosporine AUC and Cmax were determined before and after the administration of fluconazole 200 mg daily for 14 days in eight renal transplant patients who had been on cyclosporine therapy for at least 6 months and on a stable cyclosporine dose for at least 6 weeks.">
+		<entity charOffset="81-93" id="DBMI.pac26.s0.e0" origId="s0.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="304-317" id="DBMI.pac26.s0.e1" origId="s0.e1" text="cyclosporine " type="Active ingredient"/>
+		<pair e1="DBMI.pac26.s0.e0" e2="DBMI.pac26.s0.e1" id="DBMI.pac26.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="cyclosporine " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac26.s0.e1" e2="DBMI.pac26.s0.e0" id="DBMI.pac26.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac26.s1" origId="s1" text="There was a significant increase in cyclosporine AUC, Cmax, Cmin (24-hour concentration), and a significant reduction in apparent oral clearance following the administration of fluconazole."/>
+	<sentence id="DBMI.pac26.s2" origId="s2" text="The mean  SD increase in AUC was 92%  43% (range: 18 to 147%)."/>
+	<sentence id="DBMI.pac26.s3" origId="s3" text="The Cmax increased 60%  48% (range: -5 to 133%)."/>
+	<sentence id="DBMI.pac26.s4" origId="s4" text="The Cmin increased 157%  96% (range: 33 to 360%)."/>
+	<sentence id="DBMI.pac26.s5" origId="s5" text="The apparent oral clearance decreased 45%  15% (range: -15 to -60%)."/>
+	<sentence id="DBMI.pac26.s6" origId="s6" text="(See PRECAUTIONS.)"/>
+	<sentencespan id="DBMI.pac26.sp0" origId="sp0" text="Cyclosporine AUC and Cmax were determined before and after the administration of fluconazole 200 mg daily for 14 days in eight renal transplant patients who had been on cyclosporine therapy for at least 6 months and on a stable cyclosporine dose for at least 6 weeks. There was a significant increase in cyclosporine AUC, Cmax, Cmin (24-hour concentration), and a significant reduction in apparent oral clearance following the administration of fluconazole. The mean  SD increase in AUC was 92%  43% (range: 18 to 147%).">
+		<entity charOffset="81-93" id="DBMI.pac26.sp0.e0" origId="sp0.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="304-317" id="DBMI.pac26.sp0.e1" origId="sp0.e1" text="cyclosporine " type="Active ingredient"/>
+		<pair e1="DBMI.pac26.sp0.e0" e2="DBMI.pac26.sp0.e1" id="DBMI.pac26.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="cyclosporine " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac26.sp0.e1" e2="DBMI.pac26.sp0.e0" id="DBMI.pac26.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac26.sp1" origId="sp1" text="The Cmax increased 60%  48% (range: -5 to 133%). The Cmin increased 157%  96% (range: 33 to 360%). The apparent oral clearance decreased 45%  15% (range: -15 to -60%)."/>
+	<sentencespan id="DBMI.pac26.sp2" origId="sp2" text="(See PRECAUTIONS.)"/>
+</document>

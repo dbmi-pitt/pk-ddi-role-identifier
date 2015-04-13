@@ -1,0 +1,60 @@
+
+<document id="DBMI.pac170" origId="pac170">
+	<sentence id="DBMI.pac170.s0" origId="s0" text="7 DRUG INTERACTIONS\n\nIrbesartan\n\nNo significant drug-drug interactions have been reported with irbesartan."/>
+	<sentence id="DBMI.pac170.s1" origId="s1" text="[See Clinical Pharmacology (12.3).]"/>
+	<sentence id="DBMI.pac170.s2" origId="s2" text="Hydrochlorothiazide\n\nWhen administered concurrently the following drugs may interact with thiazide diuretics:\n\nAlcohol, Barbiturates, or Narcotics: potentiation of orthostatic hypotension may occur."/>
+	<sentence id="DBMI.pac170.s3" origId="s3" text="Antidiabetic Drugs (oral agents and insulin): dosage adjustment of the antidiabetic drug may be required."/>
+	<sentence id="DBMI.pac170.s4" origId="s4" text="Other Antihypertensive Drugs: additive effect or potentiation."/>
+	<sentence id="DBMI.pac170.s5" origId="s5" text="Cholestyramine and Colestipol Resins: absorption of hydrochlorothiazide is impaired in the presence of anionic exchange resins."/>
+	<sentence id="DBMI.pac170.s6" origId="s6" text="Single doses of either cholestyramine or colestipol resins bind the hydrochlorothiazide and reduce its absorption from the gastrointestinal tract by up to 85% and 43%, respectively.">
+		<entity charOffset="666-681" id="DBMI.pac170.s6.e0" origId="s6.e0" text="cholestyramine " type="Active ingredient"/>
+		<entity charOffset="711-731" id="DBMI.pac170.s6.e1" origId="s6.e1" text="hydrochlorothiazide " type="Active ingredient"/>
+		<entity charOffset="684-695" id="DBMI.pac170.s6.e2" origId="s6.e2" text="colestipol " type="Active ingredient"/>
+		<pair e1="DBMI.pac170.s6.e0" e2="DBMI.pac170.s6.e1" id="DBMI.pac170.s6.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="hydrochlorothiazide " precipitant="cholestyramine "/>
+		<pair e1="DBMI.pac170.s6.e0" e2="DBMI.pac170.s6.e2" id="DBMI.pac170.s6.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac170.s6.e1" e2="DBMI.pac170.s6.e0" id="DBMI.pac170.s6.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac170.s6.e1" e2="DBMI.pac170.s6.e2" id="DBMI.pac170.s6.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac170.s6.e2" e2="DBMI.pac170.s6.e0" id="DBMI.pac170.s6.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac170.s6.e2" e2="DBMI.pac170.s6.e1" id="DBMI.pac170.s6.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="hydrochlorothiazide " precipitant="colestipol "/>
+	</sentence>
+	<sentence id="DBMI.pac170.s7" origId="s7" text="Corticosteroids, ACTH: intensified electrolyte depletion, particularly hypokalemia."/>
+	<sentence id="DBMI.pac170.s8" origId="s8" text="Pressor Amines (e.g., Norepinephrine): possible decreased response to pressor amines but not sufficient to preclude their use."/>
+	<sentence id="DBMI.pac170.s9" origId="s9" text="Skeletal Muscle Relaxants, Nondepolarizing (e.g., Tubocurarine): possible increased responsiveness to the muscle relaxant."/>
+	<sentence id="DBMI.pac170.s10" origId="s10" text="Lithium: should not generally be given with diuretics."/>
+	<sentence id="DBMI.pac170.s11" origId="s11" text="Diuretic agents reduce the renal clearance of lithium and add a high risk of lithium toxicity."/>
+	<sentence id="DBMI.pac170.s12" origId="s12" text="Refer to the package insert for lithium preparations before use of such preparations with AVALIDE.">
+		<entity charOffset="1403-1411" id="DBMI.pac170.s12.e0" origId="s12.e0" text="AVALIDE " type="Drug product"/>
+		<entity charOffset="1264-1272" id="DBMI.pac170.s12.e1" origId="s12.e1" text="lithium " type="Active ingredient"/>
+		<pair e1="DBMI.pac170.s12.e0" e2="DBMI.pac170.s12.e1" id="DBMI.pac170.s12.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="lithium " precipitant="AVALIDE "/>
+		<pair e1="DBMI.pac170.s12.e1" e2="DBMI.pac170.s12.e0" id="DBMI.pac170.s12.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac170.s13" origId="s13" text="[See Warnings and Precautions (5.5).]">
+		<entity charOffset="1403-1411" id="DBMI.pac170.s13.e0" origId="s13.e0" text="AVALIDE " type="Drug product"/>
+		<entity charOffset="1264-1272" id="DBMI.pac170.s13.e1" origId="s13.e1" text="lithium " type="Active ingredient"/>
+		<pair e1="DBMI.pac170.s13.e0" e2="DBMI.pac170.s13.e1" id="DBMI.pac170.s13.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="lithium " precipitant="AVALIDE "/>
+		<pair e1="DBMI.pac170.s13.e1" e2="DBMI.pac170.s13.e0" id="DBMI.pac170.s13.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac170.s14" origId="s14" text="Non-steroidal Anti-inflammatory Drugs: in some patients, the administration of a non-steroidal anti-inflammatory agent can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing and thiazide diuretics."/>
+	<sentence id="DBMI.pac170.s15" origId="s15" text="Therefore, when AVALIDE (irbesartan-hydrochlorothiazide) Tablets and non-steroidal anti-inflammatory agents are used concomitantly, the patient should be observed closely to determine if the desired effect of the diuretic is obtained."/>
+	<sentencespan id="DBMI.pac170.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\nIrbesartan\n\nNo significant drug-drug interactions have been reported with irbesartan. [See Clinical Pharmacology (12.3).] Hydrochlorothiazide\n\nWhen administered concurrently the following drugs may interact with thiazide diuretics:\n\nAlcohol, Barbiturates, or Narcotics: potentiation of orthostatic hypotension may occur."/>
+	<sentencespan id="DBMI.pac170.sp1" origId="sp1" text="Antidiabetic Drugs (oral agents and insulin): dosage adjustment of the antidiabetic drug may be required. Other Antihypertensive Drugs: additive effect or potentiation. Cholestyramine and Colestipol Resins: absorption of hydrochlorothiazide is impaired in the presence of anionic exchange resins."/>
+	<sentencespan id="DBMI.pac170.sp2" origId="sp2" text="Single doses of either cholestyramine or colestipol resins bind the hydrochlorothiazide and reduce its absorption from the gastrointestinal tract by up to 85% and 43%, respectively. Corticosteroids, ACTH: intensified electrolyte depletion, particularly hypokalemia. Pressor Amines (e.g., Norepinephrine): possible decreased response to pressor amines but not sufficient to preclude their use.">
+		<entity charOffset="666-681" id="DBMI.pac170.sp2.e0" origId="sp2.e0" text="cholestyramine " type="Active ingredient"/>
+		<entity charOffset="711-731" id="DBMI.pac170.sp2.e1" origId="sp2.e1" text="hydrochlorothiazide " type="Active ingredient"/>
+		<entity charOffset="684-695" id="DBMI.pac170.sp2.e2" origId="sp2.e2" text="colestipol " type="Active ingredient"/>
+		<pair e1="DBMI.pac170.sp2.e0" e2="DBMI.pac170.sp2.e1" id="DBMI.pac170.sp2.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="hydrochlorothiazide " precipitant="cholestyramine "/>
+		<pair e1="DBMI.pac170.sp2.e0" e2="DBMI.pac170.sp2.e2" id="DBMI.pac170.sp2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac170.sp2.e1" e2="DBMI.pac170.sp2.e0" id="DBMI.pac170.sp2.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac170.sp2.e1" e2="DBMI.pac170.sp2.e2" id="DBMI.pac170.sp2.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac170.sp2.e2" e2="DBMI.pac170.sp2.e0" id="DBMI.pac170.sp2.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac170.sp2.e2" e2="DBMI.pac170.sp2.e1" id="DBMI.pac170.sp2.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="hydrochlorothiazide " precipitant="colestipol "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac170.sp3" origId="sp3" text="Skeletal Muscle Relaxants, Nondepolarizing (e.g., Tubocurarine): possible increased responsiveness to the muscle relaxant. Lithium: should not generally be given with diuretics. Diuretic agents reduce the renal clearance of lithium and add a high risk of lithium toxicity."/>
+	<sentencespan id="DBMI.pac170.sp4" origId="sp4" text="Refer to the package insert for lithium preparations before use of such preparations with AVALIDE. [See Warnings and Precautions (5.5).] Non-steroidal Anti-inflammatory Drugs: in some patients, the administration of a non-steroidal anti-inflammatory agent can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing and thiazide diuretics.">
+		<entity charOffset="1403-1411" id="DBMI.pac170.sp4.e0" origId="sp4.e0" text="AVALIDE " type="Drug product"/>
+		<entity charOffset="1264-1272" id="DBMI.pac170.sp4.e1" origId="sp4.e1" text="lithium " type="Active ingredient"/>
+		<pair e1="DBMI.pac170.sp4.e0" e2="DBMI.pac170.sp4.e1" id="DBMI.pac170.sp4.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="lithium " precipitant="AVALIDE "/>
+		<pair e1="DBMI.pac170.sp4.e1" e2="DBMI.pac170.sp4.e0" id="DBMI.pac170.sp4.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac170.sp5" origId="sp5" text="Therefore, when AVALIDE (irbesartan-hydrochlorothiazide) Tablets and non-steroidal anti-inflammatory agents are used concomitantly, the patient should be observed closely to determine if the desired effect of the diuretic is obtained."/>
+</document>

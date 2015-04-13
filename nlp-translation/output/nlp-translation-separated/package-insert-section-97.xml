@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac97" origId="pac97">
+	<sentence id="DBMI.pac97.s0" origId="s0" text="Coadministration of cimetidine increased the maximum plasma concentration of alprazolam by 86%, decreased clearance by 42%, and increased half-life by 16%. ">
+		<entity charOffset="20-31" id="DBMI.pac97.s0.e0" origId="s0.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="77-88" id="DBMI.pac97.s0.e1" origId="s0.e1" text="alprazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac97.s0.e0" e2="DBMI.pac97.s0.e1" id="DBMI.pac97.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac97.s0.e1" e2="DBMI.pac97.s0.e0" id="DBMI.pac97.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac97.sp0" origId="sp0" text="Coadministration of cimetidine increased the maximum plasma concentration of alprazolam by 86%, decreased clearance by 42%, and increased half-life by 16%. ">
+		<entity charOffset="20-31" id="DBMI.pac97.sp0.e0" origId="sp0.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="77-88" id="DBMI.pac97.sp0.e1" origId="sp0.e1" text="alprazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac97.sp0.e0" e2="DBMI.pac97.sp0.e1" id="DBMI.pac97.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac97.sp0.e1" e2="DBMI.pac97.sp0.e0" id="DBMI.pac97.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

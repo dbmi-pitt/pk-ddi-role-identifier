@@ -1,0 +1,39 @@
+
+<document id="DBMI.pac159" origId="pac159">
+	<sentence id="DBMI.pac159.s0" origId="s0" text="Mexiletine does not alter serum digoxin levels but magnesium-aluminum hydroxide, when used to treat gastrointestinal symptoms due to mexiletine hydrochloride USP capsules, has been reported to lower serum digoxin levels.">
+		<entity charOffset="0-11" id="DBMI.pac159.s0.e0" origId="s0.e0" text="Mexiletine " type="Active ingredient"/>
+		<entity charOffset="32-40" id="DBMI.pac159.s0.e1" origId="s0.e1" text="digoxin " type="Active ingredient"/>
+		<entity charOffset="51-61" id="DBMI.pac159.s0.e2" origId="s0.e2" text="magnesium " type="Active ingredient"/>
+		<entity charOffset="61-70" id="DBMI.pac159.s0.e3" origId="s0.e3" text="aluminum " type="Active ingredient"/>
+		<pair e1="DBMI.pac159.s0.e0" e2="DBMI.pac159.s0.e1" id="DBMI.pac159.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="digoxin " precipitant="Mexiletine "/>
+		<pair e1="DBMI.pac159.s0.e0" e2="DBMI.pac159.s0.e2" id="DBMI.pac159.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.s0.e0" e2="DBMI.pac159.s0.e3" id="DBMI.pac159.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.s0.e1" e2="DBMI.pac159.s0.e0" id="DBMI.pac159.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.s0.e1" e2="DBMI.pac159.s0.e2" id="DBMI.pac159.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.s0.e1" e2="DBMI.pac159.s0.e3" id="DBMI.pac159.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.s0.e2" e2="DBMI.pac159.s0.e0" id="DBMI.pac159.s0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.s0.e2" e2="DBMI.pac159.s0.e1" id="DBMI.pac159.s0.p7" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="digoxin " precipitant="magnesium "/>
+		<pair e1="DBMI.pac159.s0.e2" e2="DBMI.pac159.s0.e3" id="DBMI.pac159.s0.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.s0.e3" e2="DBMI.pac159.s0.e0" id="DBMI.pac159.s0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.s0.e3" e2="DBMI.pac159.s0.e1" id="DBMI.pac159.s0.p10" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="digoxin " precipitant="aluminum "/>
+		<pair e1="DBMI.pac159.s0.e3" e2="DBMI.pac159.s0.e2" id="DBMI.pac159.s0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac159.sp0" origId="sp0" text="Mexiletine does not alter serum digoxin levels but magnesium-aluminum hydroxide, when used to treat gastrointestinal symptoms due to mexiletine hydrochloride USP capsules, has been reported to lower serum digoxin levels.">
+		<entity charOffset="0-11" id="DBMI.pac159.sp0.e0" origId="sp0.e0" text="Mexiletine " type="Active ingredient"/>
+		<entity charOffset="32-40" id="DBMI.pac159.sp0.e1" origId="sp0.e1" text="digoxin " type="Active ingredient"/>
+		<entity charOffset="51-61" id="DBMI.pac159.sp0.e2" origId="sp0.e2" text="magnesium " type="Active ingredient"/>
+		<entity charOffset="61-70" id="DBMI.pac159.sp0.e3" origId="sp0.e3" text="aluminum " type="Active ingredient"/>
+		<pair e1="DBMI.pac159.sp0.e0" e2="DBMI.pac159.sp0.e1" id="DBMI.pac159.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="digoxin " precipitant="Mexiletine "/>
+		<pair e1="DBMI.pac159.sp0.e0" e2="DBMI.pac159.sp0.e2" id="DBMI.pac159.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.sp0.e0" e2="DBMI.pac159.sp0.e3" id="DBMI.pac159.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.sp0.e1" e2="DBMI.pac159.sp0.e0" id="DBMI.pac159.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.sp0.e1" e2="DBMI.pac159.sp0.e2" id="DBMI.pac159.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.sp0.e1" e2="DBMI.pac159.sp0.e3" id="DBMI.pac159.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.sp0.e2" e2="DBMI.pac159.sp0.e0" id="DBMI.pac159.sp0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.sp0.e2" e2="DBMI.pac159.sp0.e1" id="DBMI.pac159.sp0.p7" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="digoxin " precipitant="magnesium "/>
+		<pair e1="DBMI.pac159.sp0.e2" e2="DBMI.pac159.sp0.e3" id="DBMI.pac159.sp0.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.sp0.e3" e2="DBMI.pac159.sp0.e0" id="DBMI.pac159.sp0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac159.sp0.e3" e2="DBMI.pac159.sp0.e1" id="DBMI.pac159.sp0.p10" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="digoxin " precipitant="aluminum "/>
+		<pair e1="DBMI.pac159.sp0.e3" e2="DBMI.pac159.sp0.e2" id="DBMI.pac159.sp0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

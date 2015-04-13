@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac77" origId="pac77">
+	<sentence id="DBMI.pac77.s0" origId="s0" text="In subjects who had received 21 days of 40 mg/day citalopram, combined administration of citalopram and digoxin (single dose of 1 mg) did not significantly affect the pharmacokinetics of either citalopram or digoxin.">
+		<entity charOffset="104-112" id="DBMI.pac77.s0.e0" origId="s0.e0" text="digoxin " type="Active ingredient"/>
+		<entity charOffset="89-100" id="DBMI.pac77.s0.e1" origId="s0.e1" text="citalopram " type="Active ingredient"/>
+		<pair e1="DBMI.pac77.s0.e0" e2="DBMI.pac77.s0.e1" id="DBMI.pac77.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="citalopram " precipitant="digoxin "/>
+		<pair e1="DBMI.pac77.s0.e1" e2="DBMI.pac77.s0.e0" id="DBMI.pac77.s0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="digoxin " precipitant="citalopram "/>
+	</sentence>
+	<sentencespan id="DBMI.pac77.sp0" origId="sp0" text="In subjects who had received 21 days of 40 mg/day citalopram, combined administration of citalopram and digoxin (single dose of 1 mg) did not significantly affect the pharmacokinetics of either citalopram or digoxin.">
+		<entity charOffset="104-112" id="DBMI.pac77.sp0.e0" origId="sp0.e0" text="digoxin " type="Active ingredient"/>
+		<entity charOffset="89-100" id="DBMI.pac77.sp0.e1" origId="sp0.e1" text="citalopram " type="Active ingredient"/>
+		<pair e1="DBMI.pac77.sp0.e0" e2="DBMI.pac77.sp0.e1" id="DBMI.pac77.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="citalopram " precipitant="digoxin "/>
+		<pair e1="DBMI.pac77.sp0.e1" e2="DBMI.pac77.sp0.e0" id="DBMI.pac77.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="digoxin " precipitant="citalopram "/>
+	</sentencespan>
+</document>

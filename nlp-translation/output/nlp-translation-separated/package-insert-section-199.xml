@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac199" origId="pac199">
+	<sentence id="DBMI.pac199.s0" origId="s0" text="Zidovudine\n\nExperimental evidence demonstrated that methadone increased the area under the concentration-time curve (AUC) of zidovudine which could result in toxic effects.">
+		<entity charOffset="52-62" id="DBMI.pac199.s0.e0" origId="s0.e0" text="methadone " type="Active ingredient"/>
+		<entity charOffset="125-136" id="DBMI.pac199.s0.e1" origId="s0.e1" text="zidovudine " type="Active ingredient"/>
+		<pair e1="DBMI.pac199.s0.e0" e2="DBMI.pac199.s0.e1" id="DBMI.pac199.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="zidovudine " precipitant="methadone "/>
+		<pair e1="DBMI.pac199.s0.e1" e2="DBMI.pac199.s0.e0" id="DBMI.pac199.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac199.sp0" origId="sp0" text="Zidovudine\n\nExperimental evidence demonstrated that methadone increased the area under the concentration-time curve (AUC) of zidovudine which could result in toxic effects.">
+		<entity charOffset="52-62" id="DBMI.pac199.sp0.e0" origId="sp0.e0" text="methadone " type="Active ingredient"/>
+		<entity charOffset="125-136" id="DBMI.pac199.sp0.e1" origId="sp0.e1" text="zidovudine " type="Active ingredient"/>
+		<pair e1="DBMI.pac199.sp0.e0" e2="DBMI.pac199.sp0.e1" id="DBMI.pac199.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="zidovudine " precipitant="methadone "/>
+		<pair e1="DBMI.pac199.sp0.e1" e2="DBMI.pac199.sp0.e0" id="DBMI.pac199.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

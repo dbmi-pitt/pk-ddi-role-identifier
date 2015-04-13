@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac192" origId="pac192">
+	<sentence id="DBMI.pac192.s0" origId="s0" text="Erythromycin:\n\nErythromycin (500 mg, single dose) did not affect steady-state plasma levels of fluvastatin (40 mg daily).">
+		<entity charOffset="15-28" id="DBMI.pac192.s0.e0" origId="s0.e0" text="Erythromycin " type="Active ingredient"/>
+		<entity charOffset="95-107" id="DBMI.pac192.s0.e1" origId="s0.e1" text="fluvastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac192.s0.e0" e2="DBMI.pac192.s0.e1" id="DBMI.pac192.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluvastatin " precipitant="Erythromycin "/>
+		<pair e1="DBMI.pac192.s0.e1" e2="DBMI.pac192.s0.e0" id="DBMI.pac192.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac192.sp0" origId="sp0" text="Erythromycin:\n\nErythromycin (500 mg, single dose) did not affect steady-state plasma levels of fluvastatin (40 mg daily).">
+		<entity charOffset="15-28" id="DBMI.pac192.sp0.e0" origId="sp0.e0" text="Erythromycin " type="Active ingredient"/>
+		<entity charOffset="95-107" id="DBMI.pac192.sp0.e1" origId="sp0.e1" text="fluvastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac192.sp0.e0" e2="DBMI.pac192.sp0.e1" id="DBMI.pac192.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluvastatin " precipitant="Erythromycin "/>
+		<pair e1="DBMI.pac192.sp0.e1" e2="DBMI.pac192.sp0.e0" id="DBMI.pac192.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>
