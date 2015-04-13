@@ -1,0 +1,41 @@
+
+<document id="DBMI.pac56" origId="pac56">
+	<sentence id="DBMI.pac56.s0" origId="s0" text="Zonisamide had no appreciable effect on the steady-state plasma concentrations of phenytoin, carbamazepine, or valproate during clinical trials.">
+		<entity charOffset="0-11" id="DBMI.pac56.s0.e0" origId="s0.e0" text="Zonisamide " type="Active ingredient"/>
+		<entity charOffset="82-92" id="DBMI.pac56.s0.e1" origId="s0.e1" text="phenytoin " type="Active ingredient"/>
+		<entity charOffset="93-107" id="DBMI.pac56.s0.e2" origId="s0.e2" text="carbamazepine " type="Active ingredient"/>
+		<entity charOffset="111-121" id="DBMI.pac56.s0.e3" origId="s0.e3" text="valproate " type="Active ingredient"/>
+		<pair e1="DBMI.pac56.s0.e0" e2="DBMI.pac56.s0.e1" id="DBMI.pac56.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="phenytoin " precipitant="Zonisamide "/>
+		<pair e1="DBMI.pac56.s0.e0" e2="DBMI.pac56.s0.e2" id="DBMI.pac56.s0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="carbamazepine " precipitant="Zonisamide "/>
+		<pair e1="DBMI.pac56.s0.e0" e2="DBMI.pac56.s0.e3" id="DBMI.pac56.s0.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="valproate " precipitant="Zonisamide "/>
+		<pair e1="DBMI.pac56.s0.e1" e2="DBMI.pac56.s0.e0" id="DBMI.pac56.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.s0.e1" e2="DBMI.pac56.s0.e2" id="DBMI.pac56.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.s0.e1" e2="DBMI.pac56.s0.e3" id="DBMI.pac56.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.s0.e2" e2="DBMI.pac56.s0.e0" id="DBMI.pac56.s0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.s0.e2" e2="DBMI.pac56.s0.e1" id="DBMI.pac56.s0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.s0.e2" e2="DBMI.pac56.s0.e3" id="DBMI.pac56.s0.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.s0.e3" e2="DBMI.pac56.s0.e0" id="DBMI.pac56.s0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.s0.e3" e2="DBMI.pac56.s0.e1" id="DBMI.pac56.s0.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.s0.e3" e2="DBMI.pac56.s0.e2" id="DBMI.pac56.s0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac56.s1" origId="s1" text="Zonisamide did not inhibit mixed-function liver oxidase enzymes (cytochrome P450), as measured in human liver microsomal preparations, in vitro."/>
+	<sentence id="DBMI.pac56.s2" origId="s2" text="Zonisamide is not expected to interfere with the metabolism of other drugs that are metabolized by cytochrome P450 isozymes."/>
+	<sentencespan id="DBMI.pac56.sp0" origId="sp0" text="Zonisamide had no appreciable effect on the steady-state plasma concentrations of phenytoin, carbamazepine, or valproate during clinical trials. Zonisamide did not inhibit mixed-function liver oxidase enzymes (cytochrome P450), as measured in human liver microsomal preparations, in vitro. Zonisamide is not expected to interfere with the metabolism of other drugs that are metabolized by cytochrome P450 isozymes.">
+		<entity charOffset="0-11" id="DBMI.pac56.sp0.e0" origId="sp0.e0" text="Zonisamide " type="Active ingredient"/>
+		<entity charOffset="82-92" id="DBMI.pac56.sp0.e1" origId="sp0.e1" text="phenytoin " type="Active ingredient"/>
+		<entity charOffset="93-107" id="DBMI.pac56.sp0.e2" origId="sp0.e2" text="carbamazepine " type="Active ingredient"/>
+		<entity charOffset="111-121" id="DBMI.pac56.sp0.e3" origId="sp0.e3" text="valproate " type="Active ingredient"/>
+		<pair e1="DBMI.pac56.sp0.e0" e2="DBMI.pac56.sp0.e1" id="DBMI.pac56.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="phenytoin " precipitant="Zonisamide "/>
+		<pair e1="DBMI.pac56.sp0.e0" e2="DBMI.pac56.sp0.e2" id="DBMI.pac56.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="carbamazepine " precipitant="Zonisamide "/>
+		<pair e1="DBMI.pac56.sp0.e0" e2="DBMI.pac56.sp0.e3" id="DBMI.pac56.sp0.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="valproate " precipitant="Zonisamide "/>
+		<pair e1="DBMI.pac56.sp0.e1" e2="DBMI.pac56.sp0.e0" id="DBMI.pac56.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.sp0.e1" e2="DBMI.pac56.sp0.e2" id="DBMI.pac56.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.sp0.e1" e2="DBMI.pac56.sp0.e3" id="DBMI.pac56.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.sp0.e2" e2="DBMI.pac56.sp0.e0" id="DBMI.pac56.sp0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.sp0.e2" e2="DBMI.pac56.sp0.e1" id="DBMI.pac56.sp0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.sp0.e2" e2="DBMI.pac56.sp0.e3" id="DBMI.pac56.sp0.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.sp0.e3" e2="DBMI.pac56.sp0.e0" id="DBMI.pac56.sp0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.sp0.e3" e2="DBMI.pac56.sp0.e1" id="DBMI.pac56.sp0.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac56.sp0.e3" e2="DBMI.pac56.sp0.e2" id="DBMI.pac56.sp0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

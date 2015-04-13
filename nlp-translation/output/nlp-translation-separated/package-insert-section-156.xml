@@ -1,0 +1,471 @@
+
+<document id="DBMI.pac156" origId="pac156">
+	<sentence id="DBMI.pac156.s0" origId="s0" text="7  DRUG INTERACTIONS\n\n7.1 Effects of Other Drugs on Aliskiren\n\nBased on in vitro studies, aliskiren is metabolized by CYP 3A4."/>
+	<sentence id="DBMI.pac156.s1" origId="s1" text="Irbesartan: Coadministration of irbesartan reduced aliskiren Cmax up to 50% after multiple dosing.">
+		<entity charOffset="160-171" id="DBMI.pac156.s1.e0" origId="s1.e0" text="irbesartan " type="Active ingredient"/>
+		<entity charOffset="179-189" id="DBMI.pac156.s1.e1" origId="s1.e1" text="aliskiren " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.s1.e0" e2="DBMI.pac156.s1.e1" id="DBMI.pac156.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="aliskiren " precipitant="irbesartan "/>
+		<pair e1="DBMI.pac156.s1.e1" e2="DBMI.pac156.s1.e0" id="DBMI.pac156.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac156.s2" origId="s2" text="P-glycoprotein Effects: Pgp (MDR1/Mdr1a/1b) was found to be the major efflux system involved in absorption and disposition of aliskiren in preclinical studies."/>
+	<sentence id="DBMI.pac156.s3" origId="s3" text="The potential for drug interactions at the Pgp site will likely depend on the degree of inhibition of this transporter."/>
+	<sentence id="DBMI.pac156.s4" origId="s4" text="Atorvastatin: Coadministration of atorvastatin resulted in about a 50% increase in aliskiren Cmax and AUC after multiple dosing.">
+		<entity charOffset="543-556" id="DBMI.pac156.s4.e0" origId="s4.e0" text="atorvastatin " type="Active ingredient"/>
+		<entity charOffset="592-602" id="DBMI.pac156.s4.e1" origId="s4.e1" text="aliskiren " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.s4.e0" e2="DBMI.pac156.s4.e1" id="DBMI.pac156.s4.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="aliskiren " precipitant="atorvastatin "/>
+		<pair e1="DBMI.pac156.s4.e1" e2="DBMI.pac156.s4.e0" id="DBMI.pac156.s4.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac156.s5" origId="s5" text="Ketoconazole: Coadministration of 200 mg twice-daily ketoconazole with aliskiren resulted in an approximate 80% increase in plasma levels of aliskiren.">
+		<entity charOffset="692-705" id="DBMI.pac156.s5.e0" origId="s5.e0" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="710-720" id="DBMI.pac156.s5.e1" origId="s5.e1" text="aliskiren " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.s5.e0" e2="DBMI.pac156.s5.e1" id="DBMI.pac156.s5.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="aliskiren " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac156.s5.e1" e2="DBMI.pac156.s5.e0" id="DBMI.pac156.s5.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac156.s6" origId="s6" text="A 400-mg once-daily dose was not studied but would be expected to increase aliskiren blood levels further."/>
+	<sentence id="DBMI.pac156.s7" origId="s7" text="Itraconazole: Coadministration of 100 mg itraconazole with 150 mg aliskiren resulted in approximately 5.8-fold increase in Cmax and 6.5-fold increase in AUC of aliskiren.">
+		<entity charOffset="940-953" id="DBMI.pac156.s7.e0" origId="s7.e0" text="itraconazole " type="Active ingredient"/>
+		<entity charOffset="965-975" id="DBMI.pac156.s7.e1" origId="s7.e1" text="aliskiren " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.s7.e0" e2="DBMI.pac156.s7.e1" id="DBMI.pac156.s7.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="aliskiren " precipitant="itraconazole "/>
+		<pair e1="DBMI.pac156.s7.e1" e2="DBMI.pac156.s7.e0" id="DBMI.pac156.s7.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac156.s8" origId="s8" text="Concomitant use of aliskiren with itraconazole is not recommended."/>
+	<sentence id="DBMI.pac156.s9" origId="s9" text="Cyclosporine: Coadministration of 200 mg and 600 mg cyclosporine with 75 mg aliskiren resulted in an approximately 2.5-fold increase in Cmax and 5-fold increase in AUC of aliskiren.">
+		<entity charOffset="1190-1203" id="DBMI.pac156.s9.e0" origId="s9.e0" text="cyclosporine " type="Active ingredient"/>
+		<entity charOffset="1214-1224" id="DBMI.pac156.s9.e1" origId="s9.e1" text="aliskiren " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.s9.e0" e2="DBMI.pac156.s9.e1" id="DBMI.pac156.s9.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="aliskiren " precipitant="cyclosporine "/>
+		<pair e1="DBMI.pac156.s9.e1" e2="DBMI.pac156.s9.e0" id="DBMI.pac156.s9.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac156.s10" origId="s10" text="Concomitant use of aliskiren with cyclosporine is not recommended."/>
+	<sentence id="DBMI.pac156.s11" origId="s11" text="Verapamil: Coadministration of 240 mg of verapamil with 300 mg aliskiren resulted in an approximately 2-fold increase in Cmax and AUC of aliskiren.">
+		<entity charOffset="1430-1440" id="DBMI.pac156.s11.e0" origId="s11.e0" text="verapamil " type="Active ingredient"/>
+		<entity charOffset="1452-1462" id="DBMI.pac156.s11.e1" origId="s11.e1" text="aliskiren " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.s11.e0" e2="DBMI.pac156.s11.e1" id="DBMI.pac156.s11.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="aliskiren " precipitant="verapamil "/>
+		<pair e1="DBMI.pac156.s11.e1" e2="DBMI.pac156.s11.e0" id="DBMI.pac156.s11.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac156.s12" origId="s12" text="However, no dosage adjustment is necessary."/>
+	<sentence id="DBMI.pac156.s13" origId="s13" text="Drugs with no clinically significant effects: Coadministration of lovastatin, atenolol, warfarin, furosemide, digoxin, celecoxib, hydrochlorothiazide, ramipril, valsartan, metformin and amlodipine did not result in clinically significant increases in aliskiren exposure.">
+		<entity charOffset="1648-1659" id="DBMI.pac156.s13.e0" origId="s13.e0" text="lovastatin " type="Active ingredient"/>
+		<entity charOffset="1833-1843" id="DBMI.pac156.s13.e1" origId="s13.e1" text="aliskiren " type="Active ingredient"/>
+		<entity charOffset="1660-1669" id="DBMI.pac156.s13.e2" origId="s13.e2" text="atenolol " type="Active ingredient"/>
+		<entity charOffset="1670-1679" id="DBMI.pac156.s13.e3" origId="s13.e3" text="warfarin " type="Active ingredient"/>
+		<entity charOffset="1680-1691" id="DBMI.pac156.s13.e4" origId="s13.e4" text="furosemide " type="Active ingredient"/>
+		<entity charOffset="1692-1700" id="DBMI.pac156.s13.e5" origId="s13.e5" text="digoxin " type="Active ingredient"/>
+		<entity charOffset="1701-1711" id="DBMI.pac156.s13.e6" origId="s13.e6" text="celecoxib " type="Active ingredient"/>
+		<entity charOffset="1712-1732" id="DBMI.pac156.s13.e7" origId="s13.e7" text="hydrochlorothiazide " type="Active ingredient"/>
+		<entity charOffset="1733-1742" id="DBMI.pac156.s13.e8" origId="s13.e8" text="ramipril " type="Active ingredient"/>
+		<entity charOffset="1743-1753" id="DBMI.pac156.s13.e9" origId="s13.e9" text="valsartan " type="Active ingredient"/>
+		<entity charOffset="1754-1764" id="DBMI.pac156.s13.e10" origId="s13.e10" text="metformin " type="Active ingredient"/>
+		<entity charOffset="1768-1779" id="DBMI.pac156.s13.e11" origId="s13.e11" text="amlodipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.s13.e0" e2="DBMI.pac156.s13.e1" id="DBMI.pac156.s13.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="lovastatin "/>
+		<pair e1="DBMI.pac156.s13.e0" e2="DBMI.pac156.s13.e2" id="DBMI.pac156.s13.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e0" e2="DBMI.pac156.s13.e3" id="DBMI.pac156.s13.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e0" e2="DBMI.pac156.s13.e4" id="DBMI.pac156.s13.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e0" e2="DBMI.pac156.s13.e5" id="DBMI.pac156.s13.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e0" e2="DBMI.pac156.s13.e6" id="DBMI.pac156.s13.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e0" e2="DBMI.pac156.s13.e7" id="DBMI.pac156.s13.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e0" e2="DBMI.pac156.s13.e8" id="DBMI.pac156.s13.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e0" e2="DBMI.pac156.s13.e9" id="DBMI.pac156.s13.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e0" e2="DBMI.pac156.s13.e10" id="DBMI.pac156.s13.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e0" e2="DBMI.pac156.s13.e11" id="DBMI.pac156.s13.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e1" e2="DBMI.pac156.s13.e0" id="DBMI.pac156.s13.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e1" e2="DBMI.pac156.s13.e2" id="DBMI.pac156.s13.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e1" e2="DBMI.pac156.s13.e3" id="DBMI.pac156.s13.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e1" e2="DBMI.pac156.s13.e4" id="DBMI.pac156.s13.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e1" e2="DBMI.pac156.s13.e5" id="DBMI.pac156.s13.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e1" e2="DBMI.pac156.s13.e6" id="DBMI.pac156.s13.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e1" e2="DBMI.pac156.s13.e7" id="DBMI.pac156.s13.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e1" e2="DBMI.pac156.s13.e8" id="DBMI.pac156.s13.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e1" e2="DBMI.pac156.s13.e9" id="DBMI.pac156.s13.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e1" e2="DBMI.pac156.s13.e10" id="DBMI.pac156.s13.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e1" e2="DBMI.pac156.s13.e11" id="DBMI.pac156.s13.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e2" e2="DBMI.pac156.s13.e0" id="DBMI.pac156.s13.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e2" e2="DBMI.pac156.s13.e1" id="DBMI.pac156.s13.p23" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="atenolol "/>
+		<pair e1="DBMI.pac156.s13.e2" e2="DBMI.pac156.s13.e3" id="DBMI.pac156.s13.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e2" e2="DBMI.pac156.s13.e4" id="DBMI.pac156.s13.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e2" e2="DBMI.pac156.s13.e5" id="DBMI.pac156.s13.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e2" e2="DBMI.pac156.s13.e6" id="DBMI.pac156.s13.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e2" e2="DBMI.pac156.s13.e7" id="DBMI.pac156.s13.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e2" e2="DBMI.pac156.s13.e8" id="DBMI.pac156.s13.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e2" e2="DBMI.pac156.s13.e9" id="DBMI.pac156.s13.p30" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e2" e2="DBMI.pac156.s13.e10" id="DBMI.pac156.s13.p31" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e2" e2="DBMI.pac156.s13.e11" id="DBMI.pac156.s13.p32" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e3" e2="DBMI.pac156.s13.e0" id="DBMI.pac156.s13.p33" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e3" e2="DBMI.pac156.s13.e1" id="DBMI.pac156.s13.p34" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="warfarin "/>
+		<pair e1="DBMI.pac156.s13.e3" e2="DBMI.pac156.s13.e2" id="DBMI.pac156.s13.p35" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e3" e2="DBMI.pac156.s13.e4" id="DBMI.pac156.s13.p36" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e3" e2="DBMI.pac156.s13.e5" id="DBMI.pac156.s13.p37" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e3" e2="DBMI.pac156.s13.e6" id="DBMI.pac156.s13.p38" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e3" e2="DBMI.pac156.s13.e7" id="DBMI.pac156.s13.p39" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e3" e2="DBMI.pac156.s13.e8" id="DBMI.pac156.s13.p40" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e3" e2="DBMI.pac156.s13.e9" id="DBMI.pac156.s13.p41" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e3" e2="DBMI.pac156.s13.e10" id="DBMI.pac156.s13.p42" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e3" e2="DBMI.pac156.s13.e11" id="DBMI.pac156.s13.p43" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e4" e2="DBMI.pac156.s13.e0" id="DBMI.pac156.s13.p44" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e4" e2="DBMI.pac156.s13.e1" id="DBMI.pac156.s13.p45" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="furosemide "/>
+		<pair e1="DBMI.pac156.s13.e4" e2="DBMI.pac156.s13.e2" id="DBMI.pac156.s13.p46" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e4" e2="DBMI.pac156.s13.e3" id="DBMI.pac156.s13.p47" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e4" e2="DBMI.pac156.s13.e5" id="DBMI.pac156.s13.p48" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e4" e2="DBMI.pac156.s13.e6" id="DBMI.pac156.s13.p49" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e4" e2="DBMI.pac156.s13.e7" id="DBMI.pac156.s13.p50" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e4" e2="DBMI.pac156.s13.e8" id="DBMI.pac156.s13.p51" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e4" e2="DBMI.pac156.s13.e9" id="DBMI.pac156.s13.p52" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e4" e2="DBMI.pac156.s13.e10" id="DBMI.pac156.s13.p53" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e4" e2="DBMI.pac156.s13.e11" id="DBMI.pac156.s13.p54" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e5" e2="DBMI.pac156.s13.e0" id="DBMI.pac156.s13.p55" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e5" e2="DBMI.pac156.s13.e1" id="DBMI.pac156.s13.p56" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="digoxin "/>
+		<pair e1="DBMI.pac156.s13.e5" e2="DBMI.pac156.s13.e2" id="DBMI.pac156.s13.p57" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e5" e2="DBMI.pac156.s13.e3" id="DBMI.pac156.s13.p58" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e5" e2="DBMI.pac156.s13.e4" id="DBMI.pac156.s13.p59" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e5" e2="DBMI.pac156.s13.e6" id="DBMI.pac156.s13.p60" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e5" e2="DBMI.pac156.s13.e7" id="DBMI.pac156.s13.p61" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e5" e2="DBMI.pac156.s13.e8" id="DBMI.pac156.s13.p62" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e5" e2="DBMI.pac156.s13.e9" id="DBMI.pac156.s13.p63" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e5" e2="DBMI.pac156.s13.e10" id="DBMI.pac156.s13.p64" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e5" e2="DBMI.pac156.s13.e11" id="DBMI.pac156.s13.p65" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e6" e2="DBMI.pac156.s13.e0" id="DBMI.pac156.s13.p66" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e6" e2="DBMI.pac156.s13.e1" id="DBMI.pac156.s13.p67" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="celecoxib "/>
+		<pair e1="DBMI.pac156.s13.e6" e2="DBMI.pac156.s13.e2" id="DBMI.pac156.s13.p68" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e6" e2="DBMI.pac156.s13.e3" id="DBMI.pac156.s13.p69" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e6" e2="DBMI.pac156.s13.e4" id="DBMI.pac156.s13.p70" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e6" e2="DBMI.pac156.s13.e5" id="DBMI.pac156.s13.p71" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e6" e2="DBMI.pac156.s13.e7" id="DBMI.pac156.s13.p72" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e6" e2="DBMI.pac156.s13.e8" id="DBMI.pac156.s13.p73" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e6" e2="DBMI.pac156.s13.e9" id="DBMI.pac156.s13.p74" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e6" e2="DBMI.pac156.s13.e10" id="DBMI.pac156.s13.p75" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e6" e2="DBMI.pac156.s13.e11" id="DBMI.pac156.s13.p76" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e7" e2="DBMI.pac156.s13.e0" id="DBMI.pac156.s13.p77" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e7" e2="DBMI.pac156.s13.e1" id="DBMI.pac156.s13.p78" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="hydrochlorothiazide "/>
+		<pair e1="DBMI.pac156.s13.e7" e2="DBMI.pac156.s13.e2" id="DBMI.pac156.s13.p79" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e7" e2="DBMI.pac156.s13.e3" id="DBMI.pac156.s13.p80" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e7" e2="DBMI.pac156.s13.e4" id="DBMI.pac156.s13.p81" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e7" e2="DBMI.pac156.s13.e5" id="DBMI.pac156.s13.p82" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e7" e2="DBMI.pac156.s13.e6" id="DBMI.pac156.s13.p83" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e7" e2="DBMI.pac156.s13.e8" id="DBMI.pac156.s13.p84" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e7" e2="DBMI.pac156.s13.e9" id="DBMI.pac156.s13.p85" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e7" e2="DBMI.pac156.s13.e10" id="DBMI.pac156.s13.p86" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e7" e2="DBMI.pac156.s13.e11" id="DBMI.pac156.s13.p87" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e8" e2="DBMI.pac156.s13.e0" id="DBMI.pac156.s13.p88" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e8" e2="DBMI.pac156.s13.e1" id="DBMI.pac156.s13.p89" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="ramipril "/>
+		<pair e1="DBMI.pac156.s13.e8" e2="DBMI.pac156.s13.e2" id="DBMI.pac156.s13.p90" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e8" e2="DBMI.pac156.s13.e3" id="DBMI.pac156.s13.p91" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e8" e2="DBMI.pac156.s13.e4" id="DBMI.pac156.s13.p92" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e8" e2="DBMI.pac156.s13.e5" id="DBMI.pac156.s13.p93" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e8" e2="DBMI.pac156.s13.e6" id="DBMI.pac156.s13.p94" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e8" e2="DBMI.pac156.s13.e7" id="DBMI.pac156.s13.p95" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e8" e2="DBMI.pac156.s13.e9" id="DBMI.pac156.s13.p96" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e8" e2="DBMI.pac156.s13.e10" id="DBMI.pac156.s13.p97" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e8" e2="DBMI.pac156.s13.e11" id="DBMI.pac156.s13.p98" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e9" e2="DBMI.pac156.s13.e0" id="DBMI.pac156.s13.p99" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e9" e2="DBMI.pac156.s13.e1" id="DBMI.pac156.s13.p100" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="valsartan "/>
+		<pair e1="DBMI.pac156.s13.e9" e2="DBMI.pac156.s13.e2" id="DBMI.pac156.s13.p101" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e9" e2="DBMI.pac156.s13.e3" id="DBMI.pac156.s13.p102" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e9" e2="DBMI.pac156.s13.e4" id="DBMI.pac156.s13.p103" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e9" e2="DBMI.pac156.s13.e5" id="DBMI.pac156.s13.p104" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e9" e2="DBMI.pac156.s13.e6" id="DBMI.pac156.s13.p105" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e9" e2="DBMI.pac156.s13.e7" id="DBMI.pac156.s13.p106" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e9" e2="DBMI.pac156.s13.e8" id="DBMI.pac156.s13.p107" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e9" e2="DBMI.pac156.s13.e10" id="DBMI.pac156.s13.p108" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e9" e2="DBMI.pac156.s13.e11" id="DBMI.pac156.s13.p109" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e10" e2="DBMI.pac156.s13.e0" id="DBMI.pac156.s13.p110" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e10" e2="DBMI.pac156.s13.e1" id="DBMI.pac156.s13.p111" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="metformin "/>
+		<pair e1="DBMI.pac156.s13.e10" e2="DBMI.pac156.s13.e2" id="DBMI.pac156.s13.p112" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e10" e2="DBMI.pac156.s13.e3" id="DBMI.pac156.s13.p113" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e10" e2="DBMI.pac156.s13.e4" id="DBMI.pac156.s13.p114" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e10" e2="DBMI.pac156.s13.e5" id="DBMI.pac156.s13.p115" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e10" e2="DBMI.pac156.s13.e6" id="DBMI.pac156.s13.p116" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e10" e2="DBMI.pac156.s13.e7" id="DBMI.pac156.s13.p117" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e10" e2="DBMI.pac156.s13.e8" id="DBMI.pac156.s13.p118" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e10" e2="DBMI.pac156.s13.e9" id="DBMI.pac156.s13.p119" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e10" e2="DBMI.pac156.s13.e11" id="DBMI.pac156.s13.p120" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e11" e2="DBMI.pac156.s13.e0" id="DBMI.pac156.s13.p121" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e11" e2="DBMI.pac156.s13.e1" id="DBMI.pac156.s13.p122" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="amlodipine "/>
+		<pair e1="DBMI.pac156.s13.e11" e2="DBMI.pac156.s13.e2" id="DBMI.pac156.s13.p123" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e11" e2="DBMI.pac156.s13.e3" id="DBMI.pac156.s13.p124" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e11" e2="DBMI.pac156.s13.e4" id="DBMI.pac156.s13.p125" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e11" e2="DBMI.pac156.s13.e5" id="DBMI.pac156.s13.p126" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e11" e2="DBMI.pac156.s13.e6" id="DBMI.pac156.s13.p127" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e11" e2="DBMI.pac156.s13.e7" id="DBMI.pac156.s13.p128" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e11" e2="DBMI.pac156.s13.e8" id="DBMI.pac156.s13.p129" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e11" e2="DBMI.pac156.s13.e9" id="DBMI.pac156.s13.p130" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s13.e11" e2="DBMI.pac156.s13.e10" id="DBMI.pac156.s13.p131" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac156.s14" origId="s14" text="7.2 Effects of Aliskiren on Other Drugs\n\nAliskiren does not inhibit the CYP450 isoenzymes (CYP1A2, 2C8, 2C9, 2C19, 2D6, 2E1, and 3A) or induce CYP 3A4."/>
+	<sentence id="DBMI.pac156.s15" origId="s15" text="Furosemide: When aliskiren was coadministered with furosemide, the AUC and Cmax of furosemide were reduced by about 30% and 50%, respectively.">
+		<entity charOffset="2024-2034" id="DBMI.pac156.s15.e0" origId="s15.e0" text="aliskiren " type="Active ingredient"/>
+		<entity charOffset="2058-2069" id="DBMI.pac156.s15.e1" origId="s15.e1" text="furosemide " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.s15.e0" e2="DBMI.pac156.s15.e1" id="DBMI.pac156.s15.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="furosemide " precipitant="aliskiren "/>
+		<pair e1="DBMI.pac156.s15.e1" e2="DBMI.pac156.s15.e0" id="DBMI.pac156.s15.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac156.s16" origId="s16" text="Patients receiving furosemide could find its effect diminished after starting aliskiren."/>
+	<sentence id="DBMI.pac156.s17" origId="s17" text="Drugs with no clinically significant effects: Coadministration of aliskiren did not significantly affect the pharmacokinetics of lovastatin, digoxin, valsartan, amlodipine, metformin, celecoxib, atenolol, atorvastatin, ramipril or hydrochlorothiazide.">
+		<entity charOffset="2306-2316" id="DBMI.pac156.s17.e0" origId="s17.e0" text="aliskiren " type="Active ingredient"/>
+		<entity charOffset="2459-2468" id="DBMI.pac156.s17.e1" origId="s17.e1" text="ramipril " type="Active ingredient"/>
+		<entity charOffset="2471-2491" id="DBMI.pac156.s17.e2" origId="s17.e2" text="hydrochlorothiazide " type="Active ingredient"/>
+		<entity charOffset="2369-2380" id="DBMI.pac156.s17.e3" origId="s17.e3" text="lovastatin " type="Active ingredient"/>
+		<entity charOffset="2381-2389" id="DBMI.pac156.s17.e4" origId="s17.e4" text="digoxin " type="Active ingredient"/>
+		<entity charOffset="2390-2400" id="DBMI.pac156.s17.e5" origId="s17.e5" text="valsartan " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.s17.e0" e2="DBMI.pac156.s17.e1" id="DBMI.pac156.s17.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ramipril " precipitant="aliskiren "/>
+		<pair e1="DBMI.pac156.s17.e0" e2="DBMI.pac156.s17.e2" id="DBMI.pac156.s17.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="hydrochlorothiazide " precipitant="aliskiren "/>
+		<pair e1="DBMI.pac156.s17.e0" e2="DBMI.pac156.s17.e3" id="DBMI.pac156.s17.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lovastatin " precipitant="aliskiren "/>
+		<pair e1="DBMI.pac156.s17.e0" e2="DBMI.pac156.s17.e4" id="DBMI.pac156.s17.p3" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="digoxin " precipitant="aliskiren "/>
+		<pair e1="DBMI.pac156.s17.e0" e2="DBMI.pac156.s17.e5" id="DBMI.pac156.s17.p4" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="valsartan " precipitant="aliskiren "/>
+		<pair e1="DBMI.pac156.s17.e1" e2="DBMI.pac156.s17.e0" id="DBMI.pac156.s17.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e1" e2="DBMI.pac156.s17.e2" id="DBMI.pac156.s17.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e1" e2="DBMI.pac156.s17.e3" id="DBMI.pac156.s17.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e1" e2="DBMI.pac156.s17.e4" id="DBMI.pac156.s17.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e1" e2="DBMI.pac156.s17.e5" id="DBMI.pac156.s17.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e2" e2="DBMI.pac156.s17.e0" id="DBMI.pac156.s17.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e2" e2="DBMI.pac156.s17.e1" id="DBMI.pac156.s17.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e2" e2="DBMI.pac156.s17.e3" id="DBMI.pac156.s17.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e2" e2="DBMI.pac156.s17.e4" id="DBMI.pac156.s17.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e2" e2="DBMI.pac156.s17.e5" id="DBMI.pac156.s17.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e3" e2="DBMI.pac156.s17.e0" id="DBMI.pac156.s17.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e3" e2="DBMI.pac156.s17.e1" id="DBMI.pac156.s17.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e3" e2="DBMI.pac156.s17.e2" id="DBMI.pac156.s17.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e3" e2="DBMI.pac156.s17.e4" id="DBMI.pac156.s17.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e3" e2="DBMI.pac156.s17.e5" id="DBMI.pac156.s17.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e4" e2="DBMI.pac156.s17.e0" id="DBMI.pac156.s17.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e4" e2="DBMI.pac156.s17.e1" id="DBMI.pac156.s17.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e4" e2="DBMI.pac156.s17.e2" id="DBMI.pac156.s17.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e4" e2="DBMI.pac156.s17.e3" id="DBMI.pac156.s17.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e4" e2="DBMI.pac156.s17.e5" id="DBMI.pac156.s17.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e5" e2="DBMI.pac156.s17.e0" id="DBMI.pac156.s17.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e5" e2="DBMI.pac156.s17.e1" id="DBMI.pac156.s17.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e5" e2="DBMI.pac156.s17.e2" id="DBMI.pac156.s17.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e5" e2="DBMI.pac156.s17.e3" id="DBMI.pac156.s17.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.s17.e5" e2="DBMI.pac156.s17.e4" id="DBMI.pac156.s17.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac156.s18" origId="s18" text="Warfarin: The effects of aliskiren on warfarin pharmacokinetics have not been evaluated."/>
+	<sentencespan id="DBMI.pac156.sp0" origId="sp0" text="7  DRUG INTERACTIONS\n\n7.1 Effects of Other Drugs on Aliskiren\n\nBased on in vitro studies, aliskiren is metabolized by CYP 3A4. Irbesartan: Coadministration of irbesartan reduced aliskiren Cmax up to 50% after multiple dosing. P-glycoprotein Effects: Pgp (MDR1/Mdr1a/1b) was found to be the major efflux system involved in absorption and disposition of aliskiren in preclinical studies.">
+		<entity charOffset="160-171" id="DBMI.pac156.sp0.e0" origId="sp0.e0" text="irbesartan " type="Active ingredient"/>
+		<entity charOffset="179-189" id="DBMI.pac156.sp0.e1" origId="sp0.e1" text="aliskiren " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.sp0.e0" e2="DBMI.pac156.sp0.e1" id="DBMI.pac156.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="aliskiren " precipitant="irbesartan "/>
+		<pair e1="DBMI.pac156.sp0.e1" e2="DBMI.pac156.sp0.e0" id="DBMI.pac156.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac156.sp1" origId="sp1" text="The potential for drug interactions at the Pgp site will likely depend on the degree of inhibition of this transporter. Atorvastatin: Coadministration of atorvastatin resulted in about a 50% increase in aliskiren Cmax and AUC after multiple dosing. Ketoconazole: Coadministration of 200 mg twice-daily ketoconazole with aliskiren resulted in an approximate 80% increase in plasma levels of aliskiren.">
+		<entity charOffset="543-556" id="DBMI.pac156.sp1.e0" origId="sp1.e0" text="atorvastatin " type="Active ingredient"/>
+		<entity charOffset="592-602" id="DBMI.pac156.sp1.e1" origId="sp1.e1" text="aliskiren " type="Active ingredient"/>
+		<entity charOffset="692-705" id="DBMI.pac156.sp1.e2" origId="sp1.e2" text="ketoconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.sp1.e0" e2="DBMI.pac156.sp1.e1" id="DBMI.pac156.sp1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="aliskiren " precipitant="atorvastatin "/>
+		<pair e1="DBMI.pac156.sp1.e0" e2="DBMI.pac156.sp1.e2" id="DBMI.pac156.sp1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp1.e1" e2="DBMI.pac156.sp1.e0" id="DBMI.pac156.sp1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp1.e1" e2="DBMI.pac156.sp1.e2" id="DBMI.pac156.sp1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp1.e2" e2="DBMI.pac156.sp1.e0" id="DBMI.pac156.sp1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp1.e2" e2="DBMI.pac156.sp1.e1" id="DBMI.pac156.sp1.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="aliskiren " precipitant="ketoconazole "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac156.sp2" origId="sp2" text="A 400-mg once-daily dose was not studied but would be expected to increase aliskiren blood levels further. Itraconazole: Coadministration of 100 mg itraconazole with 150 mg aliskiren resulted in approximately 5.8-fold increase in Cmax and 6.5-fold increase in AUC of aliskiren. Concomitant use of aliskiren with itraconazole is not recommended.">
+		<entity charOffset="940-953" id="DBMI.pac156.sp2.e0" origId="sp2.e0" text="itraconazole " type="Active ingredient"/>
+		<entity charOffset="965-975" id="DBMI.pac156.sp2.e1" origId="sp2.e1" text="aliskiren " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.sp2.e0" e2="DBMI.pac156.sp2.e1" id="DBMI.pac156.sp2.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="aliskiren " precipitant="itraconazole "/>
+		<pair e1="DBMI.pac156.sp2.e1" e2="DBMI.pac156.sp2.e0" id="DBMI.pac156.sp2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac156.sp3" origId="sp3" text="Cyclosporine: Coadministration of 200 mg and 600 mg cyclosporine with 75 mg aliskiren resulted in an approximately 2.5-fold increase in Cmax and 5-fold increase in AUC of aliskiren. Concomitant use of aliskiren with cyclosporine is not recommended. Verapamil: Coadministration of 240 mg of verapamil with 300 mg aliskiren resulted in an approximately 2-fold increase in Cmax and AUC of aliskiren.">
+		<entity charOffset="1190-1203" id="DBMI.pac156.sp3.e0" origId="sp3.e0" text="cyclosporine " type="Active ingredient"/>
+		<entity charOffset="1214-1224" id="DBMI.pac156.sp3.e1" origId="sp3.e1" text="aliskiren " type="Active ingredient"/>
+		<entity charOffset="1430-1440" id="DBMI.pac156.sp3.e2" origId="sp3.e2" text="verapamil " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.sp3.e0" e2="DBMI.pac156.sp3.e1" id="DBMI.pac156.sp3.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="aliskiren " precipitant="cyclosporine "/>
+		<pair e1="DBMI.pac156.sp3.e0" e2="DBMI.pac156.sp3.e2" id="DBMI.pac156.sp3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp3.e1" e2="DBMI.pac156.sp3.e0" id="DBMI.pac156.sp3.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp3.e1" e2="DBMI.pac156.sp3.e2" id="DBMI.pac156.sp3.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp3.e2" e2="DBMI.pac156.sp3.e0" id="DBMI.pac156.sp3.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp3.e2" e2="DBMI.pac156.sp3.e1" id="DBMI.pac156.sp3.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="aliskiren " precipitant="verapamil "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac156.sp4" origId="sp4" text="However, no dosage adjustment is necessary. Drugs with no clinically significant effects: Coadministration of lovastatin, atenolol, warfarin, furosemide, digoxin, celecoxib, hydrochlorothiazide, ramipril, valsartan, metformin and amlodipine did not result in clinically significant increases in aliskiren exposure. 7.2 Effects of Aliskiren on Other Drugs\n\nAliskiren does not inhibit the CYP450 isoenzymes (CYP1A2, 2C8, 2C9, 2C19, 2D6, 2E1, and 3A) or induce CYP 3A4.">
+		<entity charOffset="1648-1659" id="DBMI.pac156.sp4.e0" origId="sp4.e0" text="lovastatin " type="Active ingredient"/>
+		<entity charOffset="1833-1843" id="DBMI.pac156.sp4.e1" origId="sp4.e1" text="aliskiren " type="Active ingredient"/>
+		<entity charOffset="1660-1669" id="DBMI.pac156.sp4.e2" origId="sp4.e2" text="atenolol " type="Active ingredient"/>
+		<entity charOffset="1670-1679" id="DBMI.pac156.sp4.e3" origId="sp4.e3" text="warfarin " type="Active ingredient"/>
+		<entity charOffset="1680-1691" id="DBMI.pac156.sp4.e4" origId="sp4.e4" text="furosemide " type="Active ingredient"/>
+		<entity charOffset="1692-1700" id="DBMI.pac156.sp4.e5" origId="sp4.e5" text="digoxin " type="Active ingredient"/>
+		<entity charOffset="1701-1711" id="DBMI.pac156.sp4.e6" origId="sp4.e6" text="celecoxib " type="Active ingredient"/>
+		<entity charOffset="1712-1732" id="DBMI.pac156.sp4.e7" origId="sp4.e7" text="hydrochlorothiazide " type="Active ingredient"/>
+		<entity charOffset="1733-1742" id="DBMI.pac156.sp4.e8" origId="sp4.e8" text="ramipril " type="Active ingredient"/>
+		<entity charOffset="1743-1753" id="DBMI.pac156.sp4.e9" origId="sp4.e9" text="valsartan " type="Active ingredient"/>
+		<entity charOffset="1754-1764" id="DBMI.pac156.sp4.e10" origId="sp4.e10" text="metformin " type="Active ingredient"/>
+		<entity charOffset="1768-1779" id="DBMI.pac156.sp4.e11" origId="sp4.e11" text="amlodipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.sp4.e0" e2="DBMI.pac156.sp4.e1" id="DBMI.pac156.sp4.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="lovastatin "/>
+		<pair e1="DBMI.pac156.sp4.e0" e2="DBMI.pac156.sp4.e2" id="DBMI.pac156.sp4.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e0" e2="DBMI.pac156.sp4.e3" id="DBMI.pac156.sp4.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e0" e2="DBMI.pac156.sp4.e4" id="DBMI.pac156.sp4.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e0" e2="DBMI.pac156.sp4.e5" id="DBMI.pac156.sp4.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e0" e2="DBMI.pac156.sp4.e6" id="DBMI.pac156.sp4.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e0" e2="DBMI.pac156.sp4.e7" id="DBMI.pac156.sp4.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e0" e2="DBMI.pac156.sp4.e8" id="DBMI.pac156.sp4.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e0" e2="DBMI.pac156.sp4.e9" id="DBMI.pac156.sp4.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e0" e2="DBMI.pac156.sp4.e10" id="DBMI.pac156.sp4.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e0" e2="DBMI.pac156.sp4.e11" id="DBMI.pac156.sp4.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e1" e2="DBMI.pac156.sp4.e0" id="DBMI.pac156.sp4.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e1" e2="DBMI.pac156.sp4.e2" id="DBMI.pac156.sp4.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e1" e2="DBMI.pac156.sp4.e3" id="DBMI.pac156.sp4.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e1" e2="DBMI.pac156.sp4.e4" id="DBMI.pac156.sp4.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e1" e2="DBMI.pac156.sp4.e5" id="DBMI.pac156.sp4.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e1" e2="DBMI.pac156.sp4.e6" id="DBMI.pac156.sp4.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e1" e2="DBMI.pac156.sp4.e7" id="DBMI.pac156.sp4.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e1" e2="DBMI.pac156.sp4.e8" id="DBMI.pac156.sp4.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e1" e2="DBMI.pac156.sp4.e9" id="DBMI.pac156.sp4.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e1" e2="DBMI.pac156.sp4.e10" id="DBMI.pac156.sp4.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e1" e2="DBMI.pac156.sp4.e11" id="DBMI.pac156.sp4.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e2" e2="DBMI.pac156.sp4.e0" id="DBMI.pac156.sp4.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e2" e2="DBMI.pac156.sp4.e1" id="DBMI.pac156.sp4.p23" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="atenolol "/>
+		<pair e1="DBMI.pac156.sp4.e2" e2="DBMI.pac156.sp4.e3" id="DBMI.pac156.sp4.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e2" e2="DBMI.pac156.sp4.e4" id="DBMI.pac156.sp4.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e2" e2="DBMI.pac156.sp4.e5" id="DBMI.pac156.sp4.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e2" e2="DBMI.pac156.sp4.e6" id="DBMI.pac156.sp4.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e2" e2="DBMI.pac156.sp4.e7" id="DBMI.pac156.sp4.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e2" e2="DBMI.pac156.sp4.e8" id="DBMI.pac156.sp4.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e2" e2="DBMI.pac156.sp4.e9" id="DBMI.pac156.sp4.p30" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e2" e2="DBMI.pac156.sp4.e10" id="DBMI.pac156.sp4.p31" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e2" e2="DBMI.pac156.sp4.e11" id="DBMI.pac156.sp4.p32" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e3" e2="DBMI.pac156.sp4.e0" id="DBMI.pac156.sp4.p33" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e3" e2="DBMI.pac156.sp4.e1" id="DBMI.pac156.sp4.p34" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="warfarin "/>
+		<pair e1="DBMI.pac156.sp4.e3" e2="DBMI.pac156.sp4.e2" id="DBMI.pac156.sp4.p35" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e3" e2="DBMI.pac156.sp4.e4" id="DBMI.pac156.sp4.p36" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e3" e2="DBMI.pac156.sp4.e5" id="DBMI.pac156.sp4.p37" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e3" e2="DBMI.pac156.sp4.e6" id="DBMI.pac156.sp4.p38" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e3" e2="DBMI.pac156.sp4.e7" id="DBMI.pac156.sp4.p39" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e3" e2="DBMI.pac156.sp4.e8" id="DBMI.pac156.sp4.p40" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e3" e2="DBMI.pac156.sp4.e9" id="DBMI.pac156.sp4.p41" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e3" e2="DBMI.pac156.sp4.e10" id="DBMI.pac156.sp4.p42" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e3" e2="DBMI.pac156.sp4.e11" id="DBMI.pac156.sp4.p43" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e4" e2="DBMI.pac156.sp4.e0" id="DBMI.pac156.sp4.p44" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e4" e2="DBMI.pac156.sp4.e1" id="DBMI.pac156.sp4.p45" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="furosemide "/>
+		<pair e1="DBMI.pac156.sp4.e4" e2="DBMI.pac156.sp4.e2" id="DBMI.pac156.sp4.p46" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e4" e2="DBMI.pac156.sp4.e3" id="DBMI.pac156.sp4.p47" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e4" e2="DBMI.pac156.sp4.e5" id="DBMI.pac156.sp4.p48" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e4" e2="DBMI.pac156.sp4.e6" id="DBMI.pac156.sp4.p49" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e4" e2="DBMI.pac156.sp4.e7" id="DBMI.pac156.sp4.p50" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e4" e2="DBMI.pac156.sp4.e8" id="DBMI.pac156.sp4.p51" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e4" e2="DBMI.pac156.sp4.e9" id="DBMI.pac156.sp4.p52" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e4" e2="DBMI.pac156.sp4.e10" id="DBMI.pac156.sp4.p53" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e4" e2="DBMI.pac156.sp4.e11" id="DBMI.pac156.sp4.p54" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e5" e2="DBMI.pac156.sp4.e0" id="DBMI.pac156.sp4.p55" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e5" e2="DBMI.pac156.sp4.e1" id="DBMI.pac156.sp4.p56" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="digoxin "/>
+		<pair e1="DBMI.pac156.sp4.e5" e2="DBMI.pac156.sp4.e2" id="DBMI.pac156.sp4.p57" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e5" e2="DBMI.pac156.sp4.e3" id="DBMI.pac156.sp4.p58" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e5" e2="DBMI.pac156.sp4.e4" id="DBMI.pac156.sp4.p59" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e5" e2="DBMI.pac156.sp4.e6" id="DBMI.pac156.sp4.p60" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e5" e2="DBMI.pac156.sp4.e7" id="DBMI.pac156.sp4.p61" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e5" e2="DBMI.pac156.sp4.e8" id="DBMI.pac156.sp4.p62" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e5" e2="DBMI.pac156.sp4.e9" id="DBMI.pac156.sp4.p63" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e5" e2="DBMI.pac156.sp4.e10" id="DBMI.pac156.sp4.p64" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e5" e2="DBMI.pac156.sp4.e11" id="DBMI.pac156.sp4.p65" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e6" e2="DBMI.pac156.sp4.e0" id="DBMI.pac156.sp4.p66" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e6" e2="DBMI.pac156.sp4.e1" id="DBMI.pac156.sp4.p67" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="celecoxib "/>
+		<pair e1="DBMI.pac156.sp4.e6" e2="DBMI.pac156.sp4.e2" id="DBMI.pac156.sp4.p68" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e6" e2="DBMI.pac156.sp4.e3" id="DBMI.pac156.sp4.p69" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e6" e2="DBMI.pac156.sp4.e4" id="DBMI.pac156.sp4.p70" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e6" e2="DBMI.pac156.sp4.e5" id="DBMI.pac156.sp4.p71" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e6" e2="DBMI.pac156.sp4.e7" id="DBMI.pac156.sp4.p72" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e6" e2="DBMI.pac156.sp4.e8" id="DBMI.pac156.sp4.p73" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e6" e2="DBMI.pac156.sp4.e9" id="DBMI.pac156.sp4.p74" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e6" e2="DBMI.pac156.sp4.e10" id="DBMI.pac156.sp4.p75" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e6" e2="DBMI.pac156.sp4.e11" id="DBMI.pac156.sp4.p76" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e7" e2="DBMI.pac156.sp4.e0" id="DBMI.pac156.sp4.p77" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e7" e2="DBMI.pac156.sp4.e1" id="DBMI.pac156.sp4.p78" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="hydrochlorothiazide "/>
+		<pair e1="DBMI.pac156.sp4.e7" e2="DBMI.pac156.sp4.e2" id="DBMI.pac156.sp4.p79" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e7" e2="DBMI.pac156.sp4.e3" id="DBMI.pac156.sp4.p80" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e7" e2="DBMI.pac156.sp4.e4" id="DBMI.pac156.sp4.p81" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e7" e2="DBMI.pac156.sp4.e5" id="DBMI.pac156.sp4.p82" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e7" e2="DBMI.pac156.sp4.e6" id="DBMI.pac156.sp4.p83" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e7" e2="DBMI.pac156.sp4.e8" id="DBMI.pac156.sp4.p84" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e7" e2="DBMI.pac156.sp4.e9" id="DBMI.pac156.sp4.p85" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e7" e2="DBMI.pac156.sp4.e10" id="DBMI.pac156.sp4.p86" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e7" e2="DBMI.pac156.sp4.e11" id="DBMI.pac156.sp4.p87" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e8" e2="DBMI.pac156.sp4.e0" id="DBMI.pac156.sp4.p88" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e8" e2="DBMI.pac156.sp4.e1" id="DBMI.pac156.sp4.p89" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="ramipril "/>
+		<pair e1="DBMI.pac156.sp4.e8" e2="DBMI.pac156.sp4.e2" id="DBMI.pac156.sp4.p90" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e8" e2="DBMI.pac156.sp4.e3" id="DBMI.pac156.sp4.p91" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e8" e2="DBMI.pac156.sp4.e4" id="DBMI.pac156.sp4.p92" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e8" e2="DBMI.pac156.sp4.e5" id="DBMI.pac156.sp4.p93" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e8" e2="DBMI.pac156.sp4.e6" id="DBMI.pac156.sp4.p94" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e8" e2="DBMI.pac156.sp4.e7" id="DBMI.pac156.sp4.p95" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e8" e2="DBMI.pac156.sp4.e9" id="DBMI.pac156.sp4.p96" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e8" e2="DBMI.pac156.sp4.e10" id="DBMI.pac156.sp4.p97" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e8" e2="DBMI.pac156.sp4.e11" id="DBMI.pac156.sp4.p98" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e9" e2="DBMI.pac156.sp4.e0" id="DBMI.pac156.sp4.p99" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e9" e2="DBMI.pac156.sp4.e1" id="DBMI.pac156.sp4.p100" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="valsartan "/>
+		<pair e1="DBMI.pac156.sp4.e9" e2="DBMI.pac156.sp4.e2" id="DBMI.pac156.sp4.p101" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e9" e2="DBMI.pac156.sp4.e3" id="DBMI.pac156.sp4.p102" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e9" e2="DBMI.pac156.sp4.e4" id="DBMI.pac156.sp4.p103" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e9" e2="DBMI.pac156.sp4.e5" id="DBMI.pac156.sp4.p104" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e9" e2="DBMI.pac156.sp4.e6" id="DBMI.pac156.sp4.p105" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e9" e2="DBMI.pac156.sp4.e7" id="DBMI.pac156.sp4.p106" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e9" e2="DBMI.pac156.sp4.e8" id="DBMI.pac156.sp4.p107" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e9" e2="DBMI.pac156.sp4.e10" id="DBMI.pac156.sp4.p108" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e9" e2="DBMI.pac156.sp4.e11" id="DBMI.pac156.sp4.p109" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e10" e2="DBMI.pac156.sp4.e0" id="DBMI.pac156.sp4.p110" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e10" e2="DBMI.pac156.sp4.e1" id="DBMI.pac156.sp4.p111" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="metformin "/>
+		<pair e1="DBMI.pac156.sp4.e10" e2="DBMI.pac156.sp4.e2" id="DBMI.pac156.sp4.p112" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e10" e2="DBMI.pac156.sp4.e3" id="DBMI.pac156.sp4.p113" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e10" e2="DBMI.pac156.sp4.e4" id="DBMI.pac156.sp4.p114" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e10" e2="DBMI.pac156.sp4.e5" id="DBMI.pac156.sp4.p115" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e10" e2="DBMI.pac156.sp4.e6" id="DBMI.pac156.sp4.p116" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e10" e2="DBMI.pac156.sp4.e7" id="DBMI.pac156.sp4.p117" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e10" e2="DBMI.pac156.sp4.e8" id="DBMI.pac156.sp4.p118" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e10" e2="DBMI.pac156.sp4.e9" id="DBMI.pac156.sp4.p119" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e10" e2="DBMI.pac156.sp4.e11" id="DBMI.pac156.sp4.p120" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e11" e2="DBMI.pac156.sp4.e0" id="DBMI.pac156.sp4.p121" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e11" e2="DBMI.pac156.sp4.e1" id="DBMI.pac156.sp4.p122" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="aliskiren " precipitant="amlodipine "/>
+		<pair e1="DBMI.pac156.sp4.e11" e2="DBMI.pac156.sp4.e2" id="DBMI.pac156.sp4.p123" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e11" e2="DBMI.pac156.sp4.e3" id="DBMI.pac156.sp4.p124" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e11" e2="DBMI.pac156.sp4.e4" id="DBMI.pac156.sp4.p125" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e11" e2="DBMI.pac156.sp4.e5" id="DBMI.pac156.sp4.p126" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e11" e2="DBMI.pac156.sp4.e6" id="DBMI.pac156.sp4.p127" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e11" e2="DBMI.pac156.sp4.e7" id="DBMI.pac156.sp4.p128" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e11" e2="DBMI.pac156.sp4.e8" id="DBMI.pac156.sp4.p129" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e11" e2="DBMI.pac156.sp4.e9" id="DBMI.pac156.sp4.p130" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp4.e11" e2="DBMI.pac156.sp4.e10" id="DBMI.pac156.sp4.p131" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac156.sp5" origId="sp5" text="Furosemide: When aliskiren was coadministered with furosemide, the AUC and Cmax of furosemide were reduced by about 30% and 50%, respectively. Patients receiving furosemide could find its effect diminished after starting aliskiren. Drugs with no clinically significant effects: Coadministration of aliskiren did not significantly affect the pharmacokinetics of lovastatin, digoxin, valsartan, amlodipine, metformin, celecoxib, atenolol, atorvastatin, ramipril or hydrochlorothiazide.">
+		<entity charOffset="2024-2034" id="DBMI.pac156.sp5.e0" origId="sp5.e0" text="aliskiren " type="Active ingredient"/>
+		<entity charOffset="2058-2069" id="DBMI.pac156.sp5.e1" origId="sp5.e1" text="furosemide " type="Active ingredient"/>
+		<entity charOffset="2459-2468" id="DBMI.pac156.sp5.e2" origId="sp5.e2" text="ramipril " type="Active ingredient"/>
+		<entity charOffset="2471-2491" id="DBMI.pac156.sp5.e3" origId="sp5.e3" text="hydrochlorothiazide " type="Active ingredient"/>
+		<entity charOffset="2369-2380" id="DBMI.pac156.sp5.e4" origId="sp5.e4" text="lovastatin " type="Active ingredient"/>
+		<entity charOffset="2381-2389" id="DBMI.pac156.sp5.e5" origId="sp5.e5" text="digoxin " type="Active ingredient"/>
+		<entity charOffset="2390-2400" id="DBMI.pac156.sp5.e6" origId="sp5.e6" text="valsartan " type="Active ingredient"/>
+		<pair e1="DBMI.pac156.sp5.e0" e2="DBMI.pac156.sp5.e1" id="DBMI.pac156.sp5.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="furosemide " precipitant="aliskiren "/>
+		<pair e1="DBMI.pac156.sp5.e0" e2="DBMI.pac156.sp5.e2" id="DBMI.pac156.sp5.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ramipril " precipitant="aliskiren "/>
+		<pair e1="DBMI.pac156.sp5.e0" e2="DBMI.pac156.sp5.e3" id="DBMI.pac156.sp5.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="hydrochlorothiazide " precipitant="aliskiren "/>
+		<pair e1="DBMI.pac156.sp5.e0" e2="DBMI.pac156.sp5.e4" id="DBMI.pac156.sp5.p3" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lovastatin " precipitant="aliskiren "/>
+		<pair e1="DBMI.pac156.sp5.e0" e2="DBMI.pac156.sp5.e5" id="DBMI.pac156.sp5.p4" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="digoxin " precipitant="aliskiren "/>
+		<pair e1="DBMI.pac156.sp5.e0" e2="DBMI.pac156.sp5.e6" id="DBMI.pac156.sp5.p5" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="valsartan " precipitant="aliskiren "/>
+		<pair e1="DBMI.pac156.sp5.e1" e2="DBMI.pac156.sp5.e0" id="DBMI.pac156.sp5.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e1" e2="DBMI.pac156.sp5.e2" id="DBMI.pac156.sp5.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e1" e2="DBMI.pac156.sp5.e3" id="DBMI.pac156.sp5.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e1" e2="DBMI.pac156.sp5.e4" id="DBMI.pac156.sp5.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e1" e2="DBMI.pac156.sp5.e5" id="DBMI.pac156.sp5.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e1" e2="DBMI.pac156.sp5.e6" id="DBMI.pac156.sp5.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e2" e2="DBMI.pac156.sp5.e0" id="DBMI.pac156.sp5.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e2" e2="DBMI.pac156.sp5.e1" id="DBMI.pac156.sp5.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e2" e2="DBMI.pac156.sp5.e3" id="DBMI.pac156.sp5.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e2" e2="DBMI.pac156.sp5.e4" id="DBMI.pac156.sp5.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e2" e2="DBMI.pac156.sp5.e5" id="DBMI.pac156.sp5.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e2" e2="DBMI.pac156.sp5.e6" id="DBMI.pac156.sp5.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e3" e2="DBMI.pac156.sp5.e0" id="DBMI.pac156.sp5.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e3" e2="DBMI.pac156.sp5.e1" id="DBMI.pac156.sp5.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e3" e2="DBMI.pac156.sp5.e2" id="DBMI.pac156.sp5.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e3" e2="DBMI.pac156.sp5.e4" id="DBMI.pac156.sp5.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e3" e2="DBMI.pac156.sp5.e5" id="DBMI.pac156.sp5.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e3" e2="DBMI.pac156.sp5.e6" id="DBMI.pac156.sp5.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e4" e2="DBMI.pac156.sp5.e0" id="DBMI.pac156.sp5.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e4" e2="DBMI.pac156.sp5.e1" id="DBMI.pac156.sp5.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e4" e2="DBMI.pac156.sp5.e2" id="DBMI.pac156.sp5.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e4" e2="DBMI.pac156.sp5.e3" id="DBMI.pac156.sp5.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e4" e2="DBMI.pac156.sp5.e5" id="DBMI.pac156.sp5.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e4" e2="DBMI.pac156.sp5.e6" id="DBMI.pac156.sp5.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e5" e2="DBMI.pac156.sp5.e0" id="DBMI.pac156.sp5.p30" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e5" e2="DBMI.pac156.sp5.e1" id="DBMI.pac156.sp5.p31" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e5" e2="DBMI.pac156.sp5.e2" id="DBMI.pac156.sp5.p32" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e5" e2="DBMI.pac156.sp5.e3" id="DBMI.pac156.sp5.p33" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e5" e2="DBMI.pac156.sp5.e4" id="DBMI.pac156.sp5.p34" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e5" e2="DBMI.pac156.sp5.e6" id="DBMI.pac156.sp5.p35" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e6" e2="DBMI.pac156.sp5.e0" id="DBMI.pac156.sp5.p36" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e6" e2="DBMI.pac156.sp5.e1" id="DBMI.pac156.sp5.p37" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e6" e2="DBMI.pac156.sp5.e2" id="DBMI.pac156.sp5.p38" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e6" e2="DBMI.pac156.sp5.e3" id="DBMI.pac156.sp5.p39" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e6" e2="DBMI.pac156.sp5.e4" id="DBMI.pac156.sp5.p40" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac156.sp5.e6" e2="DBMI.pac156.sp5.e5" id="DBMI.pac156.sp5.p41" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac156.sp6" origId="sp6" text="Warfarin: The effects of aliskiren on warfarin pharmacokinetics have not been evaluated."/>
+</document>

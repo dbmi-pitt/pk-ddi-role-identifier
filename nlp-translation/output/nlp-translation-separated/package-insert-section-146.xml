@@ -1,0 +1,27 @@
+
+<document id="DBMI.pac146" origId="pac146">
+	<sentence id="DBMI.pac146.s0" origId="s0" text="Effects of Felbatol on Low-Dose Combination Oral Contraceptives:\nA group of 24 nonsmoking, healthy white female volunteers established on an oral contraceptive regimen containing 30 g ethinyl estradiol and 75 g gestodene for at least 3 months received 2400 mg/day of felbamate from midcycle (day 15) to midcycle (day 14) of two consecutive oral contraceptive cycles."/>
+	<sentence id="DBMI.pac146.s1" origId="s1" text="Felbamate treatment resulted in a 42% decrease in the gestodene AUC 0-24, but no clinically relevant effect was observed on the pharmacokinetic parameters of ethinyl estradiol.">
+		<entity charOffset="370-380" id="DBMI.pac146.s1.e0" origId="s1.e0" text="Felbamate " type="Active ingredient"/>
+		<entity charOffset="424-434" id="DBMI.pac146.s1.e1" origId="s1.e1" text="gestodene " type="Active ingredient"/>
+		<entity charOffset="536-546" id="DBMI.pac146.s1.e2" origId="s1.e2" text="estradiol " type="Active ingredient"/>
+		<pair e1="DBMI.pac146.s1.e0" e2="DBMI.pac146.s1.e1" id="DBMI.pac146.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="gestodene " precipitant="Felbamate "/>
+		<pair e1="DBMI.pac146.s1.e0" e2="DBMI.pac146.s1.e2" id="DBMI.pac146.s1.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="estradiol " precipitant="Felbamate "/>
+		<pair e1="DBMI.pac146.s1.e1" e2="DBMI.pac146.s1.e0" id="DBMI.pac146.s1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac146.s1.e1" e2="DBMI.pac146.s1.e2" id="DBMI.pac146.s1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac146.s1.e2" e2="DBMI.pac146.s1.e0" id="DBMI.pac146.s1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac146.s1.e2" e2="DBMI.pac146.s1.e1" id="DBMI.pac146.s1.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac146.s2" origId="s2" text="No volunteer showed hormonal evidence of ovulation, but one volunteer reported intermenstrual bleeding during felbamate treatment."/>
+	<sentencespan id="DBMI.pac146.sp0" origId="sp0" text="Effects of Felbatol on Low-Dose Combination Oral Contraceptives:\nA group of 24 nonsmoking, healthy white female volunteers established on an oral contraceptive regimen containing 30 g ethinyl estradiol and 75 g gestodene for at least 3 months received 2400 mg/day of felbamate from midcycle (day 15) to midcycle (day 14) of two consecutive oral contraceptive cycles. Felbamate treatment resulted in a 42% decrease in the gestodene AUC 0-24, but no clinically relevant effect was observed on the pharmacokinetic parameters of ethinyl estradiol. No volunteer showed hormonal evidence of ovulation, but one volunteer reported intermenstrual bleeding during felbamate treatment.">
+		<entity charOffset="370-380" id="DBMI.pac146.sp0.e0" origId="sp0.e0" text="Felbamate " type="Active ingredient"/>
+		<entity charOffset="424-434" id="DBMI.pac146.sp0.e1" origId="sp0.e1" text="gestodene " type="Active ingredient"/>
+		<entity charOffset="536-546" id="DBMI.pac146.sp0.e2" origId="sp0.e2" text="estradiol " type="Active ingredient"/>
+		<pair e1="DBMI.pac146.sp0.e0" e2="DBMI.pac146.sp0.e1" id="DBMI.pac146.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="gestodene " precipitant="Felbamate "/>
+		<pair e1="DBMI.pac146.sp0.e0" e2="DBMI.pac146.sp0.e2" id="DBMI.pac146.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="estradiol " precipitant="Felbamate "/>
+		<pair e1="DBMI.pac146.sp0.e1" e2="DBMI.pac146.sp0.e0" id="DBMI.pac146.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac146.sp0.e1" e2="DBMI.pac146.sp0.e2" id="DBMI.pac146.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac146.sp0.e2" e2="DBMI.pac146.sp0.e0" id="DBMI.pac146.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac146.sp0.e2" e2="DBMI.pac146.sp0.e1" id="DBMI.pac146.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

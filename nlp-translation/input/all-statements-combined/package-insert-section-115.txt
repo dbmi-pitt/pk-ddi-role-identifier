@@ -1,0 +1,1 @@
+Phenytoin: Nifedipine is metabolized by CYP3A4. Coadministration of nifedipine 10 mg capsule and 60 mg nifedipine coat-core tablet with phenytoin, an inducer of CYP3A4, lowered the AUC and Cmax of nifedipine by approximately 70%. When using nifedipine with phenytoin, the clinical response to nifedipine should be monitored and its dose adjusted if necessary.

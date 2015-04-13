@@ -1,0 +1,16 @@
+
+<document id="DBMI.pac15" origId="pac15">
+	<sentence id="DBMI.pac15.s0" origId="s0" text="Results of a placebo-controlled trial in normal volunteers suggest that chronic administration of sertraline 200 mg/day does not produce clinically important inhibition of phenytoin metabolism.">
+		<entity charOffset="98-109" id="DBMI.pac15.s0.e0" origId="s0.e0" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="172-182" id="DBMI.pac15.s0.e1" origId="s0.e1" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac15.s0.e0" e2="DBMI.pac15.s0.e1" id="DBMI.pac15.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="phenytoin " precipitant="sertraline "/>
+		<pair e1="DBMI.pac15.s0.e1" e2="DBMI.pac15.s0.e0" id="DBMI.pac15.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac15.s1" origId="s1" text="Nonetheless, at this time, it is recommended that plasma phenytoin concentrations be monitored following initiation of sertraline therapy with appropriate adjustments to the phenytoin dose, particularly in patients with multiple underlying medical conditions and/or those receiving multiple concomitant medications."/>
+	<sentencespan id="DBMI.pac15.sp0" origId="sp0" text="Results of a placebo-controlled trial in normal volunteers suggest that chronic administration of sertraline 200 mg/day does not produce clinically important inhibition of phenytoin metabolism. Nonetheless, at this time, it is recommended that plasma phenytoin concentrations be monitored following initiation of sertraline therapy with appropriate adjustments to the phenytoin dose, particularly in patients with multiple underlying medical conditions and/or those receiving multiple concomitant medications.">
+		<entity charOffset="98-109" id="DBMI.pac15.sp0.e0" origId="sp0.e0" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="172-182" id="DBMI.pac15.sp0.e1" origId="sp0.e1" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac15.sp0.e0" e2="DBMI.pac15.sp0.e1" id="DBMI.pac15.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="phenytoin " precipitant="sertraline "/>
+		<pair e1="DBMI.pac15.sp0.e1" e2="DBMI.pac15.sp0.e0" id="DBMI.pac15.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

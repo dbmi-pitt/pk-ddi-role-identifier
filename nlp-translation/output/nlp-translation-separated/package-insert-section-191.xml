@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac191" origId="pac191">
+	<sentence id="DBMI.pac191.s0" origId="s0" text="Itraconazole:\n\nConcomitant administration of fluvastatin (40 mg) and itraconazole (100 mg daily x 4 days) does not affect plasma itraconazole or fluvastatin levels.">
+		<entity charOffset="45-57" id="DBMI.pac191.s0.e0" origId="s0.e0" text="fluvastatin " type="Active ingredient"/>
+		<entity charOffset="69-82" id="DBMI.pac191.s0.e1" origId="s0.e1" text="itraconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac191.s0.e0" e2="DBMI.pac191.s0.e1" id="DBMI.pac191.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="itraconazole " precipitant="fluvastatin "/>
+		<pair e1="DBMI.pac191.s0.e1" e2="DBMI.pac191.s0.e0" id="DBMI.pac191.s0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluvastatin " precipitant="itraconazole "/>
+	</sentence>
+	<sentencespan id="DBMI.pac191.sp0" origId="sp0" text="Itraconazole:\n\nConcomitant administration of fluvastatin (40 mg) and itraconazole (100 mg daily x 4 days) does not affect plasma itraconazole or fluvastatin levels.">
+		<entity charOffset="45-57" id="DBMI.pac191.sp0.e0" origId="sp0.e0" text="fluvastatin " type="Active ingredient"/>
+		<entity charOffset="69-82" id="DBMI.pac191.sp0.e1" origId="sp0.e1" text="itraconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac191.sp0.e0" e2="DBMI.pac191.sp0.e1" id="DBMI.pac191.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="itraconazole " precipitant="fluvastatin "/>
+		<pair e1="DBMI.pac191.sp0.e1" e2="DBMI.pac191.sp0.e0" id="DBMI.pac191.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluvastatin " precipitant="itraconazole "/>
+	</sentencespan>
+</document>

@@ -1,0 +1,40 @@
+7 DRUG INTERACTIONS
+
+The risk of myopathy during treatment with statins is increased with concurrent administration of fibric acid derivatives, lipid-modifying doses of niacin, cyclosporine, or strong CYP 3A4 inhibitors (e.g., clarithromycin, HIV protease inhibitors, and itraconazole) [see Warnings and Precautions, Skeletal Muscle (5.1) and Clinical Pharmacology (12.3)].
+
+7.1 Strong Inhibitors of CYP 3A4
+
+LIPITOR is metabolized by cytochrome P450 3A4. Concomitant administration of LIPITOR with strong inhibitors of CYP 3A4 can lead to increases in plasma concentrations of atorvastatin. The extent of interaction and potentiation of effects depend on the variability of effect on CYP 3A4.
+
+ 
+    Clarithromycin: Atorvastatin AUC was significantly increased with concomitant administration of LIPITOR 80 mg with clarithromycin (500 mg twice daily) compared to that of LIPITOR alone [see Clinical Pharmacology (12.3)]. Therefore, in patients taking clarithromycin, caution should be used when the LIPITOR dose exceeds 20 mg [see Warnings and Precautions, Skeletal Muscle (5.1) and Dosage and Administration (2.6)].
+
+ 
+    Combination of Protease Inhibitors: Atorvastatin AUC was significantly increased with concomitant administration of LIPITOR 40 mg with ritonavir plus saquinavir (400 mg twice daily) or LIPITOR 20 mg with lopinavir plus ritonavir (400 mg + 100 mg twice daily) compared to that of LIPITOR alone [see Clinical Pharmacology (12.3)]. Therefore, in patients taking HIV protease inhibitors, caution should be used when the LIPITOR dose exceeds 20 mg [see Warnings and Precautions, Skeletal Muscle (5.1) and Dosage and Administration (2.6)].
+
+ 
+    Itraconazole: Atorvastatin AUC was significantly increased with concomitant administration of LIPITOR 40 mg and itraconazole 200 mg [see Clinical Pharmacology (12.3)]. Therefore, in patients taking itraconazole, caution should be used when the LIPITOR dose exceeds 20 mg [see Warnings and Precautions, Skeletal Muscle (5.1) and Dosage and Administration (2.6)].
+
+7.2 Grapefruit Juice
+
+Contains one or more components that inhibit CYP 3A4 and can increase plasma concentrations of atorvastatin, especially with excessive grapefruit juice consumption (>1.2 liters per day).
+
+7.3 Cyclosporine
+
+Atorvastatin and atorvastatin-metabolites are substrates of the OATP1B1 transporter. Inhibitors of the OATP1B1 (e.g., cyclosporine) can increase the bioavailability of atorvastatin. Atorvastatin AUC was significantly increased with concomitant administration of LIPITOR 10 mg and cyclosporine 5.2 mg/kg/day compared to that of LIPITOR alone [see Clinical Pharmacology (12.3)]. In cases where co-administration of LIPITOR with cyclosporine is necessary, the dose of LIPITOR should not exceed 10 mg [see Warnings and Precautions, Skeletal Muscle (5.1)].
+
+7.4 Rifampin or other Inducers of Cytochrome P450 3A4
+
+Concomitant administration of LIPITOR with inducers of cytochrome P450 3A4 (e.g., efavirenz, rifampin) can lead to variable reductions in plasma concentrations of atorvastatin. Due to the dual interaction mechanism of rifampin, simultaneous co-administration of LIPITOR with rifampin is recommended, as delayed administration of LIPITOR after administration of rifampin has been associated with a significant reduction in atorvastatin plasma concentrations.
+
+7.5 Digoxin
+
+When multiple doses of LIPITOR and digoxin were coadministered, steady state plasma digoxin concentrations increased by approximately 20%. Patients taking digoxin should be monitored appropriately.
+
+7.6 Oral Contraceptives
+
+Co-administration of LIPITOR and an oral contraceptive increased AUC values for norethindrone and ethinyl estradiol [see Clinical Pharmacology (12.3)]. These increases should be considered when selecting an oral contraceptive for a woman taking LIPITOR.
+
+7.7 Warfarin
+
+LIPITOR had no clinically significant effect on prothrombin time when administered to patients receiving chronic warfarin treatment. 

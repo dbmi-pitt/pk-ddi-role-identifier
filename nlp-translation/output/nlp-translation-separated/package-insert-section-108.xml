@@ -1,0 +1,30 @@
+
+<document id="DBMI.pac108" origId="pac108">
+	<sentence id="DBMI.pac108.s0" origId="s0" text="Quinidine:  Quinidine is a substrate of CYP3A and has been shown to inhibit CYP3A in vitro."/>
+	<sentence id="DBMI.pac108.s1" origId="s1" text="Coadministration of multiple doses of quinidine sulfate, 200 mg t.i.d., and nifedipine, 20 mg t.i.d., increased Cmax and AUC of nifedipine in healthy volunteers by factors of 2.30 and 1.37, respectively.">
+		<entity charOffset="130-140" id="DBMI.pac108.s1.e0" origId="s1.e0" text="quinidine " type="Active ingredient"/>
+		<entity charOffset="168-179" id="DBMI.pac108.s1.e1" origId="s1.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac108.s1.e0" e2="DBMI.pac108.s1.e1" id="DBMI.pac108.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="quinidine "/>
+		<pair e1="DBMI.pac108.s1.e1" e2="DBMI.pac108.s1.e0" id="DBMI.pac108.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac108.s2" origId="s2" text="The heart rate in the initial interval after drug administration was increased by up to 17.9 beats/minute."/>
+	<sentence id="DBMI.pac108.s3" origId="s3" text="The exposure to quinidine was not importantly changed in the presence of nifedipine.">
+		<entity charOffset="476-487" id="DBMI.pac108.s3.e0" origId="s3.e0" text="nifedipine " type="Active ingredient"/>
+		<entity charOffset="419-429" id="DBMI.pac108.s3.e1" origId="s3.e1" text="quinidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac108.s3.e0" e2="DBMI.pac108.s3.e1" id="DBMI.pac108.s3.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="quinidine " precipitant="nifedipine "/>
+		<pair e1="DBMI.pac108.s3.e1" e2="DBMI.pac108.s3.e0" id="DBMI.pac108.s3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac108.s4" origId="s4" text="Monitoring of heart rate and adjustment of the nifedipine dose, if necessary, are recommended when quinidine is added to a treatment with nifedipine."/>
+	<sentencespan id="DBMI.pac108.sp0" origId="sp0" text="Quinidine:  Quinidine is a substrate of CYP3A and has been shown to inhibit CYP3A in vitro. Coadministration of multiple doses of quinidine sulfate, 200 mg t.i.d., and nifedipine, 20 mg t.i.d., increased Cmax and AUC of nifedipine in healthy volunteers by factors of 2.30 and 1.37, respectively. The heart rate in the initial interval after drug administration was increased by up to 17.9 beats/minute.">
+		<entity charOffset="130-140" id="DBMI.pac108.sp0.e0" origId="sp0.e0" text="quinidine " type="Active ingredient"/>
+		<entity charOffset="168-179" id="DBMI.pac108.sp0.e1" origId="sp0.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac108.sp0.e0" e2="DBMI.pac108.sp0.e1" id="DBMI.pac108.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="quinidine "/>
+		<pair e1="DBMI.pac108.sp0.e1" e2="DBMI.pac108.sp0.e0" id="DBMI.pac108.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac108.sp1" origId="sp1" text="The exposure to quinidine was not importantly changed in the presence of nifedipine. Monitoring of heart rate and adjustment of the nifedipine dose, if necessary, are recommended when quinidine is added to a treatment with nifedipine.">
+		<entity charOffset="476-487" id="DBMI.pac108.sp1.e0" origId="sp1.e0" text="nifedipine " type="Active ingredient"/>
+		<entity charOffset="419-429" id="DBMI.pac108.sp1.e1" origId="sp1.e1" text="quinidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac108.sp1.e0" e2="DBMI.pac108.sp1.e1" id="DBMI.pac108.sp1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="quinidine " precipitant="nifedipine "/>
+		<pair e1="DBMI.pac108.sp1.e1" e2="DBMI.pac108.sp1.e0" id="DBMI.pac108.sp1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

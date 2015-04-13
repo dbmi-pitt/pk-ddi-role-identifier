@@ -1,0 +1,19 @@
+7 DRUG INTERACTIONS
+
+7.1 Antacids
+
+Fexofenadine hydrochloride should not be taken closely in time with aluminum and magnesium containing antacids. In healthy adult subjects, administration of 120 mg of fexofenadine hydrochloride (2 × 60 mg capsule) within 15 minutes of an aluminum and magnesium containing antacid (Maalox®1) decreased fexofenadine AUC by 41% and Cmax by 43%.
+
+1 Maalox® is a registered trademark of Novartis Consumer Healthcare.
+
+7.2 Erythromycin and Ketoconazole
+
+Fexofenadine has been shown to exhibit minimal (ca. 5%) metabolism. However, coadministration of fexofenadine hydrochloride with either ketoconazole or erythromycin led to increased plasma concentrations of fexofenadine in healthy adult subjects. Fexofenadine had no effect on the pharmacokinetics of either erythromycin or ketoconazole. In two separate studies in healthy adult subjects, fexofenadine hydrochloride 120 mg twice daily (240 mg total daily dose) was coadministered with either erythromycin 500 mg every 8 hours or ketoconazole 400 mg once daily under steady-state conditions to healthy adult subjects (n = 24, each study). No differences in adverse events or QTc interval were observed when subjects were administered fexofenadine hydrochloride alone or in combination with either erythromycin or ketoconazole. The findings of these studies are summarized in the following table:
+
+The changes in plasma levels were within the range of plasma levels achieved in adequate and well controlled clinical trials.
+
+The mechanism of these interactions has been evaluated in in vitro, in situ, and in vivo animal models. These studies indicate that ketoconazole or erythromycin coadministration enhances fexofenadine gastrointestinal absorption. This observed increase in the bioavailability of fexofenadine may be due to transport-related effects, such as p-glycoprotein. In vivo animal studies also suggest that in addition to enhancing absorption, ketoconazole decreases fexofenadine gastrointestinal secretion, while erythromycin may also decrease biliary excretion.
+
+7.3 Fruit Juices
+
+Fruit juices such as grapefruit, orange and apple may reduce the bioavailability and exposure of fexofenadine. This is based on the results from three clinical studies using histamine induced skin wheals and flares coupled with population pharmacokinetic analysis. The size of wheal and flare were significantly larger when fexofenadine hydrochloride was administered with either grapefruit or orange juices compared to water. Based on the literature reports, the same effects may be extrapolated to other fruit juices such as apple juice. The clinical significance of these observations is unknown. In addition, based on the population pharmacokinetics analysis of the combined data from grapefruit and orange juices studies with the data from a bioequivalence study, the bioavailability of fexofenadine was reduced by 36%. Therefore, to maximize the effects of fexofenadine, it is recommended that fexofenadine hydrochloride tablets should be taken with water [see Clinical Pharmacology (12.3) and Dosage and Administration (2.1)].

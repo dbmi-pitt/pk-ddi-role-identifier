@@ -1,0 +1,17 @@
+
+<document id="DBMI.pac78" origId="pac78">
+	<sentence id="DBMI.pac78.s0" origId="s0" text="In a controlled study, a single dose of pimozide 2 mg coadministered with citalopram 40 mg given once daily for 11 days was associated with a mean increase in QTc values of approximately 10 msec compared to pimozide given alone."/>
+	<sentence id="DBMI.pac78.s1" origId="s1" text="Citalopram did not alter the mean AUC or Cmax of pimozide.">
+		<entity charOffset="229-240" id="DBMI.pac78.s1.e0" origId="s1.e0" text="Citalopram " type="Active ingredient"/>
+		<entity charOffset="278-287" id="DBMI.pac78.s1.e1" origId="s1.e1" text="pimozide " type="Active ingredient"/>
+		<pair e1="DBMI.pac78.s1.e0" e2="DBMI.pac78.s1.e1" id="DBMI.pac78.s1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="pimozide " precipitant="Citalopram "/>
+		<pair e1="DBMI.pac78.s1.e1" e2="DBMI.pac78.s1.e0" id="DBMI.pac78.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac78.s2" origId="s2" text="The mechanism of this pharmacodynamic interaction is not known."/>
+	<sentencespan id="DBMI.pac78.sp0" origId="sp0" text="In a controlled study, a single dose of pimozide 2 mg coadministered with citalopram 40 mg given once daily for 11 days was associated with a mean increase in QTc values of approximately 10 msec compared to pimozide given alone. Citalopram did not alter the mean AUC or Cmax of pimozide. The mechanism of this pharmacodynamic interaction is not known.">
+		<entity charOffset="229-240" id="DBMI.pac78.sp0.e0" origId="sp0.e0" text="Citalopram " type="Active ingredient"/>
+		<entity charOffset="278-287" id="DBMI.pac78.sp0.e1" origId="sp0.e1" text="pimozide " type="Active ingredient"/>
+		<pair e1="DBMI.pac78.sp0.e0" e2="DBMI.pac78.sp0.e1" id="DBMI.pac78.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="pimozide " precipitant="Citalopram "/>
+		<pair e1="DBMI.pac78.sp0.e1" e2="DBMI.pac78.sp0.e0" id="DBMI.pac78.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac116" origId="pac116">
+	<sentence id="DBMI.pac116.s0" origId="s0" text="Rosiglitazone:  Coadministration of rosiglitazone (4 mg b.i.d.)was shown to have no clinically relevant effect on the pharmacokinetics of nifedipine.">
+		<entity charOffset="36-50" id="DBMI.pac116.s0.e0" origId="s0.e0" text="rosiglitazone " type="Active ingredient"/>
+		<entity charOffset="139-150" id="DBMI.pac116.s0.e1" origId="s0.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac116.s0.e0" e2="DBMI.pac116.s0.e1" id="DBMI.pac116.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="nifedipine " precipitant="rosiglitazone "/>
+		<pair e1="DBMI.pac116.s0.e1" e2="DBMI.pac116.s0.e0" id="DBMI.pac116.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac116.sp0" origId="sp0" text="Rosiglitazone:  Coadministration of rosiglitazone (4 mg b.i.d.)was shown to have no clinically relevant effect on the pharmacokinetics of nifedipine.">
+		<entity charOffset="36-50" id="DBMI.pac116.sp0.e0" origId="sp0.e0" text="rosiglitazone " type="Active ingredient"/>
+		<entity charOffset="139-150" id="DBMI.pac116.sp0.e1" origId="sp0.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac116.sp0.e0" e2="DBMI.pac116.sp0.e1" id="DBMI.pac116.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="nifedipine " precipitant="rosiglitazone "/>
+		<pair e1="DBMI.pac116.sp0.e1" e2="DBMI.pac116.sp0.e0" id="DBMI.pac116.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

@@ -1,0 +1,567 @@
+
+<document id="DBMI.pac5" origId="pac5">
+	<sentence id="DBMI.pac5.s0" origId="s0" text="7 DRUG INTERACTIONS\n\n7.1 Alcohol\n\nA single dose of ethanol (0.5 g/kg) had no effect on the pharmacokinetics of venlafaxine or O-desmethylvenlafaxine (ODV) when venlafaxine was administered at 150 mg/day in 15 healthy male subjects.">
+		<entity charOffset="51-59" id="DBMI.pac5.s0.e0" origId="s0.e0" text="ethanol " type="Active ingredient"/>
+		<entity charOffset="126-149" id="DBMI.pac5.s0.e1" origId="s0.e1" text="O-desmethylvenlafaxine " type="Metabolite"/>
+		<entity charOffset="111-123" id="DBMI.pac5.s0.e2" origId="s0.e2" text="venlafaxine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s0.e0" e2="DBMI.pac5.s0.e1" id="DBMI.pac5.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="O-desmethylvenlafaxine " precipitant="ethanol "/>
+		<pair e1="DBMI.pac5.s0.e0" e2="DBMI.pac5.s0.e2" id="DBMI.pac5.s0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="venlafaxine " precipitant="ethanol "/>
+		<pair e1="DBMI.pac5.s0.e1" e2="DBMI.pac5.s0.e0" id="DBMI.pac5.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s0.e1" e2="DBMI.pac5.s0.e2" id="DBMI.pac5.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s0.e2" e2="DBMI.pac5.s0.e0" id="DBMI.pac5.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s0.e2" e2="DBMI.pac5.s0.e1" id="DBMI.pac5.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s1" origId="s1" text="Additionally, administration of venlafaxine in a stable regimen did not exaggerate the psychomotor and psychometric effects induced by ethanol in these same subjects when they were not receiving venlafaxine."/>
+	<sentence id="DBMI.pac5.s2" origId="s2" text="7.2 Cimetidine\n\nConcomitant administration of cimetidine and venlafaxine in a steady-state study for both drugs resulted in inhibition of first-pass metabolism of venlafaxine in 18 healthy subjects.">
+		<entity charOffset="487-498" id="DBMI.pac5.s2.e0" origId="s2.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="502-514" id="DBMI.pac5.s2.e1" origId="s2.e1" text="venlafaxine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s2.e0" e2="DBMI.pac5.s2.e1" id="DBMI.pac5.s2.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="venlafaxine " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac5.s2.e0" e2="DBMI.pac5.s2.e1" id="DBMI.pac5.s2.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="venlafaxine " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac5.s2.e1" e2="DBMI.pac5.s2.e0" id="DBMI.pac5.s2.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s3" origId="s3" text="The oral clearance of venlafaxine was reduced by about 43%, and the exposure (AUC) and maximum concentration (Cmax) of the drug were increased by about 60%."/>
+	<sentence id="DBMI.pac5.s4" origId="s4" text="However, coadministration of cimetidine had no apparent effect on the pharmacokinetics of ODV, which is present in much greater quantity in the circulation than venlafaxine.">
+		<entity charOffset="826-837" id="DBMI.pac5.s4.e0" origId="s4.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="887-891" id="DBMI.pac5.s4.e1" origId="s4.e1" text="ODV " type="Metabolite"/>
+		<pair e1="DBMI.pac5.s4.e0" e2="DBMI.pac5.s4.e1" id="DBMI.pac5.s4.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ODV " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac5.s4.e1" e2="DBMI.pac5.s4.e0" id="DBMI.pac5.s4.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s5" origId="s5" text="The overall pharmacological activity of venlafaxine plus ODV is expected to increase only slightly, and no dosage adjustment should be necessary for most normal adults."/>
+	<sentence id="DBMI.pac5.s6" origId="s6" text="However, for patients with pre-existing hypertension, and for elderly patients or patients with hepatic dysfunction, the interaction associated with the concomitant use of venlafaxine and cimetidine is not known and potentially could be more pronounced."/>
+	<sentence id="DBMI.pac5.s7" origId="s7" text="Therefore, caution is advised with such patients."/>
+	<sentence id="DBMI.pac5.s8" origId="s8" text="7.3 Diazepam\n\nUnder steady-state conditions for venlafaxine administered at 150 mg/day, a single 10 mg dose of diazepam did not appear to affect the pharmacokinetics of either venlafaxine or ODV in 18 healthy male subjects.">
+		<entity charOffset="1556-1565" id="DBMI.pac5.s8.e0" origId="s8.e0" text="diazepam " type="Active ingredient"/>
+		<entity charOffset="1493-1505" id="DBMI.pac5.s8.e1" origId="s8.e1" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="1636-1640" id="DBMI.pac5.s8.e2" origId="s8.e2" text="ODV " type="Metabolite"/>
+		<pair e1="DBMI.pac5.s8.e0" e2="DBMI.pac5.s8.e1" id="DBMI.pac5.s8.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="venlafaxine " precipitant="diazepam "/>
+		<pair e1="DBMI.pac5.s8.e0" e2="DBMI.pac5.s8.e1" id="DBMI.pac5.s8.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="venlafaxine " precipitant="diazepam "/>
+		<pair e1="DBMI.pac5.s8.e0" e2="DBMI.pac5.s8.e2" id="DBMI.pac5.s8.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ODV " precipitant="diazepam "/>
+		<pair e1="DBMI.pac5.s8.e1" e2="DBMI.pac5.s8.e0" id="DBMI.pac5.s8.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s8.e1" e2="DBMI.pac5.s8.e2" id="DBMI.pac5.s8.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s8.e2" e2="DBMI.pac5.s8.e0" id="DBMI.pac5.s8.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s8.e2" e2="DBMI.pac5.s8.e1" id="DBMI.pac5.s8.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s9" origId="s9" text="Venlafaxine also did not have any effect on the pharmacokinetics of diazepam or its active metabolite, desmethyldiazepam, or affect the psychomotor and psychometric effects induced by diazepam.">
+		<entity charOffset="1669-1681" id="DBMI.pac5.s9.e0" origId="s9.e0" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="1737-1746" id="DBMI.pac5.s9.e1" origId="s9.e1" text="diazepam " type="Active ingredient"/>
+		<entity charOffset="1772-1790" id="DBMI.pac5.s9.e2" origId="s9.e2" text="desmethyldiazepam " type="Metabolite"/>
+		<pair e1="DBMI.pac5.s9.e0" e2="DBMI.pac5.s9.e1" id="DBMI.pac5.s9.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="diazepam " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.s9.e0" e2="DBMI.pac5.s9.e2" id="DBMI.pac5.s9.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="desmethyldiazepam " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.s9.e1" e2="DBMI.pac5.s9.e0" id="DBMI.pac5.s9.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s9.e1" e2="DBMI.pac5.s9.e2" id="DBMI.pac5.s9.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s9.e2" e2="DBMI.pac5.s9.e0" id="DBMI.pac5.s9.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s9.e2" e2="DBMI.pac5.s9.e1" id="DBMI.pac5.s9.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s10" origId="s10" text="7.4 Haloperidol\n\nVenlafaxine administered under steady-state conditions at 150 mg/day in 24 healthy subjects decreased total oral-dose clearance (Cl/F) of a single 2 mg dose of haloperidol by 42%, which resulted in a 70% increase in haloperidol AUC.">
+		<entity charOffset="1881-1893" id="DBMI.pac5.s10.e0" origId="s10.e0" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="2131-2143" id="DBMI.pac5.s10.e1" origId="s10.e1" text="haloperidol " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s10.e0" e2="DBMI.pac5.s10.e1" id="DBMI.pac5.s10.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="haloperidol " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.s10.e0" e2="DBMI.pac5.s10.e1" id="DBMI.pac5.s10.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="haloperidol " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.s10.e1" e2="DBMI.pac5.s10.e0" id="DBMI.pac5.s10.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s11" origId="s11" text="In addition, the haloperidol Cmax increased 88% when coadministered with venlafaxine, but the haloperidol elimination half-life (t1/2) was unchanged.">
+		<entity charOffset="2187-2199" id="DBMI.pac5.s11.e0" origId="s11.e0" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="2131-2143" id="DBMI.pac5.s11.e1" origId="s11.e1" text="haloperidol " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s11.e0" e2="DBMI.pac5.s11.e1" id="DBMI.pac5.s11.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="haloperidol " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.s11.e1" e2="DBMI.pac5.s11.e0" id="DBMI.pac5.s11.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s12" origId="s12" text="The mechanism explaining this finding is unknown."/>
+	<sentence id="DBMI.pac5.s13" origId="s13" text="7.5 Lithium\n\nThe steady-state pharmacokinetics of venlafaxine administered at 150 mg/day were not affected when a single 600 mg oral dose of lithium was administered to 12 healthy male subjects.">
+		<entity charOffset="2456-2464" id="DBMI.pac5.s13.e0" origId="s13.e0" text="lithium " type="Active ingredient"/>
+		<entity charOffset="2510-2514" id="DBMI.pac5.s13.e1" origId="s13.e1" text="ODV " type="Metabolite"/>
+		<entity charOffset="2365-2377" id="DBMI.pac5.s13.e2" origId="s13.e2" text="venlafaxine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s13.e0" e2="DBMI.pac5.s13.e1" id="DBMI.pac5.s13.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ODV " precipitant="lithium "/>
+		<pair e1="DBMI.pac5.s13.e0" e2="DBMI.pac5.s13.e2" id="DBMI.pac5.s13.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="venlafaxine " precipitant="lithium "/>
+		<pair e1="DBMI.pac5.s13.e1" e2="DBMI.pac5.s13.e0" id="DBMI.pac5.s13.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s13.e1" e2="DBMI.pac5.s13.e2" id="DBMI.pac5.s13.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s13.e2" e2="DBMI.pac5.s13.e0" id="DBMI.pac5.s13.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s13.e2" e2="DBMI.pac5.s13.e1" id="DBMI.pac5.s13.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s14" origId="s14" text="ODV also was unaffected."/>
+	<sentence id="DBMI.pac5.s15" origId="s15" text="Venlafaxine had no effect on the pharmacokinetics of lithium (see also CNS-Active Drugs, below).">
+		<entity charOffset="2535-2547" id="DBMI.pac5.s15.e0" origId="s15.e0" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="2588-2596" id="DBMI.pac5.s15.e1" origId="s15.e1" text="lithium " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s15.e0" e2="DBMI.pac5.s15.e1" id="DBMI.pac5.s15.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lithium " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.s15.e1" e2="DBMI.pac5.s15.e0" id="DBMI.pac5.s15.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s16" origId="s16" text="7.6 Drugs Highly Bound to Plasma Proteins\n\nVenlafaxine is not highly bound to plasma proteins; therefore, administration of venlafaxine hydrochloride extended-release tablets to a patient taking another drug that is highly protein bound should not cause increased free concentrations of the other drug."/>
+	<sentence id="DBMI.pac5.s17" origId="s17" text="7.7 Drugs that Inhibit Cytochrome P450 Isoenzymes\n\nCYP2D6 Inhibitors: In vitro and in vivo studies indicate that venlafaxine is metabolized to its active metabolite, ODV, by CYP2D6, the isoenzyme that is responsible for the genetic polymorphism seen in the metabolism of many antidepressants."/>
+	<sentence id="DBMI.pac5.s18" origId="s18" text="Therefore, the potential exists for a drug interaction between drugs that inhibit CYP2D6-mediated metabolism of venlafaxine, reducing the metabolism of venlafaxine to ODV, resulting in increased plasma concentrations of venlafaxine and decreased concentrations of the active metabolite."/>
+	<sentence id="DBMI.pac5.s19" origId="s19" text="CYP2D6 inhibitors such as quinidine would be expected to do this, but the effect would be similar to what is seen in patients who are genetically CYP2D6 poor metabolizers [see Clinical Pharmacology (12.3)]."/>
+	<sentence id="DBMI.pac5.s20" origId="s20" text="Therefore, no dosage adjustment is required when venlafaxine is coadministered with a CYP2D6 inhibitor."/>
+	<sentence id="DBMI.pac5.s21" origId="s21" text="Ketoconazole: A pharmacokinetic study with ketoconazole 100 mg b.i.d.with a single dose of venlafaxine 50 mg in extensive metabolizers (EM; n=14) and 25 mg in poor metabolizers (PM;n=6) of CYP2D6 resulted in higher plasma concentrations of both venlafaxine and O-desmethylvenlafaxine (ODV) in most subjects following administration of ketoconazole.">
+		<entity charOffset="3872-3885" id="DBMI.pac5.s21.e0" origId="s21.e0" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="3921-3933" id="DBMI.pac5.s21.e1" origId="s21.e1" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="4091-4114" id="DBMI.pac5.s21.e2" origId="s21.e2" text="O-desmethylvenlafaxine " type="Metabolite"/>
+		<entity charOffset="4454-4458" id="DBMI.pac5.s21.e3" origId="s21.e3" text="ODV " type="Metabolite"/>
+		<entity charOffset="4335-4347" id="DBMI.pac5.s21.e4" origId="s21.e4" text="Venlafaxine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s21.e0" e2="DBMI.pac5.s21.e1" id="DBMI.pac5.s21.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="venlafaxine " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac5.s21.e0" e2="DBMI.pac5.s21.e2" id="DBMI.pac5.s21.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="O-desmethylvenlafaxine " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac5.s21.e0" e2="DBMI.pac5.s21.e3" id="DBMI.pac5.s21.p2" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="ODV " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac5.s21.e0" e2="DBMI.pac5.s21.e3" id="DBMI.pac5.s21.p3" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="ODV " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac5.s21.e0" e2="DBMI.pac5.s21.e4" id="DBMI.pac5.s21.p4" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Venlafaxine " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac5.s21.e0" e2="DBMI.pac5.s21.e4" id="DBMI.pac5.s21.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Venlafaxine " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac5.s21.e1" e2="DBMI.pac5.s21.e0" id="DBMI.pac5.s21.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e1" e2="DBMI.pac5.s21.e2" id="DBMI.pac5.s21.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e1" e2="DBMI.pac5.s21.e3" id="DBMI.pac5.s21.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e1" e2="DBMI.pac5.s21.e4" id="DBMI.pac5.s21.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e2" e2="DBMI.pac5.s21.e0" id="DBMI.pac5.s21.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e2" e2="DBMI.pac5.s21.e1" id="DBMI.pac5.s21.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e2" e2="DBMI.pac5.s21.e3" id="DBMI.pac5.s21.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e2" e2="DBMI.pac5.s21.e4" id="DBMI.pac5.s21.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e3" e2="DBMI.pac5.s21.e0" id="DBMI.pac5.s21.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e3" e2="DBMI.pac5.s21.e1" id="DBMI.pac5.s21.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e3" e2="DBMI.pac5.s21.e2" id="DBMI.pac5.s21.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e3" e2="DBMI.pac5.s21.e4" id="DBMI.pac5.s21.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e4" e2="DBMI.pac5.s21.e0" id="DBMI.pac5.s21.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e4" e2="DBMI.pac5.s21.e1" id="DBMI.pac5.s21.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e4" e2="DBMI.pac5.s21.e2" id="DBMI.pac5.s21.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s21.e4" e2="DBMI.pac5.s21.e3" id="DBMI.pac5.s21.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s22" origId="s22" text="Venlafaxine Cmax increased by 26% in EM subjects and 48% in PM subjects."/>
+	<sentence id="DBMI.pac5.s23" origId="s23" text="Cmax values for ODV increased by 14% and 29% in EM and PM subjects, respectively."/>
+	<sentence id="DBMI.pac5.s24" origId="s24" text="Venlafaxine AUC increased by 21% in EM subjects and 70% in PM subjects (range in PM's -2% to 206%), and AUC values for ODV increased by 23% and 33% in EM and PM (range in PM's -38% to 105%) subjects, respectively."/>
+	<sentence id="DBMI.pac5.s25" origId="s25" text="Combined AUC's of venlafaxine and ODV increased on average by approximately 23% in EM's and 53% in PM's, (range in PM's 4% to 134%)."/>
+	<sentence id="DBMI.pac5.s26" origId="s26" text="Concomitant use of CYP3A4 inhibitors and venlafaxine may increase levels of venlafaxine and ODV."/>
+	<sentence id="DBMI.pac5.s27" origId="s27" text="Therefore, caution is advised if a patient's therapy includes a CYP3A4 inhibitor and venlafaxine concomitantly."/>
+	<sentence id="DBMI.pac5.s28" origId="s28" text="7.8 Drugs Metabolized by Cytochrome P450 Isoenzymes\n\nCYP2D6\n\nIn vitro studies indicate that venlafaxine is a relatively weak inhibitor of CYP2D6."/>
+	<sentence id="DBMI.pac5.s29" origId="s29" text="These findings have been confirmed in a clinical drug interaction study comparing the effect of venlafaxine with that of fluoxetine on the CYP2D6-mediated metabolism of dextromethorphan to dextrorphan."/>
+	<sentence id="DBMI.pac5.s30" origId="s30" text="Imipramine - Venlafaxine did not affect the pharmacokinetics of imipramine and 2-OH-imipramine.">
+		<entity charOffset="5256-5268" id="DBMI.pac5.s30.e0" origId="s30.e0" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="5322-5338" id="DBMI.pac5.s30.e1" origId="s30.e1" text="2-OH-imipramine " type="Metabolite"/>
+		<entity charOffset="5307-5318" id="DBMI.pac5.s30.e2" origId="s30.e2" text="imipramine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s30.e0" e2="DBMI.pac5.s30.e1" id="DBMI.pac5.s30.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="2-OH-imipramine " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.s30.e0" e2="DBMI.pac5.s30.e2" id="DBMI.pac5.s30.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="imipramine " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.s30.e1" e2="DBMI.pac5.s30.e0" id="DBMI.pac5.s30.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s30.e1" e2="DBMI.pac5.s30.e2" id="DBMI.pac5.s30.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s30.e2" e2="DBMI.pac5.s30.e0" id="DBMI.pac5.s30.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s30.e2" e2="DBMI.pac5.s30.e1" id="DBMI.pac5.s30.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s31" origId="s31" text="However, desipramine AUC, Cmax, and Cmin increased by about 35% in the presence of venlafaxine."/>
+	<sentence id="DBMI.pac5.s32" origId="s32" text="The 2-OH-desipramine AUC's increased by at least 2.5 fold (with venlafaxine 37.5 mg q12h) and by 4.5 fold (with venlafaxine 75 mg q12h).">
+		<entity charOffset="5422-5434" id="DBMI.pac5.s32.e0" origId="s32.e0" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="5348-5360" id="DBMI.pac5.s32.e1" origId="s32.e1" text="desipramine " type="Active ingredient"/>
+		<entity charOffset="5439-5456" id="DBMI.pac5.s32.e2" origId="s32.e2" text="2-OH-desipramine " type="Metabolite"/>
+		<pair e1="DBMI.pac5.s32.e0" e2="DBMI.pac5.s32.e1" id="DBMI.pac5.s32.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="desipramine " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.s32.e0" e2="DBMI.pac5.s32.e2" id="DBMI.pac5.s32.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="2-OH-desipramine " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.s32.e1" e2="DBMI.pac5.s32.e0" id="DBMI.pac5.s32.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s32.e1" e2="DBMI.pac5.s32.e2" id="DBMI.pac5.s32.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s32.e2" e2="DBMI.pac5.s32.e0" id="DBMI.pac5.s32.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s32.e2" e2="DBMI.pac5.s32.e1" id="DBMI.pac5.s32.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s33" origId="s33" text="Imipramine did not affect the pharmacokinetics of venlafaxine and ODV.">
+		<entity charOffset="5572-5583" id="DBMI.pac5.s33.e0" origId="s33.e0" text="Imipramine " type="Active ingredient"/>
+		<entity charOffset="5638-5642" id="DBMI.pac5.s33.e1" origId="s33.e1" text="ODV " type="Metabolite"/>
+		<entity charOffset="5622-5634" id="DBMI.pac5.s33.e2" origId="s33.e2" text="venlafaxine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s33.e0" e2="DBMI.pac5.s33.e1" id="DBMI.pac5.s33.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ODV " precipitant="Imipramine "/>
+		<pair e1="DBMI.pac5.s33.e0" e2="DBMI.pac5.s33.e2" id="DBMI.pac5.s33.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="venlafaxine " precipitant="Imipramine "/>
+		<pair e1="DBMI.pac5.s33.e1" e2="DBMI.pac5.s33.e0" id="DBMI.pac5.s33.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s33.e1" e2="DBMI.pac5.s33.e2" id="DBMI.pac5.s33.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s33.e2" e2="DBMI.pac5.s33.e0" id="DBMI.pac5.s33.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s33.e2" e2="DBMI.pac5.s33.e1" id="DBMI.pac5.s33.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s34" origId="s34" text="The clinical significance of elevated 2-OH-desipramine levels is unknown."/>
+	<sentence id="DBMI.pac5.s35" origId="s35" text="Metoprolol - Concomitant administration of venlafaxine (50 mg every 8 hours for 5 days) and metoprolol (100 mg every 24 hours for 5 days) to 18 healthy male subjects in a pharmacokinetic interaction study for both drugs resulted in an increase of plasma concentrations of metoprolol by approximately 30 to 40% without altering the plasma concentrations of its active metabolite, -hydroxymetoprolol.">
+		<entity charOffset="5761-5773" id="DBMI.pac5.s35.e0" origId="s35.e0" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="6097-6117" id="DBMI.pac5.s35.e1" origId="s35.e1" text="?-hydroxymetoprolol " type="Metabolite"/>
+		<entity charOffset="5990-6001" id="DBMI.pac5.s35.e2" origId="s35.e2" text="metoprolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s35.e0" e2="DBMI.pac5.s35.e1" id="DBMI.pac5.s35.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="?-hydroxymetoprolol " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.s35.e0" e2="DBMI.pac5.s35.e2" id="DBMI.pac5.s35.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="metoprolol " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.s35.e1" e2="DBMI.pac5.s35.e0" id="DBMI.pac5.s35.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s35.e1" e2="DBMI.pac5.s35.e2" id="DBMI.pac5.s35.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s35.e2" e2="DBMI.pac5.s35.e0" id="DBMI.pac5.s35.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s35.e2" e2="DBMI.pac5.s35.e1" id="DBMI.pac5.s35.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s36" origId="s36" text="Metoprolol did not alter the pharmacokinetic profile of venlafaxine or its active metabolite, O-desmethylvenlafaxine.">
+		<entity charOffset="6118-6129" id="DBMI.pac5.s36.e0" origId="s36.e0" text="Metoprolol " type="Active ingredient"/>
+		<entity charOffset="6174-6186" id="DBMI.pac5.s36.e1" origId="s36.e1" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="6212-6235" id="DBMI.pac5.s36.e2" origId="s36.e2" text="O-desmethylvenlafaxine " type="Metabolite"/>
+		<pair e1="DBMI.pac5.s36.e0" e2="DBMI.pac5.s36.e1" id="DBMI.pac5.s36.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="venlafaxine " precipitant="Metoprolol "/>
+		<pair e1="DBMI.pac5.s36.e0" e2="DBMI.pac5.s36.e2" id="DBMI.pac5.s36.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="O-desmethylvenlafaxine " precipitant="Metoprolol "/>
+		<pair e1="DBMI.pac5.s36.e1" e2="DBMI.pac5.s36.e0" id="DBMI.pac5.s36.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s36.e1" e2="DBMI.pac5.s36.e2" id="DBMI.pac5.s36.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s36.e2" e2="DBMI.pac5.s36.e0" id="DBMI.pac5.s36.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s36.e2" e2="DBMI.pac5.s36.e1" id="DBMI.pac5.s36.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s37" origId="s37" text="Venlafaxine appeared to reduce the blood pressure lowering effect of metoprolol in this study."/>
+	<sentence id="DBMI.pac5.s38" origId="s38" text="The clinical relevance of this finding for hypertensive patients is unknown."/>
+	<sentence id="DBMI.pac5.s39" origId="s39" text="Caution should be exercised with co-administration of venlafaxine and metoprolol."/>
+	<sentence id="DBMI.pac5.s40" origId="s40" text="Venlafaxine treatment has been associated with dose-related increases in blood pressure in some patients."/>
+	<sentence id="DBMI.pac5.s41" origId="s41" text="It is recommended that patients receiving Venlafaxine hydrochloride extended-release tablets have regular monitoring of blood pressure [see Warnings and Precautions (5.5)]."/>
+	<sentence id="DBMI.pac5.s42" origId="s42" text="Risperidone - Venlafaxine administered under steady-state conditions at 150 mg/day slightly inhibited the CYP2D6-mediated metabolism of risperidone (administered as a single 1 mg oral dose) to its active metabolite, 9-hydroxyrisperidone, resulting in an approximate 32% increase in risperidone AUC.">
+		<entity charOffset="6788-6800" id="DBMI.pac5.s42.e0" origId="s42.e0" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="7056-7068" id="DBMI.pac5.s42.e1" origId="s42.e1" text="risperidone " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s42.e0" e2="DBMI.pac5.s42.e1" id="DBMI.pac5.s42.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="risperidone " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.s42.e1" e2="DBMI.pac5.s42.e0" id="DBMI.pac5.s42.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s43" origId="s43" text="However, venlafaxine coadministration did not significantly alter the pharmacokinetic profile of the total active moiety (risperidone plus 9-hydroxyrisperidone).">
+		<entity charOffset="7082-7094" id="DBMI.pac5.s43.e0" origId="s43.e0" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="7195-7207" id="DBMI.pac5.s43.e1" origId="s43.e1" text="risperidone " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s43.e0" e2="DBMI.pac5.s43.e1" id="DBMI.pac5.s43.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="risperidone " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.s43.e1" e2="DBMI.pac5.s43.e0" id="DBMI.pac5.s43.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s44" origId="s44" text="CYP3A4\n\nVenlafaxine did not inhibit CYP3A4 in vitro."/>
+	<sentence id="DBMI.pac5.s45" origId="s45" text="This finding was confirmed in vivo by clinical drug interaction studies in which venlafaxine did not inhibit the metabolism of several CYP3A4 substrates, including alprazolam, diazepam, and terfenadine.">
+		<entity charOffset="7370-7382" id="DBMI.pac5.s45.e0" origId="s45.e0" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="7479-7491" id="DBMI.pac5.s45.e1" origId="s45.e1" text="terfenadine " type="Active ingredient"/>
+		<entity charOffset="7465-7474" id="DBMI.pac5.s45.e2" origId="s45.e2" text="diazepam " type="Active ingredient"/>
+		<entity charOffset="7453-7464" id="DBMI.pac5.s45.e3" origId="s45.e3" text="alprazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s45.e0" e2="DBMI.pac5.s45.e1" id="DBMI.pac5.s45.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="terfenadine " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.s45.e0" e2="DBMI.pac5.s45.e2" id="DBMI.pac5.s45.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="diazepam " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.s45.e0" e2="DBMI.pac5.s45.e3" id="DBMI.pac5.s45.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="alprazolam " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.s45.e1" e2="DBMI.pac5.s45.e0" id="DBMI.pac5.s45.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s45.e1" e2="DBMI.pac5.s45.e2" id="DBMI.pac5.s45.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s45.e1" e2="DBMI.pac5.s45.e3" id="DBMI.pac5.s45.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s45.e2" e2="DBMI.pac5.s45.e0" id="DBMI.pac5.s45.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s45.e2" e2="DBMI.pac5.s45.e1" id="DBMI.pac5.s45.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s45.e2" e2="DBMI.pac5.s45.e3" id="DBMI.pac5.s45.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s45.e3" e2="DBMI.pac5.s45.e0" id="DBMI.pac5.s45.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s45.e3" e2="DBMI.pac5.s45.e1" id="DBMI.pac5.s45.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s45.e3" e2="DBMI.pac5.s45.e2" id="DBMI.pac5.s45.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s46" origId="s46" text="Indinavir - In a study of 9 healthy volunteers, venlafaxine administered under steady-state conditions at 150 mg/day resulted in a 28% decrease in the AUC of a single 800 mg oral dose of indinavir and a 36% decrease in indinavir Cmax."/>
+	<sentence id="DBMI.pac5.s47" origId="s47" text="Indinavir did not affect the pharmacokinetics of venlafaxine and ODV.">
+		<entity charOffset="7728-7738" id="DBMI.pac5.s47.e0" origId="s47.e0" text="Indinavir " type="Active ingredient"/>
+		<entity charOffset="7793-7797" id="DBMI.pac5.s47.e1" origId="s47.e1" text="ODV " type="Metabolite"/>
+		<entity charOffset="7777-7789" id="DBMI.pac5.s47.e2" origId="s47.e2" text="venlafaxine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s47.e0" e2="DBMI.pac5.s47.e1" id="DBMI.pac5.s47.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ODV " precipitant="Indinavir "/>
+		<pair e1="DBMI.pac5.s47.e0" e2="DBMI.pac5.s47.e2" id="DBMI.pac5.s47.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="venlafaxine " precipitant="Indinavir "/>
+		<pair e1="DBMI.pac5.s47.e1" e2="DBMI.pac5.s47.e0" id="DBMI.pac5.s47.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s47.e1" e2="DBMI.pac5.s47.e2" id="DBMI.pac5.s47.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s47.e2" e2="DBMI.pac5.s47.e0" id="DBMI.pac5.s47.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.s47.e2" e2="DBMI.pac5.s47.e1" id="DBMI.pac5.s47.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s48" origId="s48" text="The clinical significance of this finding is unknown."/>
+	<sentence id="DBMI.pac5.s49" origId="s49" text="CYP1A2\n\nVenlafaxine did not inhibit CYP1A2 in vitro.">
+		<entity charOffset="7861-7873" id="DBMI.pac5.s49.e0" origId="s49.e0" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="8033-8042" id="DBMI.pac5.s49.e1" origId="s49.e1" text="caffeine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s49.e0" e2="DBMI.pac5.s49.e1" id="DBMI.pac5.s49.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="caffeine " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.s49.e1" e2="DBMI.pac5.s49.e0" id="DBMI.pac5.s49.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s50" origId="s50" text="This finding was confirmed in vivo by a clinical drug interaction study in which venlafaxine did not inhibit the metabolism of caffeine, a CYP1A2 substrate."/>
+	<sentence id="DBMI.pac5.s51" origId="s51" text="CYP2C9\n \nVenlafaxine did not inhibit CYP2C9 in vitro.">
+		<entity charOffset="8073-8085" id="DBMI.pac5.s51.e0" origId="s51.e0" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="8231-8243" id="DBMI.pac5.s51.e1" origId="s51.e1" text="tolbutamide " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s51.e0" e2="DBMI.pac5.s51.e1" id="DBMI.pac5.s51.p0" interaction="true" interactionPhraseType="Quantitative" modality="Negative" object="tolbutamide " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.s51.e1" e2="DBMI.pac5.s51.e0" id="DBMI.pac5.s51.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s52" origId="s52" text="In vivo, venlafaxine 75 mg by mouth every 12 hours did not alter the pharmacokinetics of a single 500 mg dose of tolbutamide or the CYP2C9 mediated formation of 4-hydroxy-tolbutamide."/>
+	<sentence id="DBMI.pac5.s53" origId="s53" text="CYP2C19\n\nVenlafaxine did not inhibit the metabolism of diazepam, which is partially metabolized by CYP2C19 (see Diazepam above).">
+		<entity charOffset="8312-8324" id="DBMI.pac5.s53.e0" origId="s53.e0" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="8358-8367" id="DBMI.pac5.s53.e1" origId="s53.e1" text="diazepam " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s53.e0" e2="DBMI.pac5.s53.e1" id="DBMI.pac5.s53.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="diazepam " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.s53.e1" e2="DBMI.pac5.s53.e0" id="DBMI.pac5.s53.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac5.s54" origId="s54" text="7.9 Monoamine Oxidase Inhibitors\n\nSee Contraindications (4) and Warnings and Precautions (5.2)."/>
+	<sentence id="DBMI.pac5.s55" origId="s55" text="7.10 Other CNS-Active Drugs\n\nThe risk of using venlafaxine in combination with other CNS-active drugs has not been systematically evaluated (except in the case of those CNS-active drugs noted above)."/>
+	<sentence id="DBMI.pac5.s56" origId="s56" text="Consequently, caution is advised if the concomitant administration of venlafaxine and such drugs is required."/>
+	<sentence id="DBMI.pac5.s57" origId="s57" text="Serotonergic Drugs\n\nBased on the mechanism of action of venlafaxine hydrochloride extended-release tablets and the potential for serotonin syndrome, caution is advised when venlafaxine hydrochloride extended-release tablets are co-administered with other drugs that may affect the serotonergic neurotransmitter systems, such as triptans, SSRIs, other SNRIs, linezolid (an antibiotic which is a reversible non-selective MAOI), lithium, tramadol, or St. John's Wort [see Warnings and Precautions (5.3)]."/>
+	<sentence id="DBMI.pac5.s58" origId="s58" text="If concomitant treatment of venlafaxine hydrochloride extended-release tablets with these drugs is clinically warranted, careful observation of the patient is advised, particularly during treatment initiation and dose increases [see Warnings and Precautions (5.3)]."/>
+	<sentence id="DBMI.pac5.s59" origId="s59" text="The concomitant use of venlafaxine hydrochloride extended-release tablets with tryptophan supplements is not recommended [see Warnings and Precautions (5.3)]."/>
+	<sentence id="DBMI.pac5.s60" origId="s60" text="Triptans\n\nThere have been rare postmarketing reports of serotonin syndrome with use of an SSRI and a triptan."/>
+	<sentence id="DBMI.pac5.s61" origId="s61" text="If concomitant treatment of venlafaxine hydrochloride extended-release tablets with a triptan is clinically warranted, careful observation of the patient is advised, particularly during treatment initiation and dose increases [see Warnings and Precautions (5.3)]."/>
+	<sentence id="DBMI.pac5.s62" origId="s62" text="7.11 Drugs that Interfere with Hemostasis (e.g., NSAID's, Aspirin, and Warfarin)\n\nSerotonin release by platelets plays an important role in hemostasis."/>
+	<sentence id="DBMI.pac5.s63" origId="s63" text="Epidemiological studies of the case-control and cohort design that have demonstrated an association between use of psychotropic drugs that interfere with serotonin reuptake and the occurrence of upper gastrointestinal bleeding."/>
+	<sentence id="DBMI.pac5.s64" origId="s64" text="These studies have also shown that concurrent use of an NSAID or aspirin may potentiate this risk of bleeding."/>
+	<sentence id="DBMI.pac5.s65" origId="s65" text="Altered anticoagulant effects, including increased bleeding, have been reported when SSRI's and SNRI's are coadministered with warfarin."/>
+	<sentence id="DBMI.pac5.s66" origId="s66" text="Patients receiving warfarin therapy should be carefully monitored when venlafaxine hydrochloride extended-release tablets are initiated or discontinued."/>
+	<sentence id="DBMI.pac5.s67" origId="s67" text="[See Warnings and Precautions (5.14)]\n\n7.12 Electroconvulsive Therapy\n\nThere are no clinical data establishing the benefit of electroconvulsive therapy combined with venlafaxine hydrochloride extended-release tablets treatment."/>
+	<sentence id="DBMI.pac5.s68" origId="s68" text="7.13 Postmarketing Spontaneous Drug Interaction Reports\n\nThere have been reports of elevated clozapine levels that were temporally associated with adverse reactions, including seizures, following the addition of venlafaxine."/>
+	<sentence id="DBMI.pac5.s69" origId="s69" text="There have been reports of increases in prothrombin time, partial thromboplastin time, or INR when venlafaxine was given to patients receiving warfarin therapy.">
+		<entity charOffset="11366-11378" id="DBMI.pac5.s69.e0" origId="s69.e0" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="11247-11257" id="DBMI.pac5.s69.e1" origId="s69.e1" text="clozapine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.s69.e0" e2="DBMI.pac5.s69.e1" id="DBMI.pac5.s69.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="clozapine " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.s69.e1" e2="DBMI.pac5.s69.e0" id="DBMI.pac5.s69.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac5.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\n7.1 Alcohol\n\nA single dose of ethanol (0.5 g/kg) had no effect on the pharmacokinetics of venlafaxine or O-desmethylvenlafaxine (ODV) when venlafaxine was administered at 150 mg/day in 15 healthy male subjects. Additionally, administration of venlafaxine in a stable regimen did not exaggerate the psychomotor and psychometric effects induced by ethanol in these same subjects when they were not receiving venlafaxine. 7.2 Cimetidine\n\nConcomitant administration of cimetidine and venlafaxine in a steady-state study for both drugs resulted in inhibition of first-pass metabolism of venlafaxine in 18 healthy subjects.">
+		<entity charOffset="487-498" id="DBMI.pac5.sp0.e0" origId="sp0.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="502-514" id="DBMI.pac5.sp0.e1" origId="sp0.e1" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="51-59" id="DBMI.pac5.sp0.e2" origId="sp0.e2" text="ethanol " type="Active ingredient"/>
+		<entity charOffset="126-149" id="DBMI.pac5.sp0.e3" origId="sp0.e3" text="O-desmethylvenlafaxine " type="Metabolite"/>
+		<pair e1="DBMI.pac5.sp0.e0" e2="DBMI.pac5.sp0.e1" id="DBMI.pac5.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="venlafaxine " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac5.sp0.e0" e2="DBMI.pac5.sp0.e1" id="DBMI.pac5.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="venlafaxine " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac5.sp0.e0" e2="DBMI.pac5.sp0.e2" id="DBMI.pac5.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp0.e0" e2="DBMI.pac5.sp0.e3" id="DBMI.pac5.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp0.e1" e2="DBMI.pac5.sp0.e0" id="DBMI.pac5.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp0.e1" e2="DBMI.pac5.sp0.e2" id="DBMI.pac5.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp0.e1" e2="DBMI.pac5.sp0.e3" id="DBMI.pac5.sp0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp0.e2" e2="DBMI.pac5.sp0.e0" id="DBMI.pac5.sp0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp0.e2" e2="DBMI.pac5.sp0.e1" id="DBMI.pac5.sp0.p8" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="venlafaxine " precipitant="ethanol "/>
+		<pair e1="DBMI.pac5.sp0.e2" e2="DBMI.pac5.sp0.e3" id="DBMI.pac5.sp0.p9" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="O-desmethylvenlafaxine " precipitant="ethanol "/>
+		<pair e1="DBMI.pac5.sp0.e3" e2="DBMI.pac5.sp0.e0" id="DBMI.pac5.sp0.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp0.e3" e2="DBMI.pac5.sp0.e1" id="DBMI.pac5.sp0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp0.e3" e2="DBMI.pac5.sp0.e2" id="DBMI.pac5.sp0.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp1" origId="sp1" text="The oral clearance of venlafaxine was reduced by about 43%, and the exposure (AUC) and maximum concentration (Cmax) of the drug were increased by about 60%. However, coadministration of cimetidine had no apparent effect on the pharmacokinetics of ODV, which is present in much greater quantity in the circulation than venlafaxine. The overall pharmacological activity of venlafaxine plus ODV is expected to increase only slightly, and no dosage adjustment should be necessary for most normal adults.">
+		<entity charOffset="826-837" id="DBMI.pac5.sp1.e0" origId="sp1.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="887-891" id="DBMI.pac5.sp1.e1" origId="sp1.e1" text="ODV " type="Metabolite"/>
+		<pair e1="DBMI.pac5.sp1.e0" e2="DBMI.pac5.sp1.e1" id="DBMI.pac5.sp1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ODV " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac5.sp1.e1" e2="DBMI.pac5.sp1.e0" id="DBMI.pac5.sp1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp2" origId="sp2" text="However, for patients with pre-existing hypertension, and for elderly patients or patients with hepatic dysfunction, the interaction associated with the concomitant use of venlafaxine and cimetidine is not known and potentially could be more pronounced. Therefore, caution is advised with such patients. 7.3 Diazepam\n\nUnder steady-state conditions for venlafaxine administered at 150 mg/day, a single 10 mg dose of diazepam did not appear to affect the pharmacokinetics of either venlafaxine or ODV in 18 healthy male subjects.">
+		<entity charOffset="1556-1565" id="DBMI.pac5.sp2.e0" origId="sp2.e0" text="diazepam " type="Active ingredient"/>
+		<entity charOffset="1493-1505" id="DBMI.pac5.sp2.e1" origId="sp2.e1" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="1636-1640" id="DBMI.pac5.sp2.e2" origId="sp2.e2" text="ODV " type="Metabolite"/>
+		<entity charOffset="1669-1681" id="DBMI.pac5.sp2.e3" origId="sp2.e3" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="1772-1790" id="DBMI.pac5.sp2.e4" origId="sp2.e4" text="desmethyldiazepam " type="Metabolite"/>
+		<pair e1="DBMI.pac5.sp2.e0" e2="DBMI.pac5.sp2.e1" id="DBMI.pac5.sp2.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="venlafaxine " precipitant="diazepam "/>
+		<pair e1="DBMI.pac5.sp2.e0" e2="DBMI.pac5.sp2.e1" id="DBMI.pac5.sp2.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="venlafaxine " precipitant="diazepam "/>
+		<pair e1="DBMI.pac5.sp2.e0" e2="DBMI.pac5.sp2.e2" id="DBMI.pac5.sp2.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ODV " precipitant="diazepam "/>
+		<pair e1="DBMI.pac5.sp2.e0" e2="DBMI.pac5.sp2.e3" id="DBMI.pac5.sp2.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e0" e2="DBMI.pac5.sp2.e4" id="DBMI.pac5.sp2.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e1" e2="DBMI.pac5.sp2.e0" id="DBMI.pac5.sp2.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e1" e2="DBMI.pac5.sp2.e2" id="DBMI.pac5.sp2.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e1" e2="DBMI.pac5.sp2.e3" id="DBMI.pac5.sp2.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e1" e2="DBMI.pac5.sp2.e4" id="DBMI.pac5.sp2.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e2" e2="DBMI.pac5.sp2.e0" id="DBMI.pac5.sp2.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e2" e2="DBMI.pac5.sp2.e1" id="DBMI.pac5.sp2.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e2" e2="DBMI.pac5.sp2.e3" id="DBMI.pac5.sp2.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e2" e2="DBMI.pac5.sp2.e4" id="DBMI.pac5.sp2.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e3" e2="DBMI.pac5.sp2.e0" id="DBMI.pac5.sp2.p13" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="diazepam " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.sp2.e3" e2="DBMI.pac5.sp2.e1" id="DBMI.pac5.sp2.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e3" e2="DBMI.pac5.sp2.e2" id="DBMI.pac5.sp2.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e3" e2="DBMI.pac5.sp2.e4" id="DBMI.pac5.sp2.p16" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="desmethyldiazepam " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.sp2.e4" e2="DBMI.pac5.sp2.e0" id="DBMI.pac5.sp2.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e4" e2="DBMI.pac5.sp2.e1" id="DBMI.pac5.sp2.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e4" e2="DBMI.pac5.sp2.e2" id="DBMI.pac5.sp2.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp2.e4" e2="DBMI.pac5.sp2.e3" id="DBMI.pac5.sp2.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp3" origId="sp3" text="Venlafaxine also did not have any effect on the pharmacokinetics of diazepam or its active metabolite, desmethyldiazepam, or affect the psychomotor and psychometric effects induced by diazepam. 7.4 Haloperidol\n\nVenlafaxine administered under steady-state conditions at 150 mg/day in 24 healthy subjects decreased total oral-dose clearance (Cl/F) of a single 2 mg dose of haloperidol by 42%, which resulted in a 70% increase in haloperidol AUC. In addition, the haloperidol Cmax increased 88% when coadministered with venlafaxine, but the haloperidol elimination half-life (t1/2) was unchanged.">
+		<entity charOffset="1669-1681" id="DBMI.pac5.sp3.e0" origId="sp3.e0" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="1737-1746" id="DBMI.pac5.sp3.e1" origId="sp3.e1" text="diazepam " type="Active ingredient"/>
+		<entity charOffset="1772-1790" id="DBMI.pac5.sp3.e2" origId="sp3.e2" text="desmethyldiazepam " type="Metabolite"/>
+		<entity charOffset="2131-2143" id="DBMI.pac5.sp3.e3" origId="sp3.e3" text="haloperidol " type="Active ingredient"/>
+		<entity charOffset="2187-2199" id="DBMI.pac5.sp3.e4" origId="sp3.e4" text="venlafaxine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.sp3.e0" e2="DBMI.pac5.sp3.e1" id="DBMI.pac5.sp3.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="diazepam " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.sp3.e0" e2="DBMI.pac5.sp3.e2" id="DBMI.pac5.sp3.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="desmethyldiazepam " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.sp3.e0" e2="DBMI.pac5.sp3.e3" id="DBMI.pac5.sp3.p2" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="haloperidol " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.sp3.e0" e2="DBMI.pac5.sp3.e3" id="DBMI.pac5.sp3.p3" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="haloperidol " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.sp3.e0" e2="DBMI.pac5.sp3.e4" id="DBMI.pac5.sp3.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e1" e2="DBMI.pac5.sp3.e0" id="DBMI.pac5.sp3.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e1" e2="DBMI.pac5.sp3.e2" id="DBMI.pac5.sp3.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e1" e2="DBMI.pac5.sp3.e3" id="DBMI.pac5.sp3.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e1" e2="DBMI.pac5.sp3.e4" id="DBMI.pac5.sp3.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e2" e2="DBMI.pac5.sp3.e0" id="DBMI.pac5.sp3.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e2" e2="DBMI.pac5.sp3.e1" id="DBMI.pac5.sp3.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e2" e2="DBMI.pac5.sp3.e3" id="DBMI.pac5.sp3.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e2" e2="DBMI.pac5.sp3.e4" id="DBMI.pac5.sp3.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e3" e2="DBMI.pac5.sp3.e0" id="DBMI.pac5.sp3.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e3" e2="DBMI.pac5.sp3.e1" id="DBMI.pac5.sp3.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e3" e2="DBMI.pac5.sp3.e2" id="DBMI.pac5.sp3.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e3" e2="DBMI.pac5.sp3.e4" id="DBMI.pac5.sp3.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e4" e2="DBMI.pac5.sp3.e0" id="DBMI.pac5.sp3.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e4" e2="DBMI.pac5.sp3.e1" id="DBMI.pac5.sp3.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e4" e2="DBMI.pac5.sp3.e2" id="DBMI.pac5.sp3.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp3.e4" e2="DBMI.pac5.sp3.e3" id="DBMI.pac5.sp3.p20" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="haloperidol " precipitant="venlafaxine "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp4" origId="sp4" text="The mechanism explaining this finding is unknown. 7.5 Lithium\n\nThe steady-state pharmacokinetics of venlafaxine administered at 150 mg/day were not affected when a single 600 mg oral dose of lithium was administered to 12 healthy male subjects. ODV also was unaffected.">
+		<entity charOffset="2456-2464" id="DBMI.pac5.sp4.e0" origId="sp4.e0" text="lithium " type="Active ingredient"/>
+		<entity charOffset="2510-2514" id="DBMI.pac5.sp4.e1" origId="sp4.e1" text="ODV " type="Metabolite"/>
+		<entity charOffset="2365-2377" id="DBMI.pac5.sp4.e2" origId="sp4.e2" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="2535-2547" id="DBMI.pac5.sp4.e3" origId="sp4.e3" text="Venlafaxine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.sp4.e0" e2="DBMI.pac5.sp4.e1" id="DBMI.pac5.sp4.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ODV " precipitant="lithium "/>
+		<pair e1="DBMI.pac5.sp4.e0" e2="DBMI.pac5.sp4.e2" id="DBMI.pac5.sp4.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="venlafaxine " precipitant="lithium "/>
+		<pair e1="DBMI.pac5.sp4.e0" e2="DBMI.pac5.sp4.e3" id="DBMI.pac5.sp4.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp4.e1" e2="DBMI.pac5.sp4.e0" id="DBMI.pac5.sp4.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp4.e1" e2="DBMI.pac5.sp4.e2" id="DBMI.pac5.sp4.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp4.e1" e2="DBMI.pac5.sp4.e3" id="DBMI.pac5.sp4.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp4.e2" e2="DBMI.pac5.sp4.e0" id="DBMI.pac5.sp4.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp4.e2" e2="DBMI.pac5.sp4.e1" id="DBMI.pac5.sp4.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp4.e2" e2="DBMI.pac5.sp4.e3" id="DBMI.pac5.sp4.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp4.e3" e2="DBMI.pac5.sp4.e0" id="DBMI.pac5.sp4.p9" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lithium " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.sp4.e3" e2="DBMI.pac5.sp4.e1" id="DBMI.pac5.sp4.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp4.e3" e2="DBMI.pac5.sp4.e2" id="DBMI.pac5.sp4.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp5" origId="sp5" text="Venlafaxine had no effect on the pharmacokinetics of lithium (see also CNS-Active Drugs, below). 7.6 Drugs Highly Bound to Plasma Proteins\n\nVenlafaxine is not highly bound to plasma proteins; therefore, administration of venlafaxine hydrochloride extended-release tablets to a patient taking another drug that is highly protein bound should not cause increased free concentrations of the other drug. 7.7 Drugs that Inhibit Cytochrome P450 Isoenzymes\n\nCYP2D6 Inhibitors: In vitro and in vivo studies indicate that venlafaxine is metabolized to its active metabolite, ODV, by CYP2D6, the isoenzyme that is responsible for the genetic polymorphism seen in the metabolism of many antidepressants.">
+		<entity charOffset="2535-2547" id="DBMI.pac5.sp5.e0" origId="sp5.e0" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="2588-2596" id="DBMI.pac5.sp5.e1" origId="sp5.e1" text="lithium " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.sp5.e0" e2="DBMI.pac5.sp5.e1" id="DBMI.pac5.sp5.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lithium " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.sp5.e1" e2="DBMI.pac5.sp5.e0" id="DBMI.pac5.sp5.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp6" origId="sp6" text="Therefore, the potential exists for a drug interaction between drugs that inhibit CYP2D6-mediated metabolism of venlafaxine, reducing the metabolism of venlafaxine to ODV, resulting in increased plasma concentrations of venlafaxine and decreased concentrations of the active metabolite. CYP2D6 inhibitors such as quinidine would be expected to do this, but the effect would be similar to what is seen in patients who are genetically CYP2D6 poor metabolizers [see Clinical Pharmacology (12.3)]. Therefore, no dosage adjustment is required when venlafaxine is coadministered with a CYP2D6 inhibitor."/>
+	<sentencespan id="DBMI.pac5.sp7" origId="sp7" text="Ketoconazole: A pharmacokinetic study with ketoconazole 100 mg b.i.d.with a single dose of venlafaxine 50 mg in extensive metabolizers (EM; n=14) and 25 mg in poor metabolizers (PM;n=6) of CYP2D6 resulted in higher plasma concentrations of both venlafaxine and O-desmethylvenlafaxine (ODV) in most subjects following administration of ketoconazole. Venlafaxine Cmax increased by 26% in EM subjects and 48% in PM subjects. Cmax values for ODV increased by 14% and 29% in EM and PM subjects, respectively.">
+		<entity charOffset="3872-3885" id="DBMI.pac5.sp7.e0" origId="sp7.e0" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="3921-3933" id="DBMI.pac5.sp7.e1" origId="sp7.e1" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="4091-4114" id="DBMI.pac5.sp7.e2" origId="sp7.e2" text="O-desmethylvenlafaxine " type="Metabolite"/>
+		<entity charOffset="4454-4458" id="DBMI.pac5.sp7.e3" origId="sp7.e3" text="ODV " type="Metabolite"/>
+		<entity charOffset="4335-4347" id="DBMI.pac5.sp7.e4" origId="sp7.e4" text="Venlafaxine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.sp7.e0" e2="DBMI.pac5.sp7.e1" id="DBMI.pac5.sp7.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="venlafaxine " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac5.sp7.e0" e2="DBMI.pac5.sp7.e2" id="DBMI.pac5.sp7.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="O-desmethylvenlafaxine " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac5.sp7.e0" e2="DBMI.pac5.sp7.e3" id="DBMI.pac5.sp7.p2" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="ODV " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac5.sp7.e0" e2="DBMI.pac5.sp7.e3" id="DBMI.pac5.sp7.p3" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="ODV " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac5.sp7.e0" e2="DBMI.pac5.sp7.e4" id="DBMI.pac5.sp7.p4" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Venlafaxine " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac5.sp7.e0" e2="DBMI.pac5.sp7.e4" id="DBMI.pac5.sp7.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Venlafaxine " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac5.sp7.e1" e2="DBMI.pac5.sp7.e0" id="DBMI.pac5.sp7.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e1" e2="DBMI.pac5.sp7.e2" id="DBMI.pac5.sp7.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e1" e2="DBMI.pac5.sp7.e3" id="DBMI.pac5.sp7.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e1" e2="DBMI.pac5.sp7.e4" id="DBMI.pac5.sp7.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e2" e2="DBMI.pac5.sp7.e0" id="DBMI.pac5.sp7.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e2" e2="DBMI.pac5.sp7.e1" id="DBMI.pac5.sp7.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e2" e2="DBMI.pac5.sp7.e3" id="DBMI.pac5.sp7.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e2" e2="DBMI.pac5.sp7.e4" id="DBMI.pac5.sp7.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e3" e2="DBMI.pac5.sp7.e0" id="DBMI.pac5.sp7.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e3" e2="DBMI.pac5.sp7.e1" id="DBMI.pac5.sp7.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e3" e2="DBMI.pac5.sp7.e2" id="DBMI.pac5.sp7.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e3" e2="DBMI.pac5.sp7.e4" id="DBMI.pac5.sp7.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e4" e2="DBMI.pac5.sp7.e0" id="DBMI.pac5.sp7.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e4" e2="DBMI.pac5.sp7.e1" id="DBMI.pac5.sp7.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e4" e2="DBMI.pac5.sp7.e2" id="DBMI.pac5.sp7.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp7.e4" e2="DBMI.pac5.sp7.e3" id="DBMI.pac5.sp7.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp8" origId="sp8" text="Venlafaxine AUC increased by 21% in EM subjects and 70% in PM subjects (range in PM's -2% to 206%), and AUC values for ODV increased by 23% and 33% in EM and PM (range in PM's -38% to 105%) subjects, respectively. Combined AUC's of venlafaxine and ODV increased on average by approximately 23% in EM's and 53% in PM's, (range in PM's 4% to 134%). Concomitant use of CYP3A4 inhibitors and venlafaxine may increase levels of venlafaxine and ODV."/>
+	<sentencespan id="DBMI.pac5.sp9" origId="sp9" text="Therefore, caution is advised if a patient's therapy includes a CYP3A4 inhibitor and venlafaxine concomitantly. 7.8 Drugs Metabolized by Cytochrome P450 Isoenzymes\n\nCYP2D6\n\nIn vitro studies indicate that venlafaxine is a relatively weak inhibitor of CYP2D6. These findings have been confirmed in a clinical drug interaction study comparing the effect of venlafaxine with that of fluoxetine on the CYP2D6-mediated metabolism of dextromethorphan to dextrorphan."/>
+	<sentencespan id="DBMI.pac5.sp10" origId="sp10" text="Imipramine - Venlafaxine did not affect the pharmacokinetics of imipramine and 2-OH-imipramine. However, desipramine AUC, Cmax, and Cmin increased by about 35% in the presence of venlafaxine. The 2-OH-desipramine AUC's increased by at least 2.5 fold (with venlafaxine 37.5 mg q12h) and by 4.5 fold (with venlafaxine 75 mg q12h).">
+		<entity charOffset="5256-5268" id="DBMI.pac5.sp10.e0" origId="sp10.e0" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="5322-5338" id="DBMI.pac5.sp10.e1" origId="sp10.e1" text="2-OH-imipramine " type="Metabolite"/>
+		<entity charOffset="5307-5318" id="DBMI.pac5.sp10.e2" origId="sp10.e2" text="imipramine " type="Active ingredient"/>
+		<entity charOffset="5422-5434" id="DBMI.pac5.sp10.e3" origId="sp10.e3" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="5348-5360" id="DBMI.pac5.sp10.e4" origId="sp10.e4" text="desipramine " type="Active ingredient"/>
+		<entity charOffset="5439-5456" id="DBMI.pac5.sp10.e5" origId="sp10.e5" text="2-OH-desipramine " type="Metabolite"/>
+		<pair e1="DBMI.pac5.sp10.e0" e2="DBMI.pac5.sp10.e1" id="DBMI.pac5.sp10.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="2-OH-imipramine " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.sp10.e0" e2="DBMI.pac5.sp10.e2" id="DBMI.pac5.sp10.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="imipramine " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.sp10.e0" e2="DBMI.pac5.sp10.e3" id="DBMI.pac5.sp10.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e0" e2="DBMI.pac5.sp10.e4" id="DBMI.pac5.sp10.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e0" e2="DBMI.pac5.sp10.e5" id="DBMI.pac5.sp10.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e1" e2="DBMI.pac5.sp10.e0" id="DBMI.pac5.sp10.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e1" e2="DBMI.pac5.sp10.e2" id="DBMI.pac5.sp10.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e1" e2="DBMI.pac5.sp10.e3" id="DBMI.pac5.sp10.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e1" e2="DBMI.pac5.sp10.e4" id="DBMI.pac5.sp10.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e1" e2="DBMI.pac5.sp10.e5" id="DBMI.pac5.sp10.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e2" e2="DBMI.pac5.sp10.e0" id="DBMI.pac5.sp10.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e2" e2="DBMI.pac5.sp10.e1" id="DBMI.pac5.sp10.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e2" e2="DBMI.pac5.sp10.e3" id="DBMI.pac5.sp10.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e2" e2="DBMI.pac5.sp10.e4" id="DBMI.pac5.sp10.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e2" e2="DBMI.pac5.sp10.e5" id="DBMI.pac5.sp10.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e3" e2="DBMI.pac5.sp10.e0" id="DBMI.pac5.sp10.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e3" e2="DBMI.pac5.sp10.e1" id="DBMI.pac5.sp10.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e3" e2="DBMI.pac5.sp10.e2" id="DBMI.pac5.sp10.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e3" e2="DBMI.pac5.sp10.e4" id="DBMI.pac5.sp10.p18" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="desipramine " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.sp10.e3" e2="DBMI.pac5.sp10.e5" id="DBMI.pac5.sp10.p19" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="2-OH-desipramine " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.sp10.e4" e2="DBMI.pac5.sp10.e0" id="DBMI.pac5.sp10.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e4" e2="DBMI.pac5.sp10.e1" id="DBMI.pac5.sp10.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e4" e2="DBMI.pac5.sp10.e2" id="DBMI.pac5.sp10.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e4" e2="DBMI.pac5.sp10.e3" id="DBMI.pac5.sp10.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e4" e2="DBMI.pac5.sp10.e5" id="DBMI.pac5.sp10.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e5" e2="DBMI.pac5.sp10.e0" id="DBMI.pac5.sp10.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e5" e2="DBMI.pac5.sp10.e1" id="DBMI.pac5.sp10.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e5" e2="DBMI.pac5.sp10.e2" id="DBMI.pac5.sp10.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e5" e2="DBMI.pac5.sp10.e3" id="DBMI.pac5.sp10.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp10.e5" e2="DBMI.pac5.sp10.e4" id="DBMI.pac5.sp10.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp11" origId="sp11" text="Imipramine did not affect the pharmacokinetics of venlafaxine and ODV. The clinical significance of elevated 2-OH-desipramine levels is unknown. Metoprolol - Concomitant administration of venlafaxine (50 mg every 8 hours for 5 days) and metoprolol (100 mg every 24 hours for 5 days) to 18 healthy male subjects in a pharmacokinetic interaction study for both drugs resulted in an increase of plasma concentrations of metoprolol by approximately 30 to 40% without altering the plasma concentrations of its active metabolite, -hydroxymetoprolol.">
+		<entity charOffset="5572-5583" id="DBMI.pac5.sp11.e0" origId="sp11.e0" text="Imipramine " type="Active ingredient"/>
+		<entity charOffset="5638-5642" id="DBMI.pac5.sp11.e1" origId="sp11.e1" text="ODV " type="Metabolite"/>
+		<entity charOffset="5622-5634" id="DBMI.pac5.sp11.e2" origId="sp11.e2" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="6097-6117" id="DBMI.pac5.sp11.e3" origId="sp11.e3" text="?-hydroxymetoprolol " type="Metabolite"/>
+		<entity charOffset="5990-6001" id="DBMI.pac5.sp11.e4" origId="sp11.e4" text="metoprolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.sp11.e0" e2="DBMI.pac5.sp11.e1" id="DBMI.pac5.sp11.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ODV " precipitant="Imipramine "/>
+		<pair e1="DBMI.pac5.sp11.e0" e2="DBMI.pac5.sp11.e2" id="DBMI.pac5.sp11.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="venlafaxine " precipitant="Imipramine "/>
+		<pair e1="DBMI.pac5.sp11.e0" e2="DBMI.pac5.sp11.e3" id="DBMI.pac5.sp11.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e0" e2="DBMI.pac5.sp11.e4" id="DBMI.pac5.sp11.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e1" e2="DBMI.pac5.sp11.e0" id="DBMI.pac5.sp11.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e1" e2="DBMI.pac5.sp11.e2" id="DBMI.pac5.sp11.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e1" e2="DBMI.pac5.sp11.e3" id="DBMI.pac5.sp11.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e1" e2="DBMI.pac5.sp11.e4" id="DBMI.pac5.sp11.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e2" e2="DBMI.pac5.sp11.e0" id="DBMI.pac5.sp11.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e2" e2="DBMI.pac5.sp11.e1" id="DBMI.pac5.sp11.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e2" e2="DBMI.pac5.sp11.e3" id="DBMI.pac5.sp11.p10" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="?-hydroxymetoprolol " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.sp11.e2" e2="DBMI.pac5.sp11.e4" id="DBMI.pac5.sp11.p11" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="metoprolol " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.sp11.e3" e2="DBMI.pac5.sp11.e0" id="DBMI.pac5.sp11.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e3" e2="DBMI.pac5.sp11.e1" id="DBMI.pac5.sp11.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e3" e2="DBMI.pac5.sp11.e2" id="DBMI.pac5.sp11.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e3" e2="DBMI.pac5.sp11.e4" id="DBMI.pac5.sp11.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e4" e2="DBMI.pac5.sp11.e0" id="DBMI.pac5.sp11.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e4" e2="DBMI.pac5.sp11.e1" id="DBMI.pac5.sp11.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e4" e2="DBMI.pac5.sp11.e2" id="DBMI.pac5.sp11.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp11.e4" e2="DBMI.pac5.sp11.e3" id="DBMI.pac5.sp11.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp12" origId="sp12" text="Metoprolol did not alter the pharmacokinetic profile of venlafaxine or its active metabolite, O-desmethylvenlafaxine. Venlafaxine appeared to reduce the blood pressure lowering effect of metoprolol in this study. The clinical relevance of this finding for hypertensive patients is unknown.">
+		<entity charOffset="6118-6129" id="DBMI.pac5.sp12.e0" origId="sp12.e0" text="Metoprolol " type="Active ingredient"/>
+		<entity charOffset="6174-6186" id="DBMI.pac5.sp12.e1" origId="sp12.e1" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="6212-6235" id="DBMI.pac5.sp12.e2" origId="sp12.e2" text="O-desmethylvenlafaxine " type="Metabolite"/>
+		<pair e1="DBMI.pac5.sp12.e0" e2="DBMI.pac5.sp12.e1" id="DBMI.pac5.sp12.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="venlafaxine " precipitant="Metoprolol "/>
+		<pair e1="DBMI.pac5.sp12.e0" e2="DBMI.pac5.sp12.e2" id="DBMI.pac5.sp12.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="O-desmethylvenlafaxine " precipitant="Metoprolol "/>
+		<pair e1="DBMI.pac5.sp12.e1" e2="DBMI.pac5.sp12.e0" id="DBMI.pac5.sp12.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp12.e1" e2="DBMI.pac5.sp12.e2" id="DBMI.pac5.sp12.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp12.e2" e2="DBMI.pac5.sp12.e0" id="DBMI.pac5.sp12.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp12.e2" e2="DBMI.pac5.sp12.e1" id="DBMI.pac5.sp12.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp13" origId="sp13" text="Caution should be exercised with co-administration of venlafaxine and metoprolol. Venlafaxine treatment has been associated with dose-related increases in blood pressure in some patients. It is recommended that patients receiving Venlafaxine hydrochloride extended-release tablets have regular monitoring of blood pressure [see Warnings and Precautions (5.5)]."/>
+	<sentencespan id="DBMI.pac5.sp14" origId="sp14" text="Risperidone - Venlafaxine administered under steady-state conditions at 150 mg/day slightly inhibited the CYP2D6-mediated metabolism of risperidone (administered as a single 1 mg oral dose) to its active metabolite, 9-hydroxyrisperidone, resulting in an approximate 32% increase in risperidone AUC. However, venlafaxine coadministration did not significantly alter the pharmacokinetic profile of the total active moiety (risperidone plus 9-hydroxyrisperidone). CYP3A4\n\nVenlafaxine did not inhibit CYP3A4 in vitro.">
+		<entity charOffset="6788-6800" id="DBMI.pac5.sp14.e0" origId="sp14.e0" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="7056-7068" id="DBMI.pac5.sp14.e1" origId="sp14.e1" text="risperidone " type="Active ingredient"/>
+		<entity charOffset="7082-7094" id="DBMI.pac5.sp14.e2" origId="sp14.e2" text="venlafaxine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.sp14.e0" e2="DBMI.pac5.sp14.e1" id="DBMI.pac5.sp14.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="risperidone " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.sp14.e0" e2="DBMI.pac5.sp14.e2" id="DBMI.pac5.sp14.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp14.e1" e2="DBMI.pac5.sp14.e0" id="DBMI.pac5.sp14.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp14.e1" e2="DBMI.pac5.sp14.e2" id="DBMI.pac5.sp14.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp14.e2" e2="DBMI.pac5.sp14.e0" id="DBMI.pac5.sp14.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp14.e2" e2="DBMI.pac5.sp14.e1" id="DBMI.pac5.sp14.p5" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="risperidone " precipitant="venlafaxine "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp15" origId="sp15" text="This finding was confirmed in vivo by clinical drug interaction studies in which venlafaxine did not inhibit the metabolism of several CYP3A4 substrates, including alprazolam, diazepam, and terfenadine. Indinavir - In a study of 9 healthy volunteers, venlafaxine administered under steady-state conditions at 150 mg/day resulted in a 28% decrease in the AUC of a single 800 mg oral dose of indinavir and a 36% decrease in indinavir Cmax. Indinavir did not affect the pharmacokinetics of venlafaxine and ODV.">
+		<entity charOffset="7370-7382" id="DBMI.pac5.sp15.e0" origId="sp15.e0" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="7479-7491" id="DBMI.pac5.sp15.e1" origId="sp15.e1" text="terfenadine " type="Active ingredient"/>
+		<entity charOffset="7465-7474" id="DBMI.pac5.sp15.e2" origId="sp15.e2" text="diazepam " type="Active ingredient"/>
+		<entity charOffset="7453-7464" id="DBMI.pac5.sp15.e3" origId="sp15.e3" text="alprazolam " type="Active ingredient"/>
+		<entity charOffset="7728-7738" id="DBMI.pac5.sp15.e4" origId="sp15.e4" text="Indinavir " type="Active ingredient"/>
+		<entity charOffset="7793-7797" id="DBMI.pac5.sp15.e5" origId="sp15.e5" text="ODV " type="Metabolite"/>
+		<pair e1="DBMI.pac5.sp15.e0" e2="DBMI.pac5.sp15.e1" id="DBMI.pac5.sp15.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="terfenadine " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.sp15.e0" e2="DBMI.pac5.sp15.e2" id="DBMI.pac5.sp15.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="diazepam " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.sp15.e0" e2="DBMI.pac5.sp15.e3" id="DBMI.pac5.sp15.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="alprazolam " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.sp15.e0" e2="DBMI.pac5.sp15.e4" id="DBMI.pac5.sp15.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e0" e2="DBMI.pac5.sp15.e5" id="DBMI.pac5.sp15.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e1" e2="DBMI.pac5.sp15.e0" id="DBMI.pac5.sp15.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e1" e2="DBMI.pac5.sp15.e2" id="DBMI.pac5.sp15.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e1" e2="DBMI.pac5.sp15.e3" id="DBMI.pac5.sp15.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e1" e2="DBMI.pac5.sp15.e4" id="DBMI.pac5.sp15.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e1" e2="DBMI.pac5.sp15.e5" id="DBMI.pac5.sp15.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e2" e2="DBMI.pac5.sp15.e0" id="DBMI.pac5.sp15.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e2" e2="DBMI.pac5.sp15.e1" id="DBMI.pac5.sp15.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e2" e2="DBMI.pac5.sp15.e3" id="DBMI.pac5.sp15.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e2" e2="DBMI.pac5.sp15.e4" id="DBMI.pac5.sp15.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e2" e2="DBMI.pac5.sp15.e5" id="DBMI.pac5.sp15.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e3" e2="DBMI.pac5.sp15.e0" id="DBMI.pac5.sp15.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e3" e2="DBMI.pac5.sp15.e1" id="DBMI.pac5.sp15.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e3" e2="DBMI.pac5.sp15.e2" id="DBMI.pac5.sp15.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e3" e2="DBMI.pac5.sp15.e4" id="DBMI.pac5.sp15.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e3" e2="DBMI.pac5.sp15.e5" id="DBMI.pac5.sp15.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e4" e2="DBMI.pac5.sp15.e0" id="DBMI.pac5.sp15.p20" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="venlafaxine " precipitant="Indinavir "/>
+		<pair e1="DBMI.pac5.sp15.e4" e2="DBMI.pac5.sp15.e1" id="DBMI.pac5.sp15.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e4" e2="DBMI.pac5.sp15.e2" id="DBMI.pac5.sp15.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e4" e2="DBMI.pac5.sp15.e3" id="DBMI.pac5.sp15.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e4" e2="DBMI.pac5.sp15.e5" id="DBMI.pac5.sp15.p24" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ODV " precipitant="Indinavir "/>
+		<pair e1="DBMI.pac5.sp15.e5" e2="DBMI.pac5.sp15.e0" id="DBMI.pac5.sp15.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e5" e2="DBMI.pac5.sp15.e1" id="DBMI.pac5.sp15.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e5" e2="DBMI.pac5.sp15.e2" id="DBMI.pac5.sp15.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e5" e2="DBMI.pac5.sp15.e3" id="DBMI.pac5.sp15.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp15.e5" e2="DBMI.pac5.sp15.e4" id="DBMI.pac5.sp15.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp16" origId="sp16" text="The clinical significance of this finding is unknown. CYP1A2\n\nVenlafaxine did not inhibit CYP1A2 in vitro. This finding was confirmed in vivo by a clinical drug interaction study in which venlafaxine did not inhibit the metabolism of caffeine, a CYP1A2 substrate.">
+		<entity charOffset="7861-7873" id="DBMI.pac5.sp16.e0" origId="sp16.e0" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="8033-8042" id="DBMI.pac5.sp16.e1" origId="sp16.e1" text="caffeine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.sp16.e0" e2="DBMI.pac5.sp16.e1" id="DBMI.pac5.sp16.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="caffeine " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.sp16.e1" e2="DBMI.pac5.sp16.e0" id="DBMI.pac5.sp16.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp17" origId="sp17" text="CYP2C9\n \nVenlafaxine did not inhibit CYP2C9 in vitro. In vivo, venlafaxine 75 mg by mouth every 12 hours did not alter the pharmacokinetics of a single 500 mg dose of tolbutamide or the CYP2C9 mediated formation of 4-hydroxy-tolbutamide. CYP2C19\n\nVenlafaxine did not inhibit the metabolism of diazepam, which is partially metabolized by CYP2C19 (see Diazepam above).">
+		<entity charOffset="8073-8085" id="DBMI.pac5.sp17.e0" origId="sp17.e0" text="Venlafaxine " type="Active ingredient"/>
+		<entity charOffset="8231-8243" id="DBMI.pac5.sp17.e1" origId="sp17.e1" text="tolbutamide " type="Active ingredient"/>
+		<entity charOffset="8358-8367" id="DBMI.pac5.sp17.e2" origId="sp17.e2" text="diazepam " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.sp17.e0" e2="DBMI.pac5.sp17.e1" id="DBMI.pac5.sp17.p0" interaction="true" interactionPhraseType="Quantitative" modality="Negative" object="tolbutamide " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.sp17.e0" e2="DBMI.pac5.sp17.e2" id="DBMI.pac5.sp17.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="diazepam " precipitant="Venlafaxine "/>
+		<pair e1="DBMI.pac5.sp17.e1" e2="DBMI.pac5.sp17.e0" id="DBMI.pac5.sp17.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp17.e1" e2="DBMI.pac5.sp17.e2" id="DBMI.pac5.sp17.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp17.e2" e2="DBMI.pac5.sp17.e0" id="DBMI.pac5.sp17.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac5.sp17.e2" e2="DBMI.pac5.sp17.e1" id="DBMI.pac5.sp17.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp18" origId="sp18" text="7.9 Monoamine Oxidase Inhibitors\n\nSee Contraindications (4) and Warnings and Precautions (5.2). 7.10 Other CNS-Active Drugs\n\nThe risk of using venlafaxine in combination with other CNS-active drugs has not been systematically evaluated (except in the case of those CNS-active drugs noted above). Consequently, caution is advised if the concomitant administration of venlafaxine and such drugs is required."/>
+	<sentencespan id="DBMI.pac5.sp19" origId="sp19" text="Serotonergic Drugs\n\nBased on the mechanism of action of venlafaxine hydrochloride extended-release tablets and the potential for serotonin syndrome, caution is advised when venlafaxine hydrochloride extended-release tablets are co-administered with other drugs that may affect the serotonergic neurotransmitter systems, such as triptans, SSRIs, other SNRIs, linezolid (an antibiotic which is a reversible non-selective MAOI), lithium, tramadol, or St. John's Wort [see Warnings and Precautions (5.3)]. If concomitant treatment of venlafaxine hydrochloride extended-release tablets with these drugs is clinically warranted, careful observation of the patient is advised, particularly during treatment initiation and dose increases [see Warnings and Precautions (5.3)]. The concomitant use of venlafaxine hydrochloride extended-release tablets with tryptophan supplements is not recommended [see Warnings and Precautions (5.3)]."/>
+	<sentencespan id="DBMI.pac5.sp20" origId="sp20" text="Triptans\n\nThere have been rare postmarketing reports of serotonin syndrome with use of an SSRI and a triptan. If concomitant treatment of venlafaxine hydrochloride extended-release tablets with a triptan is clinically warranted, careful observation of the patient is advised, particularly during treatment initiation and dose increases [see Warnings and Precautions (5.3)]. 7.11 Drugs that Interfere with Hemostasis (e.g., NSAID's, Aspirin, and Warfarin)\n\nSerotonin release by platelets plays an important role in hemostasis."/>
+	<sentencespan id="DBMI.pac5.sp21" origId="sp21" text="Epidemiological studies of the case-control and cohort design that have demonstrated an association between use of psychotropic drugs that interfere with serotonin reuptake and the occurrence of upper gastrointestinal bleeding. These studies have also shown that concurrent use of an NSAID or aspirin may potentiate this risk of bleeding. Altered anticoagulant effects, including increased bleeding, have been reported when SSRI's and SNRI's are coadministered with warfarin."/>
+	<sentencespan id="DBMI.pac5.sp22" origId="sp22" text="Patients receiving warfarin therapy should be carefully monitored when venlafaxine hydrochloride extended-release tablets are initiated or discontinued. [See Warnings and Precautions (5.14)]\n\n7.12 Electroconvulsive Therapy\n\nThere are no clinical data establishing the benefit of electroconvulsive therapy combined with venlafaxine hydrochloride extended-release tablets treatment. 7.13 Postmarketing Spontaneous Drug Interaction Reports\n\nThere have been reports of elevated clozapine levels that were temporally associated with adverse reactions, including seizures, following the addition of venlafaxine.">
+		<entity charOffset="11366-11378" id="DBMI.pac5.sp22.e0" origId="sp22.e0" text="venlafaxine " type="Active ingredient"/>
+		<entity charOffset="11247-11257" id="DBMI.pac5.sp22.e1" origId="sp22.e1" text="clozapine " type="Active ingredient"/>
+		<pair e1="DBMI.pac5.sp22.e0" e2="DBMI.pac5.sp22.e1" id="DBMI.pac5.sp22.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="clozapine " precipitant="venlafaxine "/>
+		<pair e1="DBMI.pac5.sp22.e1" e2="DBMI.pac5.sp22.e0" id="DBMI.pac5.sp22.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac5.sp23" origId="sp23" text="There have been reports of increases in prothrombin time, partial thromboplastin time, or INR when venlafaxine was given to patients receiving warfarin therapy."/>
+</document>

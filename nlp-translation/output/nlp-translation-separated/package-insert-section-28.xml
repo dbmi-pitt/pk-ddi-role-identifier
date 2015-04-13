@@ -1,0 +1,25 @@
+
+<document id="DBMI.pac28" origId="pac28">
+	<sentence id="DBMI.pac28.s0" origId="s0" text="The pharmacokinetics of theophylline were determined from a single intravenous dose of aminophylline (6 mg/kg) before and after the oral administration of fluconazole 200 mg daily for 14 days in 16 normal male volunteers.">
+		<entity charOffset="155-167" id="DBMI.pac28.s0.e0" origId="s0.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="354-367" id="DBMI.pac28.s0.e1" origId="s0.e1" text="theophylline " type="Active ingredient"/>
+		<pair e1="DBMI.pac28.s0.e0" e2="DBMI.pac28.s0.e1" id="DBMI.pac28.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="theophylline " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac28.s0.e0" e2="DBMI.pac28.s0.e1" id="DBMI.pac28.s0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="theophylline " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac28.s0.e1" e2="DBMI.pac28.s0.e0" id="DBMI.pac28.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac28.s1" origId="s1" text="There were significant increases in theophylline AUC, Cmax, and half-life with a corresponding decrease in clearance."/>
+	<sentence id="DBMI.pac28.s2" origId="s2" text="The mean  SD theophylline AUC increased 21%  16% (range: -5 to 48%)."/>
+	<sentence id="DBMI.pac28.s3" origId="s3" text="The Cmax increased 13%  17% (range: -13 to 40%)."/>
+	<sentence id="DBMI.pac28.s4" origId="s4" text="Theophylline clearance decreased 16%  11 % (range: -32 to 5%)."/>
+	<sentence id="DBMI.pac28.s5" origId="s5" text="The half-life of theophylline increased from 6.6  1.7 hours to 7.9  1.5 hours."/>
+	<sentence id="DBMI.pac28.s6" origId="s6" text="(See PRECAUTIONS.)"/>
+	<sentencespan id="DBMI.pac28.sp0" origId="sp0" text="The pharmacokinetics of theophylline were determined from a single intravenous dose of aminophylline (6 mg/kg) before and after the oral administration of fluconazole 200 mg daily for 14 days in 16 normal male volunteers. There were significant increases in theophylline AUC, Cmax, and half-life with a corresponding decrease in clearance. The mean  SD theophylline AUC increased 21%  16% (range: -5 to 48%).">
+		<entity charOffset="155-167" id="DBMI.pac28.sp0.e0" origId="sp0.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="354-367" id="DBMI.pac28.sp0.e1" origId="sp0.e1" text="theophylline " type="Active ingredient"/>
+		<pair e1="DBMI.pac28.sp0.e0" e2="DBMI.pac28.sp0.e1" id="DBMI.pac28.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="theophylline " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac28.sp0.e0" e2="DBMI.pac28.sp0.e1" id="DBMI.pac28.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="theophylline " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac28.sp0.e1" e2="DBMI.pac28.sp0.e0" id="DBMI.pac28.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac28.sp1" origId="sp1" text="The Cmax increased 13%  17% (range: -13 to 40%). Theophylline clearance decreased 16%  11 % (range: -32 to 5%). The half-life of theophylline increased from 6.6  1.7 hours to 7.9  1.5 hours."/>
+	<sentencespan id="DBMI.pac28.sp2" origId="sp2" text="(See PRECAUTIONS.)"/>
+</document>

@@ -1,0 +1,25 @@
+
+<document id="DBMI.pac131" origId="pac131">
+	<sentence id="DBMI.pac131.s0" origId="s0" text="Co-administration of cholestyramine or colestipol with propranolol resulted in up to 50% decrease in propranolol concentrations.">
+		<entity charOffset="21-36" id="DBMI.pac131.s0.e0" origId="s0.e0" text="cholestyramine " type="Active ingredient"/>
+		<entity charOffset="55-67" id="DBMI.pac131.s0.e1" origId="s0.e1" text="propranolol " type="Active ingredient"/>
+		<entity charOffset="39-50" id="DBMI.pac131.s0.e2" origId="s0.e2" text="colestipol " type="Active ingredient"/>
+		<pair e1="DBMI.pac131.s0.e0" e2="DBMI.pac131.s0.e1" id="DBMI.pac131.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propranolol " precipitant="cholestyramine "/>
+		<pair e1="DBMI.pac131.s0.e0" e2="DBMI.pac131.s0.e2" id="DBMI.pac131.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac131.s0.e1" e2="DBMI.pac131.s0.e0" id="DBMI.pac131.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac131.s0.e1" e2="DBMI.pac131.s0.e2" id="DBMI.pac131.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac131.s0.e2" e2="DBMI.pac131.s0.e0" id="DBMI.pac131.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac131.s0.e2" e2="DBMI.pac131.s0.e1" id="DBMI.pac131.s0.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propranolol " precipitant="colestipol "/>
+	</sentence>
+	<sentencespan id="DBMI.pac131.sp0" origId="sp0" text="Co-administration of cholestyramine or colestipol with propranolol resulted in up to 50% decrease in propranolol concentrations.">
+		<entity charOffset="21-36" id="DBMI.pac131.sp0.e0" origId="sp0.e0" text="cholestyramine " type="Active ingredient"/>
+		<entity charOffset="55-67" id="DBMI.pac131.sp0.e1" origId="sp0.e1" text="propranolol " type="Active ingredient"/>
+		<entity charOffset="39-50" id="DBMI.pac131.sp0.e2" origId="sp0.e2" text="colestipol " type="Active ingredient"/>
+		<pair e1="DBMI.pac131.sp0.e0" e2="DBMI.pac131.sp0.e1" id="DBMI.pac131.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propranolol " precipitant="cholestyramine "/>
+		<pair e1="DBMI.pac131.sp0.e0" e2="DBMI.pac131.sp0.e2" id="DBMI.pac131.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac131.sp0.e1" e2="DBMI.pac131.sp0.e0" id="DBMI.pac131.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac131.sp0.e1" e2="DBMI.pac131.sp0.e2" id="DBMI.pac131.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac131.sp0.e2" e2="DBMI.pac131.sp0.e0" id="DBMI.pac131.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac131.sp0.e2" e2="DBMI.pac131.sp0.e1" id="DBMI.pac131.sp0.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propranolol " precipitant="colestipol "/>
+	</sentencespan>
+</document>

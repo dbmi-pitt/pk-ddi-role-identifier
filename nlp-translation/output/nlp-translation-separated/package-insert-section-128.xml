@@ -1,0 +1,33 @@
+
+<document id="DBMI.pac128" origId="pac128">
+	<sentence id="DBMI.pac128.s0" origId="s0" text="Propranolol can inhibit the metabolism of diazepam, resulting in increased concentrations of diazepam and its metabolites.">
+		<entity charOffset="0-12" id="DBMI.pac128.s0.e0" origId="s0.e0" text="Propranolol " type="Active ingredient"/>
+		<entity charOffset="42-51" id="DBMI.pac128.s0.e1" origId="s0.e1" text="diazepam " type="Active ingredient"/>
+		<pair e1="DBMI.pac128.s0.e0" e2="DBMI.pac128.s0.e1" id="DBMI.pac128.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="diazepam " precipitant="Propranolol "/>
+		<pair e1="DBMI.pac128.s0.e1" e2="DBMI.pac128.s0.e0" id="DBMI.pac128.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac128.s1" origId="s1" text="Diazepam does not alter the pharmacokinetics of propranolol.">
+		<entity charOffset="123-132" id="DBMI.pac128.s1.e0" origId="s1.e0" text="Diazepam " type="Active ingredient"/>
+		<entity charOffset="171-183" id="DBMI.pac128.s1.e1" origId="s1.e1" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac128.s1.e0" e2="DBMI.pac128.s1.e1" id="DBMI.pac128.s1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="propranolol " precipitant="Diazepam "/>
+		<pair e1="DBMI.pac128.s1.e1" e2="DBMI.pac128.s1.e0" id="DBMI.pac128.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac128.sp0" origId="sp0" text="Propranolol can inhibit the metabolism of diazepam, resulting in increased concentrations of diazepam and its metabolites. Diazepam does not alter the pharmacokinetics of propranolol.">
+		<entity charOffset="0-12" id="DBMI.pac128.sp0.e0" origId="sp0.e0" text="Propranolol " type="Active ingredient"/>
+		<entity charOffset="42-51" id="DBMI.pac128.sp0.e1" origId="sp0.e1" text="diazepam " type="Active ingredient"/>
+		<entity charOffset="123-132" id="DBMI.pac128.sp0.e2" origId="sp0.e2" text="Diazepam " type="Active ingredient"/>
+		<entity charOffset="171-183" id="DBMI.pac128.sp0.e3" origId="sp0.e3" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac128.sp0.e0" e2="DBMI.pac128.sp0.e1" id="DBMI.pac128.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="diazepam " precipitant="Propranolol "/>
+		<pair e1="DBMI.pac128.sp0.e0" e2="DBMI.pac128.sp0.e2" id="DBMI.pac128.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac128.sp0.e0" e2="DBMI.pac128.sp0.e3" id="DBMI.pac128.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac128.sp0.e1" e2="DBMI.pac128.sp0.e0" id="DBMI.pac128.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac128.sp0.e1" e2="DBMI.pac128.sp0.e2" id="DBMI.pac128.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac128.sp0.e1" e2="DBMI.pac128.sp0.e3" id="DBMI.pac128.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac128.sp0.e2" e2="DBMI.pac128.sp0.e0" id="DBMI.pac128.sp0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac128.sp0.e2" e2="DBMI.pac128.sp0.e1" id="DBMI.pac128.sp0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac128.sp0.e2" e2="DBMI.pac128.sp0.e3" id="DBMI.pac128.sp0.p8" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="propranolol " precipitant="Diazepam "/>
+		<pair e1="DBMI.pac128.sp0.e3" e2="DBMI.pac128.sp0.e0" id="DBMI.pac128.sp0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac128.sp0.e3" e2="DBMI.pac128.sp0.e1" id="DBMI.pac128.sp0.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac128.sp0.e3" e2="DBMI.pac128.sp0.e2" id="DBMI.pac128.sp0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

@@ -1,0 +1,25 @@
+
+<document id="DBMI.pac164" origId="pac164">
+	<sentence id="DBMI.pac164.s0" origId="s0" text="Cimetidine\n\nCimetidine reduced the clearance and volume of distribution of meperidine and also the formation of the metabolite, normeperidine, in healthy subjects and thus, caution should be used with concomitant administration.">
+		<entity charOffset="12-23" id="DBMI.pac164.s0.e0" origId="s0.e0" text="Cimetidine " type="Active ingredient"/>
+		<entity charOffset="75-86" id="DBMI.pac164.s0.e1" origId="s0.e1" text="meperidine " type="Active ingredient"/>
+		<entity charOffset="128-142" id="DBMI.pac164.s0.e2" origId="s0.e2" text="normeperidine " type="Metabolite"/>
+		<pair e1="DBMI.pac164.s0.e0" e2="DBMI.pac164.s0.e1" id="DBMI.pac164.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="meperidine " precipitant="Cimetidine "/>
+		<pair e1="DBMI.pac164.s0.e0" e2="DBMI.pac164.s0.e2" id="DBMI.pac164.s0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="normeperidine " precipitant="Cimetidine "/>
+		<pair e1="DBMI.pac164.s0.e1" e2="DBMI.pac164.s0.e0" id="DBMI.pac164.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac164.s0.e1" e2="DBMI.pac164.s0.e2" id="DBMI.pac164.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac164.s0.e2" e2="DBMI.pac164.s0.e0" id="DBMI.pac164.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac164.s0.e2" e2="DBMI.pac164.s0.e1" id="DBMI.pac164.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac164.sp0" origId="sp0" text="Cimetidine\n\nCimetidine reduced the clearance and volume of distribution of meperidine and also the formation of the metabolite, normeperidine, in healthy subjects and thus, caution should be used with concomitant administration.">
+		<entity charOffset="12-23" id="DBMI.pac164.sp0.e0" origId="sp0.e0" text="Cimetidine " type="Active ingredient"/>
+		<entity charOffset="75-86" id="DBMI.pac164.sp0.e1" origId="sp0.e1" text="meperidine " type="Active ingredient"/>
+		<entity charOffset="128-142" id="DBMI.pac164.sp0.e2" origId="sp0.e2" text="normeperidine " type="Metabolite"/>
+		<pair e1="DBMI.pac164.sp0.e0" e2="DBMI.pac164.sp0.e1" id="DBMI.pac164.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="meperidine " precipitant="Cimetidine "/>
+		<pair e1="DBMI.pac164.sp0.e0" e2="DBMI.pac164.sp0.e2" id="DBMI.pac164.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="normeperidine " precipitant="Cimetidine "/>
+		<pair e1="DBMI.pac164.sp0.e1" e2="DBMI.pac164.sp0.e0" id="DBMI.pac164.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac164.sp0.e1" e2="DBMI.pac164.sp0.e2" id="DBMI.pac164.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac164.sp0.e2" e2="DBMI.pac164.sp0.e0" id="DBMI.pac164.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac164.sp0.e2" e2="DBMI.pac164.sp0.e1" id="DBMI.pac164.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

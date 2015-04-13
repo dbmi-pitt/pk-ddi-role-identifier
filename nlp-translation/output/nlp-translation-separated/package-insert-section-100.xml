@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac100" origId="pac100">
+	<sentence id="DBMI.pac100.s0" origId="s0" text="Drugs demonstrated to be inducers of CYP3A\n\n Carbamazepine can increase alprazolam metabolism and therefore can decrease plasma levels of alprazolam. ">
+		<entity charOffset="45-59" id="DBMI.pac100.s0.e0" origId="s0.e0" text="Carbamazepine " type="Active ingredient"/>
+		<entity charOffset="138-149" id="DBMI.pac100.s0.e1" origId="s0.e1" text="alprazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac100.s0.e0" e2="DBMI.pac100.s0.e1" id="DBMI.pac100.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="alprazolam " precipitant="Carbamazepine "/>
+		<pair e1="DBMI.pac100.s0.e1" e2="DBMI.pac100.s0.e0" id="DBMI.pac100.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac100.sp0" origId="sp0" text="Drugs demonstrated to be inducers of CYP3A\n\n Carbamazepine can increase alprazolam metabolism and therefore can decrease plasma levels of alprazolam. ">
+		<entity charOffset="45-59" id="DBMI.pac100.sp0.e0" origId="sp0.e0" text="Carbamazepine " type="Active ingredient"/>
+		<entity charOffset="138-149" id="DBMI.pac100.sp0.e1" origId="sp0.e1" text="alprazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac100.sp0.e0" e2="DBMI.pac100.sp0.e1" id="DBMI.pac100.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="alprazolam " precipitant="Carbamazepine "/>
+		<pair e1="DBMI.pac100.sp0.e1" e2="DBMI.pac100.sp0.e0" id="DBMI.pac100.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

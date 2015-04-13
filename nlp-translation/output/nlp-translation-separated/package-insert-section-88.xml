@@ -1,0 +1,23 @@
+
+<document id="DBMI.pac88" origId="pac88">
+	<sentence id="DBMI.pac88.s0" origId="s0" text="SEPTRA may inhibit the hepatic metabolism of phenytoin.">
+		<entity charOffset="0-7" id="DBMI.pac88.s0.e0" origId="s0.e0" text="SEPTRA " type="Drug product"/>
+		<entity charOffset="45-55" id="DBMI.pac88.s0.e1" origId="s0.e1" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac88.s0.e0" e2="DBMI.pac88.s0.e1" id="DBMI.pac88.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="phenytoin " precipitant="SEPTRA "/>
+		<pair e1="DBMI.pac88.s0.e1" e2="DBMI.pac88.s0.e0" id="DBMI.pac88.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac88.s1" origId="s1" text="SEPTRA, given at a common clinical dosage, increased the phenytoin half-life by 39% and decreased the phenytoin metabolic clearance rate by 27%.">
+		<entity charOffset="56-63" id="DBMI.pac88.s1.e0" origId="s1.e0" text="SEPTRA " type="Drug product"/>
+		<entity charOffset="113-123" id="DBMI.pac88.s1.e1" origId="s1.e1" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac88.s1.e0" e2="DBMI.pac88.s1.e1" id="DBMI.pac88.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="phenytoin " precipitant="SEPTRA "/>
+		<pair e1="DBMI.pac88.s1.e1" e2="DBMI.pac88.s1.e0" id="DBMI.pac88.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac88.s2" origId="s2" text="When administering these drugs concurrently, one should be alert for possible excessive phenytoin effect."/>
+	<sentencespan id="DBMI.pac88.sp0" origId="sp0" text="SEPTRA may inhibit the hepatic metabolism of phenytoin. SEPTRA, given at a common clinical dosage, increased the phenytoin half-life by 39% and decreased the phenytoin metabolic clearance rate by 27%. When administering these drugs concurrently, one should be alert for possible excessive phenytoin effect.">
+		<entity charOffset="0-7" id="DBMI.pac88.sp0.e0" origId="sp0.e0" text="SEPTRA " type="Drug product"/>
+		<entity charOffset="45-55" id="DBMI.pac88.sp0.e1" origId="sp0.e1" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac88.sp0.e0" e2="DBMI.pac88.sp0.e1" id="DBMI.pac88.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="phenytoin " precipitant="SEPTRA "/>
+		<pair e1="DBMI.pac88.sp0.e0" e2="DBMI.pac88.sp0.e1" id="DBMI.pac88.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="phenytoin " precipitant="SEPTRA "/>
+		<pair e1="DBMI.pac88.sp0.e1" e2="DBMI.pac88.sp0.e0" id="DBMI.pac88.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

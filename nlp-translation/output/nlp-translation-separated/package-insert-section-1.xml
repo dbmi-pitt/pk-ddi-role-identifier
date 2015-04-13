@@ -1,0 +1,24 @@
+
+<document id="DBMI.pac1" origId="pac1">
+	<sentence id="DBMI.pac1.s0" origId="s0" text="7 DRUG INTERACTIONS\n\n7.1 Established Drug Interactions\n\nClinical recommendations based on the results of drug interaction studies are listed in Table 5."/>
+	<sentence id="DBMI.pac1.s1" origId="s1" text="Pharmacokinetic results of drug interaction studies are shown in Tables 9 to 12 [see Contraindications (4.1 and 4.2) and Clinical Pharmacology (12.3)]."/>
+	<sentence id="DBMI.pac1.s2" origId="s2" text="Exposure to didanosine is increased when coadministered with tenofovir disoproxil fumarate [Table 5 and see Clinical Pharmacokinetics (12.3, Tables 9 and 10)].">
+		<entity charOffset="367-377" id="DBMI.pac1.s2.e0" origId="s2.e0" text="tenofovir " type="Active ingredient"/>
+		<entity charOffset="318-329" id="DBMI.pac1.s2.e1" origId="s2.e1" text="didanosine " type="Active ingredient"/>
+		<pair e1="DBMI.pac1.s2.e0" e2="DBMI.pac1.s2.e1" id="DBMI.pac1.s2.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="didanosine " precipitant="tenofovir "/>
+		<pair e1="DBMI.pac1.s2.e1" e2="DBMI.pac1.s2.e0" id="DBMI.pac1.s2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac1.s3" origId="s3" text="Increased exposure may cause or worsen didanosine-related clinical toxicities, including pancreatitis, symptomatic hyperlactatemia/lactic acidosis, and peripheral neuropathy."/>
+	<sentence id="DBMI.pac1.s4" origId="s4" text="Coadministration of tenofovir disoproxil fumarate with didanosine delayed-release should be undertaken with caution, and patients should be monitored closely for didanosine-related toxicities and clinical response."/>
+	<sentence id="DBMI.pac1.s5" origId="s5" text="Didanosine delayed-release should be suspended if signs or symptoms of pancreatitis, symptomatic hyperlactatemia, or lactic acidosis develop [see Dosage and Administration (2.3), Warnings and Precautions (5)]."/>
+	<sentence id="DBMI.pac1.s6" origId="s6" text="Suppression of CD4 cell counts has been observed in patients receiving tenofovir disoproxil fumarate with didanosine at a dose of 400 mg daily."/>
+	<sentence id="DBMI.pac1.s7" origId="s7" text="7.2 Predicted Drug Interactions\n\nPredicted drug interactions with didanosine delayed-release are listed in Table 6."/>
+	<sentencespan id="DBMI.pac1.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\n7.1 Established Drug Interactions\n\nClinical recommendations based on the results of drug interaction studies are listed in Table 5. Pharmacokinetic results of drug interaction studies are shown in Tables 9 to 12 [see Contraindications (4.1 and 4.2) and Clinical Pharmacology (12.3)]. Exposure to didanosine is increased when coadministered with tenofovir disoproxil fumarate [Table 5 and see Clinical Pharmacokinetics (12.3, Tables 9 and 10)].">
+		<entity charOffset="367-377" id="DBMI.pac1.sp0.e0" origId="sp0.e0" text="tenofovir " type="Active ingredient"/>
+		<entity charOffset="318-329" id="DBMI.pac1.sp0.e1" origId="sp0.e1" text="didanosine " type="Active ingredient"/>
+		<pair e1="DBMI.pac1.sp0.e0" e2="DBMI.pac1.sp0.e1" id="DBMI.pac1.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="didanosine " precipitant="tenofovir "/>
+		<pair e1="DBMI.pac1.sp0.e1" e2="DBMI.pac1.sp0.e0" id="DBMI.pac1.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac1.sp1" origId="sp1" text="Increased exposure may cause or worsen didanosine-related clinical toxicities, including pancreatitis, symptomatic hyperlactatemia/lactic acidosis, and peripheral neuropathy. Coadministration of tenofovir disoproxil fumarate with didanosine delayed-release should be undertaken with caution, and patients should be monitored closely for didanosine-related toxicities and clinical response. Didanosine delayed-release should be suspended if signs or symptoms of pancreatitis, symptomatic hyperlactatemia, or lactic acidosis develop [see Dosage and Administration (2.3), Warnings and Precautions (5)]."/>
+	<sentencespan id="DBMI.pac1.sp2" origId="sp2" text="Suppression of CD4 cell counts has been observed in patients receiving tenofovir disoproxil fumarate with didanosine at a dose of 400 mg daily. 7.2 Predicted Drug Interactions\n\nPredicted drug interactions with didanosine delayed-release are listed in Table 6."/>
+</document>

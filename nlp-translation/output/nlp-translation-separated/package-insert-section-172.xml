@@ -1,0 +1,201 @@
+
+<document id="DBMI.pac172" origId="pac172">
+	<sentence id="DBMI.pac172.s0" origId="s0" text="7 DRUG INTERACTIONS\n\nThe risk of myopathy during treatment with statins is increased with concurrent administration of fibric acid derivatives, lipid-modifying doses of niacin, cyclosporine, or strong CYP 3A4 inhibitors (e.g., clarithromycin, HIV protease inhibitors, and itraconazole) [see Warnings and Precautions, Skeletal Muscle (5.1) and Clinical Pharmacology (12.3)]."/>
+	<sentence id="DBMI.pac172.s1" origId="s1" text="7.1 Strong Inhibitors of CYP 3A4\n\nLIPITOR is metabolized by cytochrome P450 3A4."/>
+	<sentence id="DBMI.pac172.s2" origId="s2" text="Concomitant administration of LIPITOR with strong inhibitors of CYP 3A4 can lead to increases in plasma concentrations of atorvastatin."/>
+	<sentence id="DBMI.pac172.s3" origId="s3" text="The extent of interaction and potentiation of effects depend on the variability of effect on CYP 3A4."/>
+	<sentence id="DBMI.pac172.s4" origId="s4" text="Clarithromycin: Atorvastatin AUC was significantly increased with concomitant administration of LIPITOR 80 mg with clarithromycin (500 mg twice daily) compared to that of LIPITOR alone [see Clinical Pharmacology (12.3)].">
+		<entity charOffset="816-831" id="DBMI.pac172.s4.e0" origId="s4.e0" text="clarithromycin " type="Active ingredient"/>
+		<entity charOffset="797-805" id="DBMI.pac172.s4.e1" origId="s4.e1" text="LIPITOR " type="Drug product"/>
+		<entity charOffset="717-730" id="DBMI.pac172.s4.e2" origId="s4.e2" text="Atorvastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac172.s4.e0" e2="DBMI.pac172.s4.e1" id="DBMI.pac172.s4.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="LIPITOR " precipitant="clarithromycin "/>
+		<pair e1="DBMI.pac172.s4.e0" e2="DBMI.pac172.s4.e2" id="DBMI.pac172.s4.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Atorvastatin " precipitant="clarithromycin "/>
+		<pair e1="DBMI.pac172.s4.e1" e2="DBMI.pac172.s4.e0" id="DBMI.pac172.s4.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s4.e1" e2="DBMI.pac172.s4.e2" id="DBMI.pac172.s4.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s4.e2" e2="DBMI.pac172.s4.e0" id="DBMI.pac172.s4.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s4.e2" e2="DBMI.pac172.s4.e1" id="DBMI.pac172.s4.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac172.s5" origId="s5" text="Therefore, in patients taking clarithromycin, caution should be used when the LIPITOR dose exceeds 20 mg [see Warnings and Precautions, Skeletal Muscle (5.1) and Dosage and Administration (2.6)]."/>
+	<sentence id="DBMI.pac172.s6" origId="s6" text="Combination of Protease Inhibitors: Atorvastatin AUC was significantly increased with concomitant administration of LIPITOR 40 mg with ritonavir plus saquinavir (400 mg twice daily) or LIPITOR 20 mg with lopinavir plus ritonavir (400 mg + 100 mg twice daily) compared to that of LIPITOR alone [see Clinical Pharmacology (12.3)].">
+		<entity charOffset="1260-1270" id="DBMI.pac172.s6.e0" origId="s6.e0" text="ritonavir " type="Active ingredient"/>
+		<entity charOffset="1241-1249" id="DBMI.pac172.s6.e1" origId="s6.e1" text="LIPITOR " type="Drug product"/>
+		<entity charOffset="1161-1174" id="DBMI.pac172.s6.e2" origId="s6.e2" text="Atorvastatin " type="Active ingredient"/>
+		<entity charOffset="1275-1286" id="DBMI.pac172.s6.e3" origId="s6.e3" text="saquinavir " type="Active ingredient"/>
+		<entity charOffset="1329-1339" id="DBMI.pac172.s6.e4" origId="s6.e4" text="lopinavir " type="Active ingredient"/>
+		<pair e1="DBMI.pac172.s6.e0" e2="DBMI.pac172.s6.e1" id="DBMI.pac172.s6.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="LIPITOR " precipitant="ritonavir "/>
+		<pair e1="DBMI.pac172.s6.e0" e2="DBMI.pac172.s6.e2" id="DBMI.pac172.s6.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Atorvastatin " precipitant="ritonavir "/>
+		<pair e1="DBMI.pac172.s6.e0" e2="DBMI.pac172.s6.e2" id="DBMI.pac172.s6.p2" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Atorvastatin " precipitant="ritonavir "/>
+		<pair e1="DBMI.pac172.s6.e0" e2="DBMI.pac172.s6.e3" id="DBMI.pac172.s6.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s6.e0" e2="DBMI.pac172.s6.e4" id="DBMI.pac172.s6.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s6.e1" e2="DBMI.pac172.s6.e0" id="DBMI.pac172.s6.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s6.e1" e2="DBMI.pac172.s6.e2" id="DBMI.pac172.s6.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s6.e1" e2="DBMI.pac172.s6.e3" id="DBMI.pac172.s6.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s6.e1" e2="DBMI.pac172.s6.e4" id="DBMI.pac172.s6.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s6.e2" e2="DBMI.pac172.s6.e0" id="DBMI.pac172.s6.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s6.e2" e2="DBMI.pac172.s6.e1" id="DBMI.pac172.s6.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s6.e2" e2="DBMI.pac172.s6.e3" id="DBMI.pac172.s6.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s6.e2" e2="DBMI.pac172.s6.e4" id="DBMI.pac172.s6.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s6.e3" e2="DBMI.pac172.s6.e0" id="DBMI.pac172.s6.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s6.e3" e2="DBMI.pac172.s6.e1" id="DBMI.pac172.s6.p14" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="LIPITOR " precipitant="saquinavir "/>
+		<pair e1="DBMI.pac172.s6.e3" e2="DBMI.pac172.s6.e2" id="DBMI.pac172.s6.p15" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Atorvastatin " precipitant="saquinavir "/>
+		<pair e1="DBMI.pac172.s6.e3" e2="DBMI.pac172.s6.e4" id="DBMI.pac172.s6.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s6.e4" e2="DBMI.pac172.s6.e0" id="DBMI.pac172.s6.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s6.e4" e2="DBMI.pac172.s6.e1" id="DBMI.pac172.s6.p18" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="LIPITOR " precipitant="lopinavir "/>
+		<pair e1="DBMI.pac172.s6.e4" e2="DBMI.pac172.s6.e2" id="DBMI.pac172.s6.p19" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Atorvastatin " precipitant="lopinavir "/>
+		<pair e1="DBMI.pac172.s6.e4" e2="DBMI.pac172.s6.e3" id="DBMI.pac172.s6.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac172.s7" origId="s7" text="Therefore, in patients taking HIV protease inhibitors, caution should be used when the LIPITOR dose exceeds 20 mg [see Warnings and Precautions, Skeletal Muscle (5.1) and Dosage and Administration (2.6)]."/>
+	<sentence id="DBMI.pac172.s8" origId="s8" text="Itraconazole: Atorvastatin AUC was significantly increased with concomitant administration of LIPITOR 40 mg and itraconazole 200 mg [see Clinical Pharmacology (12.3)].">
+		<entity charOffset="1778-1791" id="DBMI.pac172.s8.e0" origId="s8.e0" text="itraconazole " type="Active ingredient"/>
+		<entity charOffset="1680-1693" id="DBMI.pac172.s8.e1" origId="s8.e1" text="Atorvastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac172.s8.e0" e2="DBMI.pac172.s8.e1" id="DBMI.pac172.s8.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Atorvastatin " precipitant="itraconazole "/>
+		<pair e1="DBMI.pac172.s8.e1" e2="DBMI.pac172.s8.e0" id="DBMI.pac172.s8.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac172.s9" origId="s9" text="Therefore, in patients taking itraconazole, caution should be used when the LIPITOR dose exceeds 20 mg [see Warnings and Precautions, Skeletal Muscle (5.1) and Dosage and Administration (2.6)]."/>
+	<sentence id="DBMI.pac172.s10" origId="s10" text="7.2 Grapefruit Juice\n\nContains one or more components that inhibit CYP 3A4 and can increase plasma concentrations of atorvastatin, especially with excessive grapefruit juice consumption (&gt;1.2 liters per day)."/>
+	<sentence id="DBMI.pac172.s11" origId="s11" text="7.3 Cyclosporine\n\nAtorvastatin and atorvastatin-metabolites are substrates of the OATP1B1 transporter."/>
+	<sentence id="DBMI.pac172.s12" origId="s12" text="Inhibitors of the OATP1B1 (e.g., cyclosporine) can increase the bioavailability of atorvastatin."/>
+	<sentence id="DBMI.pac172.s13" origId="s13" text="Atorvastatin AUC was significantly increased with concomitant administration of LIPITOR 10 mg and cyclosporine 5.2 mg/kg/day compared to that of LIPITOR alone [see Clinical Pharmacology (12.3)].">
+		<entity charOffset="2537-2550" id="DBMI.pac172.s13.e0" origId="s13.e0" text="cyclosporine " type="Active ingredient"/>
+		<entity charOffset="2439-2452" id="DBMI.pac172.s13.e1" origId="s13.e1" text="Atorvastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac172.s13.e0" e2="DBMI.pac172.s13.e1" id="DBMI.pac172.s13.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Atorvastatin " precipitant="cyclosporine "/>
+		<pair e1="DBMI.pac172.s13.e1" e2="DBMI.pac172.s13.e0" id="DBMI.pac172.s13.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac172.s14" origId="s14" text="In cases where co-administration of LIPITOR with cyclosporine is necessary, the dose of LIPITOR should not exceed 10 mg [see Warnings and Precautions, Skeletal Muscle (5.1)]."/>
+	<sentence id="DBMI.pac172.s15" origId="s15" text="7.4 Rifampin or other Inducers of Cytochrome P450 3A4\n\nConcomitant administration of LIPITOR with inducers of cytochrome P450 3A4 (e.g., efavirenz, rifampin) can lead to variable reductions in plasma concentrations of atorvastatin.">
+		<entity charOffset="2947-2957" id="DBMI.pac172.s15.e0" origId="s15.e0" text="efavirenz " type="Active ingredient"/>
+		<entity charOffset="2895-2903" id="DBMI.pac172.s15.e1" origId="s15.e1" text="LIPITOR " type="Drug product"/>
+		<entity charOffset="2958-2967" id="DBMI.pac172.s15.e2" origId="s15.e2" text="rifampin " type="Active ingredient"/>
+		<pair e1="DBMI.pac172.s15.e0" e2="DBMI.pac172.s15.e1" id="DBMI.pac172.s15.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="LIPITOR " precipitant="efavirenz "/>
+		<pair e1="DBMI.pac172.s15.e0" e2="DBMI.pac172.s15.e2" id="DBMI.pac172.s15.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s15.e1" e2="DBMI.pac172.s15.e0" id="DBMI.pac172.s15.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s15.e1" e2="DBMI.pac172.s15.e2" id="DBMI.pac172.s15.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s15.e2" e2="DBMI.pac172.s15.e0" id="DBMI.pac172.s15.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s15.e2" e2="DBMI.pac172.s15.e1" id="DBMI.pac172.s15.p5" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="LIPITOR " precipitant="rifampin "/>
+	</sentence>
+	<sentence id="DBMI.pac172.s16" origId="s16" text="Due to the dual interaction mechanism of rifampin, simultaneous co-administration of LIPITOR with rifampin is recommended, as delayed administration of LIPITOR after administration of rifampin has been associated with a significant reduction in atorvastatin plasma concentrations.">
+		<entity charOffset="3226-3235" id="DBMI.pac172.s16.e0" origId="s16.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="3287-3300" id="DBMI.pac172.s16.e1" origId="s16.e1" text="atorvastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac172.s16.e0" e2="DBMI.pac172.s16.e1" id="DBMI.pac172.s16.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="atorvastatin " precipitant="rifampin "/>
+		<pair e1="DBMI.pac172.s16.e1" e2="DBMI.pac172.s16.e0" id="DBMI.pac172.s16.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac172.s17" origId="s17" text="7.5 Digoxin\n\nWhen multiple doses of LIPITOR and digoxin were coadministered, steady state plasma digoxin concentrations increased by approximately 20%.">
+		<entity charOffset="3360-3368" id="DBMI.pac172.s17.e0" origId="s17.e0" text="LIPITOR " type="Drug product"/>
+		<entity charOffset="3372-3380" id="DBMI.pac172.s17.e1" origId="s17.e1" text="digoxin " type="Active ingredient"/>
+		<pair e1="DBMI.pac172.s17.e0" e2="DBMI.pac172.s17.e1" id="DBMI.pac172.s17.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="digoxin " precipitant="LIPITOR "/>
+		<pair e1="DBMI.pac172.s17.e0" e2="DBMI.pac172.s17.e1" id="DBMI.pac172.s17.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="digoxin " precipitant="LIPITOR "/>
+		<pair e1="DBMI.pac172.s17.e1" e2="DBMI.pac172.s17.e0" id="DBMI.pac172.s17.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac172.s18" origId="s18" text="Patients taking digoxin should be monitored appropriately."/>
+	<sentence id="DBMI.pac172.s19" origId="s19" text="7.6 Oral Contraceptives\n\nCo-administration of LIPITOR and an oral contraceptive increased AUC values for norethindrone and ethinyl estradiol [see Clinical Pharmacology (12.3)].">
+		<entity charOffset="3582-3590" id="DBMI.pac172.s19.e0" origId="s19.e0" text="LIPITOR " type="Drug product"/>
+		<entity charOffset="3641-3655" id="DBMI.pac172.s19.e1" origId="s19.e1" text="norethindrone " type="Active ingredient"/>
+		<entity charOffset="3659-3677" id="DBMI.pac172.s19.e2" origId="s19.e2" text="ethinyl estradiol " type="Active ingredient"/>
+		<pair e1="DBMI.pac172.s19.e0" e2="DBMI.pac172.s19.e1" id="DBMI.pac172.s19.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="norethindrone " precipitant="LIPITOR "/>
+		<pair e1="DBMI.pac172.s19.e0" e2="DBMI.pac172.s19.e2" id="DBMI.pac172.s19.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="ethinyl estradiol " precipitant="LIPITOR "/>
+		<pair e1="DBMI.pac172.s19.e1" e2="DBMI.pac172.s19.e0" id="DBMI.pac172.s19.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s19.e1" e2="DBMI.pac172.s19.e2" id="DBMI.pac172.s19.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s19.e2" e2="DBMI.pac172.s19.e0" id="DBMI.pac172.s19.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.s19.e2" e2="DBMI.pac172.s19.e1" id="DBMI.pac172.s19.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac172.s20" origId="s20" text="These increases should be considered when selecting an oral contraceptive for a woman taking LIPITOR."/>
+	<sentence id="DBMI.pac172.s21" origId="s21" text="7.7 Warfarin\n\nLIPITOR had no clinically significant effect on prothrombin time when administered to patients receiving chronic warfarin treatment. "/>
+	<sentencespan id="DBMI.pac172.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\nThe risk of myopathy during treatment with statins is increased with concurrent administration of fibric acid derivatives, lipid-modifying doses of niacin, cyclosporine, or strong CYP 3A4 inhibitors (e.g., clarithromycin, HIV protease inhibitors, and itraconazole) [see Warnings and Precautions, Skeletal Muscle (5.1) and Clinical Pharmacology (12.3)]. 7.1 Strong Inhibitors of CYP 3A4\n\nLIPITOR is metabolized by cytochrome P450 3A4. Concomitant administration of LIPITOR with strong inhibitors of CYP 3A4 can lead to increases in plasma concentrations of atorvastatin."/>
+	<sentencespan id="DBMI.pac172.sp1" origId="sp1" text="The extent of interaction and potentiation of effects depend on the variability of effect on CYP 3A4. Clarithromycin: Atorvastatin AUC was significantly increased with concomitant administration of LIPITOR 80 mg with clarithromycin (500 mg twice daily) compared to that of LIPITOR alone [see Clinical Pharmacology (12.3)]. Therefore, in patients taking clarithromycin, caution should be used when the LIPITOR dose exceeds 20 mg [see Warnings and Precautions, Skeletal Muscle (5.1) and Dosage and Administration (2.6)].">
+		<entity charOffset="816-831" id="DBMI.pac172.sp1.e0" origId="sp1.e0" text="clarithromycin " type="Active ingredient"/>
+		<entity charOffset="797-805" id="DBMI.pac172.sp1.e1" origId="sp1.e1" text="LIPITOR " type="Drug product"/>
+		<entity charOffset="717-730" id="DBMI.pac172.sp1.e2" origId="sp1.e2" text="Atorvastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac172.sp1.e0" e2="DBMI.pac172.sp1.e1" id="DBMI.pac172.sp1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="LIPITOR " precipitant="clarithromycin "/>
+		<pair e1="DBMI.pac172.sp1.e0" e2="DBMI.pac172.sp1.e2" id="DBMI.pac172.sp1.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Atorvastatin " precipitant="clarithromycin "/>
+		<pair e1="DBMI.pac172.sp1.e1" e2="DBMI.pac172.sp1.e0" id="DBMI.pac172.sp1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp1.e1" e2="DBMI.pac172.sp1.e2" id="DBMI.pac172.sp1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp1.e2" e2="DBMI.pac172.sp1.e0" id="DBMI.pac172.sp1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp1.e2" e2="DBMI.pac172.sp1.e1" id="DBMI.pac172.sp1.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac172.sp2" origId="sp2" text="Combination of Protease Inhibitors: Atorvastatin AUC was significantly increased with concomitant administration of LIPITOR 40 mg with ritonavir plus saquinavir (400 mg twice daily) or LIPITOR 20 mg with lopinavir plus ritonavir (400 mg + 100 mg twice daily) compared to that of LIPITOR alone [see Clinical Pharmacology (12.3)]. Therefore, in patients taking HIV protease inhibitors, caution should be used when the LIPITOR dose exceeds 20 mg [see Warnings and Precautions, Skeletal Muscle (5.1) and Dosage and Administration (2.6)]. Itraconazole: Atorvastatin AUC was significantly increased with concomitant administration of LIPITOR 40 mg and itraconazole 200 mg [see Clinical Pharmacology (12.3)].">
+		<entity charOffset="1260-1270" id="DBMI.pac172.sp2.e0" origId="sp2.e0" text="ritonavir " type="Active ingredient"/>
+		<entity charOffset="1241-1249" id="DBMI.pac172.sp2.e1" origId="sp2.e1" text="LIPITOR " type="Drug product"/>
+		<entity charOffset="1161-1174" id="DBMI.pac172.sp2.e2" origId="sp2.e2" text="Atorvastatin " type="Active ingredient"/>
+		<entity charOffset="1275-1286" id="DBMI.pac172.sp2.e3" origId="sp2.e3" text="saquinavir " type="Active ingredient"/>
+		<entity charOffset="1329-1339" id="DBMI.pac172.sp2.e4" origId="sp2.e4" text="lopinavir " type="Active ingredient"/>
+		<entity charOffset="1778-1791" id="DBMI.pac172.sp2.e5" origId="sp2.e5" text="itraconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac172.sp2.e0" e2="DBMI.pac172.sp2.e1" id="DBMI.pac172.sp2.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="LIPITOR " precipitant="ritonavir "/>
+		<pair e1="DBMI.pac172.sp2.e0" e2="DBMI.pac172.sp2.e2" id="DBMI.pac172.sp2.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Atorvastatin " precipitant="ritonavir "/>
+		<pair e1="DBMI.pac172.sp2.e0" e2="DBMI.pac172.sp2.e2" id="DBMI.pac172.sp2.p2" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Atorvastatin " precipitant="ritonavir "/>
+		<pair e1="DBMI.pac172.sp2.e0" e2="DBMI.pac172.sp2.e3" id="DBMI.pac172.sp2.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e0" e2="DBMI.pac172.sp2.e4" id="DBMI.pac172.sp2.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e0" e2="DBMI.pac172.sp2.e5" id="DBMI.pac172.sp2.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e1" e2="DBMI.pac172.sp2.e0" id="DBMI.pac172.sp2.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e1" e2="DBMI.pac172.sp2.e2" id="DBMI.pac172.sp2.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e1" e2="DBMI.pac172.sp2.e3" id="DBMI.pac172.sp2.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e1" e2="DBMI.pac172.sp2.e4" id="DBMI.pac172.sp2.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e1" e2="DBMI.pac172.sp2.e5" id="DBMI.pac172.sp2.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e2" e2="DBMI.pac172.sp2.e0" id="DBMI.pac172.sp2.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e2" e2="DBMI.pac172.sp2.e1" id="DBMI.pac172.sp2.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e2" e2="DBMI.pac172.sp2.e3" id="DBMI.pac172.sp2.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e2" e2="DBMI.pac172.sp2.e4" id="DBMI.pac172.sp2.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e2" e2="DBMI.pac172.sp2.e5" id="DBMI.pac172.sp2.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e3" e2="DBMI.pac172.sp2.e0" id="DBMI.pac172.sp2.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e3" e2="DBMI.pac172.sp2.e1" id="DBMI.pac172.sp2.p17" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="LIPITOR " precipitant="saquinavir "/>
+		<pair e1="DBMI.pac172.sp2.e3" e2="DBMI.pac172.sp2.e2" id="DBMI.pac172.sp2.p18" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Atorvastatin " precipitant="saquinavir "/>
+		<pair e1="DBMI.pac172.sp2.e3" e2="DBMI.pac172.sp2.e4" id="DBMI.pac172.sp2.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e3" e2="DBMI.pac172.sp2.e5" id="DBMI.pac172.sp2.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e4" e2="DBMI.pac172.sp2.e0" id="DBMI.pac172.sp2.p21" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e4" e2="DBMI.pac172.sp2.e1" id="DBMI.pac172.sp2.p22" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="LIPITOR " precipitant="lopinavir "/>
+		<pair e1="DBMI.pac172.sp2.e4" e2="DBMI.pac172.sp2.e2" id="DBMI.pac172.sp2.p23" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Atorvastatin " precipitant="lopinavir "/>
+		<pair e1="DBMI.pac172.sp2.e4" e2="DBMI.pac172.sp2.e3" id="DBMI.pac172.sp2.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e4" e2="DBMI.pac172.sp2.e5" id="DBMI.pac172.sp2.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e5" e2="DBMI.pac172.sp2.e0" id="DBMI.pac172.sp2.p26" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e5" e2="DBMI.pac172.sp2.e1" id="DBMI.pac172.sp2.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e5" e2="DBMI.pac172.sp2.e2" id="DBMI.pac172.sp2.p28" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Atorvastatin " precipitant="itraconazole "/>
+		<pair e1="DBMI.pac172.sp2.e5" e2="DBMI.pac172.sp2.e3" id="DBMI.pac172.sp2.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp2.e5" e2="DBMI.pac172.sp2.e4" id="DBMI.pac172.sp2.p30" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac172.sp3" origId="sp3" text="Therefore, in patients taking itraconazole, caution should be used when the LIPITOR dose exceeds 20 mg [see Warnings and Precautions, Skeletal Muscle (5.1) and Dosage and Administration (2.6)]. 7.2 Grapefruit Juice\n\nContains one or more components that inhibit CYP 3A4 and can increase plasma concentrations of atorvastatin, especially with excessive grapefruit juice consumption (&gt;1.2 liters per day). 7.3 Cyclosporine\n\nAtorvastatin and atorvastatin-metabolites are substrates of the OATP1B1 transporter."/>
+	<sentencespan id="DBMI.pac172.sp4" origId="sp4" text="Inhibitors of the OATP1B1 (e.g., cyclosporine) can increase the bioavailability of atorvastatin. Atorvastatin AUC was significantly increased with concomitant administration of LIPITOR 10 mg and cyclosporine 5.2 mg/kg/day compared to that of LIPITOR alone [see Clinical Pharmacology (12.3)]. In cases where co-administration of LIPITOR with cyclosporine is necessary, the dose of LIPITOR should not exceed 10 mg [see Warnings and Precautions, Skeletal Muscle (5.1)].">
+		<entity charOffset="2537-2550" id="DBMI.pac172.sp4.e0" origId="sp4.e0" text="cyclosporine " type="Active ingredient"/>
+		<entity charOffset="2439-2452" id="DBMI.pac172.sp4.e1" origId="sp4.e1" text="Atorvastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac172.sp4.e0" e2="DBMI.pac172.sp4.e1" id="DBMI.pac172.sp4.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Atorvastatin " precipitant="cyclosporine "/>
+		<pair e1="DBMI.pac172.sp4.e1" e2="DBMI.pac172.sp4.e0" id="DBMI.pac172.sp4.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac172.sp5" origId="sp5" text="7.4 Rifampin or other Inducers of Cytochrome P450 3A4\n\nConcomitant administration of LIPITOR with inducers of cytochrome P450 3A4 (e.g., efavirenz, rifampin) can lead to variable reductions in plasma concentrations of atorvastatin. Due to the dual interaction mechanism of rifampin, simultaneous co-administration of LIPITOR with rifampin is recommended, as delayed administration of LIPITOR after administration of rifampin has been associated with a significant reduction in atorvastatin plasma concentrations. 7.5 Digoxin\n\nWhen multiple doses of LIPITOR and digoxin were coadministered, steady state plasma digoxin concentrations increased by approximately 20%.">
+		<entity charOffset="2947-2957" id="DBMI.pac172.sp5.e0" origId="sp5.e0" text="efavirenz " type="Active ingredient"/>
+		<entity charOffset="2895-2903" id="DBMI.pac172.sp5.e1" origId="sp5.e1" text="LIPITOR " type="Drug product"/>
+		<entity charOffset="2958-2967" id="DBMI.pac172.sp5.e2" origId="sp5.e2" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="3287-3300" id="DBMI.pac172.sp5.e3" origId="sp5.e3" text="atorvastatin " type="Active ingredient"/>
+		<entity charOffset="3372-3380" id="DBMI.pac172.sp5.e4" origId="sp5.e4" text="digoxin " type="Active ingredient"/>
+		<pair e1="DBMI.pac172.sp5.e0" e2="DBMI.pac172.sp5.e1" id="DBMI.pac172.sp5.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="LIPITOR " precipitant="efavirenz "/>
+		<pair e1="DBMI.pac172.sp5.e0" e2="DBMI.pac172.sp5.e2" id="DBMI.pac172.sp5.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e0" e2="DBMI.pac172.sp5.e3" id="DBMI.pac172.sp5.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e0" e2="DBMI.pac172.sp5.e4" id="DBMI.pac172.sp5.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e1" e2="DBMI.pac172.sp5.e0" id="DBMI.pac172.sp5.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e1" e2="DBMI.pac172.sp5.e2" id="DBMI.pac172.sp5.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e1" e2="DBMI.pac172.sp5.e3" id="DBMI.pac172.sp5.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e1" e2="DBMI.pac172.sp5.e4" id="DBMI.pac172.sp5.p7" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="digoxin " precipitant="LIPITOR "/>
+		<pair e1="DBMI.pac172.sp5.e1" e2="DBMI.pac172.sp5.e4" id="DBMI.pac172.sp5.p8" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="digoxin " precipitant="LIPITOR "/>
+		<pair e1="DBMI.pac172.sp5.e2" e2="DBMI.pac172.sp5.e0" id="DBMI.pac172.sp5.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e2" e2="DBMI.pac172.sp5.e1" id="DBMI.pac172.sp5.p10" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="LIPITOR " precipitant="rifampin "/>
+		<pair e1="DBMI.pac172.sp5.e2" e2="DBMI.pac172.sp5.e3" id="DBMI.pac172.sp5.p11" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="atorvastatin " precipitant="rifampin "/>
+		<pair e1="DBMI.pac172.sp5.e2" e2="DBMI.pac172.sp5.e4" id="DBMI.pac172.sp5.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e3" e2="DBMI.pac172.sp5.e0" id="DBMI.pac172.sp5.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e3" e2="DBMI.pac172.sp5.e1" id="DBMI.pac172.sp5.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e3" e2="DBMI.pac172.sp5.e2" id="DBMI.pac172.sp5.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e3" e2="DBMI.pac172.sp5.e4" id="DBMI.pac172.sp5.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e4" e2="DBMI.pac172.sp5.e0" id="DBMI.pac172.sp5.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e4" e2="DBMI.pac172.sp5.e1" id="DBMI.pac172.sp5.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e4" e2="DBMI.pac172.sp5.e2" id="DBMI.pac172.sp5.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp5.e4" e2="DBMI.pac172.sp5.e3" id="DBMI.pac172.sp5.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac172.sp6" origId="sp6" text="Patients taking digoxin should be monitored appropriately. 7.6 Oral Contraceptives\n\nCo-administration of LIPITOR and an oral contraceptive increased AUC values for norethindrone and ethinyl estradiol [see Clinical Pharmacology (12.3)]. These increases should be considered when selecting an oral contraceptive for a woman taking LIPITOR.">
+		<entity charOffset="3582-3590" id="DBMI.pac172.sp6.e0" origId="sp6.e0" text="LIPITOR " type="Drug product"/>
+		<entity charOffset="3641-3655" id="DBMI.pac172.sp6.e1" origId="sp6.e1" text="norethindrone " type="Active ingredient"/>
+		<entity charOffset="3659-3677" id="DBMI.pac172.sp6.e2" origId="sp6.e2" text="ethinyl estradiol " type="Active ingredient"/>
+		<pair e1="DBMI.pac172.sp6.e0" e2="DBMI.pac172.sp6.e1" id="DBMI.pac172.sp6.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="norethindrone " precipitant="LIPITOR "/>
+		<pair e1="DBMI.pac172.sp6.e0" e2="DBMI.pac172.sp6.e2" id="DBMI.pac172.sp6.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="ethinyl estradiol " precipitant="LIPITOR "/>
+		<pair e1="DBMI.pac172.sp6.e1" e2="DBMI.pac172.sp6.e0" id="DBMI.pac172.sp6.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp6.e1" e2="DBMI.pac172.sp6.e2" id="DBMI.pac172.sp6.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp6.e2" e2="DBMI.pac172.sp6.e0" id="DBMI.pac172.sp6.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac172.sp6.e2" e2="DBMI.pac172.sp6.e1" id="DBMI.pac172.sp6.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac172.sp7" origId="sp7" text="7.7 Warfarin\n\nLIPITOR had no clinically significant effect on prothrombin time when administered to patients receiving chronic warfarin treatment. "/>
+</document>

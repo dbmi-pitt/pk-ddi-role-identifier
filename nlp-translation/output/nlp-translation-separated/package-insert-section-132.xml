@@ -1,0 +1,47 @@
+
+<document id="DBMI.pac132" origId="pac132">
+	<sentence id="DBMI.pac132.s0" origId="s0" text="Co-administration of propranolol with lovastatin or pravastatin, decreased 18% to 23% the AUC of both, but did not alter their pharmacodynamics.">
+		<entity charOffset="21-33" id="DBMI.pac132.s0.e0" origId="s0.e0" text="propranolol " type="Active ingredient"/>
+		<entity charOffset="38-49" id="DBMI.pac132.s0.e1" origId="s0.e1" text="lovastatin " type="Active ingredient"/>
+		<entity charOffset="52-64" id="DBMI.pac132.s0.e2" origId="s0.e2" text="pravastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac132.s0.e0" e2="DBMI.pac132.s0.e1" id="DBMI.pac132.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="lovastatin " precipitant="propranolol "/>
+		<pair e1="DBMI.pac132.s0.e0" e2="DBMI.pac132.s0.e2" id="DBMI.pac132.s0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="pravastatin " precipitant="propranolol "/>
+		<pair e1="DBMI.pac132.s0.e1" e2="DBMI.pac132.s0.e0" id="DBMI.pac132.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.s0.e1" e2="DBMI.pac132.s0.e2" id="DBMI.pac132.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.s0.e2" e2="DBMI.pac132.s0.e0" id="DBMI.pac132.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.s0.e2" e2="DBMI.pac132.s0.e1" id="DBMI.pac132.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac132.s1" origId="s1" text="Propranolol did not have an effect on the pharmacokinetics of fluvastatin.">
+		<entity charOffset="145-157" id="DBMI.pac132.s1.e0" origId="s1.e0" text="Propranolol " type="Active ingredient"/>
+		<entity charOffset="207-219" id="DBMI.pac132.s1.e1" origId="s1.e1" text="fluvastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac132.s1.e0" e2="DBMI.pac132.s1.e1" id="DBMI.pac132.s1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluvastatin " precipitant="Propranolol "/>
+		<pair e1="DBMI.pac132.s1.e1" e2="DBMI.pac132.s1.e0" id="DBMI.pac132.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac132.sp0" origId="sp0" text="Co-administration of propranolol with lovastatin or pravastatin, decreased 18% to 23% the AUC of both, but did not alter their pharmacodynamics. Propranolol did not have an effect on the pharmacokinetics of fluvastatin.">
+		<entity charOffset="145-157" id="DBMI.pac132.sp0.e0" origId="sp0.e0" text="Propranolol " type="Active ingredient"/>
+		<entity charOffset="207-219" id="DBMI.pac132.sp0.e1" origId="sp0.e1" text="fluvastatin " type="Active ingredient"/>
+		<entity charOffset="21-33" id="DBMI.pac132.sp0.e2" origId="sp0.e2" text="propranolol " type="Active ingredient"/>
+		<entity charOffset="38-49" id="DBMI.pac132.sp0.e3" origId="sp0.e3" text="lovastatin " type="Active ingredient"/>
+		<entity charOffset="52-64" id="DBMI.pac132.sp0.e4" origId="sp0.e4" text="pravastatin " type="Active ingredient"/>
+		<pair e1="DBMI.pac132.sp0.e0" e2="DBMI.pac132.sp0.e1" id="DBMI.pac132.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluvastatin " precipitant="Propranolol "/>
+		<pair e1="DBMI.pac132.sp0.e0" e2="DBMI.pac132.sp0.e2" id="DBMI.pac132.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e0" e2="DBMI.pac132.sp0.e3" id="DBMI.pac132.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e0" e2="DBMI.pac132.sp0.e4" id="DBMI.pac132.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e1" e2="DBMI.pac132.sp0.e0" id="DBMI.pac132.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e1" e2="DBMI.pac132.sp0.e2" id="DBMI.pac132.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e1" e2="DBMI.pac132.sp0.e3" id="DBMI.pac132.sp0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e1" e2="DBMI.pac132.sp0.e4" id="DBMI.pac132.sp0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e2" e2="DBMI.pac132.sp0.e0" id="DBMI.pac132.sp0.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e2" e2="DBMI.pac132.sp0.e1" id="DBMI.pac132.sp0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e2" e2="DBMI.pac132.sp0.e3" id="DBMI.pac132.sp0.p10" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="lovastatin " precipitant="propranolol "/>
+		<pair e1="DBMI.pac132.sp0.e2" e2="DBMI.pac132.sp0.e4" id="DBMI.pac132.sp0.p11" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="pravastatin " precipitant="propranolol "/>
+		<pair e1="DBMI.pac132.sp0.e3" e2="DBMI.pac132.sp0.e0" id="DBMI.pac132.sp0.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e3" e2="DBMI.pac132.sp0.e1" id="DBMI.pac132.sp0.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e3" e2="DBMI.pac132.sp0.e2" id="DBMI.pac132.sp0.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e3" e2="DBMI.pac132.sp0.e4" id="DBMI.pac132.sp0.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e4" e2="DBMI.pac132.sp0.e0" id="DBMI.pac132.sp0.p16" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e4" e2="DBMI.pac132.sp0.e1" id="DBMI.pac132.sp0.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e4" e2="DBMI.pac132.sp0.e2" id="DBMI.pac132.sp0.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac132.sp0.e4" e2="DBMI.pac132.sp0.e3" id="DBMI.pac132.sp0.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

@@ -1,0 +1,42 @@
+
+<document id="DBMI.pac168" origId="pac168">
+	<sentence id="DBMI.pac168.s0" origId="s0" text="Effect Of Clonazepam On The Pharmacokinetics Of Other Drugs: Clonazepam does not appear to alter the pharmacokinetics of phenytoin, carbamazepine or phenobarbital.">
+		<entity charOffset="61-72" id="DBMI.pac168.s0.e0" origId="s0.e0" text="Clonazepam " type="Active ingredient"/>
+		<entity charOffset="132-146" id="DBMI.pac168.s0.e1" origId="s0.e1" text="carbamazepine " type="Active ingredient"/>
+		<entity charOffset="121-131" id="DBMI.pac168.s0.e2" origId="s0.e2" text="phenytoin " type="Active ingredient"/>
+		<entity charOffset="149-163" id="DBMI.pac168.s0.e3" origId="s0.e3" text="phenobarbital " type="Active ingredient"/>
+		<pair e1="DBMI.pac168.s0.e0" e2="DBMI.pac168.s0.e1" id="DBMI.pac168.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="carbamazepine " precipitant="Clonazepam "/>
+		<pair e1="DBMI.pac168.s0.e0" e2="DBMI.pac168.s0.e1" id="DBMI.pac168.s0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="carbamazepine " precipitant="Clonazepam "/>
+		<pair e1="DBMI.pac168.s0.e0" e2="DBMI.pac168.s0.e2" id="DBMI.pac168.s0.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="phenytoin " precipitant="Clonazepam "/>
+		<pair e1="DBMI.pac168.s0.e0" e2="DBMI.pac168.s0.e3" id="DBMI.pac168.s0.p3" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="phenobarbital " precipitant="Clonazepam "/>
+		<pair e1="DBMI.pac168.s0.e1" e2="DBMI.pac168.s0.e0" id="DBMI.pac168.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.s0.e1" e2="DBMI.pac168.s0.e2" id="DBMI.pac168.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.s0.e1" e2="DBMI.pac168.s0.e3" id="DBMI.pac168.s0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.s0.e2" e2="DBMI.pac168.s0.e0" id="DBMI.pac168.s0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.s0.e2" e2="DBMI.pac168.s0.e1" id="DBMI.pac168.s0.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.s0.e2" e2="DBMI.pac168.s0.e3" id="DBMI.pac168.s0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.s0.e3" e2="DBMI.pac168.s0.e0" id="DBMI.pac168.s0.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.s0.e3" e2="DBMI.pac168.s0.e1" id="DBMI.pac168.s0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.s0.e3" e2="DBMI.pac168.s0.e2" id="DBMI.pac168.s0.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac168.s1" origId="s1" text="The effect of clonazepam on the metabolism of other drugs has not been investigated."/>
+	<sentencespan id="DBMI.pac168.sp0" origId="sp0" text="Effect Of Clonazepam On The Pharmacokinetics Of Other Drugs: Clonazepam does not appear to alter the pharmacokinetics of phenytoin, carbamazepine or phenobarbital. The effect of clonazepam on the metabolism of other drugs has not been investigated.">
+		<entity charOffset="61-72" id="DBMI.pac168.sp0.e0" origId="sp0.e0" text="Clonazepam " type="Active ingredient"/>
+		<entity charOffset="132-146" id="DBMI.pac168.sp0.e1" origId="sp0.e1" text="carbamazepine " type="Active ingredient"/>
+		<entity charOffset="121-131" id="DBMI.pac168.sp0.e2" origId="sp0.e2" text="phenytoin " type="Active ingredient"/>
+		<entity charOffset="149-163" id="DBMI.pac168.sp0.e3" origId="sp0.e3" text="phenobarbital " type="Active ingredient"/>
+		<pair e1="DBMI.pac168.sp0.e0" e2="DBMI.pac168.sp0.e1" id="DBMI.pac168.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="carbamazepine " precipitant="Clonazepam "/>
+		<pair e1="DBMI.pac168.sp0.e0" e2="DBMI.pac168.sp0.e1" id="DBMI.pac168.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="carbamazepine " precipitant="Clonazepam "/>
+		<pair e1="DBMI.pac168.sp0.e0" e2="DBMI.pac168.sp0.e2" id="DBMI.pac168.sp0.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="phenytoin " precipitant="Clonazepam "/>
+		<pair e1="DBMI.pac168.sp0.e0" e2="DBMI.pac168.sp0.e3" id="DBMI.pac168.sp0.p3" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="phenobarbital " precipitant="Clonazepam "/>
+		<pair e1="DBMI.pac168.sp0.e1" e2="DBMI.pac168.sp0.e0" id="DBMI.pac168.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.sp0.e1" e2="DBMI.pac168.sp0.e2" id="DBMI.pac168.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.sp0.e1" e2="DBMI.pac168.sp0.e3" id="DBMI.pac168.sp0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.sp0.e2" e2="DBMI.pac168.sp0.e0" id="DBMI.pac168.sp0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.sp0.e2" e2="DBMI.pac168.sp0.e1" id="DBMI.pac168.sp0.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.sp0.e2" e2="DBMI.pac168.sp0.e3" id="DBMI.pac168.sp0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.sp0.e3" e2="DBMI.pac168.sp0.e0" id="DBMI.pac168.sp0.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.sp0.e3" e2="DBMI.pac168.sp0.e1" id="DBMI.pac168.sp0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac168.sp0.e3" e2="DBMI.pac168.sp0.e2" id="DBMI.pac168.sp0.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

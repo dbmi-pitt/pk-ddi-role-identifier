@@ -1,0 +1,81 @@
+
+<document id="DBMI.pac177" origId="pac177">
+	<sentence id="DBMI.pac177.s0" origId="s0" text="There is a potentially relevant interaction between diazepam and compounds which inhibit certain hepatic enzymes (particularly cytochrome P450 3A and 2C19)."/>
+	<sentence id="DBMI.pac177.s1" origId="s1" text="Data indicate that these compounds influence the pharmacokinetics of diazepam and may lead to increased and prolonged sedation."/>
+	<sentence id="DBMI.pac177.s2" origId="s2" text="At present, this reaction is known to occur with cimetidine, ketoconazole, fluvoxamine, fluoxetine, and omeprazole.">
+		<entity charOffset="334-345" id="DBMI.pac177.s2.e0" origId="s2.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="226-235" id="DBMI.pac177.s2.e1" origId="s2.e1" text="diazepam " type="Active ingredient"/>
+		<entity charOffset="346-359" id="DBMI.pac177.s2.e2" origId="s2.e2" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="360-372" id="DBMI.pac177.s2.e3" origId="s2.e3" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="373-384" id="DBMI.pac177.s2.e4" origId="s2.e4" text="fluoxetine " type="Active ingredient"/>
+		<entity charOffset="389-400" id="DBMI.pac177.s2.e5" origId="s2.e5" text="omeprazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac177.s2.e0" e2="DBMI.pac177.s2.e1" id="DBMI.pac177.s2.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="diazepam " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac177.s2.e0" e2="DBMI.pac177.s2.e2" id="DBMI.pac177.s2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e0" e2="DBMI.pac177.s2.e3" id="DBMI.pac177.s2.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e0" e2="DBMI.pac177.s2.e4" id="DBMI.pac177.s2.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e0" e2="DBMI.pac177.s2.e5" id="DBMI.pac177.s2.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e1" e2="DBMI.pac177.s2.e0" id="DBMI.pac177.s2.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e1" e2="DBMI.pac177.s2.e2" id="DBMI.pac177.s2.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e1" e2="DBMI.pac177.s2.e3" id="DBMI.pac177.s2.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e1" e2="DBMI.pac177.s2.e4" id="DBMI.pac177.s2.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e1" e2="DBMI.pac177.s2.e5" id="DBMI.pac177.s2.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e2" e2="DBMI.pac177.s2.e0" id="DBMI.pac177.s2.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e2" e2="DBMI.pac177.s2.e1" id="DBMI.pac177.s2.p11" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="diazepam " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac177.s2.e2" e2="DBMI.pac177.s2.e3" id="DBMI.pac177.s2.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e2" e2="DBMI.pac177.s2.e4" id="DBMI.pac177.s2.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e2" e2="DBMI.pac177.s2.e5" id="DBMI.pac177.s2.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e3" e2="DBMI.pac177.s2.e0" id="DBMI.pac177.s2.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e3" e2="DBMI.pac177.s2.e1" id="DBMI.pac177.s2.p16" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="diazepam " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac177.s2.e3" e2="DBMI.pac177.s2.e2" id="DBMI.pac177.s2.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e3" e2="DBMI.pac177.s2.e4" id="DBMI.pac177.s2.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e3" e2="DBMI.pac177.s2.e5" id="DBMI.pac177.s2.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e4" e2="DBMI.pac177.s2.e0" id="DBMI.pac177.s2.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e4" e2="DBMI.pac177.s2.e1" id="DBMI.pac177.s2.p21" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="diazepam " precipitant="fluoxetine "/>
+		<pair e1="DBMI.pac177.s2.e4" e2="DBMI.pac177.s2.e2" id="DBMI.pac177.s2.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e4" e2="DBMI.pac177.s2.e3" id="DBMI.pac177.s2.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e4" e2="DBMI.pac177.s2.e5" id="DBMI.pac177.s2.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e5" e2="DBMI.pac177.s2.e0" id="DBMI.pac177.s2.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e5" e2="DBMI.pac177.s2.e1" id="DBMI.pac177.s2.p26" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="diazepam " precipitant="omeprazole "/>
+		<pair e1="DBMI.pac177.s2.e5" e2="DBMI.pac177.s2.e2" id="DBMI.pac177.s2.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e5" e2="DBMI.pac177.s2.e3" id="DBMI.pac177.s2.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.s2.e5" e2="DBMI.pac177.s2.e4" id="DBMI.pac177.s2.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac177.sp0" origId="sp0" text="There is a potentially relevant interaction between diazepam and compounds which inhibit certain hepatic enzymes (particularly cytochrome P450 3A and 2C19). Data indicate that these compounds influence the pharmacokinetics of diazepam and may lead to increased and prolonged sedation. At present, this reaction is known to occur with cimetidine, ketoconazole, fluvoxamine, fluoxetine, and omeprazole.">
+		<entity charOffset="334-345" id="DBMI.pac177.sp0.e0" origId="sp0.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="226-235" id="DBMI.pac177.sp0.e1" origId="sp0.e1" text="diazepam " type="Active ingredient"/>
+		<entity charOffset="346-359" id="DBMI.pac177.sp0.e2" origId="sp0.e2" text="ketoconazole " type="Active ingredient"/>
+		<entity charOffset="360-372" id="DBMI.pac177.sp0.e3" origId="sp0.e3" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="373-384" id="DBMI.pac177.sp0.e4" origId="sp0.e4" text="fluoxetine " type="Active ingredient"/>
+		<entity charOffset="389-400" id="DBMI.pac177.sp0.e5" origId="sp0.e5" text="omeprazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac177.sp0.e0" e2="DBMI.pac177.sp0.e1" id="DBMI.pac177.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="diazepam " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac177.sp0.e0" e2="DBMI.pac177.sp0.e2" id="DBMI.pac177.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e0" e2="DBMI.pac177.sp0.e3" id="DBMI.pac177.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e0" e2="DBMI.pac177.sp0.e4" id="DBMI.pac177.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e0" e2="DBMI.pac177.sp0.e5" id="DBMI.pac177.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e1" e2="DBMI.pac177.sp0.e0" id="DBMI.pac177.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e1" e2="DBMI.pac177.sp0.e2" id="DBMI.pac177.sp0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e1" e2="DBMI.pac177.sp0.e3" id="DBMI.pac177.sp0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e1" e2="DBMI.pac177.sp0.e4" id="DBMI.pac177.sp0.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e1" e2="DBMI.pac177.sp0.e5" id="DBMI.pac177.sp0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e2" e2="DBMI.pac177.sp0.e0" id="DBMI.pac177.sp0.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e2" e2="DBMI.pac177.sp0.e1" id="DBMI.pac177.sp0.p11" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="diazepam " precipitant="ketoconazole "/>
+		<pair e1="DBMI.pac177.sp0.e2" e2="DBMI.pac177.sp0.e3" id="DBMI.pac177.sp0.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e2" e2="DBMI.pac177.sp0.e4" id="DBMI.pac177.sp0.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e2" e2="DBMI.pac177.sp0.e5" id="DBMI.pac177.sp0.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e3" e2="DBMI.pac177.sp0.e0" id="DBMI.pac177.sp0.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e3" e2="DBMI.pac177.sp0.e1" id="DBMI.pac177.sp0.p16" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="diazepam " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac177.sp0.e3" e2="DBMI.pac177.sp0.e2" id="DBMI.pac177.sp0.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e3" e2="DBMI.pac177.sp0.e4" id="DBMI.pac177.sp0.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e3" e2="DBMI.pac177.sp0.e5" id="DBMI.pac177.sp0.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e4" e2="DBMI.pac177.sp0.e0" id="DBMI.pac177.sp0.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e4" e2="DBMI.pac177.sp0.e1" id="DBMI.pac177.sp0.p21" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="diazepam " precipitant="fluoxetine "/>
+		<pair e1="DBMI.pac177.sp0.e4" e2="DBMI.pac177.sp0.e2" id="DBMI.pac177.sp0.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e4" e2="DBMI.pac177.sp0.e3" id="DBMI.pac177.sp0.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e4" e2="DBMI.pac177.sp0.e5" id="DBMI.pac177.sp0.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e5" e2="DBMI.pac177.sp0.e0" id="DBMI.pac177.sp0.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e5" e2="DBMI.pac177.sp0.e1" id="DBMI.pac177.sp0.p26" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="diazepam " precipitant="omeprazole "/>
+		<pair e1="DBMI.pac177.sp0.e5" e2="DBMI.pac177.sp0.e2" id="DBMI.pac177.sp0.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e5" e2="DBMI.pac177.sp0.e3" id="DBMI.pac177.sp0.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac177.sp0.e5" e2="DBMI.pac177.sp0.e4" id="DBMI.pac177.sp0.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

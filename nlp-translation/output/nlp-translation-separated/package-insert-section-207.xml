@@ -1,0 +1,47 @@
+
+<document id="DBMI.pac207" origId="pac207">
+	<sentence id="DBMI.pac207.s0" origId="s0" text="7 DRUG INTERACTIONS\n\n7.1 CYP2C19 Inhibitors\n\nClopidogrel is metabolized to its active metabolite in part by CYP2C19."/>
+	<sentence id="DBMI.pac207.s1" origId="s1" text="Concomitant use of drugs that inhibit the activity of this enzyme results in reduced plasma concentrations of the active metabolite of clopidogrel and a reduction in platelet inhibition."/>
+	<sentence id="DBMI.pac207.s2" origId="s2" text="Avoid concomitant use of drugs that inhibit CYP2C19, e.g., omeprazole [see Warnings and Precautions (5.1) and Clinical Pharmacology (12.5)]."/>
+	<sentence id="DBMI.pac207.s3" origId="s3" text="Omeprazole\n\nIn a crossover clinical study, 72 healthy subjects were administered Plavix (300 mg loading dose followed by 75 mg per day) alone and with omeprazole (80 mg at the same time as Plavix) for 5 days.">
+		<entity charOffset="597-608" id="DBMI.pac207.s3.e0" origId="s3.e0" text="omeprazole " type="Active ingredient"/>
+		<entity charOffset="696-708" id="DBMI.pac207.s3.e1" origId="s3.e1" text="clopidogrel " type="Active ingredient"/>
+		<pair e1="DBMI.pac207.s3.e0" e2="DBMI.pac207.s3.e1" id="DBMI.pac207.s3.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="clopidogrel " precipitant="omeprazole "/>
+		<pair e1="DBMI.pac207.s3.e1" e2="DBMI.pac207.s3.e0" id="DBMI.pac207.s3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac207.s4" origId="s4" text="The exposure to the active metabolite of clopidogrel was decreased by 46% (Day 1) and 42% (Day 5) when Plavix and omeprazole were administered together.">
+		<entity charOffset="769-780" id="DBMI.pac207.s4.e0" origId="s4.e0" text="omeprazole " type="Active ingredient"/>
+		<entity charOffset="758-765" id="DBMI.pac207.s4.e1" origId="s4.e1" text="Plavix " type="Drug product"/>
+		<pair e1="DBMI.pac207.s4.e0" e2="DBMI.pac207.s4.e1" id="DBMI.pac207.s4.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Plavix " precipitant="omeprazole "/>
+		<pair e1="DBMI.pac207.s4.e1" e2="DBMI.pac207.s4.e0" id="DBMI.pac207.s4.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac207.s5" origId="s5" text="Mean inhibition of platelet aggregation was diminished by 47% (24 hours) and 30% (Day 5) when Plavix and omeprazole were administered together."/>
+	<sentence id="DBMI.pac207.s6" origId="s6" text="In another study, 72 healthy subjects were given the same doses of Plavix and omeprazole but the drugs were administered 12 hours apart; the results were similar, indicating that administering Plavix and omeprazole at different times does not prevent their interaction [see Warnings and Precautions (5.1)]."/>
+	<sentence id="DBMI.pac207.s7" origId="s7" text="7.2 Nonsteroidal Anti-Inflammatory Drugs (NSAIDs)\n\nCoadministration of Plavix and NSAIDs increases the risk of gastrointestinal bleeding."/>
+	<sentence id="DBMI.pac207.s8" origId="s8" text="7.3 Warfarin (CYP2C9 Substrates)\n\nAlthough the administration of clopidogrel 75 mg per day did not modify the pharmacokinetics of S-warfarin (a CYP2C9 substrate) or INR in patients receiving long-term warfarin therapy, coadministration of Plavix with warfarin increases the risk of bleeding because of independent effects on hemostasis.">
+		<entity charOffset="1465-1477" id="DBMI.pac207.s8.e0" origId="s8.e0" text="clopidogrel " type="Active ingredient"/>
+		<entity charOffset="1532-1541" id="DBMI.pac207.s8.e1" origId="s8.e1" text="warfarin " type="Active ingredient"/>
+		<pair e1="DBMI.pac207.s8.e0" e2="DBMI.pac207.s8.e1" id="DBMI.pac207.s8.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="warfarin " precipitant="clopidogrel "/>
+		<pair e1="DBMI.pac207.s8.e1" e2="DBMI.pac207.s8.e0" id="DBMI.pac207.s8.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac207.s9" origId="s9" text="However, at high concentrations in vitro, clopidogrel inhibits CYP2C9."/>
+	<sentencespan id="DBMI.pac207.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\n7.1 CYP2C19 Inhibitors\n\nClopidogrel is metabolized to its active metabolite in part by CYP2C19. Concomitant use of drugs that inhibit the activity of this enzyme results in reduced plasma concentrations of the active metabolite of clopidogrel and a reduction in platelet inhibition. Avoid concomitant use of drugs that inhibit CYP2C19, e.g., omeprazole [see Warnings and Precautions (5.1) and Clinical Pharmacology (12.5)]."/>
+	<sentencespan id="DBMI.pac207.sp1" origId="sp1" text="Omeprazole\n\nIn a crossover clinical study, 72 healthy subjects were administered Plavix (300 mg loading dose followed by 75 mg per day) alone and with omeprazole (80 mg at the same time as Plavix) for 5 days. The exposure to the active metabolite of clopidogrel was decreased by 46% (Day 1) and 42% (Day 5) when Plavix and omeprazole were administered together. Mean inhibition of platelet aggregation was diminished by 47% (24 hours) and 30% (Day 5) when Plavix and omeprazole were administered together.">
+		<entity charOffset="597-608" id="DBMI.pac207.sp1.e0" origId="sp1.e0" text="omeprazole " type="Active ingredient"/>
+		<entity charOffset="696-708" id="DBMI.pac207.sp1.e1" origId="sp1.e1" text="clopidogrel " type="Active ingredient"/>
+		<entity charOffset="758-765" id="DBMI.pac207.sp1.e2" origId="sp1.e2" text="Plavix " type="Drug product"/>
+		<pair e1="DBMI.pac207.sp1.e0" e2="DBMI.pac207.sp1.e1" id="DBMI.pac207.sp1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="clopidogrel " precipitant="omeprazole "/>
+		<pair e1="DBMI.pac207.sp1.e0" e2="DBMI.pac207.sp1.e2" id="DBMI.pac207.sp1.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Plavix " precipitant="omeprazole "/>
+		<pair e1="DBMI.pac207.sp1.e1" e2="DBMI.pac207.sp1.e0" id="DBMI.pac207.sp1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac207.sp1.e1" e2="DBMI.pac207.sp1.e2" id="DBMI.pac207.sp1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac207.sp1.e2" e2="DBMI.pac207.sp1.e0" id="DBMI.pac207.sp1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac207.sp1.e2" e2="DBMI.pac207.sp1.e1" id="DBMI.pac207.sp1.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac207.sp2" origId="sp2" text="In another study, 72 healthy subjects were given the same doses of Plavix and omeprazole but the drugs were administered 12 hours apart; the results were similar, indicating that administering Plavix and omeprazole at different times does not prevent their interaction [see Warnings and Precautions (5.1)]. 7.2 Nonsteroidal Anti-Inflammatory Drugs (NSAIDs)\n\nCoadministration of Plavix and NSAIDs increases the risk of gastrointestinal bleeding. 7.3 Warfarin (CYP2C9 Substrates)\n\nAlthough the administration of clopidogrel 75 mg per day did not modify the pharmacokinetics of S-warfarin (a CYP2C9 substrate) or INR in patients receiving long-term warfarin therapy, coadministration of Plavix with warfarin increases the risk of bleeding because of independent effects on hemostasis.">
+		<entity charOffset="1465-1477" id="DBMI.pac207.sp2.e0" origId="sp2.e0" text="clopidogrel " type="Active ingredient"/>
+		<entity charOffset="1532-1541" id="DBMI.pac207.sp2.e1" origId="sp2.e1" text="warfarin " type="Active ingredient"/>
+		<pair e1="DBMI.pac207.sp2.e0" e2="DBMI.pac207.sp2.e1" id="DBMI.pac207.sp2.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="warfarin " precipitant="clopidogrel "/>
+		<pair e1="DBMI.pac207.sp2.e1" e2="DBMI.pac207.sp2.e0" id="DBMI.pac207.sp2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac207.sp3" origId="sp3" text="However, at high concentrations in vitro, clopidogrel inhibits CYP2C9."/>
+</document>

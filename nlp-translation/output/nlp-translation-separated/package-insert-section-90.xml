@@ -1,0 +1,133 @@
+
+<document id="DBMI.pac90" origId="pac90">
+	<sentence id="DBMI.pac90.s0" origId="s0" text="7 DRUG INTERACTIONS\n\n7.1 Monoamine Oxidase Inhibitors\n\nWith other drugs that affect brain monoamine concentrations, there have been reports of serious, sometimes fatal reactions (including hyperthermia, rigidity, myoclonus, autonomic instability with possible rapid fluctuations of vital signs, and mental status changes that include extreme agitation progressing to delirium and coma) when taken in combination with an MAOI."/>
+	<sentence id="DBMI.pac90.s1" origId="s1" text="Some cases presented with features resembling neuroleptic malignant syndrome."/>
+	<sentence id="DBMI.pac90.s2" origId="s2" text="Such reactions may occur when these drugs are given concurrently or in close proximity [see Contraindications (4.2)]."/>
+	<sentence id="DBMI.pac90.s3" origId="s3" text="7.2 Effect of CYP2D6 Inhibitors on Atomoxetine\n\nIn extensive metabolizers (EMs), inhibitors of CYP2D6 (e.g., paroxetine, fluoxetine, and quinidine) increase atomoxetine steady-state plasma concentrations to exposures similar to those observed in poor metabolizers (PMs).">
+		<entity charOffset="732-743" id="DBMI.pac90.s3.e0" origId="s3.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="780-792" id="DBMI.pac90.s3.e1" origId="s3.e1" text="atomoxetine " type="Active ingredient"/>
+		<entity charOffset="744-755" id="DBMI.pac90.s3.e2" origId="s3.e2" text="fluoxetine " type="Active ingredient"/>
+		<entity charOffset="760-770" id="DBMI.pac90.s3.e3" origId="s3.e3" text="quinidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac90.s3.e0" e2="DBMI.pac90.s3.e1" id="DBMI.pac90.s3.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="atomoxetine " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac90.s3.e0" e2="DBMI.pac90.s3.e2" id="DBMI.pac90.s3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s3.e0" e2="DBMI.pac90.s3.e3" id="DBMI.pac90.s3.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s3.e1" e2="DBMI.pac90.s3.e0" id="DBMI.pac90.s3.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s3.e1" e2="DBMI.pac90.s3.e2" id="DBMI.pac90.s3.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s3.e1" e2="DBMI.pac90.s3.e3" id="DBMI.pac90.s3.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s3.e2" e2="DBMI.pac90.s3.e0" id="DBMI.pac90.s3.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s3.e2" e2="DBMI.pac90.s3.e1" id="DBMI.pac90.s3.p7" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="atomoxetine " precipitant="fluoxetine "/>
+		<pair e1="DBMI.pac90.s3.e2" e2="DBMI.pac90.s3.e3" id="DBMI.pac90.s3.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s3.e3" e2="DBMI.pac90.s3.e0" id="DBMI.pac90.s3.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s3.e3" e2="DBMI.pac90.s3.e1" id="DBMI.pac90.s3.p10" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="atomoxetine " precipitant="quinidine "/>
+		<pair e1="DBMI.pac90.s3.e3" e2="DBMI.pac90.s3.e2" id="DBMI.pac90.s3.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac90.s4" origId="s4" text="In EM individuals treated with paroxetine or fluoxetine, the AUC of atomoxetine is approximately 6- to 8-fold and Css,max is about 3- to 4-fold greater than atomoxetine alone.">
+		<entity charOffset="925-936" id="DBMI.pac90.s4.e0" origId="s4.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="962-974" id="DBMI.pac90.s4.e1" origId="s4.e1" text="atomoxetine " type="Active ingredient"/>
+		<entity charOffset="939-950" id="DBMI.pac90.s4.e2" origId="s4.e2" text="fluoxetine " type="Active ingredient"/>
+		<pair e1="DBMI.pac90.s4.e0" e2="DBMI.pac90.s4.e1" id="DBMI.pac90.s4.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="atomoxetine " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac90.s4.e0" e2="DBMI.pac90.s4.e2" id="DBMI.pac90.s4.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s4.e1" e2="DBMI.pac90.s4.e0" id="DBMI.pac90.s4.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s4.e1" e2="DBMI.pac90.s4.e2" id="DBMI.pac90.s4.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s4.e2" e2="DBMI.pac90.s4.e0" id="DBMI.pac90.s4.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s4.e2" e2="DBMI.pac90.s4.e1" id="DBMI.pac90.s4.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="atomoxetine " precipitant="fluoxetine "/>
+	</sentence>
+	<sentence id="DBMI.pac90.s5" origId="s5" text="In vitro studies suggest that coadministration of cytochrome P450 inhibitors to PMs will not increase the plasma concentrations of atomoxetine."/>
+	<sentence id="DBMI.pac90.s6" origId="s6" text="7.3 Pressor Agents\n\nBecause of possible effects on blood pressure, atomoxetine hydrochloride should be used cautiously with pressor agents (e.g., dopamine, dobutamine)."/>
+	<sentence id="DBMI.pac90.s7" origId="s7" text="7.4 Albuterol\n\nAtomoxetine hydrochloride should be administered with caution to patients being treated with systemically-administered (oral or intravenous) albuterol (or other beta2 agonists) because the action of albuterol on the cardiovascular system can be potentiated resulting in increases in heart rate and blood pressure."/>
+	<sentence id="DBMI.pac90.s8" origId="s8" text="Albuterol (600 mcg iv over 2 hours) induced increases in heart rate and blood pressure."/>
+	<sentence id="DBMI.pac90.s9" origId="s9" text="These effects were potentiated by atomoxetine (60 mg BID for 5 days) and were most marked after the initial coadministration of albuterol and atomoxetine."/>
+	<sentence id="DBMI.pac90.s10" origId="s10" text="However, these effects on heart rate and blood pressure were not seen in another study after the coadministration with inhaled dose of albuterol (200 to 800 mcg) and atomoxetine (80 mg QD for 5 days) in 21 healthy Asian subjects who were excluded for poor metabolizer status."/>
+	<sentence id="DBMI.pac90.s11" origId="s11" text="7.5 Effect of Atomoxetine on P450 Enzymes\n\nAtomoxetine did not cause clinically important inhibition or induction of cytochrome P450 enzymes, including CYP1A2, CYP3A, CYP2D6, and CYP2C9."/>
+	<sentence id="DBMI.pac90.s12" origId="s12" text="CYP3A Substrate (e.g., Midazolam)  Coadministration of atomoxetine hydrochloride (60 mg BID for 12 days) with midazolam, a model compound for CYP3A4 metabolized drugs (single dose of 5 mg), resulted in 15% increase in AUC of midazolam.">
+		<entity charOffset="2481-2493" id="DBMI.pac90.s12.e0" origId="s12.e0" text="atomoxetine " type="Active ingredient"/>
+		<entity charOffset="2651-2661" id="DBMI.pac90.s12.e1" origId="s12.e1" text="midazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac90.s12.e0" e2="DBMI.pac90.s12.e1" id="DBMI.pac90.s12.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="midazolam " precipitant="atomoxetine "/>
+		<pair e1="DBMI.pac90.s12.e1" e2="DBMI.pac90.s12.e0" id="DBMI.pac90.s12.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac90.s13" origId="s13" text="No dose adjustment is recommended for drugs metabolized by CYP3A."/>
+	<sentence id="DBMI.pac90.s14" origId="s14" text="CYP2D6 Substrate (e.g., Desipramine)  Coadministration of atomoxetine hydrochloride (40 or 60 mg BID for 13 days) with desipramine, a model compound for CYP2D6 metabolized drugs (single dose of 50 mg), did not alter the pharmacokinetics of desipramine.">
+		<entity charOffset="2788-2800" id="DBMI.pac90.s14.e0" origId="s14.e0" text="atomoxetine " type="Active ingredient"/>
+		<entity charOffset="2970-2982" id="DBMI.pac90.s14.e1" origId="s14.e1" text="desipramine " type="Active ingredient"/>
+		<pair e1="DBMI.pac90.s14.e0" e2="DBMI.pac90.s14.e1" id="DBMI.pac90.s14.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="desipramine " precipitant="atomoxetine "/>
+		<pair e1="DBMI.pac90.s14.e1" e2="DBMI.pac90.s14.e0" id="DBMI.pac90.s14.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac90.s15" origId="s15" text="No dose adjustment is recommended for drugs metabolized by CYP2D6."/>
+	<sentence id="DBMI.pac90.s16" origId="s16" text="7.6 Alcohol\n\nConsumption of ethanol with atomoxetine hydrochloride did not change the intoxicating effects of ethanol."/>
+	<sentence id="DBMI.pac90.s17" origId="s17" text="7.7 Methylphenidate\n\nCoadministration of methylphenidate with atomoxetine hydrochloride did not increase cardiovascular effects beyond those seen with methylphenidate alone."/>
+	<sentence id="DBMI.pac90.s18" origId="s18" text="7.8 Drugs Highly Bound to Plasma Protein\n\nIn vitro drug-displacement studies were conducted with atomoxetine and other highly-bound drugs at therapeutic concentrations."/>
+	<sentence id="DBMI.pac90.s19" origId="s19" text="Atomoxetine did not affect the binding of warfarin, acetylsalicylic acid, phenytoin, or diazepam to human albumin."/>
+	<sentence id="DBMI.pac90.s20" origId="s20" text="Similarly, these compounds did not affect the binding of atomoxetine to human albumin."/>
+	<sentence id="DBMI.pac90.s21" origId="s21" text="7.9 Drugs that Affect Gastric pH\n\nDrugs that elevate gastric pH (magnesium hydroxide/aluminum hydroxide, omeprazole) had no effect on atomoxetine hydrochloride bioavailability.">
+		<entity charOffset="3783-3803" id="DBMI.pac90.s21.e0" origId="s21.e0" text="magnesium hydroxide " type="Active ingredient"/>
+		<entity charOffset="3852-3864" id="DBMI.pac90.s21.e1" origId="s21.e1" text="atomoxetine " type="Active ingredient"/>
+		<entity charOffset="3803-3822" id="DBMI.pac90.s21.e2" origId="s21.e2" text="aluminum hydroxide " type="Active ingredient"/>
+		<entity charOffset="3823-3834" id="DBMI.pac90.s21.e3" origId="s21.e3" text="omeprazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac90.s21.e0" e2="DBMI.pac90.s21.e1" id="DBMI.pac90.s21.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="atomoxetine " precipitant="magnesium hydroxide "/>
+		<pair e1="DBMI.pac90.s21.e0" e2="DBMI.pac90.s21.e2" id="DBMI.pac90.s21.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s21.e0" e2="DBMI.pac90.s21.e3" id="DBMI.pac90.s21.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s21.e1" e2="DBMI.pac90.s21.e0" id="DBMI.pac90.s21.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s21.e1" e2="DBMI.pac90.s21.e2" id="DBMI.pac90.s21.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s21.e1" e2="DBMI.pac90.s21.e3" id="DBMI.pac90.s21.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s21.e2" e2="DBMI.pac90.s21.e0" id="DBMI.pac90.s21.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s21.e2" e2="DBMI.pac90.s21.e1" id="DBMI.pac90.s21.p7" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="atomoxetine " precipitant="aluminum hydroxide "/>
+		<pair e1="DBMI.pac90.s21.e2" e2="DBMI.pac90.s21.e3" id="DBMI.pac90.s21.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s21.e3" e2="DBMI.pac90.s21.e0" id="DBMI.pac90.s21.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.s21.e3" e2="DBMI.pac90.s21.e1" id="DBMI.pac90.s21.p10" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="atomoxetine " precipitant="omeprazole "/>
+		<pair e1="DBMI.pac90.s21.e3" e2="DBMI.pac90.s21.e2" id="DBMI.pac90.s21.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac90.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\n7.1 Monoamine Oxidase Inhibitors\n\nWith other drugs that affect brain monoamine concentrations, there have been reports of serious, sometimes fatal reactions (including hyperthermia, rigidity, myoclonus, autonomic instability with possible rapid fluctuations of vital signs, and mental status changes that include extreme agitation progressing to delirium and coma) when taken in combination with an MAOI. Some cases presented with features resembling neuroleptic malignant syndrome. Such reactions may occur when these drugs are given concurrently or in close proximity [see Contraindications (4.2)]."/>
+	<sentencespan id="DBMI.pac90.sp1" origId="sp1" text="7.2 Effect of CYP2D6 Inhibitors on Atomoxetine\n\nIn extensive metabolizers (EMs), inhibitors of CYP2D6 (e.g., paroxetine, fluoxetine, and quinidine) increase atomoxetine steady-state plasma concentrations to exposures similar to those observed in poor metabolizers (PMs). In EM individuals treated with paroxetine or fluoxetine, the AUC of atomoxetine is approximately 6- to 8-fold and Css,max is about 3- to 4-fold greater than atomoxetine alone. In vitro studies suggest that coadministration of cytochrome P450 inhibitors to PMs will not increase the plasma concentrations of atomoxetine.">
+		<entity charOffset="732-743" id="DBMI.pac90.sp1.e0" origId="sp1.e0" text="paroxetine " type="Active ingredient"/>
+		<entity charOffset="780-792" id="DBMI.pac90.sp1.e1" origId="sp1.e1" text="atomoxetine " type="Active ingredient"/>
+		<entity charOffset="744-755" id="DBMI.pac90.sp1.e2" origId="sp1.e2" text="fluoxetine " type="Active ingredient"/>
+		<entity charOffset="760-770" id="DBMI.pac90.sp1.e3" origId="sp1.e3" text="quinidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac90.sp1.e0" e2="DBMI.pac90.sp1.e1" id="DBMI.pac90.sp1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="atomoxetine " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac90.sp1.e0" e2="DBMI.pac90.sp1.e1" id="DBMI.pac90.sp1.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="atomoxetine " precipitant="paroxetine "/>
+		<pair e1="DBMI.pac90.sp1.e0" e2="DBMI.pac90.sp1.e2" id="DBMI.pac90.sp1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp1.e0" e2="DBMI.pac90.sp1.e3" id="DBMI.pac90.sp1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp1.e1" e2="DBMI.pac90.sp1.e0" id="DBMI.pac90.sp1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp1.e1" e2="DBMI.pac90.sp1.e2" id="DBMI.pac90.sp1.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp1.e1" e2="DBMI.pac90.sp1.e3" id="DBMI.pac90.sp1.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp1.e2" e2="DBMI.pac90.sp1.e0" id="DBMI.pac90.sp1.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp1.e2" e2="DBMI.pac90.sp1.e1" id="DBMI.pac90.sp1.p8" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="atomoxetine " precipitant="fluoxetine "/>
+		<pair e1="DBMI.pac90.sp1.e2" e2="DBMI.pac90.sp1.e1" id="DBMI.pac90.sp1.p9" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="atomoxetine " precipitant="fluoxetine "/>
+		<pair e1="DBMI.pac90.sp1.e2" e2="DBMI.pac90.sp1.e3" id="DBMI.pac90.sp1.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp1.e3" e2="DBMI.pac90.sp1.e0" id="DBMI.pac90.sp1.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp1.e3" e2="DBMI.pac90.sp1.e1" id="DBMI.pac90.sp1.p12" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="atomoxetine " precipitant="quinidine "/>
+		<pair e1="DBMI.pac90.sp1.e3" e2="DBMI.pac90.sp1.e2" id="DBMI.pac90.sp1.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac90.sp2" origId="sp2" text="7.3 Pressor Agents\n\nBecause of possible effects on blood pressure, atomoxetine hydrochloride should be used cautiously with pressor agents (e.g., dopamine, dobutamine). 7.4 Albuterol\n\nAtomoxetine hydrochloride should be administered with caution to patients being treated with systemically-administered (oral or intravenous) albuterol (or other beta2 agonists) because the action of albuterol on the cardiovascular system can be potentiated resulting in increases in heart rate and blood pressure. Albuterol (600 mcg iv over 2 hours) induced increases in heart rate and blood pressure."/>
+	<sentencespan id="DBMI.pac90.sp3" origId="sp3" text="These effects were potentiated by atomoxetine (60 mg BID for 5 days) and were most marked after the initial coadministration of albuterol and atomoxetine. However, these effects on heart rate and blood pressure were not seen in another study after the coadministration with inhaled dose of albuterol (200 to 800 mcg) and atomoxetine (80 mg QD for 5 days) in 21 healthy Asian subjects who were excluded for poor metabolizer status. 7.5 Effect of Atomoxetine on P450 Enzymes\n\nAtomoxetine did not cause clinically important inhibition or induction of cytochrome P450 enzymes, including CYP1A2, CYP3A, CYP2D6, and CYP2C9."/>
+	<sentencespan id="DBMI.pac90.sp4" origId="sp4" text="CYP3A Substrate (e.g., Midazolam)  Coadministration of atomoxetine hydrochloride (60 mg BID for 12 days) with midazolam, a model compound for CYP3A4 metabolized drugs (single dose of 5 mg), resulted in 15% increase in AUC of midazolam. No dose adjustment is recommended for drugs metabolized by CYP3A. CYP2D6 Substrate (e.g., Desipramine)  Coadministration of atomoxetine hydrochloride (40 or 60 mg BID for 13 days) with desipramine, a model compound for CYP2D6 metabolized drugs (single dose of 50 mg), did not alter the pharmacokinetics of desipramine.">
+		<entity charOffset="2481-2493" id="DBMI.pac90.sp4.e0" origId="sp4.e0" text="atomoxetine " type="Active ingredient"/>
+		<entity charOffset="2651-2661" id="DBMI.pac90.sp4.e1" origId="sp4.e1" text="midazolam " type="Active ingredient"/>
+		<entity charOffset="2970-2982" id="DBMI.pac90.sp4.e2" origId="sp4.e2" text="desipramine " type="Active ingredient"/>
+		<pair e1="DBMI.pac90.sp4.e0" e2="DBMI.pac90.sp4.e1" id="DBMI.pac90.sp4.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="midazolam " precipitant="atomoxetine "/>
+		<pair e1="DBMI.pac90.sp4.e0" e2="DBMI.pac90.sp4.e2" id="DBMI.pac90.sp4.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="desipramine " precipitant="atomoxetine "/>
+		<pair e1="DBMI.pac90.sp4.e1" e2="DBMI.pac90.sp4.e0" id="DBMI.pac90.sp4.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp4.e1" e2="DBMI.pac90.sp4.e2" id="DBMI.pac90.sp4.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp4.e2" e2="DBMI.pac90.sp4.e0" id="DBMI.pac90.sp4.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp4.e2" e2="DBMI.pac90.sp4.e1" id="DBMI.pac90.sp4.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac90.sp5" origId="sp5" text="No dose adjustment is recommended for drugs metabolized by CYP2D6. 7.6 Alcohol\n\nConsumption of ethanol with atomoxetine hydrochloride did not change the intoxicating effects of ethanol. 7.7 Methylphenidate\n\nCoadministration of methylphenidate with atomoxetine hydrochloride did not increase cardiovascular effects beyond those seen with methylphenidate alone."/>
+	<sentencespan id="DBMI.pac90.sp6" origId="sp6" text="7.8 Drugs Highly Bound to Plasma Protein\n\nIn vitro drug-displacement studies were conducted with atomoxetine and other highly-bound drugs at therapeutic concentrations. Atomoxetine did not affect the binding of warfarin, acetylsalicylic acid, phenytoin, or diazepam to human albumin. Similarly, these compounds did not affect the binding of atomoxetine to human albumin."/>
+	<sentencespan id="DBMI.pac90.sp7" origId="sp7" text="7.9 Drugs that Affect Gastric pH\n\nDrugs that elevate gastric pH (magnesium hydroxide/aluminum hydroxide, omeprazole) had no effect on atomoxetine hydrochloride bioavailability.">
+		<entity charOffset="3783-3803" id="DBMI.pac90.sp7.e0" origId="sp7.e0" text="magnesium hydroxide " type="Active ingredient"/>
+		<entity charOffset="3852-3864" id="DBMI.pac90.sp7.e1" origId="sp7.e1" text="atomoxetine " type="Active ingredient"/>
+		<entity charOffset="3803-3822" id="DBMI.pac90.sp7.e2" origId="sp7.e2" text="aluminum hydroxide " type="Active ingredient"/>
+		<entity charOffset="3823-3834" id="DBMI.pac90.sp7.e3" origId="sp7.e3" text="omeprazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac90.sp7.e0" e2="DBMI.pac90.sp7.e1" id="DBMI.pac90.sp7.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="atomoxetine " precipitant="magnesium hydroxide "/>
+		<pair e1="DBMI.pac90.sp7.e0" e2="DBMI.pac90.sp7.e2" id="DBMI.pac90.sp7.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp7.e0" e2="DBMI.pac90.sp7.e3" id="DBMI.pac90.sp7.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp7.e1" e2="DBMI.pac90.sp7.e0" id="DBMI.pac90.sp7.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp7.e1" e2="DBMI.pac90.sp7.e2" id="DBMI.pac90.sp7.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp7.e1" e2="DBMI.pac90.sp7.e3" id="DBMI.pac90.sp7.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp7.e2" e2="DBMI.pac90.sp7.e0" id="DBMI.pac90.sp7.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp7.e2" e2="DBMI.pac90.sp7.e1" id="DBMI.pac90.sp7.p7" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="atomoxetine " precipitant="aluminum hydroxide "/>
+		<pair e1="DBMI.pac90.sp7.e2" e2="DBMI.pac90.sp7.e3" id="DBMI.pac90.sp7.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp7.e3" e2="DBMI.pac90.sp7.e0" id="DBMI.pac90.sp7.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac90.sp7.e3" e2="DBMI.pac90.sp7.e1" id="DBMI.pac90.sp7.p10" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="atomoxetine " precipitant="omeprazole "/>
+		<pair e1="DBMI.pac90.sp7.e3" e2="DBMI.pac90.sp7.e2" id="DBMI.pac90.sp7.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

@@ -1,0 +1,25 @@
+
+<document id="DBMI.pac111" origId="pac111">
+	<sentence id="DBMI.pac111.s0" origId="s0" text="Doxazosin:  Healthy volunteers participating in a multiple dose doxazosin-nifedipine interaction study received 2 mg doxazosin q.d.alone or combined with 20 mg nifedipine ER b.i.d."/>
+	<sentence id="DBMI.pac111.s1" origId="s1" text="Coadministration of nifedipine resulted in a decrease in AUC and Cmax of doxazosin to 83% and 86% of the values in the absence of nifedipine, respectively.">
+		<entity charOffset="202-213" id="DBMI.pac111.s1.e0" origId="s1.e0" text="nifedipine " type="Active ingredient"/>
+		<entity charOffset="255-265" id="DBMI.pac111.s1.e1" origId="s1.e1" text="doxazosin " type="Active ingredient"/>
+		<pair e1="DBMI.pac111.s1.e0" e2="DBMI.pac111.s1.e1" id="DBMI.pac111.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="doxazosin " precipitant="nifedipine "/>
+		<pair e1="DBMI.pac111.s1.e1" e2="DBMI.pac111.s1.e0" id="DBMI.pac111.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac111.s2" origId="s2" text="In the presence of doxazosin, AUC and Cmax of nifedipine were increased by factors of 1.13 and 1.23, respectively.">
+		<entity charOffset="357-367" id="DBMI.pac111.s2.e0" origId="s2.e0" text="doxazosin " type="Active ingredient"/>
+		<entity charOffset="384-395" id="DBMI.pac111.s2.e1" origId="s2.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac111.s2.e0" e2="DBMI.pac111.s2.e1" id="DBMI.pac111.s2.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="doxazosin "/>
+		<pair e1="DBMI.pac111.s2.e1" e2="DBMI.pac111.s2.e0" id="DBMI.pac111.s2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac111.s3" origId="s3" text="Compared to nifedipine monotherapy, blood pressure was lower in the presence of doxazosin."/>
+	<sentence id="DBMI.pac111.s4" origId="s4" text="Blood pressure should be monitored when doxazosin is coadministered with nifedipine and dose reduction of nifedipine considered."/>
+	<sentencespan id="DBMI.pac111.sp0" origId="sp0" text="Doxazosin:  Healthy volunteers participating in a multiple dose doxazosin-nifedipine interaction study received 2 mg doxazosin q.d.alone or combined with 20 mg nifedipine ER b.i.d. Coadministration of nifedipine resulted in a decrease in AUC and Cmax of doxazosin to 83% and 86% of the values in the absence of nifedipine, respectively. In the presence of doxazosin, AUC and Cmax of nifedipine were increased by factors of 1.13 and 1.23, respectively.">
+		<entity charOffset="202-213" id="DBMI.pac111.sp0.e0" origId="sp0.e0" text="nifedipine " type="Active ingredient"/>
+		<entity charOffset="255-265" id="DBMI.pac111.sp0.e1" origId="sp0.e1" text="doxazosin " type="Active ingredient"/>
+		<pair e1="DBMI.pac111.sp0.e0" e2="DBMI.pac111.sp0.e1" id="DBMI.pac111.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="doxazosin " precipitant="nifedipine "/>
+		<pair e1="DBMI.pac111.sp0.e1" e2="DBMI.pac111.sp0.e0" id="DBMI.pac111.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="doxazosin "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac111.sp1" origId="sp1" text="Compared to nifedipine monotherapy, blood pressure was lower in the presence of doxazosin. Blood pressure should be monitored when doxazosin is coadministered with nifedipine and dose reduction of nifedipine considered."/>
+</document>

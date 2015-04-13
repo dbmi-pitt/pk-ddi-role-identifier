@@ -1,0 +1,19 @@
+7 DRUG INTERACTIONS
+
+7.1 CYP3A
+
+Conivaptan is a sensitive substrate of CYP3A. The effect of ketoconazole, a potent CYP3A inhibitor, on the pharmacokinetics of intravenous conivaptan has not been evaluated. Coadministration of oral conivaptan hydrochloride 10 mg with ketoconazole 200 mg resulted in 4- and 11-fold increases in Cmax and AUC of conivaptan, respectively [see Contraindications (4.2)].
+
+Conivaptan is a potent mechanism-based inhibitor of CYP3A. The effect of conivaptan on the pharmacokinetics of co-administered CYP3A substrates has been evaluated with the coadministration of conivaptan with midazolam, simvastatin, and amlodipine. VAPRISOL 40 mg/day increased the mean AUC values by approximately 2- and 3-fold for 1 mg intravenous or 2 mg oral doses of midazolam, respectively. VAPRISOL 30 mg/day resulted in a 3-fold increase in the AUC of simvastatin. Oral conivaptan hydrochloride 40 mg twice daily resulted in a 2-fold increase in the AUC and half-life of amlodipine [see Warnings and Precautions (5.3)].
+
+7.2 Digoxin
+
+Coadministration of a 0.5 mg dose of digoxin, a P-glycoprotein substrate, with oral conivaptan hydrochloride 40 mg twice daily resulted in a 30% reduction in clearance and 79% and 43% increases in digoxin Cmax and AUC values, respectively [see Warnings and Precautions (5.4)].
+
+7.3 Warfarin
+
+VAPRISOL (40 mg/day for 4 days) administered with a single 25 mg dose of warfarin, which undergoes major metabolism by CYP2C9 and minor metabolism by CYP3A, increased the mean S-warfarin AUC and S-warfarin Cmax by 14% and 17%, respectively. The corresponding prothrombin time and international normalized ratio values were unchanged.
+
+7.4 Captopril and Furosemide
+
+The pharmacokinetics of oral conivaptan (20 - 40 mg/day) were unchanged with coadministration of either captopril 25 mg or furosemide up to 80 mg/day.

@@ -1,0 +1,31 @@
+12 CLINICAL PHARMACOLOGY
+
+12.1 Mechanism of Action
+
+The mechanism of action of fluvoxamine maleate in obsessive compulsive disorder is presumed to be linked to its specific serotonin reuptake inhibition in brain neurons. Fluvoxamine has been shown to be a potent inhibitor of the serotonin reuptake transporter in preclinical studies, both in vitro and in vivo.
+
+12.2 Pharmacodynamics
+
+In in vitro studies, fluvoxamine maleate had no significant affinity for histaminergic, alpha or beta adrenergic, muscarinic, or dopaminergic receptors. Antagonism of some of these receptors is thought to be associated with various sedative, cardiovascular, anticholinergic, and extrapyramidal effects of some psychotropic drugs.
+
+12.3 Pharmacokinetics
+
+Absorption: The absolute bioavailability of fluvoxamine maleate is 53%. Oral bioavailability is not significantly affected by food.
+
+In a dose proportionality study involving fluvoxamine maleate at 100, 200 and 300 mg/day for 10 consecutive days in 30 normal volunteers, steady state was achieved after about a week of dosing. Maximum plasma concentrations at steady state occurred within 3 to 8 hours of dosing and reached concentrations averaging 88, 283 and 546 ng/mL, respectively. Thus, fluvoxamine had nonlinear pharmacokinetics over this dose range, i.e., higher doses of fluvoxamine maleate produced disproportionately higher concentrations than predicted from the lower dose.
+
+Distribution: The mean apparent volume of distribution for fluvoxamine is approximately 25 L/kg, suggesting extensive tissue distribution.
+
+Approximately 80% of fluvoxamine is bound to plasma protein, mostly albumin, over a concentration range of 20 to 2000 ng/mL.
+
+Metabolism: Fluvoxamine maleate is extensively metabolized by the liver; the main metabolic routes are oxidative demethylation and deamination. Nine metabolites were identified following a 5 mg radiolabelled dose of fluvoxamine maleate, constituting approximately 85% of the urinary excretion products of fluvoxamine. The main human metabolite was fluvoxamine acid which, together with its N-acetylated analog, accounted for about 60% of the urinary excretion products. A third metabolite, fluvoxethanol, formed by oxidative deamination, accounted for about 10%. Fluvoxamine acid and fluvoxethanol were tested in an in vitro assay of serotonin and norepinephrine reuptake inhibition in rats; they were inactive except for a weak effect of the former metabolite on inhibition of serotonin uptake (1 to 2 orders of magnitude less potent than the parent compound). Approximately 2% of fluvoxamine was excreted in urine unchanged (see DRUG INTERACTIONS [7]).
+
+Elimination: Following a 14C-labelled oral dose of fluvoxamine maleate (5 mg), an average of 94% of drug-related products was recovered in the urine within 71 hours.
+
+The mean plasma half-life of fluvoxamine at steady state after multiple oral doses of 100 mg/day in healthy, young volunteers was 15.6 hours.
+
+Elderly Subjects: In a study of fluvoxamine maleate tablets at 50 and 100 mg comparing elderly (ages 66 to 73) and young subjects (ages 19 to 35), mean maximum plasma concentrations in the elderly were 40% higher. The multiple dose elimination half-life of fluvoxamine was 17.4 and 25.9 hours in the elderly compared to 13.6 and 15.6 hours in the young subjects at steady state for 50 and 100 mg doses, respectively. In elderly patients, the clearance of fluvoxamine was reduced by about 50% and, therefore, fluvoxamine maleate tablets should be slowly titrated during initiation of therapy (see DOSAGE AND ADMINISTRATION [2.3]).
+
+Pediatric Subjects: The multiple-dose pharmacokinetics of fluvoxamine were determined in male and female children (ages 6 to 11) and adolescents (ages 12 to 17). Steady-state plasma fluvoxamine concentrations were 2 to 3 fold higher in children than in adolescents. AUC and Cmax in children were 1.5 to 2.7 fold higher than that in adolescents (see Table 4). As in adults, both children and adolescents exhibited nonlinear multiple-dose pharmacokinetics. Female children showed significantly higher AUC (0 to 12) and Cmax compared to male children and, therefore, lower doses of fluvoxamine maleate tablets may produce therapeutic benefit (see Table 5). No gender differences were observed in adolescents. Steady-state plasma fluvoxamine concentrations were similar in adults and adolescents at a dose of 300 mg/day, indicating that fluvoxamine exposure was similar in these two populations (see Table 4). Dose adjustment in adolescents (up to the adult maximum dose of 300 mg) may be indicated to achieve therapeutic benefit (see DOSAGE AND ADMINISTRATION [2.2]).
+
+Hepatic and Renal Disease: A cross study comparison (healthy subjects versus patients with hepatic dysfunction) suggested a 30% decrease in fluvoxamine clearance in association with hepatic dysfunction. The mean minimum plasma concentrations in renally impaired patients (creatinine clearance of 5 to 45 mL/min) after 4 and 6 weeks of treatment (50 mg b.i.d., N = 13) were comparable to each other, suggesting no accumulation of fluvoxamine in these patients (see WARNINGS AND PRECAUTIONS, Use in Patients with Concomitant Illness [5.14]). 

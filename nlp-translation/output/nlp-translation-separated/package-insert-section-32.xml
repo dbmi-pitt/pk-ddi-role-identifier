@@ -1,0 +1,44 @@
+
+<document id="DBMI.pac32" origId="pac32">
+	<sentence id="DBMI.pac32.s0" origId="s0" text="The effect of fluconazole on the pharmacokinetics and pharmacodynamics of midazolam was examined in a randomized, cross-over study in 12 volunteers."/>
+	<sentence id="DBMI.pac32.s1" origId="s1" text="In the study, subjects ingested placebo or 400 mg fluconazole on Day 1 followed by 200 mg daily from Day 2 to Day 6."/>
+	<sentence id="DBMI.pac32.s2" origId="s2" text="In addition, a 7.5 mg dose of midazolam was orally ingested on the first day, 0.05 mg/kg was administered intravenously on the fourth day, and 7.5 mg orally on the sixth day."/>
+	<sentence id="DBMI.pac32.s3" origId="s3" text="Fluconazole reduced the clearance of IV midazolam by 51%.">
+		<entity charOffset="441-453" id="DBMI.pac32.s3.e0" origId="s3.e0" text="Fluconazole " type="Active ingredient"/>
+		<entity charOffset="481-491" id="DBMI.pac32.s3.e1" origId="s3.e1" text="midazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac32.s3.e0" e2="DBMI.pac32.s3.e1" id="DBMI.pac32.s3.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="midazolam " precipitant="Fluconazole "/>
+		<pair e1="DBMI.pac32.s3.e1" e2="DBMI.pac32.s3.e0" id="DBMI.pac32.s3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac32.s4" origId="s4" text="On the first day of dosing, fluconazole increased the midazolam AUC and Cmax by 259% and 150%, respectively.">
+		<entity charOffset="527-539" id="DBMI.pac32.s4.e0" origId="s4.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="553-563" id="DBMI.pac32.s4.e1" origId="s4.e1" text="midazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac32.s4.e0" e2="DBMI.pac32.s4.e1" id="DBMI.pac32.s4.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="midazolam " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac32.s4.e1" e2="DBMI.pac32.s4.e0" id="DBMI.pac32.s4.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac32.s5" origId="s5" text="On the sixth day of dosing, fluconazole increased the midazolam AUC and Cmax by 259% and 74%, respectively.">
+		<entity charOffset="636-648" id="DBMI.pac32.s5.e0" origId="s5.e0" text="fluconazole " type="Active ingredient"/>
+		<entity charOffset="662-672" id="DBMI.pac32.s5.e1" origId="s5.e1" text="midazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac32.s5.e0" e2="DBMI.pac32.s5.e1" id="DBMI.pac32.s5.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="midazolam " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac32.s5.e1" e2="DBMI.pac32.s5.e0" id="DBMI.pac32.s5.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac32.s6" origId="s6" text="The psychomotor effects of midazolam were significantly increased after oral administration of midazolam but not significantly affected following intravenous midazolam."/>
+	<sentencespan id="DBMI.pac32.sp0" origId="sp0" text="The effect of fluconazole on the pharmacokinetics and pharmacodynamics of midazolam was examined in a randomized, cross-over study in 12 volunteers. In the study, subjects ingested placebo or 400 mg fluconazole on Day 1 followed by 200 mg daily from Day 2 to Day 6. In addition, a 7.5 mg dose of midazolam was orally ingested on the first day, 0.05 mg/kg was administered intravenously on the fourth day, and 7.5 mg orally on the sixth day.">
+		<entity charOffset="441-453" id="DBMI.pac32.sp0.e0" origId="sp0.e0" text="Fluconazole " type="Active ingredient"/>
+		<entity charOffset="481-491" id="DBMI.pac32.sp0.e1" origId="sp0.e1" text="midazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac32.sp0.e0" e2="DBMI.pac32.sp0.e1" id="DBMI.pac32.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="midazolam " precipitant="Fluconazole "/>
+		<pair e1="DBMI.pac32.sp0.e1" e2="DBMI.pac32.sp0.e0" id="DBMI.pac32.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac32.sp1" origId="sp1" text="Fluconazole reduced the clearance of IV midazolam by 51%. On the first day of dosing, fluconazole increased the midazolam AUC and Cmax by 259% and 150%, respectively. On the sixth day of dosing, fluconazole increased the midazolam AUC and Cmax by 259% and 74%, respectively.">
+		<entity charOffset="441-453" id="DBMI.pac32.sp1.e0" origId="sp1.e0" text="Fluconazole " type="Active ingredient"/>
+		<entity charOffset="481-491" id="DBMI.pac32.sp1.e1" origId="sp1.e1" text="midazolam " type="Active ingredient"/>
+		<entity charOffset="527-539" id="DBMI.pac32.sp1.e2" origId="sp1.e2" text="fluconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac32.sp1.e0" e2="DBMI.pac32.sp1.e1" id="DBMI.pac32.sp1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="midazolam " precipitant="Fluconazole "/>
+		<pair e1="DBMI.pac32.sp1.e0" e2="DBMI.pac32.sp1.e2" id="DBMI.pac32.sp1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac32.sp1.e1" e2="DBMI.pac32.sp1.e0" id="DBMI.pac32.sp1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac32.sp1.e1" e2="DBMI.pac32.sp1.e2" id="DBMI.pac32.sp1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac32.sp1.e2" e2="DBMI.pac32.sp1.e0" id="DBMI.pac32.sp1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac32.sp1.e2" e2="DBMI.pac32.sp1.e1" id="DBMI.pac32.sp1.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="midazolam " precipitant="fluconazole "/>
+		<pair e1="DBMI.pac32.sp1.e2" e2="DBMI.pac32.sp1.e1" id="DBMI.pac32.sp1.p6" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="midazolam " precipitant="fluconazole "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac32.sp2" origId="sp2" text="The psychomotor effects of midazolam were significantly increased after oral administration of midazolam but not significantly affected following intravenous midazolam."/>
+</document>

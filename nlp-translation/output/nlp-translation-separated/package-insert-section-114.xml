@@ -1,0 +1,27 @@
+
+<document id="DBMI.pac114" origId="pac114">
+	<sentence id="DBMI.pac114.s0" origId="s0" text="Quinupristin/Dalfopristin:In vitro drug interaction studies have demonstrated that quinupristin/dalfopristin significantly inhibits the CYP3A metabolism of nifedipine."/>
+	<sentence id="DBMI.pac114.s1" origId="s1" text="Concomitant administration of quinupristin/dalfopristin and nifedipine (repeated oral dose) in healthy volunteers increased AUC and Cmax for nifedipine by factors of 1.44 and 1.18, respectively, compared to nifedipine monotherapy.">
+		<entity charOffset="198-211" id="DBMI.pac114.s1.e0" origId="s1.e0" text="quinupristin " type="Active ingredient"/>
+		<entity charOffset="228-239" id="DBMI.pac114.s1.e1" origId="s1.e1" text="nifedipine " type="Active ingredient"/>
+		<entity charOffset="211-224" id="DBMI.pac114.s1.e2" origId="s1.e2" text="dalfopristin " type="Active ingredient"/>
+		<pair e1="DBMI.pac114.s1.e0" e2="DBMI.pac114.s1.e1" id="DBMI.pac114.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="quinupristin "/>
+		<pair e1="DBMI.pac114.s1.e0" e2="DBMI.pac114.s1.e2" id="DBMI.pac114.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac114.s1.e1" e2="DBMI.pac114.s1.e0" id="DBMI.pac114.s1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac114.s1.e1" e2="DBMI.pac114.s1.e2" id="DBMI.pac114.s1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac114.s1.e2" e2="DBMI.pac114.s1.e0" id="DBMI.pac114.s1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac114.s1.e2" e2="DBMI.pac114.s1.e1" id="DBMI.pac114.s1.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="dalfopristin "/>
+	</sentence>
+	<sentence id="DBMI.pac114.s2" origId="s2" text="Upon coadministration of quinupristin/dalfopristin with nifedipine, blood pressure should be monitored and a reduction of the dose of nifedipine considered."/>
+	<sentencespan id="DBMI.pac114.sp0" origId="sp0" text="Quinupristin/Dalfopristin:In vitro drug interaction studies have demonstrated that quinupristin/dalfopristin significantly inhibits the CYP3A metabolism of nifedipine. Concomitant administration of quinupristin/dalfopristin and nifedipine (repeated oral dose) in healthy volunteers increased AUC and Cmax for nifedipine by factors of 1.44 and 1.18, respectively, compared to nifedipine monotherapy. Upon coadministration of quinupristin/dalfopristin with nifedipine, blood pressure should be monitored and a reduction of the dose of nifedipine considered.">
+		<entity charOffset="198-211" id="DBMI.pac114.sp0.e0" origId="sp0.e0" text="quinupristin " type="Active ingredient"/>
+		<entity charOffset="228-239" id="DBMI.pac114.sp0.e1" origId="sp0.e1" text="nifedipine " type="Active ingredient"/>
+		<entity charOffset="211-224" id="DBMI.pac114.sp0.e2" origId="sp0.e2" text="dalfopristin " type="Active ingredient"/>
+		<pair e1="DBMI.pac114.sp0.e0" e2="DBMI.pac114.sp0.e1" id="DBMI.pac114.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="quinupristin "/>
+		<pair e1="DBMI.pac114.sp0.e0" e2="DBMI.pac114.sp0.e2" id="DBMI.pac114.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac114.sp0.e1" e2="DBMI.pac114.sp0.e0" id="DBMI.pac114.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac114.sp0.e1" e2="DBMI.pac114.sp0.e2" id="DBMI.pac114.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac114.sp0.e2" e2="DBMI.pac114.sp0.e0" id="DBMI.pac114.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac114.sp0.e2" e2="DBMI.pac114.sp0.e1" id="DBMI.pac114.sp0.p5" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="dalfopristin "/>
+	</sentencespan>
+</document>

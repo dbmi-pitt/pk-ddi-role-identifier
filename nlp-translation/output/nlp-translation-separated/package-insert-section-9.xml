@@ -1,0 +1,261 @@
+
+<document id="DBMI.pac9" origId="pac9">
+	<sentence id="DBMI.pac9.s0" origId="s0" text="7 DRUG INTERACTIONS\n\n7.1 Potential Interactions With Drugs That Inhibit or are Metabolized by Cytochrome P450 Isoenzymes\n\nMultiple hepatic cytochrome P450 isoenzymes are involved in the oxidative biotransformation of a large number of structurally different drugs and endogenous compounds."/>
+	<sentence id="DBMI.pac9.s1" origId="s1" text="The available knowledge concerning the relationship of fluvoxamine and the cytochrome P450 isoenzyme system has been obtained mostly from pharmacokinetic interaction studies conducted in healthy volunteers, but some preliminary in vitro data are also available."/>
+	<sentence id="DBMI.pac9.s2" origId="s2" text="Based on a finding of substantial interactions of fluvoxamine with certain of these drugs (see later parts of this section and also WARNINGS AND PRECAUTIONS [5]) and limited in vitro data for CYP3A4, it appears that fluvoxamine inhibits several cytochrome P450 isoenzymes that are known to be involved in the metabolism of other drugs such as: CYP1A2 (e.g., warfarin, theophylline, propranolol, tizanidine), CYP2C9 (e.g., warfarin), CYP3A4 (e.g., alprazolam), and CYP2C19 (e.g., omeprazole)."/>
+	<sentence id="DBMI.pac9.s3" origId="s3" text="In vitro data suggest that fluvoxamine is a relatively weak inhibitor of CYP2D6."/>
+	<sentence id="DBMI.pac9.s4" origId="s4" text="Approximately 7% of the normal population has a genetic code that leads to reduced levels of activity of CYP2D6."/>
+	<sentence id="DBMI.pac9.s5" origId="s5" text="Such individuals have been referred to as &quot;poor metabolizers&quot; (PM) of drugs such as debrisoquin, dextromethorphan, and tricyclic antidepressants."/>
+	<sentence id="DBMI.pac9.s6" origId="s6" text="While none of the drugs studied for drug interactions significantly affected the pharmacokinetics of fluvoxamine, an in vivo study of fluvoxamine single-dose pharmacokinetics in 13 PM subjects demonstrated altered pharmacokinetic properties compared to 16 &quot;extensive metabolizers&quot; (EM): mean Cmax, AUC, and half-life were increased by 52%, 200%, and 62%, respectively, in the PM compared to the EM group."/>
+	<sentence id="DBMI.pac9.s7" origId="s7" text="This suggests that fluvoxamine is metabolized, at least in part, by CYP2D6."/>
+	<sentence id="DBMI.pac9.s8" origId="s8" text="Caution is indicated in patients known to have reduced levels of CYP2D6 activity and those receiving concomitant drugs known to inhibit this cytochrome P450 isoenzyme (e.g., quinidine)."/>
+	<sentence id="DBMI.pac9.s9" origId="s9" text="The metabolism of fluvoxamine has not been fully characterized and the effects of potent cytochrome P450 isoenzyme inhibition, such as the ketoconazole inhibition of CYP3A4, on fluvoxamine metabolism have not been studied."/>
+	<sentence id="DBMI.pac9.s10" origId="s10" text="A clinically significant fluvoxamine interaction is possible with drugs having a narrow therapeutic ratio such as pimozide, warfarin, theophylline, certain benzodiazepines, omeprazole and phenytoin.">
+		<entity charOffset="2392-2401" id="DBMI.pac9.s10.e0" origId="s10.e0" text="pimozide " type="Active ingredient"/>
+		<entity charOffset="2303-2315" id="DBMI.pac9.s10.e1" origId="s10.e1" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="2402-2411" id="DBMI.pac9.s10.e2" origId="s10.e2" text="warfarin " type="Active ingredient"/>
+		<entity charOffset="2412-2425" id="DBMI.pac9.s10.e3" origId="s10.e3" text="theophylline " type="Active ingredient"/>
+		<entity charOffset="2451-2462" id="DBMI.pac9.s10.e4" origId="s10.e4" text="omeprazole " type="Active ingredient"/>
+		<entity charOffset="2466-2476" id="DBMI.pac9.s10.e5" origId="s10.e5" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.s10.e0" e2="DBMI.pac9.s10.e1" id="DBMI.pac9.s10.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fluvoxamine " precipitant="pimozide "/>
+		<pair e1="DBMI.pac9.s10.e0" e2="DBMI.pac9.s10.e2" id="DBMI.pac9.s10.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e0" e2="DBMI.pac9.s10.e3" id="DBMI.pac9.s10.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e0" e2="DBMI.pac9.s10.e4" id="DBMI.pac9.s10.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e0" e2="DBMI.pac9.s10.e5" id="DBMI.pac9.s10.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e1" e2="DBMI.pac9.s10.e0" id="DBMI.pac9.s10.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e1" e2="DBMI.pac9.s10.e2" id="DBMI.pac9.s10.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e1" e2="DBMI.pac9.s10.e3" id="DBMI.pac9.s10.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e1" e2="DBMI.pac9.s10.e4" id="DBMI.pac9.s10.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e1" e2="DBMI.pac9.s10.e5" id="DBMI.pac9.s10.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e2" e2="DBMI.pac9.s10.e0" id="DBMI.pac9.s10.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e2" e2="DBMI.pac9.s10.e1" id="DBMI.pac9.s10.p11" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fluvoxamine " precipitant="warfarin "/>
+		<pair e1="DBMI.pac9.s10.e2" e2="DBMI.pac9.s10.e3" id="DBMI.pac9.s10.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e2" e2="DBMI.pac9.s10.e4" id="DBMI.pac9.s10.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e2" e2="DBMI.pac9.s10.e5" id="DBMI.pac9.s10.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e3" e2="DBMI.pac9.s10.e0" id="DBMI.pac9.s10.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e3" e2="DBMI.pac9.s10.e1" id="DBMI.pac9.s10.p16" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fluvoxamine " precipitant="theophylline "/>
+		<pair e1="DBMI.pac9.s10.e3" e2="DBMI.pac9.s10.e2" id="DBMI.pac9.s10.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e3" e2="DBMI.pac9.s10.e4" id="DBMI.pac9.s10.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e3" e2="DBMI.pac9.s10.e5" id="DBMI.pac9.s10.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e4" e2="DBMI.pac9.s10.e0" id="DBMI.pac9.s10.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e4" e2="DBMI.pac9.s10.e1" id="DBMI.pac9.s10.p21" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fluvoxamine " precipitant="omeprazole "/>
+		<pair e1="DBMI.pac9.s10.e4" e2="DBMI.pac9.s10.e2" id="DBMI.pac9.s10.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e4" e2="DBMI.pac9.s10.e3" id="DBMI.pac9.s10.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e4" e2="DBMI.pac9.s10.e5" id="DBMI.pac9.s10.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e5" e2="DBMI.pac9.s10.e0" id="DBMI.pac9.s10.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e5" e2="DBMI.pac9.s10.e1" id="DBMI.pac9.s10.p26" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fluvoxamine " precipitant="phenytoin "/>
+		<pair e1="DBMI.pac9.s10.e5" e2="DBMI.pac9.s10.e2" id="DBMI.pac9.s10.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e5" e2="DBMI.pac9.s10.e3" id="DBMI.pac9.s10.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s10.e5" e2="DBMI.pac9.s10.e4" id="DBMI.pac9.s10.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac9.s11" origId="s11" text="If fluvoxamine maleate tablets are to be administered together with a drug that is eliminated via oxidative metabolism and has a narrow therapeutic window, plasma levels and/or pharmacodynamic effects of the latter drug should be monitored closely, at least until steady-state conditions are reached (see CONTRAINDICATIONS [4] and WARNINGS AND PRECAUTIONS [5])."/>
+	<sentence id="DBMI.pac9.s12" origId="s12" text="7.2 CNS Active Drugs\n\nAntipsychotics: See WARNINGS AND PRECAUTIONS (5.3)."/>
+	<sentence id="DBMI.pac9.s13" origId="s13" text="Benzodiazepines: See WARNINGS AND PRECAUTIONS (5.8)."/>
+	<sentence id="DBMI.pac9.s14" origId="s14" text="Alprazolam: See WARNINGS AND PRECAUTIONS (5.8)."/>
+	<sentence id="DBMI.pac9.s15" origId="s15" text="Diazepam: See WARNINGS AND PRECAUTIONS (5.8)."/>
+	<sentence id="DBMI.pac9.s16" origId="s16" text="Lorazepam: A study of multiple doses of fluvoxamine maleate (50 mg b.i.d.)in healthy male volunteers (N = 12) and a single dose of lorazepam (4 mg single dose) indicated no significant pharmacokinetic interaction.">
+		<entity charOffset="3105-3117" id="DBMI.pac9.s16.e0" origId="s16.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="3197-3207" id="DBMI.pac9.s16.e1" origId="s16.e1" text="lorazepam " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.s16.e0" e2="DBMI.pac9.s16.e1" id="DBMI.pac9.s16.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lorazepam " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.s16.e1" e2="DBMI.pac9.s16.e0" id="DBMI.pac9.s16.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluvoxamine " precipitant="lorazepam "/>
+	</sentence>
+	<sentence id="DBMI.pac9.s17" origId="s17" text="On average, both lorazepam alone and lorazepam with fluvoxamine produced substantial decrements in cognitive functioning; however, the coadministration of fluvoxamine and lorazepam did not produce larger mean decrements compared to lorazepam alone."/>
+	<sentence id="DBMI.pac9.s18" origId="s18" text="Alcohol: Studies involving single 40 g doses of ethanol (oral administration in one study and intravenous in the other) and multiple dosing with fluvoxamine maleate (50 mg b.i.d.)revealed no effect of either drug on the pharmacokinetics or pharmacodynamics of the other.">
+		<entity charOffset="3578-3586" id="DBMI.pac9.s18.e0" origId="s18.e0" text="ethanol " type="Active ingredient"/>
+		<entity charOffset="3675-3687" id="DBMI.pac9.s18.e1" origId="s18.e1" text="fluvoxamine " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.s18.e0" e2="DBMI.pac9.s18.e1" id="DBMI.pac9.s18.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluvoxamine " precipitant="ethanol "/>
+		<pair e1="DBMI.pac9.s18.e1" e2="DBMI.pac9.s18.e0" id="DBMI.pac9.s18.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ethanol " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.s18.e1" e2="DBMI.pac9.s18.e0" id="DBMI.pac9.s18.p2" interaction="true" interactionPhraseType="Quantitative" modality="Negative" object="ethanol " precipitant="fluvoxamine "/>
+	</sentence>
+	<sentence id="DBMI.pac9.s19" origId="s19" text="As with other psychotropic medications, patients should be advised to avoid alcohol while taking fluvoxamine maleate tablets."/>
+	<sentence id="DBMI.pac9.s20" origId="s20" text="Carbamazepine: Elevated carbamazepine levels and symptoms of toxicity have been reported with the coadministration of fluvoxamine maleate and carbamazepine.">
+		<entity charOffset="4047-4059" id="DBMI.pac9.s20.e0" origId="s20.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="3953-3967" id="DBMI.pac9.s20.e1" origId="s20.e1" text="carbamazepine " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.s20.e0" e2="DBMI.pac9.s20.e1" id="DBMI.pac9.s20.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="carbamazepine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.s20.e1" e2="DBMI.pac9.s20.e0" id="DBMI.pac9.s20.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac9.s21" origId="s21" text="Clozapine: See WARNINGS AND PRECAUTIONS (5.8)."/>
+	<sentence id="DBMI.pac9.s22" origId="s22" text="Lithium: As with other serotonergic drugs, lithium may enhance the serotonergic effects of fluvoxamine and, therefore, the combination should be used with caution."/>
+	<sentence id="DBMI.pac9.s23" origId="s23" text="Seizures have been reported with the coadministration of fluvoxamine maleate and lithium."/>
+	<sentence id="DBMI.pac9.s24" origId="s24" text="Methadone: See WARNINGS AND PRECAUTIONS (5.8)."/>
+	<sentence id="DBMI.pac9.s25" origId="s25" text="Monoamine Oxidase Inhibitors: See CONTRAINDICATIONS (4) and WARNINGS AND PRECAUTIONS (5.2)."/>
+	<sentence id="DBMI.pac9.s26" origId="s26" text="Pimozide: See CONTRAINDICATIONS (4) and WARNINGS AND PRECAUTIONS (5.6)."/>
+	<sentence id="DBMI.pac9.s27" origId="s27" text="Ramelteon: See WARNINGS AND PRECAUTIONS (5.8)."/>
+	<sentence id="DBMI.pac9.s28" origId="s28" text="Serotonergic Drugs: See WARNINGS AND PRECAUTIONS (5.3)."/>
+	<sentence id="DBMI.pac9.s29" origId="s29" text="Tacrine: In a study of 13 healthy, male volunteers, a single 40 mg dose of tacrine added to fluvoxamine 100 mg/day administered at steady-state was associated with five- and eight-fold increases in tacrine Cmax and AUC, respectively, compared to the administration of tacrine alone.">
+		<entity charOffset="4801-4813" id="DBMI.pac9.s29.e0" origId="s29.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="4784-4792" id="DBMI.pac9.s29.e1" origId="s29.e1" text="tacrine " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.s29.e0" e2="DBMI.pac9.s29.e1" id="DBMI.pac9.s29.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="tacrine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.s29.e1" e2="DBMI.pac9.s29.e0" id="DBMI.pac9.s29.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac9.s30" origId="s30" text="Five subjects experienced nausea, vomiting, sweating, and diarrhea following coadministration, consistent with the cholinergic effects of tacrine."/>
+	<sentence id="DBMI.pac9.s31" origId="s31" text="Thioridazine: See CONTRAINDICATIONS (4) and WARNINGS AND PRECAUTIONS (5.4)."/>
+	<sentence id="DBMI.pac9.s32" origId="s32" text="Tizanidine: See CONTRAINDICATIONS (4) and WARNINGS AND PRECAUTIONS (5.5)."/>
+	<sentence id="DBMI.pac9.s33" origId="s33" text="Tricyclic Antidepressants (TCAs): Significantly increased plasma TCA levels have been reported with the coadministration of fluvoxamine maleate and amitriptyline, clomipramine or imipramine.">
+		<entity charOffset="5416-5428" id="DBMI.pac9.s33.e0" origId="s33.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="5455-5468" id="DBMI.pac9.s33.e1" origId="s33.e1" text="clomipramine " type="Active ingredient"/>
+		<entity charOffset="5440-5454" id="DBMI.pac9.s33.e2" origId="s33.e2" text="amitriptyline " type="Active ingredient"/>
+		<entity charOffset="5471-5482" id="DBMI.pac9.s33.e3" origId="s33.e3" text="imipramine " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.s33.e0" e2="DBMI.pac9.s33.e1" id="DBMI.pac9.s33.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="clomipramine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.s33.e0" e2="DBMI.pac9.s33.e1" id="DBMI.pac9.s33.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="clomipramine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.s33.e0" e2="DBMI.pac9.s33.e2" id="DBMI.pac9.s33.p2" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="amitriptyline " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.s33.e0" e2="DBMI.pac9.s33.e3" id="DBMI.pac9.s33.p3" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="imipramine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.s33.e1" e2="DBMI.pac9.s33.e0" id="DBMI.pac9.s33.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s33.e1" e2="DBMI.pac9.s33.e2" id="DBMI.pac9.s33.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s33.e1" e2="DBMI.pac9.s33.e3" id="DBMI.pac9.s33.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s33.e2" e2="DBMI.pac9.s33.e0" id="DBMI.pac9.s33.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s33.e2" e2="DBMI.pac9.s33.e1" id="DBMI.pac9.s33.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s33.e2" e2="DBMI.pac9.s33.e3" id="DBMI.pac9.s33.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s33.e3" e2="DBMI.pac9.s33.e0" id="DBMI.pac9.s33.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s33.e3" e2="DBMI.pac9.s33.e1" id="DBMI.pac9.s33.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.s33.e3" e2="DBMI.pac9.s33.e2" id="DBMI.pac9.s33.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac9.s34" origId="s34" text="Caution is indicated with the coadministration of fluvoxamine maleate tablets and TCAs; plasma TCA concentrations may need to be monitored, and the dose of TCA may need to be reduced."/>
+	<sentence id="DBMI.pac9.s35" origId="s35" text="Triptans: There have been rare postmarketing reports of serotonin syndrome with use of an SSRI and a triptan."/>
+	<sentence id="DBMI.pac9.s36" origId="s36" text="If concomitant treatment of fluvoxamine with a triptan is clinically warranted, careful observation of the patient is advised, particularly during treatment initiation and dose increases (see WARNINGS AND PRECAUTIONS [5.3])."/>
+	<sentence id="DBMI.pac9.s37" origId="s37" text="Sumatriptan - There have been rare postmarketing reports describing patients with weakness, hyperreflexia, and incoordination following the use of a selective serotonin reuptake inhibitor (SSRI) and sumatriptan."/>
+	<sentence id="DBMI.pac9.s38" origId="s38" text="If concomitant treatment with sumatriptan and an SSRI (e.g., fluoxetine, fluvoxamine, paroxetine, sertraline) is clinically warranted, appropriate observation of the patient is advised."/>
+	<sentence id="DBMI.pac9.s39" origId="s39" text="Tryptophan: Tryptophan may enhance the serotonergic effects of fluvoxamine, and the combination should, therefore, be used with caution."/>
+	<sentence id="DBMI.pac9.s40" origId="s40" text="Severe vomiting has been reported with the coadministration of fluvoxamine maleate and tryptophan (see WARNINGS AND PRECAUTIONS [5.3])."/>
+	<sentence id="DBMI.pac9.s41" origId="s41" text="7.3 Other Drugs\n\nAlosetron: See CONTRAINDICATIONS [4], WARNINGS AND PRECAUTIONS [5.7], and Lotronex (alosetron) package insert."/>
+	<sentence id="DBMI.pac9.s42" origId="s42" text="Digoxin: Administration of fluvoxamine maleate 100 mg daily for 18 days (N = 8) did not significantly affect the pharmacokinetics of a 1.25 mg single intravenous dose of digoxin.">
+		<entity charOffset="6834-6846" id="DBMI.pac9.s42.e0" origId="s42.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="6977-6985" id="DBMI.pac9.s42.e1" origId="s42.e1" text="digoxin " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.s42.e0" e2="DBMI.pac9.s42.e1" id="DBMI.pac9.s42.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="digoxin " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.s42.e1" e2="DBMI.pac9.s42.e0" id="DBMI.pac9.s42.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac9.s43" origId="s43" text="Diltiazem: Bradycardia has been reported with the coadministration of fluvoxamine maleate and diltiazem."/>
+	<sentence id="DBMI.pac9.s44" origId="s44" text="Mexiletine: See WARNINGS AND PRECAUTIONS (5.8)."/>
+	<sentence id="DBMI.pac9.s45" origId="s45" text="Propranolol and Other Beta-Blockers: Coadministration of fluvoxamine maleate 100 mg per day and propranolol 160 mg per day in normal volunteers resulted in a mean five-fold increase (range 2 to 17) in minimum propranolol plasma concentrations.">
+		<entity charOffset="7199-7211" id="DBMI.pac9.s45.e0" origId="s45.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="7351-7363" id="DBMI.pac9.s45.e1" origId="s45.e1" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.s45.e0" e2="DBMI.pac9.s45.e1" id="DBMI.pac9.s45.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propranolol " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.s45.e1" e2="DBMI.pac9.s45.e0" id="DBMI.pac9.s45.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac9.s46" origId="s46" text="In this study, there was a slight potentiation of the propranolol-induced reduction in heart rate and reduction in the exercise diastolic pressure."/>
+	<sentence id="DBMI.pac9.s47" origId="s47" text="One case of bradycardia and hypotension and a second case of orthostatic hypotension have been reported with the coadministration of fluvoxamine maleate and metoprolol."/>
+	<sentence id="DBMI.pac9.s48" origId="s48" text="If propranolol or metoprolol is coadministered with fluvoxamine maleate tablets, a reduction in the initial beta-blocker dose and more cautious dose titration are recommended."/>
+	<sentence id="DBMI.pac9.s49" origId="s49" text="No dosage adjustment is required for fluvoxamine maleate tablets."/>
+	<sentence id="DBMI.pac9.s50" origId="s50" text="Coadministration of fluvoxamine maleate 100 mg per day with atenolol 100 mg per day (N = 6) did not affect the plasma concentrations of atenolol.">
+		<entity charOffset="7968-7980" id="DBMI.pac9.s50.e0" origId="s50.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="8084-8093" id="DBMI.pac9.s50.e1" origId="s50.e1" text="atenolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.s50.e0" e2="DBMI.pac9.s50.e1" id="DBMI.pac9.s50.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="atenolol " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.s50.e1" e2="DBMI.pac9.s50.e0" id="DBMI.pac9.s50.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac9.s51" origId="s51" text="Unlike propranolol and metoprolol which undergo hepatic metabolism, atenolol is eliminated primarily by renal excretion."/>
+	<sentence id="DBMI.pac9.s52" origId="s52" text="Theophylline: See WARNINGS AND PRECAUTIONS (5.8)."/>
+	<sentence id="DBMI.pac9.s53" origId="s53" text="Warfarin and Other Drugs That Interfere With Hemostasis (NSAIDs, Aspirin, etc."/>
+	<sentence id="DBMI.pac9.s54" origId="s54" text="): See WARNINGS AND PRECAUTIONS [5.8 and 5.10]."/>
+	<sentence id="DBMI.pac9.s55" origId="s55" text="7.4 Effects of Smoking on Fluvoxamine Metabolism\n\nSmokers had a 25% increase in the metabolism of fluvoxamine compared to nonsmokers."/>
+	<sentence id="DBMI.pac9.s56" origId="s56" text="7.5 Electroconvulsive Therapy (ECT)\n\nThere are no clinical studies establishing the benefits or risks of combined use of ECT and fluvoxamine maleate."/>
+	<sentencespan id="DBMI.pac9.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\n7.1 Potential Interactions With Drugs That Inhibit or are Metabolized by Cytochrome P450 Isoenzymes\n\nMultiple hepatic cytochrome P450 isoenzymes are involved in the oxidative biotransformation of a large number of structurally different drugs and endogenous compounds. The available knowledge concerning the relationship of fluvoxamine and the cytochrome P450 isoenzyme system has been obtained mostly from pharmacokinetic interaction studies conducted in healthy volunteers, but some preliminary in vitro data are also available. Based on a finding of substantial interactions of fluvoxamine with certain of these drugs (see later parts of this section and also WARNINGS AND PRECAUTIONS [5]) and limited in vitro data for CYP3A4, it appears that fluvoxamine inhibits several cytochrome P450 isoenzymes that are known to be involved in the metabolism of other drugs such as: CYP1A2 (e.g., warfarin, theophylline, propranolol, tizanidine), CYP2C9 (e.g., warfarin), CYP3A4 (e.g., alprazolam), and CYP2C19 (e.g., omeprazole)."/>
+	<sentencespan id="DBMI.pac9.sp1" origId="sp1" text="In vitro data suggest that fluvoxamine is a relatively weak inhibitor of CYP2D6. Approximately 7% of the normal population has a genetic code that leads to reduced levels of activity of CYP2D6. Such individuals have been referred to as &quot;poor metabolizers&quot; (PM) of drugs such as debrisoquin, dextromethorphan, and tricyclic antidepressants."/>
+	<sentencespan id="DBMI.pac9.sp2" origId="sp2" text="While none of the drugs studied for drug interactions significantly affected the pharmacokinetics of fluvoxamine, an in vivo study of fluvoxamine single-dose pharmacokinetics in 13 PM subjects demonstrated altered pharmacokinetic properties compared to 16 &quot;extensive metabolizers&quot; (EM): mean Cmax, AUC, and half-life were increased by 52%, 200%, and 62%, respectively, in the PM compared to the EM group. This suggests that fluvoxamine is metabolized, at least in part, by CYP2D6. Caution is indicated in patients known to have reduced levels of CYP2D6 activity and those receiving concomitant drugs known to inhibit this cytochrome P450 isoenzyme (e.g., quinidine)."/>
+	<sentencespan id="DBMI.pac9.sp3" origId="sp3" text="The metabolism of fluvoxamine has not been fully characterized and the effects of potent cytochrome P450 isoenzyme inhibition, such as the ketoconazole inhibition of CYP3A4, on fluvoxamine metabolism have not been studied. A clinically significant fluvoxamine interaction is possible with drugs having a narrow therapeutic ratio such as pimozide, warfarin, theophylline, certain benzodiazepines, omeprazole and phenytoin. If fluvoxamine maleate tablets are to be administered together with a drug that is eliminated via oxidative metabolism and has a narrow therapeutic window, plasma levels and/or pharmacodynamic effects of the latter drug should be monitored closely, at least until steady-state conditions are reached (see CONTRAINDICATIONS [4] and WARNINGS AND PRECAUTIONS [5]).">
+		<entity charOffset="2392-2401" id="DBMI.pac9.sp3.e0" origId="sp3.e0" text="pimozide " type="Active ingredient"/>
+		<entity charOffset="2303-2315" id="DBMI.pac9.sp3.e1" origId="sp3.e1" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="2402-2411" id="DBMI.pac9.sp3.e2" origId="sp3.e2" text="warfarin " type="Active ingredient"/>
+		<entity charOffset="2412-2425" id="DBMI.pac9.sp3.e3" origId="sp3.e3" text="theophylline " type="Active ingredient"/>
+		<entity charOffset="2451-2462" id="DBMI.pac9.sp3.e4" origId="sp3.e4" text="omeprazole " type="Active ingredient"/>
+		<entity charOffset="2466-2476" id="DBMI.pac9.sp3.e5" origId="sp3.e5" text="phenytoin " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.sp3.e0" e2="DBMI.pac9.sp3.e1" id="DBMI.pac9.sp3.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fluvoxamine " precipitant="pimozide "/>
+		<pair e1="DBMI.pac9.sp3.e0" e2="DBMI.pac9.sp3.e2" id="DBMI.pac9.sp3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e0" e2="DBMI.pac9.sp3.e3" id="DBMI.pac9.sp3.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e0" e2="DBMI.pac9.sp3.e4" id="DBMI.pac9.sp3.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e0" e2="DBMI.pac9.sp3.e5" id="DBMI.pac9.sp3.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e1" e2="DBMI.pac9.sp3.e0" id="DBMI.pac9.sp3.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e1" e2="DBMI.pac9.sp3.e2" id="DBMI.pac9.sp3.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e1" e2="DBMI.pac9.sp3.e3" id="DBMI.pac9.sp3.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e1" e2="DBMI.pac9.sp3.e4" id="DBMI.pac9.sp3.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e1" e2="DBMI.pac9.sp3.e5" id="DBMI.pac9.sp3.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e2" e2="DBMI.pac9.sp3.e0" id="DBMI.pac9.sp3.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e2" e2="DBMI.pac9.sp3.e1" id="DBMI.pac9.sp3.p11" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fluvoxamine " precipitant="warfarin "/>
+		<pair e1="DBMI.pac9.sp3.e2" e2="DBMI.pac9.sp3.e3" id="DBMI.pac9.sp3.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e2" e2="DBMI.pac9.sp3.e4" id="DBMI.pac9.sp3.p13" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e2" e2="DBMI.pac9.sp3.e5" id="DBMI.pac9.sp3.p14" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e3" e2="DBMI.pac9.sp3.e0" id="DBMI.pac9.sp3.p15" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e3" e2="DBMI.pac9.sp3.e1" id="DBMI.pac9.sp3.p16" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fluvoxamine " precipitant="theophylline "/>
+		<pair e1="DBMI.pac9.sp3.e3" e2="DBMI.pac9.sp3.e2" id="DBMI.pac9.sp3.p17" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e3" e2="DBMI.pac9.sp3.e4" id="DBMI.pac9.sp3.p18" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e3" e2="DBMI.pac9.sp3.e5" id="DBMI.pac9.sp3.p19" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e4" e2="DBMI.pac9.sp3.e0" id="DBMI.pac9.sp3.p20" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e4" e2="DBMI.pac9.sp3.e1" id="DBMI.pac9.sp3.p21" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fluvoxamine " precipitant="omeprazole "/>
+		<pair e1="DBMI.pac9.sp3.e4" e2="DBMI.pac9.sp3.e2" id="DBMI.pac9.sp3.p22" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e4" e2="DBMI.pac9.sp3.e3" id="DBMI.pac9.sp3.p23" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e4" e2="DBMI.pac9.sp3.e5" id="DBMI.pac9.sp3.p24" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e5" e2="DBMI.pac9.sp3.e0" id="DBMI.pac9.sp3.p25" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e5" e2="DBMI.pac9.sp3.e1" id="DBMI.pac9.sp3.p26" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fluvoxamine " precipitant="phenytoin "/>
+		<pair e1="DBMI.pac9.sp3.e5" e2="DBMI.pac9.sp3.e2" id="DBMI.pac9.sp3.p27" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e5" e2="DBMI.pac9.sp3.e3" id="DBMI.pac9.sp3.p28" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp3.e5" e2="DBMI.pac9.sp3.e4" id="DBMI.pac9.sp3.p29" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac9.sp4" origId="sp4" text="7.2 CNS Active Drugs\n\nAntipsychotics: See WARNINGS AND PRECAUTIONS (5.3). Benzodiazepines: See WARNINGS AND PRECAUTIONS (5.8). Alprazolam: See WARNINGS AND PRECAUTIONS (5.8)."/>
+	<sentencespan id="DBMI.pac9.sp5" origId="sp5" text="Diazepam: See WARNINGS AND PRECAUTIONS (5.8). Lorazepam: A study of multiple doses of fluvoxamine maleate (50 mg b.i.d.)in healthy male volunteers (N = 12) and a single dose of lorazepam (4 mg single dose) indicated no significant pharmacokinetic interaction. On average, both lorazepam alone and lorazepam with fluvoxamine produced substantial decrements in cognitive functioning; however, the coadministration of fluvoxamine and lorazepam did not produce larger mean decrements compared to lorazepam alone.">
+		<entity charOffset="3105-3117" id="DBMI.pac9.sp5.e0" origId="sp5.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="3197-3207" id="DBMI.pac9.sp5.e1" origId="sp5.e1" text="lorazepam " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.sp5.e0" e2="DBMI.pac9.sp5.e1" id="DBMI.pac9.sp5.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="lorazepam " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.sp5.e1" e2="DBMI.pac9.sp5.e0" id="DBMI.pac9.sp5.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluvoxamine " precipitant="lorazepam "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac9.sp6" origId="sp6" text="Alcohol: Studies involving single 40 g doses of ethanol (oral administration in one study and intravenous in the other) and multiple dosing with fluvoxamine maleate (50 mg b.i.d.)revealed no effect of either drug on the pharmacokinetics or pharmacodynamics of the other. As with other psychotropic medications, patients should be advised to avoid alcohol while taking fluvoxamine maleate tablets. Carbamazepine: Elevated carbamazepine levels and symptoms of toxicity have been reported with the coadministration of fluvoxamine maleate and carbamazepine.">
+		<entity charOffset="3578-3586" id="DBMI.pac9.sp6.e0" origId="sp6.e0" text="ethanol " type="Active ingredient"/>
+		<entity charOffset="3675-3687" id="DBMI.pac9.sp6.e1" origId="sp6.e1" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="3953-3967" id="DBMI.pac9.sp6.e2" origId="sp6.e2" text="carbamazepine " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.sp6.e0" e2="DBMI.pac9.sp6.e1" id="DBMI.pac9.sp6.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="fluvoxamine " precipitant="ethanol "/>
+		<pair e1="DBMI.pac9.sp6.e0" e2="DBMI.pac9.sp6.e2" id="DBMI.pac9.sp6.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp6.e1" e2="DBMI.pac9.sp6.e0" id="DBMI.pac9.sp6.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="ethanol " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.sp6.e1" e2="DBMI.pac9.sp6.e0" id="DBMI.pac9.sp6.p3" interaction="true" interactionPhraseType="Quantitative" modality="Negative" object="ethanol " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.sp6.e1" e2="DBMI.pac9.sp6.e2" id="DBMI.pac9.sp6.p4" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="carbamazepine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.sp6.e2" e2="DBMI.pac9.sp6.e0" id="DBMI.pac9.sp6.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp6.e2" e2="DBMI.pac9.sp6.e1" id="DBMI.pac9.sp6.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac9.sp7" origId="sp7" text="Clozapine: See WARNINGS AND PRECAUTIONS (5.8). Lithium: As with other serotonergic drugs, lithium may enhance the serotonergic effects of fluvoxamine and, therefore, the combination should be used with caution. Seizures have been reported with the coadministration of fluvoxamine maleate and lithium."/>
+	<sentencespan id="DBMI.pac9.sp8" origId="sp8" text="Methadone: See WARNINGS AND PRECAUTIONS (5.8). Monoamine Oxidase Inhibitors: See CONTRAINDICATIONS (4) and WARNINGS AND PRECAUTIONS (5.2). Pimozide: See CONTRAINDICATIONS (4) and WARNINGS AND PRECAUTIONS (5.6)."/>
+	<sentencespan id="DBMI.pac9.sp9" origId="sp9" text="Ramelteon: See WARNINGS AND PRECAUTIONS (5.8). Serotonergic Drugs: See WARNINGS AND PRECAUTIONS (5.3). Tacrine: In a study of 13 healthy, male volunteers, a single 40 mg dose of tacrine added to fluvoxamine 100 mg/day administered at steady-state was associated with five- and eight-fold increases in tacrine Cmax and AUC, respectively, compared to the administration of tacrine alone.">
+		<entity charOffset="4801-4813" id="DBMI.pac9.sp9.e0" origId="sp9.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="4784-4792" id="DBMI.pac9.sp9.e1" origId="sp9.e1" text="tacrine " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.sp9.e0" e2="DBMI.pac9.sp9.e1" id="DBMI.pac9.sp9.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="tacrine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.sp9.e1" e2="DBMI.pac9.sp9.e0" id="DBMI.pac9.sp9.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac9.sp10" origId="sp10" text="Five subjects experienced nausea, vomiting, sweating, and diarrhea following coadministration, consistent with the cholinergic effects of tacrine. Thioridazine: See CONTRAINDICATIONS (4) and WARNINGS AND PRECAUTIONS (5.4). Tizanidine: See CONTRAINDICATIONS (4) and WARNINGS AND PRECAUTIONS (5.5)."/>
+	<sentencespan id="DBMI.pac9.sp11" origId="sp11" text="Tricyclic Antidepressants (TCAs): Significantly increased plasma TCA levels have been reported with the coadministration of fluvoxamine maleate and amitriptyline, clomipramine or imipramine. Caution is indicated with the coadministration of fluvoxamine maleate tablets and TCAs; plasma TCA concentrations may need to be monitored, and the dose of TCA may need to be reduced. Triptans: There have been rare postmarketing reports of serotonin syndrome with use of an SSRI and a triptan.">
+		<entity charOffset="5416-5428" id="DBMI.pac9.sp11.e0" origId="sp11.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="5455-5468" id="DBMI.pac9.sp11.e1" origId="sp11.e1" text="clomipramine " type="Active ingredient"/>
+		<entity charOffset="5440-5454" id="DBMI.pac9.sp11.e2" origId="sp11.e2" text="amitriptyline " type="Active ingredient"/>
+		<entity charOffset="5471-5482" id="DBMI.pac9.sp11.e3" origId="sp11.e3" text="imipramine " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.sp11.e0" e2="DBMI.pac9.sp11.e1" id="DBMI.pac9.sp11.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="clomipramine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.sp11.e0" e2="DBMI.pac9.sp11.e1" id="DBMI.pac9.sp11.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="clomipramine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.sp11.e0" e2="DBMI.pac9.sp11.e2" id="DBMI.pac9.sp11.p2" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="amitriptyline " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.sp11.e0" e2="DBMI.pac9.sp11.e3" id="DBMI.pac9.sp11.p3" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="imipramine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.sp11.e1" e2="DBMI.pac9.sp11.e0" id="DBMI.pac9.sp11.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp11.e1" e2="DBMI.pac9.sp11.e2" id="DBMI.pac9.sp11.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp11.e1" e2="DBMI.pac9.sp11.e3" id="DBMI.pac9.sp11.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp11.e2" e2="DBMI.pac9.sp11.e0" id="DBMI.pac9.sp11.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp11.e2" e2="DBMI.pac9.sp11.e1" id="DBMI.pac9.sp11.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp11.e2" e2="DBMI.pac9.sp11.e3" id="DBMI.pac9.sp11.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp11.e3" e2="DBMI.pac9.sp11.e0" id="DBMI.pac9.sp11.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp11.e3" e2="DBMI.pac9.sp11.e1" id="DBMI.pac9.sp11.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac9.sp11.e3" e2="DBMI.pac9.sp11.e2" id="DBMI.pac9.sp11.p12" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac9.sp12" origId="sp12" text="If concomitant treatment of fluvoxamine with a triptan is clinically warranted, careful observation of the patient is advised, particularly during treatment initiation and dose increases (see WARNINGS AND PRECAUTIONS [5.3]). Sumatriptan - There have been rare postmarketing reports describing patients with weakness, hyperreflexia, and incoordination following the use of a selective serotonin reuptake inhibitor (SSRI) and sumatriptan. If concomitant treatment with sumatriptan and an SSRI (e.g., fluoxetine, fluvoxamine, paroxetine, sertraline) is clinically warranted, appropriate observation of the patient is advised."/>
+	<sentencespan id="DBMI.pac9.sp13" origId="sp13" text="Tryptophan: Tryptophan may enhance the serotonergic effects of fluvoxamine, and the combination should, therefore, be used with caution. Severe vomiting has been reported with the coadministration of fluvoxamine maleate and tryptophan (see WARNINGS AND PRECAUTIONS [5.3]). 7.3 Other Drugs\n\nAlosetron: See CONTRAINDICATIONS [4], WARNINGS AND PRECAUTIONS [5.7], and Lotronex (alosetron) package insert."/>
+	<sentencespan id="DBMI.pac9.sp14" origId="sp14" text="Digoxin: Administration of fluvoxamine maleate 100 mg daily for 18 days (N = 8) did not significantly affect the pharmacokinetics of a 1.25 mg single intravenous dose of digoxin. Diltiazem: Bradycardia has been reported with the coadministration of fluvoxamine maleate and diltiazem. Mexiletine: See WARNINGS AND PRECAUTIONS (5.8).">
+		<entity charOffset="6834-6846" id="DBMI.pac9.sp14.e0" origId="sp14.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="6977-6985" id="DBMI.pac9.sp14.e1" origId="sp14.e1" text="digoxin " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.sp14.e0" e2="DBMI.pac9.sp14.e1" id="DBMI.pac9.sp14.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="digoxin " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.sp14.e1" e2="DBMI.pac9.sp14.e0" id="DBMI.pac9.sp14.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac9.sp15" origId="sp15" text="Propranolol and Other Beta-Blockers: Coadministration of fluvoxamine maleate 100 mg per day and propranolol 160 mg per day in normal volunteers resulted in a mean five-fold increase (range 2 to 17) in minimum propranolol plasma concentrations. In this study, there was a slight potentiation of the propranolol-induced reduction in heart rate and reduction in the exercise diastolic pressure. One case of bradycardia and hypotension and a second case of orthostatic hypotension have been reported with the coadministration of fluvoxamine maleate and metoprolol.">
+		<entity charOffset="7199-7211" id="DBMI.pac9.sp15.e0" origId="sp15.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="7351-7363" id="DBMI.pac9.sp15.e1" origId="sp15.e1" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.sp15.e0" e2="DBMI.pac9.sp15.e1" id="DBMI.pac9.sp15.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propranolol " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.sp15.e1" e2="DBMI.pac9.sp15.e0" id="DBMI.pac9.sp15.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac9.sp16" origId="sp16" text="If propranolol or metoprolol is coadministered with fluvoxamine maleate tablets, a reduction in the initial beta-blocker dose and more cautious dose titration are recommended. No dosage adjustment is required for fluvoxamine maleate tablets. Coadministration of fluvoxamine maleate 100 mg per day with atenolol 100 mg per day (N = 6) did not affect the plasma concentrations of atenolol.">
+		<entity charOffset="7968-7980" id="DBMI.pac9.sp16.e0" origId="sp16.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="8084-8093" id="DBMI.pac9.sp16.e1" origId="sp16.e1" text="atenolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac9.sp16.e0" e2="DBMI.pac9.sp16.e1" id="DBMI.pac9.sp16.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="atenolol " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac9.sp16.e1" e2="DBMI.pac9.sp16.e0" id="DBMI.pac9.sp16.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac9.sp17" origId="sp17" text="Unlike propranolol and metoprolol which undergo hepatic metabolism, atenolol is eliminated primarily by renal excretion. Theophylline: See WARNINGS AND PRECAUTIONS (5.8). Warfarin and Other Drugs That Interfere With Hemostasis (NSAIDs, Aspirin, etc."/>
+	<sentencespan id="DBMI.pac9.sp18" origId="sp18" text="): See WARNINGS AND PRECAUTIONS [5.8 and 5.10]. 7.4 Effects of Smoking on Fluvoxamine Metabolism\n\nSmokers had a 25% increase in the metabolism of fluvoxamine compared to nonsmokers. 7.5 Electroconvulsive Therapy (ECT)\n\nThere are no clinical studies establishing the benefits or risks of combined use of ECT and fluvoxamine maleate."/>
+</document>

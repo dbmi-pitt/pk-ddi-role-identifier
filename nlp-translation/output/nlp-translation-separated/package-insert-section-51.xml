@@ -1,0 +1,16 @@
+
+<document id="DBMI.pac51" origId="pac51">
+	<sentence id="DBMI.pac51.s0" origId="s0" text="Co-administration of fosamprenavir/ritonavir with paroxetine significantly decreased plasma levels of paroxetine.">
+		<entity charOffset="21-45" id="DBMI.pac51.s0.e0" origId="s0.e0" text="fosamprenavir/ritonavir " type="Active ingredient"/>
+		<entity charOffset="50-61" id="DBMI.pac51.s0.e1" origId="s0.e1" text="paroxetine " type="Active ingredient"/>
+		<pair e1="DBMI.pac51.s0.e0" e2="DBMI.pac51.s0.e1" id="DBMI.pac51.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="paroxetine " precipitant="fosamprenavir/ritonavir "/>
+		<pair e1="DBMI.pac51.s0.e1" e2="DBMI.pac51.s0.e0" id="DBMI.pac51.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac51.s1" origId="s1" text="Any dose adjustment should be guided by clinical effect (tolerability and efficacy). "/>
+	<sentencespan id="DBMI.pac51.sp0" origId="sp0" text="Co-administration of fosamprenavir/ritonavir with paroxetine significantly decreased plasma levels of paroxetine. Any dose adjustment should be guided by clinical effect (tolerability and efficacy). ">
+		<entity charOffset="21-45" id="DBMI.pac51.sp0.e0" origId="sp0.e0" text="fosamprenavir/ritonavir " type="Active ingredient"/>
+		<entity charOffset="50-61" id="DBMI.pac51.sp0.e1" origId="sp0.e1" text="paroxetine " type="Active ingredient"/>
+		<pair e1="DBMI.pac51.sp0.e0" e2="DBMI.pac51.sp0.e1" id="DBMI.pac51.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="paroxetine " precipitant="fosamprenavir/ritonavir "/>
+		<pair e1="DBMI.pac51.sp0.e1" e2="DBMI.pac51.sp0.e0" id="DBMI.pac51.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

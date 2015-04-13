@@ -1,0 +1,45 @@
+
+<document id="DBMI.pac158" origId="pac158">
+	<sentence id="DBMI.pac158.s0" origId="s0" text="Since mexiletine is a substrate for the metabolic pathways involving CYP2D6 and CYP1A2 enzymes, inhibition or induction of either of these enzymes would be expected to alter mexiletine plasma concentrations."/>
+	<sentence id="DBMI.pac158.s1" origId="s1" text="In a formal, single-dose interaction study (n = 6 males) the clearance of mexiletine was decreased by 38% following the coadministration of fluvoxamine, an inhibitor of CYP1A2.">
+		<entity charOffset="348-360" id="DBMI.pac158.s1.e0" origId="s1.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="282-293" id="DBMI.pac158.s1.e1" origId="s1.e1" text="mexiletine " type="Active ingredient"/>
+		<pair e1="DBMI.pac158.s1.e0" e2="DBMI.pac158.s1.e1" id="DBMI.pac158.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="mexiletine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac158.s1.e1" e2="DBMI.pac158.s1.e0" id="DBMI.pac158.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac158.s2" origId="s2" text="In another formal study (n = 8 extensive and n = 7 poor metabolizers of CYP2D6), coadministration of propafenone did not alter the kinetics of mexiletine in the poor CYP2D6 metabolizer group.">
+		<entity charOffset="486-498" id="DBMI.pac158.s2.e0" origId="s2.e0" text="propafenone " type="Active ingredient"/>
+		<entity charOffset="528-539" id="DBMI.pac158.s2.e1" origId="s2.e1" text="mexiletine " type="Active ingredient"/>
+		<pair e1="DBMI.pac158.s2.e0" e2="DBMI.pac158.s2.e1" id="DBMI.pac158.s2.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="mexiletine " precipitant="propafenone "/>
+		<pair e1="DBMI.pac158.s2.e0" e2="DBMI.pac158.s2.e1" id="DBMI.pac158.s2.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="mexiletine " precipitant="propafenone "/>
+		<pair e1="DBMI.pac158.s2.e1" e2="DBMI.pac158.s2.e0" id="DBMI.pac158.s2.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac158.s3" origId="s3" text="However, the metabolic clearance of mexiletine in the extensive metabolizer phenotype decreased by about 70% making the poor and extensive metabolizer groups indistinguishable."/>
+	<sentence id="DBMI.pac158.s4" origId="s4" text="In this crossover steady state study, the pharmacokinetics of propafenone were unaffected in either phenotype by the coadministration of mexiletine.">
+		<entity charOffset="891-902" id="DBMI.pac158.s4.e0" origId="s4.e0" text="mexiletine " type="Active ingredient"/>
+		<entity charOffset="816-828" id="DBMI.pac158.s4.e1" origId="s4.e1" text="propafenone " type="Active ingredient"/>
+		<pair e1="DBMI.pac158.s4.e0" e2="DBMI.pac158.s4.e1" id="DBMI.pac158.s4.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="propafenone " precipitant="mexiletine "/>
+		<pair e1="DBMI.pac158.s4.e1" e2="DBMI.pac158.s4.e0" id="DBMI.pac158.s4.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac158.s5" origId="s5" text="Addition of mexiletine to propafenone did not lead to further electrocardiographic parameters changes of QRS, QTc, RR, and PR intervals than propafenone alone."/>
+	<sentence id="DBMI.pac158.s6" origId="s6" text="When concomitant administration of either of these two drugs with mexiletine is initiated, the dose of mexiletine should be slowly titrated to desired effect."/>
+	<sentencespan id="DBMI.pac158.sp0" origId="sp0" text="Since mexiletine is a substrate for the metabolic pathways involving CYP2D6 and CYP1A2 enzymes, inhibition or induction of either of these enzymes would be expected to alter mexiletine plasma concentrations. In a formal, single-dose interaction study (n = 6 males) the clearance of mexiletine was decreased by 38% following the coadministration of fluvoxamine, an inhibitor of CYP1A2. In another formal study (n = 8 extensive and n = 7 poor metabolizers of CYP2D6), coadministration of propafenone did not alter the kinetics of mexiletine in the poor CYP2D6 metabolizer group.">
+		<entity charOffset="348-360" id="DBMI.pac158.sp0.e0" origId="sp0.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="282-293" id="DBMI.pac158.sp0.e1" origId="sp0.e1" text="mexiletine " type="Active ingredient"/>
+		<entity charOffset="486-498" id="DBMI.pac158.sp0.e2" origId="sp0.e2" text="propafenone " type="Active ingredient"/>
+		<pair e1="DBMI.pac158.sp0.e0" e2="DBMI.pac158.sp0.e1" id="DBMI.pac158.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="mexiletine " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac158.sp0.e0" e2="DBMI.pac158.sp0.e2" id="DBMI.pac158.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac158.sp0.e1" e2="DBMI.pac158.sp0.e0" id="DBMI.pac158.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac158.sp0.e1" e2="DBMI.pac158.sp0.e2" id="DBMI.pac158.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac158.sp0.e2" e2="DBMI.pac158.sp0.e0" id="DBMI.pac158.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac158.sp0.e2" e2="DBMI.pac158.sp0.e1" id="DBMI.pac158.sp0.p5" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="mexiletine " precipitant="propafenone "/>
+		<pair e1="DBMI.pac158.sp0.e2" e2="DBMI.pac158.sp0.e1" id="DBMI.pac158.sp0.p6" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="mexiletine " precipitant="propafenone "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac158.sp1" origId="sp1" text="However, the metabolic clearance of mexiletine in the extensive metabolizer phenotype decreased by about 70% making the poor and extensive metabolizer groups indistinguishable. In this crossover steady state study, the pharmacokinetics of propafenone were unaffected in either phenotype by the coadministration of mexiletine. Addition of mexiletine to propafenone did not lead to further electrocardiographic parameters changes of QRS, QTc, RR, and PR intervals than propafenone alone.">
+		<entity charOffset="891-902" id="DBMI.pac158.sp1.e0" origId="sp1.e0" text="mexiletine " type="Active ingredient"/>
+		<entity charOffset="816-828" id="DBMI.pac158.sp1.e1" origId="sp1.e1" text="propafenone " type="Active ingredient"/>
+		<pair e1="DBMI.pac158.sp1.e0" e2="DBMI.pac158.sp1.e1" id="DBMI.pac158.sp1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="propafenone " precipitant="mexiletine "/>
+		<pair e1="DBMI.pac158.sp1.e1" e2="DBMI.pac158.sp1.e0" id="DBMI.pac158.sp1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac158.sp2" origId="sp2" text="When concomitant administration of either of these two drugs with mexiletine is initiated, the dose of mexiletine should be slowly titrated to desired effect."/>
+</document>

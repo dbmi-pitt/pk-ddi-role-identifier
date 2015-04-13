@@ -1,0 +1,39 @@
+7 DRUG INTERACTIONS
+
+7.1 CYP3A4 Interactions
+
+Simvastatin, like several other inhibitors of HMG-CoA reductase, is a substrate of CYP3A4. Simvastatin is metabolized by CYP3A4 but has no CYP3A4 inhibitory activity; therefore it is not expected to affect the plasma concentrations of other drugs metabolized by CYP3A4.
+
+The risk of myopathy is increased by reducing the elimination of simvastatin. Hence when simvastatin is used with an inhibitor of CYP3A4 (e.g., as listed below), elevated plasma levels of HMG-CoA reductase inhibitory activity can increase the risk of myopathy and rhabdomyolysis, particularly with higher doses of simvastatin. [See Warnings and Precautions (5.1) and Clinical Pharmacology (12.3).]
+
+Itraconazole, ketoconazole, and other antifungal azoles
+
+Macrolide antibiotics erythromycin, clarithromycin, and the ketolide antibiotic telithromycin
+
+HIV protease inhibitors
+
+Antidepressant nefazodone
+
+Grapefruit juice in large quantities (>1 quart daily)
+
+Concomitant use of these drugs and any medication labeled as having a strong inhibitory effect on CYP3A4 should be avoided unless the benefits of combined therapy outweigh the increased risk. If treatment with itraconazole, ketoconazole, erythromycin, clarithromycin or telithromycin is unavoidable, therapy with simvastatin should be suspended during the course of treatment.
+
+7.2 Lipid-Lowering Drugs That Can Cause Myopathy When Given Alone
+
+The risk of myopathy is increased by gemfibrozil [see Dosage and Administration (2.5)] and to a lesser extent by other fibrates and niacin (nicotinic acid) (≥1 g/day). [see Warnings and Precautions (5.1)].
+
+7.3 Cyclosporine or Danazol
+
+The risk of myopathy/rhabdomyolysis is increased by concomitant administration of cyclosporine or danazol particularly with higher doses of simvastatin [see Warnings and Precautions (5.1) and Clinical Pharmacology (12.3)].
+
+7.4 Amiodarone or Verapamil
+
+The risk of myopathy/rhabdomyolysis is increased by concomitant administration of amiodarone or verapamil with higher doses of simvastatin [see Warnings and Precautions (5.1)].
+
+7.5 Digoxin
+
+In one study, concomitant administration of digoxin with simvastatin resulted in a slight elevation in digoxin concentrations in plasma. Patients taking digoxin should be monitored appropriately when simvastatin is initiated [see Clinical Pharmacology (12.3)].
+
+7.6 Coumarin Anticoagulants
+
+In two clinical studies, one in normal volunteers and the other in hypercholesterolemic patients, simvastatin 20-40 mg/day modestly potentiated the effect of coumarin anticoagulants: the prothrombin time, reported as International Normalized Ratio (INR), increased from a baseline of 1.7 to 1.8 and from 2.6 to 3.4 in the volunteer and patient studies, respectively. With other statins, clinically evident bleeding and/or increased prothrombin time has been reported in a few patients taking coumarin anticoagulants concomitantly. In such patients, prothrombin time should be determined before starting simvastatin and frequently enough during early therapy to ensure that no significant alteration of prothrombin time occurs. Once a stable prothrombin time has been documented, prothrombin times can be monitored at the intervals usually recommended for patients on coumarin anticoagulants. If the dose of simvastatin is changed or discontinued, the same procedure should be repeated. Simvastatin therapy has not been associated with bleeding or with changes in prothrombin time in patients not taking anticoagulants.

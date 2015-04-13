@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac96" origId="pac96">
+	<sentence id="DBMI.pac96.s0" origId="s0" text="Coadministration of fluvoxamine approximately doubled the maximum plasma concentration of alprazolam, decreased clearance by 49%, increased half-life by 71%, and decreased measured psychomotor performance.">
+		<entity charOffset="20-32" id="DBMI.pac96.s0.e0" origId="s0.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="90-101" id="DBMI.pac96.s0.e1" origId="s0.e1" text="alprazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac96.s0.e0" e2="DBMI.pac96.s0.e1" id="DBMI.pac96.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac96.s0.e1" e2="DBMI.pac96.s0.e0" id="DBMI.pac96.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac96.sp0" origId="sp0" text="Coadministration of fluvoxamine approximately doubled the maximum plasma concentration of alprazolam, decreased clearance by 49%, increased half-life by 71%, and decreased measured psychomotor performance.">
+		<entity charOffset="20-32" id="DBMI.pac96.sp0.e0" origId="sp0.e0" text="fluvoxamine " type="Active ingredient"/>
+		<entity charOffset="90-101" id="DBMI.pac96.sp0.e1" origId="sp0.e1" text="alprazolam " type="Active ingredient"/>
+		<pair e1="DBMI.pac96.sp0.e0" e2="DBMI.pac96.sp0.e1" id="DBMI.pac96.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="alprazolam " precipitant="fluvoxamine "/>
+		<pair e1="DBMI.pac96.sp0.e1" e2="DBMI.pac96.sp0.e0" id="DBMI.pac96.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

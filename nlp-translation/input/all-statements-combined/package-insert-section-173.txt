@@ -1,0 +1,41 @@
+12 CLINICAL PHARMACOLOGY
+
+12.1 Mechanism of Action
+
+LIPITOR is a selective, competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A to mevalonate, a precursor of sterols, including cholesterol. Cholesterol and triglycerides circulate in the bloodstream as part of lipoprotein complexes. With ultracentrifugation, these complexes separate into HDL (high-density lipoprotein), IDL (intermediate-density lipoprotein), LDL (low-density lipoprotein), and VLDL (very-low-density lipoprotein) fractions. Triglycerides (TG) and cholesterol in the liver are incorporated into VLDL and released into the plasma for delivery to peripheral tissues. LDL is formed from VLDL and is catabolized primarily through the high-affinity LDL receptor. Clinical and pathologic studies show that elevated plasma levels of total cholesterol (total-C), LDL-cholesterol (LDL-C), and apolipoprotein B (apo B) promote human atherosclerosis and are risk factors for developing cardiovascular disease, while increased levels of HDL-C are associated with a decreased cardiovascular risk.
+
+In animal models, LIPITOR lowers plasma cholesterol and lipoprotein levels by inhibiting HMG-CoA reductase and cholesterol synthesis in the liver and by increasing the number of hepatic LDL receptors on the cell surface to enhance uptake and catabolism of LDL; LIPITOR also reduces LDL production and the number of LDL particles. LIPITOR reduces LDL-C in some patients with homozygous familial hypercholesterolemia (FH), a population that rarely responds to other lipid-lowering medication(s).
+
+A variety of clinical studies have demonstrated that elevated levels of total-C, LDL-C, and apo B (a membrane complex for LDL-C) promote human atherosclerosis. Similarly, decreased levels of HDL-C (and its transport complex, apo A) are associated with the development of atherosclerosis. Epidemiologic investigations have established that cardiovascular morbidity and mortality vary directly with the level of total-C and LDL-C, and inversely with the level of HDL-C.
+
+LIPITOR reduces total-C, LDL-C, and apo B in patients with homozygous and heterozygous FH, nonfamilial forms of hypercholesterolemia, and mixed dyslipidemia. LIPITOR also reduces VLDL-C and TG and produces variable increases in HDL-C and apolipoprotein A-1. LIPITOR reduces total-C, LDL-C, VLDL-C, apo B, TG, and non-HDL-C, and increases HDL-C in patients with isolated hypertriglyceridemia. LIPITOR reduces intermediate density lipoprotein cholesterol (IDL-C) in patients with dysbetalipoproteinemia.
+
+Like LDL, cholesterol-enriched triglyceride-rich lipoproteins, including VLDL, intermediate density lipoprotein (IDL), and remnants, can also promote atherosclerosis. Elevated plasma triglycerides are frequently found in a triad with low HDL-C levels and small LDL particles, as well as in association with non-lipid metabolic risk factors for coronary heart disease. As such, total plasma TG has not consistently been shown to be an independent risk factor for CHD. Furthermore, the independent effect of raising HDL or lowering TG on the risk of coronary and cardiovascular morbidity and mortality has not been determined.
+
+12.2 Pharmacodynamics
+
+LIPITOR, as well as some of its metabolites, are pharmacologically active in humans. The liver is the primary site of action and the principal site of cholesterol synthesis and LDL clearance. Drug dosage, rather than systemic drug concentration, correlates better with LDL-C reduction. Individualization of drug dosage should be based on therapeutic response [see Dosage and Administration (2)].
+
+12.3 Pharmacokinetics
+
+Absorption: LIPITOR is rapidly absorbed after oral administration; maximum plasma concentrations occur within 1 to 2 hours. Extent of absorption increases in proportion to LIPITOR dose. The absolute bioavailability of atorvastatin (parent drug) is approximately 14% and the systemic availability of HMG-CoA reductase inhibitory activity is approximately 30%. The low systemic availability is attributed to presystemic clearance in gastrointestinal mucosa and/or hepatic first-pass metabolism. Although food decreases the rate and extent of drug absorption by approximately 25% and 9%, respectively, as assessed by Cmax and AUC, LDL-C reduction is similar whether LIPITOR is given with or without food. Plasma LIPITOR concentrations are lower (approximately 30% for Cmax and AUC) following evening drug administration compared with morning. However, LDL-C reduction is the same regardless of the time of day of drug administration [see Dosage and Administration (2)].
+
+Distribution: Mean volume of distribution of LIPITOR is approximately 381 liters. LIPITOR is ≥98% bound to plasma proteins. A blood/plasma ratio of approximately 0.25 indicates poor drug penetration into red blood cells. Based on observations in rats, LIPITOR is likely to be secreted in human milk [see Contraindications, Nursing Mothers (4.4) and Use in Specific Populations, Nursing Mothers (8.3)].
+
+Metabolism: LIPITOR is extensively metabolized to ortho- and parahydroxylated derivatives and various beta-oxidation products. In vitro inhibition of HMG-CoA reductase by ortho- and parahydroxylated metabolites is equivalent to that of LIPITOR. Approximately 70% of circulating inhibitory activity for HMG-CoA reductase is attributed to active metabolites. In vitro studies suggest the importance of LIPITOR metabolism by cytochrome P450 3A4, consistent with increased plasma concentrations of LIPITOR in humans following co-administration with erythromycin, a known inhibitor of this isozyme [see Drug Interactions (7.1)]. In animals, the ortho-hydroxy metabolite undergoes further glucuronidation.
+
+Excretion: LIPITOR and its metabolites are eliminated primarily in bile following hepatic and/or extra-hepatic metabolism; however, the drug does not appear to undergo enterohepatic recirculation. Mean plasma elimination half-life of LIPITOR in humans is approximately 14 hours, but the half-life of inhibitory activity for HMG-CoA reductase is 20 to 30 hours due to the contribution of active metabolites. Less than 2% of a dose of LIPITOR is recovered in urine following oral administration.
+
+Specific Populations
+
+Geriatric: Plasma concentrations of LIPITOR are higher (approximately 40% for Cmax and 30% for AUC) in healthy elderly subjects (age ≥65 years) than in young adults. Clinical data suggest a greater degree of LDL-lowering at any dose of drug in the elderly patient population compared to younger adults [see Use in Specific Populations, Geriatric Use (8.5)].
+
+Pediatric: Pharmacokinetic data in the pediatric population are not available.
+
+Gender: Plasma concentrations of LIPITOR in women differ from those in men (approximately 20% higher for Cmax and 10% lower for AUC); however, there is no clinically significant difference in LDL-C reduction with LIPITOR between men and women.
+
+Renal Impairment: Renal disease has no influence on the plasma concentrations or LDL-C reduction of LIPITOR; thus, dose adjustment in patients with renal dysfunction is not necessary [see Dosage and Administration, Dosage in Patients with Renal Impairment (2.5), Warnings and Precautions, Skeletal Muscle (5.1)].
+
+Hemodialysis: While studies have not been conducted in patients with end-stage renal disease, hemodialysis is not expected to significantly enhance clearance of LIPITOR since the drug is extensively bound to plasma proteins.
+
+Hepatic Impairment: In patients with chronic alcoholic liver disease, plasma concentrations of LIPITOR are markedly increased. Cmax and AUC are each 4-fold greater in patients with Childs-Pugh A disease. Cmax and AUC are approximately 16-fold and 11-fold increased, respectively, in patients with Childs-Pugh B disease [see Contraindications (4.1)].

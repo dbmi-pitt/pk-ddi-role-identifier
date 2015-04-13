@@ -1,0 +1,26 @@
+
+<document id="DBMI.pac198" origId="pac198">
+	<sentence id="DBMI.pac198.s0" origId="s0" text="Didanosine and Stavudine\n\nExperimental evidence demonstrated that methadone decreased the AUC and peak levels for didanosine and stavudine, with a more significant decrease for didanosine.">
+		<entity charOffset="66-76" id="DBMI.pac198.s0.e0" origId="s0.e0" text="methadone " type="Active ingredient"/>
+		<entity charOffset="114-125" id="DBMI.pac198.s0.e1" origId="s0.e1" text="didanosine " type="Active ingredient"/>
+		<entity charOffset="129-139" id="DBMI.pac198.s0.e2" origId="s0.e2" text="stavudine " type="Active ingredient"/>
+		<pair e1="DBMI.pac198.s0.e0" e2="DBMI.pac198.s0.e1" id="DBMI.pac198.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="didanosine " precipitant="methadone "/>
+		<pair e1="DBMI.pac198.s0.e0" e2="DBMI.pac198.s0.e2" id="DBMI.pac198.s0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="stavudine " precipitant="methadone "/>
+		<pair e1="DBMI.pac198.s0.e1" e2="DBMI.pac198.s0.e0" id="DBMI.pac198.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac198.s0.e1" e2="DBMI.pac198.s0.e2" id="DBMI.pac198.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac198.s0.e2" e2="DBMI.pac198.s0.e0" id="DBMI.pac198.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac198.s0.e2" e2="DBMI.pac198.s0.e1" id="DBMI.pac198.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac198.s1" origId="s1" text="Methadone disposition was not substantially altered."/>
+	<sentencespan id="DBMI.pac198.sp0" origId="sp0" text="Didanosine and Stavudine\n\nExperimental evidence demonstrated that methadone decreased the AUC and peak levels for didanosine and stavudine, with a more significant decrease for didanosine. Methadone disposition was not substantially altered.">
+		<entity charOffset="66-76" id="DBMI.pac198.sp0.e0" origId="sp0.e0" text="methadone " type="Active ingredient"/>
+		<entity charOffset="114-125" id="DBMI.pac198.sp0.e1" origId="sp0.e1" text="didanosine " type="Active ingredient"/>
+		<entity charOffset="129-139" id="DBMI.pac198.sp0.e2" origId="sp0.e2" text="stavudine " type="Active ingredient"/>
+		<pair e1="DBMI.pac198.sp0.e0" e2="DBMI.pac198.sp0.e1" id="DBMI.pac198.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="didanosine " precipitant="methadone "/>
+		<pair e1="DBMI.pac198.sp0.e0" e2="DBMI.pac198.sp0.e2" id="DBMI.pac198.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="stavudine " precipitant="methadone "/>
+		<pair e1="DBMI.pac198.sp0.e1" e2="DBMI.pac198.sp0.e0" id="DBMI.pac198.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac198.sp0.e1" e2="DBMI.pac198.sp0.e2" id="DBMI.pac198.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac198.sp0.e2" e2="DBMI.pac198.sp0.e0" id="DBMI.pac198.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac198.sp0.e2" e2="DBMI.pac198.sp0.e1" id="DBMI.pac198.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

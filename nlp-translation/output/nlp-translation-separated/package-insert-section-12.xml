@@ -1,0 +1,27 @@
+
+<document id="DBMI.pac12" origId="pac12">
+	<sentence id="DBMI.pac12.s0" origId="s0" text="In a study comparing the disposition of intravenously administered diazepam before and after 21 days of dosing with either sertraline (50 to 200 mg/day escalating dose) or placebo, there was a 32% decrease relative to baseline in diazepam clearance for the sertraline group compared to a 19% decrease relative to baseline for the placebo group (p &lt; 0.03).">
+		<entity charOffset="123-134" id="DBMI.pac12.s0.e0" origId="s0.e0" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="230-239" id="DBMI.pac12.s0.e1" origId="s0.e1" text="diazepam " type="Active ingredient"/>
+		<pair e1="DBMI.pac12.s0.e0" e2="DBMI.pac12.s0.e1" id="DBMI.pac12.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="diazepam " precipitant="sertraline "/>
+		<pair e1="DBMI.pac12.s0.e1" e2="DBMI.pac12.s0.e0" id="DBMI.pac12.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac12.s1" origId="s1" text="There was a 23% increase in T max for desmethyldiazepam in the sertraline group compared to a 20% decrease in the placebo group (p &lt; 0.03).">
+		<entity charOffset="419-430" id="DBMI.pac12.s1.e0" origId="s1.e0" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="394-412" id="DBMI.pac12.s1.e1" origId="s1.e1" text="desmethyldiazepam " type="Metabolite"/>
+		<pair e1="DBMI.pac12.s1.e0" e2="DBMI.pac12.s1.e1" id="DBMI.pac12.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="desmethyldiazepam " precipitant="sertraline "/>
+		<pair e1="DBMI.pac12.s1.e1" e2="DBMI.pac12.s1.e0" id="DBMI.pac12.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac12.s2" origId="s2" text="The clinical significance of these changes is unknown."/>
+	<sentencespan id="DBMI.pac12.sp0" origId="sp0" text="In a study comparing the disposition of intravenously administered diazepam before and after 21 days of dosing with either sertraline (50 to 200 mg/day escalating dose) or placebo, there was a 32% decrease relative to baseline in diazepam clearance for the sertraline group compared to a 19% decrease relative to baseline for the placebo group (p &lt; 0.03). There was a 23% increase in T max for desmethyldiazepam in the sertraline group compared to a 20% decrease in the placebo group (p &lt; 0.03). The clinical significance of these changes is unknown.">
+		<entity charOffset="123-134" id="DBMI.pac12.sp0.e0" origId="sp0.e0" text="sertraline " type="Active ingredient"/>
+		<entity charOffset="230-239" id="DBMI.pac12.sp0.e1" origId="sp0.e1" text="diazepam " type="Active ingredient"/>
+		<entity charOffset="394-412" id="DBMI.pac12.sp0.e2" origId="sp0.e2" text="desmethyldiazepam " type="Metabolite"/>
+		<pair e1="DBMI.pac12.sp0.e0" e2="DBMI.pac12.sp0.e1" id="DBMI.pac12.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="diazepam " precipitant="sertraline "/>
+		<pair e1="DBMI.pac12.sp0.e0" e2="DBMI.pac12.sp0.e2" id="DBMI.pac12.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="desmethyldiazepam " precipitant="sertraline "/>
+		<pair e1="DBMI.pac12.sp0.e1" e2="DBMI.pac12.sp0.e0" id="DBMI.pac12.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac12.sp0.e1" e2="DBMI.pac12.sp0.e2" id="DBMI.pac12.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac12.sp0.e2" e2="DBMI.pac12.sp0.e0" id="DBMI.pac12.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac12.sp0.e2" e2="DBMI.pac12.sp0.e1" id="DBMI.pac12.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

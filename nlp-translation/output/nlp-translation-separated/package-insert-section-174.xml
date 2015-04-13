@@ -1,0 +1,22 @@
+
+<document id="DBMI.pac174" origId="pac174">
+	<sentence id="DBMI.pac174.s0" origId="s0" text="In a study of 6 normal volunteers, a significant decrease in tacrolimus oral bioavailability (146% vs. 73%) was observed with concomitant rifampin administration (600 mg).">
+		<entity charOffset="140-149" id="DBMI.pac174.s0.e0" origId="s0.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="61-72" id="DBMI.pac174.s0.e1" origId="s0.e1" text="tacrolimus " type="Active ingredient"/>
+		<pair e1="DBMI.pac174.s0.e0" e2="DBMI.pac174.s0.e1" id="DBMI.pac174.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="tacrolimus " precipitant="rifampin "/>
+		<pair e1="DBMI.pac174.s0.e1" e2="DBMI.pac174.s0.e0" id="DBMI.pac174.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac174.s1" origId="s1" text="In addition, there was a significant increase in tacrolimus clearance (0.0360.008 L/hr/kg vs. 0.0530.010 L/hr/kg) with concomitant rifampin administration.">
+		<entity charOffset="307-316" id="DBMI.pac174.s1.e0" origId="s1.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="223-234" id="DBMI.pac174.s1.e1" origId="s1.e1" text="tacrolimus " type="Active ingredient"/>
+		<pair e1="DBMI.pac174.s1.e0" e2="DBMI.pac174.s1.e1" id="DBMI.pac174.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="tacrolimus " precipitant="rifampin "/>
+		<pair e1="DBMI.pac174.s1.e1" e2="DBMI.pac174.s1.e0" id="DBMI.pac174.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac174.sp0" origId="sp0" text="In a study of 6 normal volunteers, a significant decrease in tacrolimus oral bioavailability (146% vs. 73%) was observed with concomitant rifampin administration (600 mg). In addition, there was a significant increase in tacrolimus clearance (0.0360.008 L/hr/kg vs. 0.0530.010 L/hr/kg) with concomitant rifampin administration.">
+		<entity charOffset="140-149" id="DBMI.pac174.sp0.e0" origId="sp0.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="61-72" id="DBMI.pac174.sp0.e1" origId="sp0.e1" text="tacrolimus " type="Active ingredient"/>
+		<pair e1="DBMI.pac174.sp0.e0" e2="DBMI.pac174.sp0.e1" id="DBMI.pac174.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="tacrolimus " precipitant="rifampin "/>
+		<pair e1="DBMI.pac174.sp0.e0" e2="DBMI.pac174.sp0.e1" id="DBMI.pac174.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="tacrolimus " precipitant="rifampin "/>
+		<pair e1="DBMI.pac174.sp0.e1" e2="DBMI.pac174.sp0.e0" id="DBMI.pac174.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

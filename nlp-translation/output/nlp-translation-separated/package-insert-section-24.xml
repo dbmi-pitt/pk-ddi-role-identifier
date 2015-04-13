@@ -1,0 +1,30 @@
+
+<document id="DBMI.pac24" origId="pac24">
+	<sentence id="DBMI.pac24.s0" origId="s0" text="Administration of a single oral 200 mg dose of fluconazole after 15 days of rifampin administered as 600 mg daily in eight healthy male volunteers resulted in a significant decrease in fluconazole AUC and a significant increase in apparent oral clearance of fluconazole.">
+		<entity charOffset="76-85" id="DBMI.pac24.s0.e0" origId="s0.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="435-447" id="DBMI.pac24.s0.e1" origId="s0.e1" text="Fluconazole " type="Active ingredient"/>
+		<entity charOffset="47-59" id="DBMI.pac24.s0.e2" origId="s0.e2" text="fluconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac24.s0.e0" e2="DBMI.pac24.s0.e1" id="DBMI.pac24.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Fluconazole " precipitant="rifampin "/>
+		<pair e1="DBMI.pac24.s0.e0" e2="DBMI.pac24.s0.e2" id="DBMI.pac24.s0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fluconazole " precipitant="rifampin "/>
+		<pair e1="DBMI.pac24.s0.e1" e2="DBMI.pac24.s0.e0" id="DBMI.pac24.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac24.s0.e1" e2="DBMI.pac24.s0.e2" id="DBMI.pac24.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac24.s0.e2" e2="DBMI.pac24.s0.e0" id="DBMI.pac24.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac24.s0.e2" e2="DBMI.pac24.s0.e1" id="DBMI.pac24.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac24.s1" origId="s1" text="There was a mean  SD reduction in fluconazole AUC of 23%  9% (range: -13 to -42%)."/>
+	<sentence id="DBMI.pac24.s2" origId="s2" text="Apparent oral clearance of fluconazole increased 32%  17% (range: 16 to 72%)."/>
+	<sentence id="DBMI.pac24.s3" origId="s3" text="Fluconazole half-life decreased from 33.4  4.4 hours to 26.8  3.9 hours."/>
+	<sentence id="DBMI.pac24.s4" origId="s4" text="(See PRECAUTIONS.)"/>
+	<sentencespan id="DBMI.pac24.sp0" origId="sp0" text="Administration of a single oral 200 mg dose of fluconazole after 15 days of rifampin administered as 600 mg daily in eight healthy male volunteers resulted in a significant decrease in fluconazole AUC and a significant increase in apparent oral clearance of fluconazole. There was a mean  SD reduction in fluconazole AUC of 23%  9% (range: -13 to -42%). Apparent oral clearance of fluconazole increased 32%  17% (range: 16 to 72%).">
+		<entity charOffset="76-85" id="DBMI.pac24.sp0.e0" origId="sp0.e0" text="rifampin " type="Active ingredient"/>
+		<entity charOffset="435-447" id="DBMI.pac24.sp0.e1" origId="sp0.e1" text="Fluconazole " type="Active ingredient"/>
+		<entity charOffset="47-59" id="DBMI.pac24.sp0.e2" origId="sp0.e2" text="fluconazole " type="Active ingredient"/>
+		<pair e1="DBMI.pac24.sp0.e0" e2="DBMI.pac24.sp0.e1" id="DBMI.pac24.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Fluconazole " precipitant="rifampin "/>
+		<pair e1="DBMI.pac24.sp0.e0" e2="DBMI.pac24.sp0.e2" id="DBMI.pac24.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="fluconazole " precipitant="rifampin "/>
+		<pair e1="DBMI.pac24.sp0.e1" e2="DBMI.pac24.sp0.e0" id="DBMI.pac24.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac24.sp0.e1" e2="DBMI.pac24.sp0.e2" id="DBMI.pac24.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac24.sp0.e2" e2="DBMI.pac24.sp0.e0" id="DBMI.pac24.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac24.sp0.e2" e2="DBMI.pac24.sp0.e1" id="DBMI.pac24.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac24.sp1" origId="sp1" text="Fluconazole half-life decreased from 33.4  4.4 hours to 26.8  3.9 hours. (See PRECAUTIONS.)"/>
+</document>

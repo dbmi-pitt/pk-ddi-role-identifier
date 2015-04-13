@@ -1,0 +1,103 @@
+
+<document id="DBMI.pac63" origId="pac63">
+	<sentence id="DBMI.pac63.s0" origId="s0" text="A 30 to 45% increase in AUC and Cmax of nisoldipine was observed with concomitant administration of cimetidine 400 mg twice daily.">
+		<entity charOffset="100-111" id="DBMI.pac63.s0.e0" origId="s0.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="40-52" id="DBMI.pac63.s0.e1" origId="s0.e1" text="nisoldipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac63.s0.e0" e2="DBMI.pac63.s0.e1" id="DBMI.pac63.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nisoldipine " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac63.s0.e1" e2="DBMI.pac63.s0.e0" id="DBMI.pac63.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac63.s1" origId="s1" text="Ranitidine 150 mg twice daily did not interact significantly with nisoldipine (AUC was decreased by 15-20%).">
+		<entity charOffset="131-142" id="DBMI.pac63.s1.e0" origId="s1.e0" text="Ranitidine " type="Active ingredient"/>
+		<entity charOffset="197-209" id="DBMI.pac63.s1.e1" origId="s1.e1" text="nisoldipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac63.s1.e0" e2="DBMI.pac63.s1.e1" id="DBMI.pac63.s1.p0" interaction="true" interactionPhraseType="Quantitative" modality="Negative" object="nisoldipine " precipitant="Ranitidine "/>
+		<pair e1="DBMI.pac63.s1.e1" e2="DBMI.pac63.s1.e0" id="DBMI.pac63.s1.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac63.s2" origId="s2" text="No pharmacodynamic effects of either histamine H2 receptor antagonist were observed."/>
+	<sentence id="DBMI.pac63.s3" origId="s3" text="CYP3A4 inhibitors and inducers: Nisoldipine is a substrate of CYP3A4 and coadministration should be avoided in general."/>
+	<sentence id="DBMI.pac63.s4" origId="s4" text="Coadministration of phenytoin with a dose bioequivalent to 34 mg Nisoldipine tablets in epileptic patients lowered the nisoldipine plasma concentrations to undetectable levels.">
+		<entity charOffset="465-475" id="DBMI.pac63.s4.e0" origId="s4.e0" text="phenytoin " type="Active ingredient"/>
+		<entity charOffset="564-576" id="DBMI.pac63.s4.e1" origId="s4.e1" text="nisoldipine " type="Active ingredient"/>
+		<entity charOffset="510-522" id="DBMI.pac63.s4.e2" origId="s4.e2" text="Nisoldipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac63.s4.e0" e2="DBMI.pac63.s4.e1" id="DBMI.pac63.s4.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="nisoldipine " precipitant="phenytoin "/>
+		<pair e1="DBMI.pac63.s4.e0" e2="DBMI.pac63.s4.e2" id="DBMI.pac63.s4.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Nisoldipine " precipitant="phenytoin "/>
+		<pair e1="DBMI.pac63.s4.e1" e2="DBMI.pac63.s4.e0" id="DBMI.pac63.s4.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.s4.e1" e2="DBMI.pac63.s4.e2" id="DBMI.pac63.s4.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.s4.e2" e2="DBMI.pac63.s4.e0" id="DBMI.pac63.s4.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.s4.e2" e2="DBMI.pac63.s4.e1" id="DBMI.pac63.s4.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac63.s5" origId="s5" text="Coadministration of Nisoldipine with phenytoin should be avoided and alternative antihypertensive therapy should be considered."/>
+	<sentence id="DBMI.pac63.s6" origId="s6" text="Pharmacokinetic interactions between nisoldipine and beta-blockers (atenolol, propranolol) were variable and not significant.">
+		<entity charOffset="787-799" id="DBMI.pac63.s6.e0" origId="s6.e0" text="nisoldipine " type="Active ingredient"/>
+		<entity charOffset="818-827" id="DBMI.pac63.s6.e1" origId="s6.e1" text="atenolol " type="Active ingredient"/>
+		<entity charOffset="828-840" id="DBMI.pac63.s6.e2" origId="s6.e2" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac63.s6.e0" e2="DBMI.pac63.s6.e1" id="DBMI.pac63.s6.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="atenolol " precipitant="nisoldipine "/>
+		<pair e1="DBMI.pac63.s6.e0" e2="DBMI.pac63.s6.e2" id="DBMI.pac63.s6.p1" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="propranolol " precipitant="nisoldipine "/>
+		<pair e1="DBMI.pac63.s6.e1" e2="DBMI.pac63.s6.e0" id="DBMI.pac63.s6.p2" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="nisoldipine " precipitant="atenolol "/>
+		<pair e1="DBMI.pac63.s6.e1" e2="DBMI.pac63.s6.e2" id="DBMI.pac63.s6.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.s6.e2" e2="DBMI.pac63.s6.e0" id="DBMI.pac63.s6.p4" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="nisoldipine " precipitant="propranolol "/>
+		<pair e1="DBMI.pac63.s6.e2" e2="DBMI.pac63.s6.e1" id="DBMI.pac63.s6.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac63.s7" origId="s7" text="Propranolol attenuated the heart rate increase following administration of immediate release nisoldipine."/>
+	<sentence id="DBMI.pac63.s8" origId="s8" text="The blood pressure effect of Nisoldipine tended to be greater in patients on atenolol than in patients on no other antihypertensive therapy."/>
+	<sentence id="DBMI.pac63.s9" origId="s9" text="Quinidine at 648 mg bid decreased the bioavailability (AUC) of nisoldipine by 26%, but not the peak concentration.">
+		<entity charOffset="1123-1133" id="DBMI.pac63.s9.e0" origId="s9.e0" text="Quinidine " type="Active ingredient"/>
+		<entity charOffset="1186-1198" id="DBMI.pac63.s9.e1" origId="s9.e1" text="nisoldipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac63.s9.e0" e2="DBMI.pac63.s9.e1" id="DBMI.pac63.s9.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nisoldipine " precipitant="Quinidine "/>
+		<pair e1="DBMI.pac63.s9.e1" e2="DBMI.pac63.s9.e0" id="DBMI.pac63.s9.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac63.s10" origId="s10" text="Immediate release nisoldipine increased plasma quinidine concentrations by about 20%.">
+		<entity charOffset="1256-1268" id="DBMI.pac63.s10.e0" origId="s10.e0" text="nisoldipine " type="Active ingredient"/>
+		<entity charOffset="1285-1295" id="DBMI.pac63.s10.e1" origId="s10.e1" text="quinidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac63.s10.e0" e2="DBMI.pac63.s10.e1" id="DBMI.pac63.s10.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="quinidine " precipitant="nisoldipine "/>
+		<pair e1="DBMI.pac63.s10.e1" e2="DBMI.pac63.s10.e0" id="DBMI.pac63.s10.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac63.s11" origId="s11" text="This interaction was not accompanied by ECG changes and its clinical significance is not known."/>
+	<sentence id="DBMI.pac63.s12" origId="s12" text="No significant interactions were found between nisoldipine and warfarin or digoxin."/>
+	<sentencespan id="DBMI.pac63.sp0" origId="sp0" text="A 30 to 45% increase in AUC and Cmax of nisoldipine was observed with concomitant administration of cimetidine 400 mg twice daily. Ranitidine 150 mg twice daily did not interact significantly with nisoldipine (AUC was decreased by 15-20%). No pharmacodynamic effects of either histamine H2 receptor antagonist were observed.">
+		<entity charOffset="100-111" id="DBMI.pac63.sp0.e0" origId="sp0.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="40-52" id="DBMI.pac63.sp0.e1" origId="sp0.e1" text="nisoldipine " type="Active ingredient"/>
+		<entity charOffset="131-142" id="DBMI.pac63.sp0.e2" origId="sp0.e2" text="Ranitidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac63.sp0.e0" e2="DBMI.pac63.sp0.e1" id="DBMI.pac63.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nisoldipine " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac63.sp0.e0" e2="DBMI.pac63.sp0.e2" id="DBMI.pac63.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.sp0.e1" e2="DBMI.pac63.sp0.e0" id="DBMI.pac63.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.sp0.e1" e2="DBMI.pac63.sp0.e2" id="DBMI.pac63.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.sp0.e2" e2="DBMI.pac63.sp0.e0" id="DBMI.pac63.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.sp0.e2" e2="DBMI.pac63.sp0.e1" id="DBMI.pac63.sp0.p5" interaction="true" interactionPhraseType="Quantitative" modality="Negative" object="nisoldipine " precipitant="Ranitidine "/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac63.sp1" origId="sp1" text="CYP3A4 inhibitors and inducers: Nisoldipine is a substrate of CYP3A4 and coadministration should be avoided in general. Coadministration of phenytoin with a dose bioequivalent to 34 mg Nisoldipine tablets in epileptic patients lowered the nisoldipine plasma concentrations to undetectable levels. Coadministration of Nisoldipine with phenytoin should be avoided and alternative antihypertensive therapy should be considered.">
+		<entity charOffset="465-475" id="DBMI.pac63.sp1.e0" origId="sp1.e0" text="phenytoin " type="Active ingredient"/>
+		<entity charOffset="564-576" id="DBMI.pac63.sp1.e1" origId="sp1.e1" text="nisoldipine " type="Active ingredient"/>
+		<entity charOffset="510-522" id="DBMI.pac63.sp1.e2" origId="sp1.e2" text="Nisoldipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac63.sp1.e0" e2="DBMI.pac63.sp1.e1" id="DBMI.pac63.sp1.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="nisoldipine " precipitant="phenytoin "/>
+		<pair e1="DBMI.pac63.sp1.e0" e2="DBMI.pac63.sp1.e2" id="DBMI.pac63.sp1.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="Nisoldipine " precipitant="phenytoin "/>
+		<pair e1="DBMI.pac63.sp1.e1" e2="DBMI.pac63.sp1.e0" id="DBMI.pac63.sp1.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.sp1.e1" e2="DBMI.pac63.sp1.e2" id="DBMI.pac63.sp1.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.sp1.e2" e2="DBMI.pac63.sp1.e0" id="DBMI.pac63.sp1.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.sp1.e2" e2="DBMI.pac63.sp1.e1" id="DBMI.pac63.sp1.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac63.sp2" origId="sp2" text="Pharmacokinetic interactions between nisoldipine and beta-blockers (atenolol, propranolol) were variable and not significant. Propranolol attenuated the heart rate increase following administration of immediate release nisoldipine. The blood pressure effect of Nisoldipine tended to be greater in patients on atenolol than in patients on no other antihypertensive therapy.">
+		<entity charOffset="1123-1133" id="DBMI.pac63.sp2.e0" origId="sp2.e0" text="Quinidine " type="Active ingredient"/>
+		<entity charOffset="1186-1198" id="DBMI.pac63.sp2.e1" origId="sp2.e1" text="nisoldipine " type="Active ingredient"/>
+		<entity charOffset="818-827" id="DBMI.pac63.sp2.e2" origId="sp2.e2" text="atenolol " type="Active ingredient"/>
+		<entity charOffset="828-840" id="DBMI.pac63.sp2.e3" origId="sp2.e3" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac63.sp2.e0" e2="DBMI.pac63.sp2.e1" id="DBMI.pac63.sp2.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nisoldipine " precipitant="Quinidine "/>
+		<pair e1="DBMI.pac63.sp2.e0" e2="DBMI.pac63.sp2.e2" id="DBMI.pac63.sp2.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.sp2.e0" e2="DBMI.pac63.sp2.e3" id="DBMI.pac63.sp2.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.sp2.e1" e2="DBMI.pac63.sp2.e0" id="DBMI.pac63.sp2.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.sp2.e1" e2="DBMI.pac63.sp2.e2" id="DBMI.pac63.sp2.p4" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="atenolol " precipitant="nisoldipine "/>
+		<pair e1="DBMI.pac63.sp2.e1" e2="DBMI.pac63.sp2.e3" id="DBMI.pac63.sp2.p5" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="propranolol " precipitant="nisoldipine "/>
+		<pair e1="DBMI.pac63.sp2.e2" e2="DBMI.pac63.sp2.e0" id="DBMI.pac63.sp2.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.sp2.e2" e2="DBMI.pac63.sp2.e1" id="DBMI.pac63.sp2.p7" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="nisoldipine " precipitant="atenolol "/>
+		<pair e1="DBMI.pac63.sp2.e2" e2="DBMI.pac63.sp2.e3" id="DBMI.pac63.sp2.p8" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.sp2.e3" e2="DBMI.pac63.sp2.e0" id="DBMI.pac63.sp2.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac63.sp2.e3" e2="DBMI.pac63.sp2.e1" id="DBMI.pac63.sp2.p10" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="nisoldipine " precipitant="propranolol "/>
+		<pair e1="DBMI.pac63.sp2.e3" e2="DBMI.pac63.sp2.e2" id="DBMI.pac63.sp2.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac63.sp3" origId="sp3" text="Quinidine at 648 mg bid decreased the bioavailability (AUC) of nisoldipine by 26%, but not the peak concentration. Immediate release nisoldipine increased plasma quinidine concentrations by about 20%. This interaction was not accompanied by ECG changes and its clinical significance is not known.">
+		<entity charOffset="1256-1268" id="DBMI.pac63.sp3.e0" origId="sp3.e0" text="nisoldipine " type="Active ingredient"/>
+		<entity charOffset="1285-1295" id="DBMI.pac63.sp3.e1" origId="sp3.e1" text="quinidine " type="Active ingredient"/>
+		<pair e1="DBMI.pac63.sp3.e0" e2="DBMI.pac63.sp3.e1" id="DBMI.pac63.sp3.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="quinidine " precipitant="nisoldipine "/>
+		<pair e1="DBMI.pac63.sp3.e1" e2="DBMI.pac63.sp3.e0" id="DBMI.pac63.sp3.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+	<sentencespan id="DBMI.pac63.sp4" origId="sp4" text="No significant interactions were found between nisoldipine and warfarin or digoxin."/>
+</document>

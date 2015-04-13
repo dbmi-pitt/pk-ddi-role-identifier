@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac125" origId="pac125">
+	<sentence id="DBMI.pac125.s0" origId="s0" text="The metabolism of propranolol is reduced by co-administration of quinidine, leading to a two-three fold increased blood concentration and greater degrees of clinical beta-blockade.">
+		<entity charOffset="65-75" id="DBMI.pac125.s0.e0" origId="s0.e0" text="quinidine " type="Active ingredient"/>
+		<entity charOffset="18-30" id="DBMI.pac125.s0.e1" origId="s0.e1" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac125.s0.e0" e2="DBMI.pac125.s0.e1" id="DBMI.pac125.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propranolol " precipitant="quinidine "/>
+		<pair e1="DBMI.pac125.s0.e1" e2="DBMI.pac125.s0.e0" id="DBMI.pac125.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac125.sp0" origId="sp0" text="The metabolism of propranolol is reduced by co-administration of quinidine, leading to a two-three fold increased blood concentration and greater degrees of clinical beta-blockade.">
+		<entity charOffset="65-75" id="DBMI.pac125.sp0.e0" origId="sp0.e0" text="quinidine " type="Active ingredient"/>
+		<entity charOffset="18-30" id="DBMI.pac125.sp0.e1" origId="sp0.e1" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac125.sp0.e0" e2="DBMI.pac125.sp0.e1" id="DBMI.pac125.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="propranolol " precipitant="quinidine "/>
+		<pair e1="DBMI.pac125.sp0.e1" e2="DBMI.pac125.sp0.e0" id="DBMI.pac125.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

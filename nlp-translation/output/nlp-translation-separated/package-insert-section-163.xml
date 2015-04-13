@@ -1,0 +1,25 @@
+
+<document id="DBMI.pac163" origId="pac163">
+	<sentence id="DBMI.pac163.s0" origId="s0" text="Acyclovir\n\nPlasma concentrations of meperidine and its metabolite, normeperidine, may be increased by acyclovir, thus caution should be used with concomitant administration.">
+		<entity charOffset="102-112" id="DBMI.pac163.s0.e0" origId="s0.e0" text="acyclovir " type="Active ingredient"/>
+		<entity charOffset="36-47" id="DBMI.pac163.s0.e1" origId="s0.e1" text="meperidine " type="Active ingredient"/>
+		<entity charOffset="67-81" id="DBMI.pac163.s0.e2" origId="s0.e2" text="normeperidine " type="Metabolite"/>
+		<pair e1="DBMI.pac163.s0.e0" e2="DBMI.pac163.s0.e1" id="DBMI.pac163.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="meperidine " precipitant="acyclovir "/>
+		<pair e1="DBMI.pac163.s0.e0" e2="DBMI.pac163.s0.e2" id="DBMI.pac163.s0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="normeperidine " precipitant="acyclovir "/>
+		<pair e1="DBMI.pac163.s0.e1" e2="DBMI.pac163.s0.e0" id="DBMI.pac163.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac163.s0.e1" e2="DBMI.pac163.s0.e2" id="DBMI.pac163.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac163.s0.e2" e2="DBMI.pac163.s0.e0" id="DBMI.pac163.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac163.s0.e2" e2="DBMI.pac163.s0.e1" id="DBMI.pac163.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac163.sp0" origId="sp0" text="Acyclovir\n\nPlasma concentrations of meperidine and its metabolite, normeperidine, may be increased by acyclovir, thus caution should be used with concomitant administration.">
+		<entity charOffset="102-112" id="DBMI.pac163.sp0.e0" origId="sp0.e0" text="acyclovir " type="Active ingredient"/>
+		<entity charOffset="36-47" id="DBMI.pac163.sp0.e1" origId="sp0.e1" text="meperidine " type="Active ingredient"/>
+		<entity charOffset="67-81" id="DBMI.pac163.sp0.e2" origId="sp0.e2" text="normeperidine " type="Metabolite"/>
+		<pair e1="DBMI.pac163.sp0.e0" e2="DBMI.pac163.sp0.e1" id="DBMI.pac163.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="meperidine " precipitant="acyclovir "/>
+		<pair e1="DBMI.pac163.sp0.e0" e2="DBMI.pac163.sp0.e2" id="DBMI.pac163.sp0.p1" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="normeperidine " precipitant="acyclovir "/>
+		<pair e1="DBMI.pac163.sp0.e1" e2="DBMI.pac163.sp0.e0" id="DBMI.pac163.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac163.sp0.e1" e2="DBMI.pac163.sp0.e2" id="DBMI.pac163.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac163.sp0.e2" e2="DBMI.pac163.sp0.e0" id="DBMI.pac163.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac163.sp0.e2" e2="DBMI.pac163.sp0.e1" id="DBMI.pac163.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

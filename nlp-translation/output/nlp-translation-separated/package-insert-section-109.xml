@@ -1,0 +1,17 @@
+
+<document id="DBMI.pac109" origId="pac109">
+	<sentence id="DBMI.pac109.s0" origId="s0" text="Diltiazem:  Pretreatment of healthy volunteers with 30 mg or 90 mg t.i.d.diltiazem p.o.increased the AUC of nifedipine after a single dose of 20 mg nifedipine by factors of 2.2 and 3.1, respectively.">
+		<entity charOffset="74-84" id="DBMI.pac109.s0.e0" origId="s0.e0" text="diltiazem " type="Active ingredient"/>
+		<entity charOffset="235-246" id="DBMI.pac109.s0.e1" origId="s0.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac109.s0.e0" e2="DBMI.pac109.s0.e1" id="DBMI.pac109.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="diltiazem "/>
+		<pair e1="DBMI.pac109.s0.e1" e2="DBMI.pac109.s0.e0" id="DBMI.pac109.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac109.s1" origId="s1" text="The corresponding Cmax values of nifedipine increased by factors of 2.0 and 1.7, respectively."/>
+	<sentence id="DBMI.pac109.s2" origId="s2" text="Caution should be exercised when coadministering diltiazem and nifedipine and a reduction of the dose of nifedipine should be considered."/>
+	<sentencespan id="DBMI.pac109.sp0" origId="sp0" text="Diltiazem:  Pretreatment of healthy volunteers with 30 mg or 90 mg t.i.d.diltiazem p.o.increased the AUC of nifedipine after a single dose of 20 mg nifedipine by factors of 2.2 and 3.1, respectively. The corresponding Cmax values of nifedipine increased by factors of 2.0 and 1.7, respectively. Caution should be exercised when coadministering diltiazem and nifedipine and a reduction of the dose of nifedipine should be considered.">
+		<entity charOffset="74-84" id="DBMI.pac109.sp0.e0" origId="sp0.e0" text="diltiazem " type="Active ingredient"/>
+		<entity charOffset="235-246" id="DBMI.pac109.sp0.e1" origId="sp0.e1" text="nifedipine " type="Active ingredient"/>
+		<pair e1="DBMI.pac109.sp0.e0" e2="DBMI.pac109.sp0.e1" id="DBMI.pac109.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="nifedipine " precipitant="diltiazem "/>
+		<pair e1="DBMI.pac109.sp0.e1" e2="DBMI.pac109.sp0.e0" id="DBMI.pac109.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

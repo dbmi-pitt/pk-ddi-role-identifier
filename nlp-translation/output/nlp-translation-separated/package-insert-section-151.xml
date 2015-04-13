@@ -1,0 +1,39 @@
+
+<document id="DBMI.pac151" origId="pac151">
+	<sentence id="DBMI.pac151.s0" origId="s0" text="Phenytoin: Phenytoin causes an approximate doubling of the clearance of Felbatol (felbamate) at steady-state and, therefore, the addition of phenytoin causes an approximate 45% decrease in the steady-state trough concentrations of Felbatol as compared to the same dose of Felbatol given as monotherapy.">
+		<entity charOffset="11-21" id="DBMI.pac151.s0.e0" origId="s0.e0" text="Phenytoin " type="Active ingredient"/>
+		<entity charOffset="83-93" id="DBMI.pac151.s0.e1" origId="s0.e1" text="felbamate " type="Active ingredient"/>
+		<entity charOffset="142-152" id="DBMI.pac151.s0.e2" origId="s0.e2" text="phenytoin " type="Active ingredient"/>
+		<entity charOffset="232-241" id="DBMI.pac151.s0.e3" origId="s0.e3" text="Felbatol " type="Drug product"/>
+		<pair e1="DBMI.pac151.s0.e0" e2="DBMI.pac151.s0.e1" id="DBMI.pac151.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="felbamate " precipitant="Phenytoin "/>
+		<pair e1="DBMI.pac151.s0.e0" e2="DBMI.pac151.s0.e2" id="DBMI.pac151.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.s0.e0" e2="DBMI.pac151.s0.e3" id="DBMI.pac151.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.s0.e1" e2="DBMI.pac151.s0.e0" id="DBMI.pac151.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.s0.e1" e2="DBMI.pac151.s0.e2" id="DBMI.pac151.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.s0.e1" e2="DBMI.pac151.s0.e3" id="DBMI.pac151.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.s0.e2" e2="DBMI.pac151.s0.e0" id="DBMI.pac151.s0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.s0.e2" e2="DBMI.pac151.s0.e1" id="DBMI.pac151.s0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.s0.e2" e2="DBMI.pac151.s0.e3" id="DBMI.pac151.s0.p8" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Felbatol " precipitant="phenytoin "/>
+		<pair e1="DBMI.pac151.s0.e3" e2="DBMI.pac151.s0.e0" id="DBMI.pac151.s0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.s0.e3" e2="DBMI.pac151.s0.e1" id="DBMI.pac151.s0.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.s0.e3" e2="DBMI.pac151.s0.e2" id="DBMI.pac151.s0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac151.sp0" origId="sp0" text="Phenytoin: Phenytoin causes an approximate doubling of the clearance of Felbatol (felbamate) at steady-state and, therefore, the addition of phenytoin causes an approximate 45% decrease in the steady-state trough concentrations of Felbatol as compared to the same dose of Felbatol given as monotherapy.">
+		<entity charOffset="11-21" id="DBMI.pac151.sp0.e0" origId="sp0.e0" text="Phenytoin " type="Active ingredient"/>
+		<entity charOffset="83-93" id="DBMI.pac151.sp0.e1" origId="sp0.e1" text="felbamate " type="Active ingredient"/>
+		<entity charOffset="142-152" id="DBMI.pac151.sp0.e2" origId="sp0.e2" text="phenytoin " type="Active ingredient"/>
+		<entity charOffset="232-241" id="DBMI.pac151.sp0.e3" origId="sp0.e3" text="Felbatol " type="Drug product"/>
+		<pair e1="DBMI.pac151.sp0.e0" e2="DBMI.pac151.sp0.e1" id="DBMI.pac151.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="felbamate " precipitant="Phenytoin "/>
+		<pair e1="DBMI.pac151.sp0.e0" e2="DBMI.pac151.sp0.e2" id="DBMI.pac151.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.sp0.e0" e2="DBMI.pac151.sp0.e3" id="DBMI.pac151.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.sp0.e1" e2="DBMI.pac151.sp0.e0" id="DBMI.pac151.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.sp0.e1" e2="DBMI.pac151.sp0.e2" id="DBMI.pac151.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.sp0.e1" e2="DBMI.pac151.sp0.e3" id="DBMI.pac151.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.sp0.e2" e2="DBMI.pac151.sp0.e0" id="DBMI.pac151.sp0.p6" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.sp0.e2" e2="DBMI.pac151.sp0.e1" id="DBMI.pac151.sp0.p7" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.sp0.e2" e2="DBMI.pac151.sp0.e3" id="DBMI.pac151.sp0.p8" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="Felbatol " precipitant="phenytoin "/>
+		<pair e1="DBMI.pac151.sp0.e3" e2="DBMI.pac151.sp0.e0" id="DBMI.pac151.sp0.p9" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.sp0.e3" e2="DBMI.pac151.sp0.e1" id="DBMI.pac151.sp0.p10" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac151.sp0.e3" e2="DBMI.pac151.sp0.e2" id="DBMI.pac151.sp0.p11" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

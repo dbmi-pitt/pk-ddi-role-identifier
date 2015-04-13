@@ -1,0 +1,43 @@
+12 CLINICAL PHARMACOLOGY
+
+12.1 Mechanism of Action
+
+The mechanism of the antidepressant action of venlafaxine in humans is believed to be associated with its potentiation of neurotransmitter activity in the CNS. Preclinical studies have shown that venlafaxine and its active metabolite, O-desmethylvenlafaxine (ODV), are potent inhibitors of neuronal serotonin and norepinephrine reuptake and weak inhibitors of dopamine reuptake.
+
+12.2 Pharmacodynamics
+
+Venlafaxine and its active metabolite, O-desmethylvenlafaxine (ODV) have no significant affinity for muscarinic cholinergic, H1-histaminergic, or α1-adrenergic receptors in vitro. Pharmacologic activity at these receptors is hypothesized to be associated with the various anticholinergic, sedative, and cardiovascular effects seen with other psychotropic drugs. Venlafaxine and ODV do not possess monoamine oxidase (MAO) inhibitory activity.
+
+12.3 Pharmacokinetics
+
+Steady-state concentrations of venlafaxine and O-desmethylvenlafaxine (ODV) in plasma are attained within 3 days of oral multiple dose therapy. Venlafaxine and ODV exhibited linear kinetics over the dose range of 75 to 450 mg/day. The mean ± SD apparent elimination half-life for venlafaxine and ODV after administration of 75 mg venlafaxine hydrochloride extended-release tablets under fed conditions were 10.7±3.2 hours and 12.5±3 hours respectively. Venlafaxine and ODV are minimally bound at therapeutic concentrations to plasma proteins (27% and 30%, respectively).
+
+Absorption and Distribution
+
+Venlafaxine is well absorbed and extensively metabolized in the liver. ODV is the only major active metabolite. On the basis of mass balance studies, at least 92% of a single oral dose of venlafaxine is absorbed. The absolute bioavailability of venlafaxine is about 45%. Administration of 75 mg venlafaxine hydrochloride extended-release tablets under fed conditions resulted in mean ± SD venlafaxine Cmax of 26.9 ± 13.4 ng/mL and AUC of 1536.3 ± 496.8 ng∙hr/mL. Tmax was 6.3 ± 2.3 hours. ODV mean ± SD Cmax, AUC, Tmax after administration of 75 mg venlafaxine hydrochloride extended-release tablets under fed conditions were 97.9 ± 29.4 ng/mL, 2926 ± 746.1 ng∙hr/mL, and 11.6 ± 2.9 hours, respectively.
+ 
+Administration of venlafaxine hydrochloride extended-release capsules (150 mg q24 hours) generally resulted in lower Cmax (150 ng/mL for venlafaxine and 260 ng/mL for ODV) and later Tmax(5.5 hours for venlafaxine and 9 hours for ODV) than for immediate release venlafaxine tablets (Cmax's for immediate release 75 mg q12 hours were 225 ng/mL for venlafaxine and 290 ng/mL for ODV; Tmax's were 2 hours for venlafaxine and 3 hours for ODV). When equal daily doses of venlafaxine were administered as either an immediate-release tablet or the extended-release form of venlafaxine, the exposure to both venlafaxine and ODV would be similar for the two treatments. Venlafaxine hydrochloride extended-release tablets would, therefore, provide a slower rate of absorption, but the same extent of absorption compared with the immediate-release tablet.
+ 
+Food did not affect the pharmacokinetic parameters AUC, Cmax, and Tmax of venlafaxine or its active metabolite, ODV, after administration of venlafaxine hydrochloride extended-release tablets. Time of administration (AM vs PM) would not affect the pharmacokinetics of venlafaxine and ODV.
+ 
+Equal doses of venlafaxine hydrochloride extended-release tablets are bioequivalent to Effexor XR* capsules when administered under fed conditions.
+
+Metabolism and Excretion
+ 
+Following absorption, venlafaxine undergoes extensive presystemic metabolism in the liver, primarily to ODV, but also to N-desmethylvenlafaxine, N,O-didesmethylvenlafaxine, and other minor metabolites. In vitro studies indicate that the formation of ODV is catalyzed by CYP2D6; this has been confirmed in a clinical study showing that patients with low CYP2D6 levels ("poor metabolizers") had increased levels of venlafaxine and reduced levels of ODV compared to people with normal CYP2D6 ("extensive metabolizers"). The differences between the CYP2D6 poor and extensive metabolizers, however, are not expected to be clinically important because the sum of venlafaxine and ODV is similar in the two groups and venlafaxine and ODV are pharmacologically approximately equiactive and equipotent.
+ 
+Approximately 87% of a venlafaxine dose is recovered in the urine within 48 hours as unchanged venlafaxine (5%), unconjugated ODV (29%), conjugated ODV (26%), or other minor inactive metabolites (27%). Renal elimination of venlafaxine and its metabolites is thus the primary route of excretion.
+
+Special Populations
+
+Age and Gender: A population pharmacokinetic analysis of 404 venlafaxine-treated patients from two studies involving both b.i.d. and t.i.d. regimens showed that dose-normalized trough plasma levels of either venlafaxine or ODV were unaltered by age or gender differences. Dosage adjustment based on the age or gender of a patient is generally not necessary [see Dosage and Administration (2)].
+
+Extensive/Poor Metabolizers: Plasma concentrations of venlafaxine were higher in CYP2D6 poor metabolizers than extensive metabolizers. Because the total exposure (AUC) of venlafaxine and ODV was similar in poor and extensive metabolizer groups, however, there is no need for different venlafaxine dosing regimens for these two groups.
+
+Liver Disease: In 9 subjects with hepatic cirrhosis, the pharmacokinetic disposition of both venlafaxine and ODV was significantly altered after oral administration of venlafaxine. Venlafaxine elimination half-life was prolonged by about 30%, and clearance decreased by about 50% in cirrhotic subjects compared to normal subjects. ODV elimination half-life was prolonged by about 60%, and clearance decreased by about 30% in cirrhotic subjects compared to normal subjects. A large degree of intersubject variability was noted. Three patients with more severe cirrhosis had a more substantial decrease in venlafaxine clearance (about 90%) compared to normal subjects.
+ 
+In a second study, venlafaxine was administered orally and intravenously in normal (n = 21) subjects, and in Child-Pugh A (n = 8) and Child-Pugh B (n = 11) subjects (mildly and moderately impaired, respectively). Venlafaxine oral bioavailability was increased 2 to 3 fold, oral elimination half-life was approximately twice as long and oral clearance was reduced by more than half, compared to normal subjects. In hepatically impaired subjects, ODV oral elimination half-life was prolonged by about 40%, while oral clearance for ODV was similar to that for normal subjects. A large degree of intersubject variability was noted.
+ 
+Dosage adjustment is necessary in these hepatically impaired patients [see Dosage and Administration (2.3) and Use in Specific Populations (8.6)].
+
+Renal Disease: In a renal impairment study, venlafaxine elimination half-life after oral administration was prolonged by about 50% and clearance was reduced by about 24% in renally impaired patients (GFR=10 to 70 mL/min), compared to normal subjects. In dialysis patients, venlafaxine elimination half-life was prolonged by about 180% and clearance was reduced by about 57% compared to normal subjects. Similarly, ODV elimination half-life was prolonged by about 40% although clearance was unchanged in patients with renal impairment (GFR=10 to 70 mL/min) compared to normal subjects. In dialysis patients, ODV elimination half-life was prolonged by about 142% and clearance was reduced by about 56% compared to normal subjects. A large degree of intersubject variability was noted. Dosage adjustment is necessary in these patients [see Dosage and Administration (2.3) and Use in Specific Populations (8.7)].

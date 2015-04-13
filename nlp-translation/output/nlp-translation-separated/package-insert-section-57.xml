@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac57" origId="pac57">
+	<sentence id="DBMI.pac57.s0" origId="s0" text="Zonisamide single dose pharmacokinetic parameters were not affected by cimetidine (300 mg four times a day for 12 days).">
+		<entity charOffset="71-82" id="DBMI.pac57.s0.e0" origId="s0.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="0-11" id="DBMI.pac57.s0.e1" origId="s0.e1" text="Zonisamide " type="Active ingredient"/>
+		<pair e1="DBMI.pac57.s0.e0" e2="DBMI.pac57.s0.e1" id="DBMI.pac57.s0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="Zonisamide " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac57.s0.e1" e2="DBMI.pac57.s0.e0" id="DBMI.pac57.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac57.sp0" origId="sp0" text="Zonisamide single dose pharmacokinetic parameters were not affected by cimetidine (300 mg four times a day for 12 days).">
+		<entity charOffset="71-82" id="DBMI.pac57.sp0.e0" origId="sp0.e0" text="cimetidine " type="Active ingredient"/>
+		<entity charOffset="0-11" id="DBMI.pac57.sp0.e1" origId="sp0.e1" text="Zonisamide " type="Active ingredient"/>
+		<pair e1="DBMI.pac57.sp0.e0" e2="DBMI.pac57.sp0.e1" id="DBMI.pac57.sp0.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="Zonisamide " precipitant="cimetidine "/>
+		<pair e1="DBMI.pac57.sp0.e1" e2="DBMI.pac57.sp0.e0" id="DBMI.pac57.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

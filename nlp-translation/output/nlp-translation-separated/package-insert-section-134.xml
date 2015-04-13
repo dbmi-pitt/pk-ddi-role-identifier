@@ -1,0 +1,15 @@
+
+<document id="DBMI.pac134" origId="pac134">
+	<sentence id="DBMI.pac134.s0" origId="s0" text="Co-administration of chlorpromazine with propranolol resulted in a 70% increase in propranolol plasma level.">
+		<entity charOffset="21-36" id="DBMI.pac134.s0.e0" origId="s0.e0" text="chlorpromazine " type="Active ingredient"/>
+		<entity charOffset="41-53" id="DBMI.pac134.s0.e1" origId="s0.e1" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac134.s0.e0" e2="DBMI.pac134.s0.e1" id="DBMI.pac134.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propranolol " precipitant="chlorpromazine "/>
+		<pair e1="DBMI.pac134.s0.e1" e2="DBMI.pac134.s0.e0" id="DBMI.pac134.s0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentencespan id="DBMI.pac134.sp0" origId="sp0" text="Co-administration of chlorpromazine with propranolol resulted in a 70% increase in propranolol plasma level.">
+		<entity charOffset="21-36" id="DBMI.pac134.sp0.e0" origId="sp0.e0" text="chlorpromazine " type="Active ingredient"/>
+		<entity charOffset="41-53" id="DBMI.pac134.sp0.e1" origId="sp0.e1" text="propranolol " type="Active ingredient"/>
+		<pair e1="DBMI.pac134.sp0.e0" e2="DBMI.pac134.sp0.e1" id="DBMI.pac134.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="propranolol " precipitant="chlorpromazine "/>
+		<pair e1="DBMI.pac134.sp0.e1" e2="DBMI.pac134.sp0.e0" id="DBMI.pac134.sp0.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>

@@ -1,0 +1,26 @@
+
+<document id="DBMI.pac98" origId="pac98">
+	<sentence id="DBMI.pac98.s0" origId="s0" text=" The steady state plasma concentrations of imipramine and desipramine have been reported to be increased an average of 31% and 20%, respectively, by the concomitant administration of alprazolam tablets in doses up to 4 mg/day.">
+		<entity charOffset="183-194" id="DBMI.pac98.s0.e0" origId="s0.e0" text="alprazolam " type="Active ingredient"/>
+		<entity charOffset="43-54" id="DBMI.pac98.s0.e1" origId="s0.e1" text="imipramine " type="Active ingredient"/>
+		<entity charOffset="58-70" id="DBMI.pac98.s0.e2" origId="s0.e2" text="desipramine " type="Metabolite"/>
+		<pair e1="DBMI.pac98.s0.e0" e2="DBMI.pac98.s0.e1" id="DBMI.pac98.s0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="imipramine " precipitant="alprazolam "/>
+		<pair e1="DBMI.pac98.s0.e0" e2="DBMI.pac98.s0.e2" id="DBMI.pac98.s0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="desipramine " precipitant="alprazolam "/>
+		<pair e1="DBMI.pac98.s0.e1" e2="DBMI.pac98.s0.e0" id="DBMI.pac98.s0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac98.s0.e1" e2="DBMI.pac98.s0.e2" id="DBMI.pac98.s0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac98.s0.e2" e2="DBMI.pac98.s0.e0" id="DBMI.pac98.s0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac98.s0.e2" e2="DBMI.pac98.s0.e1" id="DBMI.pac98.s0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentence>
+	<sentence id="DBMI.pac98.s1" origId="s1" text="The clinical significance of these changes is unknown. "/>
+	<sentencespan id="DBMI.pac98.sp0" origId="sp0" text=" The steady state plasma concentrations of imipramine and desipramine have been reported to be increased an average of 31% and 20%, respectively, by the concomitant administration of alprazolam tablets in doses up to 4 mg/day. The clinical significance of these changes is unknown. ">
+		<entity charOffset="183-194" id="DBMI.pac98.sp0.e0" origId="sp0.e0" text="alprazolam " type="Active ingredient"/>
+		<entity charOffset="43-54" id="DBMI.pac98.sp0.e1" origId="sp0.e1" text="imipramine " type="Active ingredient"/>
+		<entity charOffset="58-70" id="DBMI.pac98.sp0.e2" origId="sp0.e2" text="desipramine " type="Metabolite"/>
+		<pair e1="DBMI.pac98.sp0.e0" e2="DBMI.pac98.sp0.e1" id="DBMI.pac98.sp0.p0" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="imipramine " precipitant="alprazolam "/>
+		<pair e1="DBMI.pac98.sp0.e0" e2="DBMI.pac98.sp0.e2" id="DBMI.pac98.sp0.p1" interaction="true" interactionPhraseType="Quantitative" modality="Positive" object="desipramine " precipitant="alprazolam "/>
+		<pair e1="DBMI.pac98.sp0.e1" e2="DBMI.pac98.sp0.e0" id="DBMI.pac98.sp0.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac98.sp0.e1" e2="DBMI.pac98.sp0.e2" id="DBMI.pac98.sp0.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac98.sp0.e2" e2="DBMI.pac98.sp0.e0" id="DBMI.pac98.sp0.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac98.sp0.e2" e2="DBMI.pac98.sp0.e1" id="DBMI.pac98.sp0.p5" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+	</sentencespan>
+</document>
