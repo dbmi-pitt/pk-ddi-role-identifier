@@ -2875,12 +2875,7 @@
 		<pair e1="DBMI.pac170.s12.e0" e2="DBMI.pac170.s12.e1" id="DBMI.pac170.s12.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="lithium " precipitant="AVALIDE "/>
 		<pair e1="DBMI.pac170.s12.e1" e2="DBMI.pac170.s12.e0" id="DBMI.pac170.s12.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
 	</sentence>
-	<sentence id="DBMI.pac170.s13" origId="s13" text="[See Warnings and Precautions (5.5).]">
-		<entity charOffset="1403-1411" id="DBMI.pac170.s13.e0" origId="s13.e0" text="AVALIDE " type="Drug product"/>
-		<entity charOffset="1264-1272" id="DBMI.pac170.s13.e1" origId="s13.e1" text="lithium " type="Active ingredient"/>
-		<pair e1="DBMI.pac170.s13.e0" e2="DBMI.pac170.s13.e1" id="DBMI.pac170.s13.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="lithium " precipitant="AVALIDE "/>
-		<pair e1="DBMI.pac170.s13.e1" e2="DBMI.pac170.s13.e0" id="DBMI.pac170.s13.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
-	</sentence>
+	<sentence id="DBMI.pac170.s13" origId="s13" text="[See Warnings and Precautions (5.5).]"/>
 	<sentence id="DBMI.pac170.s14" origId="s14" text="Non-steroidal Anti-inflammatory Drugs: in some patients, the administration of a non-steroidal anti-inflammatory agent can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing and thiazide diuretics."/>
 	<sentence id="DBMI.pac170.s15" origId="s15" text="Therefore, when AVALIDE (irbesartan-hydrochlorothiazide) Tablets and non-steroidal anti-inflammatory agents are used concomitantly, the patient should be observed closely to determine if the desired effect of the diuretic is obtained."/>
 	<sentencespan id="DBMI.pac170.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\nIrbesartan\n\nNo significant drug-drug interactions have been reported with irbesartan. [See Clinical Pharmacology (12.3).] Hydrochlorothiazide\n\nWhen administered concurrently the following drugs may interact with thiazide diuretics:\n\nAlcohol, Barbiturates, or Narcotics: potentiation of orthostatic hypotension may occur."/>
@@ -2997,8 +2992,13 @@
 	<sentence id="DBMI.pac171.s67" origId="s67" text="The pharmacokinetics of irbesartan were not affected by coadministration of nifedipine or hydrochlorothiazide.">
 		<entity charOffset="9177-9188" id="DBMI.pac171.s67.e0" origId="s67.e0" text="nifedipine " type="Active ingredient"/>
 		<entity charOffset="9125-9136" id="DBMI.pac171.s67.e1" origId="s67.e1" text="irbesartan " type="Active ingredient"/>
+		<entity charOffset="9191-9210" id="DBMI.pac171.s67.e2" origId="s67.e2" text="hydrochlorothiazide " type="Active ingredient"/>
 		<pair e1="DBMI.pac171.s67.e0" e2="DBMI.pac171.s67.e1" id="DBMI.pac171.s67.p0" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="irbesartan " precipitant="nifedipine "/>
-		<pair e1="DBMI.pac171.s67.e1" e2="DBMI.pac171.s67.e0" id="DBMI.pac171.s67.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac171.s67.e0" e2="DBMI.pac171.s67.e2" id="DBMI.pac171.s67.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac171.s67.e1" e2="DBMI.pac171.s67.e0" id="DBMI.pac171.s67.p2" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac171.s67.e1" e2="DBMI.pac171.s67.e2" id="DBMI.pac171.s67.p3" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac171.s67.e2" e2="DBMI.pac171.s67.e0" id="DBMI.pac171.s67.p4" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
+		<pair e1="DBMI.pac171.s67.e2" e2="DBMI.pac171.s67.e1" id="DBMI.pac171.s67.p5" interaction="true" interactionPhraseType="Qualitative" modality="Negative" object="irbesartan " precipitant="hydrochlorothiazide "/>
 	</sentence>
 	<sentencespan id="DBMI.pac171.sp0" origId="sp0" text="12 CLINICAL PHARMACOLOGY\n\n12.1 Mechanism of Action\n\nIrbesartan\n\nAngiotensin II is a potent vasoconstrictor formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the RAS and also stimulates aldosterone synthesis and secretion by adrenal cortex, cardiac contraction, renal resorption of sodium, activity of the sympathetic nervous system, and smooth muscle cell growth. Irbesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively binding to the AT1 angiotensin II receptor."/>
 	<sentencespan id="DBMI.pac171.sp1" origId="sp1" text="There is also an AT2 receptor in many tissues, but it is not involved in cardiovascular homeostasis. Irbesartan is a specific competitive antagonist of AT1 receptors with a much greater affinity (more than 8500-fold) for the AT1 receptor than for the AT2 receptor, and no agonist activity. Blockade of the AT1 receptor removes the negative feedback of angiotensin II on renin secretion, but the resulting increased plasma renin activity and circulating angiotensin II do not overcome the effects of irbesartan on blood pressure."/>
