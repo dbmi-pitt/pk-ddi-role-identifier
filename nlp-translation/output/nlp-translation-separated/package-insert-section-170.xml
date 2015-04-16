@@ -28,12 +28,7 @@
 		<pair e1="DBMI.pac170.s12.e0" e2="DBMI.pac170.s12.e1" id="DBMI.pac170.s12.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="lithium " precipitant="AVALIDE "/>
 		<pair e1="DBMI.pac170.s12.e1" e2="DBMI.pac170.s12.e0" id="DBMI.pac170.s12.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
 	</sentence>
-	<sentence id="DBMI.pac170.s13" origId="s13" text="[See Warnings and Precautions (5.5).]">
-		<entity charOffset="1403-1411" id="DBMI.pac170.s13.e0" origId="s13.e0" text="AVALIDE " type="Drug product"/>
-		<entity charOffset="1264-1272" id="DBMI.pac170.s13.e1" origId="s13.e1" text="lithium " type="Active ingredient"/>
-		<pair e1="DBMI.pac170.s13.e0" e2="DBMI.pac170.s13.e1" id="DBMI.pac170.s13.p0" interaction="true" interactionPhraseType="Qualitative" modality="Positive" object="lithium " precipitant="AVALIDE "/>
-		<pair e1="DBMI.pac170.s13.e1" e2="DBMI.pac170.s13.e0" id="DBMI.pac170.s13.p1" interaction="false" interactionPhraseType="" modality="" object="" precipitant=""/>
-	</sentence>
+	<sentence id="DBMI.pac170.s13" origId="s13" text="[See Warnings and Precautions (5.5).]"/>
 	<sentence id="DBMI.pac170.s14" origId="s14" text="Non-steroidal Anti-inflammatory Drugs: in some patients, the administration of a non-steroidal anti-inflammatory agent can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing and thiazide diuretics."/>
 	<sentence id="DBMI.pac170.s15" origId="s15" text="Therefore, when AVALIDE (irbesartan-hydrochlorothiazide) Tablets and non-steroidal anti-inflammatory agents are used concomitantly, the patient should be observed closely to determine if the desired effect of the diuretic is obtained."/>
 	<sentencespan id="DBMI.pac170.sp0" origId="sp0" text="7 DRUG INTERACTIONS\n\nIrbesartan\n\nNo significant drug-drug interactions have been reported with irbesartan. [See Clinical Pharmacology (12.3).] Hydrochlorothiazide\n\nWhen administered concurrently the following drugs may interact with thiazide diuretics:\n\nAlcohol, Barbiturates, or Narcotics: potentiation of orthostatic hypotension may occur."/>
